@@ -2,9 +2,9 @@ import GAnalytics from 'ganalytics';
 import App from './components/App.svelte';
 
 new App({
-	target: document.body
+  target: document.body
 });
 
 if (process.env.NODE_ENV === 'production') {
-	window.ga = new GAnalytics('UA-XXXXXXXX-X');
+  window.ga = new GAnalytics('UA-157166080-1');
 }
