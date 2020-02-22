@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "ganalytics": "^3.1.2",
-    "navaid": "^1.0.2"
+    "navaid": "^1.0.2",
+    "svelte-tablesort": "^1.1.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",

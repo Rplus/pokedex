@@ -1,0 +1,22 @@
+<script>
+  export let title;
+  export let subtitle;
+</script>
+
+
+
+
+<ruby>
+  {title}
+  <rt>{subtitle}</rt>
+</ruby>
+
+
+
+<style>
+  rt {
+    opacity: .3;
+    font-family: monospace;
+    font-size: var(--subtitle-font-size, smaller);
+  }
+</style>

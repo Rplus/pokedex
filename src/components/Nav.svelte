@@ -1,8 +1,9 @@
 <nav>
   <ul>
     <li><a class="{ isActive('home') }" href="/">home</a></li>
+    <li><a class="{ isActive('move') }" href="/move">move</a></li>
+    <li><a class="{ isActive('pokemon') }" href="/pokemon">pokemon</a></li>
     <li><a class="{ isActive('about') }" href="/about">about</a></li>
-    <li><a class="{ isActive('blog') }" href="/blog">blog</a></li>
   </ul>
 </nav>
 

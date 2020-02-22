@@ -6,11 +6,15 @@
 
 <script>
   import Navaid from 'navaid';
-  import About from '../routes/About.svelte';
-  import Home from '../routes/Home.svelte';
+  import About from '../routes/About.html';
+  import Home from '../routes/Home.html';
+  import Move from '../routes/Move.html';
+  import Pokemon from '../routes/Pokemon.html';
+  import Type from '../routes/Type.html';
 
   import { onDestroy } from 'svelte';
   import Nav from './Nav.svelte';
+  import '../stores.js';
 
   let Route, params, active;
   let uri = location.pathname;
@@ -32,7 +36,9 @@
 
   const router = Navaid('/', () => draw(Home))
     .on('/', () => draw(Home))
-    .on('/about', () => draw(About))
+    // .on('/about', () => draw(About))
+    .on('/move', () => draw(Move))
+    .on('/pokemon', () => draw(Pokemon))
     .listen();
 
   onDestroy(router.unlisten);

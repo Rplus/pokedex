@@ -1,0 +1,107 @@
+<script>
+
+import { TableSort } from 'svelte-tablesort';
+import { moves } from '../stores.js';
+import { copy } from '../u.js';
+
+import Ruby from '../components/Ruby.html';
+
+let _moves;
+$: {
+  _moves = moveHandle($moves);
+};
+</script>
+
+<script context="module">
+function moveHandle(moves) {
+  return moves.reduce((all, m) => {
+    all[m.isFast ? 'fast' : 'charge'].push(m);
+    return all;
+  }, {
+    fast: [],
+    charge: [],
+  });
+}
+</script>
+
+
+
+
+<!--  -->
+
+
+<svelte:head>
+  <title>Move</title>
+</svelte:head>
+
+<section class="card">
+
+  <details>
+    <summary>
+  <h2>Fast</h2>
+    </summary>
+
+
+  <TableSort items={_moves.fast}>
+    <tr slot="thead">
+      <th data-sort="name">Name</th>
+      <th data-sort="moveId">ID</th>
+      <th data-sort="type">Type</th>
+      <th data-sort="power">D</th>
+      <th data-sort="energyGain">E</th>
+      <th data-sort="turn">T</th>
+      <th data-sort="dpt">DPT</th>
+      <th data-sort="ept">EPT</th>
+      <th data-sort="eptxdpt" title="EPT x DPT">Π</th>
+    </tr>
+    <tr slot="tbody" let:item={item}>
+      <td>{item.name}</td>
+      <td class="ff-m">{item.moveId}</td>
+      <td>{item.type}</td>
+      <td>{item.power}</td>
+      <td>{item.energyGain}</td>
+      <td>{item.turn}</td>
+      <td>{item.dpt}</td>
+      <td>{item.ept}</td>
+      <td>{item.eptxdpt}</td>
+    </tr>
+  </TableSort>
+  </details>
+
+  <details open>
+    <summary><h2>Charge</h2></summary>
+
+  <TableSort items={_moves.charge}>
+    <tr slot="thead">
+      <th data-sort="name">Name</th>
+      <th data-sort="moveId">ID</th>
+      <th data-sort="type">Type</th>
+      <th data-sort="power">D</th>
+      <th data-sort="energy">E</th>
+      <th data-sort="dpe">DPE</th>
+      <th data-sort="buffsDes">Effect</th>
+    </tr>
+    <tr slot="tbody" let:item={item}>
+      <td>{item.name}</td>
+      <td class="ff-m">{item.moveId}</td>
+      <td>{item.type}</td>
+      <td>{item.power}</td>
+      <td>{item.energy}</td>
+      <td>{item.dpe}</td>
+      <td class="ff-m">{item.buffsDes}</td>
+    </tr>
+  </TableSort>
+  </details>
+
+</section>
+
+
+
+<!--  -->
+
+
+<style>
+  h2 {
+    all: unset;
+  }
+</style>
