@@ -1,5 +1,5 @@
 deploy: copy-assets build
-	sh ./task/deploy.sh
+	sh deploy.sh
 
 build:
 	npm run build;

@@ -6,7 +6,7 @@ set -e
 # build
 
 # navigate into the build output directory
-cd '../public'
+cd './public'
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
