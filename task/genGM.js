@@ -1,6 +1,6 @@
 const fs = require('fs');
-const https = require('https');
-const gmUrl = `https://pvpoketw.com/data/gamemaster.json?${+new Date()}`;
+// const https = require('https');
+// const gmUrl = `https://pvpoketw.com/data/gamemaster.json?${+new Date()}`;
 
 const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
   let fileContent = JSON.stringify(json, null, jsonSpace);
@@ -8,21 +8,18 @@ const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
   console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
 };
 
-// https://dev.to/isalevine/three-ways-to-retrieve-json-from-the-web-using-node-js-3c88
-https.get(gmUrl, (res) => {
-  let body = '';
+let contents = fs.readFileSync('./tmp/gamemaster.json', 'utf8');
 
-  res.on('data', (chunk) => {
-    body += chunk;
-  });
+handleJSON(JSON.parse(contents));
 
-  res.on('end', () => {
-    try {
-      let json = JSON.parse(body);
+function handleJSON(json) {
       let { pokemon, moves, shadowPokemon } = json;
 
       pokemon.forEach(pm => {
-        pm.baseStats.sta = pm.baseStats.hp;
+        pm._atk = pm.baseStats.atk;
+        pm._def = pm.baseStats.def;
+        pm._sta = pm.baseStats.hp;
+
         pm.name = pm.speciesName;
         pm.id = pm.speciesId;
         pm.types = pm.types.filter(t => t !== 'none');
@@ -36,7 +33,7 @@ https.get(gmUrl, (res) => {
         delete pm.speciesName;
         delete pm.defaultIVs;
         delete pm.level25CP;
-        delete pm.baseStats.hp;
+        delete pm.baseStats;
 
         ['fastMoves', 'legacyMoves'].forEach(type => {
           if (pm[type] && pm[type].indexOf('HIDDEN_POWER_BUG') !== -1) {
@@ -89,12 +86,4 @@ https.get(gmUrl, (res) => {
         pokemon,
         moves,
       }, './assets/gm.src.json');
-
-    } catch (error) {
-      console.error(error.message);
-    };
-  });
-
-}).on('error', (error) => {
-  console.error(error.message);
-});
+}

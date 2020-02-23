@@ -11,3 +11,6 @@ insert_final_newline = true
 
 [*.{json,yml,md}]
 indent_style = space
+
+[makefile]
+indent_style = tab
