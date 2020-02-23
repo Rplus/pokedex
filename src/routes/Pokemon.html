@@ -1,4 +1,21 @@
 <script>
+import { TableSort } from 'svelte-tablesort';
+import { pokemons } from '../stores.js';
+import { copy } from '../u.js';
+
+import Ruby from '../components/Ruby.html';
+
+let _pokemons;
+$: {
+  _pokemons = moveHandle($pokemons);
+  console.log(_pokemons);
+};
+</script>
+
+<script context="module">
+function moveHandle(pokemons) {
+  return [...pokemons];
+}
 </script>
 
 
@@ -8,6 +25,32 @@
 <svelte:head>
   <title>Pokemon</title>
 </svelte:head>
+
+<section class="card">
+  <TableSort items={_pokemons}>
+    <tr slot="thead">
+      <th data-sort="dex" data-sort-initial>Dex</th>
+      <th data-sort="name">Name</th>
+      <th data-sort="types">Types</th>
+      <th data-sort="maxcp">CP</th>
+      <th data-sort="maxhp">HP</th>
+      <th data-sort="_atk">Atk</th>
+      <th data-sort="_def">Def</th>
+      <th data-sort="_sta">Sta</th>
+    </tr>
+    <tr slot="tbody" let:item={item}>
+      <td>{item.dex}</td>
+      <td title={item.uid}>{item.name}</td>
+      <td>{item.types}</td>
+      <td>{item.maxcp}</td>
+      <td>{item.maxhp}</td>
+      <td>{item._atk}</td>
+      <td>{item._def}</td>
+      <td>{item._sta}</td>
+    </tr>
+  </TableSort>
+</section>
+
 
 
 <!--  -->
