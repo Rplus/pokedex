@@ -1,0 +1,195 @@
+<script>
+import Details from '@c/Details.html';
+import { TableSort } from 'svelte-tablesort';
+
+import { fixNum, copy } from '@/u.js';
+export let mdata;
+
+let pairs;
+
+let o_ths = [
+  {
+    title: 't',
+    value: 'turns',
+    intro: '回合',
+  },
+  {
+    title: 'H',
+    value: 'hits',
+    intro: '小招攻擊次數',
+  },
+  // {
+  //   title: 'ΣDf',
+  //   value: 'dmg_f',
+  //   intro: '小招累積傷害',
+  // },
+  {
+    title: 'ΣD',
+    value: 'dmg_t',
+    intro: '循環傷害 (+STAB)',
+  },
+  {
+    title: 'DPT',
+    value: 'dpt',
+    intro: '回合均傷 (+STAB)',
+  },
+  {
+    // title: 'f.name',
+    title: '小招',
+  },
+  {
+    // title: 'c.name',
+    title: '大招',
+  },
+];
+let ths;
+
+$: {
+  mdata;
+  genPairs();
+}
+
+function genPairs() {
+  pairs = [];
+  for (let f of mdata[0].data) {
+    for (let c of mdata[1].data) {
+      let hits = Math.ceil(c.energy / f.energyGain);
+      let turns = hits * f.turn;
+      let dmg_f = f.power * hits * f.stabFactor;
+      let dmg_t = dmg_f + c.power * c.stabFactor;
+      let dpt = fixNum(dmg_t / turns);
+
+      pairs = pairs.concat({
+        f,
+        c,
+        turns,
+        hits,
+        dmg_f,
+        dmg_t,
+        dpt,
+      });
+    }
+  }
+};
+
+</script>
+
+
+<section class="card">
+  <Details type="pairs">
+    <summary><h2 class="d-ib">Move Pairs</h2></summary>
+
+    <div class="text-mono">
+      <TableSort items={pairs}>
+        <tr slot="thead">
+          <th data-sort="turns" data-sort-initial>T</th>
+          <th data-sort="hits">H</th>
+          <th data-sort="dmg_t">ΣD</th>
+          <th data-sort="dpt">DPT</th>
+          <th>小招</th>
+          <th>大招</th>
+        </tr>
+
+        <tr slot="tbody" let:item={item}>
+          <td>{item.turns}</td>
+          <td>{item.hits}</td>
+          <td>{item.dmg_t}</td>
+          <td>{item.dpt}</td>
+          <td>{item.f.name}</td>
+          <td>{item.c.name}</td>
+        </tr>
+      </TableSort>
+    </div>
+  </Details>
+</section>
+
+
+
+<style>
+.move-pairs {
+  display: table;
+  margin-left: 2vmin;
+  text-align: right;
+}
+
+.tr {
+  display: table-row;
+}
+
+.tr:not(.thead):hover {
+  background-color: var(--color-7);
+}
+
+.tr:nth-of-type(3n + 1) .td {
+  border-bottom: 1px solid var(--color-6);
+}
+.th {
+  font-family: monospace;
+  text-transform: capitalize;
+  color: #aaa;
+}
+
+.thead .th {
+  border-bottom: 1px solid var(--color-4);
+}
+
+.sort-th {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+.sort-ind {
+  position: relative;
+}
+
+.sort-ind[data-order]::before {
+  content: attr(data-order) attr(data-dir);
+  position: absolute;
+  top: -.5em;
+  left: -1.7em;
+  padding: 0 .2em;
+  line-height: 1.3;
+  transform: scale(.85);
+  font-size: 10px;
+  font-family: serif;
+  box-shadow: inset 0 0 0 1px var(--sort-label-border, #ddf);
+  color: var(--sort-label, #99f);
+  letter-spacing: -1px;
+}
+
+.td {
+  display: table-cell;
+  width: var(--td-w, 2em);
+  padding: .2em var(--td-px, calc(.4em + 1vw));
+}
+
+.td:nth-of-type(-n + 2) {
+  --td-w: 1em;
+}
+
+.td.mname {
+  --td-w: fit-content;
+  /* --td-px: 3vw; */
+  text-align: left;
+}
+
+:global(.decimal) {
+  color: #999;
+  font-size: smaller;
+}
+
+@media (max-width: 450px) {
+  .td {
+    --td-px: .5em;
+    font-size: smaller;
+  }
+}
+
+.tfoot .th {
+  white-space: normal;
+  border-top: 1px solid var(--color-5);
+  padding: .5em 0 0;
+  text-align: center;
+}
+
+</style>

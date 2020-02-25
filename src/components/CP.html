@@ -1,0 +1,53 @@
+<script>
+import { calPmCPHP } from '../u.js';
+import Details from '@c/Details.html';
+import CustomCP from '@c/Custom-CP.html';
+
+export let ads;
+const lvs = [8, 13, 15, 20, 25, 30, 35, 40, 41];
+
+$: cps = getCPs(ads);
+
+function getCPs(ads) {
+  let cps = lvs.map(lv => {
+    return {
+      lv,
+      maxcp: calPmCPHP(ads, [15, 15, 15, lv]).cp,
+      mincp: calPmCPHP(ads, [0, 0, 0, lv]).cp,
+    };
+  });
+  return cps;
+}
+
+</script>
+
+
+
+<section class="card text-mono">
+  <Details type="cptable">
+    <summary>CP table</summary>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th><sup>Lv</sup>/<sub>CP</sub></th>
+            <th title="15-15-15">MAX</th>
+            <th title="0-0-0">MIN</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each cps as cp}
+            <tr>
+              <td>{cp.lv}</td>
+              <td>{cp.maxcp}</td>
+              <td>{cp.mincp}</td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+
+      <CustomCP ads={ads} />
+    </div>
+  </Details>
+
+</section>

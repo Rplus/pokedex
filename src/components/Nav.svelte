@@ -3,6 +3,7 @@
     <li><a class="{ isActive('home') }" href="/">home</a></li>
     <li><a class="{ isActive('move') }" href="/move">move</a></li>
     <li><a class="{ isActive('pokemon') }" href="/pokemon">pokemon</a></li>
+    <li><a class="{ isActive('info') }" href="/info">info</a></li>
     <li><a class="{ isActive('about') }" href="/about">about</a></li>
   </ul>
 </nav>

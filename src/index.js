@@ -6,5 +6,5 @@ new App({
 });
 
 if (process.env.NODE_ENV === 'production') {
-  window.ga = new GAnalytics('UA-157166080-1');
+  // window.ga = new GAnalytics('UA-157166080-1');
 }

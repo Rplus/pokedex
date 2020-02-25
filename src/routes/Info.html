@@ -1,0 +1,31 @@
+<script>
+import { CPM } from '../u.js';
+
+let _cpm = Object.keys(CPM)
+  .map(lv => ({ lv: lv, m: CPM[lv] }))
+  .sort((a, b) => a.lv - b.lv);
+
+</script>
+
+
+
+<section class="card">
+
+  <details>
+    <summary>
+      <h2>level multiplier (CPm)</h2>
+    </summary>
+    <main>
+      <table class="text-mono">
+        {#each _cpm as item}
+        <tr>
+          <td>{item.lv}</td>
+          <td>{item.m}</td>
+        </tr>
+        {/each}
+      </table>
+    </main>
+
+  </details>
+
+</section>

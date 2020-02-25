@@ -1,0 +1,48 @@
+<script>
+export let params = {};
+import { pokemons } from '@/stores.js';
+import CP from '@c/CP.html';
+import Moveset from '@c/Moveset.html';
+import TypeFactor from '@c/TypeFactor.html';
+
+let pm;
+let ads;
+
+$: {
+  if ($pokemons.length) {
+    pm = $pokemons.find(pm => pm.uid === params.uid);
+    ads = {
+      atk: pm._atk,
+      def: pm._def,
+      sta: pm._sta,
+    };
+  }
+}
+
+
+</script>
+
+
+<svelte:head>
+  <title>Pokemon {pm && pm.name || ''}</title>
+</svelte:head>
+
+{#if pm}
+  <section class="card">
+    {pm.name}
+    <CP ads={ads} />
+
+    <TypeFactor types={pm.types} />
+
+    <Moveset pm={pm} />
+
+    <pre>
+      {JSON.stringify(pm, null, 2)}
+    </pre>
+  </section>
+{/if}
+
+
+
+<style>
+</style>

@@ -1,6 +1,7 @@
 import svelte from 'rollup-plugin-svelte';
 import replace from '@rollup/plugin-replace';
 import resolve from '@rollup/plugin-node-resolve';
+import alias from '@rollup/plugin-alias';
 import autoPreprocess from 'svelte-preprocess';
 import livereload from 'rollup-plugin-livereload';
 import commonjs from '@rollup/plugin-commonjs';
@@ -40,6 +41,13 @@ export default {
     // consult the documentation for details:
     // https://github.com/rollup/rollup-plugin-commonjs
     resolve(),
+    alias({
+      entries: [
+        { find: '@c', replacement: './src/components' },
+        { find: '@r', replacement: './src/routes' },
+        { find: '@', replacement: './src' },
+      ],
+    }),
     commonjs(),
 
     !production && livereload('public'),

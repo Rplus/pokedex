@@ -1,0 +1,77 @@
+<script>
+import Details from '@c/Details.html';
+import { calPmCPHP } from '../u.js';
+export let ads;
+
+let customeInputs = [
+  {
+    title: 'A',
+    min: 0,
+    max: 15,
+    step: 1,
+    value: 15,
+  },
+  {
+    title: 'D',
+    min: 0,
+    max: 15,
+    step: 1,
+    value: 15,
+  },
+  {
+    title: 'S',
+    min: 0,
+    max: 15,
+    step: 1,
+    value: 15,
+  },
+  {
+    title: 'Lv',
+    min: 1,
+    max: 41,
+    step: .5,
+    value: 20,
+  },
+];
+$: calcResult = calPmCPHP(ads, customeInputs.map(i => i.value));
+
+</script>
+
+
+<Details type="customcp">
+  <summary class="custom-summary">Custom IV & Lv</summary>
+  <div>
+    <table class="custom-cp text-center">
+      <colgroup>
+        <col />
+        <col width="70" align="center" />
+        <col />
+      </colgroup>
+
+      {#each customeInputs as input}
+        <tr>
+          <td>
+            <label for="c_{input.title}">
+              {input.title}
+            </label>
+          </td>
+          <td>
+            <input type="number" class="w-100" max={input.max} min={input.min} step={input.step} bind:value={input.value} id="c_{input.title}">
+          </td>
+          <td>
+            <input type="range" max={input.max} min={input.min} step={input.step} bind:value={input.value}>
+          </td>
+        </tr>
+      {/each}
+
+      <tr>
+        <td>CP</td>
+        <td>
+          CP: {calcResult.cp}
+          HP: {calcResult.hp}
+        </td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+</Details>

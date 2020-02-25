@@ -1,0 +1,153 @@
+<script>
+import { TableSort } from 'svelte-tablesort';
+
+import { moves, pokemons } from '@/stores.js';
+
+import TypeFactor from '@c/TypeFactor.html';
+import Details from '@c/Details.html';
+
+export let params = {};
+
+let move;
+let pms;
+const mt = ['fastMoves', 'chargedMoves', 'legacyMoves'];
+
+$: {
+  if ($moves.length) {
+    move = $moves.find(pm => pm.moveId === params.moveId);
+
+    console.log(move);
+    pms = $pokemons
+    .filter(pm => {
+      return mt.some(t => pm[t] && pm[t].includes(params.moveId));
+    })
+    .map(pm => {
+      return {
+        dex: pm.dex,
+        uid: pm.uid,
+        name: pm.name,
+        maxcp: pm.maxcp,
+        atk: pm._atk,
+        stab: pm.types.includes(move.type)
+      }
+    });
+  }
+}
+
+</script>
+
+
+
+<svelte:head>
+  <title>Move: {move && move.name || ''}</title>
+</svelte:head>
+
+{#if move}
+  <section class="card text-mono">
+
+    <section class="card">
+      <table>
+        <tr>
+          <td>name</td>
+          <td>{move.name}</td>
+        </tr>
+
+        <tr>
+          <td>moveId</td>
+          <td>{move.moveId}</td>
+        </tr>
+
+        <tr>
+          <td>type</td>
+          <td>{move.type}</td>
+        </tr>
+
+        <tr>
+          <td>power</td>
+          <td>{move.power}</td>
+        </tr>
+
+        {#if move.isFast}
+
+          <tr>
+            <td>energyGain</td>
+            <td>{move.energyGain}</td>
+          </tr>
+
+          <tr>
+            <td>turn</td>
+            <td>{move.turn}</td>
+          </tr>
+
+          <tr>
+            <td>ept</td>
+            <td>{move.ept}</td>
+          </tr>
+
+          <tr>
+            <td>dpt</td>
+            <td>{move.dpt}</td>
+          </tr>
+
+          <tr>
+            <td>eptxdpt</td>
+            <td>{move.eptxdpt}</td>
+          </tr>
+
+        {:else}
+
+          <tr>
+            <td>energy</td>
+            <td>{move.energy}</td>
+          </tr>
+
+          <tr>
+            <td>dpe</td>
+            <td>{move.dpe}</td>
+          </tr>
+
+          {#if move.buffsDes}
+            <tr>
+              <td>effect</td>
+              <td>{move.buffsDes}</td>
+            </tr>
+          {/if}
+
+        {/if}
+      </table>
+
+    </section>
+
+    <TypeFactor types={[move.type]} role="⚔️" />
+
+
+    <Details type="samemove">
+      <summary><h2>Pokemon with this Move</h2></summary>
+      <TableSort items={pms}>
+        <tr slot="thead">
+          <th data-sort="dex" data-sort-initial>Dex</th>
+          <th data-sort="name">Name</th>
+          <th data-sort="atk">Atk</th>
+          <th data-sort="maxcp">CP</th>
+        </tr>
+        <tr slot="tbody" let:item={item}>
+          <td>{item.dex}</td>
+          <td><a href="./pokemon/{item.uid}">{item.name}</a></td>
+          <td>{item.atk}</td>
+          <td>{item.maxcp}</td>
+        </tr>
+      </TableSort>
+    </Details>
+
+    <!--
+    <pre>
+      {JSON.stringify(move, null, 2)}
+    </pre>
+    -->
+  </section>
+{/if}
+
+
+
+<style>
+</style>

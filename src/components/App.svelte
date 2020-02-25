@@ -8,9 +8,11 @@
   import Navaid from 'navaid';
   import About from '../routes/About.html';
   import Home from '../routes/Home.html';
-  import Move from '../routes/Move.html';
-  import Pokemon from '../routes/Pokemon.html';
-  import Type from '../routes/Type.html';
+  import MoveList from '../routes/MoveList.html';
+  import PokemonList from '../routes/PokemonList.html';
+  import MovePage from '../routes/MovePage.html';
+  import PokemonPage from '../routes/PokemonPage.html';
+  import Info from '../routes/Info.html';
 
   import { onDestroy } from 'svelte';
   import Nav from './Nav.svelte';
@@ -34,12 +36,16 @@
   addEventListener('pushstate', track);
   addEventListener('popstate', track);
 
-  const router = Navaid('/', () => draw(Home))
+  export const router = Navaid('/', () => draw(Home))
     .on('/', () => draw(Home))
     // .on('/about', () => draw(About))
-    .on('/move', () => draw(Move))
-    .on('/pokemon', () => draw(Pokemon))
+    .on('/move', () => draw(MoveList))
+    .on('/move/:moveId', obj => draw(MovePage, obj))
+    .on('/pokemon', () => draw(PokemonList))
+    .on('/pokemon/:uid', obj => draw(PokemonPage, obj))
+    .on('/info', () => draw(Info))
     .listen();
+
 
   onDestroy(router.unlisten);
 </script>

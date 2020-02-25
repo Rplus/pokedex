@@ -1,0 +1,15 @@
+<script>
+import { settings } from '@/stores.js';
+
+export let type;
+
+function toggle(e) {
+  $settings.details[type] = e.target.open;
+}
+</script>
+
+
+
+<details open={$settings.details[type] || null} on:toggle={toggle}>
+  <slot />
+</details>

@@ -1,0 +1,87 @@
+<script>
+import Details from '@c/Details.html';
+import TypeIcon from './TypeIcon.html';
+import { fixNum } from '@/u.js';
+import { eff } from '@/stores.js';
+
+export let types = [];
+export let role = '🛡️';
+
+const o_types = $eff.map(t => t.type);
+let renderTypeFactor = [];
+
+$: {
+  let effTable = o_types.reduce((all, t) => {
+    all[t] = 0;
+    return all;
+  }, {});
+
+  types.forEach(type => {
+    let targetEffs = $eff.find(e => e.type === type).effs;
+    let queryEffs;
+
+    if (role === '🛡️') {
+      queryEffs = targetEffs[2].concat(targetEffs[3]);
+    } else {
+      queryEffs = targetEffs[0].concat(targetEffs[1]);
+    }
+
+    queryEffs.forEach(t => {
+      effTable[t.type] += t.factor;
+    });
+  });
+
+  renderTypeFactor = Object.values(effTable).reduce((all, i, index) => {
+    if (!i) { return all; }
+    if (!all[i]) {
+      all[i] = [];
+    }
+    all[i].push(o_types[index]);
+    return all;
+  }, {});
+  renderTypeFactor = Object.keys(renderTypeFactor).map(i => [i, renderTypeFactor[i]]);
+}
+
+function getFactorText(factor) {
+  return fixNum(Math.pow(8 / 5, factor));
+}
+
+</script>
+
+
+
+<div class="card">
+  <Details type="types-{role}">
+    <summary><h2>各屬性招式傷害係數({role})</h2></summary>
+    <div class="df fd-rr fwx-w jc-se">
+      {#each renderTypeFactor as factor}
+        <div class="types-factor d-if fwx-w mb-5 pb-1"
+          data-factor="{factor[0]}"
+          style="order: {factor[0]}; --factor: 'x{getFactorText(factor[0])}'"
+        >
+          {#each factor[1] as type}
+            <TypeIcon klass="mr-1" type={type} />
+          {/each}
+        </div>
+      {/each}
+    </div>
+  </Details>
+</div>
+
+
+
+<style>
+.types-factor {
+  position: relative;
+  box-shadow: 0 1px var(--color-6);
+}
+.types-factor::after {
+  content: var(--factor);
+  position: absolute;
+  top: 1.75em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-4);
+  font-size: smaller;
+}
+</style>

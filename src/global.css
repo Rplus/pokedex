@@ -5,3 +5,83 @@
 table {
   border-collapse: collapse;
 }
+
+td {
+  padding: .25em .5em;
+}
+
+
+summary h2 {
+  all: unset;
+}
+
+
+.text-mono {
+  font-family: monospace;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mr-1 { margin-right: .25rem; }
+.mr-2 { margin-right: .5rem; }
+.mr-3 { margin-right: .75rem; }
+.mr-4 { margin-right: 1rem; }
+.mb-5 { margin-bottom: 1.5rem; }
+
+.pb-1 { padding-bottom: .25rem; }
+.pb-2 { padding-bottom: .5rem; }
+.pb-3 { padding-bottom: .75rem; }
+.pb-4 { padding-bottom: 1rem; }
+.pb-5 { padding-bottom: 1.5rem; }
+
+.df   { display: flex; }
+.d-if { display: inline-flex; }
+
+.fd-rr { flex-direction: row-reverse; }
+.fwx-w { flex-wrap: wrap; }
+.jc-se { justify-content: space-around; }
+
+
+
+.type-icon {
+  /* si: sprite index, 18 types */
+  width: 1em;
+  height: 1em;
+  background-image: url('./images/type-sprite.png');
+  background-size: cover;
+  background-position: calc(100% * var(--si, 0) / 17) 50%;
+  cursor: pointer;
+}
+
+.type-icon[data-type='bug'] { --si: 0; }
+.type-icon[data-type='dark'] { --si: 1; }
+.type-icon[data-type='dragon'] { --si: 2; }
+.type-icon[data-type='electric'] { --si: 3; }
+.type-icon[data-type='fairy'] { --si: 4; }
+.type-icon[data-type='fighting'] { --si: 5; }
+.type-icon[data-type='fire'] { --si: 6; }
+.type-icon[data-type='flying'] { --si: 7; }
+.type-icon[data-type='ghost'] { --si: 8; }
+.type-icon[data-type='grass'] { --si: 9; }
+.type-icon[data-type='ground'] { --si: 10; }
+.type-icon[data-type='ice'] { --si: 11; }
+.type-icon[data-type='normal'] { --si: 12; }
+.type-icon[data-type='poison'] { --si: 13; }
+.type-icon[data-type='psychic'] { --si: 14; }
+.type-icon[data-type='rock'] { --si: 15; }
+.type-icon[data-type='steel'] { --si: 16; }
+.type-icon[data-type='water'] { --si: 17; }
+
+
+.sortable {
+}
+
+.sortable.ascending,
+.sortable.descending {
+  background-image: linear-gradient(var(--sort-dir, 0deg), transparent, #cccc);
+}
+.sortable.ascending {
+  --sort-dir: 180deg;
+}

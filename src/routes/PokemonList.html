@@ -8,7 +8,6 @@ import Ruby from '../components/Ruby.html';
 let _pokemons;
 $: {
   _pokemons = moveHandle($pokemons);
-  console.log(_pokemons);
 };
 </script>
 
@@ -40,7 +39,7 @@ function moveHandle(pokemons) {
     </tr>
     <tr slot="tbody" let:item={item}>
       <td>{item.dex}</td>
-      <td title={item.uid}>{item.name}</td>
+      <td><a href="./pokemon/{item.uid}">{item.name}</a></td>
       <td>{item.types}</td>
       <td>{item.maxcp}</td>
       <td>{item.maxhp}</td>

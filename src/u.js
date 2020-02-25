@@ -10,7 +10,7 @@ export function handlePm(pms) {
     }
     pms[idx].uid = `${dex}${form}`;
 
-    let _cphp = calPmCP({
+    let _cphp = calPmCPHP({
       atk: pms[idx]._atk,
       def: pms[idx]._def,
       sta: pms[idx]._sta,
@@ -106,7 +106,7 @@ export const CPM = {
   '41': 0.79530001,
 };
 
-export function calPmCP(base, adsl) {
+export function calPmCPHP(base, adsl) {
   let [a, d, s, l] = adsl;
   let mFactor = CPM[l];
   let ADS = (base.atk + a) * Math.pow((base.def + d) * (base.sta + s), 0.5);
@@ -126,7 +126,7 @@ const buffTargets = {
   self: '己',
 };
 
-function introEffect(move) {
+export function introEffect(move) {
   let buffs = move.buffs.map((b, index) => {
     if (!b) { return ''}
     return `${b > 0 ? '+' : ''}${b}階${buffTypes[index]}`;
@@ -149,6 +149,36 @@ export function handleMove(moves) {
   });
 }
 
+export function handleEff(jsondata) {
+  let effMap = Object.keys(jsondata.effMap).reduce((all, i) => {
+    all[jsondata.effMap[i]] = +i;
+    return all;
+  }, {});
+
+  let data = jsondata.data
+    .split(jsondata.spliter.atk)
+    .map(i => i.split(jsondata.spliter.def));
+
+  let op = jsondata.types.map(type => ({
+    type,
+    effs: [[], [], [], []],
+  }));
+
+  for (let ai in data) {
+    let at = jsondata.types[ai];
+    for (let _i in data[ai]) {
+      let eff = effMap[data[ai][_i].slice(0, 1)];
+      let di = +data[ai][_i].slice(1);
+      let dt = jsondata.types[di];
+
+      op[ai].effs[eff > 0 ? 0 : 1].push({type: dt, factor: eff});
+      op[di].effs[eff > 0 ? 2 : 3].push({type: at, factor: eff});
+    }
+  }
+
+  return op;
+}
+
 export function copy(obj) {
   return JSON.parse(JSON.stringify(obj));
 }
@@ -157,3 +187,23 @@ export function fixNum(num, d = 2, toStr) {
   let op = (+num).toFixed(d);
   return toStr ? op : +op;
 }
+
+
+
+const STORAGE_KEY = 'POKEDEX';
+export function saveItem(data) {
+  if (!data || !data.key) { return false;}
+  let odata = getItem() || {};
+
+  odata[data.key] = data.value;
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(odata));
+};
+
+export function getItem(key) {
+  let data = localStorage.getItem(STORAGE_KEY);
+  if (!data) { return null; }
+  data = JSON.parse(data);
+
+  return key ? data[key] : data;
+};

@@ -1,0 +1,115 @@
+<script>
+  import { moves } from '@/stores.js';
+  import { copy, fixNum, introEffect } from '@/u.js';
+  import { TableSort } from 'svelte-tablesort';
+
+  // import PMMove from '@c/PMMove.html';
+  import TTFA from '@c/TTFA.html';
+  import Details from '@c/Details.html';
+
+  export let pm;
+
+  function queryMove(mname) {
+    return copy($moves.find(m => m.moveId === mname));
+  }
+
+  function genMove(mname, isFast) {
+    let mmm = queryMove(mname);
+    mmm.isLegacy = (lmoves && lmoves.includes(mname));
+    mmm.isFast = isFast;
+    mmm.stab = (pm.types.includes(mmm.type));
+    mmm.stabFactor = mmm.stab ? 1.2 : 1;
+
+    if (isFast) {
+      mmm.ept = fixNum(mmm.energyGain / mmm.turn);
+      mmm.dpt = fixNum(mmm.power / mmm.turn);
+      mmm.eptxdpt = fixNum(mmm.ept * mmm.dpt);
+    } else {
+      mmm.dpe = fixNum(mmm.power / mmm.energy);
+      if (mmm.buffs) {
+        mmm.buffsDes = introEffect(mmm);
+      }
+    }
+
+    return mmm;
+  }
+
+  let lmoves;
+  let mdata;
+
+  $: {
+    lmoves = pm.legacyMoves;
+    mdata = [
+      {
+        title: 'Fast Moves',
+        data: pm.fastMoves.map(m => genMove(m, true)),
+        setting: 'fmove',
+      },
+      {
+        title: 'Charged Moves',
+        data: pm.chargedMoves.map(m => genMove(m, false)),
+        setting: 'cmove',
+      }
+    ];
+
+    console.log('mdata', mdata);
+  }
+</script>
+
+
+
+<section class="moves">
+  {#each mdata as mmm}
+    <div class="card text-mono">
+      <Details type={mmm.setting}>
+        <summary><h2 class="moveset-title d-ib">{mmm.title}</h2></summary>
+        <div>
+
+          <TableSort items={mmm.data}>
+            <tr slot="thead">
+              <th data-sort="name">Name</th>
+              <th data-sort="power">D</th>
+              {#if mmm.setting === 'fmove'}
+                <th data-sort="energyGain">E</th>
+                <th data-sort="turn">T</th>
+                <th data-sort="dpt">DPT</th>
+                <th data-sort="ept">EPT</th>
+                <th data-sort="eptxdpt" title="EPT x DPT">Π</th>
+              {:else}
+                <th data-sort="energy">E</th>
+                <th data-sort="dpe">DPE</th>
+                <th>Effect</th>
+              {/if}
+            </tr>
+
+            <tr slot="tbody" let:item={item}>
+              <td><a href="./move/{item.moveId}">{item.type} {item.name} {item.moveId}</a></td>
+              <td>{item.power}</td>
+              {#if mmm.setting === 'fmove'}
+                <td>{item.energyGain}</td>
+                <td>{item.turn}</td>
+                <td>{item.dpt}</td>
+                <td>{item.ept}</td>
+                <td>{item.eptxdpt}</td>
+              {:else}
+                <td>{item.energy}</td>
+                <td>{item.dpe}</td>
+                <td>{item.buffsDes}</td>
+              {/if}
+            </tr>
+          </TableSort>
+
+        </div>
+      </Details>
+    </div>
+  {/each}
+</section>
+
+{#if pm.dex !== 235}
+<TTFA mdata={mdata} />
+{/if}
+
+
+
+<style>
+</style>
