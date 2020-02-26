@@ -1,5 +1,5 @@
 import GAnalytics from 'ganalytics';
-import App from './components/App.svelte';
+import App from '@c/App.svelte';
 
 new App({
   target: document.body

@@ -6,17 +6,16 @@
 
 <script>
   import Navaid from 'navaid';
-  import About from '../routes/About.html';
-  import Home from '../routes/Home.html';
-  import MoveList from '../routes/MoveList.html';
-  import PokemonList from '../routes/PokemonList.html';
-  import MovePage from '../routes/MovePage.html';
-  import PokemonPage from '../routes/PokemonPage.html';
-  import Info from '../routes/Info.html';
+  import About from '@r/About.html';
+  import Home from '@r/Home.html';
+  import MoveList from '@r/MoveList.html';
+  import PokemonList from '@r/PokemonList.html';
+  import MovePage from '@r/MovePage.html';
+  import PokemonPage from '@r/PokemonPage.html';
+  import Info from '@r/Info.html';
 
   import { onDestroy } from 'svelte';
-  import Nav from './Nav.svelte';
-  import '../stores.js';
+  import Nav from '@c/Nav.svelte';
 
   let Route, params, active;
   let uri = location.pathname;
