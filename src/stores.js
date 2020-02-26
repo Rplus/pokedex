@@ -1,5 +1,4 @@
 import { writable, readable, derived } from 'svelte/store';
-// import { typesEff } from './types-eff.js';
 import {
   handlePm, handleMove, handleEff,
   saveItem, getItem

@@ -37,7 +37,7 @@
 
   const router = Navaid('/', () => draw(Home))
     .on('/', () => draw(Home))
-    // .on('/about', () => draw(About))
+    .on('/about', () => draw(About))
     .on('/move', () => draw(MoveList))
     .on('/move/:moveId', obj => draw(MovePage, obj))
     .on('/pokemon', () => draw(PokemonList))

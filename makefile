@@ -11,4 +11,5 @@ genGM:
 
 copy-assets:
 	mkdir -p public; \
+# 	mkdir -p public/pokedex; \
 	cp -r ./assets/* ./public/

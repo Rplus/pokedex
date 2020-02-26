@@ -202,4 +202,4 @@ const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
   fs.writeFileSync(fileName, fileContent);
   console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
 };
-outputJSON(op, './public/eff.json', 0);
+outputJSON(op, './assets/eff.json', 0);
