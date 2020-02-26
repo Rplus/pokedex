@@ -35,7 +35,7 @@
   addEventListener('pushstate', track);
   addEventListener('popstate', track);
 
-  export const router = Navaid('/', () => draw(Home))
+  const router = Navaid('/', () => draw(Home))
     .on('/', () => draw(Home))
     // .on('/about', () => draw(About))
     .on('/move', () => draw(MoveList))
