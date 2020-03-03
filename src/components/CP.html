@@ -23,31 +23,28 @@ function getCPs(ads) {
 
 
 
-<section class="card text-mono">
-  <Details type="cptable">
-    <summary>CP table</summary>
-    <div>
-      <table>
-        <thead>
+<Details type="cptable" klass="card">
+  <summary><h3>CP table</h3></summary>
+  <div class="df jc-se fxw-w">
+    <table class="mr-6 ml-6 mb-4">
+      <thead>
+        <tr>
+          <th><sup>Lv</sup>/<sub>CP</sub></th>
+          <th title="15-15-15">MAX</th>
+          <th title="0-0-0">MIN</th>
+        </tr>
+      </thead>
+      <tbody>
+        {#each cps as cp}
           <tr>
-            <th><sup>Lv</sup>/<sub>CP</sub></th>
-            <th title="15-15-15">MAX</th>
-            <th title="0-0-0">MIN</th>
+            <td>{cp.lv}</td>
+            <td>{cp.maxcp}</td>
+            <td>{cp.mincp}</td>
           </tr>
-        </thead>
-        <tbody>
-          {#each cps as cp}
-            <tr>
-              <td>{cp.lv}</td>
-              <td>{cp.maxcp}</td>
-              <td>{cp.mincp}</td>
-            </tr>
-          {/each}
-        </tbody>
-      </table>
+        {/each}
+      </tbody>
+    </table>
 
-      <CustomCP ads={ads} />
-    </div>
-  </Details>
-
-</section>
+    <CustomCP ads={ads} />
+  </div>
+</Details>

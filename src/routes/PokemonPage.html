@@ -1,9 +1,12 @@
 <script>
 export let params = {};
 import { pokemons } from '@/stores.js';
+import Details from '@c/Details.html';
 import CP from '@c/CP.html';
 import Moveset from '@c/Moveset.html';
 import TypeFactor from '@c/TypeFactor.html';
+import Ruby from '@c/Ruby.html';
+import TypeIcon from '@c/TypeIcon.html';
 
 let pm;
 let ads;
@@ -24,25 +27,63 @@ $: {
 
 
 <svelte:head>
-  <title>Pokemon {pm && pm.name || ''}</title>
+  <title>{pm && `#${pm.dex} ${pm.name}` || ''}</title>
 </svelte:head>
 
 {#if pm}
-  <section class="card">
-    {pm.name}
+  <section>
+
+    <Details type="pm_meta" klass="card">
+      <summary class="pos-r">
+        <h2>
+          <div class="df">
+            <Ruby>
+              <div slot="rb">
+                {pm.name}
+              </div>
+              <div slot="rt" class="fw-n text-uppercase">{pm.id}</div>
+            </Ruby>
+
+            <sup class="fw-n ml-1 mr-1">#{pm.dex}</sup>
+            <span class="d-if">
+              {#each pm.types as type}
+                <TypeIcon type={type} klass="mr-1" />
+              {/each}
+            </span>
+          </div>
+
+          <div class="ads fw-n">
+            Atk: {pm._atk}<br>
+            Def: {pm._def}<br>
+            Sta: {pm._sta}<br>
+          </div>
+        </h2>
+      </summary>
+      <hr>
+    </Details>
+
     <CP ads={ads} />
 
     <TypeFactor types={pm.types} />
 
     <Moveset pm={pm} />
 
-    <pre>
-      {JSON.stringify(pm, null, 2)}
-    </pre>
+    <details>
+      <summary>raw data</summary>
+      <pre>
+        {JSON.stringify(pm, null, 2)}
+      </pre>
+    </details>
   </section>
 {/if}
 
 
 
 <style>
+  .ads {
+    position: absolute;
+    top: 1.5em;
+    right: 0;
+    font-size: initial;
+  }
 </style>

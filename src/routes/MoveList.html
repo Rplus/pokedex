@@ -1,27 +1,40 @@
 <script>
-import { TableSort } from 'svelte-tablesort';
-import { moves } from '@/stores.js';
-import { copy } from '@/u.js';
-import Details from '@c/Details.html';
+  import { TableSort } from 'svelte-tablesort';
+  import { moves, eff } from '@/stores.js';
+  import { copy } from '@/u.js';
+  import Details from '@c/Details.html';
+  import TypeFilter from '@c/TypeFilter.html';
+  import TypeIcon from '@c/TypeIcon.html';
+  import Ruby from '@c/Ruby.html';
 
-// import Ruby from '@c/Ruby.html';
+  let _moves;
+  let type = location.hash ? location.hash.replace('#', '') : '';
 
-let _moves;
-$: {
-  _moves = moveHandle($moves);
-};
-</script>
+  $: {
+    if (type && !$eff.some(eff => eff.type === type)) {
+      type = null;
+    }
+    _moves = moveHandle($moves, type);
+  };
 
-<script context="module">
-function moveHandle(moves) {
-  return moves.reduce((all, m) => {
-    all[m.isFast ? 'fast' : 'charge'].push(m);
-    return all;
-  }, {
-    fast: [],
-    charge: [],
-  });
-}
+  function clicktype(e) {
+    let _type = e.detail.type;
+    type = _type === type ? null : _type;
+  }
+
+  function moveHandle(moves) {
+    if (type) {
+      moves = moves.filter(m => m.type === type);
+    }
+    return moves
+      .reduce((all, m) => {
+        all[m.isFast ? 'fast' : 'charge'].push(m);
+        return all;
+      }, {
+        fast: [],
+        charge: [],
+      });
+  }
 </script>
 
 
@@ -34,27 +47,40 @@ function moveHandle(moves) {
   <title>Move</title>
 </svelte:head>
 
-<section class="card text-mono">
+<section>
 
-  <Details type="fastmove">
-    <summary><h2>Fast</h2></summary>
+  <TypeFilter type={type} on:clicktype={clicktype} />
 
-    <TableSort items={_moves.fast}>
+  <Details type="fastmove" klass="card">
+    <summary class="sticky top-0"><h2>Fast</h2></summary>
+
+
+    <TableSort
+      items={_moves.fast}
+      class="sticky-thead ml-a mr-a"
+    >
       <tr slot="thead">
+        <th data-sort="type" data-sort-initial>@</th>
         <th data-sort="name">Name</th>
-        <th data-sort="moveId">ID</th>
-        <th data-sort="type" data-sort-initial>Type</th>
-        <th data-sort="power">D</th>
-        <th data-sort="energyGain">E</th>
-        <th data-sort="turn">T</th>
+        <th data-sort="power" title="Damage">D</th>
+        <th data-sort="energyGain" title="Energy">E</th>
+        <th data-sort="turn" title="Turn">T</th>
         <th data-sort="dpt">DPT</th>
         <th data-sort="ept">EPT</th>
         <th data-sort="eptxdpt" title="EPT x DPT">Π</th>
       </tr>
       <tr slot="tbody" let:item={item}>
-        <td><a href="./move/{item.moveId}">{item.name}</a></td>
-        <td><a href="./move/{item.moveId}">{item.moveId}</a></td>
-        <td>{item.type}</td>
+        <td>
+          <TypeIcon type={item.type} />
+        </td>
+        <td>
+          <a href="./move/{item.moveId}">
+            <Ruby klass="x">
+              <div slot="rb">{item.name}</div>
+              <div slot="rt">{item.moveId}</div>
+            </Ruby>
+          </a>
+        </td>
         <td>{item.power}</td>
         <td>{item.energyGain}</td>
         <td>{item.turn}</td>
@@ -65,27 +91,37 @@ function moveHandle(moves) {
     </TableSort>
   </Details>
 
-  <Details type="chargemove">
-    <summary><h2>Charge</h2></summary>
+  <Details type="chargemove" klass="card">
+    <summary class="sticky top-0"><h2>Charge</h2></summary>
 
-    <TableSort items={_moves.charge}>
+    <TableSort
+      items={_moves.charge}
+      class="sticky-thead ml-a mr-a"
+    >
       <tr slot="thead">
+        <th data-sort="type" data-sort-initial>@</th>
         <th data-sort="name">Name</th>
-        <th data-sort="moveId">ID</th>
-        <th data-sort="type" data-sort-initial>Type</th>
-        <th data-sort="power">D</th>
-        <th data-sort="energy">E</th>
+        <th data-sort="power" title="Damage">D</th>
+        <th data-sort="energy" title="Energy">E</th>
         <th data-sort="dpe">DPE</th>
         <th data-sort="buffsDes">Effect</th>
       </tr>
       <tr slot="tbody" let:item={item}>
-        <td><a href="./move/{item.moveId}">{item.name}</a></td>
-        <td><a href="./move/{item.moveId}">{item.moveId}</a></td>
-        <td>{item.type}</td>
+        <td class="p-0 text-center">
+          <TypeIcon type={item.type} klass="d-ib" />
+        </td>
+        <td>
+          <a href="./move/{item.moveId}">
+            <Ruby klass="x">
+              <div slot="rb">{item.name}</div>
+              <div slot="rt">{item.moveId}</div>
+            </Ruby>
+          </a>
+        </td>
         <td>{item.power}</td>
         <td>{item.energy}</td>
         <td>{item.dpe}</td>
-        <td class="ff-m">{item.buffsDes}</td>
+        <td class="fz-s">{item.buffsDes}</td>
       </tr>
     </TableSort>
   </Details>
@@ -97,8 +133,4 @@ function moveHandle(moves) {
 <!--  -->
 
 
-<style>
-  h2 {
-    all: unset;
-  }
-</style>
+<style></style>

@@ -50,23 +50,31 @@ function getFactorText(factor) {
 
 
 
-<div class="card">
-  <Details type="types-{role}">
-    <summary><h2>各屬性招式傷害係數({role})</h2></summary>
-    <div class="df fd-rr fwx-w jc-se">
-      {#each renderTypeFactor as factor}
-        <div class="types-factor d-if fwx-w mb-5 pb-1"
-          data-factor="{factor[0]}"
-          style="order: {factor[0]}; --factor: 'x{getFactorText(factor[0])}'"
-        >
-          {#each factor[1] as type}
-            <TypeIcon klass="mr-1" type={type} />
-          {/each}
-        </div>
-      {/each}
-    </div>
-  </Details>
-</div>
+<Details type="types-{role}" klass="card">
+  <summary>
+    <h3>
+      各屬性招式傷害係數({role})
+      <div class="d-if">
+        {#each types as type}
+          <TypeIcon type={type} klass="mr-1" />
+        {/each}
+      </div>
+    </h3>
+  </summary>
+
+  <div class="df fd-rr fwx-w jc-se">
+    {#each renderTypeFactor as factor}
+      <div class="types-factor d-if fwx-w mb-5 pb-1"
+        data-factor="{factor[0]}"
+        style="order: {factor[0]}; --factor: 'x{getFactorText(factor[0])}'"
+      >
+        {#each factor[1] as type}
+          <TypeIcon klass="mr-1" type={type} />
+        {/each}
+      </div>
+    {/each}
+  </div>
+</Details>
 
 
 

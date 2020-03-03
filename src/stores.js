@@ -8,15 +8,20 @@ import {
 export const pokemons = writable([]);
 export const moves = writable([]);
 export const eff = writable([]);
+export const maxDex = writable(0);
 
 const gmUrl = 'gm.src.json' || 'gm.json';
 
 
-Promise.all([gmUrl, 'eff.json'].map(i => fetch(i).then(r => r.json())))
+Promise.all(
+  [gmUrl, 'eff.json']
+  .map(i =>
+    fetch(i, {headers: {'content-type': 'application/json'}}).then(r => r.json())))
 .then(d => {
   pokemons.set(handlePm(d[0].pokemon));
   moves.set(handleMove(d[0].moves));
   eff.set(handleEff(d[1]));
+  maxDex.set(d[0].pokemon[d[0].pokemon.length - 1].dex);
   console.log('gm done:', d);
 });
 

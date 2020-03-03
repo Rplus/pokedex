@@ -6,6 +6,8 @@
   // import PMMove from '@c/PMMove.html';
   import TTFA from '@c/TTFA.html';
   import Details from '@c/Details.html';
+  import TypeIcon from '@c/TypeIcon.html';
+  import Ruby from '@c/Ruby.html';
 
   export let pm;
 
@@ -60,48 +62,58 @@
 
 <section class="moves">
   {#each mdata as mmm}
-    <div class="card text-mono">
-      <Details type={mmm.setting}>
-        <summary><h2 class="moveset-title d-ib">{mmm.title}</h2></summary>
-        <div>
+    <Details type={mmm.setting} klass="card">
+      <summary><h3 class="moveset-title d-ib">{mmm.title}</h3></summary>
 
-          <TableSort items={mmm.data}>
-            <tr slot="thead">
-              <th data-sort="name">Name</th>
-              <th data-sort="power">D</th>
-              {#if mmm.setting === 'fmove'}
-                <th data-sort="energyGain">E</th>
-                <th data-sort="turn">T</th>
-                <th data-sort="dpt">DPT</th>
-                <th data-sort="ept">EPT</th>
-                <th data-sort="eptxdpt" title="EPT x DPT">Π</th>
-              {:else}
-                <th data-sort="energy">E</th>
-                <th data-sort="dpe">DPE</th>
-                <th>Effect</th>
-              {/if}
-            </tr>
+      <div>
+        <TableSort items={mmm.data} class="ml-a mr-a">
+          <tr slot="thead">
+            <th data-sort="name">Name</th>
+            <th data-sort="power">D</th>
+            {#if mmm.setting === 'fmove'}
+              <th data-sort="energyGain">E</th>
+              <th data-sort="turn">T</th>
+              <th data-sort="dpt">DPT</th>
+              <th data-sort="ept">EPT</th>
+              <th data-sort="eptxdpt" title="EPT x DPT">Π</th>
+            {:else}
+              <th data-sort="energy">E</th>
+              <th data-sort="dpe">DPE</th>
+              <th data-sort="buffsDes">Effect</th>
+            {/if}
+          </tr>
 
-            <tr slot="tbody" let:item={item}>
-              <td><a href="./move/{item.moveId}">{item.type} {item.name} {item.moveId}</a></td>
-              <td>{item.power}</td>
-              {#if mmm.setting === 'fmove'}
-                <td>{item.energyGain}</td>
-                <td>{item.turn}</td>
-                <td>{item.dpt}</td>
-                <td>{item.ept}</td>
-                <td>{item.eptxdpt}</td>
-              {:else}
-                <td>{item.energy}</td>
-                <td>{item.dpe}</td>
-                <td>{item.buffsDes}</td>
-              {/if}
-            </tr>
-          </TableSort>
+          <tr slot="tbody" let:item={item}>
+            <td class="move-name">
+              <Ruby>
+                <div class="pos-r" slot="rb">
+                  <TypeIcon type={item.type} klass="typeicon__move" />
+                  <a href="./move/{item.moveId}">
+                    {item.name}
+                  </a>
+                </div>
+                <a class="rt" href="./move/{item.moveId}" slot="rt">
+                  {item.moveId}
+                </a>
+              </Ruby>
+            </td>
+            <td>{item.power}</td>
+            {#if mmm.setting === 'fmove'}
+              <td>{item.energyGain}</td>
+              <td>{item.turn}</td>
+              <td>{item.dpt}</td>
+              <td>{item.ept}</td>
+              <td>{item.eptxdpt}</td>
+            {:else}
+              <td>{item.energy}</td>
+              <td>{item.dpe}</td>
+              <td>{item.buffsDes}</td>
+            {/if}
+          </tr>
+        </TableSort>
 
-        </div>
-      </Details>
-    </div>
+      </div>
+    </Details>
   {/each}
 </section>
 
@@ -112,4 +124,11 @@
 
 
 <style>
+  :global(.typeicon__move) {
+    position: absolute;
+    left: -1.2em;
+  }
+
+  .move-name {
+  }
 </style>

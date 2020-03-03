@@ -2,9 +2,9 @@
 import { typeTarget } from '@/stores.js';
 
 export let type;
-export let klass;
-
-let onClick = (type) => () => {
+export let klass = '';
+export let click = (type) => () => {
+  console.log('click type', type);
   $typeTarget = type;
 }
 
@@ -13,9 +13,9 @@ let onClick = (type) => () => {
 
 
 <div
-  class="type-icon {klass || ''}"
+  class="type-icon {klass}"
   data-type={type} title={type}
-  on:click|preventDefault={onClick(type)}
+  on:click|preventDefault={click(type)}
 />
 
 

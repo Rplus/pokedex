@@ -10,6 +10,10 @@ export function handlePm(pms) {
     }
     pms[idx].uid = `${dex}${form}`;
 
+    if (pms[idx].name.indexOf(' ') !== -1) {
+      pms[idx].formName = pms[idx].name.split(' ');
+    }
+
     let _cphp = calPmCPHP({
       atk: pms[idx]._atk,
       def: pms[idx]._def,
@@ -21,6 +25,10 @@ export function handlePm(pms) {
   });
   return pms.filter(Boolean);
 }
+
+
+
+
 
 export const CPM = {
   '1': 0.094,
@@ -120,6 +128,8 @@ export function calPmCPHP(base, adsl) {
 
 
 
+
+
 const buffTypes = ['攻', '防'];
 const buffTargets = {
   opponent: '敵',
@@ -133,6 +143,10 @@ export function introEffect(move) {
   }).filter(Boolean).join(', ');
   return `[${buffTargets[move.buffTarget]}], ${move.buffApplyChance * 100}%, ${buffs}`;
 }
+
+
+
+
 
 export function handleMove(moves) {
   return moves.map(m => {
@@ -149,6 +163,10 @@ export function handleMove(moves) {
   });
 }
 
+
+
+
+
 export function handleEff(jsondata) {
   let effMap = Object.keys(jsondata.effMap).reduce((all, i) => {
     all[jsondata.effMap[i]] = +i;
@@ -159,6 +177,7 @@ export function handleEff(jsondata) {
     .split(jsondata.spliter.atk)
     .map(i => i.split(jsondata.spliter.def));
 
+    console.log(data);
   let op = jsondata.types.map(type => ({
     type,
     effs: [[], [], [], []],
@@ -179,14 +198,24 @@ export function handleEff(jsondata) {
   return op;
 }
 
+
+
+
+
 export function copy(obj) {
   return JSON.parse(JSON.stringify(obj));
 }
+
+
+
+
 
 export function fixNum(num, d = 2, toStr) {
   let op = (+num).toFixed(d);
   return toStr ? op : +op;
 }
+
+
 
 
 

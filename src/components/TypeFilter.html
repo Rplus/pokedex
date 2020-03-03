@@ -1,0 +1,60 @@
+<script>
+  import TypeIcon from '@c/TypeIcon.html';
+  import { eff } from '@/stores.js';
+  import { createEventDispatcher } from 'svelte';
+
+  const dispatch = createEventDispatcher();
+
+  export let type;
+
+  function _clickType(_type) {
+    dispatch('clicktype', {
+      type: _type,
+    });
+  };
+</script>
+
+
+
+<div class="df fxw-w jc-c mb-6 filter-icons">
+  {#each $eff as eff}
+    <TypeIcon
+      type={eff.type}
+      klass={eff.type === type ? 'filter-icon active' : 'filter-icon'}
+      click={_clickType.bind(eff.type)}
+    />
+  {/each}
+</div>
+
+
+
+<style>
+  .filter-icons {
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  :global(.filter-icon) {
+    position: relative;
+    margin: .125em .125em .25em;
+    font-size: 2em;
+  }
+  :global(.filter-icon:not(.active)) {
+    filter: grayscale(1) opacity(.5);
+  }
+
+  :global(.filter-icon.active::before) {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: .5em;
+    height: .1em;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow:
+      0 1.1em .1em #f336;
+  }
+
+</style>

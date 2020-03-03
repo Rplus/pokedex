@@ -1,4 +1,4 @@
-<nav>
+<nav class="mb-4">
   <ul>
     <li><a class="{ isActive('home') }" href="/">home</a></li>
     <li><a class="{ isActive('move') }" href="/move">move</a></li>

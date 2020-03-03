@@ -1,20 +1,59 @@
 <script>
-import { TableSort } from 'svelte-tablesort';
-import { pokemons } from '@/stores.js';
-import { copy } from '@/u.js';
+  import { TableSort } from 'svelte-tablesort';
+  import { pokemons, eff, maxDex } from '@/stores.js';
+  import TypeIcon from '@c/TypeIcon.html';
+  import Details from '@c/Details.html';
+  import TypeFilter from '@c/TypeFilter.html';
+  import Ruby from '@c/Ruby.html';
 
-// import Ruby from '@c/Ruby.html';
+  let _pokemons = [];
+  let type = location.hash ? location.hash.replace('#', '') : '';
+  let dexRangeMin = 1;
+  let dexRangeMax = 1;
+  let genDex = [
+    [1, 151],
+    [152, 251],
+    [252, 386],
+    [387, 493],
+    [494, 694],
+  ];
 
-let _pokemons;
-$: {
-  _pokemons = moveHandle($pokemons);
-};
-</script>
+  $: {
+    if ($pokemons.length) {
+      if (type && !$eff.some(eff => eff.type === type)) {
+        type = null;
+      }
+      _pokemons = moveHandle($pokemons, type, dexRangeMin, dexRangeMax);
+    }
+  };
 
-<script context="module">
-function moveHandle(pokemons) {
-  return [...pokemons];
-}
+  $: {
+    dexRangeMax = $maxDex;
+  }
+
+  function clicktype(e) {
+    let _type = e.detail.type;
+    type = _type === type ? null : _type;
+  }
+
+  function setRange(r1, r2) {
+    dexRangeMin = r1;
+    dexRangeMax = r2;
+  }
+
+  function moveHandle(pokemons, type, dexMin, dexMax) {
+    let [min, max] = [dexMin, dexMax].sort();
+    if (type) {
+      pokemons = pokemons.filter(pm => pm.types.indexOf(type) !== -1);
+    }
+
+    if (min !== 1 || max < $maxDex) {
+      pokemons = pokemons.filter(pm => pm.dex >= min && pm.dex <= max);
+    }
+
+    return pokemons;
+  }
+
 </script>
 
 
@@ -25,29 +64,104 @@ function moveHandle(pokemons) {
   <title>Pokemon</title>
 </svelte:head>
 
-<section class="card">
-  <TableSort items={_pokemons}>
-    <tr slot="thead">
-      <th data-sort="dex" data-sort-initial>Dex</th>
-      <th data-sort="name">Name</th>
-      <th data-sort="types">Types</th>
-      <th data-sort="maxcp">CP</th>
-      <th data-sort="maxhp">HP</th>
-      <th data-sort="_atk">Atk</th>
-      <th data-sort="_def">Def</th>
-      <th data-sort="_sta">Sta</th>
-    </tr>
-    <tr slot="tbody" let:item={item}>
-      <td>{item.dex}</td>
-      <td><a href="./pokemon/{item.uid}">{item.name}</a></td>
-      <td>{item.types}</td>
-      <td>{item.maxcp}</td>
-      <td>{item.maxhp}</td>
-      <td>{item._atk}</td>
-      <td>{item._def}</td>
-      <td>{item._sta}</td>
-    </tr>
-  </TableSort>
+<section>
+
+  <Details type="pmfilter" klass="card">
+    <summary>
+      <h3>Filter</h3>
+    </summary>
+
+    <Details>
+      <summary class="mb-4">
+        Dex
+      </summary>
+
+      <div class="mb-2">
+        <div class="df jc-c">
+          <input type="number"
+            max={$maxDex} min="1" step="1"
+            bind:value={dexRangeMin}
+            style="order: {dexRangeMin * 2}"
+          />
+
+          <div style="order: {dexRangeMin + dexRangeMax}">
+            <input type="range"
+              max={$maxDex} min="1" step="1"
+              bind:value={dexRangeMin}
+            />
+
+            <br>
+
+            <input type="range"
+              max={$maxDex} min="1" step="1"
+              bind:value={dexRangeMax}
+            />
+          </div>
+
+          <input type="number"
+            max={$maxDex} min="1" step="1"
+            bind:value={dexRangeMax}
+            style="order: {dexRangeMax * 2}"
+          />
+        </div>
+
+        <div class="df jc-c mb-4">
+          {#each genDex as gen, i}
+            <button on:click={() => setRange(gen[0], gen[1])}>
+              G{i + 1}
+            </button>
+          {/each}
+        </div>
+      </div>
+    </Details>
+
+    <TypeFilter type={type} on:clicktype={clicktype} />
+  </Details>
+
+  <div class="card pt-4">
+    <TableSort
+      items={_pokemons}
+      class="pokemon-table sticky-thead ml-a mr-a"
+    >
+      <tr slot="thead">
+        <th data-sort="dex" data-sort-initial>#</th>
+        <th data-sort="types">系</th>
+        <th data-sort="name">Name</th>
+        <th data-sort="maxcp" title="max CP">CP</th>
+        <th data-sort="maxhp" title="max HP">HP</th>
+        <th data-sort="_atk" title="base Atk">Atk</th>
+        <th data-sort="_def" title="base Def">Def</th>
+        <th data-sort="_sta" title="base Sta">Sta</th>
+      </tr>
+      <tr slot="tbody" let:item={item}>
+        <td>{item.dex}</td>
+        <td>
+          <div class="df jc-fe">
+            {#each item.types as type}
+              <TypeIcon type={type} />
+            {/each}
+          </div>
+        </td>
+        <td>
+          <a href="./pokemon/{item.uid}" title={item.id}>
+            {#if item.formName}
+              <Ruby klass="x">
+                <div slot="rb">{item.formName[0]}</div>
+                <div slot="rt">{item.formName[1]}</div>
+              </Ruby>
+            {:else}
+              {item.name}
+            {/if}
+          </a>
+        </td>
+        <td title="maxcp">{item.maxcp}</td>
+        <td title="maxhp">{item.maxhp}</td>
+        <td title="atk">{item._atk}</td>
+        <td title="def">{item._def}</td>
+        <td title="sta">{item._sta}</td>
+      </tr>
+    </TableSort>
+  </div>
 </section>
 
 
@@ -55,4 +169,4 @@ function moveHandle(pokemons) {
 <!--  -->
 
 
-<style></style>
+<!-- <style></style> -->

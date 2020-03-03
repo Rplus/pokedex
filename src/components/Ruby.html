@@ -1,22 +1,25 @@
 <script>
-  export let title;
-  export let subtitle;
+  export let klass = 'df fd-c ai-c text-center';
+  // export let subtitle;
+  // export let pos = 'bottom';
 </script>
 
 
 
 
-<ruby>
-  {title}
-  <rt>{subtitle}</rt>
-</ruby>
+<div class={klass}>
+  <slot name="rb" />
+  <div class="rt">
+    <slot name="rt" />
+  </div>
+</div>
 
 
 
 <style>
-  rt {
-    opacity: .3;
-    font-family: monospace;
-    font-size: var(--subtitle-font-size, smaller);
+  .rt {
+    opacity: .4;
+    transform: scaleY(.85);
+    font-size: smaller;
   }
 </style>

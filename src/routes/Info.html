@@ -1,31 +1,79 @@
 <script>
-import { CPM } from '@/u.js';
+import { CPM, fixNum } from '@/u.js';
+import { eff } from '@/stores.js';
 
 let _cpm = Object.keys(CPM)
   .map(lv => ({ lv: lv, m: CPM[lv] }))
   .sort((a, b) => a.lv - b.lv);
 
+let pvp_eff = [
+  {
+    type: 'buff',
+    value: [5, 6, 7, 8].map(i => fixNum(i / 4)),
+  },
+  {
+    type: 'debuff',
+    value: [5, 6, 7, 8].map(i => fixNum(4 / i)),
+  },
+];
+
+$: {
+  if ($eff.length) {
+
+  }
+}
+
 </script>
 
 
 
-<section class="card">
-
-  <details>
-    <summary>
-      <h2>level multiplier (CPm)</h2>
-    </summary>
-    <main>
-      <table class="text-mono">
-        {#each _cpm as item}
+<details class="card" open>
+  <summary>
+    <h3>PVP Buff / Debuff factor</h3>
+  </summary>
+  <div>
+    <table>
+      <tr>
+        <th></th>
+        <th>1"</th>
+        <th>2"</th>
+        <th>3"</th>
+        <th>4"</th>
+      </tr>
+      {#each pvp_eff as e}
         <tr>
-          <td>{item.lv}</td>
-          <td>{item.m}</td>
+          <th>{e.type}</th>
+
+          {#each e.value as v}
+            <td><small>x</small> {v}</td>
+          {/each}
         </tr>
-        {/each}
-      </table>
-    </main>
+      {/each}
+    </table>
+  </div>
+</details>
 
-  </details>
+<details class="card">
+  <summary>
+    <h3>Type Effect</h3>
+  </summary>
+  <div></div>
+</details>
 
-</section>
+<details class="card">
+  <summary>
+    <h3>Level Multiplier (CPm)</h3>
+  </summary>
+  <div>
+    <table>
+      {#each _cpm as item}
+      <tr>
+        <td>{item.lv}</td>
+        <td>{item.m}</td>
+      </tr>
+      {/each}
+    </table>
+  </div>
+</details>
+
+

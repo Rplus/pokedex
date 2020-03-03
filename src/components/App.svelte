@@ -1,8 +1,13 @@
-<Nav {active} />
+<div class="workspace">
+  <Nav {active} />
 
-<main>
-  <svelte:component this={Route} {params} />
-</main>
+  <main>
+    <svelte:component this={Route} {params} />
+  </main>
+
+  <Footer />
+  <TypeDialog />
+</div>
 
 <script>
   import Navaid from 'navaid';
@@ -13,6 +18,8 @@
   import MovePage from '@r/MovePage.html';
   import PokemonPage from '@r/PokemonPage.html';
   import Info from '@r/Info.html';
+  import Footer from '@c/Footer.html';
+  import TypeDialog from '@c/TypeDialog.html';
 
   import { onDestroy } from 'svelte';
   import Nav from '@c/Nav.svelte';
