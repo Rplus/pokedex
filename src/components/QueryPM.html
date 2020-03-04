@@ -1,0 +1,125 @@
+<script>
+  import { datalist, pokemons, router } from '@/stores.js';
+
+  export let uid = '1';
+
+  let inputUid = uid;
+  let pmName = '';
+  let elm_input;
+
+  $: {
+    let pm = findPm(inputUid);
+    pmName = pm ? pm.name : '';
+  }
+
+  function findPm(uid) {
+    return $pokemons.length && $pokemons.find(pm => pm.uid === uid);
+  }
+
+  function onFocus() {
+    elm_input.select();
+  }
+
+  function onSubmit() {
+    let _uid = elm_input.value;
+    let pm = findPm(_uid);
+    if (!pm) {
+      console.error(`Wrong Dex: ${_uid}`);
+      return;
+    }
+
+    console.info('submit', _uid);
+    if (_uid === uid) {
+      return;
+    }
+
+    $router.route(`/pokemon/${_uid}`);
+  }
+
+</script>
+
+
+<div class="card input-card pt-2">
+  <form class="df" on:submit|preventDefault={onSubmit}>
+    <input
+      list="pms"
+      class="uid-input mr-2"
+      required
+      pattern="\d+(_\D+)?"
+      title="GG"
+      bind:value={inputUid}
+      bind:this={elm_input}
+      on:focus={onFocus}
+    />
+
+    <datalist id="pms">
+      {@html $datalist }
+    </datalist>
+
+    <button class="submit">{pmName}</button>
+  </form>
+</div>
+
+
+
+
+<style>
+  .input-card {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-radius: 0 0 .5em .5em;
+    border-radius: .5em;
+  }
+
+  .input-card > * {
+    margin-bottom: unset;
+  }
+
+  .uid-input {
+    flex-grow: 1;
+  }
+
+  .uid-input:invalid {
+    box-shadow: inset 1px 1px 3px #900;
+  }
+
+  .submit {
+    text-decoration: none;
+  }
+
+  .submit::after {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .25em;
+    border-radius: 1em;
+    background-color: #f00;
+    background-image:
+      radial-gradient(
+        #fff 10%,
+        #000 0,
+        #000 calc(10% + 1px),
+        #fff 0,
+        #fff 15%,
+        #000 0,
+        #000 25%,
+        transparent calc(25% + 1px)
+      ),
+      linear-gradient(transparent 45%, #000 0, #000 55%, transparent 0),
+      linear-gradient(#f00 50%, #fff 0);
+    box-shadow: 0 0 0 .08em #000;
+    vertical-align: text-bottom;
+    transition: transform .1s cubic-bezier(0.25, -.5, 0.75, 1.5);
+  }
+  .submit:active::after {
+    transform: rotate(30deg);
+  }
+  .submit:empty::after {
+    display: none;
+  }
+  .submit:empty::before {
+    content: '>"<';
+  }
+</style>

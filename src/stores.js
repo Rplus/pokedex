@@ -1,6 +1,7 @@
 import { writable, readable, derived } from 'svelte/store';
 import { effData } from '@/data/_eff.js';
 import {
+  genOptions,
   handlePm, handleMove, handleEff,
   saveItem, getItem
 } from '@/u.js';
@@ -24,6 +25,14 @@ Promise.all(
   maxDex.set(d[0].pokemon[d[0].pokemon.length - 1].dex);
   console.log('gm done:', d);
 });
+
+export const datalist = derived(
+  pokemons,
+  $pokemons =>
+    $pokemons.map(pm =>
+      genOptions(pm.uid, `${pm.name}, ${pm.id.slice(0, 1).toUpperCase()}${pm.id.slice(1)}`)).join('')
+);
+
 
 
 

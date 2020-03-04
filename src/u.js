@@ -1,5 +1,9 @@
 import CPM from '@d/cpm.js';
 
+export function genOptions(v, l = v) {
+  return `<option value="${v}" label="${l}"></option>`;
+};
+
 export function handlePm(pms) {
   // for checking
   let dexMap = pms.map(p => p.dex);
