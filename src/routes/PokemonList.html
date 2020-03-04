@@ -10,6 +10,8 @@
   let type = location.hash ? location.hash.replace('#', '') : '';
   let dexRangeMin = 1;
   let dexRangeMax = 1;
+  let showall = false;
+
   let genDex = [
     [1, 151],
     [152, 251],
@@ -118,7 +120,17 @@
     <TypeFilter type={type} on:clicktype={clicktype} />
   </Details>
 
-  <div class="card pt-4">
+  <div
+    class="card card__pokemon-table pt-4"
+    class:show-all={showall}
+  >
+    <div class="text-right">
+      <label class="d-ib mb-4">
+        <input class="mb-0" type="checkbox" bind:checked={showall}>
+        Show all?
+      </label>
+    </div>
+
     <TableSort
       items={_pokemons}
       class="pokemon-table sticky-thead ml-a mr-a"
@@ -160,13 +172,38 @@
         <td title="def">{item._def}</td>
         <td title="sta">{item._sta}</td>
       </tr>
+
+
+      <tr slot="tfoot">
+        <td colspan="8"></td>
+      </tr>
+
+      <tr slot="tfoot" class="sticky-bottom">
+        <th>#</th>
+        <th>系</th>
+        <th>Name</th>
+        <th title="max CP">CP</th>
+        <th title="max HP">HP</th>
+        <th title="base Atk">Atk</th>
+        <th title="base Def">Def</th>
+        <th title="base Sta">Sta</th>
+      </tr>
     </TableSort>
   </div>
 </section>
 
 
-
 <!--  -->
 
 
-<!-- <style></style> -->
+<style>
+  .card__pokemon-table:not(.show-all) :global(.pokemon-table tr:nth-of-type(n + 40)) {
+    display: none;
+  }
+
+  .sticky-bottom th {
+    position: sticky;
+    bottom: 0;
+    box-shadow: 0 -1px 2px 0 #0002;
+  }
+</style>
