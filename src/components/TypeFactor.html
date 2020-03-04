@@ -81,7 +81,7 @@ function getFactorText(factor) {
 <style>
 .types-factor {
   position: relative;
-  box-shadow: 0 1px var(--color-6);
+  box-shadow: 0 1px var(--color-6, #ccc);
 }
 .types-factor::after {
   content: var(--factor);
@@ -89,7 +89,7 @@ function getFactorText(factor) {
   top: 1.75em;
   left: 50%;
   transform: translateX(-50%);
-  color: var(--color-4);
+  color: var(--color-4, #999);
   font-size: smaller;
 }
 </style>
