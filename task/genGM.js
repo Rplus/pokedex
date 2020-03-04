@@ -34,6 +34,7 @@ function handleJSON(json) {
         delete pm.defaultIVs;
         delete pm.level25CP;
         delete pm.baseStats;
+        delete pm.tags;
 
         ['fastMoves', 'legacyMoves'].forEach(type => {
           if (pm[type] && pm[type].indexOf('HIDDEN_POWER_BUG') !== -1) {

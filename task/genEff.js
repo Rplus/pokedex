@@ -199,7 +199,8 @@ const op = {
 const fs = require('fs');
 const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
   let fileContent = JSON.stringify(json, null, jsonSpace);
-  fs.writeFileSync(fileName, fileContent);
+  let js_prefix = 'export const effData = ';
+  fs.writeFileSync(fileName, js_prefix + fileContent);
   console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
 };
-outputJSON(op, './assets/eff.json', 0);
+outputJSON(op, './src/data/_eff.js', 2);

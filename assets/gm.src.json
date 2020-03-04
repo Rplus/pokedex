@@ -475,9 +475,6 @@
         "HYPER_FANG",
         "SHADOW_BALL"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 103,
       "_def": 70,
       "_sta": 102,
@@ -521,9 +518,6 @@
         "CRUNCH",
         "HYPER_BEAM",
         "HYPER_FANG"
-      ],
-      "tags": [
-        "alolan"
       ],
       "_atk": 135,
       "_def": 154,
@@ -705,9 +699,6 @@
         "WILD_CHARGE",
         "GRASS_KNOT"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 201,
       "_def": 154,
       "_sta": 155,
@@ -756,9 +747,6 @@
         "GYRO_BALL",
         "NIGHT_SLASH"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 125,
       "_def": 129,
       "_sta": 137,
@@ -803,9 +791,6 @@
         "BULLDOZE",
         "GYRO_BALL",
         "ICE_PUNCH"
-      ],
-      "tags": [
-        "alolan"
       ],
       "_atk": 177,
       "_def": 195,
@@ -1024,9 +1009,6 @@
         "DARK_PULSE",
         "ICE_BEAM"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 96,
       "_def": 109,
       "_sta": 116,
@@ -1081,9 +1063,6 @@
         "DAZZLING_GLEAM",
         "ICE_BEAM",
         "PSYSHOCK"
-      ],
-      "tags": [
-        "alolan"
       ],
       "_atk": 170,
       "_def": 193,
@@ -1411,9 +1390,6 @@
         "MUD_BOMB",
         "ROCK_TOMB"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 108,
       "_def": 81,
       "_sta": 67,
@@ -1462,9 +1438,6 @@
         "IRON_HEAD",
         "MUD_BOMB"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 201,
       "_def": 142,
       "_sta": 111,
@@ -1512,9 +1485,6 @@
         "FOUL_PLAY",
         "NIGHT_SLASH"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 99,
       "_def": 78,
       "_sta": 120,
@@ -1561,9 +1531,6 @@
         "DARK_PULSE",
         "FOUL_PLAY",
         "PLAY_ROUGH"
-      ],
-      "tags": [
-        "alolan"
       ],
       "_atk": 158,
       "_def": 136,
@@ -2114,9 +2081,6 @@
         "ROCK_TOMB",
         "THUNDERBOLT"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 132,
       "_def": 132,
       "_sta": 120,
@@ -2168,9 +2132,6 @@
         "STONE_EDGE",
         "THUNDERBOLT"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 164,
       "_def": 164,
       "_sta": 146,
@@ -2220,9 +2181,6 @@
         "ROCK_BLAST",
         "STONE_EDGE",
         "WILD_CHARGE"
-      ],
-      "tags": [
-        "alolan"
       ],
       "_atk": 211,
       "_def": 198,
@@ -2386,9 +2344,6 @@
         "AIR_CUTTER",
         "LEAF_BLADE"
       ],
-      "tags": [
-        "regional"
-      ],
       "legacyMoves": [
         "CUT"
       ],
@@ -2546,9 +2501,6 @@
         "GUNK_SHOT",
         "SLUDGE_BOMB"
       ],
-      "tags": [
-        "alolan"
-      ],
       "legacyMoves": [
         "ACID"
       ],
@@ -2605,9 +2557,6 @@
         "GUNK_SHOT",
         "SLUDGE_WAVE",
         "ACID_SPRAY"
-      ],
-      "tags": [
-        "alolan"
       ],
       "_atk": 190,
       "_def": 172,
@@ -2998,9 +2947,6 @@
         "SEED_BOMB",
         "SOLAR_BEAM"
       ],
-      "tags": [
-        "alolan"
-      ],
       "_atk": 230,
       "_def": 153,
       "_sta": 216,
@@ -3069,9 +3015,6 @@
         "FIRE_BLAST",
         "SHADOW_BALL",
         "FLAME_WHEEL"
-      ],
-      "tags": [
-        "alolan"
       ],
       "_atk": 144,
       "_def": 186,
@@ -3233,9 +3176,6 @@
         "PLAY_ROUGH",
         "OVERHEAT"
       ],
-      "tags": [
-        "galarian"
-      ],
       "_atk": 174,
       "_def": 197,
       "_sta": 163,
@@ -3364,9 +3304,6 @@
       "legacyMoves": [
         "BRICK_BREAK",
         "STOMP"
-      ],
-      "tags": [
-        "regional"
       ],
       "shadow": true,
       "_atk": 181,
@@ -3537,9 +3474,6 @@
         "PSYCHIC",
         "SHADOW_BALL"
       ],
-      "tags": [
-        "regional"
-      ],
       "_atk": 192,
       "_def": 205,
       "_sta": 120,
@@ -3692,9 +3626,6 @@
         "EARTHQUAKE",
         "HORN_ATTACK",
         "IRON_HEAD"
-      ],
-      "tags": [
-        "regional"
       ],
       "_atk": 198,
       "_def": 183,
@@ -4123,9 +4054,6 @@
       "legacyMoves": [
         "HURRICANE"
       ],
-      "tags": [
-        "legendary"
-      ],
       "shadow": true,
       "_atk": 192,
       "_def": 236,
@@ -4154,9 +4082,6 @@
       ],
       "legacyMoves": [
         "THUNDER_SHOCK"
-      ],
-      "tags": [
-        "legendary"
       ],
       "shadow": true,
       "_atk": 253,
@@ -4188,9 +4113,6 @@
       "legacyMoves": [
         "EMBER",
         "SKY_ATTACK"
-      ],
-      "tags": [
-        "legendary"
       ],
       "shadow": true,
       "_atk": 251,
@@ -4301,9 +4223,6 @@
         "SHADOW_BALL",
         "PSYSTRIKE"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 300,
       "_def": 182,
       "_sta": 214,
@@ -4328,9 +4247,6 @@
       ],
       "legacyMoves": [
         "PSYSTRIKE"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 182,
       "_def": 278,
@@ -4385,9 +4301,6 @@
         "THUNDER",
         "THUNDERBOLT",
         "WILD_CHARGE"
-      ],
-      "tags": [
-        "mythical"
       ],
       "_atk": 210,
       "_def": 210,
@@ -5772,9 +5685,6 @@
         "EARTHQUAKE",
         "MEGAHORN"
       ],
-      "tags": [
-        "regional"
-      ],
       "_atk": 234,
       "_def": 179,
       "_sta": 190,
@@ -5943,9 +5853,6 @@
         "BUBBLE_BEAM",
         "POWER_GEM",
         "ROCK_BLAST"
-      ],
-      "tags": [
-        "regional"
       ],
       "_atk": 118,
       "_def": 156,
@@ -6594,9 +6501,6 @@
         "RETURN",
         "FRUSTRATION"
       ],
-      "tags": [
-        "legendary"
-      ],
       "shadow": true,
       "_atk": 241,
       "_def": 195,
@@ -6618,9 +6522,6 @@
         "FLAMETHROWER",
         "IRON_HEAD",
         "OVERHEAT"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 235,
       "_def": 171,
@@ -6647,9 +6548,6 @@
       ],
       "legacyMoves": [
         "HIDDEN_POWER"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 180,
       "_def": 235,
@@ -6748,9 +6646,6 @@
         "HYDRO_PUMP",
         "SKY_ATTACK"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 193,
       "_def": 310,
       "_sta": 235,
@@ -6773,9 +6668,6 @@
         "FIRE_BLAST",
         "SOLAR_BEAM"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 239,
       "_def": 244,
       "_sta": 214,
@@ -6797,9 +6689,6 @@
         "HYPER_BEAM",
         "PSYCHIC",
         "SEED_BOMB"
-      ],
-      "tags": [
-        "mythical"
       ],
       "_atk": 210,
       "_def": 210,
@@ -7094,9 +6983,6 @@
         "GRASS_KNOT",
         "THUNDERBOLT"
       ],
-      "tags": [
-        "galarian"
-      ],
       "_atk": 58,
       "_def": 80,
       "_sta": 116,
@@ -7137,9 +7023,6 @@
         "DIG",
         "GRASS_KNOT",
         "THUNDER"
-      ],
-      "tags": [
-        "galarian"
       ],
       "_atk": 142,
       "_def": 128,
@@ -8422,9 +8305,6 @@
         "OVERHEAT",
         "SOLAR_BEAM"
       ],
-      "tags": [
-        "regional"
-      ],
       "_atk": 151,
       "_def": 203,
       "_sta": 172,
@@ -9197,9 +9077,6 @@
         "LEAF_BLADE",
         "STOMP"
       ],
-      "tags": [
-        "regional"
-      ],
       "_atk": 136,
       "_def": 163,
       "_sta": 223,
@@ -9444,9 +9321,6 @@
         "AQUA_TAIL",
         "HYDRO_PUMP"
       ],
-      "tags": [
-        "regional"
-      ],
       "_atk": 162,
       "_def": 203,
       "_sta": 225,
@@ -9633,9 +9507,6 @@
         "STONE_EDGE",
         "ZAP_CANNON"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 179,
       "_def": 309,
       "_sta": 190,
@@ -9657,9 +9528,6 @@
         "EARTHQUAKE",
         "FOCUS_BLAST"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 179,
       "_def": 309,
       "_sta": 190,
@@ -9680,9 +9548,6 @@
         "FLASH_CANNON",
         "FOCUS_BLAST",
         "HYPER_BEAM"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 143,
       "_def": 285,
@@ -9706,9 +9571,6 @@
         "PSYCHIC",
         "THUNDER"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 228,
       "_def": 246,
       "_sta": 190,
@@ -9730,9 +9592,6 @@
         "PSYCHIC",
         "SOLAR_BEAM"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 268,
       "_def": 212,
       "_sta": 190,
@@ -9753,9 +9612,6 @@
         "THUNDER",
         "SURF"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 270,
       "_def": 228,
       "_sta": 205,
@@ -9775,9 +9631,6 @@
         "EARTHQUAKE",
         "FIRE_BLAST",
         "SOLAR_BEAM"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 270,
       "_def": 228,
@@ -9800,9 +9653,6 @@
         "ANCIENT_POWER",
         "OUTRAGE"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 284,
       "_def": 170,
       "_sta": 213,
@@ -9824,9 +9674,6 @@
         "DOOM_DESIRE",
         "PSYCHIC"
       ],
-      "tags": [
-        "mythical"
-      ],
       "_atk": 210,
       "_def": 210,
       "_sta": 225,
@@ -9846,9 +9693,6 @@
         "HYPER_BEAM",
         "PSYCHO_BOOST",
         "THUNDERBOLT"
-      ],
-      "tags": [
-        "mythical"
       ],
       "_atk": 345,
       "_def": 115,
@@ -9870,9 +9714,6 @@
         "PSYCHO_BOOST",
         "ZAP_CANNON"
       ],
-      "tags": [
-        "mythical"
-      ],
       "_atk": 414,
       "_def": 46,
       "_sta": 137,
@@ -9893,9 +9734,6 @@
         "ROCK_SLIDE",
         "THUNDERBOLT"
       ],
-      "tags": [
-        "mythical"
-      ],
       "_atk": 144,
       "_def": 330,
       "_sta": 137,
@@ -9915,9 +9753,6 @@
         "PSYCHO_BOOST",
         "SWIFT",
         "THUNDERBOLT"
-      ],
-      "tags": [
-        "mythical"
       ],
       "_atk": 230,
       "_def": 218,
@@ -10660,9 +10495,6 @@
         "THUNDER_PUNCH",
         "THUNDERBOLT"
       ],
-      "tags": [
-        "regional"
-      ],
       "_atk": 94,
       "_def": 172,
       "_sta": 155,
@@ -11232,9 +11064,6 @@
         "NIGHT_SHADE",
         "SKY_ATTACK"
       ],
-      "tags": [
-        "regional"
-      ],
       "_atk": 183,
       "_def": 91,
       "_sta": 183,
@@ -11547,9 +11376,6 @@
         "CRUNCH",
         "ENERGY_BALL",
         "POWER_WHIP"
-      ],
-      "tags": [
-        "regional"
       ],
       "_atk": 187,
       "_def": 136,
@@ -12238,9 +12064,6 @@
         "SWIFT",
         "THUNDER"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 156,
       "_def": 270,
       "_sta": 181,
@@ -12261,9 +12084,6 @@
         "FUTURE_SIGHT",
         "SWIFT"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 212,
       "_def": 212,
       "_sta": 190,
@@ -12283,9 +12103,6 @@
         "FIRE_BLAST",
         "FUTURE_SIGHT",
         "SWIFT"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 270,
       "_def": 151,
@@ -12308,9 +12125,6 @@
         "IRON_HEAD",
         "THUNDER"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 275,
       "_def": 211,
       "_sta": 205,
@@ -12331,9 +12145,6 @@
         "DRACO_METEOR",
         "FIRE_BLAST",
         "HYDRO_PUMP"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 280,
       "_def": 215,
@@ -12357,9 +12168,6 @@
         "STONE_EDGE",
         "FLAMETHROWER"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 251,
       "_def": 213,
       "_sta": 209,
@@ -12379,9 +12187,6 @@
         "GIGA_IMPACT",
         "FOCUS_BLAST",
         "THUNDER"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 287,
       "_def": 210,
@@ -12404,9 +12209,6 @@
         "DRAGON_CLAW",
         "SHADOW_SNEAK"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 187,
       "_def": 225,
       "_sta": 284,
@@ -12428,9 +12230,6 @@
         "DRAGON_PULSE",
         "SHADOW_BALL"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 225,
       "_def": 187,
       "_sta": 284,
@@ -12450,9 +12249,6 @@
         "AURORA_BEAM",
         "FUTURE_SIGHT",
         "MOONBLAST"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 152,
       "_def": 258,
@@ -12513,9 +12309,6 @@
         "DARK_PULSE",
         "FOCUS_BLAST",
         "SHADOW_BALL"
-      ],
-      "tags": [
-        "mythical"
       ],
       "_atk": 285,
       "_def": 198,
@@ -15946,9 +15739,6 @@
         "THUNDER_PUNCH",
         "POWER_UP_PUNCH"
       ],
-      "tags": [
-        "regional"
-      ],
       "_atk": 204,
       "_def": 129,
       "_sta": 198,
@@ -15969,9 +15759,6 @@
         "X_SCISSOR",
         "IRON_HEAD",
         "STONE_EDGE"
-      ],
-      "tags": [
-        "regional"
       ],
       "_atk": 217,
       "_def": 188,
@@ -16100,9 +15887,6 @@
         "IRON_HEAD",
         "STONE_EDGE"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 192,
       "_def": 229,
       "_sta": 209,
@@ -16123,9 +15907,6 @@
         "CLOSE_COMBAT",
         "EARTHQUAKE",
         "ROCK_SLIDE"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 260,
       "_def": 192,
@@ -16148,9 +15929,6 @@
         "LEAF_BLADE",
         "STONE_EDGE"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 192,
       "_def": 229,
       "_sta": 209,
@@ -16172,9 +15950,6 @@
         "HYPER_BEAM",
         "HURRICANE"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 266,
       "_def": 164,
       "_sta": 188,
@@ -16195,9 +15970,6 @@
         "DARK_PULSE",
         "HYPER_BEAM",
         "HURRICANE"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 238,
       "_def": 189,
@@ -16221,9 +15993,6 @@
         "BRICK_BREAK",
         "THUNDER_PUNCH"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 266,
       "_def": 164,
       "_sta": 188,
@@ -16245,9 +16014,6 @@
         "THUNDER",
         "BRICK_BREAK",
         "THUNDER_PUNCH"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 295,
       "_def": 161,
@@ -16271,9 +16037,6 @@
         "DRACO_METEOR",
         "STONE_EDGE"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 275,
       "_def": 211,
       "_sta": 205,
@@ -16295,9 +16058,6 @@
         "WILD_CHARGE",
         "FLASH_CANNON",
         "CRUNCH"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 275,
       "_def": 211,
@@ -16321,9 +16081,6 @@
         "ROCK_SLIDE",
         "FOCUS_BLAST"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 261,
       "_def": 182,
       "_sta": 205,
@@ -16345,9 +16102,6 @@
         "OUTRAGE",
         "ROCK_SLIDE",
         "FOCUS_BLAST"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 289,
       "_def": 179,
@@ -16371,9 +16125,6 @@
         "ICY_WIND",
         "DRACO_METEOR"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 246,
       "_def": 170,
       "_sta": 245,
@@ -16396,9 +16147,6 @@
         "STONE_EDGE",
         "OUTRAGE"
       ],
-      "tags": [
-        "legendary"
-      ],
       "_atk": 310,
       "_def": 183,
       "_sta": 245,
@@ -16420,9 +16168,6 @@
         "BLIZZARD",
         "ANCIENT_POWER",
         "FOCUS_BLAST"
-      ],
-      "tags": [
-        "legendary"
       ],
       "_atk": 310,
       "_def": 183,
@@ -16635,9 +16380,6 @@
         "FLASH_CANNON",
         "THUNDERBOLT"
       ],
-      "tags": [
-        "mythical"
-      ],
       "_atk": 118,
       "_def": 99,
       "_sta": 130,
@@ -16658,9 +16400,6 @@
         "ROCK_SLIDE",
         "THUNDERBOLT",
         "SUPER_POWER"
-      ],
-      "tags": [
-        "mythical"
       ],
       "_atk": 226,
       "_def": 190,
