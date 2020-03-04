@@ -87,8 +87,11 @@
             <td class="move-name">
               <Ruby>
                 <div class="pos-r" slot="rb">
-                  <a href="./move/{item.moveId}">
                   <TypeIcon type={item.type} class="typeicon__move" />
+                  <a href="./move/{item.moveId}"
+                    class:is-stab={item.stab}
+                    class:is-legacy={item.isLegacy}
+                  >
                     {item.name}
                   </a>
                 </div>

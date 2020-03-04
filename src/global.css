@@ -160,6 +160,19 @@ details details summary {
   --sort-dir: 180deg;
 }
 
+.is-stab {
+  text-shadow: var(--glow-text, 0 1px 1px #66c);
+}
+.is-legacy::after {
+  content: '†';
+  position: absolute;
+  top: -.2em;
+  padding-left: .1em;
+  font-size: smaller;
+  color: var(--color-3, #666);
+  text-shadow: none;
+}
+
 .workspace {
   max-width: 40rem;
   margin-left: auto;
