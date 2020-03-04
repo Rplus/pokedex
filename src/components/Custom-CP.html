@@ -44,7 +44,7 @@ $: calcResult = calPmCPHP(ads, customeInputs.map(i => i.value));
     <table class="custom-cp text-center">
       <colgroup>
         <col />
-        <col width="70" align="center" />
+        <col width="85" />
         <col />
       </colgroup>
 
@@ -56,10 +56,19 @@ $: calcResult = calPmCPHP(ads, customeInputs.map(i => i.value));
             </label>
           </td>
           <td>
-            <input type="number" class="w-100" max={input.max} min={input.min} step={input.step} bind:value={input.value} id="c_{input.title}">
+            <input type="number"
+              class="w-100 text-center mb-0"
+              max={input.max} min={input.min} step={input.step}
+              bind:value={input.value}
+              id="c_{input.title}"
+            >
           </td>
           <td>
-            <input type="range" max={input.max} min={input.min} step={input.step} bind:value={input.value}>
+            <input type="range"
+              class="mb-0"
+              max={input.max} min={input.min} step={input.step}
+              bind:value={input.value}
+            >
           </td>
         </tr>
       {/each}
