@@ -54,8 +54,8 @@ $: {
 
     <Details type="pm_meta" class="card">
       <summary class="pos-r">
-        <h2>
-          <div class="df">
+        <h2 class="d-if fxw-w" style="width: calc(100% - 1rem - 2vw)">
+          <div class="df fxw-w">
             <Ruby>
               <div slot="rb">
                 {pm.name}
@@ -71,7 +71,7 @@ $: {
             </span>
           </div>
 
-          <div class="ads fw-n">
+          <div class="ads fw-n ml-a">
             Atk: {pm._atk}<br>
             Def: {pm._def}<br>
             Sta: {pm._sta}<br>
@@ -100,9 +100,6 @@ $: {
 
 <style>
   .ads {
-    position: absolute;
-    top: 1.5em;
-    right: 0;
     font-size: initial;
   }
 </style>
