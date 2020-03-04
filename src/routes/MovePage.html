@@ -5,6 +5,8 @@ import { moves, pokemons } from '@/stores.js';
 
 import TypeFactor from '@c/TypeFactor.html';
 import Details from '@c/Details.html';
+import Ruby from '@c/Ruby.html';
+import TypeIcon from '@c/TypeIcon.html';
 
 export let params = {};
 
@@ -44,24 +46,16 @@ $: {
 
 {#if move}
   <section>
-
     <section class="card">
+      <h2 class="d-if">
+        <Ruby class="_">
+          <div slot="rb">{move.name}</div>
+          <div slot="rt">{move.moveId}</div>
+        </Ruby>
+        <TypeIcon type={move.type} />
+      </h2>
+
       <table>
-        <tr>
-          <td>name</td>
-          <td>{move.name}</td>
-        </tr>
-
-        <tr>
-          <td>moveId</td>
-          <td>{move.moveId}</td>
-        </tr>
-
-        <tr>
-          <td>type</td>
-          <td>{move.type}</td>
-        </tr>
-
         <tr>
           <td title="傷害">Power</td>
           <td>{move.power}</td>
@@ -121,9 +115,10 @@ $: {
     <TypeFactor types={[move.type]} role="⚔️" />
 
 
-    <Details type="samemove">
-      <summary><h2>Pokemon with this Move</h2></summary>
-      <TableSort items={pms}>
+    <Details type="samemove" class="card">
+      <summary><h3>Pokemon with this Move</h3></summary>
+
+      <TableSort items={pms} class="ml-a mr-a">
         <tr slot="thead">
           <th data-sort="dex" data-sort-initial>Dex</th>
           <th data-sort="name">Name</th>
@@ -140,12 +135,6 @@ $: {
         </tr>
       </TableSort>
     </Details>
-
-    <!--
-    <pre>
-      {JSON.stringify(move, null, 2)}
-    </pre>
-    -->
   </section>
 {/if}
 
