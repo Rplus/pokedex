@@ -23,6 +23,7 @@
 
   import { onDestroy } from 'svelte';
   import Nav from '@c/Nav.svelte';
+  import { router } from '@/stores.js';
 
   let Route, params, active;
   let uri = location.pathname;
@@ -42,7 +43,7 @@
   addEventListener('pushstate', track);
   addEventListener('popstate', track);
 
-  const router = Navaid('/', () => draw(Home))
+  $router = Navaid('/', () => draw(Home))
     .on('/', () => draw(Home))
     .on('/about', () => draw(About))
     .on('/move', () => draw(MoveList))
@@ -52,8 +53,7 @@
     .on('/info', () => draw(Info))
     .listen();
 
-
-  onDestroy(router.unlisten);
+  onDestroy($router.unlisten);
 </script>
 
 
