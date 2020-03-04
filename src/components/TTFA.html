@@ -81,10 +81,10 @@ function genPairs() {
   <div>
     <TableSort items={pairs} class="ml-a mr-a">
       <tr slot="thead">
-        <th data-sort="turns" data-sort-initial>T</th>
-        <th data-sort="hits">H</th>
-        <th data-sort="dmg_t">ΣD</th>
-        <th data-sort="dpt">DPT</th>
+        <th data-sort="turns" title="回合" data-sort-initial>T</th>
+        <th data-sort="hits" title="小招攻擊次數">H</th>
+        <th data-sort="dmg_t" title="循環傷害 (+STAB)">ΣD</th>
+        <th data-sort="dpt" title="回合均傷 (+STAB)">DPT</th>
         <th>小招</th>
         <th>大招</th>
       </tr>
@@ -96,6 +96,24 @@ function genPairs() {
         <td>{item.dpt}</td>
         <td class={item.f.stab ? 'is-stab' : ''}>{item.f.name}</td>
         <td class={item.c.stab ? 'is-stab' : ''}>{item.c.name}</td>
+      </tr>
+
+      <tr slot="tfoot">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr slot="tfoot" class="fz-s" style="color: #999">
+        <td>回合</td>
+        <td>小招<br>攻擊<br>次數</td>
+        <td>循環<br>傷害<br><sub>(+STAB)</sub></td>
+        <td>回合<br>均傷<br>(+STAB)</td>
+        <td>小招</td>
+        <td>大招</td>
       </tr>
     </TableSort>
   </div>
