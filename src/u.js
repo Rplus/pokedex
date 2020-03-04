@@ -177,7 +177,6 @@ export function handleEff(jsondata) {
     .split(jsondata.spliter.atk)
     .map(i => i.split(jsondata.spliter.def));
 
-    console.log(data);
   let op = jsondata.types.map(type => ({
     type,
     effs: [[], [], [], []],
