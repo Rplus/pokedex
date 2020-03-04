@@ -11,7 +11,7 @@
   let type = location.hash ? location.hash.replace('#', '') : '';
 
   $: {
-    if (type && !$eff.some(eff => eff.type === type)) {
+    if (type && $eff.length && !$eff.some(eff => eff.type === type)) {
       type = null;
     }
     _moves = moveHandle($moves, type);
