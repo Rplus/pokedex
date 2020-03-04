@@ -43,6 +43,9 @@
     filter: grayscale(1) opacity(.5);
   }
 
+  :global(.filter-icon.active) {
+    filter: drop-shadow(0 .1em .05em #0009);
+  }
   :global(.filter-icon.active::before) {
     content: '';
     position: absolute;
