@@ -45,25 +45,6 @@ export function calPmCPHP(base, adsl) {
 
 
 
-
-const buffTypes = ['攻', '防'];
-const buffTargets = {
-  opponent: '敵',
-  self: '己',
-};
-
-export function introEffect(move) {
-  let buffs = move.buffs.map((b, index) => {
-    if (!b) { return ''}
-    return `${b > 0 ? '+' : ''}${b}階${buffTypes[index]}`;
-  }).filter(Boolean).join(', ');
-  return `[${buffTargets[move.buffTarget]}], ${move.buffApplyChance * 100}%, ${buffs}`;
-}
-
-
-
-
-
 export function handleMove(moves) {
   return moves.map(m => {
     m.isFast = !!m.energyGain;

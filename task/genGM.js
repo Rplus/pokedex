@@ -12,6 +12,21 @@ let contents = fs.readFileSync('./tmp/gamemaster.json', 'utf8');
 
 handleJSON(JSON.parse(contents));
 
+
+function introEffect(move) {
+  let buffTypes = ['攻', '防'];
+  let buffTargets = {
+    opponent: '敵',
+    self: '己',
+  };
+  let buffs = move.buffs.map((b, index) => {
+    if (!b) { return ''}
+    return `${b > 0 ? '+' : ''}${b}階${buffTypes[index]}`;
+  }).filter(Boolean).join(', ');
+  return `[${buffTargets[move.buffTarget]}], ${move.buffApplyChance * 100}%, ${buffs}`;
+}
+
+
 function handleJSON(json) {
       let { pokemon, moves, shadowPokemon } = json;
 
@@ -73,6 +88,14 @@ function handleJSON(json) {
         if (move.buffApplyChance) {
           move.buffApplyChance = move.buffApplyChance * 1;
         }
+
+        if (move.buffs) {
+          move.effect = introEffect(move);
+          delete move.buffs;
+          delete move.buffTarget;
+          delete move.buffApplyChance;
+        }
+
         move.turn = move.cooldown / 500;
         delete move.cooldown;
       });

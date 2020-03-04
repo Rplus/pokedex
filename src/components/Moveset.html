@@ -1,6 +1,6 @@
 <script>
   import { moves } from '@/stores.js';
-  import { copy, fixNum, introEffect } from '@/u.js';
+  import { copy, fixNum } from '@/u.js';
   import { TableSort } from 'svelte-tablesort';
 
   // import PMMove from '@c/PMMove.html';
@@ -28,9 +28,6 @@
       mmm.eptxdpt = fixNum(mmm.ept * mmm.dpt);
     } else {
       mmm.dpe = fixNum(mmm.power / mmm.energy);
-      if (mmm.buffs) {
-        mmm.buffsDes = introEffect(mmm);
-      }
     }
 
     return mmm;
@@ -79,7 +76,7 @@
             {:else}
               <th data-sort="energy">E</th>
               <th data-sort="dpe">DPE</th>
-              <th data-sort="buffsDes">Effect</th>
+              <th data-sort="effect">Effect</th>
             {/if}
           </tr>
 
@@ -110,7 +107,7 @@
             {:else}
               <td class="energy-bar" style="--bgzx: {item.energy}%">{item.energy}</td>
               <td>{item.dpe}</td>
-              <td>{item.buffsDes}</td>
+              <td>{item.effect}</td>
             {/if}
           </tr>
         </TableSort>

@@ -16425,12 +16425,7 @@
       "power": 20,
       "energy": 50,
       "energyGain": 0,
-      "buffs": [
-        0,
-        -2
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 1,
+      "effect": "[敵], 100%, -2階防",
       "turn": 1
     },
     {
@@ -16467,12 +16462,7 @@
       "power": 70,
       "energy": 45,
       "energyGain": 0,
-      "buffs": [
-        2,
-        2
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 0.1,
+      "effect": "[己], 10%, +2階攻, +2階防",
       "turn": 1
     },
     {
@@ -16617,12 +16607,7 @@
       "power": 25,
       "energy": 40,
       "energyGain": 0,
-      "buffs": [
-        -1,
-        0
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 1,
+      "effect": "[敵], 100%, -1階攻",
       "turn": 1
     },
     {
@@ -16695,12 +16680,7 @@
       "power": 100,
       "energy": 45,
       "energyGain": 0,
-      "buffs": [
-        0,
-        -2
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 1,
+      "effect": "[己], 100%, -2階防",
       "turn": 1
     },
     {
@@ -16728,12 +16708,7 @@
       "power": 75,
       "energy": 50,
       "energyGain": 0,
-      "buffs": [
-        2,
-        0
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 0.125,
+      "effect": "[己], 12.5%, +2階攻",
       "turn": 1
     },
     {
@@ -16833,12 +16808,7 @@
       "power": 150,
       "energy": 65,
       "energyGain": 0,
-      "buffs": [
-        -2,
-        0
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 1,
+      "effect": "[己], 100%, -2階攻",
       "turn": 1
     },
     {
@@ -16929,12 +16899,7 @@
       "power": 90,
       "energy": 55,
       "energyGain": 0,
-      "buffs": [
-        0,
-        -1
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 0.1,
+      "effect": "[敵], 10%, -1階防",
       "turn": 1
     },
     {
@@ -16980,12 +16945,7 @@
       "power": 20,
       "energy": 35,
       "energyGain": 0,
-      "buffs": [
-        1,
-        0
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 1,
+      "effect": "[己], 100%, +1階攻",
       "turn": 1
     },
     {
@@ -17319,12 +17279,7 @@
       "power": 60,
       "energy": 45,
       "energyGain": 0,
-      "buffs": [
-        -1,
-        0
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 1,
+      "effect": "[敵], 100%, -1階攻",
       "turn": 1
     },
     {
@@ -17388,12 +17343,7 @@
       "power": 45,
       "energy": 40,
       "energyGain": 0,
-      "buffs": [
-        -1,
-        0
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 0.5,
+      "effect": "[敵], 50%, -1階攻",
       "turn": 1
     },
     {
@@ -17493,12 +17443,7 @@
       "power": 35,
       "energy": 35,
       "energyGain": 0,
-      "buffs": [
-        -1,
-        0
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 0.3,
+      "effect": "[敵], 30%, -1階攻",
       "turn": 1
     },
     {
@@ -17526,12 +17471,7 @@
       "power": 35,
       "energy": 35,
       "energyGain": 0,
-      "buffs": [
-        -1,
-        0
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 0.3,
+      "effect": "[敵], 30%, -1階攻",
       "turn": 2
     },
     {
@@ -17568,12 +17508,7 @@
       "power": 50,
       "energy": 35,
       "energyGain": 0,
-      "buffs": [
-        2,
-        0
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 0.125,
+      "effect": "[己], 12.5%, +2階攻",
       "turn": 1
     },
     {
@@ -17583,12 +17518,7 @@
       "power": 50,
       "energy": 50,
       "energyGain": 0,
-      "buffs": [
-        -2,
-        0
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 0.5,
+      "effect": "[敵], 50%, -2階攻",
       "turn": 1
     },
     {
@@ -17598,12 +17528,7 @@
       "power": 50,
       "energy": 40,
       "energyGain": 0,
-      "buffs": [
-        2,
-        2
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 0.1,
+      "effect": "[己], 10%, +2階攻, +2階防",
       "turn": 1
     },
     {
@@ -17631,12 +17556,7 @@
       "power": 130,
       "energy": 55,
       "energyGain": 0,
-      "buffs": [
-        -2,
-        0
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 1,
+      "effect": "[己], 100%, -2階攻",
       "turn": 1
     },
     {
@@ -17736,12 +17656,7 @@
       "power": 20,
       "energy": 35,
       "energyGain": 0,
-      "buffs": [
-        1,
-        0
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 1,
+      "effect": "[己], 100%, +1階攻",
       "turn": 1
     },
     {
@@ -17787,12 +17702,7 @@
       "power": 90,
       "energy": 55,
       "energyGain": 0,
-      "buffs": [
-        0,
-        -1
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 0.1,
+      "effect": "[敵], 10%, -1階防",
       "turn": 1
     },
     {
@@ -17802,12 +17712,7 @@
       "power": 70,
       "energy": 35,
       "energyGain": 0,
-      "buffs": [
-        -2,
-        0
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 1,
+      "effect": "[己], 100%, -2階攻",
       "turn": 1
     },
     {
@@ -17934,12 +17839,7 @@
       "power": 25,
       "energy": 40,
       "energyGain": 0,
-      "buffs": [
-        0,
-        -1
-      ],
-      "buffTarget": "opponent",
-      "buffApplyChance": 1,
+      "effect": "[敵], 100%, -1階防",
       "turn": 1
     },
     {
@@ -18021,12 +17921,7 @@
       "power": 70,
       "energy": 45,
       "energyGain": 0,
-      "buffs": [
-        2,
-        2
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 0.1,
+      "effect": "[己], 10%, +2階攻, +2階防",
       "turn": 1
     },
     {
@@ -18036,12 +17931,7 @@
       "power": 130,
       "energy": 75,
       "energyGain": 0,
-      "buffs": [
-        0,
-        1
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 1,
+      "effect": "[己], 100%, +1階防",
       "turn": 1
     },
     {
@@ -18195,12 +18085,7 @@
       "power": 85,
       "energy": 40,
       "energyGain": 0,
-      "buffs": [
-        -1,
-        -1
-      ],
-      "buffTarget": "self",
-      "buffApplyChance": 1,
+      "effect": "[己], 100%, -1階攻, -1階防",
       "turn": 1
     },
     {
