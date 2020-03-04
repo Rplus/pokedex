@@ -50,13 +50,13 @@ function getFactorText(factor) {
 
 
 
-<Details type="types-{role}" klass="card">
+<Details type="types-{role}" class="card">
   <summary>
     <h3>
       各屬性招式傷害係數({role})
       <div class="d-if">
         {#each types as type}
-          <TypeIcon type={type} klass="mr-1" />
+          <TypeIcon type={type} class="mr-1" />
         {/each}
       </div>
     </h3>
@@ -69,7 +69,7 @@ function getFactorText(factor) {
         style="order: {factor[0]}; --factor: 'x{getFactorText(factor[0])}'"
       >
         {#each factor[1] as type}
-          <TypeIcon klass="mr-1" type={type} />
+          <TypeIcon class="mr-1" type={type} />
         {/each}
       </div>
     {/each}

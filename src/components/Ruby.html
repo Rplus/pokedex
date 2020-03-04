@@ -1,13 +1,12 @@
 <script>
-  export let klass = 'df fd-c ai-c text-center';
-  // export let subtitle;
-  // export let pos = 'bottom';
+  let className = 'df fd-c ai-c text-center';
+  export { className as class };
 </script>
 
 
 
 
-<div class={klass}>
+<div class={className}>
   <slot name="rb" />
   <div class="rt">
     <slot name="rt" />

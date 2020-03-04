@@ -20,7 +20,7 @@
   {#each $eff as eff}
     <TypeIcon
       type={eff.type}
-      klass={eff.type === type ? 'filter-icon active' : 'filter-icon'}
+      class={eff.type === type ? 'filter-icon active' : 'filter-icon'}
       click={_clickType.bind(eff.type)}
     />
   {/each}

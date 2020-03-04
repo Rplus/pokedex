@@ -51,7 +51,7 @@
 
   <TypeFilter type={type} on:clicktype={clicktype} />
 
-  <Details type="fastmove" klass="card">
+  <Details type="fastmove" class="card">
     <summary class="sticky top-0"><h2>Fast</h2></summary>
 
 
@@ -75,7 +75,7 @@
         </td>
         <td>
           <a href="./move/{item.moveId}">
-            <Ruby klass="x">
+            <Ruby class="x">
               <div slot="rb">{item.name}</div>
               <div slot="rt">{item.moveId}</div>
             </Ruby>
@@ -91,7 +91,7 @@
     </TableSort>
   </Details>
 
-  <Details type="chargemove" klass="card">
+  <Details type="chargemove" class="card">
     <summary class="sticky top-0"><h2>Charge</h2></summary>
 
     <TableSort
@@ -108,11 +108,11 @@
       </tr>
       <tr slot="tbody" let:item={item}>
         <td class="p-0 text-center">
-          <TypeIcon type={item.type} klass="d-ib" />
+          <TypeIcon type={item.type} class="d-ib" />
         </td>
         <td>
           <a href="./move/{item.moveId}">
-            <Ruby klass="x">
+            <Ruby class="x">
               <div slot="rb">{item.name}</div>
               <div slot="rt">{item.moveId}</div>
             </Ruby>

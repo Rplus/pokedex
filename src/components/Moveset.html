@@ -62,7 +62,7 @@
 
 <section class="moves">
   {#each mdata as mmm}
-    <Details type={mmm.setting} klass="card">
+    <Details type={mmm.setting} class="card">
       <summary><h3 class="moveset-title d-ib">{mmm.title}</h3></summary>
 
       <div>
@@ -87,8 +87,8 @@
             <td class="move-name">
               <Ruby>
                 <div class="pos-r" slot="rb">
-                  <TypeIcon type={item.type} klass="typeicon__move" />
                   <a href="./move/{item.moveId}">
+                  <TypeIcon type={item.type} class="typeicon__move" />
                     {item.name}
                   </a>
                 </div>

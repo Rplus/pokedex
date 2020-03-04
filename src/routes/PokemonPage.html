@@ -33,7 +33,7 @@ $: {
 {#if pm}
   <section>
 
-    <Details type="pm_meta" klass="card">
+    <Details type="pm_meta" class="card">
       <summary class="pos-r">
         <h2>
           <div class="df">
@@ -47,7 +47,7 @@ $: {
             <sup class="fw-n ml-1 mr-1">#{pm.dex}</sup>
             <span class="d-if">
               {#each pm.types as type}
-                <TypeIcon type={type} klass="mr-1" />
+                <TypeIcon type={type} class="mr-1" />
               {/each}
             </span>
           </div>
