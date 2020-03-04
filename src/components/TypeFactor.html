@@ -10,7 +10,7 @@ export let role = '🛡️';
 const o_types = $eff.map(t => t.type);
 let renderTypeFactor = [];
 
-$: {
+{
   let effTable = o_types.reduce((all, t) => {
     all[t] = 0;
     return all;
