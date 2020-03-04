@@ -1,6 +1,6 @@
 <script>
   import { TableSort } from 'svelte-tablesort';
-  import { pokemons, eff, maxDex } from '@/stores.js';
+  import { pokemons, eff, maxDex, settings } from '@/stores.js';
   import TypeIcon from '@c/TypeIcon.html';
   import Details from '@c/Details.html';
   import TypeFilter from '@c/TypeFilter.html';
@@ -10,7 +10,11 @@
   let type = location.hash ? location.hash.replace('#', '') : '';
   let dexRangeMin = 1;
   let dexRangeMax = 1;
-  let showall = false;
+  let showAllTable = $settings.showAllTable || null;
+
+  $: {
+    $settings.showAllTable = showAllTable;
+  }
 
   let genDex = [
     [1, 151],
@@ -122,11 +126,13 @@
 
   <div
     class="card card__pokemon-table pt-4"
-    class:show-all={showall}
+    class:show-all={showAllTable}
   >
     <div class="text-right">
       <label class="d-ib mb-4">
-        <input class="mb-0" type="checkbox" bind:checked={showall}>
+        <input class="mb-0" type="checkbox"
+          bind:checked={showAllTable}
+        >
         Show all?
       </label>
     </div>

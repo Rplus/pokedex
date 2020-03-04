@@ -51,10 +51,10 @@ const defaultSettings = {
 };
 const _settings = {
   details: localSettings.details || defaultSettings,
-  gridview: localSettings.gridview,
-  darktheme: localSettings.darktheme === undefined
-    ? isOsDarktheme
-    : localSettings.darktheme,
+  showAllTable: localSettings.showAllTable,
+  // darktheme: localSettings.darktheme === undefined
+  //   ? isOsDarktheme
+  //   : localSettings.darktheme,
 };
 
 
