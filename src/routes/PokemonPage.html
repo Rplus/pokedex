@@ -7,21 +7,35 @@ import Moveset from '@c/Moveset.html';
 import TypeFactor from '@c/TypeFactor.html';
 import Ruby from '@c/Ruby.html';
 import TypeIcon from '@c/TypeIcon.html';
+import FloatLink from '@c/FloatLink.html';
 
 let pm;
 let ads;
+let nextPm;
+let prevPm;
 
 $: {
   if ($pokemons.length) {
-    pm = $pokemons.find(pm => pm.uid === params.uid);
+    let idx = $pokemons.findIndex(pm => pm.uid === params.uid);
+    if (idx === -1) {
+      idx = 0;
+    }
+    pm = $pokemons[idx];
+
     ads = {
       atk: pm._atk,
       def: pm._def,
       sta: pm._sta,
     };
+
+    if (idx > 1) {
+      prevPm = $pokemons[idx - 1];
+    }
+    if (idx < $pokemons.length - 2) {
+      nextPm = $pokemons[idx + 1];
+    }
   }
 }
-
 
 </script>
 
@@ -31,7 +45,9 @@ $: {
 </svelte:head>
 
 {#if pm}
-  <section>
+  <section class="pos-r df fd-c">
+
+    <FloatLink pm1={prevPm} pm2={nextPm} />
 
     <Details type="pm_meta" class="card">
       <summary class="pos-r">

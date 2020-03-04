@@ -1,0 +1,95 @@
+<script>
+  import Ruby from '@c/Ruby.html';
+  export let pm1;
+  export let pm2;
+</script>
+
+
+
+<div class="float-links fz-s">
+  {#if pm1}
+    <div class="card float-card left">
+      <a href="./pokemon/{pm1.uid}">
+        #{pm1.dex}
+        <br>
+        {#if pm1.formName}
+          <Ruby class="x">
+            <div slot="rb">{pm1.formName[0]}</div>
+            <div slot="rt">{pm1.formName[1]}</div>
+          </Ruby>
+        {:else}
+          {pm1.name}
+        {/if}
+      </a>
+    </div>
+  {/if}
+
+  {#if pm2}
+    <div class="card float-card right">
+      <a href="./pokemon/{pm2.uid}">
+        #{pm2.dex}
+        <br>
+        {#if pm2.formName}
+          <Ruby class="x">
+            <div slot="rb">{pm2.formName[0]}</div>
+            <div slot="rt">{pm2.formName[1]}</div>
+          </Ruby>
+        {:else}
+          {pm2.name}
+        {/if}
+      </a>
+    </div>
+  {/if}
+</div>
+
+
+
+
+<style>
+  .float-card {
+    --pos: calc(100% + 1em);
+    position: absolute;
+    top: 0;
+    width: fit-content;
+    max-width: 10em;
+    padding: .5em 1em;
+    border-radius: .25em;
+    opacity: .5;
+  }
+  .float-card:hover {
+    opacity: unset;
+  }
+
+  .float-card.left {
+    right: var(--pos);
+  }
+  .float-card.right {
+    left: var(--pos);
+  }
+
+  .float-card a {
+    display: block;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: inherit;
+  }
+  .float-links {
+    position: sticky;
+    top: .5em;
+  }
+
+  @media (max-width: 900px) {
+    .float-links {
+      position: relative;
+      top: unset;
+      display: flex;
+      justify-content: space-between;
+      order: 1;
+    }
+
+    .float-card {
+      position: static;
+    }
+  }
+
+</style>
