@@ -63,52 +63,52 @@ $: {
         </tr>
 
         <tr>
-          <td>power</td>
+          <td title="傷害">Power</td>
           <td>{move.power}</td>
         </tr>
 
         {#if move.isFast}
 
           <tr>
-            <td>energyGain</td>
+            <td title="能量(得)">Energy</td>
             <td>{move.energyGain}</td>
           </tr>
 
           <tr>
-            <td>turn</td>
+            <td title="回合">Turn</td>
             <td>{move.turn}</td>
           </tr>
 
           <tr>
-            <td>ept</td>
+            <td>EPT</td>
             <td>{move.ept}</td>
           </tr>
 
           <tr>
-            <td>dpt</td>
+            <td>DPT</td>
             <td>{move.dpt}</td>
           </tr>
 
           <tr>
-            <td>eptxdpt</td>
+            <td>EPT x DPT</td>
             <td>{move.eptxdpt}</td>
           </tr>
 
         {:else}
 
           <tr>
-            <td>energy</td>
             <td>{move.energy}</td>
+            <td title="能量(出)">Energy</td>
           </tr>
 
           <tr>
-            <td>dpe</td>
+            <td>DPE</td>
             <td>{move.dpe}</td>
           </tr>
 
           {#if move.buffsDes}
             <tr>
-              <td>effect</td>
+              <td title="效果">Effect</td>
               <td>{move.buffsDes}</td>
             </tr>
           {/if}
