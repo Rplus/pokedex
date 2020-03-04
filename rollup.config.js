@@ -45,6 +45,7 @@ export default {
       entries: [
         { find: '@c', replacement: './src/components' },
         { find: '@r', replacement: './src/routes' },
+        { find: '@d', replacement: './src/data' },
         { find: '@', replacement: './src' },
       ],
     }),
