@@ -132,7 +132,9 @@ $: {
         </tr>
         <tr slot="tbody" let:item={item}>
           <td>{item.dex}</td>
-          <td><a href="./pokemon/{item.uid}">{item.name}</a></td>
+          <td class={item.stab ? 'is-stab' : ''}>
+            <a href="./pokemon/{item.uid}">{item.name}</a>
+          </td>
           <td>{item.atk}</td>
           <td>{item.maxcp}</td>
         </tr>
