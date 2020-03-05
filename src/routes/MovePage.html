@@ -18,7 +18,6 @@ $: {
   if ($moves.length) {
     move = $moves.find(pm => pm.moveId === params.moveId);
 
-    console.log(move);
     pms = $pokemons
     .filter(pm => {
       return mt.some(t => pm[t] && pm[t].includes(params.moveId));
