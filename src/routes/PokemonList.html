@@ -1,6 +1,7 @@
 <script>
   import { TableSort } from 'svelte-tablesort';
-  import { pokemons, eff, maxDex, settings } from '@/stores.js';
+  import { pokemons, maxDex, settings } from '@/stores.js';
+  import eff from '@d/eff.js';
   import TypeIcon from '@c/TypeIcon.html';
   import Details from '@c/Details.html';
   import TypeFilter from '@c/TypeFilter.html';
@@ -26,7 +27,7 @@
 
   $: {
     if ($pokemons.length) {
-      if (type && !$eff.some(eff => eff.type === type)) {
+      if (type && !eff.some(_eff => _eff.type === type)) {
         type = null;
       }
       _pokemons = moveHandle($pokemons, type, dexRangeMin, dexRangeMax);

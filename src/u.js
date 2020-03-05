@@ -70,40 +70,6 @@ export function handleMove(moves) {
 
 
 
-export function handleEff(jsondata) {
-  let effMap = Object.keys(jsondata.effMap).reduce((all, i) => {
-    all[jsondata.effMap[i]] = +i;
-    return all;
-  }, {});
-
-  let data = jsondata.data
-    .split(jsondata.spliter.atk)
-    .map(i => i.split(jsondata.spliter.def));
-
-  let op = jsondata.types.map(type => ({
-    type,
-    effs: [[], [], [], []],
-  }));
-
-  for (let ai in data) {
-    let at = jsondata.types[ai];
-    for (let _i in data[ai]) {
-      let eff = effMap[data[ai][_i].slice(0, 1)];
-      let di = +data[ai][_i].slice(1);
-      let dt = jsondata.types[di];
-
-      op[ai].effs[eff > 0 ? 0 : 1].push({type: dt, factor: eff});
-      op[di].effs[eff > 0 ? 2 : 3].push({type: at, factor: eff});
-    }
-  }
-
-  return op;
-}
-
-
-
-
-
 export function copy(obj) {
   return JSON.parse(JSON.stringify(obj));
 }

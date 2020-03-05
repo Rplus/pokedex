@@ -2,12 +2,12 @@
 import Details from '@c/Details.html';
 import TypeIcon from '@c/TypeIcon.html';
 import { fixNum } from '@/u.js';
-import { eff } from '@/stores.js';
+import eff from '@d/eff.js';
 
 export let types = [];
 export let role = '🛡️';
 
-const o_types = $eff.map(t => t.type);
+const o_types = eff.map(i => i.type);
 let renderTypeFactor = [];
 
 {
@@ -17,7 +17,7 @@ let renderTypeFactor = [];
   }, {});
 
   types.forEach(type => {
-    let targetEffs = $eff.find(e => e.type === type).effs;
+    let targetEffs = eff.find(e => e.type === type).effs;
     let queryEffs;
 
     if (role === '🛡️') {

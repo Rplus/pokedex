@@ -1,6 +1,7 @@
 <script>
   import { TableSort } from 'svelte-tablesort';
-  import { moves, eff } from '@/stores.js';
+  import { moves } from '@/stores.js';
+  import eff from '@d/eff.js';
   import { copy } from '@/u.js';
   import Details from '@c/Details.html';
   import TypeFilter from '@c/TypeFilter.html';
@@ -11,7 +12,7 @@
   let type = location.hash ? location.hash.replace('#', '') : '';
 
   $: {
-    if (type && $eff.length && !$eff.some(eff => eff.type === type)) {
+    if (type && !eff.some(_eff => _eff.type === type)) {
       type = null;
     }
     _moves = moveHandle($moves, type);

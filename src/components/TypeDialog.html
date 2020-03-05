@@ -1,6 +1,7 @@
 <script>
 import Dialog from '@c/Dialog.html';
-import { eff, typeTarget } from '@/stores.js';
+import { typeTarget } from '@/stores.js';
+import eff from '@d/eff.js';
 
 function close() {
   $typeTarget = null;
@@ -18,7 +19,7 @@ function changeType(e) {
 
 <Dialog closeFn={close} hidden={!$typeTarget}>
   <div class="card">
-    {#each $eff as dataRow}
+    {#each eff as dataRow}
       <div
         class="type-chart"
         class:is-show={$typeTarget === dataRow.type}

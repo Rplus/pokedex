@@ -1,6 +1,6 @@
 <script>
   import TypeIcon from '@c/TypeIcon.html';
-  import { eff } from '@/stores.js';
+  import eff from '@d/eff.js';
   import { createEventDispatcher } from 'svelte';
 
   const dispatch = createEventDispatcher();
@@ -17,11 +17,11 @@
 
 
 <div class="df fxw-w jc-c mb-6 filter-icons">
-  {#each $eff as eff}
+  {#each eff as eff_item}
     <TypeIcon
-      type={eff.type}
-      class={eff.type === type ? 'filter-icon active' : 'filter-icon'}
-      click={_clickType.bind(eff.type)}
+      type={eff_item.type}
+      class={eff_item.type === type ? 'filter-icon active' : 'filter-icon'}
+      click={_clickType.bind(eff_item.type)}
     />
   {/each}
 </div>

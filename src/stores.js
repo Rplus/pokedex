@@ -1,5 +1,4 @@
 import { writable, readable, derived } from 'svelte/store';
-import { effData } from '@/data/_eff.js';
 import {
   genOptions,
   handlePm, handleMove, handleEff,
@@ -10,7 +9,6 @@ import {
 export const pokemons = writable([]);
 export const moves = writable([]);
 export const maxDex = writable(0);
-export const eff = readable(handleEff(effData));
 export const router = writable(null);
 
 Promise.all(
