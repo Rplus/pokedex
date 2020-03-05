@@ -3,6 +3,7 @@ import CPM from '@d/cpm.js';
 import { fixNum } from '@/u.js';
 import TypeTable from '@c/TypeTable.html';
 import CostCalc from '@c/CostCalc.html';
+import Details from '@c/Details.html';
 
 let _cpm = Object.keys(CPM)
   .map(lv => ({ lv: lv, m: CPM[lv] }))
@@ -23,7 +24,7 @@ let pvp_eff = [
 
 
 
-<details class="card" open>
+<Details class="card" type="pvp_buff">
   <summary>
     <h3>PVP Buff / Debuff factor</h3>
   </summary>
@@ -47,13 +48,13 @@ let pvp_eff = [
       {/each}
     </table>
   </div>
-</details>
+</Details>
 
 <CostCalc />
 
 <TypeTable />
 
-<details class="card">
+<Details class="card" type="cpm_table">
   <summary>
     <h3>Level Multiplier (CPm)</h3>
   </summary>
@@ -68,7 +69,7 @@ let pvp_eff = [
       {/each}
     </table>
   </div>
-</details>
+</Details>
 
 
 
