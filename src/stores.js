@@ -1,7 +1,7 @@
 import { writable, readable, derived } from 'svelte/store';
 import {
   genOptions,
-  handlePm, handleMove, handleEff,
+  handlePm, handleMove,
   saveItem, getItem
 } from '@/u.js';
 
