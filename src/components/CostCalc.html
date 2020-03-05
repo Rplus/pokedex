@@ -1,0 +1,147 @@
+<script>
+  import costTable from '@d/cost.js';
+
+  let lvStart = 20;
+  let lvEnd = 40;
+
+  let cost = {
+    dust: 0,
+    candy: 0,
+  };
+
+  let isLucky = false;
+  let isPurified = false;
+  let isShadow = false;
+
+  let ratio = {
+    dust: 1,
+    candy: 1,
+  };
+
+  $: {
+    ratio.dust = 1 * (isLucky ? .5 : 1) * (isPurified ? .9 : 1) * (isShadow ? 1.2 : 1);
+    ratio.candy = 1 * (isPurified ? .9 : 1) * (isShadow ? 1.2 : 1);
+  }
+
+  $: {
+    let result = calcCost(lvStart, lvEnd);
+
+    cost.dust = result.dust;
+    cost.candy = result.candy;
+  }
+
+  function calcCost(lvS, lvE) {
+    [lvS, lvE] = [lvS, lvE].sort();
+
+    return costTable
+      .filter(i => i[0] >= lvS && i[0] < lvE)
+      .reduce((all, i) => {
+        all.candy += Math.round(i[1] * ratio.candy);
+        all.dust += Math.round(i[2] * ratio.dust);
+        return all;
+      }, { candy: 0, dust: 0 });
+  }
+
+</script>
+
+
+
+<details class="card" open>
+  <summary>
+    <h3>Power-UP Level Cost Calculator</h3>
+  </summary>
+
+  <div>
+    <table class="ml-a mr-a">
+      <tr>
+        <td class="text-right">
+          <input type="number"
+            max="40" min="1" step="0.5"
+            bind:value={lvStart}
+          />
+        </td>
+        <td>
+          <input type="range"
+            max="40" min="1" step="0.5"
+            bind:value={lvStart}
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td class="text-right">
+          <input type="number"
+            max="40" min="1" step="0.5"
+            bind:value={lvEnd}
+          />
+        </td>
+        <td>
+          <input type="range"
+            max="40" min="1" step="0.5"
+            bind:value={lvEnd}
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td class="cost-title text-right">
+          Candy
+          <div class="cost-ratio fz-s">x{ratio.candy}</div>
+        </td>
+        <td>
+          {cost.candy}
+        </td>
+      </tr>
+      <tr>
+        <td class="cost-title text-right">
+          Stardust
+          <div class="cost-ratio fz-s">x{ratio.dust}</div>
+        </td>
+        <td>
+          {cost.dust}
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        </td>
+        <td>
+          <label>
+            <input type="checkbox"
+              bind:checked={isLucky}
+              disabled={isShadow}
+            />
+            is Lucky?
+          </label>
+
+          <label>
+            <input type="checkbox"
+              bind:checked={isPurified}
+              disabled={isShadow}
+            />
+            is Purified?
+          </label>
+
+          <label>
+            <input type="checkbox"
+              bind:checked={isShadow}
+              disabled={isPurified || isLucky}
+            />
+            is Shadow?
+          </label>
+        </td>
+      </tr>
+    </table>
+  </div>
+</details>
+
+
+
+<style>
+  .cost-ratio {
+    color: #999;
+    display: inline-block;
+    min-width: 2.5em;
+    text-align: left;
+  }
+</style>

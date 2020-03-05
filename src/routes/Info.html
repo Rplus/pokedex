@@ -2,6 +2,7 @@
 import CPM from '@d/cpm.js';
 import { fixNum } from '@/u.js';
 import TypeTable from '@c/TypeTable.html';
+import CostCalc from '@c/CostCalc.html';
 
 let _cpm = Object.keys(CPM)
   .map(lv => ({ lv: lv, m: CPM[lv] }))
@@ -47,6 +48,8 @@ let pvp_eff = [
     </table>
   </div>
 </details>
+
+<CostCalc />
 
 <TypeTable />
 
