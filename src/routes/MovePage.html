@@ -36,6 +36,10 @@ $: {
   }
 }
 
+function effText(eff) {
+  return eff.replace(/\,\ /g, '<br>');
+}
+
 </script>
 
 
@@ -55,7 +59,7 @@ $: {
         <TypeIcon type={move.type} />
       </h2>
 
-      <table>
+      <table class="ml-a mr-a">
         <tr>
           <td title="傷害">Power</td>
           <td>{move.power}</td>
@@ -103,7 +107,7 @@ $: {
           {#if move.effect}
             <tr>
               <td title="效果">Effect</td>
-              <td>{move.effect}</td>
+              <td class="eff-text">{@html effText(move.effect) }</td>
             </tr>
           {/if}
 
@@ -141,4 +145,16 @@ $: {
 
 
 <style>
+  .eff-text {
+    white-space: nowrap;
+    padding-top: 1em;
+    padding-left: 2.25em;
+    text-indent: -1.75em;
+  }
+  .eff-text:first-line {
+    color: #999;
+    font-size: smaller;
+    line-height: 0;
+    padding-bottom: 1rem;
+  }
 </style>

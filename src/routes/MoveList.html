@@ -36,6 +36,10 @@
         charge: [],
       });
   }
+
+  function effText(eff) {
+    return eff.split(', ').map(i => `<span class="d-ib">${i}</span>`).join(', ')
+  }
 </script>
 
 
@@ -122,7 +126,7 @@
         <td>{item.power}</td>
         <td>{item.energy}</td>
         <td>{item.dpe}</td>
-        <td class="fz-s">{item.effect || ''}</td>
+        <td class="fz-s">{@html effText(item.effect) || ''}</td>
       </tr>
     </TableSort>
   </Details>
