@@ -86,7 +86,6 @@ table a {
 }
 
 
-
 .type-icon {
   /* si: sprite index, 18 types */
   width: 1em;
@@ -132,9 +131,10 @@ details details summary {
 }
 
 .tablesort {
+  min-width: 75%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .tablesort {
     font-size: smaller;
   }
