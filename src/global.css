@@ -85,6 +85,10 @@ table a {
   color: inherit;
 }
 
+.striped-table tr:nth-of-type(odd) {
+  background-color: #eee;
+}
+
 
 .type-icon {
   /* si: sprite index, 18 types */
