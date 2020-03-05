@@ -86,7 +86,7 @@ table a {
 }
 
 .striped-table tr:nth-of-type(odd) {
-  background-color: #eee;
+  background-color: #fafafa;
 }
 
 

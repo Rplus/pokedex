@@ -28,7 +28,7 @@ let pvp_eff = [
     <h3>PVP Buff / Debuff factor</h3>
   </summary>
   <div>
-    <table>
+    <table class="ml-a mr-a">
       <tr>
         <th></th>
         <th>1"</th>
@@ -58,8 +58,8 @@ let pvp_eff = [
     <h3>Level Multiplier (CPm)</h3>
   </summary>
 
-  <div style="columns: 2">
-    <table class="striped-table ml-a mr-a">
+  <div class="cpm-table">
+    <table class="striped-table ml-a mr-a fz-s">
       {#each _cpm as item}
       <tr>
         <td>{item.lv}</td>
@@ -71,3 +71,14 @@ let pvp_eff = [
 </details>
 
 
+
+<style>
+  .cpm-table {
+    columns: 3;
+  }
+  @media (max-width: 450px) {
+    .cpm-table {
+      columns: 2;
+    }
+  }
+</style>
