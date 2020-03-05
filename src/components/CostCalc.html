@@ -87,7 +87,7 @@
       <tr>
         <td class="cost-title text-right">
           Candy
-          <div class="cost-ratio fz-s">x{ratio.candy}</div>
+          <div class="cost-ratio d-ib text-left fz-s">x{ratio.candy}</div>
         </td>
         <td>
           {cost.candy}
@@ -96,7 +96,7 @@
       <tr>
         <td class="cost-title text-right">
           Stardust
-          <div class="cost-ratio fz-s">x{ratio.dust}</div>
+          <div class="cost-ratio d-ib text-left fz-s">x{ratio.dust}</div>
         </td>
         <td>
           {cost.dust}
@@ -107,24 +107,24 @@
         <td>
         </td>
         <td>
-          <label>
-            <input type="checkbox"
+          <label class="df ai-c pt-1">
+            <input type="checkbox" class="mb-0"
               bind:checked={isLucky}
               disabled={isShadow}
             />
             is Lucky?
           </label>
 
-          <label>
-            <input type="checkbox"
+          <label class="df ai-c pt-1">
+            <input type="checkbox" class="mb-0"
               bind:checked={isPurified}
               disabled={isShadow}
             />
             is Purified?
           </label>
 
-          <label>
-            <input type="checkbox"
+          <label class="df ai-c pt-1">
+            <input type="checkbox" class="mb-0"
               bind:checked={isShadow}
               disabled={isPurified || isLucky}
             />
@@ -141,8 +141,6 @@
 <style>
   .cost-ratio {
     color: #999;
-    display: inline-block;
     min-width: 2.5em;
-    text-align: left;
   }
 </style>
