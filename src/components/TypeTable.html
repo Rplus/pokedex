@@ -1,0 +1,68 @@
+<script>
+  import { types, effAttckTable } from '@d/eff.js';
+
+  console.log(types, effAttckTable);
+  import TypeIcon from '@c/TypeIcon.html';
+</script>
+
+
+
+<details class="card" open>
+  <summary>
+    <h3>Type Effect</h3>
+  </summary>
+
+  <table class="factor-table ml-a mr-a">
+    <tr>
+      <td></td>
+      {#each types as def_type}
+        <td>
+          <TypeIcon type={def_type} />
+        </td>
+      {/each}
+    </tr>
+
+    {#each effAttckTable as atk_factors, idx}
+      <tr>
+        <td>
+          <TypeIcon type={types[idx]} />
+        </td>
+        {#each atk_factors as atk_factor}
+          <td class="factor" data-factor={atk_factor}>{atk_factor}</td>
+        {/each}
+      </tr>
+    {/each}
+  </table>
+</details>
+
+
+
+
+<style>
+  @media (max-width: 500px) {
+    .factor-table {
+      font-size: 2.75vmin;
+    }
+  }
+
+  .factor-table tr {
+    border: unset;
+  }
+  .factor-table td {
+    padding: .25em;
+    box-shadow: inset 0 0 2px #0003;
+  }
+  .factor[data-factor] {
+    color: transparent;
+    font-size: 0;
+  }
+  .factor[data-factor="1"] {
+    background-color: #cfc;
+  }
+  .factor[data-factor="-1"] {
+    background-color: #fcc;
+  }
+  .factor[data-factor="-2"] {
+    background-color: #f99;
+  }
+</style>
