@@ -29,12 +29,11 @@ $: {
       sta: pm._sta,
     };
 
-    if (idx > 1) {
-      prevPm = $pokemons[idx - 1];
-    }
-    if (idx < $pokemons.length - 2) {
-      nextPm = $pokemons[idx + 1];
-    }
+    let prevIdx = (idx > 0) ? idx - 1 : $pokemons.length - 1;
+    let nextIdx = (idx < $pokemons.length - 2) ? idx + 1 : 0;
+
+    prevPm = $pokemons[prevIdx];
+    nextPm = $pokemons[nextIdx];
   }
 }
 
