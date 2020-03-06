@@ -12,7 +12,8 @@ genGM:
 copy-assets:
 	mkdir -p public; \
 # 	mkdir -p public/pokedex; \
-	cp -r ./assets/* ./public/
+	cp -r ./assets/* ./public/; \
+	cp ./public/index.html ./public/404.html
 
 genEff:
 	node ./task/genEff.js
