@@ -33,7 +33,7 @@
   }
 
   function calcCost(lvS, lvE) {
-    [lvS, lvE] = [lvS, lvE].sort();
+    [lvS, lvE] = [lvS, lvE].sort((a, b) => a - b);
 
     return costTable
       .filter(i => i[0] >= lvS && i[0] < lvE)
