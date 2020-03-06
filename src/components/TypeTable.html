@@ -11,7 +11,7 @@
     <h3>Type Effect</h3>
   </summary>
 
-  <table class="factor-table ml-a mr-a">
+  <table class="factor-table ml-a mr-a mb-5">
     <tr>
       <td>=></td>
       {#each types as def_type}
@@ -32,6 +32,14 @@
       </tr>
     {/each}
   </table>
+
+  <div class="df flex-center fz-s">
+    <span class="factor factor-label      mr-1" data-factor="1"></span> x1.6
+    <span class="factor factor-label ml-6 mr-1" data-factor="-1"></span> x0.625
+    <span class="factor factor-label ml-6 mr-1" data-factor="-2"></span> x0.39
+  </div>
+
+
 </Details>
 
 
@@ -63,5 +71,10 @@
   }
   .factor[data-factor="-2"] {
     background-color: #f99;
+  }
+  .factor-label.factor-label {
+    font-size: 1rem;
+    width: 1em;
+    height: 1em;
   }
 </style>
