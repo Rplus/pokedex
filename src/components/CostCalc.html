@@ -28,7 +28,7 @@
     ratio;
     let result = calcCost(lvStart, lvEnd);
 
-    cost.dust = result.dust;
+    cost.dust = `${result.dust / 1000}k`;
     cost.candy = result.candy;
   }
 
