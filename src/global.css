@@ -222,6 +222,7 @@ details details summary {
 .text-center { text-align: center; }
 .text-mono { font-family: monospace; }
 .text-uppercase { text-transform: uppercase; }
+.text-no-decoration { text-decoration: none; }
 
 .ff-m { font-family: monospace; }
 .fz-s { font-size: smaller; }
@@ -276,6 +277,7 @@ details details summary {
 .jc-sb { justify-content: space-between; }
 .ai-c { align-items: center;}
 .ai-fs { align-items: flex-start; }
+.flex-center { place-content: center; }
 
 .pos-r { position: relative; }
 .pos-a { position: absolute; }
