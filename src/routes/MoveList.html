@@ -54,7 +54,10 @@
 
 <section>
 
-  <TypeFilter type={type} on:clicktype={clicktype} />
+  <Details type="move_filter" class="card">
+    <summary><h3>Filter</h3></summary>
+    <TypeFilter type={type} on:clicktype={clicktype} />
+  </Details>
 
   <Details type="fastmove" class="card">
     <summary><h3>Fast</h3></summary>

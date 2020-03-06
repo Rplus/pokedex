@@ -78,6 +78,8 @@
       <h3>Filter</h3>
     </summary>
 
+    <TypeFilter type={type} on:clicktype={clicktype} />
+
     <Details type="dex_filter">
       <summary class="mb-4">
         Dex
@@ -121,8 +123,6 @@
         </div>
       </div>
     </Details>
-
-    <TypeFilter type={type} on:clicktype={clicktype} />
   </Details>
 
   <div
@@ -144,7 +144,7 @@
     >
       <tr slot="thead">
         <th data-sort="dex" data-sort-initial>#</th>
-        <th data-sort="types">系</th>
+        <th data-sort="types">@</th>
         <th data-sort="name">Name</th>
         <th data-sort="maxcp" title="max CP">CP</th>
         <th data-sort="maxhp" title="max HP">HP</th>
