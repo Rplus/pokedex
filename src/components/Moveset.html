@@ -1,6 +1,7 @@
 <script>
   import { moves } from '@/stores.js';
   import { copy, fixNum } from '@/u.js';
+  import { types, queryTypeEffect } from '@d/eff.js';
   import { TableSort } from 'svelte-tablesort';
 
   // import PMMove from '@c/PMMove.html';
@@ -14,7 +15,14 @@
   let lmoves;
   let mdata;
 
+  let opponentType1 = '';
+  let opponentType2 = '';
+  let _types = ['', ...types];
+
   $: {
+    opponentType1;
+    opponentType2;
+
     lmoves = pm.legacyMoves;
     mdata = [
       {
@@ -37,6 +45,10 @@
 
   function genMove(mname, isFast) {
     let mmm = queryMove(mname);
+
+    let typeEff = queryTypeEffect(mmm.type, opponentType1, opponentType2);
+    mmm.power = fixNum(typeEff * mmm.power);
+
     mmm.isLegacy = (lmoves && lmoves.includes(mname));
     mmm.isFast = isFast;
     mmm.stab = (pm.types.includes(mmm.type));
@@ -120,6 +132,22 @@
 <TTFA mdata={mdata} />
 {/if}
 
+<Details type="opponent_type" class="card opponent_type_card">
+  <summary><h3>模擬對方屬性</h3></summary>
+  type1:
+  <select bind:value={opponentType1} class="text-capitalize">
+    {#each _types as type}
+      <option value={type}>{type}</option>
+    {/each}
+    <!-- {@html typeOptions} -->
+  </select>
+  type2:
+  <select bind:value={opponentType2} class="text-capitalize">
+    {#each _types as type}
+      <option value={type}>{type}</option>
+    {/each}
+  </select>
+</Details>
 
 
 <style>

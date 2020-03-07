@@ -1,3 +1,5 @@
+const TYPE_RATIO = 1.6;
+
 export const types = ['normal', 'fighting', 'flying', 'poison', 'ground', 'rock', 'bug', 'ghost', 'steel', 'fire', 'water', 'grass', 'electric', 'psychic', 'ice', 'dragon', 'dark', 'fairy'];
 
 export const effAttckTable = [
@@ -38,3 +40,27 @@ effAttckTable.forEach((atk_factors, atk_idx) => {
 
 
 export default op;
+
+
+function typeIndex(type) {
+  return types.findIndex(t => t === type);
+}
+
+export function queryTypeEffect(atkType, defType1, defType2) {
+  if (!defType1 && !defType2) {
+    return 1;
+  }
+
+  let eff = [
+    // uni types
+    ...new Set(
+      // remove falsy type
+      [defType1, defType2].filter(Boolean)
+    )
+  ]
+  .map(typeIndex) // defIndex
+  .map(i => effAttckTable[typeIndex(atkType)][i]) // each type effect
+  .reduce((all, i) => all + i, 0) // sum
+
+  return Math.pow(TYPE_RATIO, eff);
+}
