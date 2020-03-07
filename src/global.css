@@ -224,6 +224,8 @@ details details summary {
 .text-uppercase { text-transform: uppercase; }
 .text-no-decoration { text-decoration: none; }
 
+.pointer { cursor: pointer; }
+
 .ff-m { font-family: monospace; }
 .fz-s { font-size: smaller; }
 .fw-n { font-weight: normal;}

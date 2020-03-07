@@ -2,6 +2,7 @@
 import Details from '@c/Details.html';
 import { calPmCPHP } from '@/u.js';
 export let ads;
+export let lv = 20;
 
 let customeInputs = [
   {
@@ -33,6 +34,12 @@ let customeInputs = [
     value: 20,
   },
 ];
+
+$: {
+  customeInputs[3].value = lv;
+}
+
+
 $: calcResult = calPmCPHP(ads, customeInputs.map(i => i.value));
 
 </script>

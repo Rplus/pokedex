@@ -5,6 +5,7 @@ import CustomCP from '@c/Custom-CP.html';
 
 export let ads;
 const lvs = [8, 13, 15, 20, 25, 30, 35, 40, 41];
+let lv = 30;
 
 $: cps = getCPs(ads);
 
@@ -17,6 +18,10 @@ function getCPs(ads) {
     };
   });
   return cps;
+}
+
+function clickLv(_lv) {
+  lv = +_lv;
 }
 
 </script>
@@ -37,7 +42,7 @@ function getCPs(ads) {
       <tbody>
         {#each cps as cp}
           <tr>
-            <td>{cp.lv}</td>
+            <td class="pointer" on:click={() => clickLv(cp.lv)}>{cp.lv}</td>
             <td>{cp.maxcp}</td>
             <td>{cp.mincp}</td>
           </tr>
@@ -45,6 +50,6 @@ function getCPs(ads) {
       </tbody>
     </table>
 
-    <CustomCP ads={ads} />
+    <CustomCP ads={ads} lv={lv} />
   </div>
 </Details>
