@@ -11,6 +11,26 @@
 
   export let pm;
 
+  let lmoves;
+  let mdata;
+
+  $: {
+    lmoves = pm.legacyMoves;
+    mdata = [
+      {
+        title: 'Fast Moves',
+        data: pm.fastMoves.map(m => genMove(m, true)),
+        setting: 'fmove',
+      },
+      {
+        title: 'Charged Moves',
+        data: pm.chargedMoves.map(m => genMove(m, false)),
+        setting: 'cmove',
+      }
+    ];
+    console.log('mdata', mdata);
+  }
+
   function queryMove(mname) {
     return copy($moves.find(m => m.moveId === mname));
   }
@@ -31,26 +51,6 @@
     }
 
     return mmm;
-  }
-
-  let lmoves;
-  let mdata;
-
-  $: {
-    lmoves = pm.legacyMoves;
-    mdata = [
-      {
-        title: 'Fast Moves',
-        data: pm.fastMoves.map(m => genMove(m, true)),
-        setting: 'fmove',
-      },
-      {
-        title: 'Charged Moves',
-        data: pm.chargedMoves.map(m => genMove(m, false)),
-        setting: 'cmove',
-      }
-    ];
-    console.log('mdata', mdata);
   }
 </script>
 
