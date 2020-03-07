@@ -38,7 +38,7 @@
   }
 
   function effText(eff) {
-    return eff.split(', ').map(i => `<span class="d-ib">${i}</span>`).join(', ')
+    return eff.split(', ').map(i => `<span class="d-ib">${i}</span>`).join('')
   }
 </script>
 
@@ -129,7 +129,7 @@
         <td>{item.power}</td>
         <td>{item.energy}</td>
         <td>{item.dpe}</td>
-        <td class="fz-s">{@html effText(item.effect) || ''}</td>
+        <td class="effect fz-s">{@html effText(item.effect) || ''}</td>
       </tr>
     </TableSort>
   </Details>
@@ -141,4 +141,12 @@
 <!--  -->
 
 
-<style></style>
+<style>
+  .effect :global(span::after) {
+    content: ', ';
+    white-space: pre-wrap;
+  }
+  .effect :global(span:first-child) {
+    color: #999;
+  }
+</style>

@@ -4,7 +4,6 @@
   import { types, queryTypeEffect } from '@d/eff.js';
   import { TableSort } from 'svelte-tablesort';
 
-  // import PMMove from '@c/PMMove.html';
   import TTFA from '@c/TTFA.html';
   import Details from '@c/Details.html';
   import TypeIcon from '@c/TypeIcon.html';
@@ -71,7 +70,7 @@
 <section class="moves">
   {#each mdata as mmm}
     <Details type={mmm.setting} class="card">
-      <summary><h3 class="moveset-title d-ib">{mmm.title}</h3></summary>
+      <summary><h3>{mmm.title}</h3></summary>
 
       <div>
         <TableSort items={mmm.data} class="ml-a mr-a">
@@ -118,7 +117,7 @@
             {:else}
               <td class="energy-bar" style="--bgzx: {item.energy}%">{item.energy}</td>
               <td>{item.dpe}</td>
-              <td>{item.effect}</td>
+              <td class="fz-s">{item.effect}</td>
             {/if}
           </tr>
         </TableSort>

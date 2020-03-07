@@ -105,8 +105,10 @@ function effText(eff) {
 
           {#if move.effect}
             <tr>
-              <td title="效果">Effect</td>
-              <td class="eff-text">{@html effText(move.effect) }</td>
+              <td title="效果" colspan="2">
+                Effect
+                <div class="fz-s">{ move.effect }</div>
+              </td>
             </tr>
           {/if}
 
@@ -143,17 +145,3 @@ function effText(eff) {
 
 
 
-<style>
-  .eff-text {
-    white-space: nowrap;
-    padding-top: 1em;
-    padding-left: 2.25em;
-    text-indent: -1.75em;
-  }
-  .eff-text:first-line {
-    color: #999;
-    font-size: smaller;
-    line-height: 0;
-    padding-bottom: 1rem;
-  }
-</style>
