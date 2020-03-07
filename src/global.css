@@ -228,7 +228,9 @@ details details summary {
 .text-center { text-align: center; }
 .text-mono { font-family: monospace; }
 .text-uppercase { text-transform: uppercase; }
+.text-capitalize { text-transform: capitalize; }
 .text-no-decoration { text-decoration: none; }
+.text-nowrap { white-space: nowrap; }
 
 .no-list-style { list-style: none; }
 
@@ -245,8 +247,6 @@ details details summary {
 
 .m-0 { margin: 0; }
 
-.ml-2 { margin-left: .5rem; }
-
 .mr-1 { margin-right: .25rem; }
 .mr-2 { margin-right: .5rem; }
 .mr-3 { margin-right: .75rem; }
@@ -254,12 +254,13 @@ details details summary {
 .mr-6 { margin-right: 2rem; }
 
 .ml-1 { margin-left: .25rem; }
+.ml-2 { margin-left: .5rem; }
 .ml-6 { margin-left: 2rem; }
 
 .mr-a { margin-right: auto; }
 .ml-a { margin-left: auto; }
 
-.mb-0 { margin-bottom: 0; }
+.mb-0 { margin-bottom: 0 !important; }
 .mb-1 { margin-bottom: .25rem; }
 .mb-2 { margin-bottom: .5rem; }
 .mb-3 { margin-bottom: .75rem; }
