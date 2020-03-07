@@ -1,5 +1,5 @@
-<nav class="mb-4">
-  <ul>
+<nav class="nav text-capitalize text-center mb-4">
+  <ul class="m-0 p-0 df no-list-style jc-c">
     <li><a class="{ isActive('home') }" href="/">home</a></li>
     <li><a class="{ isActive('move') }" href="/move">move</a></li>
     <li><a class="{ isActive('pokemon') }" href="/pokemon">pokemon</a></li>
@@ -14,37 +14,11 @@
 </script>
 
 <style>
-  nav {
+  .nav {
     border-bottom: 1px solid rgba(170,30,30,0.1);
-    font-weight: 300;
-    padding: 0 1em;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-  /* clearfix */
-  ul::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-  li {
-    display: block;
-    float: left;
   }
   .selected {
-    position: relative;
-    display: inline-block;
-  }
-  .selected::after {
-    position: absolute;
-    content: '';
-    width: calc(100% - 1em);
-    height: 2px;
-    background-color: rgb(170,30,30);
-    display: block;
-    bottom: -1px;
+    box-shadow: inset 0 -2px;
   }
   a {
     text-decoration: none;

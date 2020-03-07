@@ -224,6 +224,8 @@ details details summary {
 .text-uppercase { text-transform: uppercase; }
 .text-no-decoration { text-decoration: none; }
 
+.no-list-style { list-style: none; }
+
 .pointer { cursor: pointer; }
 
 .ff-m { font-family: monospace; }
@@ -234,6 +236,8 @@ details details summary {
 .w-100 {
   width: 100%;
 }
+
+.m-0 { margin: 0; }
 
 .ml-2 { margin-left: .5rem; }
 
