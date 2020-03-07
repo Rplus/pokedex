@@ -77,7 +77,13 @@ tbody tr:hover {
 
 th,
 td {
-  padding: .25em calc(.25em + .8vmin);
+  padding: .25em calc(.25em + var(--td-response-space, .8vmin));
+}
+
+@media (max-width: 400px) {
+  table.narrow {
+    --td-response-space: 0em;
+  }
 }
 
 table a {
