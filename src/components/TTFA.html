@@ -94,8 +94,8 @@ function genPairs() {
         <td>{item.hits}</td>
         <td>{item.dmg_t}</td>
         <td>{item.dpt}</td>
-        <td class={item.f.stab ? 'is-stab' : ''}>{item.f.name}</td>
-        <td class={item.c.stab ? 'is-stab' : ''}>{item.c.name}</td>
+        <td class={item.f.stab ? 'is-stab' : ''} data-efficon={item.f.efficon}>{item.f.name}</td>
+        <td class={item.c.stab ? 'is-stab' : ''} data-efficon={item.c.efficon}>{item.c.name}</td>
       </tr>
 
       <tr slot="tfoot" class="fz-s" style="color: #999">

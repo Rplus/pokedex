@@ -45,8 +45,10 @@
   function genMove(mname, isFast) {
     let mmm = queryMove(mname);
 
-    let typeEff = queryTypeEffect(mmm.type, opponentType1, opponentType2);
-    mmm.power = fixNum(typeEff * mmm.power);
+    mmm.typeEff = queryTypeEffect(mmm.type, opponentType1, opponentType2);
+    mmm.efficon = (mmm.typeEff === 1) ? '' : ((mmm.typeEff > 1) ? '▲' : '▼');
+
+    mmm.power = fixNum(mmm.typeEff * mmm.power);
 
     mmm.isLegacy = (lmoves && lmoves.includes(mname));
     mmm.isFast = isFast;
@@ -107,7 +109,7 @@
                 </a>
               </Ruby>
             </td>
-            <td>{item.power}</td>
+            <td class="move-power" data-efficon={item.efficon}>{item.power}</td>
             {#if mmm.setting === 'fmove'}
               <td>{item.energyGain}</td>
               <td>{item.turn}</td>
@@ -153,5 +155,17 @@
   :global(.typeicon__move) {
     position: absolute;
     left: -1.2em;
+  }
+
+  :global([data-efficon]) {
+    position: relative;
+  }
+
+  :global([data-efficon]::before) {
+    content: attr(data-efficon);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ccc;
   }
 </style>
