@@ -140,12 +140,12 @@
 
     <TableSort
       items={_pokemons}
-      class="pokemon-table sticky-thead narrow ml-a mr-a"
+      class="pokemon-table sticky-thead narrow text-right ml-a mr-a"
     >
       <tr slot="thead">
         <th data-sort="dex" data-sort-initial>#</th>
         <th data-sort="types">@</th>
-        <th data-sort="name">Name</th>
+        <th data-sort="name"><div class="text-left">Name</div></th>
         <th data-sort="maxcp" title="max CP">CP</th>
         <th data-sort="maxhp" title="max HP">HP</th>
         <th data-sort="_atk" title="base Atk">Atk</th>
@@ -155,13 +155,11 @@
       <tr slot="tbody" let:item={item}>
         <td>{item.dex}</td>
         <td>
-          <div class="df jc-fe">
-            {#each item.types as type}
-              <TypeIcon type={type} />
-            {/each}
-          </div>
+          {#each item.types as type}
+            <TypeIcon type={type} class="d-ib" />
+          {/each}
         </td>
-        <td>
+        <td class="text-left">
           <a href="./pokemon/{item.uid}" title={item.id}>
             {#if item.formName}
               <Ruby class="x">
@@ -188,7 +186,7 @@
       <tr slot="tfoot" class="sticky-bottom">
         <th>#</th>
         <th>@</th>
-        <th>Name</th>
+        <th><div class="text-left">Name</div></th>
         <th title="max CP">CP</th>
         <th title="max HP">HP</th>
         <th title="base Atk">Atk</th>

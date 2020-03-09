@@ -104,7 +104,7 @@
 
     <TableSort
       items={_moves.charge}
-      class="sticky-thead narrow ml-a mr-a"
+      class="sticky-thead narrow text-right ml-a mr-a"
     >
       <tr slot="thead">
         <th data-sort="type" data-sort-initial>@</th>
@@ -118,7 +118,7 @@
         <td class="p-0 text-center">
           <TypeIcon type={item.type} class="d-ib" />
         </td>
-        <td>
+        <td class="text-left">
           <a href="./move/{item.moveId}">
             <Ruby class="x">
               <div slot="rb">{item.name}</div>
@@ -129,7 +129,7 @@
         <td>{item.power}</td>
         <td>{item.energy}</td>
         <td>{item.dpe}</td>
-        <td class="effect fz-s">{@html effText(item.effect) || ''}</td>
+        <td class="effect text-left fz-s">{@html effText(item.effect) || ''}</td>
       </tr>
     </TableSort>
   </Details>
