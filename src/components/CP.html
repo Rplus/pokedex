@@ -2,10 +2,12 @@
 import { calPmCPHP } from '@/u.js';
 import Details from '@c/Details.html';
 import CustomCP from '@c/Custom-CP.html';
+import IVDialog from '@c/IV-Dialog.html';
 
 export let ads;
 const lvs = [8, 13, 15, 20, 25, 30, 35, 40, 41];
-let lv = 30;
+let lv = 20;
+let isIvTableShown = false;
 
 $: cps = getCPs(ads);
 
@@ -22,6 +24,10 @@ function getCPs(ads) {
 
 function clickLv(_lv) {
   lv = +_lv;
+}
+
+function toggleDialog() {
+  isIvTableShown = !isIvTableShown;
 }
 
 </script>
@@ -50,6 +56,12 @@ function clickLv(_lv) {
       </tbody>
     </table>
 
-    <CustomCP ads={ads} lv={lv} />
+    <CustomCP ads={ads} lv={lv}>
+      <button on:click={toggleDialog}>Show iv table</button>
+    </CustomCP>
   </div>
 </Details>
+
+{#if isIvTableShown}
+  <IVDialog hidden={!isIvTableShown} on:close={toggleDialog} ads={ads} lv={lv} />
+{/if}

@@ -81,10 +81,13 @@ $: calcResult = calPmCPHP(ads, customeInputs.map(i => i.value));
       {/each}
 
       <tr>
-        <td colspan="3" class="text-left">
+        <td colspan="2" class="text-left">
           CP: {calcResult.cp}
           <br>
           HP: {calcResult.hp}
+        </td>
+        <td>
+          <slot />
         </td>
       </tr>
     </table>

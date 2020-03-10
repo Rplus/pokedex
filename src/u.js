@@ -75,6 +75,12 @@ export function copy(obj) {
 }
 
 
+export function flatten(arr) {
+  return arr.reduce((flat, toFlatten) => {
+    return flat.concat(Array.isArray(toFlatten) ? this.flatten(toFlatten) : toFlatten);
+  }, []);
+}
+
 
 
 
