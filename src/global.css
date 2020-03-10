@@ -304,3 +304,9 @@ details details summary {
 
 .sticky { position: sticky; }
 .top-0 { top: 0; }
+
+.hidden-checkbox {
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+}
