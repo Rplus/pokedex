@@ -9,6 +9,18 @@ const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
 };
 
 let contents = fs.readFileSync('./tmp/gamemaster.json', 'utf8');
+let fullContents = fs.readFileSync('./tmp/gamemaster_full.json', 'utf8');
+
+let fullData = JSON.parse(fullContents);
+
+let oPm = fullData.filter(i => i.pokemonSettings);
+let oMove = fullData.filter(i => i.moveSettings);
+
+// for checking
+outputJSON({
+  oPm,
+  oMove,
+}, './tmp/o.json', 2);
 
 handleJSON(JSON.parse(contents));
 
@@ -26,9 +38,15 @@ function introEffect(move) {
   return `[${buffTargets[move.buffTarget]}], ${move.buffApplyChance * 100}%, ${buffs}`;
 }
 
+function queryMove(mid) {
+  return oMove.find(m => m.moveSettings.movementId.replace(/_FAST$/, '') === mid);
+}
 
 function handleJSON(json) {
       let { pokemon, moves, shadowPokemon } = json;
+
+      // remove shadow pokemon
+      pokemon = pokemon.filter(pm => pm.speciesId.indexOf('_shadow') === -1);
 
       pokemon.forEach(pm => {
         pm._atk = pm.baseStats.atk;
@@ -62,7 +80,7 @@ function handleJSON(json) {
 
 
       {
-        let move_hp_n = JSON.parse(JSON.stringify({
+        let move_hiddenpower_normal = JSON.parse(JSON.stringify({
           ...moves.find(move => move.moveId === 'HIDDEN_POWER_BUG'),
           ...{
             moveId: 'HIDDEN_POWER',
@@ -80,7 +98,7 @@ function handleJSON(json) {
           );
         });
 
-        moves.push(move_hp_n);
+        moves.push(move_hiddenpower_normal);
       }
 
 
@@ -98,6 +116,18 @@ function handleJSON(json) {
 
         move.turn = move.cooldown / 500;
         delete move.cooldown;
+
+        let pveData = queryMove(move.moveId);
+        if (!pveData) {
+          pveData = queryMove(move.moveId.replace(/\_/g, ''));
+        }
+        pveData = pveData.moveSettings;
+
+        move.pve_power = pveData.power;
+        move.pve_energyDelta = pveData.energyDelta;
+        move.pve_durationMs = pveData.durationMs;
+        move.pve_damageWindowStartMs = pveData.damageWindowStartMs;
+        move.pve_damageWindowEndMs = pveData.damageWindowEndMs;
       });
 
 
