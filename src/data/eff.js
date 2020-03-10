@@ -2,6 +2,8 @@ const TYPE_RATIO = 1.6;
 
 export const types = ['normal', 'fighting', 'flying', 'poison', 'ground', 'rock', 'bug', 'ghost', 'steel', 'fire', 'water', 'grass', 'electric', 'psychic', 'ice', 'dragon', 'dark', 'fairy'];
 
+export const types_zh = ['普', '鬥', '飛', '毒', '地', '岩', '蟲', '鬼', '鋼', '火', '水', '草', '電', '念', '冰', '龍', '惡', '妖'];
+
 export const effAttckTable = [
   [0, 0, 0, 0, 0, -1, 0, -2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   [1, 0, -1, -1, 0, 1, -1, -2, 1, 0, 0, 0, 0, -1, 1, 0, 1, -1],

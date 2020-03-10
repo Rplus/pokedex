@@ -1,6 +1,7 @@
 <script>
   import TypeIcon from '@c/TypeIcon.html';
   import eff from '@d/eff.js';
+  import { types_zh } from '@d/eff.js';
   import { createEventDispatcher } from 'svelte';
 
   const dispatch = createEventDispatcher();
@@ -17,12 +18,15 @@
 
 
 <div class="df fxw-w jc-c filter-icons">
-  {#each eff as eff_item}
+  {#each eff as eff_item, index}
+    <div class="mb-2 text-center">
     <TypeIcon
       type={eff_item.type}
       class={eff_item.type === type ? 'filter-icon active' : 'filter-icon'}
       click={_clickType.bind(eff_item.type)}
     />
+      <small class="title">{types_zh[index]}</small>
+    </div>
   {/each}
 </div>
 
@@ -59,5 +63,9 @@
     box-shadow:
       0 1.1em .1em #f336;
   }
-
+  .title {
+    display: block;
+    margin-top: -.25rem;
+    color: #999;
+  }
 </style>
