@@ -125,9 +125,11 @@
     </Details>
   </Details>
 
+  {#if $pokemons.length}
   <div
     class="card card__pokemon-table pt-4"
     class:show-all={showAllTable}
+    hidden={!$pokemons.length}
   >
     <div class="text-right">
       <label class="d-ib mb-4">
@@ -195,6 +197,7 @@
       </tr>
     </TableSort>
   </div>
+  {/if}
 </section>
 
 
