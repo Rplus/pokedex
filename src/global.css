@@ -155,6 +155,11 @@ details details summary {
     font-size: smaller;
   }
 }
+@media (max-width: 600px) {
+  .narrow {
+    font-size: smaller;
+  }
+}
 
 .sticky-thead thead tr {
 }
