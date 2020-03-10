@@ -16218,11 +16218,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 2,
+      "isFast": true,
       "pve_power": 9,
       "pve_energyDelta": 8,
-      "pve_durationMs": 800,
-      "pve_damageWindowStartMs": 400,
-      "pve_damageWindowEndMs": 600
+      "pve_duration": 0.8,
+      "pve_damageWindowStart": 0.4,
+      "pve_damageWindowEnd": 0.6
     },
     {
       "moveId": "ACID_SPRAY",
@@ -16233,11 +16234,12 @@
       "energyGain": 0,
       "effect": "[敵], 100%, -2階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 20,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3000,
-      "pve_damageWindowStartMs": 2100,
-      "pve_damageWindowEndMs": 2800
+      "pve_duration": 3,
+      "pve_damageWindowStart": 2.1,
+      "pve_damageWindowEnd": 2.8
     },
     {
       "moveId": "AERIAL_ACE",
@@ -16247,11 +16249,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 55,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2400,
-      "pve_damageWindowStartMs": 1900,
-      "pve_damageWindowEndMs": 2200
+      "pve_duration": 2.4,
+      "pve_damageWindowStart": 1.9,
+      "pve_damageWindowEnd": 2.2
     },
     {
       "moveId": "AIR_CUTTER",
@@ -16261,11 +16264,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2700,
-      "pve_damageWindowStartMs": 1800,
-      "pve_damageWindowEndMs": 2500
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2.5
     },
     {
       "moveId": "AIR_SLASH",
@@ -16275,11 +16279,12 @@
       "energy": 0,
       "energyGain": 9,
       "turn": 3,
+      "isFast": true,
       "pve_power": 14,
       "pve_energyDelta": 10,
-      "pve_durationMs": 1200,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 1200
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 1.2
     },
     {
       "moveId": "ANCIENT_POWER",
@@ -16290,11 +16295,12 @@
       "energyGain": 0,
       "effect": "[己], 10%, +2階攻, +2階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -33,
-      "pve_durationMs": 3500,
-      "pve_damageWindowStartMs": 2850,
-      "pve_damageWindowEndMs": 3100
+      "pve_duration": 3.5,
+      "pve_damageWindowStart": 2.85,
+      "pve_damageWindowEnd": 3.1
     },
     {
       "moveId": "AQUA_JET",
@@ -16304,11 +16310,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 45,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "AQUA_TAIL",
@@ -16318,11 +16325,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 1650
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.65
     },
     {
       "moveId": "ASTONISH",
@@ -16332,11 +16340,12 @@
       "energy": 0,
       "energyGain": 9,
       "turn": 3,
+      "isFast": true,
       "pve_power": 8,
       "pve_energyDelta": 14,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 700,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.7,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "AURA_SPHERE",
@@ -16346,11 +16355,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 1800,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.8,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "AURORA_BEAM",
@@ -16360,11 +16370,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3550,
-      "pve_damageWindowStartMs": 3350,
-      "pve_damageWindowEndMs": 3550
+      "pve_duration": 3.55,
+      "pve_damageWindowStart": 3.35,
+      "pve_damageWindowEnd": 3.55
     },
     {
       "moveId": "AVALANCHE",
@@ -16374,11 +16385,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2700,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "BITE",
@@ -16388,11 +16400,12 @@
       "energy": 0,
       "energyGain": 2,
       "turn": 1,
+      "isFast": true,
       "pve_power": 6,
       "pve_energyDelta": 4,
-      "pve_durationMs": 500,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 500
+      "pve_duration": 0.5,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.5
     },
     {
       "moveId": "BLAST_BURN",
@@ -16402,11 +16415,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 110,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3300,
-      "pve_damageWindowStartMs": 2750,
-      "pve_damageWindowEndMs": 3200
+      "pve_duration": 3.3,
+      "pve_damageWindowStart": 2.75,
+      "pve_damageWindowEnd": 3.2
     },
     {
       "moveId": "BLIZZARD",
@@ -16416,11 +16430,12 @@
       "energy": 75,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 130,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3100,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 2900
+      "pve_duration": 3.1,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 2.9
     },
     {
       "moveId": "BODY_SLAM",
@@ -16430,11 +16445,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 1700
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.7
     },
     {
       "moveId": "BONE_CLUB",
@@ -16444,11 +16460,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 40,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1600,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 1400
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 1.4
     },
     {
       "moveId": "BRAVE_BIRD",
@@ -16458,11 +16475,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -100,
-      "pve_durationMs": 2000,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 2,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "BRICK_BREAK",
@@ -16472,11 +16490,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 40,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1600,
-      "pve_damageWindowStartMs": 800,
-      "pve_damageWindowEndMs": 1400
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 0.8,
+      "pve_damageWindowEnd": 1.4
     },
     {
       "moveId": "BRINE",
@@ -16486,11 +16505,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2300,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "BUBBLE",
@@ -16500,11 +16520,12 @@
       "energy": 0,
       "energyGain": 11,
       "turn": 3,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 14,
-      "pve_durationMs": 1200,
-      "pve_damageWindowStartMs": 750,
-      "pve_damageWindowEndMs": 1000
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 0.75,
+      "pve_damageWindowEnd": 1
     },
     {
       "moveId": "BUBBLE_BEAM",
@@ -16515,11 +16536,12 @@
       "energyGain": 0,
       "effect": "[敵], 100%, -1階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 45,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1450,
-      "pve_damageWindowEndMs": 1700
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.45,
+      "pve_damageWindowEnd": 1.7
     },
     {
       "moveId": "BUG_BITE",
@@ -16529,11 +16551,12 @@
       "energy": 0,
       "energyGain": 3,
       "turn": 1,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 6,
-      "pve_durationMs": 500,
-      "pve_damageWindowStartMs": 250,
-      "pve_damageWindowEndMs": 450
+      "pve_duration": 0.5,
+      "pve_damageWindowStart": 0.25,
+      "pve_damageWindowEnd": 0.45
     },
     {
       "moveId": "BUG_BUZZ",
@@ -16543,11 +16566,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3700,
-      "pve_damageWindowStartMs": 2000,
-      "pve_damageWindowEndMs": 3100
+      "pve_duration": 3.7,
+      "pve_damageWindowStart": 2,
+      "pve_damageWindowEnd": 3.1
     },
     {
       "moveId": "BULLDOZE",
@@ -16557,11 +16581,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3500,
-      "pve_damageWindowStartMs": 2600,
-      "pve_damageWindowEndMs": 3100
+      "pve_duration": 3.5,
+      "pve_damageWindowStart": 2.6,
+      "pve_damageWindowEnd": 3.1
     },
     {
       "moveId": "BULLET_PUNCH",
@@ -16571,11 +16596,12 @@
       "energy": 0,
       "energyGain": 7,
       "turn": 2,
+      "isFast": true,
       "pve_power": 9,
       "pve_energyDelta": 10,
-      "pve_durationMs": 900,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 900
+      "pve_duration": 0.9,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.9
     },
     {
       "moveId": "BULLET_SEED",
@@ -16585,11 +16611,12 @@
       "energy": 0,
       "energyGain": 11,
       "turn": 3,
+      "isFast": true,
       "pve_power": 8,
       "pve_energyDelta": 14,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "CHARGE_BEAM",
@@ -16599,11 +16626,12 @@
       "energy": 0,
       "energyGain": 11,
       "turn": 3,
+      "isFast": true,
       "pve_power": 8,
       "pve_energyDelta": 15,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "CHARM",
@@ -16613,11 +16641,12 @@
       "energy": 0,
       "energyGain": 6,
       "turn": 3,
+      "isFast": true,
       "pve_power": 20,
       "pve_energyDelta": 11,
-      "pve_durationMs": 1500,
-      "pve_damageWindowStartMs": 900,
-      "pve_damageWindowEndMs": 1200
+      "pve_duration": 1.5,
+      "pve_damageWindowStart": 0.9,
+      "pve_damageWindowEnd": 1.2
     },
     {
       "moveId": "CLOSE_COMBAT",
@@ -16628,11 +16657,12 @@
       "energyGain": 0,
       "effect": "[己], 100%, -2階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -100,
-      "pve_durationMs": 2300,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 2300
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 2.3
     },
     {
       "moveId": "CONFUSION",
@@ -16642,11 +16672,12 @@
       "energy": 0,
       "energyGain": 12,
       "turn": 4,
+      "isFast": true,
       "pve_power": 20,
       "pve_energyDelta": 15,
-      "pve_durationMs": 1600,
-      "pve_damageWindowStartMs": 600,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 0.6,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "COUNTER",
@@ -16656,11 +16687,12 @@
       "energy": 0,
       "energyGain": 7,
       "turn": 2,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 8,
-      "pve_durationMs": 900,
-      "pve_damageWindowStartMs": 700,
-      "pve_damageWindowEndMs": 900
+      "pve_duration": 0.9,
+      "pve_damageWindowStart": 0.7,
+      "pve_damageWindowEnd": 0.9
     },
     {
       "moveId": "CRABHAMMER",
@@ -16671,11 +16703,12 @@
       "energyGain": 0,
       "effect": "[己], 12.5%, +2階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 85,
       "pve_energyDelta": -50,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 1750
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 1.75
     },
     {
       "moveId": "CROSS_CHOP",
@@ -16685,11 +16718,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -50,
-      "pve_durationMs": 1500,
-      "pve_damageWindowStartMs": 800,
-      "pve_damageWindowEndMs": 1200
+      "pve_duration": 1.5,
+      "pve_damageWindowStart": 0.8,
+      "pve_damageWindowEnd": 1.2
     },
     {
       "moveId": "CROSS_POISON",
@@ -16699,11 +16733,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 40,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1500,
-      "pve_damageWindowStartMs": 900,
-      "pve_damageWindowEndMs": 1300
+      "pve_duration": 1.5,
+      "pve_damageWindowStart": 0.9,
+      "pve_damageWindowEnd": 1.3
     },
     {
       "moveId": "CRUNCH",
@@ -16713,11 +16748,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -33,
-      "pve_durationMs": 3200,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 3000
+      "pve_duration": 3.2,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 3
     },
     {
       "moveId": "CUT",
@@ -16727,11 +16763,12 @@
       "energy": 0,
       "energyGain": 2,
       "turn": 1,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 5,
-      "pve_durationMs": 500,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 500
+      "pve_duration": 0.5,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.5
     },
     {
       "moveId": "DARK_PULSE",
@@ -16741,11 +16778,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3000,
-      "pve_damageWindowStartMs": 1400,
-      "pve_damageWindowEndMs": 2300
+      "pve_duration": 3,
+      "pve_damageWindowStart": 1.4,
+      "pve_damageWindowEnd": 2.3
     },
     {
       "moveId": "DAZZLING_GLEAM",
@@ -16755,11 +16793,12 @@
       "energy": 70,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3500,
-      "pve_damageWindowStartMs": 2100,
-      "pve_damageWindowEndMs": 3300
+      "pve_duration": 3.5,
+      "pve_damageWindowStart": 2.1,
+      "pve_damageWindowEnd": 3.3
     },
     {
       "moveId": "DIG",
@@ -16769,11 +16808,12 @@
       "energy": 80,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -50,
-      "pve_durationMs": 4700,
-      "pve_damageWindowStartMs": 2800,
-      "pve_damageWindowEndMs": 4500
+      "pve_duration": 4.7,
+      "pve_damageWindowStart": 2.8,
+      "pve_damageWindowEnd": 4.5
     },
     {
       "moveId": "DISARMING_VOICE",
@@ -16783,11 +16823,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -33,
-      "pve_durationMs": 3900,
-      "pve_damageWindowStartMs": 3200,
-      "pve_damageWindowEndMs": 3500
+      "pve_duration": 3.9,
+      "pve_damageWindowStart": 3.2,
+      "pve_damageWindowEnd": 3.5
     },
     {
       "moveId": "DISCHARGE",
@@ -16797,11 +16838,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 65,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2500,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.5,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "DOOM_DESIRE",
@@ -16811,11 +16853,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1700,
-      "pve_damageWindowStartMs": 1400,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.7,
+      "pve_damageWindowStart": 1.4,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "DRACO_METEOR",
@@ -16826,11 +16869,12 @@
       "energyGain": 0,
       "effect": "[己], 100%, -2階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 150,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3600,
-      "pve_damageWindowStartMs": 3000,
-      "pve_damageWindowEndMs": 3500
+      "pve_duration": 3.6,
+      "pve_damageWindowStart": 3,
+      "pve_damageWindowEnd": 3.5
     },
     {
       "moveId": "DRAGON_BREATH",
@@ -16840,11 +16884,12 @@
       "energy": 0,
       "energyGain": 3,
       "turn": 1,
+      "isFast": true,
       "pve_power": 6,
       "pve_energyDelta": 4,
-      "pve_durationMs": 500,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 500
+      "pve_duration": 0.5,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.5
     },
     {
       "moveId": "DRAGON_CLAW",
@@ -16854,11 +16899,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1700,
-      "pve_damageWindowStartMs": 1100,
-      "pve_damageWindowEndMs": 1300
+      "pve_duration": 1.7,
+      "pve_damageWindowStart": 1.1,
+      "pve_damageWindowEnd": 1.3
     },
     {
       "moveId": "DRAGON_PULSE",
@@ -16868,11 +16914,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3600,
-      "pve_damageWindowStartMs": 2150,
-      "pve_damageWindowEndMs": 3300
+      "pve_duration": 3.6,
+      "pve_damageWindowStart": 2.15,
+      "pve_damageWindowEnd": 3.3
     },
     {
       "moveId": "DRAGON_TAIL",
@@ -16882,11 +16929,12 @@
       "energy": 0,
       "energyGain": 10,
       "turn": 3,
+      "isFast": true,
       "pve_power": 15,
       "pve_energyDelta": 9,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "DRAINING_KISS",
@@ -16896,11 +16944,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 1300
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 1.3
     },
     {
       "moveId": "DRILL_PECK",
@@ -16910,11 +16959,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2300,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "DRILL_RUN",
@@ -16924,11 +16974,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2800,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 2.8,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "DYNAMIC_PUNCH",
@@ -16938,11 +16989,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2700,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "EARTHQUAKE",
@@ -16952,11 +17004,12 @@
       "energy": 65,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 140,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3600,
-      "pve_damageWindowStartMs": 2700,
-      "pve_damageWindowEndMs": 3500
+      "pve_duration": 3.6,
+      "pve_damageWindowStart": 2.7,
+      "pve_damageWindowEnd": 3.5
     },
     {
       "moveId": "EARTH_POWER",
@@ -16967,11 +17020,12 @@
       "energyGain": 0,
       "effect": "[敵], 10%, -1階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3600,
-      "pve_damageWindowStartMs": 2700,
-      "pve_damageWindowEndMs": 3400
+      "pve_duration": 3.6,
+      "pve_damageWindowStart": 2.7,
+      "pve_damageWindowEnd": 3.4
     },
     {
       "moveId": "EMBER",
@@ -16981,11 +17035,12 @@
       "energy": 0,
       "energyGain": 6,
       "turn": 2,
+      "isFast": true,
       "pve_power": 10,
       "pve_energyDelta": 10,
-      "pve_durationMs": 1000,
-      "pve_damageWindowStartMs": 600,
-      "pve_damageWindowEndMs": 800
+      "pve_duration": 1,
+      "pve_damageWindowStart": 0.6,
+      "pve_damageWindowEnd": 0.8
     },
     {
       "moveId": "ENERGY_BALL",
@@ -16995,11 +17050,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3900,
-      "pve_damageWindowStartMs": 3000,
-      "pve_damageWindowEndMs": 3800
+      "pve_duration": 3.9,
+      "pve_damageWindowStart": 3,
+      "pve_damageWindowEnd": 3.8
     },
     {
       "moveId": "EXTRASENSORY",
@@ -17009,11 +17065,12 @@
       "energy": 0,
       "energyGain": 10,
       "turn": 3,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 12,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "FEINT_ATTACK",
@@ -17023,11 +17080,12 @@
       "energy": 0,
       "energyGain": 6,
       "turn": 2,
+      "isFast": true,
       "pve_power": 10,
       "pve_energyDelta": 9,
-      "pve_durationMs": 900,
-      "pve_damageWindowStartMs": 750,
-      "pve_damageWindowEndMs": 900
+      "pve_duration": 0.9,
+      "pve_damageWindowStart": 0.75,
+      "pve_damageWindowEnd": 0.9
     },
     {
       "moveId": "FELL_STINGER",
@@ -17038,11 +17096,12 @@
       "energyGain": 0,
       "effect": "[己], 100%, +1階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2200,
-      "pve_damageWindowStartMs": 1800,
-      "pve_damageWindowEndMs": 2000
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "FIRE_BLAST",
@@ -17052,11 +17111,12 @@
       "energy": 80,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 140,
       "pve_energyDelta": -100,
-      "pve_durationMs": 4200,
-      "pve_damageWindowStartMs": 3100,
-      "pve_damageWindowEndMs": 3900
+      "pve_duration": 4.2,
+      "pve_damageWindowStart": 3.1,
+      "pve_damageWindowEnd": 3.9
     },
     {
       "moveId": "FIRE_FANG",
@@ -17066,11 +17126,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 2,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 8,
-      "pve_durationMs": 900,
-      "pve_damageWindowStartMs": 640,
-      "pve_damageWindowEndMs": 840
+      "pve_duration": 0.9,
+      "pve_damageWindowStart": 0.64,
+      "pve_damageWindowEnd": 0.84
     },
     {
       "moveId": "FIRE_PUNCH",
@@ -17080,11 +17141,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 55,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2200,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 1900
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 1.9
     },
     {
       "moveId": "BLAZE_KICK",
@@ -17094,11 +17156,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 45,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1200,
-      "pve_damageWindowStartMs": 450,
-      "pve_damageWindowEndMs": 800
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 0.45,
+      "pve_damageWindowEnd": 0.8
     },
     {
       "moveId": "FIRE_SPIN",
@@ -17108,11 +17171,12 @@
       "energy": 0,
       "energyGain": 10,
       "turn": 3,
+      "isFast": true,
       "pve_power": 14,
       "pve_energyDelta": 10,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "FLAME_BURST",
@@ -17122,11 +17186,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "FLAME_CHARGE",
@@ -17136,11 +17201,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -33,
-      "pve_durationMs": 3800,
-      "pve_damageWindowStartMs": 2900,
-      "pve_damageWindowEndMs": 3450
+      "pve_duration": 3.8,
+      "pve_damageWindowStart": 2.9,
+      "pve_damageWindowEnd": 3.45
     },
     {
       "moveId": "FLAME_WHEEL",
@@ -17150,11 +17216,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2700,
-      "pve_damageWindowStartMs": 2100,
-      "pve_damageWindowEndMs": 2400
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 2.1,
+      "pve_damageWindowEnd": 2.4
     },
     {
       "moveId": "FLAMETHROWER",
@@ -17164,11 +17231,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2200,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 1700
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 1.7
     },
     {
       "moveId": "FLASH_CANNON",
@@ -17178,11 +17246,12 @@
       "energy": 65,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -100,
-      "pve_durationMs": 2700,
-      "pve_damageWindowStartMs": 1600,
-      "pve_damageWindowEndMs": 2500
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 1.6,
+      "pve_damageWindowEnd": 2.5
     },
     {
       "moveId": "FOCUS_BLAST",
@@ -17192,11 +17261,12 @@
       "energy": 75,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 140,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3500,
-      "pve_damageWindowStartMs": 3000,
-      "pve_damageWindowEndMs": 3500
+      "pve_duration": 3.5,
+      "pve_damageWindowStart": 3,
+      "pve_damageWindowEnd": 3.5
     },
     {
       "moveId": "FOUL_PLAY",
@@ -17206,11 +17276,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2000,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 1900
+      "pve_duration": 2,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 1.9
     },
     {
       "moveId": "FRENZY_PLANT",
@@ -17220,11 +17291,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 2145,
-      "pve_damageWindowEndMs": 2550
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 2.145,
+      "pve_damageWindowEnd": 2.55
     },
     {
       "moveId": "FROST_BREATH",
@@ -17234,11 +17306,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 2,
+      "isFast": true,
       "pve_power": 10,
       "pve_energyDelta": 8,
-      "pve_durationMs": 900,
-      "pve_damageWindowStartMs": 450,
-      "pve_damageWindowEndMs": 750
+      "pve_duration": 0.9,
+      "pve_damageWindowStart": 0.45,
+      "pve_damageWindowEnd": 0.75
     },
     {
       "moveId": "FRUSTRATION",
@@ -17248,11 +17321,12 @@
       "energy": 70,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 10,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2000,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 1800
+      "pve_duration": 2,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 1.8
     },
     {
       "moveId": "FURY_CUTTER",
@@ -17262,11 +17336,12 @@
       "energy": 0,
       "energyGain": 4,
       "turn": 1,
+      "isFast": true,
       "pve_power": 3,
       "pve_energyDelta": 6,
-      "pve_durationMs": 400,
-      "pve_damageWindowStartMs": 100,
-      "pve_damageWindowEndMs": 400
+      "pve_duration": 0.4,
+      "pve_damageWindowStart": 0.1,
+      "pve_damageWindowEnd": 0.4
     },
     {
       "moveId": "FUTURE_SIGHT",
@@ -17276,11 +17351,12 @@
       "energy": 65,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 120,
       "pve_energyDelta": -100,
-      "pve_durationMs": 2700,
-      "pve_damageWindowStartMs": 1400,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 1.4,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "GIGA_DRAIN",
@@ -17290,11 +17366,12 @@
       "energy": 80,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3900,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 2200
+      "pve_duration": 3.9,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 2.2
     },
     {
       "moveId": "GIGA_IMPACT",
@@ -17304,11 +17381,12 @@
       "energy": 80,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 200,
       "pve_energyDelta": -100,
-      "pve_durationMs": 4700,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 2400
+      "pve_duration": 4.7,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 2.4
     },
     {
       "moveId": "GRASS_KNOT",
@@ -17318,11 +17396,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "GUNK_SHOT",
@@ -17332,11 +17411,12 @@
       "energy": 75,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 130,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3100,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 3.1,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "GYRO_BALL",
@@ -17346,11 +17426,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3300,
-      "pve_damageWindowStartMs": 3000,
-      "pve_damageWindowEndMs": 3300
+      "pve_duration": 3.3,
+      "pve_damageWindowStart": 3,
+      "pve_damageWindowEnd": 3.3
     },
     {
       "moveId": "HEART_STAMP",
@@ -17360,11 +17441,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 40,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1100,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.1,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "HEAT_WAVE",
@@ -17374,11 +17456,12 @@
       "energy": 75,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 95,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3000,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2800
+      "pve_duration": 3,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.8
     },
     {
       "moveId": "HEAVY_SLAM",
@@ -17388,11 +17471,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2100,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 1900
+      "pve_duration": 2.1,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 1.9
     },
     {
       "moveId": "HEX",
@@ -17402,11 +17486,12 @@
       "energy": 0,
       "energyGain": 11,
       "turn": 3,
+      "isFast": true,
       "pve_power": 10,
       "pve_energyDelta": 15,
-      "pve_durationMs": 1200,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 1200
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 1.2
     },
     {
       "moveId": "HORN_ATTACK",
@@ -17416,11 +17501,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 40,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1850,
-      "pve_damageWindowStartMs": 800,
-      "pve_damageWindowEndMs": 1650
+      "pve_duration": 1.85,
+      "pve_damageWindowStart": 0.8,
+      "pve_damageWindowEnd": 1.65
     },
     {
       "moveId": "HURRICANE",
@@ -17430,11 +17516,12 @@
       "energy": 65,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 110,
       "pve_energyDelta": -100,
-      "pve_durationMs": 2700,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 2400
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 2.4
     },
     {
       "moveId": "HYDRO_CANNON",
@@ -17444,11 +17531,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 500,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 0.5,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "HYDRO_PUMP",
@@ -17458,11 +17546,12 @@
       "energy": 75,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 130,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3300,
-      "pve_damageWindowStartMs": 900,
-      "pve_damageWindowEndMs": 3000
+      "pve_duration": 3.3,
+      "pve_damageWindowStart": 0.9,
+      "pve_damageWindowEnd": 3
     },
     {
       "moveId": "HYPER_BEAM",
@@ -17472,11 +17561,12 @@
       "energy": 80,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 150,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3800,
-      "pve_damageWindowStartMs": 3300,
-      "pve_damageWindowEndMs": 3600
+      "pve_duration": 3.8,
+      "pve_damageWindowStart": 3.3,
+      "pve_damageWindowEnd": 3.6
     },
     {
       "moveId": "HYPER_FANG",
@@ -17486,11 +17576,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2500,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 2000
+      "pve_duration": 2.5,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "ICE_BEAM",
@@ -17500,11 +17591,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3300,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 2800
+      "pve_duration": 3.3,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 2.8
     },
     {
       "moveId": "ICE_FANG",
@@ -17514,11 +17606,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 2,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 20,
-      "pve_durationMs": 1500,
-      "pve_damageWindowStartMs": 400,
-      "pve_damageWindowEndMs": 1000
+      "pve_duration": 1.5,
+      "pve_damageWindowStart": 0.4,
+      "pve_damageWindowEnd": 1
     },
     {
       "moveId": "ICE_PUNCH",
@@ -17528,11 +17621,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "ICE_SHARD",
@@ -17542,11 +17636,12 @@
       "energy": 0,
       "energyGain": 10,
       "turn": 3,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 12,
-      "pve_durationMs": 1200,
-      "pve_damageWindowStartMs": 600,
-      "pve_damageWindowEndMs": 900
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 0.6,
+      "pve_damageWindowEnd": 0.9
     },
     {
       "moveId": "ICY_WIND",
@@ -17557,11 +17652,12 @@
       "energyGain": 0,
       "effect": "[敵], 100%, -1階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -33,
-      "pve_durationMs": 3300,
-      "pve_damageWindowStartMs": 2000,
-      "pve_damageWindowEndMs": 2800
+      "pve_duration": 3.3,
+      "pve_damageWindowStart": 2,
+      "pve_damageWindowEnd": 2.8
     },
     {
       "moveId": "INFESTATION",
@@ -17571,11 +17667,12 @@
       "energy": 0,
       "energyGain": 11,
       "turn": 3,
+      "isFast": true,
       "pve_power": 10,
       "pve_energyDelta": 14,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "IRON_HEAD",
@@ -17585,11 +17682,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -50,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 1700
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 1.7
     },
     {
       "moveId": "IRON_TAIL",
@@ -17599,11 +17697,12 @@
       "energy": 0,
       "energyGain": 6,
       "turn": 3,
+      "isFast": true,
       "pve_power": 15,
       "pve_energyDelta": 7,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "KARATE_CHOP",
@@ -17613,11 +17712,12 @@
       "energy": 0,
       "energyGain": 7,
       "turn": 2,
+      "isFast": true,
       "pve_power": 8,
       "pve_energyDelta": 10,
-      "pve_durationMs": 800,
-      "pve_damageWindowStartMs": 600,
-      "pve_damageWindowEndMs": 800
+      "pve_duration": 0.8,
+      "pve_damageWindowStart": 0.6,
+      "pve_damageWindowEnd": 0.8
     },
     {
       "moveId": "LAST_RESORT",
@@ -17627,11 +17727,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2900,
-      "pve_damageWindowStartMs": 2700,
-      "pve_damageWindowEndMs": 2850
+      "pve_duration": 2.9,
+      "pve_damageWindowStart": 2.7,
+      "pve_damageWindowEnd": 2.85
     },
     {
       "moveId": "LEAF_BLADE",
@@ -17641,11 +17742,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2400,
-      "pve_damageWindowStartMs": 1250,
-      "pve_damageWindowEndMs": 2200
+      "pve_duration": 2.4,
+      "pve_damageWindowStart": 1.25,
+      "pve_damageWindowEnd": 2.2
     },
     {
       "moveId": "LEAF_TORNADO",
@@ -17656,11 +17758,12 @@
       "energyGain": 0,
       "effect": "[敵], 50%, -1階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 45,
       "pve_energyDelta": -33,
-      "pve_durationMs": 3100,
-      "pve_damageWindowStartMs": 2000,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 3.1,
+      "pve_damageWindowStart": 2,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "LICK",
@@ -17670,11 +17773,12 @@
       "energy": 0,
       "energyGain": 3,
       "turn": 1,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 6,
-      "pve_durationMs": 500,
-      "pve_damageWindowStartMs": 200,
-      "pve_damageWindowEndMs": 500
+      "pve_duration": 0.5,
+      "pve_damageWindowStart": 0.2,
+      "pve_damageWindowEnd": 0.5
     },
     {
       "moveId": "LOCK_ON",
@@ -17684,11 +17788,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 1,
+      "isFast": true,
       "pve_power": 1,
       "pve_energyDelta": 6,
-      "pve_durationMs": 300,
-      "pve_damageWindowStartMs": 170,
-      "pve_damageWindowEndMs": 300
+      "pve_duration": 0.3,
+      "pve_damageWindowStart": 0.17,
+      "pve_damageWindowEnd": 0.3
     },
     {
       "moveId": "LOW_KICK",
@@ -17698,11 +17803,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 2,
+      "isFast": true,
       "pve_power": 6,
       "pve_energyDelta": 6,
-      "pve_durationMs": 600,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 600
+      "pve_duration": 0.6,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.6
     },
     {
       "moveId": "LOW_SWEEP",
@@ -17712,11 +17818,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 40,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 1650
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 1.65
     },
     {
       "moveId": "MAGNET_BOMB",
@@ -17726,11 +17833,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2800,
-      "pve_damageWindowStartMs": 2200,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 2.8,
+      "pve_damageWindowStart": 2.2,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "MEGA_DRAIN",
@@ -17740,11 +17848,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 25,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 950,
-      "pve_damageWindowEndMs": 2000
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 0.95,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "MEGAHORN",
@@ -17754,11 +17863,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 110,
       "pve_energyDelta": -100,
-      "pve_durationMs": 2200,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 1900
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 1.9
     },
     {
       "moveId": "METAL_CLAW",
@@ -17768,11 +17878,12 @@
       "energy": 0,
       "energyGain": 6,
       "turn": 2,
+      "isFast": true,
       "pve_power": 8,
       "pve_energyDelta": 7,
-      "pve_durationMs": 700,
-      "pve_damageWindowStartMs": 430,
-      "pve_damageWindowEndMs": 630
+      "pve_duration": 0.7,
+      "pve_damageWindowStart": 0.43,
+      "pve_damageWindowEnd": 0.63
     },
     {
       "moveId": "METEOR_MASH",
@@ -17782,11 +17893,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 2300,
-      "pve_damageWindowEndMs": 2500
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 2.3,
+      "pve_damageWindowEnd": 2.5
     },
     {
       "moveId": "MIRROR_COAT",
@@ -17796,11 +17908,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 2300,
-      "pve_damageWindowEndMs": 2500
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 2.3,
+      "pve_damageWindowEnd": 2.5
     },
     {
       "moveId": "MIRROR_SHOT",
@@ -17811,11 +17924,12 @@
       "energyGain": 0,
       "effect": "[敵], 30%, -1階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2400,
-      "pve_damageWindowStartMs": 1800,
-      "pve_damageWindowEndMs": 2200
+      "pve_duration": 2.4,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2.2
     },
     {
       "moveId": "MOONBLAST",
@@ -17825,11 +17939,12 @@
       "energy": 70,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 130,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3900,
-      "pve_damageWindowStartMs": 2200,
-      "pve_damageWindowEndMs": 3700
+      "pve_duration": 3.9,
+      "pve_damageWindowStart": 2.2,
+      "pve_damageWindowEnd": 3.7
     },
     {
       "moveId": "MUD_BOMB",
@@ -17839,11 +17954,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 55,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2300,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "MUDDY_WATER",
@@ -17854,11 +17970,12 @@
       "energyGain": 0,
       "effect": "[敵], 30%, -1階攻",
       "turn": 2,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2200,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 1900
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.9
     },
     {
       "moveId": "MUD_SHOT",
@@ -17868,11 +17985,12 @@
       "energy": 0,
       "energyGain": 9,
       "turn": 2,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 7,
-      "pve_durationMs": 600,
-      "pve_damageWindowStartMs": 350,
-      "pve_damageWindowEndMs": 550
+      "pve_duration": 0.6,
+      "pve_damageWindowStart": 0.35,
+      "pve_damageWindowEnd": 0.55
     },
     {
       "moveId": "MUD_SLAP",
@@ -17882,11 +18000,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 3,
+      "isFast": true,
       "pve_power": 18,
       "pve_energyDelta": 12,
-      "pve_durationMs": 1400,
-      "pve_damageWindowStartMs": 1150,
-      "pve_damageWindowEndMs": 1350
+      "pve_duration": 1.4,
+      "pve_damageWindowStart": 1.15,
+      "pve_damageWindowEnd": 1.35
     },
     {
       "moveId": "NIGHT_SHADE",
@@ -17896,11 +18015,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 2100,
-      "pve_damageWindowEndMs": 2500
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 2.1,
+      "pve_damageWindowEnd": 2.5
     },
     {
       "moveId": "NIGHT_SLASH",
@@ -17911,11 +18031,12 @@
       "energyGain": 0,
       "effect": "[己], 12.5%, +2階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2200,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 2000
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "OCTAZOOKA",
@@ -17926,11 +18047,12 @@
       "energyGain": 0,
       "effect": "[敵], 50%, -2階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2300,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "OMINOUS_WIND",
@@ -17941,11 +18063,12 @@
       "energyGain": 0,
       "effect": "[己], 10%, +2階攻, +2階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2300,
-      "pve_damageWindowStartMs": 1850,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1.85,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "ORIGIN_PULSE",
@@ -17955,11 +18078,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 130,
       "pve_energyDelta": -100,
-      "pve_durationMs": 1700,
-      "pve_damageWindowStartMs": 1400,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.7,
+      "pve_damageWindowStart": 1.4,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "OUTRAGE",
@@ -17969,11 +18093,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 110,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3900,
-      "pve_damageWindowStartMs": 2500,
-      "pve_damageWindowEndMs": 3700
+      "pve_duration": 3.9,
+      "pve_damageWindowStart": 2.5,
+      "pve_damageWindowEnd": 3.7
     },
     {
       "moveId": "OVERHEAT",
@@ -17984,11 +18109,12 @@
       "energyGain": 0,
       "effect": "[己], 100%, -2階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 160,
       "pve_energyDelta": -100,
-      "pve_durationMs": 4000,
-      "pve_damageWindowStartMs": 2600,
-      "pve_damageWindowEndMs": 3800
+      "pve_duration": 4,
+      "pve_damageWindowStart": 2.6,
+      "pve_damageWindowEnd": 3.8
     },
     {
       "moveId": "PARABOLIC_CHARGE",
@@ -17998,11 +18124,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 25,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2800,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 2400
+      "pve_duration": 2.8,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 2.4
     },
     {
       "moveId": "PECK",
@@ -18012,11 +18139,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 2,
+      "isFast": true,
       "pve_power": 10,
       "pve_energyDelta": 10,
-      "pve_durationMs": 1000,
-      "pve_damageWindowStartMs": 450,
-      "pve_damageWindowEndMs": 900
+      "pve_duration": 1,
+      "pve_damageWindowStart": 0.45,
+      "pve_damageWindowEnd": 0.9
     },
     {
       "moveId": "PETAL_BLIZZARD",
@@ -18026,11 +18154,12 @@
       "energy": 65,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 110,
       "pve_energyDelta": -100,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2300
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.3
     },
     {
       "moveId": "PLAY_ROUGH",
@@ -18040,11 +18169,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2900,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 2.9,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "POISON_FANG",
@@ -18054,11 +18184,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 35,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1700,
-      "pve_damageWindowStartMs": 900,
-      "pve_damageWindowEndMs": 1400
+      "pve_duration": 1.7,
+      "pve_damageWindowStart": 0.9,
+      "pve_damageWindowEnd": 1.4
     },
     {
       "moveId": "POISON_JAB",
@@ -18068,11 +18199,12 @@
       "energy": 0,
       "energyGain": 7,
       "turn": 2,
+      "isFast": true,
       "pve_power": 10,
       "pve_energyDelta": 7,
-      "pve_durationMs": 800,
-      "pve_damageWindowStartMs": 200,
-      "pve_damageWindowEndMs": 800
+      "pve_duration": 0.8,
+      "pve_damageWindowStart": 0.2,
+      "pve_damageWindowEnd": 0.8
     },
     {
       "moveId": "POISON_STING",
@@ -18082,11 +18214,12 @@
       "energy": 0,
       "energyGain": 6,
       "turn": 2,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 7,
-      "pve_durationMs": 600,
-      "pve_damageWindowStartMs": 375,
-      "pve_damageWindowEndMs": 575
+      "pve_duration": 0.6,
+      "pve_damageWindowStart": 0.375,
+      "pve_damageWindowEnd": 0.575
     },
     {
       "moveId": "POUND",
@@ -18096,11 +18229,12 @@
       "energy": 0,
       "energyGain": 4,
       "turn": 2,
+      "isFast": true,
       "pve_power": 7,
       "pve_energyDelta": 6,
-      "pve_durationMs": 600,
-      "pve_damageWindowStartMs": 340,
-      "pve_damageWindowEndMs": 540
+      "pve_duration": 0.6,
+      "pve_damageWindowStart": 0.34,
+      "pve_damageWindowEnd": 0.54
     },
     {
       "moveId": "POWDER_SNOW",
@@ -18110,11 +18244,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 2,
+      "isFast": true,
       "pve_power": 6,
       "pve_energyDelta": 15,
-      "pve_durationMs": 1000,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1000
+      "pve_duration": 1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1
     },
     {
       "moveId": "POWER_GEM",
@@ -18124,11 +18259,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2900,
-      "pve_damageWindowStartMs": 1950,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 2.9,
+      "pve_damageWindowStart": 1.95,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "POWER_UP_PUNCH",
@@ -18139,11 +18275,12 @@
       "energyGain": 0,
       "effect": "[己], 100%, +1階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2000,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 1900
+      "pve_duration": 2,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 1.9
     },
     {
       "moveId": "POWER_WHIP",
@@ -18153,11 +18290,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 1250,
-      "pve_damageWindowEndMs": 2350
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 1.25,
+      "pve_damageWindowEnd": 2.35
     },
     {
       "moveId": "PRECIPICE_BLADES",
@@ -18167,11 +18305,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 130,
       "pve_energyDelta": -100,
-      "pve_durationMs": 1700,
-      "pve_damageWindowStartMs": 1400,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.7,
+      "pve_damageWindowStart": 1.4,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "PRESENT",
@@ -18181,11 +18320,12 @@
       "energy": 0,
       "energyGain": 12,
       "turn": 3,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 20,
-      "pve_durationMs": 1300,
-      "pve_damageWindowStartMs": 1100,
-      "pve_damageWindowEndMs": 1300
+      "pve_duration": 1.3,
+      "pve_damageWindowStart": 1.1,
+      "pve_damageWindowEnd": 1.3
     },
     {
       "moveId": "PSYBEAM",
@@ -18195,11 +18335,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3200,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 3.2,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "PSYCHIC",
@@ -18210,11 +18351,12 @@
       "energyGain": 0,
       "effect": "[敵], 10%, -1階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2800,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 2.8,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "PSYCHO_BOOST",
@@ -18225,11 +18367,12 @@
       "energyGain": 0,
       "effect": "[己], 100%, -2階攻",
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -50,
-      "pve_durationMs": 4000,
-      "pve_damageWindowStartMs": 3500,
-      "pve_damageWindowEndMs": 4000
+      "pve_duration": 4,
+      "pve_damageWindowStart": 3.5,
+      "pve_damageWindowEnd": 4
     },
     {
       "moveId": "PSYCHO_CUT",
@@ -18239,11 +18382,12 @@
       "energy": 0,
       "energyGain": 9,
       "turn": 2,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 8,
-      "pve_durationMs": 600,
-      "pve_damageWindowStartMs": 370,
-      "pve_damageWindowEndMs": 570
+      "pve_duration": 0.6,
+      "pve_damageWindowStart": 0.37,
+      "pve_damageWindowEnd": 0.57
     },
     {
       "moveId": "PSYSHOCK",
@@ -18253,11 +18397,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 65,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2700,
-      "pve_damageWindowStartMs": 2000,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 2,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "PSYSTRIKE",
@@ -18267,11 +18412,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2300,
-      "pve_damageWindowStartMs": 1000,
-      "pve_damageWindowEndMs": 2000
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "QUICK_ATTACK",
@@ -18281,11 +18427,12 @@
       "energy": 0,
       "energyGain": 7,
       "turn": 2,
+      "isFast": true,
       "pve_power": 8,
       "pve_energyDelta": 10,
-      "pve_durationMs": 800,
-      "pve_damageWindowStartMs": 250,
-      "pve_damageWindowEndMs": 550
+      "pve_duration": 0.8,
+      "pve_damageWindowStart": 0.25,
+      "pve_damageWindowEnd": 0.55
     },
     {
       "moveId": "RAZOR_LEAF",
@@ -18295,11 +18442,12 @@
       "energy": 0,
       "energyGain": 4,
       "turn": 2,
+      "isFast": true,
       "pve_power": 13,
       "pve_energyDelta": 7,
-      "pve_durationMs": 1000,
-      "pve_damageWindowStartMs": 600,
-      "pve_damageWindowEndMs": 850
+      "pve_duration": 1,
+      "pve_damageWindowStart": 0.6,
+      "pve_damageWindowEnd": 0.85
     },
     {
       "moveId": "REST",
@@ -18309,11 +18457,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 1700
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 1.7
     },
     {
       "moveId": "RETURN",
@@ -18323,11 +18472,12 @@
       "energy": 70,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 35,
       "pve_energyDelta": -33,
-      "pve_durationMs": 700,
-      "pve_damageWindowStartMs": 100,
-      "pve_damageWindowEndMs": 350
+      "pve_duration": 0.7,
+      "pve_damageWindowStart": 0.1,
+      "pve_damageWindowEnd": 0.35
     },
     {
       "moveId": "ROCK_BLAST",
@@ -18337,11 +18487,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2100,
-      "pve_damageWindowStartMs": 1600,
-      "pve_damageWindowEndMs": 2000
+      "pve_duration": 2.1,
+      "pve_damageWindowStart": 1.6,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "ROCK_SLIDE",
@@ -18351,11 +18502,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2700,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "ROCK_SMASH",
@@ -18365,11 +18517,12 @@
       "energy": 0,
       "energyGain": 7,
       "turn": 3,
+      "isFast": true,
       "pve_power": 15,
       "pve_energyDelta": 10,
-      "pve_durationMs": 1300,
-      "pve_damageWindowStartMs": 550,
-      "pve_damageWindowEndMs": 800
+      "pve_duration": 1.3,
+      "pve_damageWindowStart": 0.55,
+      "pve_damageWindowEnd": 0.8
     },
     {
       "moveId": "ROCK_THROW",
@@ -18379,11 +18532,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 2,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 7,
-      "pve_durationMs": 900,
-      "pve_damageWindowStartMs": 500,
-      "pve_damageWindowEndMs": 800
+      "pve_duration": 0.9,
+      "pve_damageWindowStart": 0.5,
+      "pve_damageWindowEnd": 0.8
     },
     {
       "moveId": "ROCK_TOMB",
@@ -18393,11 +18547,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3200,
-      "pve_damageWindowStartMs": 2250,
-      "pve_damageWindowEndMs": 3000
+      "pve_duration": 3.2,
+      "pve_damageWindowStart": 2.25,
+      "pve_damageWindowEnd": 3
     },
     {
       "moveId": "ROCK_WRECKER",
@@ -18407,11 +18562,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 110,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3600,
-      "pve_damageWindowStartMs": 2000,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 3.6,
+      "pve_damageWindowStart": 2,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "SAND_TOMB",
@@ -18422,11 +18578,12 @@
       "energyGain": 0,
       "effect": "[敵], 100%, -1階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -33,
-      "pve_durationMs": 4000,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 4000
+      "pve_duration": 4,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 4
     },
     {
       "moveId": "SCALD",
@@ -18436,11 +18593,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3700,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 3400
+      "pve_duration": 3.7,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 3.4
     },
     {
       "moveId": "SCRATCH",
@@ -18450,11 +18608,12 @@
       "energy": 0,
       "energyGain": 2,
       "turn": 1,
+      "isFast": true,
       "pve_power": 6,
       "pve_energyDelta": 4,
-      "pve_durationMs": 500,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 500
+      "pve_duration": 0.5,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.5
     },
     {
       "moveId": "SEED_BOMB",
@@ -18464,11 +18623,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 55,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2100,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 1900
+      "pve_duration": 2.1,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.9
     },
     {
       "moveId": "SHADOW_BALL",
@@ -18478,11 +18638,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3000,
-      "pve_damageWindowStartMs": 2400,
-      "pve_damageWindowEndMs": 2800
+      "pve_duration": 3,
+      "pve_damageWindowStart": 2.4,
+      "pve_damageWindowEnd": 2.8
     },
     {
       "moveId": "SHADOW_CLAW",
@@ -18492,11 +18653,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 2,
+      "isFast": true,
       "pve_power": 9,
       "pve_energyDelta": 6,
-      "pve_durationMs": 700,
-      "pve_damageWindowStartMs": 250,
-      "pve_damageWindowEndMs": 500
+      "pve_duration": 0.7,
+      "pve_damageWindowStart": 0.25,
+      "pve_damageWindowEnd": 0.5
     },
     {
       "moveId": "SHADOW_PUNCH",
@@ -18506,11 +18668,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 40,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1700,
-      "pve_damageWindowStartMs": 1300,
-      "pve_damageWindowEndMs": 1500
+      "pve_duration": 1.7,
+      "pve_damageWindowStart": 1.3,
+      "pve_damageWindowEnd": 1.5
     },
     {
       "moveId": "SHADOW_SNEAK",
@@ -18520,11 +18683,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2900,
-      "pve_damageWindowStartMs": 2200,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 2.9,
+      "pve_damageWindowStart": 2.2,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "SIGNAL_BEAM",
@@ -18534,11 +18698,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 75,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2900,
-      "pve_damageWindowStartMs": 1800,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 2.9,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "SILVER_WIND",
@@ -18549,11 +18714,12 @@
       "energyGain": 0,
       "effect": "[己], 10%, +2階攻, +2階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -33,
-      "pve_durationMs": 3700,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 3500
+      "pve_duration": 3.7,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 3.5
     },
     {
       "moveId": "SKULL_BASH",
@@ -18564,11 +18730,12 @@
       "energyGain": 0,
       "effect": "[己], 100%, +1階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 130,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3100,
-      "pve_damageWindowStartMs": 1800,
-      "pve_damageWindowEndMs": 2300
+      "pve_duration": 3.1,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2.3
     },
     {
       "moveId": "SKY_ATTACK",
@@ -18578,11 +18745,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2000,
-      "pve_damageWindowStartMs": 1500,
-      "pve_damageWindowEndMs": 1700
+      "pve_duration": 2,
+      "pve_damageWindowStart": 1.5,
+      "pve_damageWindowEnd": 1.7
     },
     {
       "moveId": "SLUDGE",
@@ -18592,11 +18760,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 50,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2100,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 1550
+      "pve_duration": 2.1,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.55
     },
     {
       "moveId": "SLUDGE_BOMB",
@@ -18606,11 +18775,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2300,
-      "pve_damageWindowStartMs": 1100,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1.1,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "SLUDGE_WAVE",
@@ -18620,11 +18790,12 @@
       "energy": 65,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 110,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3200,
-      "pve_damageWindowStartMs": 2000,
-      "pve_damageWindowEndMs": 3000
+      "pve_duration": 3.2,
+      "pve_damageWindowStart": 2,
+      "pve_damageWindowEnd": 3
     },
     {
       "moveId": "SMACK_DOWN",
@@ -18634,11 +18805,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 3,
+      "isFast": true,
       "pve_power": 16,
       "pve_energyDelta": 8,
-      "pve_durationMs": 1200,
-      "pve_damageWindowStartMs": 800,
-      "pve_damageWindowEndMs": 1100
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 0.8,
+      "pve_damageWindowEnd": 1.1
     },
     {
       "moveId": "SNARL",
@@ -18648,11 +18820,12 @@
       "energy": 0,
       "energyGain": 13,
       "turn": 3,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 14,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "SOLAR_BEAM",
@@ -18662,11 +18835,12 @@
       "energy": 80,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 180,
       "pve_energyDelta": -100,
-      "pve_durationMs": 4900,
-      "pve_damageWindowStartMs": 2700,
-      "pve_damageWindowEndMs": 4700
+      "pve_duration": 4.9,
+      "pve_damageWindowStart": 2.7,
+      "pve_damageWindowEnd": 4.7
     },
     {
       "moveId": "SPARK",
@@ -18676,11 +18850,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 2,
+      "isFast": true,
       "pve_power": 6,
       "pve_energyDelta": 9,
-      "pve_durationMs": 700,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 700
+      "pve_duration": 0.7,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.7
     },
     {
       "moveId": "SPLASH",
@@ -18690,10 +18865,12 @@
       "energy": 0,
       "energyGain": 12,
       "turn": 4,
+      "isFast": true,
+      "pve_power": 0,
       "pve_energyDelta": 20,
-      "pve_durationMs": 1730,
-      "pve_damageWindowStartMs": 1030,
-      "pve_damageWindowEndMs": 1230
+      "pve_duration": 1.73,
+      "pve_damageWindowStart": 1.03,
+      "pve_damageWindowEnd": 1.23
     },
     {
       "moveId": "STEEL_WING",
@@ -18703,11 +18880,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 2,
+      "isFast": true,
       "pve_power": 11,
       "pve_energyDelta": 6,
-      "pve_durationMs": 800,
-      "pve_damageWindowStartMs": 500,
-      "pve_damageWindowEndMs": 800
+      "pve_duration": 0.8,
+      "pve_damageWindowStart": 0.5,
+      "pve_damageWindowEnd": 0.8
     },
     {
       "moveId": "STOMP",
@@ -18717,11 +18895,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 55,
       "pve_energyDelta": -50,
-      "pve_durationMs": 1700,
-      "pve_damageWindowStartMs": 1100,
-      "pve_damageWindowEndMs": 1500
+      "pve_duration": 1.7,
+      "pve_damageWindowStart": 1.1,
+      "pve_damageWindowEnd": 1.5
     },
     {
       "moveId": "STONE_EDGE",
@@ -18731,11 +18910,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -100,
-      "pve_durationMs": 2300,
-      "pve_damageWindowStartMs": 700,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 0.7,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "STRUGGLE",
@@ -18745,10 +18925,12 @@
       "energy": 100,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 35,
-      "pve_durationMs": 2200,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 2000
+      "pve_energyDelta": -33,
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "STRUGGLE_BUG",
@@ -18758,11 +18940,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 3,
+      "isFast": true,
       "pve_power": 15,
       "pve_energyDelta": 15,
-      "pve_durationMs": 1500,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 1500
+      "pve_duration": 1.5,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.5
     },
     {
       "moveId": "SUBMISSION",
@@ -18772,11 +18955,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2200,
-      "pve_damageWindowStartMs": 1800,
-      "pve_damageWindowEndMs": 2000
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "SUCKER_PUNCH",
@@ -18786,11 +18970,12 @@
       "energy": 0,
       "energyGain": 7,
       "turn": 2,
+      "isFast": true,
       "pve_power": 7,
       "pve_energyDelta": 8,
-      "pve_durationMs": 700,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 700
+      "pve_duration": 0.7,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.7
     },
     {
       "moveId": "SUPER_POWER",
@@ -18801,11 +18986,12 @@
       "energyGain": 0,
       "effect": "[己], 100%, -1階攻, -1階防",
       "turn": 1,
+      "isFast": false,
       "pve_power": 85,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3000,
-      "pve_damageWindowStartMs": 2100,
-      "pve_damageWindowEndMs": 2800
+      "pve_duration": 3,
+      "pve_damageWindowStart": 2.1,
+      "pve_damageWindowEnd": 2.8
     },
     {
       "moveId": "SURF",
@@ -18815,11 +19001,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 65,
       "pve_energyDelta": -50,
-      "pve_durationMs": 1700,
-      "pve_damageWindowStartMs": 1400,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.7,
+      "pve_damageWindowStart": 1.4,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "SWIFT",
@@ -18829,11 +19016,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2800,
-      "pve_damageWindowStartMs": 2000,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 2.8,
+      "pve_damageWindowStart": 2,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "SYNCHRONOISE",
@@ -18843,11 +19031,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "TACKLE",
@@ -18857,11 +19046,12 @@
       "energy": 0,
       "energyGain": 2,
       "turn": 1,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 5,
-      "pve_durationMs": 500,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 500
+      "pve_duration": 0.5,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.5
     },
     {
       "moveId": "TAKE_DOWN",
@@ -18871,11 +19061,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 3,
+      "isFast": true,
       "pve_power": 8,
       "pve_energyDelta": 10,
-      "pve_durationMs": 1200,
-      "pve_damageWindowStartMs": 950,
-      "pve_damageWindowEndMs": 1100
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 0.95,
+      "pve_damageWindowEnd": 1.1
     },
     {
       "moveId": "THUNDER",
@@ -18885,11 +19076,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 100,
       "pve_energyDelta": -100,
-      "pve_durationMs": 2400,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 2200
+      "pve_duration": 2.4,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 2.2
     },
     {
       "moveId": "THUNDER_FANG",
@@ -18899,11 +19091,12 @@
       "energy": 0,
       "energyGain": 5,
       "turn": 2,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 16,
-      "pve_durationMs": 1200,
-      "pve_damageWindowStartMs": 400,
-      "pve_damageWindowEndMs": 900
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 0.4,
+      "pve_damageWindowEnd": 0.9
     },
     {
       "moveId": "THUNDER_PUNCH",
@@ -18913,11 +19106,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 45,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1800,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 1550
+      "pve_duration": 1.8,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 1.55
     },
     {
       "moveId": "THUNDER_SHOCK",
@@ -18927,11 +19121,12 @@
       "energy": 0,
       "energyGain": 9,
       "turn": 2,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 8,
-      "pve_durationMs": 600,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 600
+      "pve_duration": 0.6,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.6
     },
     {
       "moveId": "THUNDERBOLT",
@@ -18941,11 +19136,12 @@
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 80,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2500,
-      "pve_damageWindowStartMs": 1800,
-      "pve_damageWindowEndMs": 2300
+      "pve_duration": 2.5,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2.3
     },
     {
       "moveId": "TRANSFORM",
@@ -18955,9 +19151,12 @@
       "energy": 0,
       "energyGain": 0,
       "turn": 3,
-      "pve_durationMs": 2230,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 700
+      "isFast": true,
+      "pve_power": 0,
+      "pve_energyDelta": 0,
+      "pve_duration": 2.23,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.7
     },
     {
       "moveId": "TWISTER",
@@ -18967,11 +19166,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 45,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2800,
-      "pve_damageWindowStartMs": 950,
-      "pve_damageWindowEndMs": 2600
+      "pve_duration": 2.8,
+      "pve_damageWindowStart": 0.95,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "VICE_GRIP",
@@ -18981,11 +19181,12 @@
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 35,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1900,
-      "pve_damageWindowStartMs": 1100,
-      "pve_damageWindowEndMs": 1500
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.1,
+      "pve_damageWindowEnd": 1.5
     },
     {
       "moveId": "VINE_WHIP",
@@ -18995,11 +19196,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 2,
+      "isFast": true,
       "pve_power": 7,
       "pve_energyDelta": 6,
-      "pve_durationMs": 600,
-      "pve_damageWindowStartMs": 350,
-      "pve_damageWindowEndMs": 600
+      "pve_duration": 0.6,
+      "pve_damageWindowStart": 0.35,
+      "pve_damageWindowEnd": 0.6
     },
     {
       "moveId": "VOLT_SWITCH",
@@ -19009,11 +19211,12 @@
       "energy": 0,
       "energyGain": 16,
       "turn": 4,
+      "isFast": true,
       "pve_power": 14,
       "pve_energyDelta": 21,
-      "pve_durationMs": 1600,
-      "pve_damageWindowStartMs": 700,
-      "pve_damageWindowEndMs": 900
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 0.7,
+      "pve_damageWindowEnd": 0.9
     },
     {
       "moveId": "WATER_GUN",
@@ -19023,11 +19226,12 @@
       "energy": 0,
       "energyGain": 3,
       "turn": 1,
+      "isFast": true,
       "pve_power": 5,
       "pve_energyDelta": 5,
-      "pve_durationMs": 500,
-      "pve_damageWindowStartMs": 300,
-      "pve_damageWindowEndMs": 500
+      "pve_duration": 0.5,
+      "pve_damageWindowStart": 0.3,
+      "pve_damageWindowEnd": 0.5
     },
     {
       "moveId": "WATER_PULSE",
@@ -19037,11 +19241,12 @@
       "energy": 60,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 70,
       "pve_energyDelta": -50,
-      "pve_durationMs": 3200,
-      "pve_damageWindowStartMs": 2200,
-      "pve_damageWindowEndMs": 2900
+      "pve_duration": 3.2,
+      "pve_damageWindowStart": 2.2,
+      "pve_damageWindowEnd": 2.9
     },
     {
       "moveId": "WATERFALL",
@@ -19051,11 +19256,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 3,
+      "isFast": true,
       "pve_power": 16,
       "pve_energyDelta": 8,
-      "pve_durationMs": 1200,
-      "pve_damageWindowStartMs": 950,
-      "pve_damageWindowEndMs": 1100
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 0.95,
+      "pve_damageWindowEnd": 1.1
     },
     {
       "moveId": "WEATHER_BALL_FIRE",
@@ -19065,11 +19271,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1600,
-      "pve_damageWindowStartMs": 1350,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 1.35,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "WEATHER_BALL_ICE",
@@ -19079,11 +19286,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1600,
-      "pve_damageWindowStartMs": 1350,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 1.35,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "WEATHER_BALL_ROCK",
@@ -19093,11 +19301,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1600,
-      "pve_damageWindowStartMs": 1350,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 1.35,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "WEATHER_BALL_WATER",
@@ -19107,11 +19316,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1600,
-      "pve_damageWindowStartMs": 1350,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 1.35,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "WILD_CHARGE",
@@ -19121,11 +19331,12 @@
       "energy": 50,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 90,
       "pve_energyDelta": -50,
-      "pve_durationMs": 2600,
-      "pve_damageWindowStartMs": 1700,
-      "pve_damageWindowEndMs": 2100
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.1
     },
     {
       "moveId": "WING_ATTACK",
@@ -19135,11 +19346,12 @@
       "energy": 0,
       "energyGain": 7,
       "turn": 2,
+      "isFast": true,
       "pve_power": 8,
       "pve_energyDelta": 9,
-      "pve_durationMs": 800,
-      "pve_damageWindowStartMs": 550,
-      "pve_damageWindowEndMs": 750
+      "pve_duration": 0.8,
+      "pve_damageWindowStart": 0.55,
+      "pve_damageWindowEnd": 0.75
     },
     {
       "moveId": "WRAP",
@@ -19149,11 +19361,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 60,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2900,
-      "pve_damageWindowStartMs": 2050,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 2.9,
+      "pve_damageWindowStart": 2.05,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "WRAP_GREEN",
@@ -19163,11 +19376,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 25,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2900,
-      "pve_damageWindowStartMs": 2050,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 2.9,
+      "pve_damageWindowStart": 2.05,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "WRAP_PINK",
@@ -19177,11 +19391,12 @@
       "energy": 45,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 25,
       "pve_energyDelta": -33,
-      "pve_durationMs": 2900,
-      "pve_damageWindowStartMs": 2050,
-      "pve_damageWindowEndMs": 2700
+      "pve_duration": 2.9,
+      "pve_damageWindowStart": 2.05,
+      "pve_damageWindowEnd": 2.7
     },
     {
       "moveId": "X_SCISSOR",
@@ -19191,11 +19406,12 @@
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 45,
       "pve_energyDelta": -33,
-      "pve_durationMs": 1600,
-      "pve_damageWindowStartMs": 1200,
-      "pve_damageWindowEndMs": 1400
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.4
     },
     {
       "moveId": "YAWN",
@@ -19205,10 +19421,12 @@
       "energy": 0,
       "energyGain": 12,
       "turn": 4,
+      "isFast": true,
+      "pve_power": 0,
       "pve_energyDelta": 15,
-      "pve_durationMs": 1700,
-      "pve_damageWindowStartMs": 1400,
-      "pve_damageWindowEndMs": 1600
+      "pve_duration": 1.7,
+      "pve_damageWindowStart": 1.4,
+      "pve_damageWindowEnd": 1.6
     },
     {
       "moveId": "ZAP_CANNON",
@@ -19218,11 +19436,12 @@
       "energy": 80,
       "energyGain": 0,
       "turn": 1,
+      "isFast": false,
       "pve_power": 140,
       "pve_energyDelta": -100,
-      "pve_durationMs": 3700,
-      "pve_damageWindowStartMs": 3000,
-      "pve_damageWindowEndMs": 3500
+      "pve_duration": 3.7,
+      "pve_damageWindowStart": 3,
+      "pve_damageWindowEnd": 3.5
     },
     {
       "moveId": "ZEN_HEADBUTT",
@@ -19232,11 +19451,12 @@
       "energy": 0,
       "energyGain": 6,
       "turn": 3,
+      "isFast": true,
       "pve_power": 12,
       "pve_energyDelta": 10,
-      "pve_durationMs": 1100,
-      "pve_damageWindowStartMs": 850,
-      "pve_damageWindowEndMs": 1050
+      "pve_duration": 1.1,
+      "pve_damageWindowStart": 0.85,
+      "pve_damageWindowEnd": 1.05
     },
     {
       "moveId": "HIDDEN_POWER",
@@ -19246,11 +19466,12 @@
       "energy": 0,
       "energyGain": 8,
       "turn": 3,
+      "isFast": true,
       "pve_power": 15,
       "pve_energyDelta": 15,
-      "pve_durationMs": 1500,
-      "pve_damageWindowStartMs": 1100,
-      "pve_damageWindowEndMs": 1400
+      "pve_duration": 1.5,
+      "pve_damageWindowStart": 1.1,
+      "pve_damageWindowEnd": 1.4
     }
   ]
 }
