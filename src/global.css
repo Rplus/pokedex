@@ -205,8 +205,8 @@ details details summary {
   right: 0;
   bottom: 0;
   height: 2px;
-  background-color: #ddd;
-  background-image: linear-gradient(90deg, transparent 80%, #666);
+  background-color: #ddf;
+  background-image: linear-gradient(90deg, transparent 80%, #66f);
   background-size: var(--bgzx, 100%) 100%;
 }
 
@@ -241,6 +241,10 @@ details details summary {
 .text-capitalize { text-transform: capitalize; }
 .text-no-decoration { text-decoration: none; }
 .text-nowrap { white-space: nowrap; }
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .no-list-style { list-style: none; }
 
