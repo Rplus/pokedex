@@ -29,6 +29,11 @@
   let uri = location.pathname;
   $: active = uri.split('/')[1] || 'home';
 
+  let basrURI = '/';
+  if (process.env.NODE_ENV === 'production') {
+    basrURI = '/pokedex';
+  }
+
   function draw(m, obj) {
     params = obj || {};
     Route = m;
@@ -43,7 +48,7 @@
   addEventListener('pushstate', track);
   addEventListener('popstate', track);
 
-  $router = Navaid('/', () => draw(Home))
+  $router = Navaid(basrURI, () => draw(Home))
     .on('/', () => draw(Home))
     .on('/about', () => draw(About))
     .on('/move', () => draw(MoveList))
