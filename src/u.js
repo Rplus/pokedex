@@ -51,7 +51,7 @@ export function calPmCPHP(base, adsl) {
 
 export function handleMove(moves) {
   return moves.map(m => {
-    m.isFast = !!m.energyGain;
+    // m.isFast = !!m.energyGain;
     if (m.isFast) {
       m.ept = fixNum(m.energyGain / m.turn);
       m.dpt = fixNum(m.power / m.turn);
@@ -62,6 +62,10 @@ export function handleMove(moves) {
         m.effect = '';
       }
     }
+    m.pve_dps = fixNum(m.pve_power / m.pve_duration);
+    m.pve_eps = fixNum(m.pve_energyDelta / m.pve_duration);
+    m.pve_dpe = fixNum(m.pve_power / -m.pve_energyDelta);
+    m.pve_dpsxdpe = fixNum(m.pve_power * m.pve_power / (m.pve_duration * -m.pve_energyDelta));
     return m;
   });
 }

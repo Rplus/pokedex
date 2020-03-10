@@ -8,6 +8,7 @@
   import TypeIcon from '@c/TypeIcon.html';
   import Ruby from '@c/Ruby.html';
 
+  let isPVE = false;
   let _moves;
   let type = location.hash ? location.hash.replace('#', '') : '';
 
@@ -52,16 +53,26 @@
   <title>Move</title>
 </svelte:head>
 
-<section>
+<section class="move-list">
 
   <Details type="move_filter" class="card">
     <summary><h3>Filter</h3></summary>
     <TypeFilter type={type} on:clicktype={clicktype} />
   </Details>
 
+  <div class="card">
+    <h3>
+      <label class="switcher df jc-c">
+        <input class="switcher-input hidden-checkbox" type="checkbox" bind:checked={isPVE}>
+        <span class="switcher-text">PVP</span>
+        <span class="switcher-icon"></span>
+        <span class="switcher-text">PVE</span>
+      </label>
+    </h3>
+  </div>
+
   <Details type="fastmove" class="card">
     <summary><h3>Fast</h3></summary>
-
 
     <TableSort
       items={_moves.fast}
@@ -70,12 +81,21 @@
       <tr slot="thead">
         <th data-sort="type" data-sort-initial>@</th>
         <th data-sort="name">Name</th>
-        <th data-sort="power" title="Damage">D</th>
-        <th data-sort="energyGain" title="Energy">E</th>
-        <th data-sort="turn" title="Turn">T</th>
-        <th data-sort="dpt">DPT</th>
-        <th data-sort="ept">EPT</th>
-        <th data-sort="eptxdpt" title="EPT x DPT">Π</th>
+
+        <!-- PVE -->
+        <th hidden={!isPVE} data-sort="pve_power" title="Damage">D</th>
+        <th hidden={!isPVE} data-sort="pve_energyDelta" title="Energy">E</th>
+        <th hidden={!isPVE} data-sort="pve_duration" title="Time(s)">T</th>
+        <th hidden={!isPVE} data-sort="pve_dps" title="DPS">DPS</th>
+        <th hidden={!isPVE} data-sort="pve_eps" title="EPS">EPS</th>
+
+        <!-- PVP -->
+        <th hidden={isPVE} data-sort="power" title="Damage">D</th>
+        <th hidden={isPVE} data-sort="energyGain" title="Energy">E</th>
+        <th hidden={isPVE} data-sort="turn" title="Turn">T</th>
+        <th hidden={isPVE} data-sort="dpt">DPT</th>
+        <th hidden={isPVE} data-sort="ept">EPT</th>
+        <th hidden={isPVE} data-sort="eptxdpt" title="EPT x DPT">Π</th>
       </tr>
       <tr slot="tbody" let:item={item}>
         <td>
@@ -85,16 +105,25 @@
           <a href="./move/{item.moveId}">
             <Ruby class="x">
               <div slot="rb">{item.name}</div>
-              <div slot="rt">{item.moveId}</div>
+              <div slot="rt" class="text-ellipsis" title={item.moveId}>{item.moveId}</div>
             </Ruby>
           </a>
         </td>
-        <td>{item.power}</td>
-        <td>{item.energyGain}</td>
-        <td>{item.turn}</td>
-        <td>{item.dpt}</td>
-        <td>{item.ept}</td>
-        <td>{item.eptxdpt}</td>
+
+        <!-- PVE -->
+        <td hidden={!isPVE}>{item.pve_power}</td>
+        <td hidden={!isPVE}>{item.pve_energyDelta}</td>
+        <td hidden={!isPVE}>{item.pve_duration}</td>
+        <td hidden={!isPVE}>{item.pve_dps}</td>
+        <td hidden={!isPVE}>{item.pve_eps}</td>
+
+        <!-- PVP -->
+        <td hidden={isPVE}>{item.power}</td>
+        <td hidden={isPVE}>{item.energyGain}</td>
+        <td hidden={isPVE}>{item.turn}</td>
+        <td hidden={isPVE}>{item.dpt}</td>
+        <td hidden={isPVE}>{item.ept}</td>
+        <td hidden={isPVE}>{item.eptxdpt}</td>
       </tr>
     </TableSort>
   </Details>
@@ -104,15 +133,26 @@
 
     <TableSort
       items={_moves.charge}
-      class="sticky-thead narrow text-right ml-a mr-a"
+      class="sticky-thead narrow ml-a mr-a"
     >
       <tr slot="thead">
         <th data-sort="type" data-sort-initial>@</th>
         <th data-sort="name">Name</th>
-        <th data-sort="power" title="Damage">D</th>
-        <th data-sort="energy" title="Energy">E</th>
-        <th data-sort="dpe">DPE</th>
-        <th data-sort="effect">Effect</th>
+
+        <!-- PVE -->
+        <th hidden={!isPVE} data-sort="pve_power" title="Damage">D</th>
+        <th hidden={!isPVE} data-sort="pve_energyDelta" title="Energy">E</th>
+        <th hidden={!isPVE} data-sort="pve_duration" title="Time(s)">T</th>
+        <th hidden={!isPVE} data-sort="pve_damageWindowStart" title="Active(s)">⚡</th>
+        <th hidden={!isPVE} data-sort="pve_dps" title="DPS">DPS</th>
+        <th hidden={!isPVE} data-sort="pve_dpe" title="DPE">DPE</th>
+        <th hidden={!isPVE} data-sort="pve_dpsxdpe" title="DPS x DPE">Π</th>
+
+        <!-- PVP -->
+        <th hidden={isPVE} data-sort="power" title="Damage">D</th>
+        <th hidden={isPVE} data-sort="energy" title="Energy">E</th>
+        <th hidden={isPVE} data-sort="dpe">DPE</th>
+        <th hidden={isPVE} data-sort="effect">Effect</th>
       </tr>
       <tr slot="tbody" let:item={item}>
         <td class="p-0 text-center">
@@ -122,14 +162,25 @@
           <a href="./move/{item.moveId}">
             <Ruby class="x">
               <div slot="rb">{item.name}</div>
-              <div slot="rt">{item.moveId}</div>
+              <div slot="rt" class="text-ellipsis" title={item.moveId}>{item.moveId}</div>
             </Ruby>
           </a>
         </td>
-        <td>{item.power}</td>
-        <td>{item.energy}</td>
-        <td>{item.dpe}</td>
-        <td class="effect text-left fz-s">{@html effText(item.effect) || ''}</td>
+
+        <!-- PVP -->
+        <td hidden={!isPVE}>{item.pve_power}</td>
+        <td hidden={!isPVE}>{item.pve_energyDelta}</td>
+        <td hidden={!isPVE}>{item.pve_duration}</td>
+        <td hidden={!isPVE}>{item.pve_damageWindowStart}</td>
+        <td hidden={!isPVE}>{item.pve_dps}</td>
+        <td hidden={!isPVE}>{item.pve_dpe}</td>
+        <td hidden={!isPVE}>{item.pve_dpsxdpe}</td>
+
+        <!-- PVP -->
+        <td hidden={isPVE}>{item.power}</td>
+        <td hidden={isPVE}>{item.energy}</td>
+        <td hidden={isPVE}>{item.dpe}</td>
+        <td hidden={isPVE} class="effect text-left fz-s">{@html effText(item.effect) || ''}</td>
       </tr>
     </TableSort>
   </Details>
@@ -148,5 +199,37 @@
   }
   .effect :global(span:first-child) {
     color: #999;
+  }
+
+  @media (max-width: 35rem) {
+    .move-list :global(.text-ellipsis) {
+      max-width: 15vw;
+    }
+  }
+
+  .switcher-icon {
+    position: relative;
+    top: .15em;
+    width: 1.5em;
+    height: .7em;
+    margin-left: .5em;
+    margin-right: .5em;
+    background-color: #ccf;
+    border-radius: 1em;
+  }
+  .switcher-icon::before {
+    content: '';
+    position: absolute;
+    top: -.15em;
+    left: -.25em;
+    width: 1em;
+    height: 1em;
+    background-color: #66c;
+    background-clip: content-box;
+    border-radius: 1em;
+    transition: transform .3s;
+  }
+  .switcher-input:checked ~ .switcher-icon::before {
+    transform: translateX(100%);
   }
 </style>

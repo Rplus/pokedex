@@ -48,7 +48,7 @@ function effText(eff) {
 </svelte:head>
 
 {#if move}
-  <section>
+  <div>
     <section class="card">
       <h2 class="d-if">
         <Ruby class="_">
@@ -58,62 +58,131 @@ function effText(eff) {
         <TypeIcon type={move.type} />
       </h2>
 
-      <table class="ml-a mr-a">
-        <tr>
-          <td title="傷害">Power</td>
-          <td>{move.power}</td>
-        </tr>
+      <div class="text-center mb-2">
+        [ {move.isFast ? 'Fast' : 'Charge'} ]
+      </div>
 
-        {#if move.isFast}
+      <div class="df fxw-w jc-se">
+        <table class="mb-4">
+          <tr>
+            <th colspan="2">
+              PVP
+            </th>
+          </tr>
 
+          <tr>
+            <td title="傷害">Power</td>
+            <td>{move.power}</td>
+          </tr>
+
+          {#if move.isFast}
+
+            <tr>
+              <td title="能量(得)">Energy</td>
+              <td>{move.energyGain}</td>
+            </tr>
+
+            <tr>
+              <td title="回合">Turn</td>
+              <td>{move.turn}</td>
+            </tr>
+
+            <tr>
+              <td>EPT</td>
+              <td>{move.ept}</td>
+            </tr>
+
+            <tr>
+              <td>DPT</td>
+              <td>{move.dpt}</td>
+            </tr>
+
+            <tr>
+              <td>EPT x DPT</td>
+              <td>{move.eptxdpt}</td>
+            </tr>
+
+          {:else}
+
+            <tr>
+              <td title="能量(出)">Energy</td>
+              <td class="energy-bar" style="--bgzx: {move.energy}%">-{move.energy}</td>
+            </tr>
+
+            <tr>
+              <td>DPE</td>
+              <td>{move.dpe}</td>
+            </tr>
+
+            {#if move.effect}
+              <tr>
+                <td title="效果" colspan="2">
+                  Effect
+                  <div class="move-effect fz-s pt-1">{ move.effect }</div>
+                </td>
+              </tr>
+            {/if}
+
+          {/if}
+        </table>
+
+        <table>
+          <tr>
+            <th colspan="2"
+              class:energy-bar={!move.isFast}
+              style="--bgzx: { -move.pve_energyDelta }%"
+            >
+              PVE
+            </th>
+          </tr>
+
+          <tr>
+            <td title="傷害">Power</td>
+            <td>{move.pve_power}</td>
+          </tr>
           <tr>
             <td title="能量(得)">Energy</td>
-            <td>{move.energyGain}</td>
+            <td>{move.pve_energyDelta}</td>
           </tr>
-
           <tr>
-            <td title="回合">Turn</td>
-            <td>{move.turn}</td>
+            <td title="DPS">DPS</td>
+            <td>{move.pve_dps}</td>
           </tr>
-
-          <tr>
-            <td>EPT</td>
-            <td>{move.ept}</td>
-          </tr>
-
-          <tr>
-            <td>DPT</td>
-            <td>{move.dpt}</td>
-          </tr>
-
-          <tr>
-            <td>EPT x DPT</td>
-            <td>{move.eptxdpt}</td>
-          </tr>
-
-        {:else}
-
-          <tr>
-            <td title="能量(出)">Energy</td>
-            <td class="energy-bar" style="--bgzx: {move.energy}%">{move.energy}</td>
-          </tr>
-
-          <tr>
-            <td>DPE</td>
-            <td>{move.dpe}</td>
-          </tr>
-
-          {#if move.effect}
+          {#if move.isFast}
             <tr>
-              <td title="效果" colspan="2">
-                Effect
-                <div class="move-effect fz-s pt-1">{ move.effect }</div>
-              </td>
+              <td title="EPS">EPS</td>
+              <td>{move.pve_eps}</td>
+            </tr>
+          {:else}
+            <tr>
+              <td title="DPE">DPE</td>
+              <td>{move.pve_dpe}</td>
+            </tr>
+            <tr>
+              <td title="DPS*DPE">DPS*DPE</td>
+              <td>{move.pve_dpsxdpe}</td>
             </tr>
           {/if}
+          <tr>
+            <td title="黃光(秒)">Active</td>
+            <td>{move.pve_damageWindowStart}<small>s</small></td>
+          </tr>
+          <tr>
+            <td title="耗時(秒)">Time</td>
+            <td>{move.pve_duration}<small>s</small></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <div class="damage-window text-right"
+                style="--ds: {move.pve_damageWindowStart / 5}; --de: {move.pve_damageWindowEnd / 5}; --da: {move.pve_duration / 5}"
+              >
+                <small>5s</small>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
 
-        {/if}
-      </table>
 
     </section>
 
@@ -140,7 +209,7 @@ function effText(eff) {
         </tr>
       </TableSort>
     </Details>
-  </section>
+  </div>
 {/if}
 
 
@@ -149,4 +218,15 @@ function effText(eff) {
   .move-effect {
     text-indent: 1em;
   }
+
+  :global(.damage-window) {
+    background-color: #9001;
+    background-image:
+      linear-gradient(90deg, #9001 calc(var(--da) * 100%), transparent 0),
+      linear-gradient(90deg, transparent calc(var(--ds) * 100%), #9002 0, #9002 calc(var(--de) * 100%), transparent 0);
+    background-size: 100% 100%, 100% 60%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
 </style>
