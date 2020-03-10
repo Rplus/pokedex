@@ -123,11 +123,15 @@ function handleJSON(json) {
         }
         pveData = pveData.moveSettings;
 
-        move.pve_power = pveData.power;
-        move.pve_energyDelta = pveData.energyDelta;
-        move.pve_durationMs = pveData.durationMs;
-        move.pve_damageWindowStartMs = pveData.damageWindowStartMs;
-        move.pve_damageWindowEndMs = pveData.damageWindowEndMs;
+        move.isFast = /\_FAST$/.test(pveData.movementId);
+        move.pve_power = pveData.power || 0;
+        move.pve_energyDelta = pveData.energyDelta || 0;
+        if (move.moveId === 'STRUGGLE') {
+          move.pve_energyDelta = -33;
+        }
+        move.pve_duration = pveData.durationMs / 1000;
+        move.pve_damageWindowStart = pveData.damageWindowStartMs / 1000;
+        move.pve_damageWindowEnd = pveData.damageWindowEndMs / 1000;
       });
 
 
