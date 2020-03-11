@@ -8,10 +8,12 @@ const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
   console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
 };
 
-let contents = fs.readFileSync('./tmp/gamemaster.json', 'utf8');
-let fullContents = fs.readFileSync('./tmp/gamemaster_full.json', 'utf8');
+let contents = fs.readFileSync('./tmp/gamemaster-pvpoke.json', 'utf8');
+let contents_tw = fs.readFileSync('./tmp/gamemaster-pvpoketw.json', 'utf8');
+let contents_FULL = fs.readFileSync('./tmp/gamemaster-full.json', 'utf8');
 
-let fullData = JSON.parse(fullContents);
+let fullData = JSON.parse(contents_FULL);
+let twData = JSON.parse(contents_tw);
 
 let oPm = fullData.filter(i => i.pokemonSettings);
 let oMove = fullData.filter(i => i.moveSettings);
@@ -41,107 +43,136 @@ function introEffect(move) {
 function queryMove(mid) {
   return oMove.find(m => m.moveSettings.movementId.replace(/_FAST$/, '') === mid);
 }
+function queryMove_tw(mid) {
+  return twData.moves.find(m => m.moveId === mid);
+}
+function queryPM_tw(pid) {
+  return twData.pokemon.find(pm => pm.speciesId === pid);
+}
 
 function handleJSON(json) {
-      let { pokemon, moves, shadowPokemon } = json;
+  let { pokemon, moves, shadowPokemon } = json;
 
-      // remove shadow pokemon
-      pokemon = pokemon.filter(pm => pm.speciesId.indexOf('_shadow') === -1);
-
-      pokemon.forEach(pm => {
-        pm._atk = pm.baseStats.atk;
-        pm._def = pm.baseStats.def;
-        pm._sta = pm.baseStats.hp;
-
-        pm.name = pm.speciesName;
-        pm.id = pm.speciesId;
-        pm.types = pm.types.filter(t => t !== 'none');
-
-        if (shadowPokemon.indexOf(pm.id) !== -1) {
-          pm.chargedMoves.push('RETURN');
-          pm.chargedMoves.push('FRUSTRATION');
-        }
-
-        delete pm.speciesId;
-        delete pm.speciesName;
-        delete pm.defaultIVs;
-        delete pm.level25CP;
-        delete pm.baseStats;
-        delete pm.tags;
-
-        ['fastMoves', 'legacyMoves'].forEach(type => {
-          if (pm[type] && pm[type].indexOf('HIDDEN_POWER_BUG') !== -1) {
-            pm[type] = pm[type].filter(m => m.indexOf('HIDDEN_POWER_') === -1);
-            pm[type].push('HIDDEN_POWER');
-          }
-        });
-
-      });
-
-
-      {
-        let move_hiddenpower_normal = JSON.parse(JSON.stringify({
-          ...moves.find(move => move.moveId === 'HIDDEN_POWER_BUG'),
-          ...{
-            moveId: 'HIDDEN_POWER',
-            name: '覺醒力量',
-            type: 'normal',
-          },
-        }));
-
-        // remove some moves
-        moves = moves.filter(move => {
-          return (
-            // (move.moveId !== 'TRANSFORM') &&
-            (move.moveId.indexOf('BLASTOISE') === -1) &&
-            (move.moveId.indexOf('HIDDEN_POWER_') === -1)
-          );
-        });
-
-        moves.push(move_hiddenpower_normal);
+  // remove shadow pokemon
+  pokemon = pokemon
+    .filter(pm => pm.speciesId.indexOf('_shadow') === -1)
+    .map(pm => {
+      let pm_tw = queryPM_tw(pm.speciesId);
+      if (!pm_tw) {
+        console.warn(`new pm: ${pm.speciesId}`);
       }
 
-
-      moves.forEach(move => {
-        if (move.buffApplyChance) {
-          move.buffApplyChance = move.buffApplyChance * 1;
+      ['fastMoves', 'legacyMoves'].forEach(movetype => {
+        if (pm[movetype] && pm[movetype].indexOf('HIDDEN_POWER_BUG') !== -1) {
+          pm[movetype] = pm[movetype].filter(m => m.indexOf('HIDDEN_POWER_') === -1);
+          pm[movetype].push('HIDDEN_POWER');
         }
-
-        if (move.buffs) {
-          move.effect = introEffect(move);
-          delete move.buffs;
-          delete move.buffTarget;
-          delete move.buffApplyChance;
-        }
-
-        move.turn = move.cooldown / 500;
-        delete move.cooldown;
-
-        let pveData = queryMove(move.moveId);
-        if (!pveData) {
-          pveData = queryMove(move.moveId.replace(/\_/g, ''));
-        }
-        pveData = pveData.moveSettings;
-
-        move.isFast = /\_FAST$/.test(pveData.movementId);
-        move.pve_power = pveData.power || 0;
-        move.pve_energyDelta = pveData.energyDelta || 0;
-        if (move.moveId === 'STRUGGLE') {
-          move.pve_energyDelta = -33;
-        }
-        move.pve_duration = pveData.durationMs / 1000;
-        move.pve_damageWindowStart = pveData.damageWindowStartMs / 1000;
-        move.pve_damageWindowEnd = pveData.damageWindowEndMs / 1000;
       });
 
+      let {
+        dex,
+        types,
+        fastMoves,
+        chargedMoves,
+        legacyMoves,
+      } = pm;
 
-      outputJSON({
-        pokemon,
-        moves,
-      }, './assets/gm.json', 0);
+      if (shadowPokemon.indexOf(pm.id) !== -1) {
+        chargedMoves.push('RETURN');
+        chargedMoves.push('FRUSTRATION');
+      }
 
-      outputJSON({
-        pokemon,
-        moves,
-      }, './assets/gm.src.json');
+      return {
+        id: pm.speciesId,
+        name: (pm_tw || pm).speciesName,
+        _atk: pm.baseStats.atk,
+        _def: pm.baseStats.def,
+        _sta: pm.baseStats.hp,
+        dex,
+        types: types.filter(t => t !== 'none'),
+        fastMoves,
+        chargedMoves,
+        legacyMoves,
+      }
+    });
+
+
+  {
+    let move_hiddenpower_normal = JSON.parse(JSON.stringify({
+      ...moves.find(move => move.moveId === 'HIDDEN_POWER_BUG'),
+      ...{
+        moveId: 'HIDDEN_POWER',
+        name: '覺醒力量',
+        type: 'normal',
+      },
+    }));
+
+    // remove some moves
+    moves = moves.filter(move => {
+      return (
+        // (move.moveId !== 'TRANSFORM') &&
+        (move.moveId.indexOf('BLASTOISE') === -1) &&
+        (move.moveId.indexOf('HIDDEN_POWER_') === -1)
+      );
+    });
+
+    moves.push(move_hiddenpower_normal);
+  }
+
+
+  moves = moves.map(mmm => {
+    let pveData = queryMove(mmm.moveId);
+    if (!pveData) {
+      pveData = queryMove(mmm.moveId.replace(/\_/g, ''));
+    }
+    pveData = pveData.moveSettings;
+
+    let mmm_tw = queryMove_tw(mmm.moveId);
+    if (!mmm_tw) {
+      console.warn(`new Move: ${mmm.moveId}`);
+    }
+
+    if (mmm.moveId === 'STRUGGLE') {
+      mmm.pve_energyDelta = -33;
+    }
+
+    let {
+      moveId,
+      power,
+      type,
+      energy,
+      energyGain,
+    } = mmm;
+
+    return {
+      moveId,
+      name: (mmm_tw || mmm).name,
+      power,
+      type,
+      energy,
+      energyGain,
+      effect: mmm.buffs && introEffect(mmm),
+      turn: mmm.cooldown / 500,
+      isFast: /\_FAST$/.test(pveData.movementId),
+      pve_power: pveData.power || 0,
+      pve_energyDelta: pveData.energyDelta || 0,
+      pve_duration: pveData.durationMs / 1000,
+      pve_damageWindowStart: pveData.damageWindowStartMs / 1000,
+      pve_damageWindowEnd: pveData.damageWindowEndMs / 1000,
+    };
+  });
+
+
+  // output
+  {
+    outputJSON({
+      pokemon,
+      moves,
+    }, './assets/gm.json', 0);
+
+    outputJSON({
+      pokemon,
+      moves,
+    }, './assets/gm.src.json');
+  }
 }
