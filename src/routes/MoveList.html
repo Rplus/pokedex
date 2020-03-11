@@ -60,15 +60,15 @@
     <TypeFilter type={type} on:clicktype={clicktype} />
   </Details>
 
-  <div class="card">
-    <h3>
-      <label class="switcher df jc-c">
-        <input class="switcher-input hidden-checkbox" type="checkbox" bind:checked={isPVE}>
+  <div class="card card-switcher">
+    <label class="switcher df jc-c fxw-w mb-2 mt-2 ml-a mr-a">
+      <input class="switcher-input hidden-checkbox" type="checkbox" bind:checked={isPVE}>
+      <span class="switcher-icon ml-2 mr-2"></span>
+      <div class="pt-2">
         <span class="switcher-text">PVP</span>
-        <span class="switcher-icon"></span>
         <span class="switcher-text">PVE</span>
-      </label>
-    </h3>
+      </div>
+    </label>
   </div>
 
   <Details type="fastmove" class="card">
@@ -206,16 +206,20 @@
       max-width: 15vw;
     }
   }
+  .switcher {
+    width: 4.5rem;
+    font-size: larger;
+    font-weight: bolder;
+  }
 
   .switcher-icon {
     position: relative;
     top: .15em;
     width: 1.5em;
     height: .7em;
-    margin-left: .5em;
-    margin-right: .5em;
     background-color: #ccf;
     border-radius: 1em;
+    font-size: 1rem;
   }
   .switcher-icon::before {
     content: '';
@@ -225,11 +229,27 @@
     width: 1em;
     height: 1em;
     background-color: #66c;
-    background-clip: content-box;
     border-radius: 1em;
     transition: transform .3s;
   }
   .switcher-input:checked ~ .switcher-icon::before {
     transform: translateX(100%);
+  }
+
+  .card-switcher {
+    position: sticky;
+    top: 0;
+    width: fit-content;
+    transform: translateX(40rem);
+    margin-bottom: -3.75rem;
+  }
+
+  @media (max-width: 900px) {
+    .card-switcher {
+      position: static;
+      transform: unset;
+      width: unset;
+      margin-bottom: 1rem;
+    }
   }
 </style>
