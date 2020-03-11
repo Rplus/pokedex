@@ -128,10 +128,7 @@ function effText(eff) {
 
         <table>
           <tr>
-            <th colspan="2"
-              class:energy-bar={!move.isFast}
-              style="--bgzx: { -move.pve_energyDelta }%"
-            >
+            <th colspan="2">
               PVE
             </th>
           </tr>
@@ -140,14 +137,22 @@ function effText(eff) {
             <td title="傷害">Power</td>
             <td>{move.pve_power}</td>
           </tr>
+
           <tr>
-            <td title="能量(得)">Energy</td>
-            <td>{move.pve_energyDelta}</td>
+            <td title="能量">Energy</td>
+            <td
+              class:energy-bar={!move.isFast}
+              style="--bgzx: { -move.pve_energyDelta }%"
+            >
+              {move.pve_energyDelta}
+            </td>
           </tr>
+
           <tr>
             <td title="DPS">DPS</td>
             <td>{move.pve_dps}</td>
           </tr>
+
           {#if move.isFast}
             <tr>
               <td title="EPS">EPS</td>
