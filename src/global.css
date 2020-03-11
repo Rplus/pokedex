@@ -142,7 +142,7 @@ details details summary {
   direction: rtl;
 }
 
-.card > :last-child {
+.card > :last-child:not(:first-child) {
   margin-bottom: 2rem;
 }
 
