@@ -138,7 +138,7 @@ summary *:not([class]) {
   display: inline-block;
 }
 
-details details summary {
+details details summary:not([dir="ltr"]) {
   direction: rtl;
 }
 
