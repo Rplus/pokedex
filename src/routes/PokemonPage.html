@@ -3,6 +3,7 @@ export let params = {};
 import { pokemons } from '@/stores.js';
 import Details from '@c/Details.html';
 import CP from '@c/CP.html';
+import Family from '@c/Family.html';
 import Moveset from '@c/Moveset.html';
 import TypeFactor from '@c/TypeFactor.html';
 import Ruby from '@c/Ruby.html';
@@ -78,16 +79,17 @@ $: {
         </h2>
       </summary>
 
-      <div>
-        <!-- TODO -->
-        進化鏈、分支
+      <div class="support-links fz-s">
+        check in PvPoke[tw]:
+        <a class="text-no-decoration" href="https://pvpoketw.com/rankings/all/1500/overall/{pm.id}/" target="pvp1500">超級</a>
+        <a class="text-no-decoration" href="https://pvpoketw.com/rankings/all/2500/overall/{pm.id}/" target="pvp2500">高級</a>
+        <a class="text-no-decoration" href="https://pvpoketw.com/rankings/all/10000/overall/{pm.id}/" target="pvp10000">大師</a>
       </div>
 
-      <div class="support-links">
-        <a href="https://pvpoketw.com/rankings/all/1500/overall/{pm.id}/" target="pvp1500">超級</a>
-        <a href="https://pvpoketw.com/rankings/all/2500/overall/{pm.id}/" target="pvp2500">高級</a>
-        <a href="https://pvpoketw.com/rankings/all/10000/overall/{pm.id}/" target="pvp10000">大師</a>
-      </div>
+      <Details type="pm_family">
+        <summary>進化鏈</summary>
+        <Family pm={pm} />
+      </Details>
     </Details>
 
     <CP ads={ads} />

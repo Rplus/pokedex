@@ -8,11 +8,12 @@ import {
 
 export const pokemons = writable([]);
 export const moves = writable([]);
+export const family = writable({ waiting: true });
 export const maxDex = writable(0);
 export const router = writable(null);
 
 Promise.all(
-  ['gm.json']
+  ['gm.json', 'allF.json']
     .map(i =>
       fetch(i).then(r => r.json())
     )
@@ -20,6 +21,7 @@ Promise.all(
 .then(d => {
   pokemons.set(handlePm(d[0].pokemon));
   moves.set(handleMove(d[0].moves));
+  family.set(d[1]);
   maxDex.set(d[0].pokemon[d[0].pokemon.length - 1].dex);
   console.log('gm done:', d);
 });

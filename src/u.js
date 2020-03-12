@@ -4,6 +4,13 @@ export function genOptions(v, l = v) {
   return `<option value="${v}" label="${l}"></option>`;
 };
 
+export function cdnImgSrc(imgsrc, size = 200) {
+  return `https://images.weserv.nl/?w=${size}&il&url=${imgsrc}`;
+}
+
+export const ASSET_FOLDER = 'https://github.com/ZeChrales/PogoAssets/raw/master/';
+
+
 export function handlePm(pms) {
   // for checking
   let dexMap = pms.map(p => p.dex);
