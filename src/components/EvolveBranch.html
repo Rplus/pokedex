@@ -1,0 +1,112 @@
+<script>
+  import { pokemons } from '@/stores.js';
+  import { cdnImgSrc, ASSET_FOLDER } from '@/u.js';
+  export let data;
+
+  $: {
+    data.pm = getPm(data.form || data.pid);
+    data.src = cdnImgSrc(pmImgFN(`000${data.pm.dex}`.slice(-3)));
+  }
+
+  let candySrc = cdnImgSrc(`${ASSET_FOLDER}static_assets/png/pokemon_details_candy.png`, 32);
+
+  function getPm(pid) {
+    if (!$pokemons.length) {
+      return false;
+    }
+    return $pokemons.find(pm => pm.id === pid);
+  }
+
+  function pmImgFN(dex3) {
+    return `${ASSET_FOLDER}/pokemon_icons/pokemon_icon_${dex3}_00.png`;
+  }
+</script>
+
+
+
+<div class="family-tree df jc-c text-center fz-s">
+  <a class="pm df fd-c text-no-decoration" href="./pokemon/{data.pm.uid}">
+    <div class="pm-img mb-1" style="background-image: url({data.src})" />
+    {@html data.pm.name.replace(' ', '<br>')}
+  </a>
+
+
+  {#if data.next}
+    <div class="family-next df fd-c">
+
+      {#each data.next as item}
+        <div class="df">
+          <div class="evolve-requirement df fd-c jc-c">
+
+            <div class="d-if ai-c">
+              <img class="candy" src={candySrc} alt="candy">
+              x{item.candyCost}
+            </div>
+
+            <div>➡</div>
+
+            {#if item.requirement}
+              <div class="rs">
+                <details>
+                  <summary dir="ltr">條件</summary>
+                  <ul class="rs-list pos-a text-left">
+                    {#each item.requirement as ri}
+                      <li>{ri}</li>
+                    {/each}
+                  </ul>
+                </details>
+              </div>
+            {/if}
+
+          </div>
+
+          <svelte:self data={item} />
+        </div>
+      {/each}
+
+    </div>
+  {/if}
+</div>
+
+
+<style>
+  .family-tree {
+    --unit: 72px;
+  }
+
+  .family-tree :global(.family-tree) {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+  }
+
+  .family-next {
+    margin-left: 1em;
+  }
+
+  .pm-img {
+    width: var(--unit);
+    height: var(--unit);
+    background-size: cover;
+    box-shadow: 0 0 1px
+  }
+
+  .candy {
+    width: 16px;
+    height: 16px;
+  }
+
+  .evolve-requirement {
+    height: var(--unit);
+  }
+
+  .rs summary {
+    direction: ltr;
+  }
+
+  .rs-list {
+    padding: .25em 1em;
+    background-color: #cff;
+    box-shadow: inset 0 0 1px;
+  }
+</style>

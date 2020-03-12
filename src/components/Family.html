@@ -1,0 +1,31 @@
+<script>
+  import { family } from '@/stores.js';
+  import EvolveBranch from '@c/EvolveBranch.html';
+  export let pm;
+
+  let f;
+  $: {
+    if (!$family.waiting) {
+      f = $family[pm.familyId];
+    }
+  }
+
+</script>
+
+
+{#if f}
+  {#each f as p0}
+    {#if !p0.parentPid || f.length === 1}
+      <EvolveBranch data={p0} />
+    {/if}
+  {/each}
+
+  <!--
+  <details>
+    <pre>
+      {JSON.stringify(f,0,2)}
+    </pre>
+  </details>
+  -->
+
+{/if}
