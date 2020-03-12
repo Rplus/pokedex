@@ -46,17 +46,46 @@ function queryMove(mid) {
 function queryMove_tw(mid) {
   return twData.moves.find(m => m.moveId === mid);
 }
+function queryPM(pid) {
+  pid = pid2PID(pid);
+  let pm = oPm.find(pm => (
+    pm.templateId.slice(14) === pid ||
+    pm.pokemonSettings.pokemonId === pid
+  ));
+  if (!pm) {
+    console.error(`>> cannot find ${pid} in GM <<`);
+  }
+  return (pm && pm.pokemonSettings) || null;
+}
 function queryPM_tw(pid) {
   return twData.pokemon.find(pm => pm.speciesId === pid);
+}
+function pid2PID(pid) {
+  return (
+    pid
+    .replace('_alolan', '_alola')
+    .replace('mewtwo_armored', 'mewtwo_a')
+    .toUpperCase()
+  )
+}
+function PID2pid(PID) {
+  return (
+    PID
+    .toLowerCase()
+    .replace(/\_alola$/, '_alolan')
+    .replace(/mewtwo\_a$/, 'mewtwo_armored')
+  );
 }
 
 function handleJSON(json) {
   let { pokemon, moves, shadowPokemon } = json;
+  let allF = {};
 
   // remove shadow pokemon
   pokemon = pokemon
     .filter(pm => pm.speciesId.indexOf('_shadow') === -1)
     .map(pm => {
+      let ppp = queryPM(pm.speciesId);
       let pm_tw = queryPM_tw(pm.speciesId);
       if (!pm_tw) {
         console.warn(`new pm: ${pm.speciesId}`);
@@ -81,8 +110,7 @@ function handleJSON(json) {
         chargedMoves.push('RETURN');
         chargedMoves.push('FRUSTRATION');
       }
-
-      return {
+      let op = {
         id: pm.speciesId,
         name: (pm_tw || pm).speciesName,
         _atk: pm.baseStats.atk,
@@ -93,9 +121,145 @@ function handleJSON(json) {
         fastMoves,
         chargedMoves,
         legacyMoves,
+      };
+
+      if (ppp) {
+        op.captureRate = ppp.encounter.baseCaptureRate && +ppp.encounter.baseCaptureRate.toFixed(3);
+        op.fleeRate = ppp.encounter.baseFleeRate && +ppp.encounter.baseFleeRate.toFixed(3);
+        op.buddyKm = ppp.kmBuddyDistance;
+        ppp.familyId = ppp.familyId.replace('FAMILY_', 'F_');
+        op.familyId = ppp.familyId;
+
+        if (!allF[ppp.familyId]) {
+          allF[ppp.familyId] = [];
+        }
+
+        if (ppp.evolutionBranch && ppp.evolutionBranch.length > 1) {
+          console.log(ppp.familyId);
+        }
+        // TODO
+        if (pm.speciesId === 'eelektrik') {
+          ppp.parentPokemonId = 'TYNAMO';
+        }
+
+        allF[ppp.familyId].push({
+          pid: pm.speciesId,
+          // fid: ppp.familyId,
+          next: ppp.evolutionBranch && ppp.evolutionBranch.map(pm => {
+            let _pid = PID2pid(pm.evolution);
+            let _form = pm.form;
+            pm.pid = _pid;
+
+            if (_form) {
+              _form = PID2pid(_form);
+              pm.form = PID2pid(_form);
+              if (shadowPokemon.indexOf(_pid) !== -1) {
+              }
+              _form = _form.replace('_normal', '');
+
+              let _formType = _form.match(/\_\w+$/);
+              if (_formType && _formType[0] === '_alolan') {
+                pm.pid = _form;
+              }
+
+              if (_form === pm.pid) {
+                delete pm.form;
+              }
+
+              if (pm.form === pm.pid) {
+                delete pm.form;
+              }
+            }
+
+            if (pm.noCandyCostViaTrade) {
+              pm.tradeevolve = true;
+              delete pm.noCandyCostViaTrade;
+            }
+
+            pm.requirement = [
+              pm.evolutionItemRequirement && `item:${pm.evolutionItemRequirement}`,
+              pm.lureItemRequirement && `lure:${pm.lureItemRequirement}`,
+              pm.kmBuddyDistanceRequirement && `km:${pm.kmBuddyDistanceRequirement}`,
+              pm.genderRequirement && `gender:${pm.genderRequirement}`,
+              pm.mustBeBuddy && 'buddy',
+              pm.onlyNighttime && 'night',
+              pm.onlyDaytime && 'day',
+            ].filter(Boolean);
+            if (!pm.requirement.length) {
+              delete pm.requirement;
+            }
+            delete pm.evolutionItemRequirement;
+            delete pm.lureItemRequirement;
+            delete pm.kmBuddyDistanceRequirement;
+            delete pm.mustBeBuddy;
+            delete pm.onlyNighttime;
+            delete pm.onlyDaytime;
+            delete pm.evolution;
+            delete pm.genderRequirement;
+
+            return pm;
+          }),
+          parentPid: ppp.parentPokemonId && PID2pid(ppp.parentPokemonId),
+        });
       }
+
+      return op;
     });
 
+  let data = allF;
+  for (let fid in data) {
+    if (allF[fid].length === 1) {
+      // console.log(`bye~ ${fid}`);
+      // delete allF[fid];
+    } else {
+      let fff = data[fid];
+      let removedIdx = [];
+      fff
+        .forEach((pm, index) => {
+          if (!pm.parentPid) { return; }
+
+          let _form = pm.pid.includes('_') ? pm.pid.match(/\_\w+/)[0] : '';
+
+          _parent = fff.find(_p0 => {
+            let _ppid = pm.parentPid;
+            if (_form && !pm.parentPid.includes('_')) {
+              _ppid += _form;
+            }
+            if (!_p0.next) {
+              _ppid += _form;
+            }
+            return (
+              _p0.pid ===  _ppid||
+              _p0.pid === (_ppid + _form)
+            );
+          });
+
+          if (!_parent) {
+            console.log(1, '!_parent', fid, pm, _parent);
+            // removedIdx.push(index);
+            return;
+          }
+          if (!_parent.next) {
+            console.log(2, '!_parent.next', fid, pm, _parent);
+            removedIdx.push(index);
+            return;
+          }
+
+          let nextIdx = _parent.next.findIndex(_p1 => _p1.pid === pm.pid);
+          if (nextIdx !== -1) {
+            let _o = { ..._parent.next[nextIdx], ...pm};
+            delete _o.parentPid;
+            _parent.next[nextIdx] = _o;
+            removedIdx.push(index);
+          }
+        });
+      data[fid] = fff.filter((item, index) => removedIdx.indexOf(index) === -1 );
+    }
+  }
+
+
+  outputJSON(allF, './assets/allF.json', 0);
+  outputJSON(allF, './tmp/allF.json', 2);
 
   {
     let move_hiddenpower_normal = JSON.parse(JSON.stringify({
