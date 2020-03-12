@@ -19,7 +19,11 @@
         "POWER_WHIP",
         "SEED_BOMB",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_BULBASAUR"
     },
     {
       "id": "ivysaur",
@@ -40,7 +44,11 @@
         "POWER_WHIP",
         "SLUDGE_BOMB",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_BULBASAUR"
     },
     {
       "id": "venusaur",
@@ -65,7 +73,11 @@
       ],
       "legacyMoves": [
         "FRENZY_PLANT"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_BULBASAUR"
     },
     {
       "id": "charmander",
@@ -85,7 +97,11 @@
         "FLAME_BURST",
         "FLAME_CHARGE",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CHARMANDER"
     },
     {
       "id": "charmeleon",
@@ -109,7 +125,11 @@
       ],
       "legacyMoves": [
         "SCRATCH"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_CHARMANDER"
     },
     {
       "id": "charizard",
@@ -140,7 +160,11 @@
         "EMBER",
         "FLAMETHROWER",
         "WING_ATTACK"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_CHARMANDER"
     },
     {
       "id": "squirtle",
@@ -160,7 +184,11 @@
         "AQUA_JET",
         "AQUA_TAIL",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SQUIRTLE"
     },
     {
       "id": "wartortle",
@@ -180,7 +208,11 @@
         "AQUA_JET",
         "HYDRO_PUMP",
         "ICE_BEAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SQUIRTLE"
     },
     {
       "id": "blastoise",
@@ -205,7 +237,11 @@
       ],
       "legacyMoves": [
         "HYDRO_CANNON"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_SQUIRTLE"
     },
     {
       "id": "caterpie",
@@ -223,7 +259,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_CATERPIE"
     },
     {
       "id": "metapod",
@@ -241,7 +281,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_CATERPIE"
     },
     {
       "id": "butterfree",
@@ -266,7 +310,11 @@
       ],
       "legacyMoves": [
         "BUG_BITE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_CATERPIE"
     },
     {
       "id": "weedle",
@@ -285,7 +333,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_WEEDLE"
     },
     {
       "id": "kakuna",
@@ -304,7 +356,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_WEEDLE"
     },
     {
       "id": "beedrill",
@@ -330,7 +386,11 @@
       ],
       "legacyMoves": [
         "BUG_BITE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_WEEDLE"
     },
     {
       "id": "pidgey",
@@ -351,7 +411,11 @@
         "AERIAL_ACE",
         "AIR_CUTTER",
         "TWISTER"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_PIDGEY"
     },
     {
       "id": "pidgeotto",
@@ -372,7 +436,11 @@
         "AERIAL_ACE",
         "AIR_CUTTER",
         "TWISTER"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_PIDGEY"
     },
     {
       "id": "pidgeot",
@@ -399,7 +467,11 @@
       "legacyMoves": [
         "AIR_CUTTER",
         "WING_ATTACK"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_PIDGEY"
     },
     {
       "id": "rattata",
@@ -419,7 +491,11 @@
         "BODY_SLAM",
         "DIG",
         "HYPER_FANG"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_RATTATA"
     },
     {
       "id": "rattata_alolan",
@@ -440,7 +516,11 @@
         "CRUNCH",
         "HYPER_FANG",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_RATTATA"
     },
     {
       "id": "raticate",
@@ -460,7 +540,11 @@
         "DIG",
         "HYPER_BEAM",
         "HYPER_FANG"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_RATTATA"
     },
     {
       "id": "raticate_alolan",
@@ -481,7 +565,11 @@
         "CRUNCH",
         "HYPER_BEAM",
         "HYPER_FANG"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_RATTATA"
     },
     {
       "id": "spearow",
@@ -506,7 +594,11 @@
       ],
       "legacyMoves": [
         "TWISTER"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 1,
+      "familyId": "F_SPEAROW"
     },
     {
       "id": "fearow",
@@ -531,7 +623,11 @@
       ],
       "legacyMoves": [
         "TWISTER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_SPEAROW"
     },
     {
       "id": "ekans",
@@ -555,7 +651,11 @@
       ],
       "legacyMoves": [
         "GUNK_SHOT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_EKANS"
     },
     {
       "id": "arbok",
@@ -577,7 +677,11 @@
         "GUNK_SHOT",
         "SLUDGE_WAVE",
         "ACID_SPRAY"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_EKANS"
     },
     {
       "id": "pikachu",
@@ -605,7 +709,11 @@
         "PRESENT",
         "SURF",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_PIKACHU"
     },
     {
       "id": "pikachu_libre",
@@ -652,7 +760,11 @@
       ],
       "legacyMoves": [
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_PIKACHU"
     },
     {
       "id": "raichu_alolan",
@@ -675,7 +787,11 @@
         "THUNDER_PUNCH",
         "WILD_CHARGE",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_PIKACHU"
     },
     {
       "id": "sandshrew",
@@ -699,7 +815,11 @@
       ],
       "legacyMoves": [
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SANDSHREW"
     },
     {
       "id": "sandshrew_alolan",
@@ -720,7 +840,11 @@
         "BLIZZARD",
         "GYRO_BALL",
         "NIGHT_SLASH"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SANDSHREW"
     },
     {
       "id": "sandslash",
@@ -740,7 +864,11 @@
         "BULLDOZE",
         "EARTHQUAKE",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SANDSHREW"
     },
     {
       "id": "sandslash_alolan",
@@ -762,7 +890,11 @@
         "BULLDOZE",
         "GYRO_BALL",
         "ICE_PUNCH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SANDSHREW"
     },
     {
       "id": "nidoran_female",
@@ -782,7 +914,11 @@
         "BODY_SLAM",
         "POISON_FANG",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_NIDORAN_FEMALE"
     },
     {
       "id": "nidorina",
@@ -802,7 +938,11 @@
         "DIG",
         "POISON_FANG",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_NIDORAN_FEMALE"
     },
     {
       "id": "nidoqueen",
@@ -824,7 +964,11 @@
         "SLUDGE_WAVE",
         "STONE_EDGE",
         "EARTH_POWER"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_NIDORAN_FEMALE"
     },
     {
       "id": "nidoran_male",
@@ -844,7 +988,11 @@
         "BODY_SLAM",
         "HORN_ATTACK",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_NIDORAN_MALE"
     },
     {
       "id": "nidorino",
@@ -864,7 +1012,11 @@
         "DIG",
         "HORN_ATTACK",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_NIDORAN_MALE"
     },
     {
       "id": "nidoking",
@@ -890,7 +1042,11 @@
       ],
       "legacyMoves": [
         "FURY_CUTTER"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_NIDORAN_MALE"
     },
     {
       "id": "clefairy",
@@ -910,7 +1066,11 @@
         "BODY_SLAM",
         "DISARMING_VOICE",
         "MOONBLAST"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_CLEFAIRY"
     },
     {
       "id": "clefable",
@@ -936,7 +1096,11 @@
       ],
       "legacyMoves": [
         "POUND"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_CLEFAIRY"
     },
     {
       "id": "vulpix",
@@ -956,7 +1120,11 @@
         "BODY_SLAM",
         "FLAME_CHARGE",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_VULPIX"
     },
     {
       "id": "vulpix_alolan",
@@ -976,7 +1144,11 @@
         "BLIZZARD",
         "DARK_PULSE",
         "ICE_BEAM"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_VULPIX"
     },
     {
       "id": "ninetales",
@@ -1005,7 +1177,11 @@
         "EMBER",
         "FIRE_BLAST",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_VULPIX"
     },
     {
       "id": "ninetales_alolan",
@@ -1028,7 +1204,11 @@
         "DAZZLING_GLEAM",
         "ICE_BEAM",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_VULPIX"
     },
     {
       "id": "jigglypuff",
@@ -1055,7 +1235,11 @@
       "legacyMoves": [
         "BODY_SLAM",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_JIGGLYPUFF"
     },
     {
       "id": "wigglytuff",
@@ -1078,7 +1262,11 @@
         "HYPER_BEAM",
         "ICE_BEAM",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_JIGGLYPUFF"
     },
     {
       "id": "zubat",
@@ -1103,7 +1291,11 @@
       ],
       "legacyMoves": [
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_ZUBAT"
     },
     {
       "id": "golbat",
@@ -1128,7 +1320,11 @@
       ],
       "legacyMoves": [
         "OMINOUS_WIND"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_ZUBAT"
     },
     {
       "id": "oddish",
@@ -1149,7 +1345,11 @@
         "MOONBLAST",
         "SEED_BOMB",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.60000002,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_ODDISH"
     },
     {
       "id": "gloom",
@@ -1170,7 +1370,11 @@
         "MOONBLAST",
         "PETAL_BLIZZARD",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ODDISH"
     },
     {
       "id": "vileplume",
@@ -1192,7 +1396,11 @@
         "PETAL_BLIZZARD",
         "SOLAR_BEAM",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_ODDISH"
     },
     {
       "id": "paras",
@@ -1213,7 +1421,11 @@
         "CROSS_POISON",
         "SEED_BOMB",
         "X_SCISSOR"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_PARAS"
     },
     {
       "id": "parasect",
@@ -1238,7 +1450,11 @@
       ],
       "legacyMoves": [
         "BUG_BITE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_PARAS"
     },
     {
       "id": "venonat",
@@ -1259,7 +1475,11 @@
         "POISON_FANG",
         "PSYBEAM",
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_VENONAT"
     },
     {
       "id": "venomoth",
@@ -1285,7 +1505,11 @@
       ],
       "legacyMoves": [
         "BUG_BITE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_VENONAT"
     },
     {
       "id": "diglett",
@@ -1309,7 +1533,11 @@
       ],
       "legacyMoves": [
         "MUD_SHOT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DIGLETT"
     },
     {
       "id": "diglett_alolan",
@@ -1330,7 +1558,11 @@
         "DIG",
         "MUD_BOMB",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DIGLETT"
     },
     {
       "id": "dugtrio",
@@ -1354,7 +1586,11 @@
       ],
       "legacyMoves": [
         "MUD_SHOT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_DIGLETT"
     },
     {
       "id": "dugtrio_alolan",
@@ -1375,7 +1611,11 @@
         "EARTHQUAKE",
         "IRON_HEAD",
         "MUD_BOMB"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_DIGLETT"
     },
     {
       "id": "meowth",
@@ -1399,7 +1639,11 @@
       ],
       "legacyMoves": [
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_MEOWTH"
     },
     {
       "id": "meowth_alolan",
@@ -1419,7 +1663,11 @@
         "DARK_PULSE",
         "FOUL_PLAY",
         "NIGHT_SLASH"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_MEOWTH"
     },
     {
       "id": "persian",
@@ -1443,7 +1691,11 @@
       ],
       "legacyMoves": [
         "NIGHT_SLASH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MEOWTH"
     },
     {
       "id": "persian_alolan",
@@ -1463,7 +1715,11 @@
         "DARK_PULSE",
         "FOUL_PLAY",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MEOWTH"
     },
     {
       "id": "psyduck",
@@ -1483,7 +1739,11 @@
         "AQUA_TAIL",
         "CROSS_CHOP",
         "PSYBEAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_PSYDUCK"
     },
     {
       "id": "golduck",
@@ -1506,7 +1766,11 @@
         "BUBBLE_BEAM",
         "SYNCHRONOISE",
         "CROSS_CHOP"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_PSYDUCK"
     },
     {
       "id": "mankey",
@@ -1526,7 +1790,11 @@
         "BRICK_BREAK",
         "CROSS_CHOP",
         "LOW_SWEEP"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MANKEY"
     },
     {
       "id": "primeape",
@@ -1552,7 +1820,11 @@
       "legacyMoves": [
         "CROSS_CHOP",
         "KARATE_CHOP"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_MANKEY"
     },
     {
       "id": "growlithe",
@@ -1572,7 +1844,11 @@
         "BODY_SLAM",
         "FLAME_WHEEL",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_GROWLITHE"
     },
     {
       "id": "arcanine",
@@ -1600,7 +1876,11 @@
       "legacyMoves": [
         "BITE",
         "BULLDOZE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_GROWLITHE"
     },
     {
       "id": "poliwag",
@@ -1620,7 +1900,11 @@
         "BODY_SLAM",
         "BUBBLE_BEAM",
         "MUD_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_POLIWAG"
     },
     {
       "id": "poliwhirl",
@@ -1644,7 +1928,11 @@
       ],
       "legacyMoves": [
         "SCALD"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_POLIWAG"
     },
     {
       "id": "poliwrath",
@@ -1671,7 +1959,11 @@
       ],
       "legacyMoves": [
         "SUBMISSION"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_POLIWAG"
     },
     {
       "id": "abra",
@@ -1691,7 +1983,11 @@
         "PSYSHOCK",
         "SHADOW_BALL",
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.99000001,
+      "buddyKm": 3,
+      "familyId": "F_ABRA"
     },
     {
       "id": "kadabra",
@@ -1711,7 +2007,11 @@
         "DAZZLING_GLEAM",
         "PSYBEAM",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ABRA"
     },
     {
       "id": "alakazam",
@@ -1738,7 +2038,11 @@
       "legacyMoves": [
         "DAZZLING_GLEAM",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_ABRA"
     },
     {
       "id": "machop",
@@ -1762,7 +2066,11 @@
       ],
       "legacyMoves": [
         "LOW_KICK"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MACHOP"
     },
     {
       "id": "machoke",
@@ -1786,7 +2094,11 @@
       ],
       "legacyMoves": [
         "CROSS_CHOP"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MACHOP"
     },
     {
       "id": "machamp",
@@ -1816,7 +2128,11 @@
         "KARATE_CHOP",
         "STONE_EDGE",
         "SUBMISSION"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_MACHOP"
     },
     {
       "id": "bellsprout",
@@ -1837,7 +2153,11 @@
         "POWER_WHIP",
         "SLUDGE_BOMB",
         "WRAP"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_BELLSPROUT"
     },
     {
       "id": "weepinbell",
@@ -1862,7 +2182,11 @@
       ],
       "legacyMoves": [
         "RAZOR_LEAF"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_BELLSPROUT"
     },
     {
       "id": "victreebel",
@@ -1885,7 +2209,11 @@
         "SOLAR_BEAM",
         "ACID_SPRAY",
         "LEAF_TORNADO"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_BELLSPROUT"
     },
     {
       "id": "tentacool",
@@ -1906,7 +2234,11 @@
         "BUBBLE_BEAM",
         "WATER_PULSE",
         "WRAP"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_TENTACOOL"
     },
     {
       "id": "tentacruel",
@@ -1928,7 +2260,11 @@
         "HYDRO_PUMP",
         "SLUDGE_WAVE",
         "ACID_SPRAY"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TENTACOOL"
     },
     {
       "id": "geodude",
@@ -1949,7 +2285,11 @@
         "DIG",
         "ROCK_SLIDE",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_GEODUDE"
     },
     {
       "id": "geodude_alolan",
@@ -1970,7 +2310,11 @@
         "ROCK_SLIDE",
         "ROCK_TOMB",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_GEODUDE"
     },
     {
       "id": "graveler",
@@ -1997,7 +2341,11 @@
       "legacyMoves": [
         "MUD_SHOT",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_GEODUDE"
     },
     {
       "id": "graveler_alolan",
@@ -2018,7 +2366,11 @@
         "ROCK_BLAST",
         "STONE_EDGE",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_GEODUDE"
     },
     {
       "id": "golem",
@@ -2044,7 +2396,11 @@
       ],
       "legacyMoves": [
         "MUD_SHOT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_GEODUDE"
     },
     {
       "id": "golem_alolan",
@@ -2065,7 +2421,11 @@
         "ROCK_BLAST",
         "STONE_EDGE",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_GEODUDE"
     },
     {
       "id": "ponyta",
@@ -2089,7 +2449,11 @@
       ],
       "legacyMoves": [
         "FIRE_BLAST"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_PONYTA"
     },
     {
       "id": "rapidash",
@@ -2113,7 +2477,11 @@
       ],
       "legacyMoves": [
         "EMBER"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_PONYTA"
     },
     {
       "id": "slowpoke",
@@ -2134,7 +2502,11 @@
         "PSYCHIC",
         "PSYSHOCK",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SLOWPOKE"
     },
     {
       "id": "slowbro",
@@ -2155,7 +2527,11 @@
         "ICE_BEAM",
         "PSYCHIC",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SLOWPOKE"
     },
     {
       "id": "magnemite",
@@ -2176,7 +2552,11 @@
         "DISCHARGE",
         "MAGNET_BOMB",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MAGNEMITE"
     },
     {
       "id": "magneton",
@@ -2199,7 +2579,11 @@
         "FLASH_CANNON",
         "MAGNET_BOMB",
         "ZAP_CANNON"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_MAGNEMITE"
     },
     {
       "id": "farfetchd",
@@ -2224,7 +2608,11 @@
       ],
       "legacyMoves": [
         "CUT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_FARFETCHD"
     },
     {
       "id": "doduo",
@@ -2249,7 +2637,11 @@
       ],
       "legacyMoves": [
         "SWIFT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DODUO"
     },
     {
       "id": "dodrio",
@@ -2274,7 +2666,11 @@
       ],
       "legacyMoves": [
         "AIR_CUTTER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_DODUO"
     },
     {
       "id": "seel",
@@ -2300,7 +2696,11 @@
       "legacyMoves": [
         "AQUA_JET",
         "WATER_GUN"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_SEEL"
     },
     {
       "id": "dewgong",
@@ -2329,7 +2729,11 @@
         "AQUA_JET",
         "ICE_SHARD",
         "ICY_WIND"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SEEL"
     },
     {
       "id": "grimer",
@@ -2353,7 +2757,11 @@
       ],
       "legacyMoves": [
         "ACID"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_GRIMER"
     },
     {
       "id": "grimer_alolan",
@@ -2378,7 +2786,11 @@
       ],
       "legacyMoves": [
         "ACID"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_GRIMER"
     },
     {
       "id": "muk",
@@ -2406,7 +2818,11 @@
       "legacyMoves": [
         "ACID",
         "LICK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_GRIMER"
     },
     {
       "id": "muk_alolan",
@@ -2429,7 +2845,11 @@
         "GUNK_SHOT",
         "SLUDGE_WAVE",
         "ACID_SPRAY"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_GRIMER"
     },
     {
       "id": "shellder",
@@ -2449,7 +2869,11 @@
         "BUBBLE_BEAM",
         "ICY_WIND",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SHELLDER"
     },
     {
       "id": "cloyster",
@@ -2475,7 +2899,11 @@
       ],
       "legacyMoves": [
         "BLIZZARD"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SHELLDER"
     },
     {
       "id": "gastly",
@@ -2502,7 +2930,11 @@
       "legacyMoves": [
         "OMINOUS_WIND",
         "SUCKER_PUNCH"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_GASTLY"
     },
     {
       "id": "haunter",
@@ -2528,7 +2960,11 @@
       ],
       "legacyMoves": [
         "LICK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_GASTLY"
     },
     {
       "id": "gengar",
@@ -2560,7 +2996,11 @@
         "LICK",
         "PSYCHIC",
         "SLUDGE_WAVE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_GASTLY"
     },
     {
       "id": "onix",
@@ -2587,7 +3027,11 @@
       "legacyMoves": [
         "IRON_HEAD",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_ONIX"
     },
     {
       "id": "drowzee",
@@ -2607,7 +3051,11 @@
         "PSYBEAM",
         "PSYCHIC",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DROWZEE"
     },
     {
       "id": "hypno",
@@ -2635,7 +3083,11 @@
       ],
       "legacyMoves": [
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_DROWZEE"
     },
     {
       "id": "krabby",
@@ -2655,7 +3107,11 @@
         "BUBBLE_BEAM",
         "VICE_GRIP",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_KRABBY"
     },
     {
       "id": "kingler",
@@ -2680,7 +3136,11 @@
       ],
       "legacyMoves": [
         "MUD_SHOT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_KRABBY"
     },
     {
       "id": "voltorb",
@@ -2704,7 +3164,11 @@
       ],
       "legacyMoves": [
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_VOLTORB"
     },
     {
       "id": "electrode",
@@ -2729,7 +3193,11 @@
       ],
       "legacyMoves": [
         "TACKLE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_VOLTORB"
     },
     {
       "id": "exeggcute",
@@ -2750,7 +3218,11 @@
         "ANCIENT_POWER",
         "PSYCHIC",
         "SEED_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_EXEGGCUTE"
     },
     {
       "id": "exeggutor",
@@ -2776,7 +3248,11 @@
       ],
       "legacyMoves": [
         "ZEN_HEADBUTT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_EXEGGCUTE"
     },
     {
       "id": "exeggutor_alolan",
@@ -2797,7 +3273,11 @@
         "DRAGON_PULSE",
         "SEED_BOMB",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_EXEGGCUTE"
     },
     {
       "id": "cubone",
@@ -2817,7 +3297,11 @@
         "BONE_CLUB",
         "BULLDOZE",
         "DIG"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CUBONE"
     },
     {
       "id": "marowak",
@@ -2837,7 +3321,11 @@
         "BONE_CLUB",
         "DIG",
         "EARTHQUAKE"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_CUBONE"
     },
     {
       "id": "marowak_alolan",
@@ -2860,7 +3348,11 @@
         "FIRE_BLAST",
         "SHADOW_BALL",
         "FLAME_WHEEL"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_CUBONE"
     },
     {
       "id": "hitmonlee",
@@ -2886,7 +3378,11 @@
       "legacyMoves": [
         "BRICK_BREAK",
         "STOMP"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_TYROGUE"
     },
     {
       "id": "hitmonchan",
@@ -2914,7 +3410,11 @@
       "legacyMoves": [
         "BRICK_BREAK",
         "ROCK_SMASH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_TYROGUE"
     },
     {
       "id": "lickitung",
@@ -2938,7 +3438,11 @@
       ],
       "legacyMoves": [
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_LICKITUNG"
     },
     {
       "id": "koffing",
@@ -2962,7 +3466,11 @@
       ],
       "legacyMoves": [
         "ACID"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_KOFFING"
     },
     {
       "id": "weezing",
@@ -2987,7 +3495,11 @@
       ],
       "legacyMoves": [
         "ACID"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_KOFFING"
     },
     {
       "id": "weezing_galarian",
@@ -3008,7 +3520,11 @@
         "HYPER_BEAM",
         "PLAY_ROUGH",
         "OVERHEAT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_KOFFING"
     },
     {
       "id": "rhyhorn",
@@ -3029,7 +3545,11 @@
         "BULLDOZE",
         "HORN_ATTACK",
         "STOMP"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_RHYHORN"
     },
     {
       "id": "rhydon",
@@ -3054,7 +3574,11 @@
       ],
       "legacyMoves": [
         "MEGAHORN"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_RHYHORN"
     },
     {
       "id": "chansey",
@@ -3078,7 +3602,11 @@
       ],
       "legacyMoves": [
         "PSYBEAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_CHANSEY"
     },
     {
       "id": "tangela",
@@ -3102,7 +3630,11 @@
       ],
       "legacyMoves": [
         "POWER_WHIP"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_TANGELA"
     },
     {
       "id": "kangaskhan",
@@ -3129,7 +3661,11 @@
       "legacyMoves": [
         "BRICK_BREAK",
         "STOMP"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_KANGASKHAN"
     },
     {
       "id": "horsea",
@@ -3149,7 +3685,11 @@
         "BUBBLE_BEAM",
         "DRAGON_PULSE",
         "FLASH_CANNON"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_HORSEA"
     },
     {
       "id": "seadra",
@@ -3173,7 +3713,11 @@
       ],
       "legacyMoves": [
         "BLIZZARD"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_HORSEA"
     },
     {
       "id": "goldeen",
@@ -3193,7 +3737,11 @@
         "AQUA_TAIL",
         "HORN_ATTACK",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_GOLDEEN"
     },
     {
       "id": "seaking",
@@ -3221,7 +3769,11 @@
         "DRILL_RUN",
         "ICY_WIND",
         "POISON_JAB"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_GOLDEEN"
     },
     {
       "id": "staryu",
@@ -3245,7 +3797,11 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_STARYU"
     },
     {
       "id": "starmie",
@@ -3276,7 +3832,11 @@
         "PSYBEAM",
         "QUICK_ATTACK",
         "TACKLE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_STARYU"
     },
     {
       "id": "mr_mime",
@@ -3297,7 +3857,11 @@
         "PSYBEAM",
         "PSYCHIC",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_MR_MIME"
     },
     {
       "id": "scyther",
@@ -3324,7 +3888,11 @@
       "legacyMoves": [
         "BUG_BUZZ",
         "STEEL_WING"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_SCYTHER"
     },
     {
       "id": "jynx",
@@ -3352,7 +3920,11 @@
       "legacyMoves": [
         "ICE_PUNCH",
         "POUND"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_JYNX"
     },
     {
       "id": "electabuzz",
@@ -3372,7 +3944,11 @@
         "THUNDER",
         "THUNDER_PUNCH",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_ELECTABUZZ"
     },
     {
       "id": "magmar",
@@ -3392,7 +3968,11 @@
         "FIRE_BLAST",
         "FIRE_PUNCH",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_MAGMAR"
     },
     {
       "id": "pinsir",
@@ -3418,7 +3998,11 @@
       ],
       "legacyMoves": [
         "SUBMISSION"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_PINSIR"
     },
     {
       "id": "tauros",
@@ -3438,7 +4022,11 @@
         "EARTHQUAKE",
         "HORN_ATTACK",
         "IRON_HEAD"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_TAUROS"
     },
     {
       "id": "magikarp",
@@ -3455,7 +4043,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.69999999,
+      "fleeRate": 0.15000001,
+      "buddyKm": 1,
+      "familyId": "F_MAGIKARP"
     },
     {
       "id": "gyarados",
@@ -3484,7 +4076,11 @@
       "legacyMoves": [
         "DRAGON_PULSE",
         "DRAGON_TAIL"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_MAGIKARP"
     },
     {
       "id": "lapras",
@@ -3514,7 +4110,11 @@
         "DRAGON_PULSE",
         "ICE_BEAM",
         "ICE_SHARD"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_LAPRAS"
     },
     {
       "id": "ditto",
@@ -3531,7 +4131,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DITTO"
     },
     {
       "id": "eevee",
@@ -3556,7 +4160,11 @@
       "legacyMoves": [
         "BODY_SLAM",
         "LAST_RESORT"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_EEVEE"
     },
     {
       "id": "vaporeon",
@@ -3579,7 +4187,11 @@
       ],
       "legacyMoves": [
         "LAST_RESORT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_EEVEE"
     },
     {
       "id": "jolteon",
@@ -3603,7 +4215,11 @@
       ],
       "legacyMoves": [
         "LAST_RESORT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_EEVEE"
     },
     {
       "id": "flareon",
@@ -3629,7 +4245,11 @@
       "legacyMoves": [
         "HEAT_WAVE",
         "LAST_RESORT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_EEVEE"
     },
     {
       "id": "porygon",
@@ -3663,7 +4283,11 @@
         "SIGNAL_BEAM",
         "TACKLE",
         "ZEN_HEADBUTT"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_PORYGON"
     },
     {
       "id": "omanyte",
@@ -3690,7 +4314,11 @@
       "legacyMoves": [
         "BRINE",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_OMANYTE"
     },
     {
       "id": "omastar",
@@ -3717,7 +4345,11 @@
       "legacyMoves": [
         "ROCK_SLIDE",
         "ROCK_THROW"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_OMANYTE"
     },
     {
       "id": "kabuto",
@@ -3738,7 +4370,11 @@
         "ANCIENT_POWER",
         "AQUA_JET",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_KABUTO"
     },
     {
       "id": "kabutops",
@@ -3764,7 +4400,11 @@
       ],
       "legacyMoves": [
         "FURY_CUTTER"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_KABUTO"
     },
     {
       "id": "aerodactyl",
@@ -3788,7 +4428,11 @@
         "IRON_HEAD",
         "ROCK_SLIDE",
         "EARTH_POWER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_AERODACTYL"
     },
     {
       "id": "snorlax",
@@ -3816,7 +4460,11 @@
       ],
       "legacyMoves": [
         "YAWN"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_SNORLAX"
     },
     {
       "id": "articuno",
@@ -3842,7 +4490,11 @@
       ],
       "legacyMoves": [
         "HURRICANE"
-      ]
+      ],
+      "captureRate": 0.029999999,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ARTICUNO"
     },
     {
       "id": "zapdos",
@@ -3868,7 +4520,11 @@
       ],
       "legacyMoves": [
         "THUNDER_SHOCK"
-      ]
+      ],
+      "captureRate": 0.029999999,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ZAPDOS"
     },
     {
       "id": "moltres",
@@ -3896,7 +4552,11 @@
       "legacyMoves": [
         "EMBER",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.029999999,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_MOLTRES"
     },
     {
       "id": "dratini",
@@ -3916,7 +4576,11 @@
         "AQUA_TAIL",
         "TWISTER",
         "WRAP"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_DRATINI"
     },
     {
       "id": "dragonair",
@@ -3936,7 +4600,11 @@
         "AQUA_TAIL",
         "DRAGON_PULSE",
         "WRAP"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_DRATINI"
     },
     {
       "id": "dragonite",
@@ -3965,7 +4633,11 @@
       "legacyMoves": [
         "DRACO_METEOR",
         "DRAGON_PULSE"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_DRATINI"
     },
     {
       "id": "mewtwo",
@@ -3995,7 +4667,11 @@
         "HYPER_BEAM",
         "SHADOW_BALL",
         "PSYSTRIKE"
-      ]
+      ],
+      "captureRate": 0.059999999,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_MEWTWO"
     },
     {
       "id": "mewtwo_armored",
@@ -4020,7 +4696,11 @@
       ],
       "legacyMoves": [
         "PSYSTRIKE"
-      ]
+      ],
+      "captureRate": 0.059999999,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_MEWTWO"
     },
     {
       "id": "mew",
@@ -4074,7 +4754,10 @@
         "THUNDER",
         "THUNDERBOLT",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 100,
+      "buddyKm": 20,
+      "familyId": "F_MEW"
     },
     {
       "id": "chikorita",
@@ -4094,7 +4777,11 @@
         "BODY_SLAM",
         "ENERGY_BALL",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CHIKORITA"
     },
     {
       "id": "bayleef",
@@ -4114,7 +4801,11 @@
         "ANCIENT_POWER",
         "ENERGY_BALL",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_CHIKORITA"
     },
     {
       "id": "meganium",
@@ -4138,7 +4829,11 @@
       ],
       "legacyMoves": [
         "FRENZY_PLANT"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_CHIKORITA"
     },
     {
       "id": "cyndaquil",
@@ -4158,7 +4853,11 @@
         "FLAME_CHARGE",
         "FLAMETHROWER",
         "SWIFT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CYNDAQUIL"
     },
     {
       "id": "quilava",
@@ -4178,7 +4877,11 @@
         "DIG",
         "FLAME_CHARGE",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_CYNDAQUIL"
     },
     {
       "id": "typhlosion",
@@ -4202,7 +4905,11 @@
       ],
       "legacyMoves": [
         "BLAST_BURN"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_CYNDAQUIL"
     },
     {
       "id": "totodile",
@@ -4222,7 +4929,11 @@
         "AQUA_JET",
         "CRUNCH",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_TOTODILE"
     },
     {
       "id": "croconaw",
@@ -4242,7 +4953,11 @@
         "CRUNCH",
         "ICE_PUNCH",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TOTODILE"
     },
     {
       "id": "feraligatr",
@@ -4269,7 +4984,11 @@
       "legacyMoves": [
         "HYDRO_CANNON",
         "WATER_GUN"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_TOTODILE"
     },
     {
       "id": "sentret",
@@ -4289,7 +5008,11 @@
         "BRICK_BREAK",
         "DIG",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_SENTRET"
     },
     {
       "id": "furret",
@@ -4309,7 +5032,11 @@
         "BRICK_BREAK",
         "DIG",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_SENTRET"
     },
     {
       "id": "hoothoot",
@@ -4330,7 +5057,11 @@
         "AERIAL_ACE",
         "NIGHT_SHADE",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 1,
+      "familyId": "F_HOOTHOOT"
     },
     {
       "id": "noctowl",
@@ -4351,7 +5082,11 @@
         "NIGHT_SHADE",
         "PSYCHIC",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_HOOTHOOT"
     },
     {
       "id": "ledyba",
@@ -4372,7 +5107,11 @@
         "AERIAL_ACE",
         "SILVER_WIND",
         "SWIFT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_LEDYBA"
     },
     {
       "id": "ledian",
@@ -4393,7 +5132,11 @@
         "AERIAL_ACE",
         "BUG_BUZZ",
         "SILVER_WIND"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_LEDYBA"
     },
     {
       "id": "spinarak",
@@ -4414,7 +5157,11 @@
         "CROSS_POISON",
         "NIGHT_SLASH",
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_SPINARAK"
     },
     {
       "id": "ariados",
@@ -4435,7 +5182,11 @@
         "CROSS_POISON",
         "MEGAHORN",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_SPINARAK"
     },
     {
       "id": "crobat",
@@ -4456,7 +5207,11 @@
         "AIR_CUTTER",
         "SHADOW_BALL",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_ZUBAT"
     },
     {
       "id": "chinchou",
@@ -4477,7 +5232,11 @@
         "BUBBLE_BEAM",
         "THUNDERBOLT",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CHINCHOU"
     },
     {
       "id": "lanturn",
@@ -4499,7 +5258,11 @@
         "HYDRO_PUMP",
         "THUNDER",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_CHINCHOU"
     },
     {
       "id": "pichu",
@@ -4522,7 +5285,10 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK"
-      ]
+      ],
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_PIKACHU"
     },
     {
       "id": "cleffa",
@@ -4548,7 +5314,10 @@
       "legacyMoves": [
         "BODY_SLAM",
         "PSYCHIC"
-      ]
+      ],
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_CLEFAIRY"
     },
     {
       "id": "igglybuff",
@@ -4573,7 +5342,10 @@
       ],
       "legacyMoves": [
         "BODY_SLAM"
-      ]
+      ],
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_JIGGLYPUFF"
     },
     {
       "id": "togepi",
@@ -4597,7 +5369,10 @@
       ],
       "legacyMoves": [
         "ZEN_HEADBUTT"
-      ]
+      ],
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_TOGEPI"
     },
     {
       "id": "togetic",
@@ -4624,7 +5399,11 @@
       "legacyMoves": [
         "STEEL_WING",
         "ZEN_HEADBUTT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_TOGEPI"
     },
     {
       "id": "natu",
@@ -4645,7 +5424,11 @@
         "DRILL_PECK",
         "NIGHT_SHADE",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_NATU"
     },
     {
       "id": "xatu",
@@ -4666,7 +5449,11 @@
         "AERIAL_ACE",
         "FUTURE_SIGHT",
         "OMINOUS_WIND"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_NATU"
     },
     {
       "id": "mareep",
@@ -4686,7 +5473,11 @@
         "BODY_SLAM",
         "DISCHARGE",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_MAREEP"
     },
     {
       "id": "flaaffy",
@@ -4706,7 +5497,11 @@
         "DISCHARGE",
         "POWER_GEM",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_MAREEP"
     },
     {
       "id": "ampharos",
@@ -4732,7 +5527,11 @@
       ],
       "legacyMoves": [
         "DRAGON_PULSE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_MAREEP"
     },
     {
       "id": "bellossom",
@@ -4752,7 +5551,11 @@
         "DAZZLING_GLEAM",
         "LEAF_BLADE",
         "PETAL_BLIZZARD"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_ODDISH"
     },
     {
       "id": "marill",
@@ -4773,7 +5576,11 @@
         "AQUA_TAIL",
         "BODY_SLAM",
         "BUBBLE_BEAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MARILL"
     },
     {
       "id": "azumarill",
@@ -4794,7 +5601,11 @@
         "HYDRO_PUMP",
         "ICE_BEAM",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MARILL"
     },
     {
       "id": "sudowoodo",
@@ -4814,7 +5625,11 @@
         "EARTHQUAKE",
         "ROCK_SLIDE",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_SUDOWOODO"
     },
     {
       "id": "politoed",
@@ -4838,7 +5653,11 @@
       ],
       "legacyMoves": [
         "EARTHQUAKE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_POLIWAG"
     },
     {
       "id": "hoppip",
@@ -4859,7 +5678,11 @@
         "DAZZLING_GLEAM",
         "GRASS_KNOT",
         "SEED_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.12,
+      "buddyKm": 3,
+      "familyId": "F_HOPPIP"
     },
     {
       "id": "skiploom",
@@ -4880,7 +5703,11 @@
         "DAZZLING_GLEAM",
         "ENERGY_BALL",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_HOPPIP"
     },
     {
       "id": "jumpluff",
@@ -4901,7 +5728,11 @@
         "DAZZLING_GLEAM",
         "ENERGY_BALL",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_HOPPIP"
     },
     {
       "id": "aipom",
@@ -4921,7 +5752,11 @@
         "AERIAL_ACE",
         "LOW_SWEEP",
         "SWIFT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_AIPOM"
     },
     {
       "id": "sunkern",
@@ -4941,7 +5776,11 @@
         "ENERGY_BALL",
         "GRASS_KNOT",
         "SEED_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_SUNKERN"
     },
     {
       "id": "sunflora",
@@ -4961,7 +5800,11 @@
         "PETAL_BLIZZARD",
         "SLUDGE_BOMB",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SUNKERN"
     },
     {
       "id": "yanma",
@@ -4982,7 +5825,11 @@
         "AERIAL_ACE",
         "ANCIENT_POWER",
         "SILVER_WIND"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_YANMA"
     },
     {
       "id": "wooper",
@@ -5003,7 +5850,11 @@
         "BODY_SLAM",
         "DIG",
         "MUD_BOMB"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_WOOPER"
     },
     {
       "id": "quagsire",
@@ -5025,7 +5876,11 @@
         "SLUDGE_BOMB",
         "STONE_EDGE",
         "ACID_SPRAY"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_WOOPER"
     },
     {
       "id": "espeon",
@@ -5049,7 +5904,11 @@
       ],
       "legacyMoves": [
         "LAST_RESORT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_EEVEE"
     },
     {
       "id": "umbreon",
@@ -5072,7 +5931,11 @@
       ],
       "legacyMoves": [
         "LAST_RESORT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_EEVEE"
     },
     {
       "id": "murkrow",
@@ -5093,7 +5956,11 @@
         "DARK_PULSE",
         "DRILL_PECK",
         "FOUL_PLAY"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MURKROW"
     },
     {
       "id": "slowking",
@@ -5114,7 +5981,11 @@
         "BLIZZARD",
         "FIRE_BLAST",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_SLOWPOKE"
     },
     {
       "id": "misdreavus",
@@ -5134,7 +6005,11 @@
         "DARK_PULSE",
         "OMINOUS_WIND",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MISDREAVUS"
     },
     {
       "id": "unown",
@@ -5151,7 +6026,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_UNOWN"
     },
     {
       "id": "wobbuffet",
@@ -5170,7 +6049,11 @@
       ],
       "chargedMoves": [
         "MIRROR_COAT"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_WOBBUFFET"
     },
     {
       "id": "girafarig",
@@ -5191,7 +6074,11 @@
         "MIRROR_COAT",
         "PSYCHIC",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_GIRAFARIG"
     },
     {
       "id": "pineco",
@@ -5211,7 +6098,11 @@
         "GYRO_BALL",
         "ROCK_TOMB",
         "SAND_TOMB"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.12,
+      "buddyKm": 5,
+      "familyId": "F_PINECO"
     },
     {
       "id": "forretress",
@@ -5234,7 +6125,11 @@
         "ROCK_TOMB",
         "SAND_TOMB",
         "MIRROR_SHOT"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_PINECO"
     },
     {
       "id": "dunsparce",
@@ -5254,7 +6149,11 @@
         "DIG",
         "DRILL_RUN",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_DUNSPARCE"
     },
     {
       "id": "gligar",
@@ -5275,7 +6174,11 @@
         "AERIAL_ACE",
         "DIG",
         "NIGHT_SLASH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_GLIGAR"
     },
     {
       "id": "steelix",
@@ -5297,7 +6200,11 @@
         "CRUNCH",
         "EARTHQUAKE",
         "HEAVY_SLAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_ONIX"
     },
     {
       "id": "snubbull",
@@ -5317,7 +6224,11 @@
         "BRICK_BREAK",
         "CRUNCH",
         "DAZZLING_GLEAM"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SNUBBULL"
     },
     {
       "id": "granbull",
@@ -5338,7 +6249,11 @@
         "CLOSE_COMBAT",
         "CRUNCH",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.079999998,
+      "buddyKm": 3,
+      "familyId": "F_SNUBBULL"
     },
     {
       "id": "qwilfish",
@@ -5361,7 +6276,11 @@
         "SLUDGE_WAVE",
         "ACID_SPRAY",
         "FELL_STINGER"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.079999998,
+      "buddyKm": 3,
+      "familyId": "F_QWILFISH"
     },
     {
       "id": "scizor",
@@ -5382,7 +6301,11 @@
         "IRON_HEAD",
         "NIGHT_SLASH",
         "X_SCISSOR"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_SCYTHER"
     },
     {
       "id": "shuckle",
@@ -5403,7 +6326,11 @@
         "GYRO_BALL",
         "ROCK_BLAST",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SHUCKLE"
     },
     {
       "id": "heracross",
@@ -5424,7 +6351,11 @@
         "CLOSE_COMBAT",
         "EARTHQUAKE",
         "MEGAHORN"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_HERACROSS"
     },
     {
       "id": "sneasel",
@@ -5445,7 +6376,11 @@
         "AVALANCHE",
         "FOUL_PLAY",
         "ICE_PUNCH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SNEASEL"
     },
     {
       "id": "teddiursa",
@@ -5465,7 +6400,11 @@
         "CROSS_CHOP",
         "CRUNCH",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_TEDDIURSA"
     },
     {
       "id": "ursaring",
@@ -5486,7 +6425,11 @@
         "CLOSE_COMBAT",
         "HYPER_BEAM",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TEDDIURSA"
     },
     {
       "id": "slugma",
@@ -5506,7 +6449,11 @@
         "FLAME_BURST",
         "FLAME_CHARGE",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_SLUGMA"
     },
     {
       "id": "magcargo",
@@ -5527,7 +6474,11 @@
         "HEAT_WAVE",
         "OVERHEAT",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_SLUGMA"
     },
     {
       "id": "swinub",
@@ -5548,7 +6499,11 @@
         "BODY_SLAM",
         "ICY_WIND",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SWINUB"
     },
     {
       "id": "piloswine",
@@ -5569,7 +6524,11 @@
         "AVALANCHE",
         "BULLDOZE",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SWINUB"
     },
     {
       "id": "corsola",
@@ -5590,7 +6549,11 @@
         "BUBBLE_BEAM",
         "POWER_GEM",
         "ROCK_BLAST"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.12,
+      "buddyKm": 3,
+      "familyId": "F_CORSOLA"
     },
     {
       "id": "remoraid",
@@ -5610,7 +6573,11 @@
         "AURORA_BEAM",
         "ROCK_BLAST",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_REMORAID"
     },
     {
       "id": "octillery",
@@ -5632,7 +6599,11 @@
         "WATER_PULSE",
         "ACID_SPRAY",
         "OCTAZOOKA"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_REMORAID"
     },
     {
       "id": "delibird",
@@ -5658,7 +6629,11 @@
       "legacyMoves": [
         "ICE_SHARD",
         "QUICK_ATTACK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_DELIBIRD"
     },
     {
       "id": "mantine",
@@ -5681,7 +6656,11 @@
         "ICE_BEAM",
         "WATER_PULSE",
         "BUBBLE_BEAM"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_MANTINE"
     },
     {
       "id": "skarmory",
@@ -5702,7 +6681,11 @@
         "BRAVE_BIRD",
         "FLASH_CANNON",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_SKARMORY"
     },
     {
       "id": "houndour",
@@ -5723,7 +6706,11 @@
         "CRUNCH",
         "DARK_PULSE",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_HOUNDOUR"
     },
     {
       "id": "houndoom",
@@ -5745,7 +6732,11 @@
         "FIRE_BLAST",
         "FLAMETHROWER",
         "FOUL_PLAY"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_HOUNDOUR"
     },
     {
       "id": "kingdra",
@@ -5771,7 +6762,11 @@
       ],
       "legacyMoves": [
         "WATER_GUN"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_HORSEA"
     },
     {
       "id": "phanpy",
@@ -5791,7 +6786,11 @@
         "BODY_SLAM",
         "BULLDOZE",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_PHANPY"
     },
     {
       "id": "donphan",
@@ -5813,7 +6812,11 @@
         "EARTHQUAKE",
         "HEAVY_SLAM",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_PHANPY"
     },
     {
       "id": "porygon2",
@@ -5834,7 +6837,11 @@
         "HYPER_BEAM",
         "SOLAR_BEAM",
         "ZAP_CANNON"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_PORYGON"
     },
     {
       "id": "stantler",
@@ -5854,7 +6861,11 @@
         "MEGAHORN",
         "STOMP",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.079999998,
+      "buddyKm": 3,
+      "familyId": "F_STANTLER"
     },
     {
       "id": "smeargle",
@@ -6044,7 +7055,11 @@
         "HYDRO_CANNON",
         "LAST_RESORT",
         "METEOR_MASH"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SMEARGLE"
     },
     {
       "id": "tyrogue",
@@ -6064,7 +7079,10 @@
         "BRICK_BREAK",
         "LOW_SWEEP",
         "ROCK_SLIDE"
-      ]
+      ],
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_TYROGUE"
     },
     {
       "id": "hitmontop",
@@ -6084,7 +7102,11 @@
         "CLOSE_COMBAT",
         "GYRO_BALL",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_TYROGUE"
     },
     {
       "id": "smoochum",
@@ -6109,7 +7131,10 @@
       ],
       "legacyMoves": [
         "FROST_BREATH"
-      ]
+      ],
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_JYNX"
     },
     {
       "id": "elekid",
@@ -6133,7 +7158,10 @@
       ],
       "legacyMoves": [
         "THUNDERBOLT"
-      ]
+      ],
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_ELECTABUZZ"
     },
     {
       "id": "magby",
@@ -6157,7 +7185,10 @@
       ],
       "legacyMoves": [
         "FLAMETHROWER"
-      ]
+      ],
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_MAGMAR"
     },
     {
       "id": "miltank",
@@ -6179,7 +7210,11 @@
         "ICE_BEAM",
         "STOMP",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.079999998,
+      "buddyKm": 5,
+      "familyId": "F_MILTANK"
     },
     {
       "id": "blissey",
@@ -6199,7 +7234,11 @@
         "DAZZLING_GLEAM",
         "HYPER_BEAM",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_CHANSEY"
     },
     {
       "id": "raikou",
@@ -6220,7 +7259,11 @@
         "THUNDER",
         "THUNDERBOLT",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_RAIKOU"
     },
     {
       "id": "entei",
@@ -6241,7 +7284,11 @@
         "FLAMETHROWER",
         "IRON_HEAD",
         "OVERHEAT"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_ENTEI"
     },
     {
       "id": "suicune",
@@ -6267,7 +7314,11 @@
       ],
       "legacyMoves": [
         "HIDDEN_POWER"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_SUICUNE"
     },
     {
       "id": "larvitar",
@@ -6288,7 +7339,11 @@
         "ANCIENT_POWER",
         "CRUNCH",
         "STOMP"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_LARVITAR"
     },
     {
       "id": "pupitar",
@@ -6309,7 +7364,11 @@
         "ANCIENT_POWER",
         "CRUNCH",
         "DIG"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_LARVITAR"
     },
     {
       "id": "tyranitar",
@@ -6334,7 +7393,11 @@
       ],
       "legacyMoves": [
         "SMACK_DOWN"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.039999999,
+      "buddyKm": 5,
+      "familyId": "F_LARVITAR"
     },
     {
       "id": "lugia",
@@ -6355,7 +7418,11 @@
         "FUTURE_SIGHT",
         "HYDRO_PUMP",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_LUGIA"
     },
     {
       "id": "ho_oh",
@@ -6377,7 +7444,11 @@
         "BRAVE_BIRD",
         "FIRE_BLAST",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_HO_OH"
     },
     {
       "id": "celebi",
@@ -6399,7 +7470,10 @@
         "HYPER_BEAM",
         "PSYCHIC",
         "SEED_BOMB"
-      ]
+      ],
+      "captureRate": 100,
+      "buddyKm": 20,
+      "familyId": "F_CELEBI"
     },
     {
       "id": "treecko",
@@ -6419,7 +7493,11 @@
         "AERIAL_ACE",
         "ENERGY_BALL",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_TREECKO"
     },
     {
       "id": "grovyle",
@@ -6439,7 +7517,11 @@
         "AERIAL_ACE",
         "GRASS_KNOT",
         "LEAF_BLADE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TREECKO"
     },
     {
       "id": "sceptile",
@@ -6464,7 +7546,11 @@
       ],
       "legacyMoves": [
         "FRENZY_PLANT"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_TREECKO"
     },
     {
       "id": "torchic",
@@ -6484,7 +7570,11 @@
         "FLAME_CHARGE",
         "FLAMETHROWER",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_TORCHIC"
     },
     {
       "id": "combusken",
@@ -6505,7 +7595,11 @@
         "FLAME_CHARGE",
         "FLAMETHROWER",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TORCHIC"
     },
     {
       "id": "blaziken",
@@ -6533,7 +7627,11 @@
       "legacyMoves": [
         "STONE_EDGE",
         "BLAST_BURN"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_TORCHIC"
     },
     {
       "id": "mudkip",
@@ -6553,7 +7651,11 @@
         "DIG",
         "SLUDGE",
         "STOMP"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MUDKIP"
     },
     {
       "id": "marshtomp",
@@ -6574,7 +7676,11 @@
         "MUD_BOMB",
         "SLUDGE",
         "SURF"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MUDKIP"
     },
     {
       "id": "swampert",
@@ -6600,7 +7706,11 @@
       ],
       "legacyMoves": [
         "HYDRO_CANNON"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_MUDKIP"
     },
     {
       "id": "poochyena",
@@ -6620,7 +7730,11 @@
         "CRUNCH",
         "DIG",
         "POISON_FANG"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_POOCHYENA"
     },
     {
       "id": "mightyena",
@@ -6642,7 +7756,11 @@
         "CRUNCH",
         "PLAY_ROUGH",
         "POISON_FANG"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_POOCHYENA"
     },
     {
       "id": "zigzagoon",
@@ -6662,7 +7780,11 @@
         "DIG",
         "GRASS_KNOT",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_ZIGZAGOON"
     },
     {
       "id": "zigzagoon_galarian",
@@ -6683,7 +7805,11 @@
         "DIG",
         "GRASS_KNOT",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_ZIGZAGOON"
     },
     {
       "id": "linoone",
@@ -6703,7 +7829,11 @@
         "DIG",
         "GRASS_KNOT",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_ZIGZAGOON"
     },
     {
       "id": "linoone_galarian",
@@ -6724,7 +7854,11 @@
         "DIG",
         "GRASS_KNOT",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_ZIGZAGOON"
     },
     {
       "id": "wurmple",
@@ -6742,7 +7876,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_WURMPLE"
     },
     {
       "id": "silcoon",
@@ -6760,7 +7898,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_WURMPLE"
     },
     {
       "id": "beautifly",
@@ -6781,7 +7923,11 @@
         "AIR_CUTTER",
         "BUG_BUZZ",
         "SILVER_WIND"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_WURMPLE"
     },
     {
       "id": "cascoon",
@@ -6799,7 +7945,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_WURMPLE"
     },
     {
       "id": "dustox",
@@ -6820,7 +7970,11 @@
         "BUG_BUZZ",
         "SILVER_WIND",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_WURMPLE"
     },
     {
       "id": "lotad",
@@ -6840,7 +7994,11 @@
       "chargedMoves": [
         "BUBBLE_BEAM",
         "ENERGY_BALL"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_LOTAD"
     },
     {
       "id": "lombre",
@@ -6861,7 +8019,11 @@
         "BUBBLE_BEAM",
         "GRASS_KNOT",
         "ICE_BEAM"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_LOTAD"
     },
     {
       "id": "ludicolo",
@@ -6883,7 +8045,11 @@
         "HYDRO_PUMP",
         "ICE_BEAM",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_LOTAD"
     },
     {
       "id": "seedot",
@@ -6903,7 +8069,11 @@
         "ENERGY_BALL",
         "FOUL_PLAY",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_SEEDOT"
     },
     {
       "id": "nuzleaf",
@@ -6924,7 +8094,11 @@
         "FOUL_PLAY",
         "GRASS_KNOT",
         "LEAF_BLADE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_SEEDOT"
     },
     {
       "id": "shiftry",
@@ -6947,7 +8121,11 @@
         "HURRICANE",
         "LEAF_BLADE",
         "LEAF_TORNADO"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SEEDOT"
     },
     {
       "id": "taillow",
@@ -6966,7 +8144,11 @@
       ],
       "chargedMoves": [
         "AERIAL_ACE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_TAILLOW"
     },
     {
       "id": "swellow",
@@ -6987,7 +8169,11 @@
         "AERIAL_ACE",
         "BRAVE_BIRD",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_TAILLOW"
     },
     {
       "id": "wingull",
@@ -7008,7 +8194,11 @@
         "AIR_CUTTER",
         "ICE_BEAM",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_WINGULL"
     },
     {
       "id": "pelipper",
@@ -7029,7 +8219,11 @@
         "BLIZZARD",
         "HURRICANE",
         "HYDRO_PUMP"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_WINGULL"
     },
     {
       "id": "ralts",
@@ -7050,7 +8244,11 @@
         "DISARMING_VOICE",
         "PSYSHOCK",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_RALTS"
     },
     {
       "id": "kirlia",
@@ -7071,7 +8269,11 @@
         "DISARMING_VOICE",
         "PSYCHIC",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_RALTS"
     },
     {
       "id": "gardevoir",
@@ -7097,7 +8299,11 @@
       ],
       "legacyMoves": [
         "SYNCHRONOISE"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_RALTS"
     },
     {
       "id": "surskit",
@@ -7118,7 +8324,11 @@
         "AQUA_JET",
         "BUBBLE_BEAM",
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_SURSKIT"
     },
     {
       "id": "masquerain",
@@ -7140,7 +8350,11 @@
         "OMINOUS_WIND",
         "SILVER_WIND",
         "BUBBLE_BEAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_SURSKIT"
     },
     {
       "id": "shroomish",
@@ -7160,7 +8374,11 @@
         "ENERGY_BALL",
         "GRASS_KNOT",
         "SEED_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_SHROOMISH"
     },
     {
       "id": "breloom",
@@ -7185,7 +8403,11 @@
       ],
       "legacyMoves": [
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SHROOMISH"
     },
     {
       "id": "slakoth",
@@ -7204,7 +8426,11 @@
         "BODY_SLAM",
         "BRICK_BREAK",
         "NIGHT_SLASH"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_SLAKOTH"
     },
     {
       "id": "vigoroth",
@@ -7224,7 +8450,11 @@
         "BODY_SLAM",
         "BRICK_BREAK",
         "BULLDOZE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_SLAKOTH"
     },
     {
       "id": "slaking",
@@ -7244,7 +8474,11 @@
         "HYPER_BEAM",
         "PLAY_ROUGH",
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_SLAKOTH"
     },
     {
       "id": "nincada",
@@ -7265,7 +8499,11 @@
         "AERIAL_ACE",
         "BUG_BUZZ",
         "NIGHT_SLASH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_NINCADA"
     },
     {
       "id": "ninjask",
@@ -7286,7 +8524,11 @@
         "AERIAL_ACE",
         "BUG_BUZZ",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_NINCADA"
     },
     {
       "id": "shedinja",
@@ -7307,7 +8549,11 @@
         "AERIAL_ACE",
         "DIG",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_NINCADA"
     },
     {
       "id": "whismur",
@@ -7327,7 +8573,11 @@
         "DISARMING_VOICE",
         "FLAMETHROWER",
         "STOMP"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_WHISMUR"
     },
     {
       "id": "loudred",
@@ -7351,7 +8601,11 @@
       ],
       "legacyMoves": [
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_WHISMUR"
     },
     {
       "id": "exploud",
@@ -7371,7 +8625,11 @@
         "CRUNCH",
         "DISARMING_VOICE",
         "FIRE_BLAST"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_WHISMUR"
     },
     {
       "id": "makuhita",
@@ -7391,7 +8649,11 @@
         "CROSS_CHOP",
         "HEAVY_SLAM",
         "LOW_SWEEP"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MAKUHITA"
     },
     {
       "id": "hariyama",
@@ -7412,7 +8674,11 @@
         "DYNAMIC_PUNCH",
         "HEAVY_SLAM",
         "SUPER_POWER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_MAKUHITA"
     },
     {
       "id": "azurill",
@@ -7433,7 +8699,11 @@
         "BODY_SLAM",
         "BUBBLE_BEAM",
         "ICE_BEAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.039999999,
+      "buddyKm": 3,
+      "familyId": "F_MARILL"
     },
     {
       "id": "nosepass",
@@ -7453,7 +8723,11 @@
         "ROCK_BLAST",
         "ROCK_SLIDE",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_NOSEPASS"
     },
     {
       "id": "skitty",
@@ -7473,7 +8747,11 @@
         "DIG",
         "DISARMING_VOICE",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SKITTY"
     },
     {
       "id": "delcatty",
@@ -7494,7 +8772,11 @@
         "DISARMING_VOICE",
         "PLAY_ROUGH",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SKITTY"
     },
     {
       "id": "sableye",
@@ -7515,7 +8797,11 @@
         "FOUL_PLAY",
         "POWER_GEM",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_SABLEYE"
     },
     {
       "id": "mawile",
@@ -7539,7 +8825,11 @@
         "PLAY_ROUGH",
         "VICE_GRIP",
         "POWER_UP_PUNCH"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_MAWILE"
     },
     {
       "id": "aron",
@@ -7560,7 +8850,11 @@
         "BODY_SLAM",
         "IRON_HEAD",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_ARON"
     },
     {
       "id": "lairon",
@@ -7581,7 +8875,11 @@
         "BODY_SLAM",
         "HEAVY_SLAM",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_ARON"
     },
     {
       "id": "aggron",
@@ -7603,7 +8901,11 @@
         "HEAVY_SLAM",
         "STONE_EDGE",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_ARON"
     },
     {
       "id": "meditite",
@@ -7624,7 +8926,11 @@
         "ICE_PUNCH",
         "LOW_SWEEP",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MEDITITE"
     },
     {
       "id": "medicham",
@@ -7646,7 +8952,11 @@
         "ICE_PUNCH",
         "PSYCHIC",
         "POWER_UP_PUNCH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_MEDITITE"
     },
     {
       "id": "electrike",
@@ -7666,7 +8976,11 @@
         "DISCHARGE",
         "SWIFT",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_ELECTRIKE"
     },
     {
       "id": "manectric",
@@ -7686,7 +9000,11 @@
         "FLAME_BURST",
         "THUNDER",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_ELECTRIKE"
     },
     {
       "id": "plusle",
@@ -7707,7 +9025,11 @@
         "SWIFT",
         "THUNDERBOLT",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_PLUSLE"
     },
     {
       "id": "minun",
@@ -7728,7 +9050,11 @@
         "SWIFT",
         "THUNDERBOLT",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_MINUN"
     },
     {
       "id": "volbeat",
@@ -7748,7 +9074,11 @@
         "BUG_BUZZ",
         "SIGNAL_BEAM",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_VOLBEAT"
     },
     {
       "id": "illumise",
@@ -7768,7 +9098,11 @@
         "BUG_BUZZ",
         "DAZZLING_GLEAM",
         "SILVER_WIND"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_ILLUMISE"
     },
     {
       "id": "roselia",
@@ -7789,7 +9123,11 @@
         "DAZZLING_GLEAM",
         "PETAL_BLIZZARD",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_ROSELIA"
     },
     {
       "id": "gulpin",
@@ -7809,7 +9147,11 @@
         "GUNK_SHOT",
         "ICE_BEAM",
         "SLUDGE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_GULPIN"
     },
     {
       "id": "swalot",
@@ -7830,7 +9172,11 @@
         "ICE_BEAM",
         "SLUDGE_BOMB",
         "ACID_SPRAY"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_GULPIN"
     },
     {
       "id": "carvanha",
@@ -7851,7 +9197,11 @@
         "AQUA_JET",
         "CRUNCH",
         "POISON_FANG"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CARVANHA"
     },
     {
       "id": "sharpedo",
@@ -7872,7 +9222,11 @@
         "CRUNCH",
         "HYDRO_PUMP",
         "POISON_FANG"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_CARVANHA"
     },
     {
       "id": "wailmer",
@@ -7892,7 +9246,11 @@
         "BODY_SLAM",
         "HEAVY_SLAM",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_WAILMER"
     },
     {
       "id": "wailord",
@@ -7912,7 +9270,11 @@
         "BLIZZARD",
         "HYPER_BEAM",
         "SURF"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_WAILMER"
     },
     {
       "id": "numel",
@@ -7933,7 +9295,11 @@
         "BULLDOZE",
         "HEAT_WAVE",
         "STOMP"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_NUMEL"
     },
     {
       "id": "camerupt",
@@ -7955,7 +9321,11 @@
         "OVERHEAT",
         "SOLAR_BEAM",
         "EARTH_POWER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_NUMEL"
     },
     {
       "id": "torkoal",
@@ -7975,7 +9345,11 @@
         "EARTHQUAKE",
         "OVERHEAT",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_TORKOAL"
     },
     {
       "id": "spoink",
@@ -7995,7 +9369,11 @@
         "MIRROR_COAT",
         "PSYBEAM",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_SPOINK"
     },
     {
       "id": "grumpig",
@@ -8015,7 +9393,11 @@
         "MIRROR_COAT",
         "PSYCHIC",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_SPOINK"
     },
     {
       "id": "spinda",
@@ -8035,7 +9417,11 @@
         "DIG",
         "ICY_WIND",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_SPINDA"
     },
     {
       "id": "trapinch",
@@ -8055,7 +9441,11 @@
         "CRUNCH",
         "DIG",
         "SAND_TOMB"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_TRAPINCH"
     },
     {
       "id": "vibrava",
@@ -8076,7 +9466,11 @@
         "BUG_BUZZ",
         "BULLDOZE",
         "SAND_TOMB"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_TRAPINCH"
     },
     {
       "id": "flygon",
@@ -8101,7 +9495,11 @@
       ],
       "legacyMoves": [
         "EARTH_POWER"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_TRAPINCH"
     },
     {
       "id": "cacnea",
@@ -8121,7 +9519,11 @@
         "BRICK_BREAK",
         "GRASS_KNOT",
         "SEED_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CACNEA"
     },
     {
       "id": "cacturne",
@@ -8142,7 +9544,11 @@
         "DARK_PULSE",
         "DYNAMIC_PUNCH",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_CACNEA"
     },
     {
       "id": "swablu",
@@ -8163,7 +9569,11 @@
         "AERIAL_ACE",
         "DISARMING_VOICE",
         "ICE_BEAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_SWABLU"
     },
     {
       "id": "altaria",
@@ -8184,7 +9594,11 @@
         "DAZZLING_GLEAM",
         "DRAGON_PULSE",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_SWABLU"
     },
     {
       "id": "zangoose",
@@ -8204,7 +9618,11 @@
         "CLOSE_COMBAT",
         "DIG",
         "NIGHT_SLASH"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_ZANGOOSE"
     },
     {
       "id": "seviper",
@@ -8224,7 +9642,11 @@
         "CRUNCH",
         "POISON_FANG",
         "WRAP"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_SEVIPER"
     },
     {
       "id": "lunatone",
@@ -8245,7 +9667,11 @@
         "MOONBLAST",
         "PSYCHIC",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_LUNATONE"
     },
     {
       "id": "solrock",
@@ -8266,7 +9692,11 @@
         "PSYCHIC",
         "ROCK_SLIDE",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_SOLROCK"
     },
     {
       "id": "barboach",
@@ -8287,7 +9717,11 @@
         "AQUA_TAIL",
         "ICE_BEAM",
         "MUD_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_BARBOACH"
     },
     {
       "id": "whiscash",
@@ -8308,7 +9742,11 @@
         "BLIZZARD",
         "MUD_BOMB",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_BARBOACH"
     },
     {
       "id": "corphish",
@@ -8328,7 +9766,11 @@
         "AQUA_JET",
         "BUBBLE_BEAM",
         "VICE_GRIP"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CORPHISH"
     },
     {
       "id": "crawdaunt",
@@ -8350,7 +9792,11 @@
         "NIGHT_SLASH",
         "VICE_GRIP",
         "CRABHAMMER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_CORPHISH"
     },
     {
       "id": "baltoy",
@@ -8371,7 +9817,11 @@
         "DIG",
         "GYRO_BALL",
         "PSYBEAM"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_BALTOY"
     },
     {
       "id": "claydol",
@@ -8394,7 +9844,11 @@
         "GYRO_BALL",
         "PSYCHIC",
         "EARTH_POWER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_BALTOY"
     },
     {
       "id": "lileep",
@@ -8415,7 +9869,11 @@
         "ANCIENT_POWER",
         "GRASS_KNOT",
         "MIRROR_COAT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_LILEEP"
     },
     {
       "id": "cradily",
@@ -8436,7 +9894,11 @@
         "BULLDOZE",
         "GRASS_KNOT",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_LILEEP"
     },
     {
       "id": "anorith",
@@ -8457,7 +9919,11 @@
         "ANCIENT_POWER",
         "AQUA_JET",
         "CROSS_POISON"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_ANORITH"
     },
     {
       "id": "armaldo",
@@ -8478,7 +9944,11 @@
         "CROSS_POISON",
         "ROCK_BLAST",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_ANORITH"
     },
     {
       "id": "feebas",
@@ -8496,7 +9966,11 @@
       ],
       "chargedMoves": [
         "MIRROR_COAT"
-      ]
+      ],
+      "captureRate": 0.69999999,
+      "fleeRate": 0.15000001,
+      "buddyKm": 5,
+      "familyId": "F_FEEBAS"
     },
     {
       "id": "milotic",
@@ -8516,7 +9990,11 @@
         "BLIZZARD",
         "HYPER_BEAM",
         "SURF"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_FEEBAS"
     },
     {
       "id": "castform",
@@ -8536,7 +10014,11 @@
         "ENERGY_BALL",
         "HURRICANE",
         "WEATHER_BALL_ROCK"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_CASTFORM"
     },
     {
       "id": "castform_rainy",
@@ -8556,7 +10038,11 @@
         "HYDRO_PUMP",
         "THUNDER",
         "WEATHER_BALL_WATER"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_CASTFORM"
     },
     {
       "id": "castform_snowy",
@@ -8576,7 +10062,11 @@
         "BLIZZARD",
         "ICE_BEAM",
         "WEATHER_BALL_ICE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_CASTFORM"
     },
     {
       "id": "castform_sunny",
@@ -8596,7 +10086,11 @@
         "FIRE_BLAST",
         "SOLAR_BEAM",
         "WEATHER_BALL_FIRE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_CASTFORM"
     },
     {
       "id": "kecleon",
@@ -8619,7 +10113,11 @@
         "ICE_BEAM",
         "SHADOW_SNEAK",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_KECLEON"
     },
     {
       "id": "shuppet",
@@ -8639,7 +10137,11 @@
         "NIGHT_SHADE",
         "OMINOUS_WIND",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SHUPPET"
     },
     {
       "id": "banette",
@@ -8659,7 +10161,11 @@
         "DAZZLING_GLEAM",
         "SHADOW_BALL",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SHUPPET"
     },
     {
       "id": "duskull",
@@ -8679,7 +10185,11 @@
         "NIGHT_SHADE",
         "OMINOUS_WIND",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DUSKULL"
     },
     {
       "id": "dusclops",
@@ -8699,7 +10209,11 @@
         "FIRE_PUNCH",
         "ICE_PUNCH",
         "SHADOW_PUNCH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_DUSKULL"
     },
     {
       "id": "tropius",
@@ -8720,7 +10234,11 @@
         "AERIAL_ACE",
         "LEAF_BLADE",
         "STOMP"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_TROPIUS"
     },
     {
       "id": "chimecho",
@@ -8740,7 +10258,11 @@
         "ENERGY_BALL",
         "PSYSHOCK",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_CHIMECHO"
     },
     {
       "id": "absol",
@@ -8760,7 +10282,11 @@
         "DARK_PULSE",
         "MEGAHORN",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ABSOL"
     },
     {
       "id": "wynaut",
@@ -8778,7 +10304,11 @@
       ],
       "chargedMoves": [
         "MIRROR_COAT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_WOBBUFFET"
     },
     {
       "id": "snorunt",
@@ -8798,7 +10328,11 @@
         "AVALANCHE",
         "ICY_WIND",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SNORUNT"
     },
     {
       "id": "glalie",
@@ -8818,7 +10352,11 @@
         "AVALANCHE",
         "GYRO_BALL",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SNORUNT"
     },
     {
       "id": "spheal",
@@ -8839,7 +10377,11 @@
         "AURORA_BEAM",
         "BODY_SLAM",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SPHEAL"
     },
     {
       "id": "sealeo",
@@ -8860,7 +10402,11 @@
         "AURORA_BEAM",
         "BODY_SLAM",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SPHEAL"
     },
     {
       "id": "walrein",
@@ -8881,7 +10427,11 @@
         "BLIZZARD",
         "EARTHQUAKE",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_SPHEAL"
     },
     {
       "id": "clamperl",
@@ -8900,7 +10450,11 @@
         "BODY_SLAM",
         "ICE_BEAM",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CLAMPERL"
     },
     {
       "id": "huntail",
@@ -8920,7 +10474,11 @@
         "AQUA_TAIL",
         "CRUNCH",
         "ICE_BEAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_CLAMPERL"
     },
     {
       "id": "gorebyss",
@@ -8940,7 +10498,11 @@
         "DRAINING_KISS",
         "PSYCHIC",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_CLAMPERL"
     },
     {
       "id": "relicanth",
@@ -8961,7 +10523,11 @@
         "ANCIENT_POWER",
         "AQUA_TAIL",
         "HYDRO_PUMP"
-      ]
+      ],
+      "captureRate": 0.89999998,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 5,
+      "familyId": "F_RELICANTH"
     },
     {
       "id": "luvdisc",
@@ -8981,7 +10547,11 @@
         "AQUA_JET",
         "DRAINING_KISS",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_LUVDISC"
     },
     {
       "id": "bagon",
@@ -9001,7 +10571,11 @@
         "CRUNCH",
         "FLAMETHROWER",
         "TWISTER"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_BAGON"
     },
     {
       "id": "shelgon",
@@ -9021,7 +10595,11 @@
         "DRAGON_PULSE",
         "FLAMETHROWER",
         "TWISTER"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_BAGON"
     },
     {
       "id": "salamence",
@@ -9044,7 +10622,11 @@
         "FIRE_BLAST",
         "HYDRO_PUMP",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_BAGON"
     },
     {
       "id": "beldum",
@@ -9062,7 +10644,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_BELDUM"
     },
     {
       "id": "metang",
@@ -9083,7 +10669,11 @@
         "GYRO_BALL",
         "PSYCHIC",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_BELDUM"
     },
     {
       "id": "metagross",
@@ -9108,7 +10698,11 @@
       ],
       "legacyMoves": [
         "METEOR_MASH"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_BELDUM"
     },
     {
       "id": "regirock",
@@ -9129,7 +10723,11 @@
         "FOCUS_BLAST",
         "STONE_EDGE",
         "ZAP_CANNON"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_REGIROCK"
     },
     {
       "id": "regice",
@@ -9150,7 +10748,11 @@
         "BLIZZARD",
         "EARTHQUAKE",
         "FOCUS_BLAST"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_REGICE"
     },
     {
       "id": "registeel",
@@ -9171,7 +10773,11 @@
         "FLASH_CANNON",
         "FOCUS_BLAST",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_REGISTEEL"
     },
     {
       "id": "latias",
@@ -9193,7 +10799,11 @@
         "OUTRAGE",
         "PSYCHIC",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_LATIAS"
     },
     {
       "id": "latios",
@@ -9214,7 +10824,11 @@
         "DRAGON_CLAW",
         "PSYCHIC",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_LATIOS"
     },
     {
       "id": "kyogre",
@@ -9234,7 +10848,11 @@
         "HYDRO_PUMP",
         "THUNDER",
         "SURF"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_KYOGRE"
     },
     {
       "id": "groudon",
@@ -9254,7 +10872,11 @@
         "EARTHQUAKE",
         "FIRE_BLAST",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_GROUDON"
     },
     {
       "id": "rayquaza",
@@ -9275,7 +10897,11 @@
         "AERIAL_ACE",
         "ANCIENT_POWER",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_RAYQUAZA"
     },
     {
       "id": "jirachi",
@@ -9296,7 +10922,10 @@
         "DAZZLING_GLEAM",
         "DOOM_DESIRE",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 100,
+      "buddyKm": 20,
+      "familyId": "F_JIRACHI"
     },
     {
       "id": "deoxys",
@@ -9316,7 +10945,11 @@
         "HYPER_BEAM",
         "PSYCHO_BOOST",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.059999999,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_DEOXYS"
     },
     {
       "id": "deoxys_attack",
@@ -9336,7 +10969,11 @@
         "DARK_PULSE",
         "PSYCHO_BOOST",
         "ZAP_CANNON"
-      ]
+      ],
+      "captureRate": 0.059999999,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_DEOXYS"
     },
     {
       "id": "deoxys_defense",
@@ -9356,7 +10993,11 @@
         "PSYCHO_BOOST",
         "ROCK_SLIDE",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.059999999,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_DEOXYS"
     },
     {
       "id": "deoxys_speed",
@@ -9376,7 +11017,11 @@
         "PSYCHO_BOOST",
         "SWIFT",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.059999999,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_DEOXYS"
     },
     {
       "id": "turtwig",
@@ -9396,7 +11041,11 @@
         "BODY_SLAM",
         "ENERGY_BALL",
         "SEED_BOMB"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_TURTWIG"
     },
     {
       "id": "grotle",
@@ -9416,7 +11065,11 @@
         "BODY_SLAM",
         "ENERGY_BALL",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TURTWIG"
     },
     {
       "id": "torterra",
@@ -9442,7 +11095,11 @@
       ],
       "legacyMoves": [
         "FRENZY_PLANT"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_TURTWIG"
     },
     {
       "id": "chimchar",
@@ -9462,7 +11119,11 @@
         "FLAME_CHARGE",
         "FLAME_WHEEL",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CHIMCHAR"
     },
     {
       "id": "monferno",
@@ -9483,7 +11144,11 @@
         "FLAME_WHEEL",
         "FLAMETHROWER",
         "LOW_SWEEP"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_CHIMCHAR"
     },
     {
       "id": "infernape",
@@ -9508,7 +11173,11 @@
       ],
       "legacyMoves": [
         "BLAST_BURN"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_CHIMCHAR"
     },
     {
       "id": "piplup",
@@ -9528,7 +11197,11 @@
         "BUBBLE_BEAM",
         "DRILL_PECK",
         "ICY_WIND"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_PIPLUP"
     },
     {
       "id": "prinplup",
@@ -9548,7 +11221,11 @@
         "BUBBLE_BEAM",
         "HYDRO_PUMP",
         "ICY_WIND"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_PIPLUP"
     },
     {
       "id": "empoleon",
@@ -9573,7 +11250,11 @@
       ],
       "legacyMoves": [
         "HYDRO_CANNON"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_PIPLUP"
     },
     {
       "id": "starly",
@@ -9593,7 +11274,11 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "BRAVE_BIRD"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_STARLY"
     },
     {
       "id": "staravia",
@@ -9614,7 +11299,11 @@
         "AERIAL_ACE",
         "BRAVE_BIRD",
         "HEAT_WAVE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_STARLY"
     },
     {
       "id": "staraptor",
@@ -9635,7 +11324,11 @@
         "BRAVE_BIRD",
         "CLOSE_COMBAT",
         "HEAT_WAVE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 1,
+      "familyId": "F_STARLY"
     },
     {
       "id": "bidoof",
@@ -9655,7 +11348,11 @@
         "CRUNCH",
         "GRASS_KNOT",
         "HYPER_FANG"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_BIDOOF"
     },
     {
       "id": "bibarel",
@@ -9676,7 +11373,11 @@
         "HYPER_BEAM",
         "HYPER_FANG",
         "SURF"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_BIDOOF"
     },
     {
       "id": "kricketot",
@@ -9694,7 +11395,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_KRICKETOT"
     },
     {
       "id": "kricketune",
@@ -9714,7 +11419,11 @@
         "AERIAL_ACE",
         "BUG_BUZZ",
         "X_SCISSOR"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_KRICKETOT"
     },
     {
       "id": "shinx",
@@ -9734,7 +11443,11 @@
         "DISCHARGE",
         "SWIFT",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_SHINX"
     },
     {
       "id": "luxio",
@@ -9754,7 +11467,11 @@
         "CRUNCH",
         "THUNDERBOLT",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_SHINX"
     },
     {
       "id": "luxray",
@@ -9775,7 +11492,11 @@
         "CRUNCH",
         "HYPER_BEAM",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_SHINX"
     },
     {
       "id": "budew",
@@ -9795,7 +11516,11 @@
       "chargedMoves": [
         "ENERGY_BALL",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.039999999,
+      "buddyKm": 3,
+      "familyId": "F_ROSELIA"
     },
     {
       "id": "roserade",
@@ -9817,7 +11542,11 @@
         "GRASS_KNOT",
         "SLUDGE_BOMB",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ROSELIA"
     },
     {
       "id": "cranidos",
@@ -9837,7 +11566,11 @@
         "ANCIENT_POWER",
         "BULLDOZE",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_CRANIDOS"
     },
     {
       "id": "rampardos",
@@ -9857,7 +11590,11 @@
         "FLAMETHROWER",
         "OUTRAGE",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_CRANIDOS"
     },
     {
       "id": "shieldon",
@@ -9878,7 +11615,11 @@
         "ANCIENT_POWER",
         "HEAVY_SLAM",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_SHIELDON"
     },
     {
       "id": "bastiodon",
@@ -9899,7 +11640,11 @@
         "FLAMETHROWER",
         "FLASH_CANNON",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_SHIELDON"
     },
     {
       "id": "burmy_plant",
@@ -9917,7 +11662,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_BURMY"
     },
     {
       "id": "burmy_sandy",
@@ -9935,7 +11684,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_BURMY"
     },
     {
       "id": "burmy_trash",
@@ -9953,7 +11706,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_BURMY"
     },
     {
       "id": "wormadam_plant",
@@ -9974,7 +11731,11 @@
         "BUG_BUZZ",
         "ENERGY_BALL",
         "PSYBEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_BURMY"
     },
     {
       "id": "wormadam_sandy",
@@ -9995,7 +11756,11 @@
         "BUG_BUZZ",
         "BULLDOZE",
         "PSYBEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_BURMY"
     },
     {
       "id": "wormadam_trash",
@@ -10016,7 +11781,11 @@
         "BUG_BUZZ",
         "IRON_HEAD",
         "PSYBEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_BURMY"
     },
     {
       "id": "mothim",
@@ -10037,7 +11806,11 @@
         "AERIAL_ACE",
         "BUG_BUZZ",
         "PSYBEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_BURMY"
     },
     {
       "id": "combee",
@@ -10055,7 +11828,11 @@
       ],
       "chargedMoves": [
         "BUG_BUZZ"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_COMBEE"
     },
     {
       "id": "vespiquen",
@@ -10079,7 +11856,11 @@
         "POWER_GEM",
         "X_SCISSOR",
         "FELL_STINGER"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_COMBEE"
     },
     {
       "id": "pachirisu",
@@ -10099,7 +11880,11 @@
         "THUNDER",
         "THUNDER_PUNCH",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_PACHIRISU"
     },
     {
       "id": "buizel",
@@ -10119,7 +11904,11 @@
         "AQUA_JET",
         "SWIFT",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_BUIZEL"
     },
     {
       "id": "floatzel",
@@ -10139,7 +11928,11 @@
         "AQUA_JET",
         "HYDRO_PUMP",
         "SWIFT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_BUIZEL"
     },
     {
       "id": "cherubi",
@@ -10163,7 +11956,11 @@
       ],
       "legacyMoves": [
         "POWER_WHIP"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_CHERUBI"
     },
     {
       "id": "cherrim_overcast",
@@ -10183,7 +11980,11 @@
         "DAZZLING_GLEAM",
         "HYPER_BEAM",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_CHERUBI"
     },
     {
       "id": "cherrim_sunny",
@@ -10203,7 +12004,11 @@
         "DAZZLING_GLEAM",
         "HYPER_BEAM",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_CHERUBI"
     },
     {
       "id": "shellos_east_sea",
@@ -10223,7 +12028,11 @@
         "BODY_SLAM",
         "MUD_BOMB",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SHELLOS"
     },
     {
       "id": "shellos_west_sea",
@@ -10243,7 +12052,11 @@
         "BODY_SLAM",
         "MUD_BOMB",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SHELLOS"
     },
     {
       "id": "gastrodon_east_sea",
@@ -10268,7 +12081,11 @@
       ],
       "legacyMoves": [
         "EARTHQUAKE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SHELLOS"
     },
     {
       "id": "gastrodon_west_sea",
@@ -10293,7 +12110,11 @@
       ],
       "legacyMoves": [
         "EARTHQUAKE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SHELLOS"
     },
     {
       "id": "ambipom",
@@ -10313,7 +12134,11 @@
         "AERIAL_ACE",
         "HYPER_BEAM",
         "LOW_SWEEP"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_AIPOM"
     },
     {
       "id": "drifloon",
@@ -10334,7 +12159,11 @@
         "ICY_WIND",
         "OMINOUS_WIND",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_DRIFLOON"
     },
     {
       "id": "drifblim",
@@ -10355,7 +12184,11 @@
         "ICY_WIND",
         "OMINOUS_WIND",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_DRIFLOON"
     },
     {
       "id": "buneary",
@@ -10374,7 +12207,11 @@
       "chargedMoves": [
         "FIRE_PUNCH",
         "SWIFT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_BUNEARY"
     },
     {
       "id": "lopunny",
@@ -10394,7 +12231,11 @@
         "FIRE_PUNCH",
         "FOCUS_BLAST",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_BUNEARY"
     },
     {
       "id": "mismagius",
@@ -10414,7 +12255,11 @@
         "DARK_PULSE",
         "DAZZLING_GLEAM",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MISDREAVUS"
     },
     {
       "id": "honchkrow",
@@ -10436,7 +12281,11 @@
         "DARK_PULSE",
         "PSYCHIC",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MURKROW"
     },
     {
       "id": "glameow",
@@ -10456,7 +12305,11 @@
         "AERIAL_ACE",
         "PLAY_ROUGH",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_GLAMEOW"
     },
     {
       "id": "purugly",
@@ -10476,7 +12329,11 @@
         "AERIAL_ACE",
         "PLAY_ROUGH",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.079999998,
+      "buddyKm": 3,
+      "familyId": "F_GLAMEOW"
     },
     {
       "id": "chingling",
@@ -10496,7 +12353,11 @@
         "PSYSHOCK",
         "SHADOW_BALL",
         "WRAP"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.039999999,
+      "buddyKm": 5,
+      "familyId": "F_CHIMECHO"
     },
     {
       "id": "stunky",
@@ -10517,7 +12378,11 @@
         "CRUNCH",
         "FLAMETHROWER",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_STUNKY"
     },
     {
       "id": "skuntank",
@@ -10538,7 +12403,11 @@
         "CRUNCH",
         "FLAMETHROWER",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_STUNKY"
     },
     {
       "id": "bronzor",
@@ -10559,7 +12428,11 @@
         "GYRO_BALL",
         "HEAVY_SLAM",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_BRONZOR"
     },
     {
       "id": "bronzong",
@@ -10582,7 +12455,11 @@
         "PSYCHIC",
         "BULLDOZE",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_BRONZOR"
     },
     {
       "id": "bonsly",
@@ -10602,7 +12479,11 @@
         "EARTHQUAKE",
         "ROCK_SLIDE",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.039999999,
+      "buddyKm": 5,
+      "familyId": "F_SUDOWOODO"
     },
     {
       "id": "mime_jr",
@@ -10623,7 +12504,11 @@
         "PSYBEAM",
         "PSYCHIC",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.039999999,
+      "buddyKm": 5,
+      "familyId": "F_MR_MIME"
     },
     {
       "id": "happiny",
@@ -10641,7 +12526,11 @@
       ],
       "chargedMoves": [
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.039999999,
+      "buddyKm": 5,
+      "familyId": "F_CHANSEY"
     },
     {
       "id": "chatot",
@@ -10662,7 +12551,11 @@
         "HEAT_WAVE",
         "NIGHT_SHADE",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_CHATOT"
     },
     {
       "id": "spiritomb",
@@ -10683,7 +12576,11 @@
         "OMINOUS_WIND",
         "SHADOW_BALL",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.039999999,
+      "buddyKm": 5,
+      "familyId": "F_SPIRITOMB"
     },
     {
       "id": "gible",
@@ -10704,7 +12601,11 @@
         "BODY_SLAM",
         "DIG",
         "TWISTER"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_GIBLE"
     },
     {
       "id": "gabite",
@@ -10725,7 +12626,11 @@
         "DIG",
         "FLAMETHROWER",
         "TWISTER"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_GIBLE"
     },
     {
       "id": "garchomp",
@@ -10747,7 +12652,11 @@
         "FIRE_BLAST",
         "OUTRAGE",
         "SAND_TOMB"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_GIBLE"
     },
     {
       "id": "munchlax",
@@ -10767,7 +12676,11 @@
         "BODY_SLAM",
         "BULLDOZE",
         "GUNK_SHOT"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.039999999,
+      "buddyKm": 5,
+      "familyId": "F_SNORLAX"
     },
     {
       "id": "riolu",
@@ -10787,7 +12700,10 @@
         "BRICK_BREAK",
         "CROSS_CHOP",
         "LOW_SWEEP"
-      ]
+      ],
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_LUCARIO"
     },
     {
       "id": "lucario",
@@ -10810,7 +12726,11 @@
         "SHADOW_BALL",
         "POWER_UP_PUNCH",
         "AURA_SPHERE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_LUCARIO"
     },
     {
       "id": "hippopotas",
@@ -10830,7 +12750,11 @@
         "BODY_SLAM",
         "DIG",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_HIPPOPOTAS"
     },
     {
       "id": "hippowdon",
@@ -10853,7 +12777,11 @@
         "EARTHQUAKE",
         "STONE_EDGE",
         "EARTH_POWER"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.079999998,
+      "buddyKm": 3,
+      "familyId": "F_HIPPOPOTAS"
     },
     {
       "id": "skorupi",
@@ -10874,7 +12802,11 @@
         "AQUA_TAIL",
         "CROSS_POISON",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_SKORUPI"
     },
     {
       "id": "drapion",
@@ -10898,7 +12830,11 @@
         "CRUNCH",
         "SLUDGE_BOMB",
         "FELL_STINGER"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.079999998,
+      "buddyKm": 5,
+      "familyId": "F_SKORUPI"
     },
     {
       "id": "croagunk",
@@ -10919,7 +12855,11 @@
         "BRICK_BREAK",
         "LOW_SWEEP",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.12,
+      "buddyKm": 3,
+      "familyId": "F_CROAGUNK"
     },
     {
       "id": "toxicroak",
@@ -10940,7 +12880,11 @@
         "DYNAMIC_PUNCH",
         "MUD_BOMB",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_CROAGUNK"
     },
     {
       "id": "carnivine",
@@ -10960,7 +12904,11 @@
         "CRUNCH",
         "ENERGY_BALL",
         "POWER_WHIP"
-      ]
+      ],
+      "captureRate": 0.89999998,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 5,
+      "familyId": "F_CARNIVINE"
     },
     {
       "id": "finneon",
@@ -10980,7 +12928,11 @@
         "ICE_BEAM",
         "SILVER_WIND",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_FINNEON"
     },
     {
       "id": "lumineon",
@@ -11000,7 +12952,11 @@
         "BLIZZARD",
         "SILVER_WIND",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_FINNEON"
     },
     {
       "id": "mantyke",
@@ -11021,7 +12977,11 @@
         "AERIAL_ACE",
         "ICE_BEAM",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.039999999,
+      "buddyKm": 5,
+      "familyId": "F_MANTINE"
     },
     {
       "id": "snover",
@@ -11042,7 +13002,11 @@
         "ENERGY_BALL",
         "ICE_BEAM",
         "STOMP"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SNOVER"
     },
     {
       "id": "abomasnow",
@@ -11063,7 +13027,11 @@
         "BLIZZARD",
         "ENERGY_BALL",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 3,
+      "familyId": "F_SNOVER"
     },
     {
       "id": "weavile",
@@ -11085,7 +13053,11 @@
         "AVALANCHE",
         "FOCUS_BLAST",
         "FOUL_PLAY"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_SNEASEL"
     },
     {
       "id": "magnezone",
@@ -11107,7 +13079,11 @@
         "WILD_CHARGE",
         "ZAP_CANNON",
         "MIRROR_SHOT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_MAGNEMITE"
     },
     {
       "id": "lickilicky",
@@ -11132,7 +13108,11 @@
       ],
       "legacyMoves": [
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_LICKITUNG"
     },
     {
       "id": "rhyperior",
@@ -11159,7 +13139,11 @@
       ],
       "legacyMoves": [
         "ROCK_WRECKER"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_RHYHORN"
     },
     {
       "id": "tangrowth",
@@ -11180,7 +13164,11 @@
         "SLUDGE_BOMB",
         "SOLAR_BEAM",
         "POWER_WHIP"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_TANGELA"
     },
     {
       "id": "electivire",
@@ -11201,7 +13189,11 @@
         "THUNDER_PUNCH",
         "WILD_CHARGE",
         "ICE_PUNCH"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ELECTABUZZ"
     },
     {
       "id": "magmortar",
@@ -11222,7 +13214,11 @@
         "FIRE_BLAST",
         "FIRE_PUNCH",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_MAGMAR"
     },
     {
       "id": "togekiss",
@@ -11245,7 +13241,11 @@
         "ANCIENT_POWER",
         "DAZZLING_GLEAM",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.0099999998,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_TOGEPI"
     },
     {
       "id": "yanmega",
@@ -11266,7 +13266,11 @@
         "AERIAL_ACE",
         "ANCIENT_POWER",
         "BUG_BUZZ"
-      ]
+      ],
+      "captureRate": 0.175,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_YANMA"
     },
     {
       "id": "leafeon",
@@ -11290,7 +13294,11 @@
       ],
       "legacyMoves": [
         "LAST_RESORT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_EEVEE"
     },
     {
       "id": "glaceon",
@@ -11314,7 +13322,11 @@
       ],
       "legacyMoves": [
         "LAST_RESORT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.059999999,
+      "buddyKm": 5,
+      "familyId": "F_EEVEE"
     },
     {
       "id": "gliscor",
@@ -11336,7 +13348,11 @@
         "EARTHQUAKE",
         "NIGHT_SLASH",
         "SAND_TOMB"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_GLIGAR"
     },
     {
       "id": "mamoswine",
@@ -11361,7 +13377,11 @@
       ],
       "legacyMoves": [
         "ANCIENT_POWER"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_SWINUB"
     },
     {
       "id": "porygon_z",
@@ -11383,7 +13403,11 @@
         "HYPER_BEAM",
         "SOLAR_BEAM",
         "ZAP_CANNON"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_PORYGON"
     },
     {
       "id": "gallade",
@@ -11409,7 +13433,11 @@
       ],
       "legacyMoves": [
         "SYNCHRONOISE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_RALTS"
     },
     {
       "id": "probopass",
@@ -11430,7 +13458,11 @@
         "MAGNET_BOMB",
         "ROCK_SLIDE",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_NOSEPASS"
     },
     {
       "id": "dusknoir",
@@ -11450,7 +13482,11 @@
         "DARK_PULSE",
         "OMINOUS_WIND",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_DUSKULL"
     },
     {
       "id": "froslass",
@@ -11471,7 +13507,11 @@
         "AVALANCHE",
         "CRUNCH",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SNORUNT"
     },
     {
       "id": "rotom",
@@ -11492,7 +13532,11 @@
         "OMINOUS_WIND",
         "THUNDER",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROTOM"
     },
     {
       "id": "rotom_fan",
@@ -11513,7 +13557,11 @@
         "OMINOUS_WIND",
         "THUNDER",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROTOM"
     },
     {
       "id": "rotom_frost",
@@ -11534,7 +13582,11 @@
         "BLIZZARD",
         "THUNDER",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROTOM"
     },
     {
       "id": "rotom_heat",
@@ -11555,7 +13607,11 @@
         "OVERHEAT",
         "THUNDER",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROTOM"
     },
     {
       "id": "rotom_mow",
@@ -11576,7 +13632,11 @@
         "OMINOUS_WIND",
         "THUNDER",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROTOM"
     },
     {
       "id": "rotom_wash",
@@ -11597,7 +13657,11 @@
         "HYDRO_PUMP",
         "THUNDER",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROTOM"
     },
     {
       "id": "uxie",
@@ -11617,7 +13681,10 @@
         "FUTURE_SIGHT",
         "SWIFT",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_UXIE"
     },
     {
       "id": "mesprit",
@@ -11637,7 +13704,10 @@
         "BLIZZARD",
         "FUTURE_SIGHT",
         "SWIFT"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_MESPRIT"
     },
     {
       "id": "azelf",
@@ -11657,7 +13727,10 @@
         "FIRE_BLAST",
         "FUTURE_SIGHT",
         "SWIFT"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_AZELF"
     },
     {
       "id": "dialga",
@@ -11678,7 +13751,11 @@
         "DRACO_METEOR",
         "IRON_HEAD",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_DIALGA"
     },
     {
       "id": "palkia",
@@ -11699,7 +13776,11 @@
         "DRACO_METEOR",
         "FIRE_BLAST",
         "HYDRO_PUMP"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_PALKIA"
     },
     {
       "id": "heatran",
@@ -11721,7 +13802,11 @@
         "IRON_HEAD",
         "STONE_EDGE",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_HEATRAN"
     },
     {
       "id": "regigigas",
@@ -11741,7 +13826,11 @@
         "GIGA_IMPACT",
         "FOCUS_BLAST",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.059999999,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_REGIGIGAS"
     },
     {
       "id": "giratina_altered",
@@ -11762,7 +13851,11 @@
         "ANCIENT_POWER",
         "DRAGON_CLAW",
         "SHADOW_SNEAK"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_GIRATINA"
     },
     {
       "id": "giratina_origin",
@@ -11783,7 +13876,11 @@
         "OMINOUS_WIND",
         "DRAGON_PULSE",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_GIRATINA"
     },
     {
       "id": "cresselia",
@@ -11803,7 +13900,11 @@
         "AURORA_BEAM",
         "FUTURE_SIGHT",
         "MOONBLAST"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.039999999,
+      "buddyKm": 20,
+      "familyId": "F_CRESSELIA"
     },
     {
       "id": "phione",
@@ -11823,7 +13924,10 @@
         "BUBBLE_BEAM",
         "SURF",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_PHIONE"
     },
     {
       "id": "manaphy",
@@ -11843,7 +13947,10 @@
         "BUBBLE_BEAM",
         "PSYCHIC",
         "SURF"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_MANAPHY"
     },
     {
       "id": "darkrai",
@@ -11863,7 +13970,10 @@
         "DARK_PULSE",
         "FOCUS_BLAST",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_DARKRAI"
     },
     {
       "id": "shaymin_land",
@@ -11883,7 +13993,10 @@
         "ENERGY_BALL",
         "GRASS_KNOT",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_SHAYMIN"
     },
     {
       "id": "shaymin_sky",
@@ -11904,7 +14017,10 @@
         "ENERGY_BALL",
         "GRASS_KNOT",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_SHAYMIN"
     },
     {
       "id": "arceus",
@@ -11924,7 +14040,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_bug",
@@ -11944,7 +14063,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_dark",
@@ -11964,7 +14086,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_dragon",
@@ -11984,7 +14109,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_electric",
@@ -12004,7 +14132,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_fairy",
@@ -12024,7 +14155,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_fighting",
@@ -12044,7 +14178,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_fire",
@@ -12064,7 +14201,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_flying",
@@ -12084,7 +14224,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_ghost",
@@ -12104,7 +14247,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_grass",
@@ -12124,7 +14270,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_ground",
@@ -12144,7 +14293,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_ice",
@@ -12164,7 +14316,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_poison",
@@ -12184,7 +14339,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_psychic",
@@ -12204,7 +14362,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_rock",
@@ -12224,7 +14385,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_steel",
@@ -12244,7 +14408,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "arceus_water",
@@ -12264,7 +14431,10 @@
         "FUTURE_SIGHT",
         "HYPER_BEAM",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "buddyKm": 20,
+      "familyId": "F_ARCEUS"
     },
     {
       "id": "victini",
@@ -12285,7 +14455,11 @@
         "OVERHEAT",
         "FOCUS_BLAST",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 100,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_VICTINI"
     },
     {
       "id": "snivy",
@@ -12305,7 +14479,11 @@
         "ENERGY_BALL",
         "SEED_BOMB",
         "WRAP"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SNIVY"
     },
     {
       "id": "servine",
@@ -12325,7 +14503,11 @@
         "GRASS_KNOT",
         "LEAF_TORNADO",
         "WRAP"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SNIVY"
     },
     {
       "id": "serperior",
@@ -12345,7 +14527,11 @@
         "GRASS_KNOT",
         "LEAF_TORNADO",
         "AERIAL_ACE"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_SNIVY"
     },
     {
       "id": "tepig",
@@ -12365,7 +14551,11 @@
         "FLAME_CHARGE",
         "FLAMETHROWER",
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_TEPIG"
     },
     {
       "id": "pignite",
@@ -12386,7 +14576,11 @@
         "FLAME_CHARGE",
         "FLAMETHROWER",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TEPIG"
     },
     {
       "id": "emboar",
@@ -12407,7 +14601,11 @@
         "HEAT_WAVE",
         "ROCK_SLIDE",
         "FOCUS_BLAST"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_TEPIG"
     },
     {
       "id": "oshawott",
@@ -12427,7 +14625,11 @@
         "AQUA_TAIL",
         "WATER_PULSE",
         "NIGHT_SLASH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_OSHAWOTT"
     },
     {
       "id": "dewott",
@@ -12447,7 +14649,11 @@
         "AQUA_TAIL",
         "WATER_PULSE",
         "X_SCISSOR"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_OSHAWOTT"
     },
     {
       "id": "samurott",
@@ -12467,7 +14673,11 @@
         "HYDRO_PUMP",
         "BLIZZARD",
         "MEGAHORN"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_OSHAWOTT"
     },
     {
       "id": "patrat",
@@ -12487,7 +14697,11 @@
         "DIG",
         "HYPER_FANG",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_PATRAT"
     },
     {
       "id": "watchog",
@@ -12507,7 +14721,11 @@
         "CRUNCH",
         "HYPER_FANG",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_PATRAT"
     },
     {
       "id": "lillipup",
@@ -12527,7 +14745,11 @@
         "THUNDERBOLT",
         "ROCK_TOMB",
         "DIG"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_LILLIPUP"
     },
     {
       "id": "herdier",
@@ -12547,7 +14769,11 @@
         "THUNDERBOLT",
         "PLAY_ROUGH",
         "DIG"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_LILLIPUP"
     },
     {
       "id": "stoutland",
@@ -12568,7 +14794,11 @@
         "WILD_CHARGE",
         "PLAY_ROUGH",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_LILLIPUP"
     },
     {
       "id": "purrloin",
@@ -12588,7 +14818,11 @@
         "NIGHT_SLASH",
         "PLAY_ROUGH",
         "DARK_PULSE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_PURRLOIN"
     },
     {
       "id": "liepard",
@@ -12608,7 +14842,11 @@
         "GUNK_SHOT",
         "PLAY_ROUGH",
         "DARK_PULSE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_PURRLOIN"
     },
     {
       "id": "pansage",
@@ -12628,7 +14866,11 @@
         "ENERGY_BALL",
         "SEED_BOMB",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_PANSAGE"
     },
     {
       "id": "simisage",
@@ -12648,7 +14890,11 @@
         "SOLAR_BEAM",
         "GRASS_KNOT",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_PANSAGE"
     },
     {
       "id": "pansear",
@@ -12668,7 +14914,11 @@
         "FLAME_BURST",
         "FLAME_CHARGE",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_PANSEAR"
     },
     {
       "id": "simisear",
@@ -12688,7 +14938,11 @@
         "FLAMETHROWER",
         "FIRE_BLAST",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_PANSEAR"
     },
     {
       "id": "panpour",
@@ -12708,7 +14962,11 @@
         "SURF",
         "WATER_PULSE",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_PANPOUR"
     },
     {
       "id": "simipour",
@@ -12728,7 +14986,11 @@
         "SURF",
         "HYDRO_PUMP",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_PANPOUR"
     },
     {
       "id": "munna",
@@ -12748,7 +15010,11 @@
         "PSYBEAM",
         "DAZZLING_GLEAM",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_MUNNA"
     },
     {
       "id": "musharna",
@@ -12768,7 +15034,11 @@
         "FUTURE_SIGHT",
         "DAZZLING_GLEAM",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MUNNA"
     },
     {
       "id": "pidove",
@@ -12789,7 +15059,11 @@
         "HEAT_WAVE",
         "AERIAL_ACE",
         "AIR_CUTTER"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_PIDOVE"
     },
     {
       "id": "tranquill",
@@ -12810,7 +15084,11 @@
         "HEAT_WAVE",
         "AERIAL_ACE",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.090000004,
+      "buddyKm": 1,
+      "familyId": "F_PIDOVE"
     },
     {
       "id": "unfezant",
@@ -12831,7 +15109,11 @@
         "HEAT_WAVE",
         "HYPER_BEAM",
         "SKY_ATTACK"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_PIDOVE"
     },
     {
       "id": "blitzle",
@@ -12851,7 +15133,11 @@
         "FLAME_CHARGE",
         "DISCHARGE",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_BLITZLE"
     },
     {
       "id": "zebstrika",
@@ -12871,7 +15157,11 @@
         "FLAME_CHARGE",
         "DISCHARGE",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_BLITZLE"
     },
     {
       "id": "roggenrola",
@@ -12891,7 +15181,11 @@
         "BULLDOZE",
         "ROCK_BLAST",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_ROGGENROLA"
     },
     {
       "id": "boldore",
@@ -12911,7 +15205,11 @@
         "ROCK_SLIDE",
         "BULLDOZE",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ROGGENROLA"
     },
     {
       "id": "gigalith",
@@ -12932,7 +15230,11 @@
         "SOLAR_BEAM",
         "SUPER_POWER",
         "HEAVY_SLAM"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_ROGGENROLA"
     },
     {
       "id": "woobat",
@@ -12953,7 +15255,11 @@
         "AIR_CUTTER",
         "AERIAL_ACE",
         "PSYSHOCK"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_WOOBAT"
     },
     {
       "id": "swoobat",
@@ -12974,7 +15280,11 @@
         "PSYCHIC",
         "AERIAL_ACE",
         "FUTURE_SIGHT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_WOOBAT"
     },
     {
       "id": "drilbur",
@@ -12994,7 +15304,11 @@
         "ROCK_TOMB",
         "DIG",
         "DRILL_RUN"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_DRILBUR"
     },
     {
       "id": "excadrill",
@@ -13016,7 +15330,11 @@
         "EARTHQUAKE",
         "DRILL_RUN",
         "IRON_HEAD"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_DRILBUR"
     },
     {
       "id": "audino",
@@ -13036,7 +15354,11 @@
         "DISARMING_VOICE",
         "DAZZLING_GLEAM",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_AUDINO"
     },
     {
       "id": "timburr",
@@ -13056,7 +15378,11 @@
         "LOW_SWEEP",
         "BRICK_BREAK",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 5,
+      "familyId": "F_TIMBURR"
     },
     {
       "id": "gurdurr",
@@ -13076,7 +15402,11 @@
         "LOW_SWEEP",
         "BRICK_BREAK",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_TIMBURR"
     },
     {
       "id": "conkeldurr",
@@ -13096,7 +15426,11 @@
         "DYNAMIC_PUNCH",
         "FOCUS_BLAST",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_TIMBURR"
     },
     {
       "id": "tympole",
@@ -13116,7 +15450,11 @@
         "WATER_PULSE",
         "MUD_BOMB",
         "SLUDGE_WAVE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_TYMPOLE"
     },
     {
       "id": "palpitoad",
@@ -13137,7 +15475,11 @@
         "WATER_PULSE",
         "EARTH_POWER",
         "SLUDGE_WAVE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TYMPOLE"
     },
     {
       "id": "seismitoad",
@@ -13158,7 +15500,11 @@
         "MUDDY_WATER",
         "EARTH_POWER",
         "SLUDGE_BOMB"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_TYMPOLE"
     },
     {
       "id": "throh",
@@ -13178,7 +15524,11 @@
         "FOCUS_BLAST",
         "LOW_SWEEP",
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_THROH"
     },
     {
       "id": "sawk",
@@ -13198,7 +15548,11 @@
         "FOCUS_BLAST",
         "LOW_SWEEP",
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_SAWK"
     },
     {
       "id": "sewaddle",
@@ -13219,7 +15573,11 @@
         "ENERGY_BALL",
         "SEED_BOMB",
         "SILVER_WIND"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 1,
+      "familyId": "F_SEWADDLE"
     },
     {
       "id": "swadloon",
@@ -13240,7 +15598,11 @@
         "ENERGY_BALL",
         "BUG_BUZZ",
         "SILVER_WIND"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_SEWADDLE"
     },
     {
       "id": "leavanny",
@@ -13261,7 +15623,11 @@
         "LEAF_BLADE",
         "X_SCISSOR",
         "SILVER_WIND"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_SEWADDLE"
     },
     {
       "id": "venipede",
@@ -13282,7 +15648,11 @@
         "SIGNAL_BEAM",
         "SLUDGE_BOMB",
         "GYRO_BALL"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_VENIPEDE"
     },
     {
       "id": "whirlipede",
@@ -13303,7 +15673,11 @@
         "SIGNAL_BEAM",
         "SLUDGE_BOMB",
         "GYRO_BALL"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_VENIPEDE"
     },
     {
       "id": "scolipede",
@@ -13325,7 +15699,11 @@
         "SLUDGE_BOMB",
         "GYRO_BALL",
         "X_SCISSOR"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_VENIPEDE"
     },
     {
       "id": "cottonee",
@@ -13346,7 +15724,11 @@
         "ENERGY_BALL",
         "SEED_BOMB",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_COTTONEE"
     },
     {
       "id": "whimsicott",
@@ -13367,7 +15749,11 @@
         "GRASS_KNOT",
         "HURRICANE",
         "MOONBLAST"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_COTTONEE"
     },
     {
       "id": "petilil",
@@ -13386,7 +15772,11 @@
       "chargedMoves": [
         "ENERGY_BALL",
         "SEED_BOMB"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_PETILIL"
     },
     {
       "id": "lilligant",
@@ -13406,7 +15796,11 @@
         "PETAL_BLIZZARD",
         "HYPER_BEAM",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_PETILIL"
     },
     {
       "id": "basculin",
@@ -13426,7 +15820,11 @@
         "AQUA_JET",
         "AQUA_TAIL",
         "MUDDY_WATER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_BASCULIN"
     },
     {
       "id": "sandile",
@@ -13447,7 +15845,11 @@
         "DIG",
         "CRUNCH",
         "BULLDOZE"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 5,
+      "familyId": "F_SANDILE"
     },
     {
       "id": "krokorok",
@@ -13468,7 +15870,11 @@
         "EARTHQUAKE",
         "CRUNCH",
         "BULLDOZE"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_SANDILE"
     },
     {
       "id": "krookodile",
@@ -13489,7 +15895,11 @@
         "EARTHQUAKE",
         "CRUNCH",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_SANDILE"
     },
     {
       "id": "darumaka",
@@ -13508,7 +15918,11 @@
       "chargedMoves": [
         "FIRE_PUNCH",
         "FLAME_CHARGE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_DARUMAKA"
     },
     {
       "id": "darmanitan_standard",
@@ -13529,7 +15943,11 @@
         "FOCUS_BLAST",
         "PSYCHIC",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_DARUMAKA"
     },
     {
       "id": "darmanitan_zen",
@@ -13551,7 +15969,11 @@
         "FOCUS_BLAST",
         "PSYCHIC",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_DARUMAKA"
     },
     {
       "id": "maractus",
@@ -13571,7 +15993,11 @@
         "AERIAL_ACE",
         "PETAL_BLIZZARD",
         "SOLAR_BEAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_MARACTUS"
     },
     {
       "id": "dwebble",
@@ -13592,7 +16018,11 @@
         "ROCK_BLAST",
         "X_SCISSOR",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_DWEBBLE"
     },
     {
       "id": "crustle",
@@ -13613,7 +16043,11 @@
         "ROCK_BLAST",
         "X_SCISSOR",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_DWEBBLE"
     },
     {
       "id": "scraggy",
@@ -13634,7 +16068,11 @@
         "ACID_SPRAY",
         "BRICK_BREAK",
         "FOUL_PLAY"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_SCRAGGY"
     },
     {
       "id": "scrafty",
@@ -13655,7 +16093,11 @@
         "ACID_SPRAY",
         "POWER_UP_PUNCH",
         "FOUL_PLAY"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SCRAGGY"
     },
     {
       "id": "sigilyph",
@@ -13677,7 +16119,11 @@
         "PSYBEAM",
         "ANCIENT_POWER",
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_SIGILYPH"
     },
     {
       "id": "yamask",
@@ -13697,7 +16143,11 @@
         "SHADOW_BALL",
         "DARK_PULSE",
         "OMINOUS_WIND"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_YAMASK"
     },
     {
       "id": "cofagrigus",
@@ -13717,7 +16167,11 @@
         "SHADOW_BALL",
         "DARK_PULSE",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_YAMASK"
     },
     {
       "id": "tirtouga",
@@ -13738,7 +16192,11 @@
         "SURF",
         "ANCIENT_POWER",
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_TIRTOUGA"
     },
     {
       "id": "carracosta",
@@ -13759,7 +16217,11 @@
         "SURF",
         "ANCIENT_POWER",
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_TIRTOUGA"
     },
     {
       "id": "archen",
@@ -13780,7 +16242,11 @@
         "DRAGON_CLAW",
         "ANCIENT_POWER",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_ARCHEN"
     },
     {
       "id": "archeops",
@@ -13801,7 +16267,11 @@
         "DRAGON_CLAW",
         "ANCIENT_POWER",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_ARCHEN"
     },
     {
       "id": "trubbish",
@@ -13821,7 +16291,11 @@
         "GUNK_SHOT",
         "SEED_BOMB",
         "GUNK_SHOT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_TRUBBISH"
     },
     {
       "id": "garbodor",
@@ -13842,7 +16316,11 @@
         "SEED_BOMB",
         "GUNK_SHOT",
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TRUBBISH"
     },
     {
       "id": "zorua",
@@ -13862,7 +16340,11 @@
         "FOUL_PLAY",
         "AERIAL_ACE",
         "DARK_PULSE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_ZORUA"
     },
     {
       "id": "zoroark",
@@ -13882,7 +16364,11 @@
         "FOUL_PLAY",
         "SLUDGE_BOMB",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_ZORUA"
     },
     {
       "id": "minccino",
@@ -13902,7 +16388,11 @@
         "SWIFT",
         "THUNDERBOLT",
         "AQUA_TAIL"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MINCCINO"
     },
     {
       "id": "cinccino",
@@ -13922,7 +16412,11 @@
         "HYPER_BEAM",
         "THUNDERBOLT",
         "AQUA_TAIL"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MINCCINO"
     },
     {
       "id": "gothita",
@@ -13942,7 +16436,11 @@
         "PSYBEAM",
         "PSYSHOCK",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_GOTHITA"
     },
     {
       "id": "gothorita",
@@ -13962,7 +16460,11 @@
         "PSYBEAM",
         "FUTURE_SIGHT",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_GOTHITA"
     },
     {
       "id": "gothitelle",
@@ -13982,7 +16484,11 @@
         "ROCK_SLIDE",
         "FUTURE_SIGHT",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_GOTHITA"
     },
     {
       "id": "solosis",
@@ -14002,7 +16508,11 @@
         "PSYSHOCK",
         "NIGHT_SHADE",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_SOLOSIS"
     },
     {
       "id": "duosion",
@@ -14022,7 +16532,11 @@
         "PSYSHOCK",
         "NIGHT_SHADE",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SOLOSIS"
     },
     {
       "id": "reuniclus",
@@ -14042,7 +16556,11 @@
         "FUTURE_SIGHT",
         "SHADOW_BALL",
         "THUNDER"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_SOLOSIS"
     },
     {
       "id": "ducklett",
@@ -14063,7 +16581,11 @@
         "AERIAL_ACE",
         "BUBBLE_BEAM",
         "BRAVE_BIRD"
-      ]
+      ],
+      "captureRate": 0.5,
+      "fleeRate": 0.15000001,
+      "buddyKm": 3,
+      "familyId": "F_DUCKLETT"
     },
     {
       "id": "swanna",
@@ -14084,7 +16606,11 @@
         "ICE_BEAM",
         "BUBBLE_BEAM",
         "HURRICANE"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.12,
+      "buddyKm": 3,
+      "familyId": "F_DUCKLETT"
     },
     {
       "id": "vanillite",
@@ -14104,7 +16630,11 @@
         "ICY_WIND",
         "ICE_BEAM",
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_VANILLITE"
     },
     {
       "id": "vanillish",
@@ -14124,7 +16654,11 @@
         "ICY_WIND",
         "ICE_BEAM",
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_VANILLITE"
     },
     {
       "id": "vanilluxe",
@@ -14144,7 +16678,11 @@
         "BLIZZARD",
         "FLASH_CANNON",
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_VANILLITE"
     },
     {
       "id": "deerling",
@@ -14165,7 +16703,11 @@
         "ENERGY_BALL",
         "SEED_BOMB",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "deerling_autumn",
@@ -14186,7 +16728,11 @@
         "ENERGY_BALL",
         "SEED_BOMB",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "deerling_spring",
@@ -14207,7 +16753,11 @@
         "ENERGY_BALL",
         "SEED_BOMB",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "deerling_summer",
@@ -14228,7 +16778,11 @@
         "ENERGY_BALL",
         "SEED_BOMB",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "deerling_winter",
@@ -14249,7 +16803,11 @@
         "ENERGY_BALL",
         "SEED_BOMB",
         "WILD_CHARGE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "sawsbuck",
@@ -14271,7 +16829,11 @@
         "SOLAR_BEAM",
         "WILD_CHARGE",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "sawsbuck_autumn",
@@ -14293,7 +16855,11 @@
         "SOLAR_BEAM",
         "WILD_CHARGE",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "sawsbuck_spring",
@@ -14315,7 +16881,11 @@
         "SOLAR_BEAM",
         "WILD_CHARGE",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "sawsbuck_summer",
@@ -14337,7 +16907,11 @@
         "SOLAR_BEAM",
         "WILD_CHARGE",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "sawsbuck_winter",
@@ -14359,7 +16933,11 @@
         "SOLAR_BEAM",
         "WILD_CHARGE",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_DEERLING"
     },
     {
       "id": "emolga",
@@ -14380,7 +16958,11 @@
         "DISCHARGE",
         "AERIAL_ACE",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_EMOLGA"
     },
     {
       "id": "karrablast",
@@ -14401,7 +16983,11 @@
         "X_SCISSOR",
         "DRILL_RUN",
         "AERIAL_ACE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_KARRABLAST"
     },
     {
       "id": "escavalier",
@@ -14423,7 +17009,11 @@
         "ACID_SPRAY",
         "DRILL_RUN",
         "AERIAL_ACE"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_KARRABLAST"
     },
     {
       "id": "foongus",
@@ -14444,7 +17034,11 @@
         "ENERGY_BALL",
         "BODY_SLAM",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_FOONGUS"
     },
     {
       "id": "amoonguss",
@@ -14465,7 +17059,11 @@
         "FOUL_PLAY",
         "SLUDGE_BOMB",
         "GRASS_KNOT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_FOONGUS"
     },
     {
       "id": "frillish",
@@ -14486,7 +17084,11 @@
         "NIGHT_SHADE",
         "ICE_BEAM",
         "OMINOUS_WIND"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_FRILLISH"
     },
     {
       "id": "jellicent",
@@ -14507,7 +17109,11 @@
         "SHADOW_BALL",
         "ICE_BEAM",
         "BUBBLE_BEAM"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_FRILLISH"
     },
     {
       "id": "alomomola",
@@ -14527,7 +17133,11 @@
         "HYDRO_PUMP",
         "BLIZZARD",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_ALOMOMOLA"
     },
     {
       "id": "joltik",
@@ -14548,7 +17158,11 @@
         "CROSS_POISON",
         "BUG_BUZZ",
         "DISCHARGE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_JOLTIK"
     },
     {
       "id": "galvantula",
@@ -14570,7 +17184,11 @@
         "BUG_BUZZ",
         "DISCHARGE",
         "ENERGY_BALL"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_JOLTIK"
     },
     {
       "id": "ferroseed",
@@ -14591,7 +17209,11 @@
         "GYRO_BALL",
         "FLASH_CANNON",
         "IRON_HEAD"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 3,
+      "familyId": "F_FERROSEED"
     },
     {
       "id": "ferrothorn",
@@ -14614,7 +17236,11 @@
         "ACID_SPRAY",
         "THUNDER",
         "MIRROR_SHOT"
-      ]
+      ],
+      "captureRate": 0.125,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_FERROSEED"
     },
     {
       "id": "klink",
@@ -14634,7 +17260,11 @@
         "VICE_GRIP",
         "DISCHARGE",
         "ZAP_CANNON"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_KLINK"
     },
     {
       "id": "klang",
@@ -14654,7 +17284,11 @@
         "VICE_GRIP",
         "THUNDERBOLT",
         "ZAP_CANNON"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_KLINK"
     },
     {
       "id": "klinklang",
@@ -14675,7 +17309,11 @@
         "FLASH_CANNON",
         "ZAP_CANNON",
         "MIRROR_SHOT"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_KLINK"
     },
     {
       "id": "tynamo",
@@ -14693,7 +17331,11 @@
       ],
       "chargedMoves": [
         "STRUGGLE"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.15000001,
+      "buddyKm": 1,
+      "familyId": "F_TYNAMO"
     },
     {
       "id": "eelektrik",
@@ -14713,7 +17355,11 @@
         "CRUNCH",
         "THUNDERBOLT",
         "DISCHARGE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_TYNAMO"
     },
     {
       "id": "eelektross",
@@ -14734,7 +17380,11 @@
         "THUNDERBOLT",
         "ACID_SPRAY",
         "DRAGON_CLAW"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 1,
+      "familyId": "F_TYNAMO"
     },
     {
       "id": "elgyem",
@@ -14754,7 +17404,11 @@
         "PSYBEAM",
         "DARK_PULSE",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_ELGYEM"
     },
     {
       "id": "beheeyem",
@@ -14774,7 +17428,11 @@
         "ROCK_SLIDE",
         "DARK_PULSE",
         "PSYCHIC"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_ELGYEM"
     },
     {
       "id": "litwick",
@@ -14795,7 +17453,11 @@
         "FLAME_CHARGE",
         "FLAME_BURST",
         "HEAT_WAVE"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_LITWICK"
     },
     {
       "id": "lampent",
@@ -14816,7 +17478,11 @@
         "ENERGY_BALL",
         "FLAME_BURST",
         "HEAT_WAVE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_LITWICK"
     },
     {
       "id": "chandelure",
@@ -14837,7 +17503,11 @@
         "ENERGY_BALL",
         "SHADOW_BALL",
         "OVERHEAT"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_LITWICK"
     },
     {
       "id": "axew",
@@ -14857,7 +17527,11 @@
         "DRAGON_CLAW",
         "AQUA_TAIL",
         "DRAGON_PULSE"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_AXEW"
     },
     {
       "id": "fraxure",
@@ -14877,7 +17551,11 @@
         "DRAGON_CLAW",
         "AQUA_TAIL",
         "NIGHT_SLASH"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_AXEW"
     },
     {
       "id": "haxorus",
@@ -14898,7 +17576,11 @@
         "SURF",
         "NIGHT_SLASH",
         "EARTHQUAKE"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_AXEW"
     },
     {
       "id": "cubchoo",
@@ -14918,7 +17600,11 @@
         "ICE_PUNCH",
         "ICY_WIND",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CUBCHOO"
     },
     {
       "id": "beartic",
@@ -14938,7 +17624,11 @@
         "ICE_PUNCH",
         "SURF",
         "PLAY_ROUGH"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_CUBCHOO"
     },
     {
       "id": "cryogonal",
@@ -14959,7 +17649,11 @@
         "NIGHT_SLASH",
         "SOLAR_BEAM",
         "WATER_PULSE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_CRYOGONAL"
     },
     {
       "id": "shelmet",
@@ -14979,7 +17673,11 @@
         "BUG_BUZZ",
         "BODY_SLAM",
         "SIGNAL_BEAM"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SHELMET"
     },
     {
       "id": "accelgor",
@@ -15000,7 +17698,11 @@
         "ACID_SPRAY",
         "SIGNAL_BEAM",
         "FOCUS_BLAST"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_SHELMET"
     },
     {
       "id": "stunfisk",
@@ -15021,7 +17723,11 @@
         "MUD_BOMB",
         "DISCHARGE",
         "MUDDY_WATER"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_STUNFISK"
     },
     {
       "id": "mienfoo",
@@ -15041,7 +17747,11 @@
         "BRICK_BREAK",
         "LOW_SWEEP",
         "FOCUS_BLAST"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MIENFOO"
     },
     {
       "id": "mienshao",
@@ -15061,7 +17771,11 @@
         "BRICK_BREAK",
         "GRASS_KNOT",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 3,
+      "familyId": "F_MIENFOO"
     },
     {
       "id": "druddigon",
@@ -15081,7 +17795,11 @@
         "DRAGON_CLAW",
         "NIGHT_SLASH",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_DRUDDIGON"
     },
     {
       "id": "golett",
@@ -15102,7 +17820,11 @@
         "SHADOW_PUNCH",
         "BRICK_BREAK",
         "NIGHT_SHADE"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_GOLETT"
     },
     {
       "id": "golurk",
@@ -15123,7 +17845,11 @@
         "SHADOW_PUNCH",
         "DYNAMIC_PUNCH",
         "EARTH_POWER"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_GOLETT"
     },
     {
       "id": "pawniard",
@@ -15144,7 +17870,11 @@
         "NIGHT_SLASH",
         "IRON_HEAD",
         "X_SCISSOR"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_PAWNIARD"
     },
     {
       "id": "bisharp",
@@ -15166,7 +17896,11 @@
         "IRON_HEAD",
         "X_SCISSOR",
         "FOCUS_BLAST"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_PAWNIARD"
     },
     {
       "id": "bouffalant",
@@ -15187,7 +17921,11 @@
         "STOMP",
         "SKULL_BASH",
         "EARTHQUAKE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_BOUFFALANT"
     },
     {
       "id": "rufflet",
@@ -15208,7 +17946,11 @@
         "AERIAL_ACE",
         "BRAVE_BIRD",
         "ROCK_TOMB"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_RUFFLET"
     },
     {
       "id": "braviary",
@@ -15229,7 +17971,11 @@
         "HEAT_WAVE",
         "BRAVE_BIRD",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_RUFFLET"
     },
     {
       "id": "vullaby",
@@ -15250,7 +17996,11 @@
         "DARK_PULSE",
         "BRAVE_BIRD",
         "FOUL_PLAY"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_VULLABY"
     },
     {
       "id": "mandibuzz",
@@ -15272,7 +18022,11 @@
         "AERIAL_ACE",
         "FOUL_PLAY",
         "SHADOW_BALL"
-      ]
+      ],
+      "captureRate": 0.15000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_VULLABY"
     },
     {
       "id": "heatmor",
@@ -15292,7 +18046,11 @@
         "FLAMETHROWER",
         "THUNDER_PUNCH",
         "POWER_UP_PUNCH"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_HEATMOR"
     },
     {
       "id": "durant",
@@ -15313,7 +18071,11 @@
         "X_SCISSOR",
         "IRON_HEAD",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_DURANT"
     },
     {
       "id": "deino",
@@ -15334,7 +18096,11 @@
         "DRAGON_PULSE",
         "CRUNCH",
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.40000001,
+      "fleeRate": 0.090000004,
+      "buddyKm": 5,
+      "familyId": "F_DEINO"
     },
     {
       "id": "zweilous",
@@ -15355,7 +18121,11 @@
         "DRAGON_PULSE",
         "DARK_PULSE",
         "BODY_SLAM"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_DEINO"
     },
     {
       "id": "hydreigon",
@@ -15376,7 +18146,11 @@
         "DRAGON_PULSE",
         "DARK_PULSE",
         "FLASH_CANNON"
-      ]
+      ],
+      "captureRate": 0.050000001,
+      "fleeRate": 0.050000001,
+      "buddyKm": 5,
+      "familyId": "F_DEINO"
     },
     {
       "id": "larvesta",
@@ -15397,7 +18171,11 @@
         "FLAME_CHARGE",
         "BUG_BUZZ",
         "FLAME_WHEEL"
-      ]
+      ],
+      "captureRate": 0.69999999,
+      "fleeRate": 0.15000001,
+      "buddyKm": 5,
+      "familyId": "F_LARVESTA"
     },
     {
       "id": "volcarona",
@@ -15419,7 +18197,11 @@
         "BUG_BUZZ",
         "SOLAR_BEAM",
         "HURRICANE"
-      ]
+      ],
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_LARVESTA"
     },
     {
       "id": "cobalion",
@@ -15440,7 +18222,11 @@
         "CLOSE_COMBAT",
         "IRON_HEAD",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_COBALION"
     },
     {
       "id": "terrakion",
@@ -15461,7 +18247,11 @@
         "CLOSE_COMBAT",
         "EARTHQUAKE",
         "ROCK_SLIDE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_TERRAKION"
     },
     {
       "id": "virizion",
@@ -15482,7 +18272,11 @@
         "CLOSE_COMBAT",
         "LEAF_BLADE",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_VIRIZION"
     },
     {
       "id": "tornadus_incarnate",
@@ -15503,7 +18297,11 @@
         "DARK_PULSE",
         "HYPER_BEAM",
         "HURRICANE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_TORNADUS"
     },
     {
       "id": "tornadus_therian",
@@ -15524,7 +18322,11 @@
         "DARK_PULSE",
         "HYPER_BEAM",
         "HURRICANE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_TORNADUS"
     },
     {
       "id": "thundurus_incarnate",
@@ -15546,7 +18348,11 @@
         "THUNDER",
         "BRICK_BREAK",
         "THUNDER_PUNCH"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_THUNDURUS"
     },
     {
       "id": "thundurus_therian",
@@ -15568,7 +18374,11 @@
         "THUNDER",
         "BRICK_BREAK",
         "THUNDER_PUNCH"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_THUNDURUS"
     },
     {
       "id": "reshiram",
@@ -15590,7 +18400,11 @@
         "OVERHEAT",
         "DRACO_METEOR",
         "STONE_EDGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_RESHIRAM"
     },
     {
       "id": "zekrom",
@@ -15612,7 +18426,11 @@
         "WILD_CHARGE",
         "FLASH_CANNON",
         "CRUNCH"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_ZEKROM"
     },
     {
       "id": "landorus_incarnate",
@@ -15634,7 +18452,11 @@
         "OUTRAGE",
         "ROCK_SLIDE",
         "FOCUS_BLAST"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_LANDORUS"
     },
     {
       "id": "landorus_therian",
@@ -15656,7 +18478,11 @@
         "OUTRAGE",
         "ROCK_SLIDE",
         "FOCUS_BLAST"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_LANDORUS"
     },
     {
       "id": "kyurem_normal",
@@ -15678,7 +18504,11 @@
         "BLIZZARD",
         "ICY_WIND",
         "DRACO_METEOR"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_KYUREM"
     },
     {
       "id": "kyurem_black",
@@ -15700,7 +18530,11 @@
         "BLIZZARD",
         "STONE_EDGE",
         "OUTRAGE"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_KYUREM"
     },
     {
       "id": "kyurem_white",
@@ -15722,7 +18556,11 @@
         "BLIZZARD",
         "ANCIENT_POWER",
         "FOCUS_BLAST"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_KYUREM"
     },
     {
       "id": "keldeo_ordinary",
@@ -15744,7 +18582,11 @@
         "CLOSE_COMBAT",
         "HYDRO_PUMP",
         "X_SCISSOR"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_KELDEO"
     },
     {
       "id": "keldeo_resolute",
@@ -15766,7 +18608,11 @@
         "CLOSE_COMBAT",
         "HYDRO_PUMP",
         "X_SCISSOR"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_KELDEO"
     },
     {
       "id": "meloetta_aria",
@@ -15788,7 +18634,11 @@
         "THUNDERBOLT",
         "DAZZLING_GLEAM",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_MELOETTA"
     },
     {
       "id": "meloetta_pirouette",
@@ -15810,7 +18660,11 @@
         "FIRE_PUNCH",
         "ICE_PUNCH",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_MELOETTA"
     },
     {
       "id": "genesect",
@@ -15831,7 +18685,11 @@
         "X_SCISSOR",
         "MAGNET_BOMB",
         "HYPER_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_GENESECT"
     },
     {
       "id": "genesect_burn",
@@ -15852,7 +18710,11 @@
         "X_SCISSOR",
         "MAGNET_BOMB",
         "FLAMETHROWER"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_GENESECT"
     },
     {
       "id": "genesect_chill",
@@ -15873,7 +18735,11 @@
         "X_SCISSOR",
         "MAGNET_BOMB",
         "ICE_BEAM"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_GENESECT"
     },
     {
       "id": "genesect_douse",
@@ -15894,7 +18760,11 @@
         "X_SCISSOR",
         "MAGNET_BOMB",
         "GUNK_SHOT"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_GENESECT"
     },
     {
       "id": "genesect_shock",
@@ -15915,7 +18785,11 @@
         "X_SCISSOR",
         "MAGNET_BOMB",
         "ZAP_CANNON"
-      ]
+      ],
+      "captureRate": 0.02,
+      "fleeRate": 0.0099999998,
+      "buddyKm": 20,
+      "familyId": "F_GENESECT"
     },
     {
       "id": "meltan",
@@ -15933,7 +18807,10 @@
       "chargedMoves": [
         "FLASH_CANNON",
         "THUNDERBOLT"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "buddyKm": 20,
+      "familyId": "F_MELTAN"
     },
     {
       "id": "melmetal",
@@ -15954,7 +18831,10 @@
         "ROCK_SLIDE",
         "THUNDERBOLT",
         "SUPER_POWER"
-      ]
+      ],
+      "captureRate": 0.30000001,
+      "buddyKm": 20,
+      "familyId": "F_MELTAN"
     }
   ],
   "moves": [
