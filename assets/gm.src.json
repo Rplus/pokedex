@@ -24,7 +24,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_BULBASAUR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -53,7 +53,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_BULBASAUR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -86,7 +86,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_BULBASAUR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -114,7 +114,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CHARMANDER",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -146,7 +146,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_CHARMANDER",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -185,7 +185,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_CHARMANDER",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -213,7 +213,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SQUIRTLE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -241,7 +241,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SQUIRTLE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -274,7 +274,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_SQUIRTLE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -300,7 +300,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_CATERPIE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -326,7 +326,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_CATERPIE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -359,7 +359,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_CATERPIE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -386,7 +386,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_WEEDLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -413,7 +413,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_WEEDLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -447,7 +447,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_WEEDLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -476,7 +476,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_PIDGEY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -505,7 +505,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_PIDGEY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -540,7 +540,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_PIDGEY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -568,7 +568,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_RATTATA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -597,7 +597,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_RATTATA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -625,7 +625,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_RATTATA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -654,7 +654,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_RATTATA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -687,7 +687,7 @@
       "fleeRate": 0.15,
       "buddyKm": 1,
       "familyId": "F_SPEAROW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -720,7 +720,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_SPEAROW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -752,7 +752,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_EKANS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -782,7 +782,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_EKANS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -818,7 +818,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_PIKACHU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -873,7 +873,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_PIKACHU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -904,7 +904,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_PIKACHU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -936,7 +936,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SANDSHREW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -965,7 +965,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SANDSHREW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -993,7 +993,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SANDSHREW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1023,7 +1023,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SANDSHREW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1051,7 +1051,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_NIDORAN_FEMALE",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -1079,7 +1079,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_NIDORAN_FEMALE",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -1109,7 +1109,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_NIDORAN_FEMALE",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -1137,7 +1137,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_NIDORAN_MALE",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -1165,7 +1165,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_NIDORAN_MALE",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -1199,7 +1199,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_NIDORAN_MALE",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -1227,7 +1227,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_CLEFAIRY",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -1261,7 +1261,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_CLEFAIRY",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -1289,7 +1289,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_VULPIX",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -1317,7 +1317,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_VULPIX",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -1354,7 +1354,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_VULPIX",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -1385,7 +1385,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_VULPIX",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -1420,7 +1420,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_JIGGLYPUFF",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -1451,7 +1451,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_JIGGLYPUFF",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -1484,7 +1484,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_ZUBAT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1517,7 +1517,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_ZUBAT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1546,7 +1546,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_ODDISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1575,7 +1575,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_ODDISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1605,7 +1605,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_ODDISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1634,7 +1634,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_PARAS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1667,7 +1667,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_PARAS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1696,7 +1696,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_VENONAT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1730,7 +1730,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_VENONAT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1762,7 +1762,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DIGLETT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1791,7 +1791,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DIGLETT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1823,7 +1823,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_DIGLETT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1852,7 +1852,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_DIGLETT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1884,7 +1884,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_MEOWTH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1912,7 +1912,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_MEOWTH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1944,7 +1944,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MEOWTH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -1972,7 +1972,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MEOWTH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2000,7 +2000,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_PSYDUCK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2031,7 +2031,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_PSYDUCK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2059,7 +2059,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MANKEY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2093,7 +2093,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_MANKEY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2121,7 +2121,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_GROWLITHE",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -2157,7 +2157,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_GROWLITHE",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -2185,7 +2185,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_POLIWAG",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2217,7 +2217,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_POLIWAG",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2252,7 +2252,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_POLIWAG",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2280,7 +2280,7 @@
       "fleeRate": 0.99,
       "buddyKm": 3,
       "familyId": "F_ABRA",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -2308,7 +2308,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_ABRA",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -2343,7 +2343,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_ABRA",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -2375,7 +2375,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MACHOP",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -2407,7 +2407,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MACHOP",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -2445,7 +2445,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_MACHOP",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -2474,7 +2474,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_BELLSPROUT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2507,7 +2507,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_BELLSPROUT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2538,7 +2538,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_BELLSPROUT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2567,7 +2567,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_TENTACOOL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2597,7 +2597,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_TENTACOOL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2626,7 +2626,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_GEODUDE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2655,7 +2655,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_GEODUDE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2690,7 +2690,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_GEODUDE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2719,7 +2719,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_GEODUDE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2753,7 +2753,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_GEODUDE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2782,7 +2782,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_GEODUDE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2814,7 +2814,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_PONYTA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2846,7 +2846,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_PONYTA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2875,7 +2875,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SLOWPOKE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2904,7 +2904,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SLOWPOKE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -2933,7 +2933,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MAGNEMITE",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -2964,7 +2964,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_MAGNEMITE",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -2997,7 +2997,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_FARFETCHD",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3030,7 +3030,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DODUO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3063,7 +3063,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_DODUO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3097,7 +3097,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_SEEL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3134,7 +3134,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SEEL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3166,7 +3166,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_GRIMER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3199,7 +3199,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_GRIMER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3235,7 +3235,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_GRIMER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3266,7 +3266,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_GRIMER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3294,7 +3294,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SHELLDER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3328,7 +3328,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SHELLDER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3363,7 +3363,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_GASTLY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3397,7 +3397,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_GASTLY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3437,7 +3437,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_GASTLY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3472,7 +3472,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_ONIX",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3500,7 +3500,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DROWZEE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3536,7 +3536,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_DROWZEE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3564,7 +3564,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_KRABBY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3597,7 +3597,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_KRABBY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3629,7 +3629,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_VOLTORB",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -3662,7 +3662,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_VOLTORB",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -3691,7 +3691,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_EXEGGCUTE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3725,7 +3725,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_EXEGGCUTE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3754,7 +3754,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_EXEGGCUTE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3782,7 +3782,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CUBONE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3810,7 +3810,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_CUBONE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3841,7 +3841,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_CUBONE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3875,7 +3875,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_TYROGUE",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -3911,7 +3911,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_TYROGUE",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -3943,7 +3943,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_LICKITUNG",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -3975,7 +3975,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_KOFFING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4008,7 +4008,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_KOFFING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4037,7 +4037,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_KOFFING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4066,7 +4066,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_RHYHORN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4099,7 +4099,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_RHYHORN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4131,7 +4131,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_CHANSEY",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -4163,7 +4163,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_TANGELA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4198,7 +4198,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_KANGASKHAN",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -4226,7 +4226,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_HORSEA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4258,7 +4258,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_HORSEA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4286,7 +4286,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_GOLDEEN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4322,7 +4322,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_GOLDEEN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4354,7 +4354,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_STARYU",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -4366,22 +4366,9 @@
         "psychic"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "QUICK_ATTACK",
+        "TACKLE",
+        "WATER_GUN",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -4406,7 +4393,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_STARYU",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -4435,7 +4422,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_MR_MIME",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4470,7 +4457,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_SCYTHER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4506,7 +4493,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_JYNX",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -4534,7 +4521,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_ELECTABUZZ",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -4562,7 +4549,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_MAGMAR",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -4596,7 +4583,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_PINSIR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4624,7 +4611,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_TAUROS",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -4649,7 +4636,7 @@
       "fleeRate": 0.15,
       "buddyKm": 1,
       "familyId": "F_MAGIKARP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4686,7 +4673,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_MAGIKARP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4724,7 +4711,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_LAPRAS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -4749,7 +4736,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DITTO",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -4782,7 +4769,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_EEVEE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -4813,7 +4800,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_EEVEE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -4845,7 +4832,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_EEVEE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -4879,7 +4866,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_EEVEE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -4890,22 +4877,10 @@
         "normal"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "CHARGE_BEAM",
+        "QUICK_ATTACK",
+        "TACKLE",
+        "ZEN_HEADBUTT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -4933,7 +4908,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_PORYGON",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -4968,7 +4943,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_OMANYTE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5003,7 +4978,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_OMANYTE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5032,7 +5007,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_KABUTO",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5066,7 +5041,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_KABUTO",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5098,7 +5073,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_AERODACTYL",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5134,7 +5109,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_SNORLAX",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5168,7 +5143,7 @@
       "fleeRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_ARTICUNO",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -5202,7 +5177,7 @@
       "fleeRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_ZAPDOS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -5238,7 +5213,7 @@
       "fleeRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_MOLTRES",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -5266,7 +5241,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_DRATINI",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5294,7 +5269,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_DRATINI",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5331,7 +5306,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_DRATINI",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5369,7 +5344,7 @@
       "fleeRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_MEWTWO",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -5402,7 +5377,7 @@
       "fleeRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_MEWTWO",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -5463,7 +5438,7 @@
       "captureRate": 100,
       "buddyKm": 20,
       "familyId": "F_MEW",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -5491,7 +5466,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CHIKORITA",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5519,7 +5494,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_CHIKORITA",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5551,7 +5526,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_CHIKORITA",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5579,7 +5554,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CYNDAQUIL",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5607,7 +5582,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_CYNDAQUIL",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5639,7 +5614,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_CYNDAQUIL",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5667,7 +5642,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_TOTODILE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5695,7 +5670,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_TOTODILE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5730,7 +5705,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_TOTODILE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -5758,7 +5733,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_SENTRET",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5786,7 +5761,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_SENTRET",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5815,7 +5790,7 @@
       "fleeRate": 0.15,
       "buddyKm": 1,
       "familyId": "F_HOOTHOOT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5844,7 +5819,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_HOOTHOOT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5873,7 +5848,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_LEDYBA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5902,7 +5877,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_LEDYBA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5931,7 +5906,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_SPINARAK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5960,7 +5935,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_SPINARAK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -5989,7 +5964,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_ZUBAT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6018,7 +5993,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CHINCHOU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6048,7 +6023,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_CHINCHOU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6078,7 +6053,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_PIKACHU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6111,7 +6086,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_CLEFAIRY",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -6143,7 +6118,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_JIGGLYPUFF",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -6154,22 +6129,8 @@
         "fairy"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "PECK",
+        "ZEN_HEADBUTT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -6188,7 +6149,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_TOGEPI",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -6200,22 +6161,9 @@
         "flying"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "EXTRASENSORY",
+        "STEEL_WING",
+        "ZEN_HEADBUTT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -6236,7 +6184,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_TOGEPI",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -6265,7 +6213,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_NATU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6294,7 +6242,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_NATU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6322,7 +6270,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_MAREEP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6350,7 +6298,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_MAREEP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6384,7 +6332,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_MAREEP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6412,7 +6360,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_ODDISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6441,7 +6389,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MARILL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6470,7 +6418,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MARILL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6498,7 +6446,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_SUDOWOODO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6530,7 +6478,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_POLIWAG",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6559,7 +6507,7 @@
       "fleeRate": 0.12,
       "buddyKm": 3,
       "familyId": "F_HOPPIP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6588,7 +6536,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_HOPPIP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6617,7 +6565,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_HOPPIP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6645,7 +6593,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_AIPOM",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6673,7 +6621,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_SUNKERN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6701,7 +6649,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SUNKERN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6730,7 +6678,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_YANMA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6759,7 +6707,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_WOOPER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6789,7 +6737,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_WOOPER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6821,7 +6769,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_EEVEE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -6852,7 +6800,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_EEVEE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -6881,7 +6829,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MURKROW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6910,7 +6858,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_SLOWPOKE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6938,7 +6886,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MISDREAVUS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -6949,22 +6897,6 @@
         "psychic"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -6979,7 +6911,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_UNOWN",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -7006,7 +6938,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_WOBBUFFET",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7035,7 +6967,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_GIRAFARIG",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7063,7 +6995,7 @@
       "fleeRate": 0.12,
       "buddyKm": 5,
       "familyId": "F_PINECO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7094,7 +7026,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_PINECO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7122,7 +7054,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_DUNSPARCE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7151,7 +7083,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_GLIGAR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7181,7 +7113,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_ONIX",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7209,7 +7141,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SNUBBULL",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -7238,7 +7170,7 @@
       "fleeRate": 0.08,
       "buddyKm": 3,
       "familyId": "F_SNUBBULL",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -7269,7 +7201,7 @@
       "fleeRate": 0.08,
       "buddyKm": 3,
       "familyId": "F_QWILFISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7298,7 +7230,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_SCYTHER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7327,7 +7259,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SHUCKLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7356,7 +7288,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_HERACROSS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7385,7 +7317,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SNEASEL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7413,7 +7345,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_TEDDIURSA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7442,7 +7374,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_TEDDIURSA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7470,7 +7402,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_SLUGMA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7499,7 +7431,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_SLUGMA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7528,7 +7460,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SWINUB",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7557,7 +7489,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SWINUB",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7586,7 +7518,7 @@
       "fleeRate": 0.12,
       "buddyKm": 3,
       "familyId": "F_CORSOLA",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -7614,7 +7546,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_REMORAID",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7644,7 +7576,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_REMORAID",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7678,7 +7610,7 @@
       "fleeRate": 0.2,
       "buddyKm": 5,
       "familyId": "F_DELIBIRD",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7709,7 +7641,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_MANTINE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7738,7 +7670,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_SKARMORY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7767,7 +7699,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_HOUNDOUR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7797,7 +7729,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_HOUNDOUR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7831,7 +7763,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_HORSEA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7859,7 +7791,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_PHANPY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7889,7 +7821,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_PHANPY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7900,22 +7832,8 @@
         "normal"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "LOCK_ON",
+        "CHARGE_BEAM",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -7932,7 +7850,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_PORYGON",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -7960,7 +7878,7 @@
       "fleeRate": 0.08,
       "buddyKm": 3,
       "familyId": "F_STANTLER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -7971,22 +7889,66 @@
         "normal"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "TACKLE",
+        "FURY_CUTTER",
+        "BUG_BITE",
+        "BITE",
+        "SUCKER_PUNCH",
+        "DRAGON_BREATH",
+        "THUNDER_SHOCK",
+        "SPARK",
+        "LOW_KICK",
+        "KARATE_CHOP",
+        "EMBER",
+        "WING_ATTACK",
+        "PECK",
+        "LICK",
+        "SHADOW_CLAW",
+        "VINE_WHIP",
+        "RAZOR_LEAF",
+        "MUD_SHOT",
+        "ICE_SHARD",
+        "FROST_BREATH",
+        "QUICK_ATTACK",
+        "SCRATCH",
+        "POUND",
+        "CUT",
+        "POISON_JAB",
+        "ACID",
+        "PSYCHO_CUT",
+        "ROCK_THROW",
+        "METAL_CLAW",
+        "BULLET_PUNCH",
+        "WATER_GUN",
+        "SPLASH",
+        "MUD_SLAP",
+        "ZEN_HEADBUTT",
+        "CONFUSION",
+        "POISON_STING",
+        "BUBBLE",
+        "FEINT_ATTACK",
+        "STEEL_WING",
+        "FIRE_FANG",
+        "ROCK_SMASH",
+        "COUNTER",
+        "POWDER_SNOW",
+        "CHARGE_BEAM",
+        "VOLT_SWITCH",
+        "DRAGON_TAIL",
+        "AIR_SLASH",
+        "INFESTATION",
+        "STRUGGLE_BUG",
+        "ASTONISH",
+        "HEX",
+        "IRON_TAIL",
+        "FIRE_SPIN",
+        "BULLET_SEED",
+        "EXTRASENSORY",
+        "SNARL",
+        "TAKE_DOWN",
+        "WATERFALL",
+        "YAWN",
+        "PRESENT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -8114,7 +8076,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SMEARGLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -8141,7 +8103,7 @@
       "fleeRate": 0.2,
       "buddyKm": 5,
       "familyId": "F_TYROGUE",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -8169,7 +8131,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_TYROGUE",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -8201,7 +8163,7 @@
       "fleeRate": 0.2,
       "buddyKm": 5,
       "familyId": "F_JYNX",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -8232,7 +8194,7 @@
       "fleeRate": 0.2,
       "buddyKm": 5,
       "familyId": "F_ELECTABUZZ",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -8263,7 +8225,7 @@
       "fleeRate": 0.2,
       "buddyKm": 5,
       "familyId": "F_MAGMAR",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -8293,7 +8255,7 @@
       "fleeRate": 0.08,
       "buddyKm": 5,
       "familyId": "F_MILTANK",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -8321,7 +8283,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_CHANSEY",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -8350,7 +8312,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_RAIKOU",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -8379,7 +8341,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_ENTEI",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -8390,22 +8352,9 @@
         "water"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "EXTRASENSORY",
+        "ICE_FANG",
+        "SNARL",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -8415,22 +8364,6 @@
         "WATER_PULSE"
       ],
       "legacyMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
         "HIDDEN_POWER"
       ],
       "_atk": 180,
@@ -8442,7 +8375,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_SUICUNE",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -8471,7 +8404,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_LARVITAR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -8500,7 +8433,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_LARVITAR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -8533,7 +8466,7 @@
       "fleeRate": 0.04,
       "buddyKm": 5,
       "familyId": "F_LARVITAR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -8562,7 +8495,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_LUGIA",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -8574,22 +8507,8 @@
         "flying"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "EXTRASENSORY",
+        "STEEL_WING",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -8606,7 +8525,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_HO_OH",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -8635,7 +8554,7 @@
       "captureRate": 100,
       "buddyKm": 20,
       "familyId": "F_CELEBI",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -8663,7 +8582,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_TREECKO",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -8691,7 +8610,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_TREECKO",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -8724,7 +8643,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_TREECKO",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -8752,7 +8671,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_TORCHIC",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -8781,7 +8700,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_TORCHIC",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -8817,7 +8736,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_TORCHIC",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -8845,7 +8764,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MUDKIP",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -8874,7 +8793,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MUDKIP",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -8908,7 +8827,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_MUDKIP",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -8936,7 +8855,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_POOCHYENA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -8966,7 +8885,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_POOCHYENA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -8994,7 +8913,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_ZIGZAGOON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9023,7 +8942,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_ZIGZAGOON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9051,7 +8970,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_ZIGZAGOON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9080,7 +8999,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_ZIGZAGOON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9106,7 +9025,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_WURMPLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9132,7 +9051,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_WURMPLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9161,7 +9080,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_WURMPLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9187,7 +9106,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_WURMPLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9216,7 +9135,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_WURMPLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9244,7 +9163,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_LOTAD",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9273,7 +9192,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_LOTAD",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9303,7 +9222,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_LOTAD",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9331,7 +9250,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_SEEDOT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9360,7 +9279,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_SEEDOT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9391,7 +9310,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SEEDOT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9418,7 +9337,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_TAILLOW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9447,7 +9366,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_TAILLOW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9476,7 +9395,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_WINGULL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9505,7 +9424,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_WINGULL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9534,7 +9453,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_RALTS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9563,7 +9482,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_RALTS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9597,7 +9516,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_RALTS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9626,7 +9545,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_SURSKIT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9656,7 +9575,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_SURSKIT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9684,7 +9603,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_SHROOMISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9717,7 +9636,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SHROOMISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9744,7 +9663,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_SLAKOTH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9772,7 +9691,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_SLAKOTH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9800,7 +9719,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_SLAKOTH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9829,7 +9748,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_NINCADA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9858,7 +9777,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_NINCADA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9887,7 +9806,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_NINCADA",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -9915,7 +9834,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_WHISMUR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9947,7 +9866,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_WHISMUR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -9975,7 +9894,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_WHISMUR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10003,7 +9922,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MAKUHITA",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -10032,7 +9951,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_MAKUHITA",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -10061,7 +9980,7 @@
       "fleeRate": 0.04,
       "buddyKm": 3,
       "familyId": "F_MARILL",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -10089,7 +10008,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_NOSEPASS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10117,7 +10036,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SKITTY",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -10146,7 +10065,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SKITTY",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -10175,7 +10094,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_SABLEYE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10207,7 +10126,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_MAWILE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10236,7 +10155,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_ARON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10265,7 +10184,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_ARON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10295,7 +10214,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_ARON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10324,7 +10243,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MEDITITE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10354,7 +10273,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_MEDITITE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10382,7 +10301,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_ELECTRIKE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10410,7 +10329,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_ELECTRIKE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10439,7 +10358,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_PLUSLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10468,7 +10387,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_MINUN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10496,7 +10415,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_VOLBEAT",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -10524,7 +10443,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_ILLUMISE",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -10553,7 +10472,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_ROSELIA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10581,7 +10500,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_GULPIN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10610,7 +10529,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_GULPIN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10639,7 +10558,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CARVANHA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10668,7 +10587,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_CARVANHA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10696,7 +10615,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_WAILMER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10724,7 +10643,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_WAILMER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10753,7 +10672,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_NUMEL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10783,7 +10702,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_NUMEL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10811,7 +10730,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_TORKOAL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10839,7 +10758,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_SPOINK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10867,7 +10786,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_SPOINK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10895,7 +10814,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_SPINDA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10923,7 +10842,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_TRAPINCH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10952,7 +10871,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_TRAPINCH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -10985,7 +10904,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_TRAPINCH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11013,7 +10932,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CACNEA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11042,7 +10961,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_CACNEA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11071,7 +10990,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_SWABLU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11100,7 +11019,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_SWABLU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11128,7 +11047,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_ZANGOOSE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11156,7 +11075,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_SEVIPER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11185,7 +11104,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_LUNATONE",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -11214,7 +11133,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_SOLROCK",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -11243,7 +11162,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_BARBOACH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11272,7 +11191,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_BARBOACH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11300,7 +11219,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CORPHISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11330,7 +11249,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_CORPHISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11359,7 +11278,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_BALTOY",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -11390,7 +11309,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_BALTOY",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -11419,7 +11338,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_LILEEP",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -11448,7 +11367,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_LILEEP",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -11477,7 +11396,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_ANORITH",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -11506,7 +11425,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_ANORITH",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -11532,7 +11451,7 @@
       "fleeRate": 0.15,
       "buddyKm": 5,
       "familyId": "F_FEEBAS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11560,7 +11479,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_FEEBAS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11588,7 +11507,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_CASTFORM",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11616,7 +11535,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_CASTFORM",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11644,7 +11563,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_CASTFORM",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11672,7 +11591,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_CASTFORM",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11703,7 +11622,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_KECLEON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11731,7 +11650,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SHUPPET",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11759,7 +11678,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SHUPPET",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11787,7 +11706,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DUSKULL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11815,7 +11734,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_DUSKULL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11844,7 +11763,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_TROPIUS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11872,7 +11791,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_CHIMECHO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11900,7 +11819,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_ABSOL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11926,7 +11845,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_WOBBUFFET",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11954,7 +11873,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SNORUNT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -11982,7 +11901,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SNORUNT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12011,7 +11930,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SPHEAL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12040,7 +11959,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SPHEAL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12069,7 +11988,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_SPHEAL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12096,7 +12015,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CLAMPERL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12124,7 +12043,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_CLAMPERL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12152,7 +12071,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_CLAMPERL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12181,7 +12100,7 @@
       "fleeRate": 0.01,
       "buddyKm": 5,
       "familyId": "F_RELICANTH",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -12209,7 +12128,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_LUVDISC",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -12237,7 +12156,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_BAGON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12265,7 +12184,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_BAGON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12296,7 +12215,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_BAGON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -12322,7 +12241,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_BELDUM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12351,7 +12270,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_BELDUM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12384,7 +12303,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_BELDUM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12413,7 +12332,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_REGIROCK",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12442,7 +12361,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_REGICE",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12471,7 +12390,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_REGISTEEL",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12501,7 +12420,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_LATIAS",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -12530,7 +12449,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_LATIOS",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -12558,7 +12477,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_KYOGRE",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12586,7 +12505,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_GROUDON",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12615,7 +12534,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_RAYQUAZA",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12643,7 +12562,7 @@
       "captureRate": 100,
       "buddyKm": 20,
       "familyId": "F_JIRACHI",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12671,7 +12590,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_DEOXYS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12699,7 +12618,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_DEOXYS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12727,7 +12646,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_DEOXYS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12755,7 +12674,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_DEOXYS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -12783,7 +12702,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_TURTWIG",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -12811,7 +12730,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_TURTWIG",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -12845,7 +12764,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_TURTWIG",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -12873,7 +12792,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CHIMCHAR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -12902,7 +12821,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_CHIMCHAR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -12935,7 +12854,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_CHIMCHAR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -12963,7 +12882,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_PIPLUP",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -12991,7 +12910,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_PIPLUP",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -13024,7 +12943,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_PIPLUP",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -13052,7 +12971,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_STARLY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13081,7 +13000,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_STARLY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13110,7 +13029,7 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_STARLY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13138,7 +13057,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_BIDOOF",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13167,7 +13086,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_BIDOOF",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13193,7 +13112,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_KRICKETOT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13221,7 +13140,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_KRICKETOT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13249,7 +13168,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_SHINX",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13277,7 +13196,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_SHINX",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13288,22 +13207,8 @@
         "electric"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "SNARL",
+        "SPARK",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -13320,7 +13225,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_SHINX",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13332,22 +13237,7 @@
         "poison"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "RAZOR_LEAF",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -13363,7 +13253,7 @@
       "fleeRate": 0.04,
       "buddyKm": 3,
       "familyId": "F_ROSELIA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13393,7 +13283,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_ROSELIA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13421,7 +13311,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_CRANIDOS",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -13449,7 +13339,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_CRANIDOS",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -13478,7 +13368,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_SHIELDON",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -13507,7 +13397,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_SHIELDON",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -13533,7 +13423,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_BURMY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13559,7 +13449,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_BURMY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13585,7 +13475,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_BURMY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13614,7 +13504,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_BURMY",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -13643,7 +13533,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_BURMY",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -13672,7 +13562,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_BURMY",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -13701,7 +13591,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_BURMY",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -13727,7 +13617,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_COMBEE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -13759,7 +13649,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_COMBEE",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -13787,7 +13677,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_PACHIRISU",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13815,7 +13705,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_BUIZEL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13843,7 +13733,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_BUIZEL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13875,7 +13765,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_CHERUBI",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13903,7 +13793,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_CHERUBI",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13931,7 +13821,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_CHERUBI",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13942,22 +13832,7 @@
         "water"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "MUD_SLAP",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -13974,7 +13849,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SHELLOS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -13985,22 +13860,7 @@
         "water"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "MUD_SLAP",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -14017,7 +13877,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SHELLOS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14029,22 +13889,7 @@
         "ground"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "MUD_SLAP",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -14065,7 +13910,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SHELLOS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14077,22 +13922,7 @@
         "ground"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "MUD_SLAP",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -14113,7 +13943,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SHELLOS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14141,7 +13971,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_AIPOM",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14170,7 +14000,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_DRIFLOON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14199,7 +14029,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_DRIFLOON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14226,7 +14056,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_BUNEARY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14254,7 +14084,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_BUNEARY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14282,7 +14112,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MISDREAVUS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14312,7 +14142,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MURKROW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14340,7 +14170,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_GLAMEOW",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -14368,7 +14198,7 @@
       "fleeRate": 0.08,
       "buddyKm": 3,
       "familyId": "F_GLAMEOW",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -14396,7 +14226,7 @@
       "fleeRate": 0.04,
       "buddyKm": 5,
       "familyId": "F_CHIMECHO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14425,7 +14255,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_STUNKY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14454,7 +14284,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_STUNKY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14483,7 +14313,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_BRONZOR",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -14514,7 +14344,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_BRONZOR",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -14542,7 +14372,7 @@
       "fleeRate": 0.04,
       "buddyKm": 5,
       "familyId": "F_SUDOWOODO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14571,7 +14401,7 @@
       "fleeRate": 0.04,
       "buddyKm": 5,
       "familyId": "F_MR_MIME",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14597,7 +14427,7 @@
       "fleeRate": 0.04,
       "buddyKm": 5,
       "familyId": "F_CHANSEY",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -14626,7 +14456,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_CHATOT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14655,7 +14485,7 @@
       "fleeRate": 0.04,
       "buddyKm": 5,
       "familyId": "F_SPIRITOMB",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14684,7 +14514,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_GIBLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14713,7 +14543,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_GIBLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14743,7 +14573,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_GIBLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14771,7 +14601,7 @@
       "fleeRate": 0.04,
       "buddyKm": 5,
       "familyId": "F_SNORLAX",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -14798,7 +14628,7 @@
       "fleeRate": 0.2,
       "buddyKm": 5,
       "familyId": "F_LUCARIO",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -14829,7 +14659,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_LUCARIO",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -14857,7 +14687,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_HIPPOPOTAS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14888,7 +14718,7 @@
       "fleeRate": 0.08,
       "buddyKm": 3,
       "familyId": "F_HIPPOPOTAS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14917,7 +14747,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_SKORUPI",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14949,7 +14779,7 @@
       "fleeRate": 0.08,
       "buddyKm": 5,
       "familyId": "F_SKORUPI",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -14978,7 +14808,7 @@
       "fleeRate": 0.12,
       "buddyKm": 3,
       "familyId": "F_CROAGUNK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15007,7 +14837,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_CROAGUNK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15035,7 +14865,7 @@
       "fleeRate": 0.01,
       "buddyKm": 5,
       "familyId": "F_CARNIVINE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15063,7 +14893,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_FINNEON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15091,7 +14921,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_FINNEON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15120,7 +14950,7 @@
       "fleeRate": 0.04,
       "buddyKm": 5,
       "familyId": "F_MANTINE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15149,7 +14979,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SNOVER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15178,7 +15008,7 @@
       "fleeRate": 0.06,
       "buddyKm": 3,
       "familyId": "F_SNOVER",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15208,7 +15038,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_SNEASEL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15238,7 +15068,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_MAGNEMITE",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -15271,7 +15101,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_LICKITUNG",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15306,7 +15136,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_RHYHORN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15335,7 +15165,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_TANGELA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15364,7 +15194,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_ELECTABUZZ",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -15393,7 +15223,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_MAGMAR",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -15405,22 +15235,8 @@
         "flying"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "AIR_SLASH",
+        "CHARM",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -15438,7 +15254,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_TOGEPI",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -15467,7 +15283,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_YANMA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15499,7 +15315,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_EEVEE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -15531,7 +15347,7 @@
       "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_EEVEE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -15561,7 +15377,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_GLIGAR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15594,7 +15410,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_SWINUB",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15605,22 +15421,8 @@
         "normal"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "LOCK_ON",
+        "CHARGE_BEAM",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -15638,7 +15440,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_PORYGON",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -15672,7 +15474,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_RALTS",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -15701,7 +15503,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_NOSEPASS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15729,7 +15531,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_DUSKULL",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -15758,7 +15560,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SNORUNT",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -15787,7 +15589,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_ROTOM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -15816,7 +15618,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_ROTOM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -15845,7 +15647,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_ROTOM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -15874,7 +15676,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_ROTOM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -15903,7 +15705,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_ROTOM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -15932,7 +15734,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_ROTOM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -15959,7 +15761,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_UXIE",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -15986,7 +15788,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_MESPRIT",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16013,7 +15815,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_AZELF",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16042,7 +15844,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_DIALGA",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16071,7 +15873,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_PALKIA",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16101,7 +15903,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_HEATRAN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -16112,22 +15914,7 @@
         "normal"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "ZEN_HEADBUTT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -16144,7 +15931,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_REGIGIGAS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16173,7 +15960,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_GIRATINA",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16202,7 +15989,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_GIRATINA",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16230,7 +16017,7 @@
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_CRESSELIA",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -16257,7 +16044,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_PHIONE",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16284,7 +16071,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_MANAPHY",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16311,7 +16098,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_DARKRAI",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16322,22 +16109,7 @@
         "grass"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "ZEN_HEADBUTT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -16353,7 +16125,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_SHAYMIN",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16365,22 +16137,7 @@
         "flying"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "ZEN_HEADBUTT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -16396,7 +16153,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_SHAYMIN",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16423,7 +16180,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16450,7 +16207,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16477,7 +16234,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16504,7 +16261,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16531,7 +16288,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16558,7 +16315,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16585,7 +16342,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16612,7 +16369,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16639,7 +16396,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16666,7 +16423,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16693,7 +16450,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16720,7 +16477,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16747,7 +16504,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16774,7 +16531,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16801,7 +16558,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16828,7 +16585,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16855,7 +16612,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16882,7 +16639,7 @@
       "captureRate": 0.02,
       "buddyKm": 20,
       "familyId": "F_ARCEUS",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16911,7 +16668,7 @@
       "fleeRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_VICTINI",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -16939,7 +16696,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SNIVY",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -16967,7 +16724,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SNIVY",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -16995,7 +16752,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_SNIVY",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17023,7 +16780,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_TEPIG",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17052,7 +16809,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_TEPIG",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17081,7 +16838,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_TEPIG",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17109,7 +16866,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_OSHAWOTT",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17137,7 +16894,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_OSHAWOTT",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17165,7 +16922,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_OSHAWOTT",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17193,7 +16950,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_PATRAT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17221,7 +16978,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_PATRAT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17249,7 +17006,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_LILLIPUP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17277,7 +17034,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_LILLIPUP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17306,7 +17063,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_LILLIPUP",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17334,7 +17091,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_PURRLOIN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17362,7 +17119,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_PURRLOIN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17390,7 +17147,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_PANSAGE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17418,7 +17175,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_PANSAGE",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17446,7 +17203,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_PANSEAR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17474,7 +17231,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_PANSEAR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17502,7 +17259,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_PANPOUR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17530,7 +17287,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_PANPOUR",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -17558,7 +17315,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_MUNNA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17586,7 +17343,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MUNNA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17615,7 +17372,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_PIDOVE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17644,7 +17401,7 @@
       "fleeRate": 0.09,
       "buddyKm": 1,
       "familyId": "F_PIDOVE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17673,7 +17430,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_PIDOVE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17701,7 +17458,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_BLITZLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17729,7 +17486,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_BLITZLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17757,7 +17514,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_ROGGENROLA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17785,7 +17542,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_ROGGENROLA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17814,7 +17571,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_ROGGENROLA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17843,7 +17600,7 @@
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_WOOBAT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17872,7 +17629,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_WOOBAT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17900,7 +17657,7 @@
       "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_DRILBUR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17930,7 +17687,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_DRILBUR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17958,7 +17715,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_AUDINO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -17986,7 +17743,7 @@
       "fleeRate": 0.15,
       "buddyKm": 5,
       "familyId": "F_TIMBURR",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -18014,7 +17771,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_TIMBURR",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -18042,7 +17799,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_TIMBURR",
-      "gender": [
+      "genderMF": [
         75,
         25
       ]
@@ -18070,7 +17827,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_TYMPOLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18099,7 +17856,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_TYMPOLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18128,7 +17885,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_TYMPOLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18156,7 +17913,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_THROH",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -18184,7 +17941,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_SAWK",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -18213,7 +17970,7 @@
       "fleeRate": 0.15,
       "buddyKm": 1,
       "familyId": "F_SEWADDLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18242,7 +17999,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_SEWADDLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18271,7 +18028,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_SEWADDLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18300,7 +18057,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_VENIPEDE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18329,7 +18086,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_VENIPEDE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18359,7 +18116,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_VENIPEDE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18388,7 +18145,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_COTTONEE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18417,7 +18174,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_COTTONEE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18428,22 +18185,7 @@
         "grass"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "CHARM",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -18459,7 +18201,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_PETILIL",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -18470,22 +18212,7 @@
         "grass"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "CHARM",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -18502,7 +18229,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_PETILIL",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -18530,7 +18257,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_BASCULIN",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18559,7 +18286,7 @@
       "fleeRate": 0.15,
       "buddyKm": 5,
       "familyId": "F_SANDILE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18588,7 +18315,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_SANDILE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18617,7 +18344,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_SANDILE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18644,7 +18371,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_DARUMAKA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18673,7 +18400,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_DARUMAKA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18703,7 +18430,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_DARUMAKA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18731,7 +18458,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_MARACTUS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18760,7 +18487,7 @@
       "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_DWEBBLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18789,7 +18516,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_DWEBBLE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18818,7 +18545,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_SCRAGGY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18847,7 +18574,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SCRAGGY",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18877,7 +18604,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_SIGILYPH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18905,7 +18632,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_YAMASK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18933,7 +18660,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_YAMASK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -18962,7 +18689,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_TIRTOUGA",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -18991,7 +18718,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_TIRTOUGA",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -19020,7 +18747,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_ARCHEN",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -19049,7 +18776,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_ARCHEN",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -19077,7 +18804,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_TRUBBISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19106,7 +18833,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_TRUBBISH",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19134,7 +18861,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_ZORUA",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -19162,7 +18889,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_ZORUA",
-      "gender": [
+      "genderMF": [
         87.5,
         12.5
       ]
@@ -19190,7 +18917,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MINCCINO",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -19218,7 +18945,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_MINCCINO",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -19246,7 +18973,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_GOTHITA",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -19274,7 +19001,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_GOTHITA",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -19302,7 +19029,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_GOTHITA",
-      "gender": [
+      "genderMF": [
         25,
         75
       ]
@@ -19313,22 +19040,7 @@
         "psychic"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "ZEN_HEADBUTT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -19345,7 +19057,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_SOLOSIS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19356,22 +19068,7 @@
         "psychic"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "ZEN_HEADBUTT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -19388,7 +19085,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_SOLOSIS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19399,22 +19096,7 @@
         "psychic"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "ZEN_HEADBUTT",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -19431,7 +19113,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_SOLOSIS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19460,7 +19142,7 @@
       "fleeRate": 0.15,
       "buddyKm": 3,
       "familyId": "F_DUCKLETT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19489,7 +19171,7 @@
       "fleeRate": 0.12,
       "buddyKm": 3,
       "familyId": "F_DUCKLETT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19517,7 +19199,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_VANILLITE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19545,7 +19227,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_VANILLITE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19573,7 +19255,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_VANILLITE",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19602,7 +19284,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19631,7 +19313,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19660,7 +19342,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19689,7 +19371,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19718,7 +19400,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19748,7 +19430,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19778,7 +19460,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19808,7 +19490,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19838,7 +19520,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19868,7 +19550,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19897,7 +19579,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_EMOLGA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19926,7 +19608,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_KARRABLAST",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19956,7 +19638,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_KARRABLAST",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -19985,7 +19667,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_FOONGUS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20014,7 +19696,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_FOONGUS",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20043,7 +19725,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_FRILLISH",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -20072,7 +19754,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_FRILLISH",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -20083,22 +19765,7 @@
         "water"
       ],
       "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
+        "WATERFALL",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -20115,7 +19782,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_ALOMOMOLA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20144,7 +19811,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_JOLTIK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20174,7 +19841,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_JOLTIK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20203,7 +19870,7 @@
       "fleeRate": 0.09,
       "buddyKm": 3,
       "familyId": "F_FERROSEED",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20234,7 +19901,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_FERROSEED",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20262,7 +19929,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_KLINK",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -20290,7 +19957,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_KLINK",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -20319,7 +19986,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_KLINK",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -20345,7 +20012,7 @@
       "fleeRate": 0.15,
       "buddyKm": 1,
       "familyId": "F_TYNAMO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20373,7 +20040,7 @@
       "fleeRate": 0.07,
       "buddyKm": 1,
       "familyId": "F_TYNAMO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20402,7 +20069,7 @@
       "fleeRate": 0.05,
       "buddyKm": 1,
       "familyId": "F_TYNAMO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20430,7 +20097,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_ELGYEM",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20458,7 +20125,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_ELGYEM",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20487,7 +20154,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_LITWICK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20516,7 +20183,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_LITWICK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20545,7 +20212,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_LITWICK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20573,7 +20240,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_AXEW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20601,7 +20268,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_AXEW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20630,7 +20297,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_AXEW",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20658,7 +20325,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_CUBCHOO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20686,7 +20353,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_CUBCHOO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20715,7 +20382,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_CRYOGONAL",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -20743,7 +20410,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_SHELMET",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20772,7 +20439,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_SHELMET",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20801,7 +20468,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_STUNFISK",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20829,7 +20496,7 @@
       "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_MIENFOO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20857,7 +20524,7 @@
       "fleeRate": 0.05,
       "buddyKm": 3,
       "familyId": "F_MIENFOO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20885,7 +20552,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_DRUDDIGON",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -20914,7 +20581,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_GOLETT",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -20943,7 +20610,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_GOLETT",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -20972,7 +20639,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_PAWNIARD",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21002,7 +20669,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_PAWNIARD",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21031,7 +20698,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_BOUFFALANT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21060,7 +20727,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_RUFFLET",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -21089,7 +20756,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_RUFFLET",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -21118,7 +20785,7 @@
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_VULLABY",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -21148,7 +20815,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_VULLABY",
-      "gender": [
+      "genderMF": [
         0,
         100
       ]
@@ -21176,7 +20843,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_HEATMOR",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21205,7 +20872,7 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_DURANT",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21234,7 +20901,7 @@
       "fleeRate": 0.09,
       "buddyKm": 5,
       "familyId": "F_DEINO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21263,7 +20930,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_DEINO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21292,7 +20959,7 @@
       "fleeRate": 0.05,
       "buddyKm": 5,
       "familyId": "F_DEINO",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21321,7 +20988,7 @@
       "fleeRate": 0.15,
       "buddyKm": 5,
       "familyId": "F_LARVESTA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21351,7 +21018,7 @@
       "fleeRate": 0.07,
       "buddyKm": 5,
       "familyId": "F_LARVESTA",
-      "gender": [
+      "genderMF": [
         50,
         50
       ]
@@ -21380,7 +21047,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_COBALION",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21409,7 +21076,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_TERRAKION",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21438,7 +21105,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_VIRIZION",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21467,7 +21134,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_TORNADUS",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -21496,7 +21163,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_TORNADUS",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -21526,7 +21193,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_THUNDURUS",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -21556,7 +21223,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_THUNDURUS",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -21586,7 +21253,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_RESHIRAM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21616,7 +21283,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_ZEKROM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21646,7 +21313,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_LANDORUS",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -21676,7 +21343,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_LANDORUS",
-      "gender": [
+      "genderMF": [
         100,
         0
       ]
@@ -21706,7 +21373,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_KYUREM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21736,7 +21403,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_KYUREM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21766,7 +21433,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_KYUREM",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21796,7 +21463,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_KELDEO",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21826,7 +21493,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_KELDEO",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21856,7 +21523,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_MELOETTA",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21886,7 +21553,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_MELOETTA",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21915,7 +21582,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_GENESECT",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21944,7 +21611,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_GENESECT",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -21973,7 +21640,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_GENESECT",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -22002,7 +21669,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_GENESECT",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -22031,7 +21698,7 @@
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_GENESECT",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -22056,7 +21723,7 @@
       "captureRate": 0.3,
       "buddyKm": 20,
       "familyId": "F_MELTAN",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
@@ -22084,7 +21751,7 @@
       "captureRate": 0.3,
       "buddyKm": 20,
       "familyId": "F_MELTAN",
-      "gender": [
+      "genderMF": [
         0,
         0
       ]
