@@ -12,6 +12,42 @@ export function cdnImgSrc(imgsrc, size = 200) {
 
 export const ASSET_FOLDER = 'https://github.com/ZeChrales/PogoAssets/raw/master/';
 
+function queryMoveName(mid, movebase) {
+  let _m = movebase.find(m => m.mid === mid);
+  if (!_m) {
+    console.log('gg', mid);
+  }
+  return _m && _m.moveId;
+}
+
+export function decompressJSON(json) {
+  let { pmProps, moveProps } = json;
+
+  json.moves = json.moves.map(moveArr => {
+    let moveObj = moveArr.reduce((all, value, index) => {
+      all[moveProps[index]] = value;
+      return all;
+    }, {});
+    return moveObj;
+  });
+
+  json.pokemon = json.pokemon.map(pmArr => {
+    let pmObj = pmArr.reduce((all, value, index) => {
+      if (['fastMoves', 'chargedMoves', 'legacyMoves'].indexOf(pmProps[index]) !== -1) {
+        value = value && value.map((mid) => queryMoveName(mid, json.moves));
+      }
+      if (value !== null) {
+        all[pmProps[index]] = value;
+      }
+      return all;
+    }, {});
+    return pmObj;
+  });
+
+  return json;
+}
+
+
 
 export function handlePm(pms) {
   // for checking

@@ -1,5 +1,6 @@
 
 const do_gm_to_family = require('./genFamily.js');
+const compressJSON = require('./compress.js');
 const fs = require('fs');
 // const https = require('https');
 // const gmUrl = `https://pvpoketw.com/data/gamemaster.json?${+new Date()}`;
@@ -49,6 +50,14 @@ function handleJSON(json) {
       pokemon,
       moves,
     }, './assets/gm.src.json');
+
+    outputJSON(
+      compressJSON({
+        pokemon,
+        moves,
+      }),
+      './assets/gm.min.json', 0
+    );
   }
 }
 
@@ -66,7 +75,7 @@ function doPM(pokemon, shadowPokemon) {
 
       ['fastMoves', 'legacyMoves'].forEach(movetype => {
         if (pm[movetype] && pm[movetype].indexOf('HIDDEN_POWER_BUG') !== -1) {
-          pm[movetype] = pm[movetype].filter(m => m.startsWith('HIDDEN_POWER_'));
+          pm[movetype] = pm[movetype].filter(m => !m.startsWith('HIDDEN_POWER_'));
           pm[movetype].push('HIDDEN_POWER');
         }
       });
@@ -103,10 +112,10 @@ function doPM(pokemon, shadowPokemon) {
         oppm.fleeRate = ppp.encounter.baseFleeRate && +ppp.encounter.baseFleeRate.toFixed(2);
         oppm.buddyKm = ppp.kmBuddyDistance;
         oppm.familyId = ppp.familyId.replace('FAMILY_', 'F_');
-        oppm.gender = queryTID(oGender, `SPAWN_${ppp.oid}`);
-        if (oppm.gender) {
-          let genderPercent = oppm.gender.data.genderSettings.gender;
-          oppm.gender = [genderPercent.malePercent || 0, genderPercent.femalePercent || 0].map(i => i* 100);
+        oppm.genderMF = queryTID(oGender, `SPAWN_${ppp.oid}`);
+        if (oppm.genderMF) {
+          let genderPercent = oppm.genderMF.data.genderSettings.gender;
+          oppm.genderMF = [genderPercent.malePercent || 0, genderPercent.femalePercent || 0].map(i => i* 100);
         }
       }
       return oppm;

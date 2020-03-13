@@ -1,5 +1,6 @@
 import { writable, readable, derived } from 'svelte/store';
 import {
+  decompressJSON,
   genOptions,
   handlePm, handleMove,
   saveItem, getItem
@@ -13,12 +14,15 @@ export const maxDex = writable(0);
 export const router = writable(null);
 
 Promise.all(
-  ['gm.json', 'allF.json']
+  ['gm.min.json', 'allF.json']
     .map(i =>
       fetch(i).then(r => r.json())
     )
 )
 .then(d => {
+  if (d[0].pmProps) {
+    d[0] = decompressJSON(d[0]);
+  }
   pokemons.set(handlePm(d[0].pokemon));
   moves.set(handleMove(d[0].moves));
   family.set(d[1]);
