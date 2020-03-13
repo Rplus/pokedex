@@ -4,12 +4,14 @@ import { pokemons } from '@/stores.js';
 import Details from '@c/Details.html';
 import CP from '@c/CP.html';
 import Family from '@c/Family.html';
+import ADSBar from '@c/ADS-Bar.html';
 import Moveset from '@c/Moveset.html';
 import TypeFactor from '@c/TypeFactor.html';
 import Ruby from '@c/Ruby.html';
 import TypeIcon from '@c/TypeIcon.html';
 import FloatLink from '@c/FloatLink.html';
 import QueryPM from '@c/QueryPM.html';
+import { fixNum } from '@/u.js';
 
 let pm;
 let ads;
@@ -52,9 +54,8 @@ $: {
 
     <FloatLink pm1={prevPm} pm2={nextPm} />
 
-    <Details type="pm_meta" class="card">
-      <summary class="pos-r">
-        <h2 class="d-if fxw-w" style="width: calc(100% - 1rem - 2vw)">
+    <div class="card">
+        <h2 class="df fxw-w">
           <div class="df fxw-w">
             <Ruby>
               <div slot="rb">
@@ -71,13 +72,8 @@ $: {
             </span>
           </div>
 
-          <div class="ads fw-n ml-a">
-            Atk: {pm._atk}<br>
-            Def: {pm._def}<br>
-            Sta: {pm._sta}<br>
-          </div>
+          <ADSBar pm={pm} class="ml-a fw-n" />
         </h2>
-      </summary>
 
       <div class="support-links fz-s text-right">
         check in PvPoke[tw]:
@@ -90,7 +86,35 @@ $: {
         <summary dir="ltr">進化鏈</summary>
         <Family pm={pm} />
       </Details>
-    </Details>
+
+      <Details type="meta_info">
+        <summary>基礎資訊</summary>
+        <table class="ml-a mr-a">
+          <tr>
+            <td>基礎捕捉率</td>
+            <td>{fixNum(pm.captureRate * 100)}%</td>
+          </tr>
+          <tr>
+            <td>基礎逃跑率</td>
+            <td>{fixNum(pm.fleeRate * 100)}%</td>
+          </tr>
+          <tr>
+            <td>夥伴遛糖距離</td>
+            <td>{pm.buddyKm}km</td>
+          </tr>
+          <tr>
+            <td>基礎捕捉率</td>
+            <td>{fixNum(pm.captureRate * 100)}%</td>
+          </tr>
+          <tr>
+            <!-- TODO -->
+            <td>性別比</td>
+            <td></td>
+          </tr>
+        </table>
+      </Details>
+
+    </div>
 
     <CP ads={ads} />
 
@@ -106,11 +130,3 @@ $: {
     </details>
   </section>
 {/if}
-
-
-
-<style>
-  .ads {
-    font-size: initial;
-  }
-</style>
