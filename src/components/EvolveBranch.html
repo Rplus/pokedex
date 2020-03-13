@@ -4,7 +4,7 @@
   export let data;
 
   $: {
-    data.pm = getPm(data.form || data.pid);
+    data.pm = getPm(data.form || data.name);
     data.src = cdnImgSrc(pmImgFN(`000${data.pm.dex}`.slice(-3)));
   }
 

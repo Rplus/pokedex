@@ -1,3 +1,5 @@
+
+const do_gm_to_family = require('./genFamily.js');
 const fs = require('fs');
 // const https = require('https');
 // const gmUrl = `https://pvpoketw.com/data/gamemaster.json?${+new Date()}`;
@@ -10,77 +12,48 @@ const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
 
 let contents = fs.readFileSync('./tmp/gamemaster-pvpoke.json', 'utf8');
 let contents_tw = fs.readFileSync('./tmp/gamemaster-pvpoketw.json', 'utf8');
-let contents_FULL = fs.readFileSync('./tmp/gamemaster-full-old.json', 'utf8');
+let contents_FULL = fs.readFileSync('./tmp/gamemaster-full.json', 'utf8');
 
 let fullData = JSON.parse(contents_FULL);
 let twData = JSON.parse(contents_tw);
 
-let oPm = fullData.filter(i => i.pokemonSettings);
-let oMove = fullData.filter(i => i.moveSettings);
+let oPm = fullData.filter(i => i.data.pokemonSettings);
+let oMove = fullData.filter(i => i.data.moveSettings);
+let oGender = fullData.filter(i => i.data.genderSettings);
 
-// for checking
+
 outputJSON({
   oPm,
   oMove,
 }, './tmp/o.json', 2);
 
+let allF =do_gm_to_family(JSON.parse(contents_FULL));
+outputJSON(allF, './assets/allF.json', 0);
+outputJSON(allF, './tmp/allF.json', 2);
+
 handleJSON(JSON.parse(contents));
-
-
-function introEffect(move) {
-  let buffTypes = ['攻', '防'];
-  let buffTargets = {
-    opponent: '敵',
-    self: '己',
-  };
-  let buffs = move.buffs.map((b, index) => {
-    if (!b) { return ''}
-    return `${b > 0 ? '+' : ''}${b}階${buffTypes[index]}`;
-  }).filter(Boolean).join(', ');
-  return `[${buffTargets[move.buffTarget]}], ${move.buffApplyChance * 100}%, ${buffs}`;
-}
-
-function queryMove(mid) {
-  return oMove.find(m => m.moveSettings.movementId.replace(/_FAST$/, '') === mid);
-}
-function queryMove_tw(mid) {
-  return twData.moves.find(m => m.moveId === mid);
-}
-function queryPM(pid) {
-  pid = pid2PID(pid);
-  let pm = oPm.find(pm => (
-    pm.templateId.slice(14) === pid ||
-    pm.pokemonSettings.pokemonId === pid
-  ));
-  if (!pm) {
-    console.error(`>> cannot find ${pid} in GM <<`);
-  }
-  return (pm && pm.pokemonSettings) || null;
-}
-function queryPM_tw(pid) {
-  return twData.pokemon.find(pm => pm.speciesId === pid);
-}
-function pid2PID(pid) {
-  return (
-    pid
-    .replace('_alolan', '_alola')
-    .replace('mewtwo_armored', 'mewtwo_a')
-    .toUpperCase()
-  )
-}
-function PID2pid(PID) {
-  return (
-    PID
-    .toLowerCase()
-    .replace(/\_alola$/, '_alolan')
-    .replace(/mewtwo\_a$/, 'mewtwo_armored')
-  );
-}
 
 function handleJSON(json) {
   let { pokemon, moves, shadowPokemon } = json;
-  let allF = {};
+  pokemon = doPM(pokemon, shadowPokemon);
+  moves = doMove(moves);
 
+  // output
+  {
+    outputJSON({
+      pokemon,
+      moves,
+    }, './assets/gm.json', 0);
+
+    outputJSON({
+      pokemon,
+      moves,
+    }, './assets/gm.src.json');
+  }
+}
+
+
+function doPM(pokemon, shadowPokemon) {
   // remove shadow pokemon
   pokemon = pokemon
     .filter(pm => pm.speciesId.indexOf('_shadow') === -1)
@@ -93,10 +66,15 @@ function handleJSON(json) {
 
       ['fastMoves', 'legacyMoves'].forEach(movetype => {
         if (pm[movetype] && pm[movetype].indexOf('HIDDEN_POWER_BUG') !== -1) {
-          pm[movetype] = pm[movetype].filter(m => m.indexOf('HIDDEN_POWER_') === -1);
+          pm[movetype] = pm[movetype].filter(m => m.startsWith('HIDDEN_POWER_'));
           pm[movetype].push('HIDDEN_POWER');
         }
       });
+
+      if (shadowPokemon.indexOf(pm.id) !== -1) {
+        pm.chargedMoves.push('RETURN');
+        pm.chargedMoves.push('FRUSTRATION');
+      }
 
       let {
         dex,
@@ -106,161 +84,39 @@ function handleJSON(json) {
         legacyMoves,
       } = pm;
 
-      if (shadowPokemon.indexOf(pm.id) !== -1) {
-        chargedMoves.push('RETURN');
-        chargedMoves.push('FRUSTRATION');
-      }
-      let op = {
-        id: pm.speciesId,
-        name: (pm_tw || pm).speciesName,
-        _atk: pm.baseStats.atk,
-        _def: pm.baseStats.def,
-        _sta: pm.baseStats.hp,
+      let oppm = {
         dex,
-        types: types.filter(t => t !== 'none'),
+        types,
         fastMoves,
         chargedMoves,
         legacyMoves,
+        _atk: pm.baseStats.atk,
+        _def: pm.baseStats.def,
+        _sta: pm.baseStats.hp,
+        id: pm.speciesId.toUpperCase(),
+        types: types.filter(t => t !== 'none'),
+        name: (pm_tw || pm).speciesName,
       };
 
       if (ppp) {
-        op.captureRate = ppp.encounter.baseCaptureRate && +ppp.encounter.baseCaptureRate.toFixed(3);
-        op.fleeRate = ppp.encounter.baseFleeRate && +ppp.encounter.baseFleeRate.toFixed(3);
-        op.buddyKm = ppp.kmBuddyDistance;
-        ppp.familyId = ppp.familyId.replace('FAMILY_', 'F_');
-        op.familyId = ppp.familyId;
-
-        if (!allF[ppp.familyId]) {
-          allF[ppp.familyId] = [];
+        oppm.captureRate = ppp.encounter.baseCaptureRate && +ppp.encounter.baseCaptureRate.toFixed(2);
+        oppm.fleeRate = ppp.encounter.baseFleeRate && +ppp.encounter.baseFleeRate.toFixed(2);
+        oppm.buddyKm = ppp.kmBuddyDistance;
+        oppm.familyId = ppp.familyId.replace('FAMILY_', 'F_');
+        oppm.gender = queryTID(oGender, `SPAWN_${ppp.oid}`);
+        if (oppm.gender) {
+          let genderPercent = oppm.gender.data.genderSettings.gender;
+          oppm.gender = [genderPercent.malePercent || 0, genderPercent.femalePercent || 0].map(i => i* 100);
         }
-
-        if (ppp.evolutionBranch && ppp.evolutionBranch.length > 1) {
-          console.log(ppp.familyId);
-        }
-        // TODO
-        if (pm.speciesId === 'eelektrik') {
-          ppp.parentPokemonId = 'TYNAMO';
-        }
-
-        allF[ppp.familyId].push({
-          pid: pm.speciesId,
-          // fid: ppp.familyId,
-          next: ppp.evolutionBranch && ppp.evolutionBranch.map(pm => {
-            let _pid = PID2pid(pm.evolution);
-            let _form = pm.form;
-            pm.pid = _pid;
-
-            if (_form) {
-              _form = PID2pid(_form);
-              pm.form = PID2pid(_form);
-              if (shadowPokemon.indexOf(_pid) !== -1) {
-              }
-              _form = _form.replace('_normal', '');
-
-              let _formType = _form.match(/\_\w+$/);
-              if (_formType && _formType[0] === '_alolan') {
-                pm.pid = _form;
-              }
-
-              if (_form === pm.pid) {
-                delete pm.form;
-              }
-
-              if (pm.form === pm.pid) {
-                delete pm.form;
-              }
-            }
-
-            if (pm.noCandyCostViaTrade) {
-              pm.tradeevolve = true;
-              delete pm.noCandyCostViaTrade;
-            }
-
-            pm.requirement = [
-              pm.evolutionItemRequirement && `item:${pm.evolutionItemRequirement}`,
-              pm.lureItemRequirement && `lure:${pm.lureItemRequirement}`,
-              pm.kmBuddyDistanceRequirement && `km:${pm.kmBuddyDistanceRequirement}`,
-              pm.genderRequirement && `gender:${pm.genderRequirement}`,
-              pm.mustBeBuddy && 'buddy',
-              pm.onlyNighttime && 'night',
-              pm.onlyDaytime && 'day',
-            ].filter(Boolean);
-            if (!pm.requirement.length) {
-              delete pm.requirement;
-            }
-            delete pm.evolutionItemRequirement;
-            delete pm.lureItemRequirement;
-            delete pm.kmBuddyDistanceRequirement;
-            delete pm.mustBeBuddy;
-            delete pm.onlyNighttime;
-            delete pm.onlyDaytime;
-            delete pm.evolution;
-            delete pm.genderRequirement;
-
-            return pm;
-          }),
-          parentPid: ppp.parentPokemonId && PID2pid(ppp.parentPokemonId),
-        });
       }
-
-      return op;
+      return oppm;
     });
 
-  let data = allF;
-  for (let fid in data) {
-    if (allF[fid].length === 1) {
-      // console.log(`bye~ ${fid}`);
-      // delete allF[fid];
-    } else {
-      let fff = data[fid];
-      let removedIdx = [];
-      fff
-        .forEach((pm, index) => {
-          if (!pm.parentPid) { return; }
-
-          let _form = pm.pid.includes('_') ? pm.pid.match(/\_\w+/)[0] : '';
-
-          _parent = fff.find(_p0 => {
-            let _ppid = pm.parentPid;
-            if (_form && !pm.parentPid.includes('_')) {
-              _ppid += _form;
-            }
-            if (!_p0.next) {
-              _ppid += _form;
-            }
-            return (
-              _p0.pid ===  _ppid||
-              _p0.pid === (_ppid + _form)
-            );
-          });
-
-          if (!_parent) {
-            console.log(1, '!_parent', fid, pm, _parent);
-            // removedIdx.push(index);
-            return;
-          }
-          if (!_parent.next) {
-            console.log(2, '!_parent.next', fid, pm, _parent);
-            removedIdx.push(index);
-            return;
-          }
-
-          let nextIdx = _parent.next.findIndex(_p1 => _p1.pid === pm.pid);
-          if (nextIdx !== -1) {
-            let _o = { ..._parent.next[nextIdx], ...pm};
-            delete _o.parentPid;
-            _parent.next[nextIdx] = _o;
-            removedIdx.push(index);
-          }
-        });
-      data[fid] = fff.filter((item, index) => removedIdx.indexOf(index) === -1 );
-    }
-  }
+  return pokemon;
+}
 
 
-  outputJSON(allF, './assets/allF.json', 0);
-  outputJSON(allF, './tmp/allF.json', 2);
-
+function doMove(moves) {
   {
     let move_hiddenpower_normal = JSON.parse(JSON.stringify({
       ...moves.find(move => move.moveId === 'HIDDEN_POWER_BUG'),
@@ -284,59 +140,118 @@ function handleJSON(json) {
   }
 
 
-  moves = moves.map(mmm => {
-    let pveData = queryMove(mmm.moveId);
-    if (!pveData) {
-      pveData = queryMove(mmm.moveId.replace(/\_/g, ''));
-    }
-    pveData = pveData.moveSettings;
-
-    let mmm_tw = queryMove_tw(mmm.moveId);
-    if (!mmm_tw) {
-      console.warn(`new Move: ${mmm.moveId}`);
-    }
-
-    if (mmm.moveId === 'STRUGGLE') {
-      mmm.pve_energyDelta = -33;
-    }
-
-    let {
-      moveId,
-      power,
-      type,
-      energy,
-      energyGain,
-    } = mmm;
-
-    return {
-      moveId,
-      name: (mmm_tw || mmm).name,
-      power,
-      type,
-      energy,
-      energyGain,
-      effect: mmm.buffs && introEffect(mmm),
-      turn: mmm.cooldown / 500,
-      isFast: /\_FAST$/.test(pveData.movementId),
-      pve_power: pveData.power || 0,
-      pve_energyDelta: pveData.energyDelta || 0,
-      pve_duration: pveData.durationMs / 1000,
-      pve_damageWindowStart: pveData.damageWindowStartMs / 1000,
-      pve_damageWindowEnd: pveData.damageWindowEndMs / 1000,
-    };
-  });
-
-
-  // output
   {
-    outputJSON({
-      pokemon,
-      moves,
-    }, './assets/gm.json', 0);
+    moves = moves.map(mmm => {
+      let pveData = queryMove(mmm.moveId);
+      if (!pveData) {
+        pveData = queryMove(mmm.moveId.replace(/\_/g, ''));
+      }
+      pveData.data.moveSettings.mid = pveData.templateId.slice(2, 5);
+      pveData = pveData.data.moveSettings;
 
-    outputJSON({
-      pokemon,
-      moves,
-    }, './assets/gm.src.json');
+      let mmm_tw = queryMove_tw(mmm.moveId);
+      if (!mmm_tw) {
+        console.warn(`new Move: ${mmm.moveId}`);
+      }
+
+      if (mmm.moveId === 'STRUGGLE') {
+        mmm.pve_energyDelta = -33;
+      }
+
+      let {
+        mid,
+        moveId,
+        power,
+        type,
+        energy,
+        energyGain,
+      } = mmm;
+
+      return {
+        moveId,
+        name: (mmm_tw || mmm).name,
+        power,
+        type,
+        energy,
+        energyGain,
+        effect: mmm.buffs && introEffect(mmm),
+        turn: mmm.cooldown / 500,
+        mid: pveData.mid,
+        isFast: /\_FAST$/.test(pveData.movementId),
+        pve_power: pveData.power || 0,
+        pve_energyDelta: pveData.energyDelta || 0,
+        pve_duration: pveData.durationMs / 1000,
+        pve_damageWindowStart: pveData.damageWindowStartMs / 1000,
+        pve_damageWindowEnd: pveData.damageWindowEndMs / 1000,
+      };
+    });
+    return moves;
   }
+}
+
+
+
+
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+
+function queryTID(database, tid) {
+  return database.find(i => i.templateId === tid);
+}
+function queryMove(mid) {
+  return oMove.find(m => m.data.moveSettings.movementId.replace(/_FAST$/, '') === mid);
+}
+function queryMove_tw(mid) {
+  return twData.moves.find(m => m.moveId === mid);
+}
+function queryPM(pid) {
+  pid = pid2PID(pid);
+  let pm = oPm.find(pm => (
+    pm.templateId.slice(14) === pid ||
+    pm.data.pokemonSettings.pokemonId === pid
+  ));
+  if (!pm) {
+    console.error(`>> cannot find ${pid} in GM <<`);
+  }
+  if ((pm && pm.data.pokemonSettings)) {
+    pm.data.pokemonSettings.oid = pm.templateId;
+  }
+  return (pm && pm.data.pokemonSettings) || null;
+}
+function queryPM_tw(pid) {
+  return twData.pokemon.find(pm => pm.speciesId === pid);
+}
+function pid2PID(pid) {
+  return (
+    pid
+    .replace('_alolan', '_alola')
+    .replace('mewtwo_armored', 'mewtwo_a')
+    .toUpperCase()
+  )
+}
+function PID2pid(PID) {
+  return (
+    PID
+    .toLowerCase()
+    .replace(/\_alola$/, '_alolan')
+    .replace(/mewtwo\_a$/, 'mewtwo_armored')
+  );
+}
+function introEffect(move) {
+  let buffTypes = ['攻', '防'];
+  let buffTargets = {
+    opponent: '敵',
+    self: '己',
+  };
+  let buffs = move.buffs.map((b, index) => {
+    if (!b) { return ''}
+    return `${b > 0 ? '+' : ''}${b}階${buffTypes[index]}`;
+  }).filter(Boolean).join(', ');
+  return `[${buffTargets[move.buffTarget]}], ${move.buffApplyChance * 100}%, ${buffs}`;
 }
