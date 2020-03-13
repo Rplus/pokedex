@@ -10,7 +10,7 @@ const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
 
 let contents = fs.readFileSync('./tmp/gamemaster-pvpoke.json', 'utf8');
 let contents_tw = fs.readFileSync('./tmp/gamemaster-pvpoketw.json', 'utf8');
-let contents_FULL = fs.readFileSync('./tmp/gamemaster-full.json', 'utf8');
+let contents_FULL = fs.readFileSync('./tmp/gamemaster-full-old.json', 'utf8');
 
 let fullData = JSON.parse(contents_FULL);
 let twData = JSON.parse(contents_tw);
