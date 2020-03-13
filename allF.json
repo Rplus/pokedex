@@ -1,15 +1,18 @@
 {
   "F_BULBASAUR": [
     {
-      "pid": "bulbasaur",
+      "id": "V0001_POKEMON_BULBASAUR",
+      "name": "BULBASAUR",
       "next": [
         {
           "candyCost": 25,
-          "pid": "ivysaur",
+          "name": "IVYSAUR",
+          "id": "V0002_POKEMON_IVYSAUR",
           "next": [
             {
               "candyCost": 100,
-              "pid": "venusaur"
+              "name": "VENUSAUR",
+              "id": "V0003_POKEMON_VENUSAUR"
             }
           ]
         }
@@ -18,15 +21,18 @@
   ],
   "F_CHARMANDER": [
     {
-      "pid": "charmander",
+      "id": "V0004_POKEMON_CHARMANDER",
+      "name": "CHARMANDER",
       "next": [
         {
           "candyCost": 25,
-          "pid": "charmeleon",
+          "name": "CHARMELEON",
+          "id": "V0005_POKEMON_CHARMELEON",
           "next": [
             {
               "candyCost": 100,
-              "pid": "charizard"
+              "name": "CHARIZARD",
+              "id": "V0006_POKEMON_CHARIZARD"
             }
           ]
         }
@@ -35,15 +41,18 @@
   ],
   "F_SQUIRTLE": [
     {
-      "pid": "squirtle",
+      "id": "V0007_POKEMON_SQUIRTLE",
+      "name": "SQUIRTLE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "wartortle",
+          "name": "WARTORTLE",
+          "id": "V0008_POKEMON_WARTORTLE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "blastoise"
+              "name": "BLASTOISE",
+              "id": "V0009_POKEMON_BLASTOISE"
             }
           ]
         }
@@ -52,15 +61,18 @@
   ],
   "F_CATERPIE": [
     {
-      "pid": "caterpie",
+      "id": "V0010_POKEMON_CATERPIE",
+      "name": "CATERPIE",
       "next": [
         {
           "candyCost": 12,
-          "pid": "metapod",
+          "name": "METAPOD",
+          "id": "V0011_POKEMON_METAPOD",
           "next": [
             {
               "candyCost": 50,
-              "pid": "butterfree"
+              "name": "BUTTERFREE",
+              "id": "V0012_POKEMON_BUTTERFREE"
             }
           ]
         }
@@ -69,15 +81,18 @@
   ],
   "F_WEEDLE": [
     {
-      "pid": "weedle",
+      "id": "V0013_POKEMON_WEEDLE",
+      "name": "WEEDLE",
       "next": [
         {
           "candyCost": 12,
-          "pid": "kakuna",
+          "name": "KAKUNA",
+          "id": "V0014_POKEMON_KAKUNA",
           "next": [
             {
               "candyCost": 50,
-              "pid": "beedrill"
+              "name": "BEEDRILL",
+              "id": "V0015_POKEMON_BEEDRILL"
             }
           ]
         }
@@ -86,15 +101,18 @@
   ],
   "F_PIDGEY": [
     {
-      "pid": "pidgey",
+      "id": "V0016_POKEMON_PIDGEY",
+      "name": "PIDGEY",
       "next": [
         {
           "candyCost": 12,
-          "pid": "pidgeotto",
+          "name": "PIDGEOTTO",
+          "id": "V0017_POKEMON_PIDGEOTTO",
           "next": [
             {
               "candyCost": 50,
-              "pid": "pidgeot"
+              "name": "PIDGEOT",
+              "id": "V0018_POKEMON_PIDGEOT"
             }
           ]
         }
@@ -103,61 +121,69 @@
   ],
   "F_RATTATA": [
     {
-      "pid": "rattata",
+      "id": "V0019_POKEMON_RATTATA",
+      "name": "RATTATA",
       "next": [
         {
           "candyCost": 25,
-          "pid": "raticate"
+          "name": "RATICATE",
+          "id": "V0020_POKEMON_RATICATE_ALOLA"
         }
       ]
     },
     {
-      "pid": "rattata_alolan",
+      "id": "V0019_POKEMON_RATTATA_ALOLA",
+      "form": "RATTATA_ALOLA",
+      "name": "RATTATA",
       "next": [
         {
           "candyCost": 25,
-          "pid": "raticate_alolan"
+          "form": "RATICATE_ALOLA",
+          "name": "RATICATE"
         }
       ]
     }
   ],
   "F_SPEAROW": [
     {
-      "pid": "spearow",
+      "id": "V0021_POKEMON_SPEAROW",
+      "name": "SPEAROW",
       "next": [
         {
           "candyCost": 50,
-          "pid": "fearow"
+          "name": "FEAROW",
+          "id": "V0022_POKEMON_FEAROW"
         }
       ]
     }
   ],
   "F_EKANS": [
     {
-      "pid": "ekans",
+      "id": "V0023_POKEMON_EKANS",
+      "name": "EKANS",
       "next": [
         {
           "candyCost": 50,
-          "pid": "arbok"
+          "name": "ARBOK",
+          "id": "V0024_POKEMON_ARBOK"
         }
       ]
     }
   ],
   "F_PIKACHU": [
     {
-      "pid": "raichu_alolan",
-      "parentPid": "pikachu"
-    },
-    {
-      "pid": "pichu",
+      "id": "V0172_POKEMON_PICHU",
+      "name": "PICHU",
       "next": [
         {
           "candyCost": 25,
-          "pid": "pikachu",
+          "name": "PIKACHU",
+          "id": "V0025_POKEMON_PIKACHU",
           "next": [
             {
               "candyCost": 50,
-              "pid": "raichu"
+              "name": "RAICHU",
+              "id": "V0026_POKEMON_RAICHU_ALOLA"
             }
           ]
         }
@@ -166,35 +192,43 @@
   ],
   "F_SANDSHREW": [
     {
-      "pid": "sandshrew",
+      "id": "V0027_POKEMON_SANDSHREW",
+      "name": "SANDSHREW",
       "next": [
         {
           "candyCost": 50,
-          "pid": "sandslash"
+          "name": "SANDSLASH",
+          "id": "V0028_POKEMON_SANDSLASH_ALOLA"
         }
       ]
     },
     {
-      "pid": "sandshrew_alolan",
+      "id": "V0027_POKEMON_SANDSHREW_ALOLA",
+      "form": "SANDSHREW_ALOLA",
+      "name": "SANDSHREW",
       "next": [
         {
           "candyCost": 50,
-          "pid": "sandslash_alolan"
+          "form": "SANDSLASH_ALOLA",
+          "name": "SANDSLASH"
         }
       ]
     }
   ],
   "F_NIDORAN_FEMALE": [
     {
-      "pid": "nidoran_female",
+      "id": "V0029_POKEMON_NIDORAN",
+      "name": "NIDORAN_FEMALE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "nidorina",
+          "name": "NIDORINA",
+          "id": "V0030_POKEMON_NIDORINA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "nidoqueen"
+              "name": "NIDOQUEEN",
+              "id": "V0031_POKEMON_NIDOQUEEN"
             }
           ]
         }
@@ -203,15 +237,18 @@
   ],
   "F_NIDORAN_MALE": [
     {
-      "pid": "nidoran_male",
+      "id": "V0032_POKEMON_NIDORAN",
+      "name": "NIDORAN_MALE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "nidorino",
+          "name": "NIDORINO",
+          "id": "V0033_POKEMON_NIDORINO",
           "next": [
             {
               "candyCost": 100,
-              "pid": "nidoking"
+              "name": "NIDOKING",
+              "id": "V0034_POKEMON_NIDOKING"
             }
           ]
         }
@@ -220,15 +257,18 @@
   ],
   "F_CLEFAIRY": [
     {
-      "pid": "cleffa",
+      "id": "V0173_POKEMON_CLEFFA",
+      "name": "CLEFFA",
       "next": [
         {
           "candyCost": 25,
-          "pid": "clefairy",
+          "name": "CLEFAIRY",
+          "id": "V0035_POKEMON_CLEFAIRY",
           "next": [
             {
               "candyCost": 50,
-              "pid": "clefable"
+              "name": "CLEFABLE",
+              "id": "V0036_POKEMON_CLEFABLE"
             }
           ]
         }
@@ -237,35 +277,43 @@
   ],
   "F_VULPIX": [
     {
-      "pid": "vulpix",
+      "id": "V0037_POKEMON_VULPIX",
+      "name": "VULPIX",
       "next": [
         {
           "candyCost": 50,
-          "pid": "ninetales"
+          "name": "NINETALES",
+          "id": "V0038_POKEMON_NINETALES_ALOLA"
         }
       ]
     },
     {
-      "pid": "vulpix_alolan",
+      "id": "V0037_POKEMON_VULPIX_ALOLA",
+      "form": "VULPIX_ALOLA",
+      "name": "VULPIX",
       "next": [
         {
           "candyCost": 50,
-          "pid": "ninetales_alolan"
+          "form": "NINETALES_ALOLA",
+          "name": "NINETALES"
         }
       ]
     }
   ],
   "F_JIGGLYPUFF": [
     {
-      "pid": "igglybuff",
+      "id": "V0174_POKEMON_IGGLYBUFF",
+      "name": "IGGLYBUFF",
       "next": [
         {
           "candyCost": 25,
-          "pid": "jigglypuff",
+          "name": "JIGGLYPUFF",
+          "id": "V0039_POKEMON_JIGGLYPUFF",
           "next": [
             {
               "candyCost": 50,
-              "pid": "wigglytuff"
+              "name": "WIGGLYTUFF",
+              "id": "V0040_POKEMON_WIGGLYTUFF"
             }
           ]
         }
@@ -274,15 +322,18 @@
   ],
   "F_ZUBAT": [
     {
-      "pid": "zubat",
+      "id": "V0041_POKEMON_ZUBAT",
+      "name": "ZUBAT",
       "next": [
         {
           "candyCost": 25,
-          "pid": "golbat",
+          "name": "GOLBAT",
+          "id": "V0042_POKEMON_GOLBAT",
           "next": [
             {
               "candyCost": 100,
-              "pid": "crobat"
+              "name": "CROBAT",
+              "id": "V0169_POKEMON_CROBAT"
             }
           ]
         }
@@ -291,22 +342,26 @@
   ],
   "F_ODDISH": [
     {
-      "pid": "oddish",
+      "id": "V0043_POKEMON_ODDISH",
+      "name": "ODDISH",
       "next": [
         {
           "candyCost": 25,
-          "pid": "gloom",
+          "name": "GLOOM",
+          "id": "V0044_POKEMON_GLOOM",
           "next": [
             {
               "candyCost": 100,
-              "pid": "vileplume"
+              "name": "VILEPLUME",
+              "id": "V0045_POKEMON_VILEPLUME"
             },
             {
               "candyCost": 100,
-              "pid": "bellossom",
+              "name": "BELLOSSOM",
               "requirement": [
                 "item:ITEM_SUN_STONE"
-              ]
+              ],
+              "id": "V0182_POKEMON_BELLOSSOM"
             }
           ]
         }
@@ -315,117 +370,141 @@
   ],
   "F_PARAS": [
     {
-      "pid": "paras",
+      "id": "V0046_POKEMON_PARAS",
+      "name": "PARAS",
       "next": [
         {
           "candyCost": 50,
-          "pid": "parasect"
+          "name": "PARASECT",
+          "id": "V0047_POKEMON_PARASECT"
         }
       ]
     }
   ],
   "F_VENONAT": [
     {
-      "pid": "venonat",
+      "id": "V0048_POKEMON_VENONAT",
+      "name": "VENONAT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "venomoth"
+          "name": "VENOMOTH",
+          "id": "V0049_POKEMON_VENOMOTH"
         }
       ]
     }
   ],
   "F_DIGLETT": [
     {
-      "pid": "diglett",
+      "id": "V0050_POKEMON_DIGLETT",
+      "name": "DIGLETT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "dugtrio"
+          "name": "DUGTRIO",
+          "id": "V0051_POKEMON_DUGTRIO_ALOLA"
         }
       ]
     },
     {
-      "pid": "diglett_alolan",
+      "id": "V0050_POKEMON_DIGLETT_ALOLA",
+      "form": "DIGLETT_ALOLA",
+      "name": "DIGLETT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "dugtrio_alolan"
+          "form": "DUGTRIO_ALOLA",
+          "name": "DUGTRIO"
         }
       ]
     }
   ],
   "F_MEOWTH": [
     {
-      "pid": "meowth",
+      "id": "V0052_POKEMON_MEOWTH",
+      "name": "MEOWTH",
       "next": [
         {
           "candyCost": 50,
-          "pid": "persian"
+          "name": "PERSIAN",
+          "id": "V0053_POKEMON_PERSIAN_ALOLA"
         }
       ]
     },
     {
-      "pid": "meowth_alolan",
+      "id": "V0052_POKEMON_MEOWTH_ALOLA",
+      "form": "MEOWTH_ALOLA",
+      "name": "MEOWTH",
       "next": [
         {
           "candyCost": 50,
-          "pid": "persian_alolan"
+          "form": "PERSIAN_ALOLA",
+          "name": "PERSIAN"
         }
       ]
     }
   ],
   "F_PSYDUCK": [
     {
-      "pid": "psyduck",
+      "id": "V0054_POKEMON_PSYDUCK",
+      "name": "PSYDUCK",
       "next": [
         {
           "candyCost": 50,
-          "pid": "golduck"
+          "name": "GOLDUCK",
+          "id": "V0055_POKEMON_GOLDUCK"
         }
       ]
     }
   ],
   "F_MANKEY": [
     {
-      "pid": "mankey",
+      "id": "V0056_POKEMON_MANKEY",
+      "name": "MANKEY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "primeape"
+          "name": "PRIMEAPE",
+          "id": "V0057_POKEMON_PRIMEAPE"
         }
       ]
     }
   ],
   "F_GROWLITHE": [
     {
-      "pid": "growlithe",
+      "id": "V0058_POKEMON_GROWLITHE",
+      "name": "GROWLITHE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "arcanine"
+          "name": "ARCANINE",
+          "id": "V0059_POKEMON_ARCANINE"
         }
       ]
     }
   ],
   "F_POLIWAG": [
     {
-      "pid": "poliwag",
+      "id": "V0060_POKEMON_POLIWAG",
+      "name": "POLIWAG",
       "next": [
         {
           "candyCost": 25,
-          "pid": "poliwhirl",
+          "name": "POLIWHIRL",
+          "id": "V0061_POKEMON_POLIWHIRL",
           "next": [
             {
               "candyCost": 100,
-              "pid": "poliwrath"
+              "name": "POLIWRATH",
+              "id": "V0062_POKEMON_POLIWRATH"
             },
             {
               "candyCost": 100,
-              "pid": "politoed",
+              "name": "POLITOED",
               "requirement": [
                 "item:ITEM_KINGS_ROCK"
-              ]
+              ],
+              "id": "V0186_POKEMON_POLITOED"
             }
           ]
         }
@@ -434,16 +513,19 @@
   ],
   "F_ABRA": [
     {
-      "pid": "abra",
+      "id": "V0063_POKEMON_ABRA",
+      "name": "ABRA",
       "next": [
         {
           "candyCost": 25,
-          "pid": "kadabra",
+          "name": "KADABRA",
+          "id": "V0064_POKEMON_KADABRA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "alakazam",
-              "tradeevolve": true
+              "noCandyCostViaTrade": true,
+              "name": "ALAKAZAM",
+              "id": "V0065_POKEMON_ALAKAZAM"
             }
           ]
         }
@@ -452,16 +534,19 @@
   ],
   "F_MACHOP": [
     {
-      "pid": "machop",
+      "id": "V0066_POKEMON_MACHOP",
+      "name": "MACHOP",
       "next": [
         {
           "candyCost": 25,
-          "pid": "machoke",
+          "name": "MACHOKE",
+          "id": "V0067_POKEMON_MACHOKE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "machamp",
-              "tradeevolve": true
+              "noCandyCostViaTrade": true,
+              "name": "MACHAMP",
+              "id": "V0068_POKEMON_MACHAMP"
             }
           ]
         }
@@ -470,15 +555,18 @@
   ],
   "F_BELLSPROUT": [
     {
-      "pid": "bellsprout",
+      "id": "V0069_POKEMON_BELLSPROUT",
+      "name": "BELLSPROUT",
       "next": [
         {
           "candyCost": 25,
-          "pid": "weepinbell",
+          "name": "WEEPINBELL",
+          "id": "V0070_POKEMON_WEEPINBELL",
           "next": [
             {
               "candyCost": 100,
-              "pid": "victreebel"
+              "name": "VICTREEBEL",
+              "id": "V0071_POKEMON_VICTREEBEL"
             }
           ]
         }
@@ -487,92 +575,101 @@
   ],
   "F_TENTACOOL": [
     {
-      "pid": "tentacool",
+      "id": "V0072_POKEMON_TENTACOOL",
+      "name": "TENTACOOL",
       "next": [
         {
           "candyCost": 50,
-          "pid": "tentacruel"
+          "name": "TENTACRUEL",
+          "id": "V0073_POKEMON_TENTACRUEL"
         }
       ]
     }
   ],
   "F_GEODUDE": [
     {
-      "pid": "geodude",
+      "id": "V0074_POKEMON_GEODUDE",
+      "name": "GEODUDE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "graveler",
+          "name": "GRAVELER",
+          "id": "V0075_POKEMON_GRAVELER_ALOLA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "golem",
-              "tradeevolve": true
+              "form": "GOLEM_ALOLA",
+              "noCandyCostViaTrade": true,
+              "name": "GOLEM"
             }
           ]
         }
       ]
     },
     {
-      "pid": "geodude_alolan",
+      "id": "V0074_POKEMON_GEODUDE_ALOLA",
+      "form": "GEODUDE_ALOLA",
+      "name": "GEODUDE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "graveler_alolan",
-          "next": [
-            {
-              "candyCost": 100,
-              "pid": "golem_alolan",
-              "tradeevolve": true
-            }
-          ]
+          "form": "GRAVELER_ALOLA",
+          "name": "GRAVELER"
         }
       ]
     }
   ],
   "F_PONYTA": [
     {
-      "pid": "ponyta",
+      "id": "V0077_POKEMON_PONYTA",
+      "name": "PONYTA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "rapidash"
+          "name": "RAPIDASH",
+          "id": "V0078_POKEMON_RAPIDASH"
         }
       ]
     }
   ],
   "F_SLOWPOKE": [
     {
-      "pid": "slowpoke",
+      "id": "V0079_POKEMON_SLOWPOKE",
+      "name": "SLOWPOKE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "slowbro"
+          "name": "SLOWBRO",
+          "id": "V0080_POKEMON_SLOWBRO"
         },
         {
           "candyCost": 50,
-          "pid": "slowking",
+          "name": "SLOWKING",
           "requirement": [
             "item:ITEM_KINGS_ROCK"
-          ]
+          ],
+          "id": "V0199_POKEMON_SLOWKING"
         }
       ]
     }
   ],
   "F_MAGNEMITE": [
     {
-      "pid": "magnemite",
+      "id": "V0081_POKEMON_MAGNEMITE",
+      "name": "MAGNEMITE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "magneton",
+          "name": "MAGNETON",
+          "id": "V0082_POKEMON_MAGNETON",
           "next": [
             {
               "candyCost": 100,
-              "pid": "magnezone",
+              "name": "MAGNEZONE",
               "requirement": [
                 "lure:ITEM_TROY_DISK_MAGNETIC"
-              ]
+              ],
+              "id": "V0462_POKEMON_MAGNEZONE"
             }
           ]
         }
@@ -581,74 +678,89 @@
   ],
   "F_FARFETCHD": [
     {
-      "pid": "farfetchd"
+      "id": "V0083_POKEMON_FARFETCHD",
+      "name": "FARFETCHD"
     }
   ],
   "F_DODUO": [
     {
-      "pid": "doduo",
+      "id": "V0084_POKEMON_DODUO",
+      "name": "DODUO",
       "next": [
         {
           "candyCost": 50,
-          "pid": "dodrio"
+          "name": "DODRIO",
+          "id": "V0085_POKEMON_DODRIO"
         }
       ]
     }
   ],
   "F_SEEL": [
     {
-      "pid": "seel",
+      "id": "V0086_POKEMON_SEEL",
+      "name": "SEEL",
       "next": [
         {
           "candyCost": 50,
-          "pid": "dewgong"
+          "name": "DEWGONG",
+          "id": "V0087_POKEMON_DEWGONG"
         }
       ]
     }
   ],
   "F_GRIMER": [
     {
-      "pid": "grimer",
+      "id": "V0088_POKEMON_GRIMER",
+      "name": "GRIMER",
       "next": [
         {
           "candyCost": 50,
-          "pid": "muk"
+          "name": "MUK",
+          "id": "V0089_POKEMON_MUK_ALOLA"
         }
       ]
     },
     {
-      "pid": "grimer_alolan",
+      "id": "V0088_POKEMON_GRIMER_ALOLA",
+      "form": "GRIMER_ALOLA",
+      "name": "GRIMER",
       "next": [
         {
           "candyCost": 50,
-          "pid": "muk_alolan"
+          "form": "MUK_ALOLA",
+          "name": "MUK"
         }
       ]
     }
   ],
   "F_SHELLDER": [
     {
-      "pid": "shellder",
+      "id": "V0090_POKEMON_SHELLDER",
+      "name": "SHELLDER",
       "next": [
         {
           "candyCost": 50,
-          "pid": "cloyster"
+          "name": "CLOYSTER",
+          "id": "V0091_POKEMON_CLOYSTER"
         }
       ]
     }
   ],
   "F_GASTLY": [
     {
-      "pid": "gastly",
+      "id": "V0092_POKEMON_GASTLY",
+      "name": "GASTLY",
       "next": [
         {
           "candyCost": 25,
-          "pid": "haunter",
+          "name": "HAUNTER",
+          "id": "V0093_POKEMON_HAUNTER",
           "next": [
             {
               "candyCost": 100,
-              "pid": "gengar",
-              "tradeevolve": true
+              "noCandyCostViaTrade": true,
+              "name": "GENGAR",
+              "id": "V0094_POKEMON_GENGAR"
             }
           ]
         }
@@ -657,143 +769,154 @@
   ],
   "F_ONIX": [
     {
-      "pid": "onix",
+      "id": "V0095_POKEMON_ONIX",
+      "name": "ONIX",
       "next": [
         {
           "candyCost": 50,
-          "pid": "steelix",
+          "name": "STEELIX",
           "requirement": [
             "item:ITEM_METAL_COAT"
-          ]
+          ],
+          "id": "V0208_POKEMON_STEELIX"
         }
       ]
     }
   ],
   "F_DROWZEE": [
     {
-      "pid": "drowzee",
+      "id": "V0096_POKEMON_DROWZEE",
+      "name": "DROWZEE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "hypno"
+          "name": "HYPNO",
+          "id": "V0097_POKEMON_HYPNO"
         }
       ]
     }
   ],
   "F_KRABBY": [
     {
-      "pid": "krabby",
+      "id": "V0098_POKEMON_KRABBY",
+      "name": "KRABBY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "kingler"
+          "name": "KINGLER",
+          "id": "V0099_POKEMON_KINGLER"
         }
       ]
     }
   ],
   "F_VOLTORB": [
     {
-      "pid": "voltorb",
+      "id": "V0100_POKEMON_VOLTORB",
+      "name": "VOLTORB",
       "next": [
         {
           "candyCost": 50,
-          "pid": "electrode"
+          "name": "ELECTRODE",
+          "id": "V0101_POKEMON_ELECTRODE"
         }
       ]
     }
   ],
   "F_EXEGGCUTE": [
     {
-      "pid": "exeggcute",
+      "id": "V0102_POKEMON_EXEGGCUTE",
+      "name": "EXEGGCUTE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "exeggutor"
+          "name": "EXEGGUTOR",
+          "id": "V0103_POKEMON_EXEGGUTOR_ALOLA"
         }
       ]
-    },
-    {
-      "pid": "exeggutor_alolan",
-      "parentPid": "exeggcute"
     }
   ],
   "F_CUBONE": [
     {
-      "pid": "cubone",
+      "id": "V0104_POKEMON_CUBONE",
+      "name": "CUBONE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "marowak"
+          "name": "MAROWAK",
+          "id": "V0105_POKEMON_MAROWAK_ALOLA"
         }
       ]
-    },
-    {
-      "pid": "marowak_alolan",
-      "parentPid": "cubone"
     }
   ],
   "F_TYROGUE": [
     {
-      "pid": "tyrogue",
+      "id": "V0236_POKEMON_TYROGUE",
+      "name": "TYROGUE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "hitmonlee"
+          "name": "HITMONLEE",
+          "id": "V0106_POKEMON_HITMONLEE"
         },
         {
           "candyCost": 25,
-          "pid": "hitmonchan"
+          "name": "HITMONCHAN",
+          "id": "V0107_POKEMON_HITMONCHAN"
         },
         {
           "candyCost": 25,
-          "pid": "hitmontop"
+          "name": "HITMONTOP",
+          "id": "V0237_POKEMON_HITMONTOP"
         }
       ]
     }
   ],
   "F_LICKITUNG": [
     {
-      "pid": "lickitung",
+      "id": "V0108_POKEMON_LICKITUNG",
+      "name": "LICKITUNG",
       "next": [
         {
           "candyCost": 100,
-          "pid": "lickilicky",
+          "name": "LICKILICKY",
           "requirement": [
             "item:ITEM_GEN4_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0463_POKEMON_LICKILICKY"
         }
       ]
     }
   ],
   "F_KOFFING": [
     {
-      "pid": "koffing",
+      "id": "V0109_POKEMON_KOFFING",
+      "name": "KOFFING",
       "next": [
         {
           "candyCost": 50,
-          "pid": "weezing"
+          "name": "WEEZING",
+          "id": "V0110_POKEMON_WEEZING_GALARIAN"
         }
       ]
-    },
-    {
-      "pid": "weezing_galarian",
-      "parentPid": "koffing"
     }
   ],
   "F_RHYHORN": [
     {
-      "pid": "rhyhorn",
+      "id": "V0111_POKEMON_RHYHORN",
+      "name": "RHYHORN",
       "next": [
         {
           "candyCost": 25,
-          "pid": "rhydon",
+          "name": "RHYDON",
+          "id": "V0112_POKEMON_RHYDON",
           "next": [
             {
               "candyCost": 100,
-              "pid": "rhyperior",
+              "name": "RHYPERIOR",
               "requirement": [
                 "item:ITEM_GEN4_EVOLUTION_STONE"
-              ]
+              ],
+              "id": "V0464_POKEMON_RHYPERIOR"
             }
           ]
         }
@@ -802,18 +925,21 @@
   ],
   "F_CHANSEY": [
     {
-      "pid": "happiny",
+      "id": "V0440_POKEMON_HAPPINY",
+      "name": "HAPPINY",
       "next": [
         {
           "candyCost": 25,
-          "pid": "chansey",
+          "name": "CHANSEY",
           "requirement": [
             "km:15"
           ],
+          "id": "V0113_POKEMON_CHANSEY",
           "next": [
             {
               "candyCost": 50,
-              "pid": "blissey"
+              "name": "BLISSEY",
+              "id": "V0242_POKEMON_BLISSEY"
             }
           ]
         }
@@ -822,37 +948,43 @@
   ],
   "F_TANGELA": [
     {
-      "pid": "tangela",
+      "id": "V0114_POKEMON_TANGELA",
+      "name": "TANGELA",
       "next": [
         {
           "candyCost": 100,
-          "pid": "tangrowth",
+          "name": "TANGROWTH",
           "requirement": [
             "item:ITEM_GEN4_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0465_POKEMON_TANGROWTH"
         }
       ]
     }
   ],
   "F_KANGASKHAN": [
     {
-      "pid": "kangaskhan"
+      "id": "V0115_POKEMON_KANGASKHAN",
+      "name": "KANGASKHAN"
     }
   ],
   "F_HORSEA": [
     {
-      "pid": "horsea",
+      "id": "V0116_POKEMON_HORSEA",
+      "name": "HORSEA",
       "next": [
         {
           "candyCost": 25,
-          "pid": "seadra",
+          "name": "SEADRA",
+          "id": "V0117_POKEMON_SEADRA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "kingdra",
+              "name": "KINGDRA",
               "requirement": [
                 "item:ITEM_DRAGON_SCALE"
-              ]
+              ],
+              "id": "V0230_POKEMON_KINGDRA"
             }
           ]
         }
@@ -861,79 +993,92 @@
   ],
   "F_GOLDEEN": [
     {
-      "pid": "goldeen",
+      "id": "V0118_POKEMON_GOLDEEN",
+      "name": "GOLDEEN",
       "next": [
         {
           "candyCost": 50,
-          "pid": "seaking"
+          "name": "SEAKING",
+          "id": "V0119_POKEMON_SEAKING"
         }
       ]
     }
   ],
   "F_STARYU": [
     {
-      "pid": "staryu",
+      "id": "V0120_POKEMON_STARYU",
+      "name": "STARYU",
       "next": [
         {
           "candyCost": 50,
-          "pid": "starmie"
+          "name": "STARMIE",
+          "id": "V0121_POKEMON_STARMIE"
         }
       ]
     }
   ],
   "F_MR_MIME": [
     {
-      "pid": "mime_jr",
+      "id": "V0439_POKEMON_MIME_JR",
+      "name": "MIME_JR",
       "next": [
         {
           "candyCost": 50,
-          "pid": "mr_mime",
+          "name": "MR_MIME",
           "requirement": [
             "km:15"
-          ]
+          ],
+          "id": "V0122_POKEMON_MR_MIME"
         }
       ]
     }
   ],
   "F_SCYTHER": [
     {
-      "pid": "scyther",
+      "id": "V0123_POKEMON_SCYTHER",
+      "name": "SCYTHER",
       "next": [
         {
           "candyCost": 50,
-          "pid": "scizor",
+          "name": "SCIZOR",
           "requirement": [
             "item:ITEM_METAL_COAT"
-          ]
+          ],
+          "id": "V0212_POKEMON_SCIZOR"
         }
       ]
     }
   ],
   "F_JYNX": [
     {
-      "pid": "smoochum",
+      "id": "V0238_POKEMON_SMOOCHUM",
+      "name": "SMOOCHUM",
       "next": [
         {
           "candyCost": 25,
-          "pid": "jynx"
+          "name": "JYNX",
+          "id": "V0124_POKEMON_JYNX"
         }
       ]
     }
   ],
   "F_ELECTABUZZ": [
     {
-      "pid": "elekid",
+      "id": "V0239_POKEMON_ELEKID",
+      "name": "ELEKID",
       "next": [
         {
           "candyCost": 25,
-          "pid": "electabuzz",
+          "name": "ELECTABUZZ",
+          "id": "V0125_POKEMON_ELECTABUZZ",
           "next": [
             {
               "candyCost": 100,
-              "pid": "electivire",
+              "name": "ELECTIVIRE",
               "requirement": [
                 "item:ITEM_GEN4_EVOLUTION_STONE"
-              ]
+              ],
+              "id": "V0466_POKEMON_ELECTIVIRE"
             }
           ]
         }
@@ -942,18 +1087,21 @@
   ],
   "F_MAGMAR": [
     {
-      "pid": "magby",
+      "id": "V0240_POKEMON_MAGBY",
+      "name": "MAGBY",
       "next": [
         {
           "candyCost": 25,
-          "pid": "magmar",
+          "name": "MAGMAR",
+          "id": "V0126_POKEMON_MAGMAR",
           "next": [
             {
               "candyCost": 100,
-              "pid": "magmortar",
+              "name": "MAGMORTAR",
               "requirement": [
                 "item:ITEM_GEN4_EVOLUTION_STONE"
-              ]
+              ],
+              "id": "V0467_POKEMON_MAGMORTAR"
             }
           ]
         }
@@ -962,181 +1110,207 @@
   ],
   "F_PINSIR": [
     {
-      "pid": "pinsir"
+      "id": "V0127_POKEMON_PINSIR",
+      "name": "PINSIR"
     }
   ],
   "F_TAUROS": [
     {
-      "pid": "tauros"
+      "id": "V0128_POKEMON_TAUROS",
+      "name": "TAUROS"
     }
   ],
   "F_MAGIKARP": [
     {
-      "pid": "magikarp",
+      "id": "V0129_POKEMON_MAGIKARP",
+      "name": "MAGIKARP",
       "next": [
         {
           "candyCost": 400,
-          "pid": "gyarados"
+          "name": "GYARADOS",
+          "id": "V0130_POKEMON_GYARADOS"
         }
       ]
     }
   ],
   "F_LAPRAS": [
     {
-      "pid": "lapras"
+      "id": "V0131_POKEMON_LAPRAS",
+      "name": "LAPRAS"
     }
   ],
   "F_DITTO": [
     {
-      "pid": "ditto"
+      "id": "V0132_POKEMON_DITTO",
+      "name": "DITTO"
     }
   ],
   "F_EEVEE": [
     {
-      "pid": "eevee",
+      "id": "V0133_POKEMON_EEVEE",
+      "name": "EEVEE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "vaporeon"
+          "name": "VAPOREON",
+          "id": "V0134_POKEMON_VAPOREON"
         },
         {
           "candyCost": 25,
-          "pid": "jolteon"
+          "name": "JOLTEON",
+          "id": "V0135_POKEMON_JOLTEON"
         },
         {
           "candyCost": 25,
-          "pid": "flareon"
+          "name": "FLAREON",
+          "id": "V0136_POKEMON_FLAREON"
         },
         {
           "candyCost": 25,
           "priority": 100,
-          "pid": "espeon",
+          "name": "ESPEON",
           "requirement": [
             "km:10",
             "buddy",
             "day"
-          ]
+          ],
+          "id": "V0196_POKEMON_ESPEON"
         },
         {
           "candyCost": 25,
           "priority": 100,
-          "pid": "umbreon",
+          "name": "UMBREON",
           "requirement": [
             "km:10",
             "buddy",
             "night"
-          ]
+          ],
+          "id": "V0197_POKEMON_UMBREON"
         },
         {
           "candyCost": 25,
           "priority": 200,
-          "pid": "leafeon",
+          "name": "LEAFEON",
           "requirement": [
             "lure:ITEM_TROY_DISK_MOSSY"
-          ]
+          ],
+          "id": "V0470_POKEMON_LEAFEON"
         },
         {
           "candyCost": 25,
           "priority": 200,
-          "pid": "glaceon",
+          "name": "GLACEON",
           "requirement": [
             "lure:ITEM_TROY_DISK_GLACIAL"
-          ]
+          ],
+          "id": "V0471_POKEMON_GLACEON"
         }
       ]
     }
   ],
   "F_PORYGON": [
     {
-      "pid": "porygon",
+      "id": "V0137_POKEMON_PORYGON",
+      "name": "PORYGON",
       "next": [
         {
           "candyCost": 25,
-          "pid": "porygon2",
+          "name": "PORYGON2",
           "requirement": [
             "item:ITEM_UP_GRADE"
           ],
+          "id": "V0233_POKEMON_PORYGON2",
           "next": [
             {
               "candyCost": 100,
-              "pid": "porygon_z",
+              "name": "PORYGON_Z",
               "requirement": [
                 "item:ITEM_GEN4_EVOLUTION_STONE"
-              ]
+              ],
+              "id": "V0474_POKEMON_PORYGON_Z"
             }
           ]
         }
       ]
-    },
-    {
-      "pid": "porygon_z",
-      "parentPid": "porygon2"
     }
   ],
   "F_OMANYTE": [
     {
-      "pid": "omanyte",
+      "id": "V0138_POKEMON_OMANYTE",
+      "name": "OMANYTE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "omastar"
+          "name": "OMASTAR",
+          "id": "V0139_POKEMON_OMASTAR"
         }
       ]
     }
   ],
   "F_KABUTO": [
     {
-      "pid": "kabuto",
+      "id": "V0140_POKEMON_KABUTO",
+      "name": "KABUTO",
       "next": [
         {
           "candyCost": 50,
-          "pid": "kabutops"
+          "name": "KABUTOPS",
+          "id": "V0141_POKEMON_KABUTOPS"
         }
       ]
     }
   ],
   "F_AERODACTYL": [
     {
-      "pid": "aerodactyl"
+      "id": "V0142_POKEMON_AERODACTYL",
+      "name": "AERODACTYL"
     }
   ],
   "F_SNORLAX": [
     {
-      "pid": "munchlax",
+      "id": "V0446_POKEMON_MUNCHLAX",
+      "name": "MUNCHLAX",
       "next": [
         {
           "candyCost": 50,
-          "pid": "snorlax"
+          "name": "SNORLAX",
+          "id": "V0143_POKEMON_SNORLAX"
         }
       ]
     }
   ],
   "F_ARTICUNO": [
     {
-      "pid": "articuno"
+      "id": "V0144_POKEMON_ARTICUNO",
+      "name": "ARTICUNO"
     }
   ],
   "F_ZAPDOS": [
     {
-      "pid": "zapdos"
+      "id": "V0145_POKEMON_ZAPDOS",
+      "name": "ZAPDOS"
     }
   ],
   "F_MOLTRES": [
     {
-      "pid": "moltres"
+      "id": "V0146_POKEMON_MOLTRES",
+      "name": "MOLTRES"
     }
   ],
   "F_DRATINI": [
     {
-      "pid": "dratini",
+      "id": "V0147_POKEMON_DRATINI",
+      "name": "DRATINI",
       "next": [
         {
           "candyCost": 25,
-          "pid": "dragonair",
+          "name": "DRAGONAIR",
+          "id": "V0148_POKEMON_DRAGONAIR",
           "next": [
             {
               "candyCost": 100,
-              "pid": "dragonite"
+              "name": "DRAGONITE",
+              "id": "V0149_POKEMON_DRAGONITE"
             }
           ]
         }
@@ -1145,28 +1319,35 @@
   ],
   "F_MEWTWO": [
     {
-      "pid": "mewtwo"
+      "id": "V0150_POKEMON_MEWTWO",
+      "name": "MEWTWO"
     },
     {
-      "pid": "mewtwo_armored"
+      "id": "V0150_POKEMON_MEWTWO_A",
+      "form": "MEWTWO_A",
+      "name": "MEWTWO"
     }
   ],
   "F_MEW": [
     {
-      "pid": "mew"
+      "id": "V0151_POKEMON_MEW",
+      "name": "MEW"
     }
   ],
   "F_CHIKORITA": [
     {
-      "pid": "chikorita",
+      "id": "V0152_POKEMON_CHIKORITA",
+      "name": "CHIKORITA",
       "next": [
         {
           "candyCost": 25,
-          "pid": "bayleef",
+          "name": "BAYLEEF",
+          "id": "V0153_POKEMON_BAYLEEF",
           "next": [
             {
               "candyCost": 100,
-              "pid": "meganium"
+              "name": "MEGANIUM",
+              "id": "V0154_POKEMON_MEGANIUM"
             }
           ]
         }
@@ -1175,15 +1356,18 @@
   ],
   "F_CYNDAQUIL": [
     {
-      "pid": "cyndaquil",
+      "id": "V0155_POKEMON_CYNDAQUIL",
+      "name": "CYNDAQUIL",
       "next": [
         {
           "candyCost": 25,
-          "pid": "quilava",
+          "name": "QUILAVA",
+          "id": "V0156_POKEMON_QUILAVA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "typhlosion"
+              "name": "TYPHLOSION",
+              "id": "V0157_POKEMON_TYPHLOSION"
             }
           ]
         }
@@ -1192,15 +1376,18 @@
   ],
   "F_TOTODILE": [
     {
-      "pid": "totodile",
+      "id": "V0158_POKEMON_TOTODILE",
+      "name": "TOTODILE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "croconaw",
+          "name": "CROCONAW",
+          "id": "V0159_POKEMON_CROCONAW",
           "next": [
             {
               "candyCost": 100,
-              "pid": "feraligatr"
+              "name": "FERALIGATR",
+              "id": "V0160_POKEMON_FERALIGATR"
             }
           ]
         }
@@ -1209,73 +1396,86 @@
   ],
   "F_SENTRET": [
     {
-      "pid": "sentret",
+      "id": "V0161_POKEMON_SENTRET",
+      "name": "SENTRET",
       "next": [
         {
           "candyCost": 25,
-          "pid": "furret"
+          "name": "FURRET",
+          "id": "V0162_POKEMON_FURRET"
         }
       ]
     }
   ],
   "F_HOOTHOOT": [
     {
-      "pid": "hoothoot",
+      "id": "V0163_POKEMON_HOOTHOOT",
+      "name": "HOOTHOOT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "noctowl"
+          "name": "NOCTOWL",
+          "id": "V0164_POKEMON_NOCTOWL"
         }
       ]
     }
   ],
   "F_LEDYBA": [
     {
-      "pid": "ledyba",
+      "id": "V0165_POKEMON_LEDYBA",
+      "name": "LEDYBA",
       "next": [
         {
           "candyCost": 25,
-          "pid": "ledian"
+          "name": "LEDIAN",
+          "id": "V0166_POKEMON_LEDIAN"
         }
       ]
     }
   ],
   "F_SPINARAK": [
     {
-      "pid": "spinarak",
+      "id": "V0167_POKEMON_SPINARAK",
+      "name": "SPINARAK",
       "next": [
         {
           "candyCost": 50,
-          "pid": "ariados"
+          "name": "ARIADOS",
+          "id": "V0168_POKEMON_ARIADOS"
         }
       ]
     }
   ],
   "F_CHINCHOU": [
     {
-      "pid": "chinchou",
+      "id": "V0170_POKEMON_CHINCHOU",
+      "name": "CHINCHOU",
       "next": [
         {
           "candyCost": 50,
-          "pid": "lanturn"
+          "name": "LANTURN",
+          "id": "V0171_POKEMON_LANTURN"
         }
       ]
     }
   ],
   "F_TOGEPI": [
     {
-      "pid": "togepi",
+      "id": "V0175_POKEMON_TOGEPI",
+      "name": "TOGEPI",
       "next": [
         {
           "candyCost": 25,
-          "pid": "togetic",
+          "name": "TOGETIC",
+          "id": "V0176_POKEMON_TOGETIC",
           "next": [
             {
               "candyCost": 100,
-              "pid": "togekiss",
+              "name": "TOGEKISS",
               "requirement": [
                 "item:ITEM_GEN4_EVOLUTION_STONE"
-              ]
+              ],
+              "id": "V0468_POKEMON_TOGEKISS"
             }
           ]
         }
@@ -1284,26 +1484,31 @@
   ],
   "F_NATU": [
     {
-      "pid": "natu",
+      "id": "V0177_POKEMON_NATU",
+      "name": "NATU",
       "next": [
         {
           "candyCost": 50,
-          "pid": "xatu"
+          "name": "XATU",
+          "id": "V0178_POKEMON_XATU"
         }
       ]
     }
   ],
   "F_MAREEP": [
     {
-      "pid": "mareep",
+      "id": "V0179_POKEMON_MAREEP",
+      "name": "MAREEP",
       "next": [
         {
           "candyCost": 25,
-          "pid": "flaaffy",
+          "name": "FLAAFFY",
+          "id": "V0180_POKEMON_FLAAFFY",
           "next": [
             {
               "candyCost": 100,
-              "pid": "ampharos"
+              "name": "AMPHAROS",
+              "id": "V0181_POKEMON_AMPHAROS"
             }
           ]
         }
@@ -1312,15 +1517,18 @@
   ],
   "F_MARILL": [
     {
-      "pid": "azurill",
+      "id": "V0298_POKEMON_AZURILL",
+      "name": "AZURILL",
       "next": [
         {
           "candyCost": 25,
-          "pid": "marill",
+          "name": "MARILL",
+          "id": "V0183_POKEMON_MARILL",
           "next": [
             {
               "candyCost": 25,
-              "pid": "azumarill"
+              "name": "AZUMARILL",
+              "id": "V0184_POKEMON_AZUMARILL"
             }
           ]
         }
@@ -1329,29 +1537,34 @@
   ],
   "F_SUDOWOODO": [
     {
-      "pid": "bonsly",
+      "id": "V0438_POKEMON_BONSLY",
+      "name": "BONSLY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "sudowoodo",
+          "name": "SUDOWOODO",
           "requirement": [
             "km:15"
-          ]
+          ],
+          "id": "V0185_POKEMON_SUDOWOODO"
         }
       ]
     }
   ],
   "F_HOPPIP": [
     {
-      "pid": "hoppip",
+      "id": "V0187_POKEMON_HOPPIP",
+      "name": "HOPPIP",
       "next": [
         {
           "candyCost": 25,
-          "pid": "skiploom",
+          "name": "SKIPLOOM",
+          "id": "V0188_POKEMON_SKIPLOOM",
           "next": [
             {
               "candyCost": 100,
-              "pid": "jumpluff"
+              "name": "JUMPLUFF",
+              "id": "V0189_POKEMON_JUMPLUFF"
             }
           ]
         }
@@ -1360,212 +1573,247 @@
   ],
   "F_AIPOM": [
     {
-      "pid": "aipom",
+      "id": "V0190_POKEMON_AIPOM",
+      "name": "AIPOM",
       "next": [
         {
           "candyCost": 100,
-          "pid": "ambipom",
+          "name": "AMBIPOM",
           "requirement": [
             "item:ITEM_GEN4_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0424_POKEMON_AMBIPOM"
         }
       ]
     }
   ],
   "F_SUNKERN": [
     {
-      "pid": "sunkern",
+      "id": "V0191_POKEMON_SUNKERN",
+      "name": "SUNKERN",
       "next": [
         {
           "candyCost": 50,
-          "pid": "sunflora",
+          "name": "SUNFLORA",
           "requirement": [
             "item:ITEM_SUN_STONE"
-          ]
+          ],
+          "id": "V0192_POKEMON_SUNFLORA"
         }
       ]
     }
   ],
   "F_YANMA": [
     {
-      "pid": "yanma",
+      "id": "V0193_POKEMON_YANMA",
+      "name": "YANMA",
       "next": [
         {
           "candyCost": 100,
-          "pid": "yanmega",
+          "name": "YANMEGA",
           "requirement": [
             "item:ITEM_GEN4_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0469_POKEMON_YANMEGA"
         }
       ]
     }
   ],
   "F_WOOPER": [
     {
-      "pid": "wooper",
+      "id": "V0194_POKEMON_WOOPER",
+      "name": "WOOPER",
       "next": [
         {
           "candyCost": 50,
-          "pid": "quagsire"
+          "name": "QUAGSIRE",
+          "id": "V0195_POKEMON_QUAGSIRE"
         }
       ]
     }
   ],
   "F_MURKROW": [
     {
-      "pid": "murkrow",
+      "id": "V0198_POKEMON_MURKROW",
+      "name": "MURKROW",
       "next": [
         {
           "candyCost": 100,
-          "pid": "honchkrow",
+          "name": "HONCHKROW",
           "requirement": [
             "item:ITEM_GEN4_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0430_POKEMON_HONCHKROW"
         }
       ]
     }
   ],
   "F_MISDREAVUS": [
     {
-      "pid": "misdreavus",
+      "id": "V0200_POKEMON_MISDREAVUS",
+      "name": "MISDREAVUS",
       "next": [
         {
           "candyCost": 100,
-          "pid": "mismagius",
+          "name": "MISMAGIUS",
           "requirement": [
             "item:ITEM_GEN4_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0429_POKEMON_MISMAGIUS"
         }
       ]
     }
   ],
   "F_UNOWN": [
     {
-      "pid": "unown"
+      "id": "V0201_POKEMON_UNOWN",
+      "name": "UNOWN"
     }
   ],
   "F_WOBBUFFET": [
     {
-      "pid": "wynaut",
+      "id": "V0360_POKEMON_WYNAUT",
+      "name": "WYNAUT",
       "next": [
         {
           "candyCost": 25,
-          "pid": "wobbuffet"
+          "name": "WOBBUFFET",
+          "id": "V0202_POKEMON_WOBBUFFET"
         }
       ]
     }
   ],
   "F_GIRAFARIG": [
     {
-      "pid": "girafarig"
+      "id": "V0203_POKEMON_GIRAFARIG",
+      "name": "GIRAFARIG"
     }
   ],
   "F_PINECO": [
     {
-      "pid": "pineco",
+      "id": "V0204_POKEMON_PINECO",
+      "name": "PINECO",
       "next": [
         {
           "candyCost": 50,
-          "pid": "forretress"
+          "name": "FORRETRESS",
+          "id": "V0205_POKEMON_FORRETRESS"
         }
       ]
     }
   ],
   "F_DUNSPARCE": [
     {
-      "pid": "dunsparce"
+      "id": "V0206_POKEMON_DUNSPARCE",
+      "name": "DUNSPARCE"
     }
   ],
   "F_GLIGAR": [
     {
-      "pid": "gligar",
+      "id": "V0207_POKEMON_GLIGAR",
+      "name": "GLIGAR",
       "next": [
         {
           "candyCost": 100,
-          "pid": "gliscor",
+          "name": "GLISCOR",
           "requirement": [
             "item:ITEM_GEN4_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0472_POKEMON_GLISCOR"
         }
       ]
     }
   ],
   "F_SNUBBULL": [
     {
-      "pid": "snubbull",
+      "id": "V0209_POKEMON_SNUBBULL",
+      "name": "SNUBBULL",
       "next": [
         {
           "candyCost": 50,
-          "pid": "granbull"
+          "name": "GRANBULL",
+          "id": "V0210_POKEMON_GRANBULL"
         }
       ]
     }
   ],
   "F_QWILFISH": [
     {
-      "pid": "qwilfish"
+      "id": "V0211_POKEMON_QWILFISH",
+      "name": "QWILFISH"
     }
   ],
   "F_SHUCKLE": [
     {
-      "pid": "shuckle"
+      "id": "V0213_POKEMON_SHUCKLE",
+      "name": "SHUCKLE"
     }
   ],
   "F_HERACROSS": [
     {
-      "pid": "heracross"
+      "id": "V0214_POKEMON_HERACROSS",
+      "name": "HERACROSS"
     }
   ],
   "F_SNEASEL": [
     {
-      "pid": "sneasel",
+      "id": "V0215_POKEMON_SNEASEL",
+      "name": "SNEASEL",
       "next": [
         {
           "candyCost": 100,
-          "pid": "weavile",
+          "name": "WEAVILE",
           "requirement": [
             "item:ITEM_GEN4_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0461_POKEMON_WEAVILE"
         }
       ]
     }
   ],
   "F_TEDDIURSA": [
     {
-      "pid": "teddiursa",
+      "id": "V0216_POKEMON_TEDDIURSA",
+      "name": "TEDDIURSA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "ursaring"
+          "name": "URSARING",
+          "id": "V0217_POKEMON_URSARING"
         }
       ]
     }
   ],
   "F_SLUGMA": [
     {
-      "pid": "slugma",
+      "id": "V0218_POKEMON_SLUGMA",
+      "name": "SLUGMA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "magcargo"
+          "name": "MAGCARGO",
+          "id": "V0219_POKEMON_MAGCARGO"
         }
       ]
     }
   ],
   "F_SWINUB": [
     {
-      "pid": "swinub",
+      "id": "V0220_POKEMON_SWINUB",
+      "name": "SWINUB",
       "next": [
         {
           "candyCost": 25,
-          "pid": "piloswine",
+          "name": "PILOSWINE",
+          "id": "V0221_POKEMON_PILOSWINE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "mamoswine",
+              "name": "MAMOSWINE",
               "requirement": [
                 "item:ITEM_GEN4_EVOLUTION_STONE"
-              ]
+              ],
+              "id": "V0473_POKEMON_MAMOSWINE"
             }
           ]
         }
@@ -1574,107 +1822,127 @@
   ],
   "F_CORSOLA": [
     {
-      "pid": "corsola"
+      "id": "V0222_POKEMON_CORSOLA",
+      "name": "CORSOLA"
     }
   ],
   "F_REMORAID": [
     {
-      "pid": "remoraid",
+      "id": "V0223_POKEMON_REMORAID",
+      "name": "REMORAID",
       "next": [
         {
           "candyCost": 50,
-          "pid": "octillery"
+          "name": "OCTILLERY",
+          "id": "V0224_POKEMON_OCTILLERY"
         }
       ]
     }
   ],
   "F_DELIBIRD": [
     {
-      "pid": "delibird"
+      "id": "V0225_POKEMON_DELIBIRD",
+      "name": "DELIBIRD"
     }
   ],
   "F_MANTINE": [
     {
-      "pid": "mantine"
+      "id": "V0226_POKEMON_MANTINE",
+      "name": "MANTINE"
     },
     {
-      "pid": "mantyke",
+      "id": "V0458_POKEMON_MANTYKE",
+      "name": "MANTYKE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "mantine"
+          "name": "MANTINE"
         }
       ]
     }
   ],
   "F_SKARMORY": [
     {
-      "pid": "skarmory"
+      "id": "V0227_POKEMON_SKARMORY",
+      "name": "SKARMORY"
     }
   ],
   "F_HOUNDOUR": [
     {
-      "pid": "houndour",
+      "id": "V0228_POKEMON_HOUNDOUR",
+      "name": "HOUNDOUR",
       "next": [
         {
           "candyCost": 50,
-          "pid": "houndoom"
+          "name": "HOUNDOOM",
+          "id": "V0229_POKEMON_HOUNDOOM"
         }
       ]
     }
   ],
   "F_PHANPY": [
     {
-      "pid": "phanpy",
+      "id": "V0231_POKEMON_PHANPY",
+      "name": "PHANPY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "donphan"
+          "name": "DONPHAN",
+          "id": "V0232_POKEMON_DONPHAN"
         }
       ]
     }
   ],
   "F_STANTLER": [
     {
-      "pid": "stantler"
+      "id": "V0234_POKEMON_STANTLER",
+      "name": "STANTLER"
     }
   ],
   "F_SMEARGLE": [
     {
-      "pid": "smeargle"
+      "id": "V0235_POKEMON_SMEARGLE",
+      "name": "SMEARGLE"
     }
   ],
   "F_MILTANK": [
     {
-      "pid": "miltank"
+      "id": "V0241_POKEMON_MILTANK",
+      "name": "MILTANK"
     }
   ],
   "F_RAIKOU": [
     {
-      "pid": "raikou"
+      "id": "V0243_POKEMON_RAIKOU",
+      "name": "RAIKOU"
     }
   ],
   "F_ENTEI": [
     {
-      "pid": "entei"
+      "id": "V0244_POKEMON_ENTEI",
+      "name": "ENTEI"
     }
   ],
   "F_SUICUNE": [
     {
-      "pid": "suicune"
+      "id": "V0245_POKEMON_SUICUNE",
+      "name": "SUICUNE"
     }
   ],
   "F_LARVITAR": [
     {
-      "pid": "larvitar",
+      "id": "V0246_POKEMON_LARVITAR",
+      "name": "LARVITAR",
       "next": [
         {
           "candyCost": 25,
-          "pid": "pupitar",
+          "name": "PUPITAR",
+          "id": "V0247_POKEMON_PUPITAR",
           "next": [
             {
               "candyCost": 100,
-              "pid": "tyranitar"
+              "name": "TYRANITAR",
+              "id": "V0248_POKEMON_TYRANITAR"
             }
           ]
         }
@@ -1683,30 +1951,36 @@
   ],
   "F_LUGIA": [
     {
-      "pid": "lugia"
+      "id": "V0249_POKEMON_LUGIA",
+      "name": "LUGIA"
     }
   ],
   "F_HO_OH": [
     {
-      "pid": "ho_oh"
+      "id": "V0250_POKEMON_HO_OH",
+      "name": "HO_OH"
     }
   ],
   "F_CELEBI": [
     {
-      "pid": "celebi"
+      "id": "V0251_POKEMON_CELEBI",
+      "name": "CELEBI"
     }
   ],
   "F_TREECKO": [
     {
-      "pid": "treecko",
+      "id": "V0252_POKEMON_TREECKO",
+      "name": "TREECKO",
       "next": [
         {
           "candyCost": 25,
-          "pid": "grovyle",
+          "name": "GROVYLE",
+          "id": "V0253_POKEMON_GROVYLE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "sceptile"
+              "name": "SCEPTILE",
+              "id": "V0254_POKEMON_SCEPTILE"
             }
           ]
         }
@@ -1715,15 +1989,18 @@
   ],
   "F_TORCHIC": [
     {
-      "pid": "torchic",
+      "id": "V0255_POKEMON_TORCHIC",
+      "name": "TORCHIC",
       "next": [
         {
           "candyCost": 25,
-          "pid": "combusken",
+          "name": "COMBUSKEN",
+          "id": "V0256_POKEMON_COMBUSKEN",
           "next": [
             {
               "candyCost": 100,
-              "pid": "blaziken"
+              "name": "BLAZIKEN",
+              "id": "V0257_POKEMON_BLAZIKEN"
             }
           ]
         }
@@ -1732,15 +2009,18 @@
   ],
   "F_MUDKIP": [
     {
-      "pid": "mudkip",
+      "id": "V0258_POKEMON_MUDKIP",
+      "name": "MUDKIP",
       "next": [
         {
           "candyCost": 25,
-          "pid": "marshtomp",
+          "name": "MARSHTOMP",
+          "id": "V0259_POKEMON_MARSHTOMP",
           "next": [
             {
               "candyCost": 100,
-              "pid": "swampert"
+              "name": "SWAMPERT",
+              "id": "V0260_POKEMON_SWAMPERT"
             }
           ]
         }
@@ -1749,61 +2029,74 @@
   ],
   "F_POOCHYENA": [
     {
-      "pid": "poochyena",
+      "id": "V0261_POKEMON_POOCHYENA",
+      "name": "POOCHYENA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "mightyena"
+          "name": "MIGHTYENA",
+          "id": "V0262_POKEMON_MIGHTYENA"
         }
       ]
     }
   ],
   "F_ZIGZAGOON": [
     {
-      "pid": "zigzagoon",
+      "id": "V0263_POKEMON_ZIGZAGOON",
+      "name": "ZIGZAGOON",
       "next": [
         {
           "candyCost": 50,
-          "pid": "linoone"
+          "form": "LINOONE_NORMAL",
+          "name": "LINOONE"
         }
       ]
     },
     {
-      "pid": "zigzagoon_galarian",
+      "id": "V0263_POKEMON_ZIGZAGOON_GALARIAN",
+      "form": "ZIGZAGOON_GALARIAN",
+      "name": "ZIGZAGOON",
       "next": [
         {
           "candyCost": 50,
-          "form": "linoone_galarian",
-          "pid": "linoone"
+          "form": "LINOONE_GALARIAN",
+          "name": "LINOONE",
+          "id": "V0264_POKEMON_LINOONE_GALARIAN"
         }
       ]
     },
     {
-      "pid": "linoone_galarian",
-      "parentPid": "zigzagoon"
+      "id": "V0264_POKEMON_LINOONE",
+      "name": "LINOONE",
+      "parent": "ZIGZAGOON"
     }
   ],
   "F_WURMPLE": [
     {
-      "pid": "wurmple",
+      "id": "V0265_POKEMON_WURMPLE",
+      "name": "WURMPLE",
       "next": [
         {
           "candyCost": 12,
-          "pid": "silcoon",
+          "name": "SILCOON",
+          "id": "V0266_POKEMON_SILCOON",
           "next": [
             {
               "candyCost": 50,
-              "pid": "beautifly"
+              "name": "BEAUTIFLY",
+              "id": "V0267_POKEMON_BEAUTIFLY"
             }
           ]
         },
         {
           "candyCost": 12,
-          "pid": "cascoon",
+          "name": "CASCOON",
+          "id": "V0268_POKEMON_CASCOON",
           "next": [
             {
               "candyCost": 50,
-              "pid": "dustox"
+              "name": "DUSTOX",
+              "id": "V0269_POKEMON_DUSTOX"
             }
           ]
         }
@@ -1812,15 +2105,18 @@
   ],
   "F_LOTAD": [
     {
-      "pid": "lotad",
+      "id": "V0270_POKEMON_LOTAD",
+      "name": "LOTAD",
       "next": [
         {
           "candyCost": 25,
-          "pid": "lombre",
+          "name": "LOMBRE",
+          "id": "V0271_POKEMON_LOMBRE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "ludicolo"
+              "name": "LUDICOLO",
+              "id": "V0272_POKEMON_LUDICOLO"
             }
           ]
         }
@@ -1829,15 +2125,18 @@
   ],
   "F_SEEDOT": [
     {
-      "pid": "seedot",
+      "id": "V0273_POKEMON_SEEDOT",
+      "name": "SEEDOT",
       "next": [
         {
           "candyCost": 25,
-          "pid": "nuzleaf",
+          "name": "NUZLEAF",
+          "id": "V0274_POKEMON_NUZLEAF",
           "next": [
             {
               "candyCost": 100,
-              "pid": "shiftry"
+              "name": "SHIFTRY",
+              "id": "V0275_POKEMON_SHIFTRY"
             }
           ]
         }
@@ -1846,45 +2145,53 @@
   ],
   "F_TAILLOW": [
     {
-      "pid": "taillow",
+      "id": "V0276_POKEMON_TAILLOW",
+      "name": "TAILLOW",
       "next": [
         {
           "candyCost": 50,
-          "pid": "swellow"
+          "name": "SWELLOW",
+          "id": "V0277_POKEMON_SWELLOW"
         }
       ]
     }
   ],
   "F_WINGULL": [
     {
-      "pid": "wingull",
+      "id": "V0278_POKEMON_WINGULL",
+      "name": "WINGULL",
       "next": [
         {
           "candyCost": 50,
-          "pid": "pelipper"
+          "name": "PELIPPER",
+          "id": "V0279_POKEMON_PELIPPER"
         }
       ]
     }
   ],
   "F_RALTS": [
     {
-      "pid": "ralts",
+      "id": "V0280_POKEMON_RALTS",
+      "name": "RALTS",
       "next": [
         {
           "candyCost": 25,
-          "pid": "kirlia",
+          "name": "KIRLIA",
+          "id": "V0281_POKEMON_KIRLIA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "gallade",
+              "name": "GALLADE",
               "requirement": [
                 "item:ITEM_GEN4_EVOLUTION_STONE",
                 "gender:MALE"
-              ]
+              ],
+              "id": "V0475_POKEMON_GALLADE"
             },
             {
               "candyCost": 100,
-              "pid": "gardevoir"
+              "name": "GARDEVOIR",
+              "id": "V0282_POKEMON_GARDEVOIR"
             }
           ]
         }
@@ -1893,37 +2200,44 @@
   ],
   "F_SURSKIT": [
     {
-      "pid": "surskit",
+      "id": "V0283_POKEMON_SURSKIT",
+      "name": "SURSKIT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "masquerain"
+          "name": "MASQUERAIN",
+          "id": "V0284_POKEMON_MASQUERAIN"
         }
       ]
     }
   ],
   "F_SHROOMISH": [
     {
-      "pid": "shroomish",
+      "id": "V0285_POKEMON_SHROOMISH",
+      "name": "SHROOMISH",
       "next": [
         {
           "candyCost": 50,
-          "pid": "breloom"
+          "name": "BRELOOM",
+          "id": "V0286_POKEMON_BRELOOM"
         }
       ]
     }
   ],
   "F_SLAKOTH": [
     {
-      "pid": "slakoth",
+      "id": "V0287_POKEMON_SLAKOTH",
+      "name": "SLAKOTH",
       "next": [
         {
           "candyCost": 25,
-          "pid": "vigoroth",
+          "name": "VIGOROTH",
+          "id": "V0288_POKEMON_VIGOROTH",
           "next": [
             {
               "candyCost": 100,
-              "pid": "slaking"
+              "name": "SLAKING",
+              "id": "V0289_POKEMON_SLAKING"
             }
           ]
         }
@@ -1932,30 +2246,36 @@
   ],
   "F_NINCADA": [
     {
-      "pid": "nincada",
+      "id": "V0290_POKEMON_NINCADA",
+      "name": "NINCADA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "ninjask"
+          "name": "NINJASK",
+          "id": "V0291_POKEMON_NINJASK"
         }
       ]
     },
     {
-      "pid": "shedinja",
-      "parentPid": "nincada"
+      "id": "V0292_POKEMON_SHEDINJA",
+      "name": "SHEDINJA",
+      "parent": "NINCADA"
     }
   ],
   "F_WHISMUR": [
     {
-      "pid": "whismur",
+      "id": "V0293_POKEMON_WHISMUR",
+      "name": "WHISMUR",
       "next": [
         {
           "candyCost": 12,
-          "pid": "loudred",
+          "name": "LOUDRED",
+          "id": "V0294_POKEMON_LOUDRED",
           "next": [
             {
               "candyCost": 50,
-              "pid": "exploud"
+              "name": "EXPLOUD",
+              "id": "V0295_POKEMON_EXPLOUD"
             }
           ]
         }
@@ -1964,61 +2284,72 @@
   ],
   "F_MAKUHITA": [
     {
-      "pid": "makuhita",
+      "id": "V0296_POKEMON_MAKUHITA",
+      "name": "MAKUHITA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "hariyama"
+          "name": "HARIYAMA",
+          "id": "V0297_POKEMON_HARIYAMA"
         }
       ]
     }
   ],
   "F_NOSEPASS": [
     {
-      "pid": "nosepass",
+      "id": "V0299_POKEMON_NOSEPASS",
+      "name": "NOSEPASS",
       "next": [
         {
           "candyCost": 50,
-          "pid": "probopass",
+          "name": "PROBOPASS",
           "requirement": [
             "lure:ITEM_TROY_DISK_MAGNETIC"
-          ]
+          ],
+          "id": "V0476_POKEMON_PROBOPASS"
         }
       ]
     }
   ],
   "F_SKITTY": [
     {
-      "pid": "skitty",
+      "id": "V0300_POKEMON_SKITTY",
+      "name": "SKITTY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "delcatty"
+          "name": "DELCATTY",
+          "id": "V0301_POKEMON_DELCATTY"
         }
       ]
     }
   ],
   "F_SABLEYE": [
     {
-      "pid": "sableye"
+      "id": "V0302_POKEMON_SABLEYE",
+      "name": "SABLEYE"
     }
   ],
   "F_MAWILE": [
     {
-      "pid": "mawile"
+      "id": "V0303_POKEMON_MAWILE",
+      "name": "MAWILE"
     }
   ],
   "F_ARON": [
     {
-      "pid": "aron",
+      "id": "V0304_POKEMON_ARON",
+      "name": "ARON",
       "next": [
         {
           "candyCost": 25,
-          "pid": "lairon",
+          "name": "LAIRON",
+          "id": "V0305_POKEMON_LAIRON",
           "next": [
             {
               "candyCost": 100,
-              "pid": "aggron"
+              "name": "AGGRON",
+              "id": "V0306_POKEMON_AGGRON"
             }
           ]
         }
@@ -2027,60 +2358,71 @@
   ],
   "F_MEDITITE": [
     {
-      "pid": "meditite",
+      "id": "V0307_POKEMON_MEDITITE",
+      "name": "MEDITITE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "medicham"
+          "name": "MEDICHAM",
+          "id": "V0308_POKEMON_MEDICHAM"
         }
       ]
     }
   ],
   "F_ELECTRIKE": [
     {
-      "pid": "electrike",
+      "id": "V0309_POKEMON_ELECTRIKE",
+      "name": "ELECTRIKE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "manectric"
+          "name": "MANECTRIC",
+          "id": "V0310_POKEMON_MANECTRIC"
         }
       ]
     }
   ],
   "F_PLUSLE": [
     {
-      "pid": "plusle"
+      "id": "V0311_POKEMON_PLUSLE",
+      "name": "PLUSLE"
     }
   ],
   "F_MINUN": [
     {
-      "pid": "minun"
+      "id": "V0312_POKEMON_MINUN",
+      "name": "MINUN"
     }
   ],
   "F_VOLBEAT": [
     {
-      "pid": "volbeat"
+      "id": "V0313_POKEMON_VOLBEAT",
+      "name": "VOLBEAT"
     }
   ],
   "F_ILLUMISE": [
     {
-      "pid": "illumise"
+      "id": "V0314_POKEMON_ILLUMISE",
+      "name": "ILLUMISE"
     }
   ],
   "F_ROSELIA": [
     {
-      "pid": "budew",
+      "id": "V0406_POKEMON_BUDEW",
+      "name": "BUDEW",
       "next": [
         {
           "candyCost": 25,
-          "pid": "roselia",
+          "name": "ROSELIA",
+          "id": "V0315_POKEMON_ROSELIA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "roserade",
+              "name": "ROSERADE",
               "requirement": [
                 "item:ITEM_GEN4_EVOLUTION_STONE"
-              ]
+              ],
+              "id": "V0407_POKEMON_ROSERADE"
             }
           ]
         }
@@ -2089,80 +2431,95 @@
   ],
   "F_GULPIN": [
     {
-      "pid": "gulpin",
+      "id": "V0316_POKEMON_GULPIN",
+      "name": "GULPIN",
       "next": [
         {
           "candyCost": 50,
-          "pid": "swalot"
+          "name": "SWALOT",
+          "id": "V0317_POKEMON_SWALOT"
         }
       ]
     }
   ],
   "F_CARVANHA": [
     {
-      "pid": "carvanha",
+      "id": "V0318_POKEMON_CARVANHA",
+      "name": "CARVANHA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "sharpedo"
+          "name": "SHARPEDO",
+          "id": "V0319_POKEMON_SHARPEDO"
         }
       ]
     }
   ],
   "F_WAILMER": [
     {
-      "pid": "wailmer",
+      "id": "V0320_POKEMON_WAILMER",
+      "name": "WAILMER",
       "next": [
         {
           "candyCost": 400,
-          "pid": "wailord"
+          "name": "WAILORD",
+          "id": "V0321_POKEMON_WAILORD"
         }
       ]
     }
   ],
   "F_NUMEL": [
     {
-      "pid": "numel",
+      "id": "V0322_POKEMON_NUMEL",
+      "name": "NUMEL",
       "next": [
         {
           "candyCost": 50,
-          "pid": "camerupt"
+          "name": "CAMERUPT",
+          "id": "V0323_POKEMON_CAMERUPT"
         }
       ]
     }
   ],
   "F_TORKOAL": [
     {
-      "pid": "torkoal"
+      "id": "V0324_POKEMON_TORKOAL",
+      "name": "TORKOAL"
     }
   ],
   "F_SPOINK": [
     {
-      "pid": "spoink",
+      "id": "V0325_POKEMON_SPOINK",
+      "name": "SPOINK",
       "next": [
         {
           "candyCost": 50,
-          "pid": "grumpig"
+          "name": "GRUMPIG",
+          "id": "V0326_POKEMON_GRUMPIG"
         }
       ]
     }
   ],
   "F_SPINDA": [
     {
-      "pid": "spinda"
+      "id": "V0327_POKEMON_SPINDA",
+      "name": "SPINDA"
     }
   ],
   "F_TRAPINCH": [
     {
-      "pid": "trapinch",
+      "id": "V0328_POKEMON_TRAPINCH",
+      "name": "TRAPINCH",
       "next": [
         {
           "candyCost": 25,
-          "pid": "vibrava",
+          "name": "VIBRAVA",
+          "id": "V0329_POKEMON_VIBRAVA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "flygon"
+              "name": "FLYGON",
+              "id": "V0330_POKEMON_FLYGON"
             }
           ]
         }
@@ -2171,159 +2528,188 @@
   ],
   "F_CACNEA": [
     {
-      "pid": "cacnea",
+      "id": "V0331_POKEMON_CACNEA",
+      "name": "CACNEA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "cacturne"
+          "name": "CACTURNE",
+          "id": "V0332_POKEMON_CACTURNE"
         }
       ]
     }
   ],
   "F_SWABLU": [
     {
-      "pid": "swablu",
+      "id": "V0333_POKEMON_SWABLU",
+      "name": "SWABLU",
       "next": [
         {
           "candyCost": 400,
-          "pid": "altaria"
+          "name": "ALTARIA",
+          "id": "V0334_POKEMON_ALTARIA"
         }
       ]
     }
   ],
   "F_ZANGOOSE": [
     {
-      "pid": "zangoose"
+      "id": "V0335_POKEMON_ZANGOOSE",
+      "name": "ZANGOOSE"
     }
   ],
   "F_SEVIPER": [
     {
-      "pid": "seviper"
+      "id": "V0336_POKEMON_SEVIPER",
+      "name": "SEVIPER"
     }
   ],
   "F_LUNATONE": [
     {
-      "pid": "lunatone"
+      "id": "V0337_POKEMON_LUNATONE",
+      "name": "LUNATONE"
     }
   ],
   "F_SOLROCK": [
     {
-      "pid": "solrock"
+      "id": "V0338_POKEMON_SOLROCK",
+      "name": "SOLROCK"
     }
   ],
   "F_BARBOACH": [
     {
-      "pid": "barboach",
+      "id": "V0339_POKEMON_BARBOACH",
+      "name": "BARBOACH",
       "next": [
         {
           "candyCost": 50,
-          "pid": "whiscash"
+          "name": "WHISCASH",
+          "id": "V0340_POKEMON_WHISCASH"
         }
       ]
     }
   ],
   "F_CORPHISH": [
     {
-      "pid": "corphish",
+      "id": "V0341_POKEMON_CORPHISH",
+      "name": "CORPHISH",
       "next": [
         {
           "candyCost": 50,
-          "pid": "crawdaunt"
+          "name": "CRAWDAUNT",
+          "id": "V0342_POKEMON_CRAWDAUNT"
         }
       ]
     }
   ],
   "F_BALTOY": [
     {
-      "pid": "baltoy",
+      "id": "V0343_POKEMON_BALTOY",
+      "name": "BALTOY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "claydol"
+          "name": "CLAYDOL",
+          "id": "V0344_POKEMON_CLAYDOL"
         }
       ]
     }
   ],
   "F_LILEEP": [
     {
-      "pid": "lileep",
+      "id": "V0345_POKEMON_LILEEP",
+      "name": "LILEEP",
       "next": [
         {
           "candyCost": 50,
-          "pid": "cradily"
+          "name": "CRADILY",
+          "id": "V0346_POKEMON_CRADILY"
         }
       ]
     }
   ],
   "F_ANORITH": [
     {
-      "pid": "anorith",
+      "id": "V0347_POKEMON_ANORITH",
+      "name": "ANORITH",
       "next": [
         {
           "candyCost": 50,
-          "pid": "armaldo"
+          "name": "ARMALDO",
+          "id": "V0348_POKEMON_ARMALDO"
         }
       ]
     }
   ],
   "F_FEEBAS": [
     {
-      "pid": "feebas",
+      "id": "V0349_POKEMON_FEEBAS",
+      "name": "FEEBAS",
       "next": [
         {
           "candyCost": 100,
-          "pid": "milotic",
+          "name": "MILOTIC",
           "requirement": [
             "km:20"
-          ]
+          ],
+          "id": "V0350_POKEMON_MILOTIC"
         }
       ]
     }
   ],
   "F_CASTFORM": [
     {
-      "pid": "castform"
+      "id": "V0351_POKEMON_CASTFORM_RAINY",
+      "form": "CASTFORM_RAINY",
+      "name": "CASTFORM"
     },
     {
-      "pid": "castform_rainy"
+      "id": "V0351_POKEMON_CASTFORM_SNOWY",
+      "form": "CASTFORM_SNOWY",
+      "name": "CASTFORM"
     },
     {
-      "pid": "castform_snowy"
-    },
-    {
-      "pid": "castform_sunny"
+      "id": "V0351_POKEMON_CASTFORM_SUNNY",
+      "form": "CASTFORM_SUNNY",
+      "name": "CASTFORM"
     }
   ],
   "F_KECLEON": [
     {
-      "pid": "kecleon"
+      "id": "V0352_POKEMON_KECLEON",
+      "name": "KECLEON"
     }
   ],
   "F_SHUPPET": [
     {
-      "pid": "shuppet",
+      "id": "V0353_POKEMON_SHUPPET",
+      "name": "SHUPPET",
       "next": [
         {
           "candyCost": 50,
-          "pid": "banette"
+          "name": "BANETTE",
+          "id": "V0354_POKEMON_BANETTE"
         }
       ]
     }
   ],
   "F_DUSKULL": [
     {
-      "pid": "duskull",
+      "id": "V0355_POKEMON_DUSKULL",
+      "name": "DUSKULL",
       "next": [
         {
           "candyCost": 25,
-          "pid": "dusclops",
+          "name": "DUSCLOPS",
+          "id": "V0356_POKEMON_DUSCLOPS",
           "next": [
             {
               "candyCost": 100,
-              "pid": "dusknoir",
+              "name": "DUSKNOIR",
               "requirement": [
                 "item:ITEM_GEN4_EVOLUTION_STONE"
-              ]
+              ],
+              "id": "V0477_POKEMON_DUSKNOIR"
             }
           ]
         }
@@ -2332,55 +2718,65 @@
   ],
   "F_TROPIUS": [
     {
-      "pid": "tropius"
+      "id": "V0357_POKEMON_TROPIUS",
+      "name": "TROPIUS"
     }
   ],
   "F_CHIMECHO": [
     {
-      "pid": "chingling",
+      "id": "V0433_POKEMON_CHINGLING",
+      "name": "CHINGLING",
       "next": [
         {
           "candyCost": 50,
-          "pid": "chimecho"
+          "name": "CHIMECHO",
+          "id": "V0358_POKEMON_CHIMECHO"
         }
       ]
     }
   ],
   "F_ABSOL": [
     {
-      "pid": "absol"
+      "id": "V0359_POKEMON_ABSOL",
+      "name": "ABSOL"
     }
   ],
   "F_SNORUNT": [
     {
-      "pid": "snorunt",
+      "id": "V0361_POKEMON_SNORUNT",
+      "name": "SNORUNT",
       "next": [
         {
           "candyCost": 100,
-          "pid": "froslass",
+          "name": "FROSLASS",
           "requirement": [
             "item:ITEM_GEN4_EVOLUTION_STONE",
             "gender:FEMALE"
-          ]
+          ],
+          "id": "V0478_POKEMON_FROSLASS"
         },
         {
           "candyCost": 100,
-          "pid": "glalie"
+          "name": "GLALIE",
+          "id": "V0362_POKEMON_GLALIE"
         }
       ]
     }
   ],
   "F_SPHEAL": [
     {
-      "pid": "spheal",
+      "id": "V0363_POKEMON_SPHEAL",
+      "name": "SPHEAL",
       "next": [
         {
           "candyCost": 25,
-          "pid": "sealeo",
+          "name": "SEALEO",
+          "id": "V0364_POKEMON_SEALEO",
           "next": [
             {
               "candyCost": 100,
-              "pid": "walrein"
+              "name": "WALREIN",
+              "id": "V0365_POKEMON_WALREIN"
             }
           ]
         }
@@ -2389,40 +2785,48 @@
   ],
   "F_CLAMPERL": [
     {
-      "pid": "clamperl",
+      "id": "V0366_POKEMON_CLAMPERL",
+      "name": "CLAMPERL",
       "next": [
         {
           "candyCost": 50,
-          "pid": "huntail"
+          "name": "HUNTAIL",
+          "id": "V0367_POKEMON_HUNTAIL"
         },
         {
           "candyCost": 50,
-          "pid": "gorebyss"
+          "name": "GOREBYSS",
+          "id": "V0368_POKEMON_GOREBYSS"
         }
       ]
     }
   ],
   "F_RELICANTH": [
     {
-      "pid": "relicanth"
+      "id": "V0369_POKEMON_RELICANTH",
+      "name": "RELICANTH"
     }
   ],
   "F_LUVDISC": [
     {
-      "pid": "luvdisc"
+      "id": "V0370_POKEMON_LUVDISC",
+      "name": "LUVDISC"
     }
   ],
   "F_BAGON": [
     {
-      "pid": "bagon",
+      "id": "V0371_POKEMON_BAGON",
+      "name": "BAGON",
       "next": [
         {
           "candyCost": 25,
-          "pid": "shelgon",
+          "name": "SHELGON",
+          "id": "V0372_POKEMON_SHELGON",
           "next": [
             {
               "candyCost": 100,
-              "pid": "salamence"
+              "name": "SALAMENCE",
+              "id": "V0373_POKEMON_SALAMENCE"
             }
           ]
         }
@@ -2431,15 +2835,18 @@
   ],
   "F_BELDUM": [
     {
-      "pid": "beldum",
+      "id": "V0374_POKEMON_BELDUM",
+      "name": "BELDUM",
       "next": [
         {
           "candyCost": 25,
-          "pid": "metang",
+          "name": "METANG",
+          "id": "V0375_POKEMON_METANG",
           "next": [
             {
               "candyCost": 100,
-              "pid": "metagross"
+              "name": "METAGROSS",
+              "id": "V0376_POKEMON_METAGROSS"
             }
           ]
         }
@@ -2448,74 +2855,89 @@
   ],
   "F_REGIROCK": [
     {
-      "pid": "regirock"
+      "id": "V0377_POKEMON_REGIROCK",
+      "name": "REGIROCK"
     }
   ],
   "F_REGICE": [
     {
-      "pid": "regice"
+      "id": "V0378_POKEMON_REGICE",
+      "name": "REGICE"
     }
   ],
   "F_REGISTEEL": [
     {
-      "pid": "registeel"
+      "id": "V0379_POKEMON_REGISTEEL",
+      "name": "REGISTEEL"
     }
   ],
   "F_LATIAS": [
     {
-      "pid": "latias"
+      "id": "V0380_POKEMON_LATIAS",
+      "name": "LATIAS"
     }
   ],
   "F_LATIOS": [
     {
-      "pid": "latios"
+      "id": "V0381_POKEMON_LATIOS",
+      "name": "LATIOS"
     }
   ],
   "F_KYOGRE": [
     {
-      "pid": "kyogre"
+      "id": "V0382_POKEMON_KYOGRE",
+      "name": "KYOGRE"
     }
   ],
   "F_GROUDON": [
     {
-      "pid": "groudon"
+      "id": "V0383_POKEMON_GROUDON",
+      "name": "GROUDON"
     }
   ],
   "F_RAYQUAZA": [
     {
-      "pid": "rayquaza"
+      "id": "V0384_POKEMON_RAYQUAZA",
+      "name": "RAYQUAZA"
     }
   ],
   "F_JIRACHI": [
     {
-      "pid": "jirachi"
+      "id": "V0385_POKEMON_JIRACHI",
+      "name": "JIRACHI"
     }
   ],
   "F_DEOXYS": [
     {
-      "pid": "deoxys"
+      "id": "V0386_POKEMON_DEOXYS_ATTACK",
+      "form": "DEOXYS_ATTACK",
+      "name": "DEOXYS"
     },
     {
-      "pid": "deoxys_attack"
+      "id": "V0386_POKEMON_DEOXYS_DEFENSE",
+      "form": "DEOXYS_DEFENSE",
+      "name": "DEOXYS"
     },
     {
-      "pid": "deoxys_defense"
-    },
-    {
-      "pid": "deoxys_speed"
+      "id": "V0386_POKEMON_DEOXYS_SPEED",
+      "form": "DEOXYS_SPEED",
+      "name": "DEOXYS"
     }
   ],
   "F_TURTWIG": [
     {
-      "pid": "turtwig",
+      "id": "V0387_POKEMON_TURTWIG",
+      "name": "TURTWIG",
       "next": [
         {
           "candyCost": 25,
-          "pid": "grotle",
+          "name": "GROTLE",
+          "id": "V0388_POKEMON_GROTLE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "torterra"
+              "name": "TORTERRA",
+              "id": "V0389_POKEMON_TORTERRA"
             }
           ]
         }
@@ -2524,15 +2946,18 @@
   ],
   "F_CHIMCHAR": [
     {
-      "pid": "chimchar",
+      "id": "V0390_POKEMON_CHIMCHAR",
+      "name": "CHIMCHAR",
       "next": [
         {
           "candyCost": 25,
-          "pid": "monferno",
+          "name": "MONFERNO",
+          "id": "V0391_POKEMON_MONFERNO",
           "next": [
             {
               "candyCost": 100,
-              "pid": "infernape"
+              "name": "INFERNAPE",
+              "id": "V0392_POKEMON_INFERNAPE"
             }
           ]
         }
@@ -2541,15 +2966,18 @@
   ],
   "F_PIPLUP": [
     {
-      "pid": "piplup",
+      "id": "V0393_POKEMON_PIPLUP",
+      "name": "PIPLUP",
       "next": [
         {
           "candyCost": 25,
-          "pid": "prinplup",
+          "name": "PRINPLUP",
+          "id": "V0394_POKEMON_PRINPLUP",
           "next": [
             {
               "candyCost": 100,
-              "pid": "empoleon"
+              "name": "EMPOLEON",
+              "id": "V0395_POKEMON_EMPOLEON"
             }
           ]
         }
@@ -2558,15 +2986,18 @@
   ],
   "F_STARLY": [
     {
-      "pid": "starly",
+      "id": "V0396_POKEMON_STARLY",
+      "name": "STARLY",
       "next": [
         {
           "candyCost": 25,
-          "pid": "staravia",
+          "name": "STARAVIA",
+          "id": "V0397_POKEMON_STARAVIA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "staraptor"
+              "name": "STARAPTOR",
+              "id": "V0398_POKEMON_STARAPTOR"
             }
           ]
         }
@@ -2575,37 +3006,44 @@
   ],
   "F_BIDOOF": [
     {
-      "pid": "bidoof",
+      "id": "V0399_POKEMON_BIDOOF",
+      "name": "BIDOOF",
       "next": [
         {
           "candyCost": 50,
-          "pid": "bibarel"
+          "name": "BIBAREL",
+          "id": "V0400_POKEMON_BIBAREL"
         }
       ]
     }
   ],
   "F_KRICKETOT": [
     {
-      "pid": "kricketot",
+      "id": "V0401_POKEMON_KRICKETOT",
+      "name": "KRICKETOT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "kricketune"
+          "name": "KRICKETUNE",
+          "id": "V0402_POKEMON_KRICKETUNE"
         }
       ]
     }
   ],
   "F_SHINX": [
     {
-      "pid": "shinx",
+      "id": "V0403_POKEMON_SHINX",
+      "name": "SHINX",
       "next": [
         {
           "candyCost": 25,
-          "pid": "luxio",
+          "name": "LUXIO",
+          "id": "V0404_POKEMON_LUXIO",
           "next": [
             {
               "candyCost": 100,
-              "pid": "luxray"
+              "name": "LUXRAY",
+              "id": "V0405_POKEMON_LUXRAY"
             }
           ]
         }
@@ -2614,41 +3052,72 @@
   ],
   "F_CRANIDOS": [
     {
-      "pid": "cranidos",
+      "id": "V0408_POKEMON_CRANIDOS",
+      "name": "CRANIDOS",
       "next": [
         {
           "candyCost": 50,
-          "pid": "rampardos"
+          "name": "RAMPARDOS",
+          "id": "V0409_POKEMON_RAMPARDOS"
         }
       ]
     }
   ],
   "F_SHIELDON": [
     {
-      "pid": "shieldon",
+      "id": "V0410_POKEMON_SHIELDON",
+      "name": "SHIELDON",
       "next": [
         {
           "candyCost": 50,
-          "pid": "bastiodon"
+          "name": "BASTIODON",
+          "id": "V0411_POKEMON_BASTIODON"
         }
       ]
     }
   ],
   "F_BURMY": [
     {
-      "pid": "burmy_plant",
+      "id": "V0412_POKEMON_BURMY_PLANT",
+      "form": "BURMY_PLANT",
+      "name": "BURMY",
       "next": [
         {
           "candyCost": 50,
-          "form": "wormadam_plant",
-          "pid": "wormadam",
+          "form": "WORMADAM_PLANT",
+          "name": "WORMADAM",
           "requirement": [
             "gender:FEMALE"
-          ]
+          ],
+          "id": "V0413_POKEMON_WORMADAM_PLANT"
         },
         {
           "candyCost": 50,
-          "pid": "mothim",
+          "name": "MOTHIM",
+          "requirement": [
+            "gender:MALE"
+          ],
+          "id": "V0414_POKEMON_MOTHIM"
+        }
+      ]
+    },
+    {
+      "id": "V0412_POKEMON_BURMY_SANDY",
+      "form": "BURMY_SANDY",
+      "name": "BURMY",
+      "next": [
+        {
+          "candyCost": 50,
+          "form": "WORMADAM_SANDY",
+          "name": "WORMADAM",
+          "requirement": [
+            "gender:FEMALE"
+          ],
+          "id": "V0413_POKEMON_WORMADAM_SANDY"
+        },
+        {
+          "candyCost": 50,
+          "name": "MOTHIM",
           "requirement": [
             "gender:MALE"
           ]
@@ -2656,223 +3125,203 @@
       ]
     },
     {
-      "pid": "burmy_sandy",
+      "id": "V0412_POKEMON_BURMY_TRASH",
+      "form": "BURMY_TRASH",
+      "name": "BURMY",
       "next": [
         {
           "candyCost": 50,
-          "form": "wormadam_sandy",
-          "pid": "wormadam",
+          "form": "WORMADAM_TRASH",
+          "name": "WORMADAM",
           "requirement": [
             "gender:FEMALE"
-          ]
+          ],
+          "id": "V0413_POKEMON_WORMADAM_TRASH"
         },
         {
           "candyCost": 50,
-          "pid": "mothim",
+          "name": "MOTHIM",
           "requirement": [
             "gender:MALE"
           ]
         }
       ]
-    },
-    {
-      "pid": "burmy_trash",
-      "next": [
-        {
-          "candyCost": 50,
-          "form": "wormadam_trash",
-          "pid": "wormadam",
-          "requirement": [
-            "gender:FEMALE"
-          ]
-        },
-        {
-          "candyCost": 50,
-          "pid": "mothim",
-          "requirement": [
-            "gender:MALE"
-          ]
-        }
-      ]
-    },
-    {
-      "pid": "wormadam_plant",
-      "parentPid": "burmy"
-    },
-    {
-      "pid": "wormadam_sandy",
-      "parentPid": "burmy"
-    },
-    {
-      "pid": "wormadam_trash",
-      "parentPid": "burmy"
-    },
-    {
-      "pid": "mothim",
-      "parentPid": "burmy"
     }
   ],
   "F_COMBEE": [
     {
-      "pid": "combee",
+      "id": "V0415_POKEMON_COMBEE",
+      "name": "COMBEE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "vespiquen",
+          "name": "VESPIQUEN",
           "requirement": [
             "gender:FEMALE"
-          ]
+          ],
+          "id": "V0416_POKEMON_VESPIQUEN"
         }
       ]
     }
   ],
   "F_PACHIRISU": [
     {
-      "pid": "pachirisu"
+      "id": "V0417_POKEMON_PACHIRISU",
+      "name": "PACHIRISU"
     }
   ],
   "F_BUIZEL": [
     {
-      "pid": "buizel",
+      "id": "V0418_POKEMON_BUIZEL",
+      "name": "BUIZEL",
       "next": [
         {
           "candyCost": 50,
-          "pid": "floatzel"
+          "name": "FLOATZEL",
+          "id": "V0419_POKEMON_FLOATZEL"
         }
       ]
     }
   ],
   "F_CHERUBI": [
     {
-      "pid": "cherubi",
+      "id": "V0420_POKEMON_CHERUBI",
+      "name": "CHERUBI",
       "next": [
         {
           "candyCost": 50,
-          "form": "cherrim_overcast",
-          "pid": "cherrim"
+          "form": "CHERRIM_OVERCAST",
+          "name": "CHERRIM",
+          "id": "V0421_POKEMON_CHERRIM_OVERCAST"
         },
         {
           "candyCost": 50,
-          "form": "cherrim_sunny",
-          "pid": "cherrim"
+          "form": "CHERRIM_SUNNY",
+          "name": "CHERRIM",
+          "id": "V0421_POKEMON_CHERRIM_SUNNY"
         }
       ]
-    },
-    {
-      "pid": "cherrim_overcast",
-      "parentPid": "cherubi"
-    },
-    {
-      "pid": "cherrim_sunny",
-      "parentPid": "cherubi"
     }
   ],
   "F_SHELLOS": [
     {
-      "pid": "shellos_east_sea",
+      "id": "V0422_POKEMON_SHELLOS_EAST_SEA",
+      "form": "SHELLOS_EAST_SEA",
+      "name": "SHELLOS",
       "next": [
         {
           "candyCost": 50,
-          "form": "gastrodon_east_sea",
-          "pid": "gastrodon"
+          "form": "GASTRODON_EAST_SEA",
+          "name": "GASTRODON",
+          "id": "V0423_POKEMON_GASTRODON_EAST_SEA"
         }
       ]
     },
     {
-      "pid": "shellos_west_sea",
+      "id": "V0422_POKEMON_SHELLOS_WEST_SEA",
+      "form": "SHELLOS_WEST_SEA",
+      "name": "SHELLOS",
       "next": [
         {
           "candyCost": 50,
-          "form": "gastrodon_west_sea",
-          "pid": "gastrodon"
+          "form": "GASTRODON_WEST_SEA",
+          "name": "GASTRODON",
+          "id": "V0423_POKEMON_GASTRODON_WEST_SEA"
         }
       ]
-    },
-    {
-      "pid": "gastrodon_east_sea",
-      "parentPid": "shellos"
-    },
-    {
-      "pid": "gastrodon_west_sea",
-      "parentPid": "shellos"
     }
   ],
   "F_DRIFLOON": [
     {
-      "pid": "drifloon",
+      "id": "V0425_POKEMON_DRIFLOON",
+      "name": "DRIFLOON",
       "next": [
         {
           "candyCost": 50,
-          "pid": "drifblim"
+          "name": "DRIFBLIM",
+          "id": "V0426_POKEMON_DRIFBLIM"
         }
       ]
     }
   ],
   "F_BUNEARY": [
     {
-      "pid": "buneary",
+      "id": "V0427_POKEMON_BUNEARY",
+      "name": "BUNEARY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "lopunny"
+          "name": "LOPUNNY",
+          "id": "V0428_POKEMON_LOPUNNY"
         }
       ]
     }
   ],
   "F_GLAMEOW": [
     {
-      "pid": "glameow",
+      "id": "V0431_POKEMON_GLAMEOW",
+      "name": "GLAMEOW",
       "next": [
         {
           "candyCost": 50,
-          "pid": "purugly"
+          "name": "PURUGLY",
+          "id": "V0432_POKEMON_PURUGLY"
         }
       ]
     }
   ],
   "F_STUNKY": [
     {
-      "pid": "stunky",
+      "id": "V0434_POKEMON_STUNKY",
+      "name": "STUNKY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "skuntank"
+          "name": "SKUNTANK",
+          "id": "V0435_POKEMON_SKUNTANK"
         }
       ]
     }
   ],
   "F_BRONZOR": [
     {
-      "pid": "bronzor",
+      "id": "V0436_POKEMON_BRONZOR",
+      "name": "BRONZOR",
       "next": [
         {
           "candyCost": 50,
-          "pid": "bronzong"
+          "name": "BRONZONG",
+          "id": "V0437_POKEMON_BRONZONG"
         }
       ]
     }
   ],
   "F_CHATOT": [
     {
-      "pid": "chatot"
+      "id": "V0441_POKEMON_CHATOT",
+      "name": "CHATOT"
     }
   ],
   "F_SPIRITOMB": [
     {
-      "pid": "spiritomb"
+      "id": "V0442_POKEMON_SPIRITOMB",
+      "name": "SPIRITOMB"
     }
   ],
   "F_GIBLE": [
     {
-      "pid": "gible",
+      "id": "V0443_POKEMON_GIBLE",
+      "name": "GIBLE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "gabite",
+          "name": "GABITE",
+          "id": "V0444_POKEMON_GABITE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "garchomp"
+              "name": "GARCHOMP",
+              "id": "V0445_POKEMON_GARCHOMP"
             }
           ]
         }
@@ -2881,239 +3330,313 @@
   ],
   "F_LUCARIO": [
     {
-      "pid": "riolu",
+      "id": "V0447_POKEMON_RIOLU",
+      "name": "RIOLU",
       "next": [
         {
           "candyCost": 50,
-          "pid": "lucario"
+          "name": "LUCARIO",
+          "id": "V0448_POKEMON_LUCARIO"
         }
       ]
     }
   ],
   "F_HIPPOPOTAS": [
     {
-      "pid": "hippopotas",
+      "id": "V0449_POKEMON_HIPPOPOTAS",
+      "name": "HIPPOPOTAS",
       "next": [
         {
           "candyCost": 50,
-          "pid": "hippowdon"
+          "name": "HIPPOWDON",
+          "id": "V0450_POKEMON_HIPPOWDON"
         }
       ]
     }
   ],
   "F_SKORUPI": [
     {
-      "pid": "skorupi",
+      "id": "V0451_POKEMON_SKORUPI",
+      "name": "SKORUPI",
       "next": [
         {
           "candyCost": 50,
-          "pid": "drapion"
+          "name": "DRAPION",
+          "id": "V0452_POKEMON_DRAPION"
         }
       ]
     }
   ],
   "F_CROAGUNK": [
     {
-      "pid": "croagunk",
+      "id": "V0453_POKEMON_CROAGUNK",
+      "name": "CROAGUNK",
       "next": [
         {
           "candyCost": 50,
-          "pid": "toxicroak"
+          "name": "TOXICROAK",
+          "id": "V0454_POKEMON_TOXICROAK"
         }
       ]
     }
   ],
   "F_CARNIVINE": [
     {
-      "pid": "carnivine"
+      "id": "V0455_POKEMON_CARNIVINE",
+      "name": "CARNIVINE"
     }
   ],
   "F_FINNEON": [
     {
-      "pid": "finneon",
+      "id": "V0456_POKEMON_FINNEON",
+      "name": "FINNEON",
       "next": [
         {
           "candyCost": 50,
-          "pid": "lumineon"
+          "name": "LUMINEON",
+          "id": "V0457_POKEMON_LUMINEON"
         }
       ]
     }
   ],
   "F_SNOVER": [
     {
-      "pid": "snover",
+      "id": "V0459_POKEMON_SNOVER",
+      "name": "SNOVER",
       "next": [
         {
           "candyCost": 50,
-          "pid": "abomasnow"
+          "name": "ABOMASNOW",
+          "id": "V0460_POKEMON_ABOMASNOW"
         }
       ]
     }
   ],
   "F_ROTOM": [
     {
-      "pid": "rotom"
+      "id": "V0479_POKEMON_ROTOM_FAN",
+      "form": "ROTOM_FAN",
+      "name": "ROTOM"
     },
     {
-      "pid": "rotom_fan"
+      "id": "V0479_POKEMON_ROTOM_FROST",
+      "form": "ROTOM_FROST",
+      "name": "ROTOM"
     },
     {
-      "pid": "rotom_frost"
+      "id": "V0479_POKEMON_ROTOM_HEAT",
+      "form": "ROTOM_HEAT",
+      "name": "ROTOM"
     },
     {
-      "pid": "rotom_heat"
+      "id": "V0479_POKEMON_ROTOM_MOW",
+      "form": "ROTOM_MOW",
+      "name": "ROTOM"
     },
     {
-      "pid": "rotom_mow"
-    },
-    {
-      "pid": "rotom_wash"
+      "id": "V0479_POKEMON_ROTOM_WASH",
+      "form": "ROTOM_WASH",
+      "name": "ROTOM"
     }
   ],
   "F_UXIE": [
     {
-      "pid": "uxie"
+      "id": "V0480_POKEMON_UXIE",
+      "name": "UXIE"
     }
   ],
   "F_MESPRIT": [
     {
-      "pid": "mesprit"
+      "id": "V0481_POKEMON_MESPRIT",
+      "name": "MESPRIT"
     }
   ],
   "F_AZELF": [
     {
-      "pid": "azelf"
+      "id": "V0482_POKEMON_AZELF",
+      "name": "AZELF"
     }
   ],
   "F_DIALGA": [
     {
-      "pid": "dialga"
+      "id": "V0483_POKEMON_DIALGA",
+      "name": "DIALGA"
     }
   ],
   "F_PALKIA": [
     {
-      "pid": "palkia"
+      "id": "V0484_POKEMON_PALKIA",
+      "name": "PALKIA"
     }
   ],
   "F_HEATRAN": [
     {
-      "pid": "heatran"
+      "id": "V0485_POKEMON_HEATRAN",
+      "name": "HEATRAN"
     }
   ],
   "F_REGIGIGAS": [
     {
-      "pid": "regigigas"
+      "id": "V0486_POKEMON_REGIGIGAS",
+      "name": "REGIGIGAS"
     }
   ],
   "F_GIRATINA": [
     {
-      "pid": "giratina_altered"
+      "id": "V0487_POKEMON_GIRATINA_ALTERED",
+      "form": "GIRATINA_ALTERED",
+      "name": "GIRATINA"
     },
     {
-      "pid": "giratina_origin"
+      "id": "V0487_POKEMON_GIRATINA_ORIGIN",
+      "form": "GIRATINA_ORIGIN",
+      "name": "GIRATINA"
     }
   ],
   "F_CRESSELIA": [
     {
-      "pid": "cresselia"
+      "id": "V0488_POKEMON_CRESSELIA",
+      "name": "CRESSELIA"
     }
   ],
   "F_PHIONE": [
     {
-      "pid": "phione"
+      "id": "V0489_POKEMON_PHIONE",
+      "name": "PHIONE"
     }
   ],
   "F_MANAPHY": [
     {
-      "pid": "manaphy",
-      "parentPid": "phione"
+      "id": "V0490_POKEMON_MANAPHY",
+      "name": "MANAPHY",
+      "parent": "PHIONE"
     }
   ],
   "F_DARKRAI": [
     {
-      "pid": "darkrai"
+      "id": "V0491_POKEMON_DARKRAI",
+      "name": "DARKRAI"
     }
   ],
   "F_SHAYMIN": [
     {
-      "pid": "shaymin_land"
+      "id": "V0492_POKEMON_SHAYMIN_LAND",
+      "form": "SHAYMIN_LAND",
+      "name": "SHAYMIN"
     },
     {
-      "pid": "shaymin_sky"
+      "id": "V0492_POKEMON_SHAYMIN_SKY",
+      "form": "SHAYMIN_SKY",
+      "name": "SHAYMIN"
     }
   ],
   "F_ARCEUS": [
     {
-      "pid": "arceus"
+      "id": "V0493_POKEMON_ARCEUS_BUG",
+      "form": "ARCEUS_BUG",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_bug"
+      "id": "V0493_POKEMON_ARCEUS_DARK",
+      "form": "ARCEUS_DARK",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_dark"
+      "id": "V0493_POKEMON_ARCEUS_DRAGON",
+      "form": "ARCEUS_DRAGON",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_dragon"
+      "id": "V0493_POKEMON_ARCEUS_ELECTRIC",
+      "form": "ARCEUS_ELECTRIC",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_electric"
+      "id": "V0493_POKEMON_ARCEUS_FAIRY",
+      "form": "ARCEUS_FAIRY",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_fairy"
+      "id": "V0493_POKEMON_ARCEUS_FIGHTING",
+      "form": "ARCEUS_FIGHTING",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_fighting"
+      "id": "V0493_POKEMON_ARCEUS_FIRE",
+      "form": "ARCEUS_FIRE",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_fire"
+      "id": "V0493_POKEMON_ARCEUS_FLYING",
+      "form": "ARCEUS_FLYING",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_flying"
+      "id": "V0493_POKEMON_ARCEUS_GHOST",
+      "form": "ARCEUS_GHOST",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_ghost"
+      "id": "V0493_POKEMON_ARCEUS_GRASS",
+      "form": "ARCEUS_GRASS",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_grass"
+      "id": "V0493_POKEMON_ARCEUS_GROUND",
+      "form": "ARCEUS_GROUND",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_ground"
+      "id": "V0493_POKEMON_ARCEUS_ICE",
+      "form": "ARCEUS_ICE",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_ice"
+      "id": "V0493_POKEMON_ARCEUS_POISON",
+      "form": "ARCEUS_POISON",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_poison"
+      "id": "V0493_POKEMON_ARCEUS_PSYCHIC",
+      "form": "ARCEUS_PSYCHIC",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_psychic"
+      "id": "V0493_POKEMON_ARCEUS_ROCK",
+      "form": "ARCEUS_ROCK",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_rock"
+      "id": "V0493_POKEMON_ARCEUS_STEEL",
+      "form": "ARCEUS_STEEL",
+      "name": "ARCEUS"
     },
     {
-      "pid": "arceus_steel"
-    },
-    {
-      "pid": "arceus_water"
+      "id": "V0493_POKEMON_ARCEUS_WATER",
+      "form": "ARCEUS_WATER",
+      "name": "ARCEUS"
     }
   ],
   "F_VICTINI": [
     {
-      "pid": "victini"
+      "id": "V0494_POKEMON_VICTINI",
+      "name": "VICTINI"
     }
   ],
   "F_SNIVY": [
     {
-      "pid": "snivy",
+      "id": "V0495_POKEMON_SNIVY",
+      "name": "SNIVY",
       "next": [
         {
           "candyCost": 25,
-          "pid": "servine",
+          "name": "SERVINE",
+          "id": "V0496_POKEMON_SERVINE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "serperior"
+              "name": "SERPERIOR",
+              "id": "V0497_POKEMON_SERPERIOR"
             }
           ]
         }
@@ -3122,15 +3645,18 @@
   ],
   "F_TEPIG": [
     {
-      "pid": "tepig",
+      "id": "V0498_POKEMON_TEPIG",
+      "name": "TEPIG",
       "next": [
         {
           "candyCost": 25,
-          "pid": "pignite",
+          "name": "PIGNITE",
+          "id": "V0499_POKEMON_PIGNITE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "emboar"
+              "name": "EMBOAR",
+              "id": "V0500_POKEMON_EMBOAR"
             }
           ]
         }
@@ -3139,15 +3665,18 @@
   ],
   "F_OSHAWOTT": [
     {
-      "pid": "oshawott",
+      "id": "V0501_POKEMON_OSHAWOTT",
+      "name": "OSHAWOTT",
       "next": [
         {
           "candyCost": 25,
-          "pid": "dewott",
+          "name": "DEWOTT",
+          "id": "V0502_POKEMON_DEWOTT",
           "next": [
             {
               "candyCost": 100,
-              "pid": "samurott"
+              "name": "SAMUROTT",
+              "id": "V0503_POKEMON_SAMUROTT"
             }
           ]
         }
@@ -3156,26 +3685,31 @@
   ],
   "F_PATRAT": [
     {
-      "pid": "patrat",
+      "id": "V0504_POKEMON_PATRAT",
+      "name": "PATRAT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "watchog"
+          "name": "WATCHOG",
+          "id": "V0505_POKEMON_WATCHOG"
         }
       ]
     }
   ],
   "F_LILLIPUP": [
     {
-      "pid": "lillipup",
+      "id": "V0506_POKEMON_LILLIPUP",
+      "name": "LILLIPUP",
       "next": [
         {
           "candyCost": 25,
-          "pid": "herdier",
+          "name": "HERDIER",
+          "id": "V0507_POKEMON_HERDIER",
           "next": [
             {
               "candyCost": 100,
-              "pid": "stoutland"
+              "name": "STOUTLAND",
+              "id": "V0508_POKEMON_STOUTLAND"
             }
           ]
         }
@@ -3184,82 +3718,95 @@
   ],
   "F_PURRLOIN": [
     {
-      "pid": "purrloin",
+      "id": "V0509_POKEMON_PURRLOIN",
+      "name": "PURRLOIN",
       "next": [
         {
           "candyCost": 50,
-          "pid": "liepard"
+          "name": "LIEPARD",
+          "id": "V0510_POKEMON_LIEPARD"
         }
       ]
     }
   ],
   "F_PANSAGE": [
     {
-      "pid": "pansage",
+      "id": "V0511_POKEMON_PANSAGE",
+      "name": "PANSAGE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "simisage",
+          "name": "SIMISAGE",
           "requirement": [
             "item:ITEM_GEN5_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0512_POKEMON_SIMISAGE"
         }
       ]
     }
   ],
   "F_PANSEAR": [
     {
-      "pid": "pansear",
+      "id": "V0513_POKEMON_PANSEAR",
+      "name": "PANSEAR",
       "next": [
         {
           "candyCost": 50,
-          "pid": "simisear",
+          "name": "SIMISEAR",
           "requirement": [
             "item:ITEM_GEN5_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0514_POKEMON_SIMISEAR"
         }
       ]
     }
   ],
   "F_PANPOUR": [
     {
-      "pid": "panpour",
+      "id": "V0515_POKEMON_PANPOUR",
+      "name": "PANPOUR",
       "next": [
         {
           "candyCost": 50,
-          "pid": "simipour",
+          "name": "SIMIPOUR",
           "requirement": [
             "item:ITEM_GEN5_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0516_POKEMON_SIMIPOUR"
         }
       ]
     }
   ],
   "F_MUNNA": [
     {
-      "pid": "munna",
+      "id": "V0517_POKEMON_MUNNA",
+      "name": "MUNNA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "musharna",
+          "name": "MUSHARNA",
           "requirement": [
             "item:ITEM_GEN5_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0518_POKEMON_MUSHARNA"
         }
       ]
     }
   ],
   "F_PIDOVE": [
     {
-      "pid": "pidove",
+      "id": "V0519_POKEMON_PIDOVE",
+      "name": "PIDOVE",
       "next": [
         {
           "candyCost": 12,
-          "pid": "tranquill",
+          "name": "TRANQUILL",
+          "id": "V0520_POKEMON_TRANQUILL",
           "next": [
             {
               "candyCost": 50,
-              "pid": "unfezant"
+              "name": "UNFEZANT",
+              "id": "V0521_POKEMON_UNFEZANT"
             }
           ]
         }
@@ -3268,27 +3815,32 @@
   ],
   "F_BLITZLE": [
     {
-      "pid": "blitzle",
+      "id": "V0522_POKEMON_BLITZLE",
+      "name": "BLITZLE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "zebstrika"
+          "name": "ZEBSTRIKA",
+          "id": "V0523_POKEMON_ZEBSTRIKA"
         }
       ]
     }
   ],
   "F_ROGGENROLA": [
     {
-      "pid": "roggenrola",
+      "id": "V0524_POKEMON_ROGGENROLA",
+      "name": "ROGGENROLA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "boldore",
+          "name": "BOLDORE",
+          "id": "V0525_POKEMON_BOLDORE",
           "next": [
             {
               "candyCost": 200,
-              "pid": "gigalith",
-              "tradeevolve": true
+              "noCandyCostViaTrade": true,
+              "name": "GIGALITH",
+              "id": "V0526_POKEMON_GIGALITH"
             }
           ]
         }
@@ -3297,46 +3849,54 @@
   ],
   "F_WOOBAT": [
     {
-      "pid": "woobat",
+      "id": "V0527_POKEMON_WOOBAT",
+      "name": "WOOBAT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "swoobat",
+          "name": "SWOOBAT",
           "requirement": [
             "km:1"
-          ]
+          ],
+          "id": "V0528_POKEMON_SWOOBAT"
         }
       ]
     }
   ],
   "F_DRILBUR": [
     {
-      "pid": "drilbur",
+      "id": "V0529_POKEMON_DRILBUR",
+      "name": "DRILBUR",
       "next": [
         {
           "candyCost": 50,
-          "pid": "excadrill"
+          "name": "EXCADRILL",
+          "id": "V0530_POKEMON_EXCADRILL"
         }
       ]
     }
   ],
   "F_AUDINO": [
     {
-      "pid": "audino"
+      "id": "V0531_POKEMON_AUDINO",
+      "name": "AUDINO"
     }
   ],
   "F_TIMBURR": [
     {
-      "pid": "timburr",
+      "id": "V0532_POKEMON_TIMBURR",
+      "name": "TIMBURR",
       "next": [
         {
           "candyCost": 50,
-          "pid": "gurdurr",
+          "name": "GURDURR",
+          "id": "V0533_POKEMON_GURDURR",
           "next": [
             {
               "candyCost": 200,
-              "pid": "conkeldurr",
-              "tradeevolve": true
+              "noCandyCostViaTrade": true,
+              "name": "CONKELDURR",
+              "id": "V0534_POKEMON_CONKELDURR"
             }
           ]
         }
@@ -3345,15 +3905,18 @@
   ],
   "F_TYMPOLE": [
     {
-      "pid": "tympole",
+      "id": "V0535_POKEMON_TYMPOLE",
+      "name": "TYMPOLE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "palpitoad",
+          "name": "PALPITOAD",
+          "id": "V0536_POKEMON_PALPITOAD",
           "next": [
             {
               "candyCost": 100,
-              "pid": "seismitoad"
+              "name": "SEISMITOAD",
+              "id": "V0537_POKEMON_SEISMITOAD"
             }
           ]
         }
@@ -3362,25 +3925,30 @@
   ],
   "F_THROH": [
     {
-      "pid": "throh"
+      "id": "V0538_POKEMON_THROH",
+      "name": "THROH"
     }
   ],
   "F_SAWK": [
     {
-      "pid": "sawk"
+      "id": "V0539_POKEMON_SAWK",
+      "name": "SAWK"
     }
   ],
   "F_SEWADDLE": [
     {
-      "pid": "sewaddle",
+      "id": "V0540_POKEMON_SEWADDLE",
+      "name": "SEWADDLE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "swadloon",
+          "name": "SWADLOON",
+          "id": "V0541_POKEMON_SWADLOON",
           "next": [
             {
               "candyCost": 100,
-              "pid": "leavanny"
+              "name": "LEAVANNY",
+              "id": "V0542_POKEMON_LEAVANNY"
             }
           ]
         }
@@ -3389,15 +3957,18 @@
   ],
   "F_VENIPEDE": [
     {
-      "pid": "venipede",
+      "id": "V0543_POKEMON_VENIPEDE",
+      "name": "VENIPEDE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "whirlipede",
+          "name": "WHIRLIPEDE",
+          "id": "V0544_POKEMON_WHIRLIPEDE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "scolipede"
+              "name": "SCOLIPEDE",
+              "id": "V0545_POKEMON_SCOLIPEDE"
             }
           ]
         }
@@ -3406,48 +3977,62 @@
   ],
   "F_COTTONEE": [
     {
-      "pid": "cottonee",
+      "id": "V0546_POKEMON_COTTONEE",
+      "name": "COTTONEE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "whimsicott",
+          "name": "WHIMSICOTT",
           "requirement": [
             "item:ITEM_SUN_STONE"
-          ]
+          ],
+          "id": "V0547_POKEMON_WHIMSICOTT"
         }
       ]
     }
   ],
   "F_PETILIL": [
     {
-      "pid": "petilil",
+      "id": "V0548_POKEMON_PETILIL",
+      "name": "PETILIL",
       "next": [
         {
           "candyCost": 50,
-          "pid": "lilligant",
+          "name": "LILLIGANT",
           "requirement": [
             "item:ITEM_SUN_STONE"
-          ]
+          ],
+          "id": "V0549_POKEMON_LILLIGANT"
         }
       ]
     }
   ],
   "F_BASCULIN": [
     {
-      "pid": "basculin"
+      "id": "V0550_POKEMON_BASCULIN_BLUE_STRIPED",
+      "form": "BASCULIN_BLUE_STRIPED",
+      "name": "BASCULIN"
+    },
+    {
+      "id": "V0550_POKEMON_BASCULIN_RED_STRIPED",
+      "form": "BASCULIN_RED_STRIPED",
+      "name": "BASCULIN"
     }
   ],
   "F_SANDILE": [
     {
-      "pid": "sandile",
+      "id": "V0551_POKEMON_SANDILE",
+      "name": "SANDILE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "krokorok",
+          "name": "KROKOROK",
+          "id": "V0552_POKEMON_KROKOROK",
           "next": [
             {
               "candyCost": 50,
-              "pid": "krookodile"
+              "name": "KROOKODILE",
+              "id": "V0553_POKEMON_KROOKODILE"
             }
           ]
         }
@@ -3456,136 +4041,157 @@
   ],
   "F_DARUMAKA": [
     {
-      "pid": "darumaka",
+      "id": "V0554_POKEMON_DARUMAKA",
+      "name": "DARUMAKA",
       "next": [
         {
           "candyCost": 50,
-          "form": "darmanitan_standard",
-          "pid": "darmanitan"
+          "form": "DARMANITAN_STANDARD",
+          "name": "DARMANITAN",
+          "id": "V0555_POKEMON_DARMANITAN_STANDARD"
         }
       ]
     },
     {
-      "pid": "darmanitan_standard",
-      "parentPid": "darumaka"
-    },
-    {
-      "pid": "darmanitan_zen",
-      "parentPid": "darumaka"
+      "id": "V0555_POKEMON_DARMANITAN_ZEN",
+      "form": "DARMANITAN_ZEN",
+      "name": "DARMANITAN",
+      "parent": "DARUMAKA"
     }
   ],
   "F_MARACTUS": [
     {
-      "pid": "maractus"
+      "id": "V0556_POKEMON_MARACTUS",
+      "name": "MARACTUS"
     }
   ],
   "F_DWEBBLE": [
     {
-      "pid": "dwebble",
+      "id": "V0557_POKEMON_DWEBBLE",
+      "name": "DWEBBLE",
       "next": [
         {
           "candyCost": 50,
-          "pid": "crustle"
+          "name": "CRUSTLE",
+          "id": "V0558_POKEMON_CRUSTLE"
         }
       ]
     }
   ],
   "F_SCRAGGY": [
     {
-      "pid": "scraggy",
+      "id": "V0559_POKEMON_SCRAGGY",
+      "name": "SCRAGGY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "scrafty"
+          "name": "SCRAFTY",
+          "id": "V0560_POKEMON_SCRAFTY"
         }
       ]
     }
   ],
   "F_SIGILYPH": [
     {
-      "pid": "sigilyph"
+      "id": "V0561_POKEMON_SIGILYPH",
+      "name": "SIGILYPH"
     }
   ],
   "F_YAMASK": [
     {
-      "pid": "yamask",
+      "id": "V0562_POKEMON_YAMASK",
+      "name": "YAMASK",
       "next": [
         {
           "candyCost": 50,
-          "pid": "cofagrigus"
+          "name": "COFAGRIGUS",
+          "id": "V0563_POKEMON_COFAGRIGUS"
         }
       ]
     }
   ],
   "F_TIRTOUGA": [
     {
-      "pid": "tirtouga",
+      "id": "V0564_POKEMON_TIRTOUGA",
+      "name": "TIRTOUGA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "carracosta"
+          "name": "CARRACOSTA",
+          "id": "V0565_POKEMON_CARRACOSTA"
         }
       ]
     }
   ],
   "F_ARCHEN": [
     {
-      "pid": "archen",
+      "id": "V0566_POKEMON_ARCHEN",
+      "name": "ARCHEN",
       "next": [
         {
           "candyCost": 50,
-          "pid": "archeops"
+          "name": "ARCHEOPS",
+          "id": "V0567_POKEMON_ARCHEOPS"
         }
       ]
     }
   ],
   "F_TRUBBISH": [
     {
-      "pid": "trubbish",
+      "id": "V0568_POKEMON_TRUBBISH",
+      "name": "TRUBBISH",
       "next": [
         {
           "candyCost": 50,
-          "pid": "garbodor"
+          "name": "GARBODOR",
+          "id": "V0569_POKEMON_GARBODOR"
         }
       ]
     }
   ],
   "F_ZORUA": [
     {
-      "pid": "zorua",
+      "id": "V0570_POKEMON_ZORUA",
+      "name": "ZORUA",
       "next": [
         {
           "candyCost": 50,
-          "pid": "zoroark"
+          "name": "ZOROARK",
+          "id": "V0571_POKEMON_ZOROARK"
         }
       ]
     }
   ],
   "F_MINCCINO": [
     {
-      "pid": "minccino",
+      "id": "V0572_POKEMON_MINCCINO",
+      "name": "MINCCINO",
       "next": [
         {
           "candyCost": 50,
-          "pid": "cinccino",
+          "name": "CINCCINO",
           "requirement": [
             "item:ITEM_GEN5_EVOLUTION_STONE"
-          ]
+          ],
+          "id": "V0573_POKEMON_CINCCINO"
         }
       ]
     }
   ],
   "F_GOTHITA": [
     {
-      "pid": "gothita",
+      "id": "V0574_POKEMON_GOTHITA",
+      "name": "GOTHITA",
       "next": [
         {
           "candyCost": 25,
-          "pid": "gothorita",
+          "name": "GOTHORITA",
+          "id": "V0575_POKEMON_GOTHORITA",
           "next": [
             {
               "candyCost": 100,
-              "pid": "gothitelle"
+              "name": "GOTHITELLE",
+              "id": "V0576_POKEMON_GOTHITELLE"
             }
           ]
         }
@@ -3594,15 +4200,18 @@
   ],
   "F_SOLOSIS": [
     {
-      "pid": "solosis",
+      "id": "V0577_POKEMON_SOLOSIS",
+      "name": "SOLOSIS",
       "next": [
         {
           "candyCost": 25,
-          "pid": "duosion",
+          "name": "DUOSION",
+          "id": "V0578_POKEMON_DUOSION",
           "next": [
             {
               "candyCost": 100,
-              "pid": "reuniclus"
+              "name": "REUNICLUS",
+              "id": "V0579_POKEMON_REUNICLUS"
             }
           ]
         }
@@ -3611,26 +4220,31 @@
   ],
   "F_DUCKLETT": [
     {
-      "pid": "ducklett",
+      "id": "V0580_POKEMON_DUCKLETT",
+      "name": "DUCKLETT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "swanna"
+          "name": "SWANNA",
+          "id": "V0581_POKEMON_SWANNA"
         }
       ]
     }
   ],
   "F_VANILLITE": [
     {
-      "pid": "vanillite",
+      "id": "V0582_POKEMON_VANILLITE",
+      "name": "VANILLITE",
       "next": [
         {
           "candyCost": 25,
-          "pid": "vanillish",
+          "name": "VANILLISH",
+          "id": "V0583_POKEMON_VANILLISH",
           "next": [
             {
               "candyCost": 100,
-              "pid": "vanilluxe"
+              "name": "VANILLUXE",
+              "id": "V0584_POKEMON_VANILLUXE"
             }
           ]
         }
@@ -3639,142 +4253,162 @@
   ],
   "F_DEERLING": [
     {
-      "pid": "deerling"
-    },
-    {
-      "pid": "deerling_autumn",
+      "id": "V0585_POKEMON_DEERLING_AUTUMN",
+      "form": "DEERLING_AUTUMN",
+      "name": "DEERLING",
       "next": [
         {
           "candyCost": 50,
-          "form": "sawsbuck_autumn",
-          "pid": "sawsbuck"
+          "form": "SAWSBUCK_AUTUMN",
+          "name": "SAWSBUCK",
+          "id": "V0586_POKEMON_SAWSBUCK_AUTUMN"
         }
       ]
     },
     {
-      "pid": "deerling_spring",
+      "id": "V0585_POKEMON_DEERLING_SPRING",
+      "form": "DEERLING_SPRING",
+      "name": "DEERLING",
       "next": [
         {
           "candyCost": 50,
-          "form": "sawsbuck_spring",
-          "pid": "sawsbuck"
+          "form": "SAWSBUCK_SPRING",
+          "name": "SAWSBUCK",
+          "id": "V0586_POKEMON_SAWSBUCK_SPRING"
         }
       ]
     },
     {
-      "pid": "deerling_summer",
+      "id": "V0585_POKEMON_DEERLING_SUMMER",
+      "form": "DEERLING_SUMMER",
+      "name": "DEERLING",
       "next": [
         {
           "candyCost": 50,
-          "form": "sawsbuck_summer",
-          "pid": "sawsbuck"
+          "form": "SAWSBUCK_SUMMER",
+          "name": "SAWSBUCK",
+          "id": "V0586_POKEMON_SAWSBUCK_SUMMER"
         }
       ]
     },
     {
-      "pid": "deerling_winter",
+      "id": "V0585_POKEMON_DEERLING_WINTER",
+      "form": "DEERLING_WINTER",
+      "name": "DEERLING",
       "next": [
         {
           "candyCost": 50,
-          "form": "sawsbuck_winter",
-          "pid": "sawsbuck"
+          "form": "SAWSBUCK_WINTER",
+          "name": "SAWSBUCK",
+          "id": "V0586_POKEMON_SAWSBUCK_WINTER"
         }
       ]
-    },
-    {
-      "pid": "sawsbuck_autumn",
-      "parentPid": "deerling"
-    },
-    {
-      "pid": "sawsbuck_spring",
-      "parentPid": "deerling"
-    },
-    {
-      "pid": "sawsbuck_summer",
-      "parentPid": "deerling"
-    },
-    {
-      "pid": "sawsbuck_winter",
-      "parentPid": "deerling"
     }
   ],
   "F_EMOLGA": [
     {
-      "pid": "emolga"
+      "id": "V0587_POKEMON_EMOLGA",
+      "name": "EMOLGA"
     }
   ],
   "F_KARRABLAST": [
     {
-      "pid": "karrablast",
+      "id": "V0588_POKEMON_KARRABLAST",
+      "name": "KARRABLAST",
       "next": [
         {
           "candyCost": 200,
-          "pid": "escavalier",
-          "tradeevolve": true
+          "noCandyCostViaTrade": true,
+          "name": "ESCAVALIER",
+          "id": "V0589_POKEMON_ESCAVALIER"
         }
       ]
     }
   ],
   "F_FOONGUS": [
     {
-      "pid": "foongus",
+      "id": "V0590_POKEMON_FOONGUS",
+      "name": "FOONGUS",
       "next": [
         {
           "candyCost": 50,
-          "pid": "amoonguss"
+          "name": "AMOONGUSS",
+          "id": "V0591_POKEMON_AMOONGUSS"
         }
       ]
     }
   ],
   "F_FRILLISH": [
     {
-      "pid": "frillish",
+      "id": "V0592_POKEMON_FRILLISH",
+      "name": "FRILLISH",
       "next": [
         {
           "candyCost": 50,
-          "pid": "jellicent"
+          "name": "JELLICENT",
+          "id": "V0593_POKEMON_JELLICENT_FEMALE"
+        }
+      ]
+    },
+    {
+      "id": "V0592_POKEMON_FRILLISH_FEMALE",
+      "form": "FRILLISH_FEMALE",
+      "name": "FRILLISH",
+      "next": [
+        {
+          "candyCost": 50,
+          "form": "JELLICENT_FEMALE",
+          "name": "JELLICENT"
         }
       ]
     }
   ],
   "F_ALOMOMOLA": [
     {
-      "pid": "alomomola"
+      "id": "V0594_POKEMON_ALOMOMOLA",
+      "name": "ALOMOMOLA"
     }
   ],
   "F_JOLTIK": [
     {
-      "pid": "joltik",
+      "id": "V0595_POKEMON_JOLTIK",
+      "name": "JOLTIK",
       "next": [
         {
           "candyCost": 50,
-          "pid": "galvantula"
+          "name": "GALVANTULA",
+          "id": "V0596_POKEMON_GALVANTULA"
         }
       ]
     }
   ],
   "F_FERROSEED": [
     {
-      "pid": "ferroseed",
+      "id": "V0597_POKEMON_FERROSEED",
+      "name": "FERROSEED",
       "next": [
         {
           "candyCost": 50,
-          "pid": "ferrothorn"
+          "name": "FERROTHORN",
+          "id": "V0598_POKEMON_FERROTHORN"
         }
       ]
     }
   ],
   "F_KLINK": [
     {
-      "pid": "klink",
+      "id": "V0599_POKEMON_KLINK",
+      "name": "KLINK",
       "next": [
         {
           "candyCost": 25,
-          "pid": "klang",
+          "name": "KLANG",
+          "id": "V0600_POKEMON_KLANG",
           "next": [
             {
               "candyCost": 100,
-              "pid": "klinklang"
+              "name": "KLINKLANG",
+              "id": "V0601_POKEMON_KLINKLANG"
             }
           ]
         }
@@ -3783,49 +4417,60 @@
   ],
   "F_TYNAMO": [
     {
-      "pid": "tynamo",
+      "id": "V0602_POKEMON_TYNAMO",
+      "name": "TYNAMO",
       "next": [
         {
           "candyCost": 25,
-          "pid": "eelektrik",
-          "next": [
-            {
-              "candyCost": 100,
-              "pid": "eelektross",
-              "requirement": [
-                "item:ITEM_GEN5_EVOLUTION_STONE"
-              ]
-            }
-          ]
+          "name": "EELEKTRIK"
+        }
+      ]
+    },
+    {
+      "id": "V0603_POKEMON_EELEKTRIK",
+      "name": "EELEKTRIK",
+      "next": [
+        {
+          "candyCost": 100,
+          "name": "EELEKTROSS",
+          "requirement": [
+            "item:ITEM_GEN5_EVOLUTION_STONE"
+          ],
+          "id": "V0604_POKEMON_EELEKTROSS"
         }
       ]
     }
   ],
   "F_ELGYEM": [
     {
-      "pid": "elgyem",
+      "id": "V0605_POKEMON_ELGYEM",
+      "name": "ELGYEM",
       "next": [
         {
           "candyCost": 50,
-          "pid": "beheeyem"
+          "name": "BEHEEYEM",
+          "id": "V0606_POKEMON_BEHEEYEM"
         }
       ]
     }
   ],
   "F_LITWICK": [
     {
-      "pid": "litwick",
+      "id": "V0607_POKEMON_LITWICK",
+      "name": "LITWICK",
       "next": [
         {
           "candyCost": 25,
-          "pid": "lampent",
+          "name": "LAMPENT",
+          "id": "V0608_POKEMON_LAMPENT",
           "next": [
             {
               "candyCost": 100,
-              "pid": "chandelure",
+              "name": "CHANDELURE",
               "requirement": [
                 "item:ITEM_GEN5_EVOLUTION_STONE"
-              ]
+              ],
+              "id": "V0609_POKEMON_CHANDELURE"
             }
           ]
         }
@@ -3834,15 +4479,18 @@
   ],
   "F_AXEW": [
     {
-      "pid": "axew",
+      "id": "V0610_POKEMON_AXEW",
+      "name": "AXEW",
       "next": [
         {
           "candyCost": 25,
-          "pid": "fraxure",
+          "name": "FRAXURE",
+          "id": "V0611_POKEMON_FRAXURE",
           "next": [
             {
               "candyCost": 100,
-              "pid": "haxorus"
+              "name": "HAXORUS",
+              "id": "V0612_POKEMON_HAXORUS"
             }
           ]
         }
@@ -3851,123 +4499,146 @@
   ],
   "F_CUBCHOO": [
     {
-      "pid": "cubchoo",
+      "id": "V0613_POKEMON_CUBCHOO",
+      "name": "CUBCHOO",
       "next": [
         {
           "candyCost": 50,
-          "pid": "beartic"
+          "name": "BEARTIC",
+          "id": "V0614_POKEMON_BEARTIC"
         }
       ]
     }
   ],
   "F_CRYOGONAL": [
     {
-      "pid": "cryogonal"
+      "id": "V0615_POKEMON_CRYOGONAL",
+      "name": "CRYOGONAL"
     }
   ],
   "F_SHELMET": [
     {
-      "pid": "shelmet",
+      "id": "V0616_POKEMON_SHELMET",
+      "name": "SHELMET",
       "next": [
         {
           "candyCost": 200,
-          "pid": "accelgor",
-          "tradeevolve": true
+          "noCandyCostViaTrade": true,
+          "name": "ACCELGOR",
+          "id": "V0617_POKEMON_ACCELGOR"
         }
       ]
     }
   ],
   "F_STUNFISK": [
     {
-      "pid": "stunfisk"
+      "id": "V0618_POKEMON_STUNFISK",
+      "name": "STUNFISK"
     }
   ],
   "F_MIENFOO": [
     {
-      "pid": "mienfoo",
+      "id": "V0619_POKEMON_MIENFOO",
+      "name": "MIENFOO",
       "next": [
         {
           "candyCost": 50,
-          "pid": "mienshao"
+          "name": "MIENSHAO",
+          "id": "V0620_POKEMON_MIENSHAO"
         }
       ]
     }
   ],
   "F_DRUDDIGON": [
     {
-      "pid": "druddigon"
+      "id": "V0621_POKEMON_DRUDDIGON",
+      "name": "DRUDDIGON"
     }
   ],
   "F_GOLETT": [
     {
-      "pid": "golett",
+      "id": "V0622_POKEMON_GOLETT",
+      "name": "GOLETT",
       "next": [
         {
           "candyCost": 50,
-          "pid": "golurk"
+          "name": "GOLURK",
+          "id": "V0623_POKEMON_GOLURK"
         }
       ]
     }
   ],
   "F_PAWNIARD": [
     {
-      "pid": "pawniard",
+      "id": "V0624_POKEMON_PAWNIARD",
+      "name": "PAWNIARD",
       "next": [
         {
           "candyCost": 50,
-          "pid": "bisharp"
+          "name": "BISHARP",
+          "id": "V0625_POKEMON_BISHARP"
         }
       ]
     }
   ],
   "F_BOUFFALANT": [
     {
-      "pid": "bouffalant"
+      "id": "V0626_POKEMON_BOUFFALANT",
+      "name": "BOUFFALANT"
     }
   ],
   "F_RUFFLET": [
     {
-      "pid": "rufflet",
+      "id": "V0627_POKEMON_RUFFLET",
+      "name": "RUFFLET",
       "next": [
         {
           "candyCost": 50,
-          "pid": "braviary"
+          "name": "BRAVIARY",
+          "id": "V0628_POKEMON_BRAVIARY"
         }
       ]
     }
   ],
   "F_VULLABY": [
     {
-      "pid": "vullaby",
+      "id": "V0629_POKEMON_VULLABY",
+      "name": "VULLABY",
       "next": [
         {
           "candyCost": 50,
-          "pid": "mandibuzz"
+          "name": "MANDIBUZZ",
+          "id": "V0630_POKEMON_MANDIBUZZ"
         }
       ]
     }
   ],
   "F_HEATMOR": [
     {
-      "pid": "heatmor"
+      "id": "V0631_POKEMON_HEATMOR",
+      "name": "HEATMOR"
     }
   ],
   "F_DURANT": [
     {
-      "pid": "durant"
+      "id": "V0632_POKEMON_DURANT",
+      "name": "DURANT"
     }
   ],
   "F_DEINO": [
     {
-      "pid": "deino",
+      "id": "V0633_POKEMON_DEINO",
+      "name": "DEINO",
       "next": [
         {
           "candyCost": 25,
-          "pid": "zweilous",
+          "name": "ZWEILOUS",
+          "id": "V0634_POKEMON_ZWEILOUS",
           "next": [
             {
               "candyCost": 100,
-              "pid": "hydreigon"
+              "name": "HYDREIGON",
+              "id": "V0635_POKEMON_HYDREIGON"
             }
           ]
         }
@@ -3976,115 +4647,150 @@
   ],
   "F_LARVESTA": [
     {
-      "pid": "larvesta",
+      "id": "V0636_POKEMON_LARVESTA",
+      "name": "LARVESTA",
       "next": [
         {
           "candyCost": 400,
-          "pid": "volcarona"
+          "name": "VOLCARONA",
+          "id": "V0637_POKEMON_VOLCARONA"
         }
       ]
     }
   ],
   "F_COBALION": [
     {
-      "pid": "cobalion"
+      "id": "V0638_POKEMON_COBALION",
+      "name": "COBALION"
     }
   ],
   "F_TERRAKION": [
     {
-      "pid": "terrakion"
+      "id": "V0639_POKEMON_TERRAKION",
+      "name": "TERRAKION"
     }
   ],
   "F_VIRIZION": [
     {
-      "pid": "virizion"
+      "id": "V0640_POKEMON_VIRIZION",
+      "name": "VIRIZION"
     }
   ],
   "F_TORNADUS": [
     {
-      "pid": "tornadus_incarnate"
+      "id": "V0641_POKEMON_TORNADUS_INCARNATE",
+      "form": "TORNADUS_INCARNATE",
+      "name": "TORNADUS"
     },
     {
-      "pid": "tornadus_therian"
+      "id": "V0641_POKEMON_TORNADUS_THERIAN",
+      "form": "TORNADUS_THERIAN",
+      "name": "TORNADUS"
     }
   ],
   "F_THUNDURUS": [
     {
-      "pid": "thundurus_incarnate"
+      "id": "V0642_POKEMON_THUNDURUS_INCARNATE",
+      "form": "THUNDURUS_INCARNATE",
+      "name": "THUNDURUS"
     },
     {
-      "pid": "thundurus_therian"
+      "id": "V0642_POKEMON_THUNDURUS_THERIAN",
+      "form": "THUNDURUS_THERIAN",
+      "name": "THUNDURUS"
     }
   ],
   "F_RESHIRAM": [
     {
-      "pid": "reshiram"
+      "id": "V0643_POKEMON_RESHIRAM",
+      "name": "RESHIRAM"
     }
   ],
   "F_ZEKROM": [
     {
-      "pid": "zekrom"
+      "id": "V0644_POKEMON_ZEKROM",
+      "name": "ZEKROM"
     }
   ],
   "F_LANDORUS": [
     {
-      "pid": "landorus_incarnate"
+      "id": "V0645_POKEMON_LANDORUS_INCARNATE",
+      "form": "LANDORUS_INCARNATE",
+      "name": "LANDORUS"
     },
     {
-      "pid": "landorus_therian"
+      "id": "V0645_POKEMON_LANDORUS_THERIAN",
+      "form": "LANDORUS_THERIAN",
+      "name": "LANDORUS"
     }
   ],
   "F_KYUREM": [
     {
-      "pid": "kyurem_normal"
+      "id": "V0646_POKEMON_KYUREM_BLACK",
+      "form": "KYUREM_BLACK",
+      "name": "KYUREM"
     },
     {
-      "pid": "kyurem_black"
-    },
-    {
-      "pid": "kyurem_white"
+      "id": "V0646_POKEMON_KYUREM_WHITE",
+      "form": "KYUREM_WHITE",
+      "name": "KYUREM"
     }
   ],
   "F_KELDEO": [
     {
-      "pid": "keldeo_ordinary"
+      "id": "V0647_POKEMON_KELDEO_ORDINARY",
+      "form": "KELDEO_ORDINARY",
+      "name": "KELDEO"
     },
     {
-      "pid": "keldeo_resolute"
+      "id": "V0647_POKEMON_KELDEO_RESOLUTE",
+      "form": "KELDEO_RESOLUTE",
+      "name": "KELDEO"
     }
   ],
   "F_MELOETTA": [
     {
-      "pid": "meloetta_aria"
+      "id": "V0648_POKEMON_MELOETTA_ARIA",
+      "form": "MELOETTA_ARIA",
+      "name": "MELOETTA"
     },
     {
-      "pid": "meloetta_pirouette"
+      "id": "V0648_POKEMON_MELOETTA_PIROUETTE",
+      "form": "MELOETTA_PIROUETTE",
+      "name": "MELOETTA"
     }
   ],
   "F_GENESECT": [
     {
-      "pid": "genesect"
+      "id": "V0649_POKEMON_GENESECT_BURN",
+      "form": "GENESECT_BURN",
+      "name": "GENESECT"
     },
     {
-      "pid": "genesect_burn"
+      "id": "V0649_POKEMON_GENESECT_CHILL",
+      "form": "GENESECT_CHILL",
+      "name": "GENESECT"
     },
     {
-      "pid": "genesect_chill"
+      "id": "V0649_POKEMON_GENESECT_DOUSE",
+      "form": "GENESECT_DOUSE",
+      "name": "GENESECT"
     },
     {
-      "pid": "genesect_douse"
-    },
-    {
-      "pid": "genesect_shock"
+      "id": "V0649_POKEMON_GENESECT_SHOCK",
+      "form": "GENESECT_SHOCK",
+      "name": "GENESECT"
     }
   ],
   "F_MELTAN": [
     {
-      "pid": "meltan",
+      "id": "V0808_POKEMON_MELTAN",
+      "name": "MELTAN",
       "next": [
         {
           "candyCost": 400,
-          "pid": "melmetal"
+          "name": "MELMETAL",
+          "id": "V0809_POKEMON_MELMETAL"
         }
       ]
     }
