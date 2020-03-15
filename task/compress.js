@@ -8,7 +8,7 @@ module.exports = function compressJSON(data) {
   let pmProps = data.pokemon.reduce((all, pm) => {
     ['fastMoves', 'chargedMoves', 'legacyMoves'].forEach(mt => {
       if (!pm[mt]) { return; }
-      pm[mt] = pm[mt].map(moveId => queryMid(moveId));
+      pm[mt] = pm[mt].map(moveId => queryMid(moveId)).join(',');
     });
 
     return all.concat(Object.keys(pm));

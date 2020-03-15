@@ -34,7 +34,7 @@ export function decompressJSON(json) {
   json.pokemon = json.pokemon.map(pmArr => {
     let pmObj = pmArr.reduce((all, value, index) => {
       if (['fastMoves', 'chargedMoves', 'legacyMoves'].indexOf(pmProps[index]) !== -1) {
-        value = value && value.map((mid) => queryMoveName(mid, json.moves));
+        value = value && value.split(',').map((mid) => queryMoveName(mid, json.moves));
       }
       if (value !== null) {
         all[pmProps[index]] = value;
