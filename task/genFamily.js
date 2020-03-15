@@ -137,24 +137,30 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
       let removedIdx = [];
       fff[f].forEach((i, pmindex) => {
         delete i.id;
-        let _parent;
-        let parentName = i.parent;
-        if (!parentName) { return; }
+
+        if (!i.parent) { return; }
 
         { // find inject path
           fff[f]
-          .filter(i2 => i2.next)
           .some(i2 => {
             delete i2.id;
+            if (!i2.next) {
+              return false;
+            }
+
+            // check i2.next contain i.name & i.form
             return i2.next.some(i3 => {
-              let isSame = (i3.name === i.name) && (!i3.form || i3.form === i.form);
+              let isSame = i.form ?
+                (i.form === i3.form && i.name === i3.name) :
+                (i.name === i3.name);
+
               if (isSame) {
-                delete i3.id
                 i3.next = i.next;
                 removedIdx.push(pmindex);
               }
+
               return isSame;
-            })
+            });
           });
         }
       });
