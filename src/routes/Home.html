@@ -6,7 +6,6 @@
 
   $: {
     if ($pokemons.length) {
-      q = q.toLowerCase();
       result = q ?[queryPm(q), queryMove(q)] : [[], []];
     }
   }
