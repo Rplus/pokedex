@@ -168,6 +168,14 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
       let loopNext = (pms) => {
         pms.forEach(pm => {
           if (pm.form) {
+            let _formData = ALL.formSettings.find(form => form.data.formSettings.pokemon === pm.name)
+
+            if (_formData) {
+              let _targetForm = _formData.data.formSettings.forms.find(_f => _f.form === pm.form);
+              if (_targetForm && _targetForm.assetBundleValue) {
+                pm.iso = _targetForm.assetBundleValue;
+              }
+            }
             pm.name = pm.form;
             delete pm.form;
           }
