@@ -118,17 +118,25 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
       });
     }
 
+    // remove something
     fff[f] = fff[f].filter(i => {
       return (
-        (hasShadow && !i.form || !/(_NORMAL|_SHADOW|_PURIFIED)$/.test(i.form) ) &&
-        ((hasALOLA || hasGALARIAN) && !i.form || !/(_NORMAL)$/.test(i.form) ) &&
-        (!i.form || !/(_2019)$/.test(i.form)) &&
-        !ggIds.includes(i.id)
+        // shadow & purified normal type
+        !( hasShadow && /(_NORMAL|_SHADOW|_PURIFIED)$/.test(i.form) ) &&
+
+        // alola's normal type
+        !( ( (hasALOLA || hasGALARIAN) && /(_NORMAL)$/.test(i.form) ) )&&
+
+        // 2019 event
+        !(i.form && /(_2019)$/.test(i.form)) &&
+
+        // blacklist
+        ggIds.indexOf(i.id) === -1
       );
     });
 
     if (fff[f].some(i => i.form && (!i.form.includes('_ALOLA') && !i.form.includes('_GALARIAN') ))) {
-      console.info('====', f);
+      console.info('xxxx care xxxx', f);
       // console.log(fff[f]);
     }
 
