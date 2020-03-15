@@ -1,0 +1,62 @@
+
+<div class="card card-switcher">
+  <label class="switcher df jc-c fxw-w mb-2 mt-2 ml-a mr-a">
+    <slot name="checkbox" />
+    <span class="switcher-icon ml-2 mr-2"></span>
+    <div class="pt-2">
+      <span class="switcher-text">PVP</span>
+      <span class="switcher-text">PVE</span>
+    </div>
+  </label>
+</div>
+
+
+
+<style>
+  .switcher {
+    width: 4.5rem;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .switcher-icon {
+    position: relative;
+    top: .15em;
+    width: 1.5em;
+    height: .7em;
+    background-color: #ccf;
+    border-radius: 1em;
+    font-size: 1rem;
+  }
+  .switcher-icon::before {
+    content: '';
+    position: absolute;
+    top: -.15em;
+    left: -.25em;
+    width: 1em;
+    height: 1em;
+    background-color: #66c;
+    border-radius: 1em;
+    transition: transform .3s;
+  }
+  .switcher-input:checked ~ .switcher-icon::before {
+    transform: translateX(100%);
+  }
+
+  .card-switcher {
+    position: sticky;
+    top: 0;
+    width: fit-content;
+    transform: translateX(40rem);
+    margin-bottom: -3.75rem;
+  }
+
+  @media (max-width: 900px) {
+    .card-switcher {
+      position: static;
+      transform: unset;
+      width: unset;
+      margin-bottom: 1rem;
+    }
+  }
+</style>
