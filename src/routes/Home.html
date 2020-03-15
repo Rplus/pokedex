@@ -1,7 +1,7 @@
 <script>
   import { pokemons, moves } from '@/stores.js';
 
-  let q = new URLSearchParams(location.search).get('q') || 'shadow';
+  let q = new URLSearchParams(location.search).get('q') || '';
   let result = [[], []];
 
   $: {
@@ -12,26 +12,28 @@
   }
 
   $: {
-    window.history.replaceState(null, '', `?q=${q}`);
+    window.history.replaceState(null, '', q ? `?q=${q}` : '');
   }
 
   function queryPm(kwd) {
     return $pokemons.filter(pm => {
+      let r = new RegExp(kwd, 'i');
       return (
-        pm.uid.indexOf(kwd) !== -1 ||
-        pm.name.indexOf(kwd) !== -1 ||
-        pm.id.indexOf(kwd) !== -1 ||
-        pm.types.indexOf(kwd) !== -1
+        r.test(pm.uid) ||
+        r.test(pm.name) ||
+        r.test(pm.id) ||
+        r.test(pm.types)
       );
     });
   }
 
   function queryMove(kwd) {
     return $moves.filter(move => {
+      let r = new RegExp(kwd, 'i');
       return (
-        move.name.indexOf(kwd) !== -1 ||
-        move.moveId.toLowerCase().indexOf(kwd) !== -1 ||
-        move.type.indexOf(kwd) !== -1
+        r.test(move.name) ||
+        r.test(move.moveId) ||
+        r.test(move.type)
       );
     });
   }
