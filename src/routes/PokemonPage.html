@@ -91,7 +91,9 @@ $: {
 
       <Details type="pm_family">
         <summary dir="ltr">進化鏈</summary>
-        <Family pm={pm} />
+        <div style="--uid-bdw-{pm.uid}: 1px;">
+          <Family pm={pm} />
+        </div>
       </Details>
 
       <Details type="meta_info">
