@@ -31,15 +31,28 @@ export function decompressJSON(json) {
     return moveObj;
   });
 
-  json.pokemon = json.pokemon.map(pmArr => {
-    let pmObj = pmArr.reduce((all, value, index) => {
-      if (['fastMoves', 'chargedMoves', 'legacyMoves'].indexOf(pmProps[index]) !== -1) {
-        value = value && value.split(',').map((mid) => queryMoveName(mid, json.moves));
+  json.pokemon = json.pokemon.map(pmDataArr => {
+    let pmObj = pmDataArr.reduce((pm, value, index) => {
+      let prop = pmProps[index];
+      switch(prop) {
+        case 'types':
+          value = value.split(',');
+          break;
+
+        case 'fastMoves':
+        case 'chargedMoves':
+        case 'legacyMoves':
+          value = value && value.split(',').map((mid) => queryMoveName(mid, json.moves));
+          break;
+
+        default:
+          break;
       }
+
       if (value !== null) {
-        all[pmProps[index]] = value;
+        pm[prop] = value;
       }
-      return all;
+      return pm;
     }, {});
     return pmObj;
   });

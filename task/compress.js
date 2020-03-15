@@ -11,6 +11,8 @@ module.exports = function compressJSON(data) {
       pm[mt] = pm[mt].map(moveId => queryMid(moveId)).join(',');
     });
 
+    pm.types = pm.types && pm.types.join(',');
+
     return all.concat(Object.keys(pm));
   }, []);
   pmProps = [...new Set(pmProps)];
