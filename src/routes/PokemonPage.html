@@ -18,6 +18,20 @@ let ads;
 let nextPm;
 let prevPm;
 let genderText;
+let pvpokeLinks = [
+  {
+    cp: 1500,
+    title: '超級',
+  },
+  {
+    cp: 2500,
+    title: '高級',
+  },
+  {
+    cp: 10000,
+    title: '大師',
+  },
+];
 
 $: {
   if ($pokemons.length) {
@@ -61,7 +75,7 @@ $: {
 
     <FloatLink pm1={prevPm} pm2={nextPm} />
 
-    <div class="card">
+    <div class="card pos-r">
         <h2 class="df fxw-w">
           <div class="df fxw-w">
             <Ruby>
@@ -82,16 +96,20 @@ $: {
           <ADSBar pm={pm} class="ml-a fw-n" />
         </h2>
 
-      <div class="support-links fz-s text-right">
+      <div class="pvpoke-links fz-s text-right">
         check in PvPoke[tw]:
-        <a class="text-no-decoration" href="https://pvpoketw.com/rankings/all/1500/overall/{pm.id}/" target="pvp1500">超級</a>
-        <a class="text-no-decoration" href="https://pvpoketw.com/rankings/all/2500/overall/{pm.id}/" target="pvp2500">高級</a>
-        <a class="text-no-decoration" href="https://pvpoketw.com/rankings/all/10000/overall/{pm.id}/" target="pvp10000">大師</a>
+        {#each pvpokeLinks as link}
+          <a class="text-no-decoration" target="pvp{link.cp}"
+            href="https://pvpoketw.com/rankings/all/{link.cp}/overall/{pm.id.toLowerCase()}/"
+          >
+            {link.title}
+          </a>
+        {/each}
       </div>
 
       <Details type="pm_family">
-        <summary dir="ltr">進化鏈</summary>
-        <div style="--uid-bdw-{pm.uid}: 1px;">
+        <summary>進化鏈</summary>
+        <div class="mb-4" style="--uid-bdw-{pm.uid}: 1px;">
           <Family pm={pm} />
         </div>
       </Details>
@@ -116,7 +134,6 @@ $: {
             <td>{fixNum(pm.captureRate * 100)}%</td>
           </tr>
           <tr>
-            <!-- TODO -->
             <td colspan="2">
               性別比 ♂ {genderText} ♀
             </td>
@@ -140,3 +157,13 @@ $: {
     </details>
   </section>
 {/if}
+
+
+
+<style>
+  .pvpoke-links {
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
+  }
+</style>
