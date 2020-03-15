@@ -17,6 +17,7 @@ let pm;
 let ads;
 let nextPm;
 let prevPm;
+let genderText;
 
 $: {
   if ($pokemons.length) {
@@ -37,6 +38,12 @@ $: {
 
     prevPm = $pokemons[prevIdx];
     nextPm = $pokemons[nextIdx];
+
+    genderText = pm.genderMF.map(i => `${i}%`).join(' : ');
+    console.log(pm.genderMF);
+    if (pm.genderMF[0] === 0 && pm.genderMF[1] === 0) {
+      genderText = '--';
+    }
   }
 }
 
@@ -108,8 +115,9 @@ $: {
           </tr>
           <tr>
             <!-- TODO -->
-            <td>性別比 ♂:♀</td>
-            <td>{pm.genderMF.map(i => `${i}%`).join(' : ')}</td>
+            <td colspan="2">
+              性別比 ♂ {genderText} ♀
+            </td>
           </tr>
         </table>
       </Details>
