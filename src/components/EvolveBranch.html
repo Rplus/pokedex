@@ -5,7 +5,8 @@
 
   $: {
     data.pm = getPm(data.name);
-    data.src = cdnImgSrc(pmImgFN(`000${data.pm.dex}`.slice(-3), data.iso));
+    let fn = data.suffix ? data.suffix : `000${data.pm.dex}`.slice(-3) + (data.iso ? `_${data.iso}` : '_00');
+    data.src = cdnImgSrc(pmImgFN(fn));
   }
 
   let candySrc = cdnImgSrc(`${ASSET_FOLDER}static_assets/png/pokemon_details_candy.png`, 32);
@@ -17,8 +18,8 @@
     return $pokemons.find(pm => pm.id === pid);
   }
 
-  function pmImgFN(dex3, iso = '00') {
-    return `${ASSET_FOLDER}/pokemon_icons/pokemon_icon_${dex3}_${iso}.png`;
+  function pmImgFN(fn) {
+    return `${ASSET_FOLDER}/pokemon_icons/pokemon_icon_${fn}.png`;
   }
 </script>
 

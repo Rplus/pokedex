@@ -181,6 +181,9 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
               if (_targetForm && _targetForm.assetBundleValue) {
                 pm.iso = _targetForm.assetBundleValue;
               }
+              if (_targetForm && _targetForm.assetBundleSuffix) {
+                pm.suffix = _targetForm.assetBundleSuffix;
+              }
             }
             pm.name = pm.form;
             delete pm.form;
