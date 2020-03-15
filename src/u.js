@@ -71,20 +71,22 @@ export function handlePm(pms) {
     if (idx !== indexOfFirstDex) {
       form = pms[idx].id.replace(/^.+_/, '_');
     }
-    pms[idx].uid = `${dex}${form}`;
 
-    if (pms[idx].name.indexOf(' ') !== -1) {
-      pms[idx].formName = pms[idx].name.split(' ');
+    let pm = pms[idx];
+    pm.uid = `${dex}${form}`;
+
+    if (pm.name.indexOf(' ') !== -1) {
+      pm.formName = pm.name.split(' ');
     }
 
     let _cphp = calPmCPHP({
-      atk: pms[idx]._atk,
-      def: pms[idx]._def,
-      sta: pms[idx]._sta,
+      atk: pm._atk,
+      def: pm._def,
+      sta: pm._sta,
     }, [15, 15, 15, 40]);
 
-    pms[idx].maxcp = _cphp.cp;
-    pms[idx].maxhp = _cphp.hp;
+    pm.maxcp = _cphp.cp;
+    pm.maxhp = _cphp.hp;
   });
   return pms.filter(Boolean);
 }
