@@ -24671,7 +24671,7 @@
       "mid": "133",
       "isFast": false,
       "pve_power": 35,
-      "pve_energyDelta": 0,
+      "pve_energyDelta": -33,
       "pve_duration": 2.2,
       "pve_damageWindowStart": 1.2,
       "pve_damageWindowEnd": 2
