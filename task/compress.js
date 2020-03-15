@@ -28,7 +28,7 @@ module.exports = function compressJSON(data) {
     }),
     moves: data.moves.map(move => {
       return moveProps.map(prop => {
-        return move[prop] || null;
+        return move[prop];
       });
     }),
   }

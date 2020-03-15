@@ -24,7 +24,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
         id: pm.templateId,
         form: pmdata.form,
         name: pmdata.pokemonId,
-        parent: pmdata.parentPokemonId,
+        prev: pmdata.parentPokemonId,
         next: pmdata.evolutionBranch && pmdata.evolutionBranch.map(i => {
           i.name = i.evolution;
           // i.id = ALL.pokemonSettings.find(pm => {
@@ -46,6 +46,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
             i.mustBeBuddy && 'buddy',
             i.onlyNighttime && 'night',
             i.onlyDaytime && 'day',
+            i.noCandyCostViaTrade && 'free:Trade',
           ].filter(Boolean);
           if (requirement.length) {
             i.requirement = requirement;
@@ -59,6 +60,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
           delete i.mustBeBuddy;
           delete i.onlyNighttime;
           delete i.onlyDaytime;
+          delete i.noCandyCostViaTrade;
           return i;
         }),
       }
@@ -70,6 +72,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
   let multiFamily = ['FAMILY_CASTFORM', 'FAMILY_DEOXYS', 'FAMILY_BURMY', ]
   let ggIds = [
     "V0150_POKEMON_MEWTWO_NORMAL",
+    "V0226_POKEMON_MANTINE", // ????
     "V0351_POKEMON_CASTFORM",
     "V0386_POKEMON_DEOXYS",
     "V0412_POKEMON_BURMY",
@@ -146,7 +149,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
       fff[f].forEach((i, pmindex) => {
         delete i.id;
 
-        if (!i.parent) { return; }
+        if (!i.prev) { return; }
 
         { // find inject path
           fff[f]
@@ -174,6 +177,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
       });
 
       fff[f] = fff[f].filter((i, idx) => {
+        // return 1;
         return !removedIdx.includes(idx);
       });
     }
@@ -193,8 +197,8 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
                 pm.suffix = _targetForm.assetBundleSuffix;
               }
             }
-            pm.name = pm.form;
-            delete pm.form;
+            // pm.name = pm.form;
+            // delete pm.form;
           }
           if (pm.next) {
             loopNext(pm.next);

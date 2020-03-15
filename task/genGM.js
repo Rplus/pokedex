@@ -148,7 +148,6 @@ function doMove(moves) {
     moves.push(move_hiddenpower_normal);
   }
 
-
   {
     moves = moves.map(mmm => {
       let pveData = queryMove(mmm.moveId);
@@ -164,7 +163,8 @@ function doMove(moves) {
       }
 
       if (mmm.moveId === 'STRUGGLE') {
-        mmm.pve_energyDelta = -33;
+        // mmm.pve_energyDelta = -33;
+        pveData.energyDelta = -33;
       }
 
       let {
