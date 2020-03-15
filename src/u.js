@@ -87,6 +87,9 @@ export function handlePm(pms) {
 
     pm.maxcp = _cphp.cp;
     pm.maxhp = _cphp.hp;
+    if (!pm.genderMF) {
+      pm.genderMF = [0, 0];
+    }
   });
   return pms.filter(Boolean);
 }
