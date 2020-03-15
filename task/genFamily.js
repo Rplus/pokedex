@@ -27,6 +27,16 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
         parent: pmdata.parentPokemonId,
         next: pmdata.evolutionBranch && pmdata.evolutionBranch.map(i => {
           i.name = i.evolution;
+          // i.id = ALL.pokemonSettings.find(pm => {
+          //   return (pm.data.pokemonSettings.pokemonId === i.name) &&
+          //   (!i.form || i.form === pm.data.pokemonSettings.form)
+          // });
+
+          // if (i.id) {
+          //   i.id = i.id.templateId;
+          // } else {
+          //   console.log(123, 'gg', i.name);
+          // }
 
           let requirement = [
             i.evolutionItemRequirement && `item:${i.evolutionItemRequirement}`,
@@ -126,6 +136,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
     { // nested
       let removedIdx = [];
       fff[f].forEach((i, pmindex) => {
+        delete i.id;
         let _parent;
         let parentName = i.parent;
         if (!parentName) { return; }
@@ -134,18 +145,15 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
           fff[f]
           .filter(i2 => i2.next)
           .some(i2 => {
-            i2.name === i.parent
-            i.form === i.form
-
+            delete i2.id;
             return i2.next.some(i3 => {
-              let ooo = (i3.name === i.name) &&
-              (!i3.form || i3.form === i.form);
-              if (ooo) {
-                i3.id = i.id;
+              let isSame = (i3.name === i.name) && (!i3.form || i3.form === i.form);
+              if (isSame) {
+                delete i3.id
                 i3.next = i.next;
                 removedIdx.push(pmindex);
               }
-              return ooo;
+              return isSame;
             })
           });
         }
@@ -156,6 +164,20 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
       });
     }
 
+    { // remove form & id
+      let loopNext = (pms) => {
+        pms.forEach(pm => {
+          if (pm.form) {
+            pm.name = pm.form;
+            delete pm.form;
+          }
+          if (pm.next) {
+            loopNext(pm.next);
+          }
+        })
+      };
+      loopNext(fff[f]);
+    }
   }
 
   return fff;

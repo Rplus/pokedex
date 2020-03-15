@@ -102,7 +102,7 @@ function doPM(pokemon, shadowPokemon) {
         _atk: pm.baseStats.atk,
         _def: pm.baseStats.def,
         _sta: pm.baseStats.hp,
-        id: pm.speciesId.toUpperCase(),
+        id: pm.speciesId.toUpperCase().replace('_ALOLAN', '_ALOLA'),
         types: types.filter(t => t !== 'none'),
         name: (pm_tw || pm).speciesName,
       };
