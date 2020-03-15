@@ -192,6 +192,10 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
       };
       loopNext(fff[f]);
     }
+
+    fff[f].sort((a, b) => {
+      return (a.iso || 0) - (b.iso || 0);
+    })
   }
 
   return fff;
