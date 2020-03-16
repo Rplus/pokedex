@@ -75,25 +75,25 @@ $: {
     <FloatLink pm1={prevPm} pm2={nextPm} />
 
     <div class="card pos-r">
-        <h2 class="df fxw-w">
-          <div class="df fxw-w">
-            <Ruby>
-              <div slot="rb">
-                {pm.name}
-              </div>
-              <div slot="rt" class="fw-n text-uppercase">{pm.id}</div>
-            </Ruby>
+      <h2 class="df fxw-w">
+        <div class="df fxw-w">
+          <Ruby>
+            <div slot="rb">
+              {pm.name}
+            </div>
+            <div slot="rt" class="fw-n text-uppercase">{pm.id}</div>
+          </Ruby>
 
-            <sup class="fw-n ml-1 mr-1">#{pm.dex}</sup>
-            <span class="d-if">
-              {#each pm.types as type}
-                <TypeIcon type={type} class="mr-1" />
-              {/each}
-            </span>
-          </div>
+          <sup class="fw-n ml-1 mr-1">#{pm.dex}</sup>
+          <span class="d-if">
+            {#each pm.types as type}
+              <TypeIcon type={type} class="mr-1" />
+            {/each}
+          </span>
+        </div>
 
-          <ADSBar pm={pm} class="ml-a fw-n" />
-        </h2>
+        <ADSBar pm={pm} class="ml-a fw-n" />
+      </h2>
 
       <div class="pvpoke-links fz-s text-right">
         check in PvPoke[tw]:
