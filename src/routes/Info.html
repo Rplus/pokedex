@@ -1,6 +1,6 @@
 <script>
 import CPM from '@d/cpm.js';
-import { fixNum } from '@/u.js';
+import { pvp_eff } from '@d/eff.js';
 import TypeTable from '@c/TypeTable.html';
 import CostCalc from '@c/CostCalc.html';
 import Details from '@c/Details.html';
@@ -8,17 +8,6 @@ import Details from '@c/Details.html';
 let _cpm = Object.keys(CPM)
   .map(lv => ({ lv: lv, m: CPM[lv] }))
   .sort((a, b) => a.lv - b.lv);
-
-let pvp_eff = [
-  {
-    type: 'buff',
-    value: [5, 6, 7, 8].map(i => fixNum(i / 4)),
-  },
-  {
-    type: 'debuff',
-    value: [5, 6, 7, 8].map(i => fixNum(4 / i)),
-  },
-];
 
 </script>
 
