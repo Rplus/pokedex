@@ -89,10 +89,10 @@
             <th data-sort="name">Name</th>
 
             <!-- PVE -->
-            <th hidden={!ispve} data-sort="pve_power">D</th>
+            <th hidden={!ispve} data-sort="pve_power" title="Damage">D</th>
 
             <!-- PVP -->
-            <th hidden={ispve} data-sort="power">D</th>
+            <th hidden={ispve} data-sort="power" title="Damage">D</th>
 
             {#if mmm.setting === 'fmove'}
               <!-- PVE -->
@@ -140,20 +140,24 @@
                 </a>
               </Ruby>
             </td>
-            <td hidden={!ispve}>{item.pve_power}</td>
-            <td hidden={ispve} data-efficon={item.efficon}>{item.power}</td>
+            <td data-efficon={item.efficon}>{ispve ? item.pve_power : item.power}</td>
+
             {#if mmm.setting === 'fmove'}
+              <td>{ispve ? item.pve_energyDelta : item.energyGain}</td>
+              <td>{ispve ? item.pve_duration : item.turn}</td>
+              <td>{ispve ? item.pve_dps : item.dpt}</td>
+              <td>{ispve ? item.pve_eps : item.ept}</td>
               <!-- PVE fast -->
-              <td hidden={!ispve}>{item.pve_energyDelta}</td>
-              <td hidden={!ispve}>{item.pve_duration}</td>
-              <td hidden={!ispve}>{item.pve_dps}</td>
-              <td hidden={!ispve}>{item.pve_eps}</td>
+              <!-- <td hidden={!ispve}>{item.pve_energyDelta}</td> -->
+              <!-- <td hidden={!ispve}>{item.pve_duration}</td> -->
+              <!-- <td hidden={!ispve}>{item.pve_dps}</td> -->
+              <!-- <td hidden={!ispve}>{item.pve_eps}</td> -->
 
               <!-- PVP fast -->
-              <td hidden={ispve}>{item.energyGain}</td>
-              <td hidden={ispve}>{item.turn}</td>
-              <td hidden={ispve}>{item.dpt}</td>
-              <td hidden={ispve}>{item.ept}</td>
+              <!-- <td hidden={ispve}>{item.energyGain}</td> -->
+              <!-- <td hidden={ispve}>{item.turn}</td> -->
+              <!-- <td hidden={ispve}>{item.dpt}</td> -->
+              <!-- <td hidden={ispve}>{item.ept}</td> -->
               <td hidden={ispve}>{item.eptxdpt}</td>
             {:else}
               <!-- PVE Charge -->

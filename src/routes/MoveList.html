@@ -102,19 +102,25 @@
           </a>
         </td>
 
+        <td>{isPVE ? item.pve_power : item.power}</td>
+        <td>{isPVE ? item.pve_energyDelta : item.energyGain}</td>
+        <td>{isPVE ? item.pve_duration : item.turn}</td>
+        <td>{isPVE ? item.pve_dps : item.dpt}</td>
+        <td>{isPVE ? item.pve_eps : item.ept}</td>
+
         <!-- PVE -->
-        <td hidden={!isPVE}>{item.pve_power}</td>
-        <td hidden={!isPVE}>{item.pve_energyDelta}</td>
-        <td hidden={!isPVE}>{item.pve_duration}</td>
-        <td hidden={!isPVE}>{item.pve_dps}</td>
-        <td hidden={!isPVE}>{item.pve_eps}</td>
+        <!-- <td hidden={!isPVE}>{item.pve_power}</td> -->
+        <!-- <td hidden={!isPVE}>{item.pve_energyDelta}</td> -->
+        <!-- <td hidden={!isPVE}>{item.pve_duration}</td> -->
+        <!-- <td hidden={!isPVE}>{item.pve_dps}</td> -->
+        <!-- <td hidden={!isPVE}>{item.pve_eps}</td> -->
 
         <!-- PVP -->
-        <td hidden={isPVE}>{item.power}</td>
-        <td hidden={isPVE}>{item.energyGain}</td>
-        <td hidden={isPVE}>{item.turn}</td>
-        <td hidden={isPVE}>{item.dpt}</td>
-        <td hidden={isPVE}>{item.ept}</td>
+        <!-- <td hidden={isPVE}>{item.power}</td> -->
+        <!-- <td hidden={isPVE}>{item.energyGain}</td> -->
+        <!-- <td hidden={isPVE}>{item.turn}</td> -->
+        <!-- <td hidden={isPVE}>{item.dpt}</td> -->
+        <!-- <td hidden={isPVE}>{item.ept}</td> -->
         <td hidden={isPVE}>{item.eptxdpt}</td>
       </tr>
     </TableSort>
