@@ -1,7 +1,7 @@
 <script>
   import { moves } from '@/stores.js';
   import { copy, fixNum } from '@/u.js';
-  import { types, queryTypeEffect } from '@d/eff.js';
+  import { types, types_zh, queryTypeEffect } from '@d/eff.js';
   import { TableSort } from 'svelte-tablesort';
 
   import TTFA from '@c/TTFA.html';
@@ -16,7 +16,11 @@
 
   let opponentType1 = '';
   let opponentType2 = '';
-  let _types = ['', ...types];
+
+  let _types = [
+    { v: '', l: '--' },
+    ...types.map((t, idx) => ({ v: t, l: types_zh[idx] }))
+  ];
 
   $: {
     opponentType1;
@@ -135,19 +139,26 @@
 
 <Details type="opponent_type" class="card opponent_type_card">
   <summary><h3>模擬對方屬性</h3></summary>
-  type1:
-  <select bind:value={opponentType1} class="text-capitalize">
-    {#each _types as type}
-      <option value={type}>{type}</option>
-    {/each}
-    <!-- {@html typeOptions} -->
-  </select>
-  type2:
-  <select bind:value={opponentType2} class="text-capitalize">
-    {#each _types as type}
-      <option value={type}>{type}</option>
-    {/each}
-  </select>
+  <div class="df jc-se">
+    <div>
+      type 1:
+      <select bind:value={opponentType1} class="text-capitalize">
+        {#each _types as type}
+          <option value={type.v}>{type.l} {type.v}</option>
+        {/each}
+        <!-- {@html typeOptions} -->
+      </select>
+    </div>
+
+    <div>
+      type 2:
+      <select bind:value={opponentType2} class="text-capitalize">
+        {#each _types as type}
+          <option value={type.v}>{type.l} {type.v}</option>
+        {/each}
+      </select>
+    </div>
+  </div>
 </Details>
 
 
