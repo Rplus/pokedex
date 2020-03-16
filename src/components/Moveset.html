@@ -1,7 +1,7 @@
 <script>
   import { moves } from '@/stores.js';
   import { copy, fixNum } from '@/u.js';
-  import { types, types_zh, queryTypeEffect } from '@d/eff.js';
+  import { types, types_zh, pvp_eff, queryTypeEffect } from '@d/eff.js';
   import { TableSort } from 'svelte-tablesort';
 
   import TTFA from '@c/TTFA.html';
@@ -22,9 +22,13 @@
     ...types.map((t, idx) => ({ v: t, l: types_zh[idx] }))
   ];
 
+  let forceBuff = 1;
+  let forceBuffOptions = (pvp_eff.map(i => i.value).flat()).concat(forceBuff).sort();
+
   $: {
     opponentType1;
     opponentType2;
+    forceBuff;
 
     lmoves = pm.legacyMoves;
     mdata = [
@@ -49,7 +53,7 @@
   function genMove(mname, isFast) {
     let mmm = queryMove(mname);
 
-    mmm.typeEff = queryTypeEffect(mmm.type, opponentType1, opponentType2);
+    mmm.typeEff = queryTypeEffect(mmm.type, opponentType1, opponentType2) * forceBuff;
     mmm.efficon = (mmm.typeEff === 1) ? '' : ((mmm.typeEff > 1) ? '▲' : '▼');
 
     mmm.power = fixNum(mmm.typeEff * mmm.power);
@@ -158,6 +162,14 @@
         {/each}
       </select>
     </div>
+  </div>
+  <div class="text-center">
+    force Atk buff:
+    <select bind:value={forceBuff}>
+      {#each forceBuffOptions as i}
+        <option value="{i}">{i}</option>
+      {/each}
+    </select>
   </div>
 </Details>
 
