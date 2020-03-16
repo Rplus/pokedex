@@ -148,11 +148,11 @@ $: {
 
     <TypeFactor types={pm.types} />
 
-    <Moveset pm={pm} />
     <Switcher>
       <input slot="checkbox" class="switcher-input hidden-checkbox" type="checkbox" bind:checked={isPVE}>
     </Switcher>
 
+    <Moveset pm={pm} ispve={isPVE} />
 
     <details>
       <summary>raw data</summary>

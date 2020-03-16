@@ -10,6 +10,7 @@
   import Ruby from '@c/Ruby.html';
 
   export let pm;
+  export let ispve;
 
   let lmoves;
   let mdata;
@@ -83,20 +84,42 @@
       <summary><h3>{mmm.title}</h3></summary>
 
       <div>
-        <TableSort items={mmm.data} class="ml-a mr-a">
+        <TableSort items={mmm.data} class="ml-a mr-a text-center {ispve ? 'narrow' : ''}">
           <tr slot="thead">
             <th data-sort="name">Name</th>
-            <th data-sort="power">D</th>
+
+            <!-- PVE -->
+            <th hidden={!ispve} data-sort="pve_power">D</th>
+
+            <!-- PVP -->
+            <th hidden={ispve} data-sort="power">D</th>
+
             {#if mmm.setting === 'fmove'}
-              <th data-sort="energyGain">E</th>
-              <th data-sort="turn">T</th>
-              <th data-sort="dpt">DPT</th>
-              <th data-sort="ept">EPT</th>
-              <th data-sort="eptxdpt" title="EPT x DPT">Π</th>
+              <!-- PVE -->
+              <th hidden={!ispve} data-sort="pve_energyDelta" title="Energy">E</th>
+              <th hidden={!ispve} data-sort="pve_duration" title="Time(s)">T</th>
+              <th hidden={!ispve} data-sort="pve_dps" title="DPS">DPS</th>
+              <th hidden={!ispve} data-sort="pve_eps" title="EPS">EPS</th>
+
+              <!-- PVP -->
+              <th hidden={ispve} data-sort="energyGain" title="Energy">E</th>
+              <th hidden={ispve} data-sort="turn" title="Turns">T</th>
+              <th hidden={ispve} data-sort="dpt" title="Damage per Turn">DPT</th>
+              <th hidden={ispve} data-sort="ept" title="Energy per Turn">EPT</th>
+              <th hidden={ispve} data-sort="eptxdpt" title="EPT x DPT">Π</th>
             {:else}
-              <th data-sort="energy">E</th>
-              <th data-sort="dpe">DPE</th>
-              <th data-sort="effect">Effect</th>
+              <!-- PVE -->
+              <th hidden={!ispve} data-sort="pve_energyDelta" title="Energy">E</th>
+              <th hidden={!ispve} data-sort="pve_duration" title="Time(s)">T</th>
+              <th hidden={!ispve} data-sort="pve_damageWindowStart" title="Active(s)">⚡</th>
+              <th hidden={!ispve} data-sort="pve_dps" title="Damage per Second">DPS</th>
+              <th hidden={!ispve} data-sort="pve_dpe" title="Damage per Energy">DPE</th>
+              <th hidden={!ispve} data-sort="pve_dpsxdpe" title="DPS x DPE">Π</th>
+
+              <!-- PVP -->
+              <th hidden={ispve} data-sort="energy" title="Energy">E</th>
+              <th hidden={ispve} data-sort="dpe" title="Damage per Energy">DPE</th>
+              <th hidden={ispve} data-sort="effect">Effect</th>
             {/if}
           </tr>
 
@@ -117,17 +140,34 @@
                 </a>
               </Ruby>
             </td>
-            <td class="move-power" data-efficon={item.efficon}>{item.power}</td>
+            <td hidden={!ispve}>{item.pve_power}</td>
+            <td hidden={ispve} data-efficon={item.efficon}>{item.power}</td>
             {#if mmm.setting === 'fmove'}
-              <td>{item.energyGain}</td>
-              <td>{item.turn}</td>
-              <td>{item.dpt}</td>
-              <td>{item.ept}</td>
-              <td>{item.eptxdpt}</td>
+              <!-- PVE fast -->
+              <td hidden={!ispve}>{item.pve_energyDelta}</td>
+              <td hidden={!ispve}>{item.pve_duration}</td>
+              <td hidden={!ispve}>{item.pve_dps}</td>
+              <td hidden={!ispve}>{item.pve_eps}</td>
+
+              <!-- PVP fast -->
+              <td hidden={ispve}>{item.energyGain}</td>
+              <td hidden={ispve}>{item.turn}</td>
+              <td hidden={ispve}>{item.dpt}</td>
+              <td hidden={ispve}>{item.ept}</td>
+              <td hidden={ispve}>{item.eptxdpt}</td>
             {:else}
-              <td class="energy-bar" style="--bgzx: {item.energy}%">{item.energy}</td>
-              <td>{item.dpe}</td>
-              <td class="fz-s">{item.effect}</td>
+              <!-- PVE Charge -->
+              <td hidden={!ispve} class="energy-bar" style="--bgzx: {-item.pve_energyDelta}%">{item.pve_energyDelta}</td>
+              <td hidden={!ispve}>{item.pve_duration}</td>
+              <td hidden={!ispve}>{item.pve_damageWindowStart}</td>
+              <td hidden={!ispve}>{item.pve_dps}</td>
+              <td hidden={!ispve}>{item.pve_dpe}</td>
+              <td hidden={!ispve}>{item.pve_dpsxdpe}</td>
+
+              <!-- PVP Charge -->
+              <td hidden={ispve} class="energy-bar" style="--bgzx: {item.energy}%">{item.energy}</td>
+              <td hidden={ispve}>{item.dpe}</td>
+              <td hidden={ispve} class="fz-s">{item.effect}</td>
             {/if}
           </tr>
         </TableSort>
