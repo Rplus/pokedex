@@ -56,6 +56,7 @@ const defaultSettings = {
 const _settings = {
   details: localSettings.details || defaultSettings,
   showAllTable: localSettings.showAllTable,
+  isPVE: localSettings.isPVE,
   // darktheme: localSettings.darktheme === undefined
   //   ? isOsDarktheme
   //   : localSettings.darktheme,

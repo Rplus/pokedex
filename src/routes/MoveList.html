@@ -1,6 +1,6 @@
 <script>
   import { TableSort } from 'svelte-tablesort';
-  import { moves } from '@/stores.js';
+  import { moves, settings } from '@/stores.js';
   import eff from '@d/eff.js';
   import { copy } from '@/u.js';
   import Details from '@c/Details.html';
@@ -9,7 +9,7 @@
   import Switcher from '@c/Switcher.html';
   import Ruby from '@c/Ruby.html';
 
-  let isPVE = false;
+  $: isPVE = $settings.isPVE;
   let _moves;
   let type = location.hash ? location.hash.replace('#', '') : '';
 
@@ -61,9 +61,7 @@
     <TypeFilter type={type} on:clicktype={clicktype} />
   </Details>
 
-  <Switcher>
-    <input slot="checkbox" class="switcher-input hidden-checkbox" type="checkbox" bind:checked={isPVE}>
-  </Switcher>
+  <Switcher />
 
   <Details type="fastmove" class="card">
     <summary><h3>Fast</h3></summary>

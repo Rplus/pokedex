@@ -33,7 +33,6 @@ let pvpokeLinks = [
     title: '大師',
   },
 ];
-let isPVE = false;
 
 $: {
   if ($pokemons.length) {
@@ -148,11 +147,9 @@ $: {
 
     <TypeFactor types={pm.types} />
 
-    <Switcher>
-      <input slot="checkbox" class="switcher-input hidden-checkbox" type="checkbox" bind:checked={isPVE}>
-    </Switcher>
+    <Switcher />
 
-    <Moveset pm={pm} ispve={isPVE} />
+    <Moveset pm={pm} />
 
     <details>
       <summary>raw data</summary>

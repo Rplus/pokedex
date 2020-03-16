@@ -1,5 +1,5 @@
 <script>
-  import { moves } from '@/stores.js';
+  import { moves, settings } from '@/stores.js';
   import { copy, fixNum } from '@/u.js';
   import { types, types_zh, pvp_eff, queryTypeEffect } from '@d/eff.js';
   import { TableSort } from 'svelte-tablesort';
@@ -10,7 +10,7 @@
   import Ruby from '@c/Ruby.html';
 
   export let pm;
-  export let ispve;
+  $: ispve = $settings.isPVE;
 
   let lmoves;
   let mdata;
