@@ -1,11 +1,15 @@
 <script>
-  import { pokemons } from '@/stores.js';
+  import { pokemons, settings } from '@/stores.js';
   import { cdnImgSrc, ASSET_FOLDER } from '@/u.js';
   export let data;
 
   $: {
     data.pm = getPm(data.form || data.name) || getPm(data.name);
-    let fn = data.suffix ? data.suffix : `000${data.pm.dex}`.slice(-3) + (data.iso ? `_${data.iso}` : '_00');
+    let fn = data.suffix
+      ? data.suffix
+      : `000${data.pm.dex}`.slice(-3)
+        + (data.iso ? `_${data.iso}` : '_00')
+        + ($settings.shinyAvatar ? '_shiny' : '');
     data.src = cdnImgSrc(pmImgFN(fn));
   }
 
@@ -103,6 +107,7 @@
     height: var(--unit);
     background-size: cover;
     color: #aaa;
+    zoom: var(--zoom-ratio, 1);
     box-shadow: inset 0 0 1px var(--bdw);
   }
 

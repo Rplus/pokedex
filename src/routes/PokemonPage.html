@@ -1,6 +1,6 @@
 <script>
 export let params = {};
-import { pokemons } from '@/stores.js';
+import { pokemons, settings } from '@/stores.js';
 import Details from '@c/Details.html';
 import CP from '@c/CP.html';
 import Family from '@c/Family.html';
@@ -109,7 +109,18 @@ $: {
 
       <Details type="pm_family">
         <summary>演化分支</summary>
-        <div class="mb-4" style="--uid-bdw-{pm.uid}: 1px;">
+        <div class="mb-4" style="--uid-bdw-{pm.uid}: 1px; --zoom-ratio: {$settings.largeAvatar ? 2 : 1}">
+          <div class="avatar-ctrl fz-s">
+            <label class="label">
+              <input type="checkbox" bind:checked={$settings.largeAvatar}>
+              大圖
+            </label>
+            <br>
+            <label class="label">
+              <input type="checkbox" bind:checked={$settings.shinyAvatar}>
+              異色
+            </label>
+          </div>
           <Family pm={pm} />
         </div>
       </Details>
@@ -167,5 +178,11 @@ $: {
     position: absolute;
     right: .5rem;
     bottom: .5rem;
+  }
+
+  .avatar-ctrl {
+    position: absolute;
+    right: 1rem;
+    color: #666;
   }
 </style>
