@@ -841,7 +841,8 @@
       "_def": 96,
       "_sta": 111,
       "id": "PIKACHU_LIBRE",
-      "name": "皮卡丘 面罩摔角手"
+      "name": "皮卡丘 面罩摔角手",
+      "familyId": "F_PIKACHU"
     },
     {
       "dex": 26,
