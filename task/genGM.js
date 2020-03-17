@@ -107,6 +107,11 @@ function doPM(pokemon, shadowPokemon) {
         name: (pm_tw || pm).speciesName,
       };
 
+      // TODO
+      if (oppm.id === 'PIKACHU_LIBRE') {
+        oppm.familyId = 'F_PIKACHU';
+      }
+
       if (ppp) {
         oppm.captureRate = ppp.encounter.baseCaptureRate && +ppp.encounter.baseCaptureRate.toFixed(2);
         oppm.fleeRate = ppp.encounter.baseFleeRate && +ppp.encounter.baseFleeRate.toFixed(2);

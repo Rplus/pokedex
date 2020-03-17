@@ -211,6 +211,17 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
     fff[f].sort((a, b) => {
       return (a.iso || 0) - (b.iso || 0);
     })
+
+    // TODO
+    if (f === 'F_PIKACHU') {
+      fff[f].push(
+        {
+          "form": "PIKACHU_LIBRE",
+          "name": "PIKACHU",
+          "iso": 16
+        }
+      );
+    }
   }
 
   return fff;
