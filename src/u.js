@@ -87,6 +87,8 @@ export function handlePm(pms) {
 
     pm.maxcp = _cphp.cp;
     pm.maxhp = _cphp.hp;
+    pm.tank = pm._def * pm._sta;
+    pm.tankStr = `${pm.tank}`.slice(0, 3);
     if (!pm.genderMF) {
       pm.genderMF = [0, 0];
     }

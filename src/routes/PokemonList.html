@@ -30,7 +30,7 @@
       if (type && !eff.some(_eff => _eff.type === type)) {
         type = null;
       }
-      _pokemons = moveHandle($pokemons, type, dexRangeMin, dexRangeMax);
+      _pokemons = pmGOGOGO($pokemons, type, dexRangeMin, dexRangeMax);
     }
   };
 
@@ -48,7 +48,7 @@
     dexRangeMax = r2;
   }
 
-  function moveHandle(pokemons, type, dexMin, dexMax) {
+  function pmGOGOGO(pokemons, type, dexMin, dexMax) {
     let [min, max] = [dexMin, dexMax].sort();
     if (type) {
       pokemons = pokemons.filter(pm => pm.types.indexOf(type) !== -1);
