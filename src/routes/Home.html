@@ -1,4 +1,5 @@
 <script>
+  import escapeStringRegexp from 'escape-string-regexp';
   import { pokemons, moves } from '@/stores.js';
 
   let q = new URLSearchParams(location.search).get('q') || '';
@@ -15,8 +16,8 @@
   }
 
   function queryPm(kwd) {
+    let r = new RegExp(escapeStringRegexp(kwd), 'i');
     return $pokemons.filter(pm => {
-      let r = new RegExp(kwd, 'i');
       return (
         r.test(pm.uid) ||
         r.test(pm.name) ||
@@ -27,8 +28,8 @@
   }
 
   function queryMove(kwd) {
+    let r = new RegExp(escapeStringRegexp(kwd), 'i');
     return $moves.filter(move => {
-      let r = new RegExp(kwd, 'i');
       return (
         r.test(move.name) ||
         r.test(move.moveId) ||

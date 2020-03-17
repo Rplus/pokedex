@@ -9,6 +9,7 @@
     "start:dev": "sirv public --dev --single"
   },
   "dependencies": {
+    "escape-string-regexp": "^2.0.0",
     "ganalytics": "^3.1.2",
     "lodash.throttle": "^4.1.1",
     "navaid": "^1.0.2",
