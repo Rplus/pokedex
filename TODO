@@ -17,7 +17,7 @@ TODO
     - 捕捉率、逃跑率
   - 夥伴距離
 
-# move page
+- move page
   - 對手屬性 || 單純權數
   - pve / pve switcher
 
@@ -26,10 +26,11 @@ TODO
 # info
   - candy / stardust cost
 
+# ctrl panel
 x go to top
 # ROUTER fix <base /> in index
 # donate
-# get data from pvpoke, get name from pvpoketw
+- get data from pvpoke, get name from pvpoketw
 
 # 留言版
   ```
