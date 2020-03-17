@@ -153,6 +153,7 @@
         <th data-sort="_atk" title="base Atk">Atk</th>
         <th data-sort="_def" title="base Def">Def</th>
         <th data-sort="_sta" title="base Sta">Sta</th>
+        <th data-sort="tank" title="Def x Sta">Tank</th>
       </tr>
       <tr slot="tbody" let:item={item}>
         <td>{item.dex}</td>
@@ -178,6 +179,7 @@
         <td title="atk">{item._atk}</td>
         <td title="def">{item._def}</td>
         <td title="sta">{item._sta}</td>
+        <td title="Tank">{item.tankStr}</td>
       </tr>
 
 
@@ -194,6 +196,7 @@
         <th title="base Atk">Atk</th>
         <th title="base Def">Def</th>
         <th title="base Sta">Sta</th>
+        <th title="Def x Sta">Tank</th>
       </tr>
     </TableSort>
   </div>
