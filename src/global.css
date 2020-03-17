@@ -20,7 +20,6 @@ body {
   overflow-y: scroll;
 }
 
-
 summary:focus {
   outline: thin dotted;
 }
