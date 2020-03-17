@@ -46,12 +46,17 @@ export const datalist = derived(
 const isOsDarktheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 const localSettings = getItem('settings') || {};
 const defaultSettings = {
-  // head: false,
-  // types: true,
-  // fmove: true,
-  // cmove: true,
-  // pairs: true,
-  // history: true,
+  pm_family: 1,
+  types: 1,
+  fmove: 1,
+  cmove: 1,
+  fastmove: 1,
+  chargemove: 1,
+  pvp_buff: 1,
+  cost_calc: 1,
+  type_table: 1,
+  'move-pair': 1,
+  'types-🛡️': 1,
 };
 const _settings = {
   details: localSettings.details || defaultSettings,
