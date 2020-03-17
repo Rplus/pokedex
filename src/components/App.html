@@ -35,10 +35,11 @@
   let uri = location.pathname;
   $: active = uri.split('/')[1] || 'home';
 
+  let baseURI = '/';
   if (process.env.NODE_ENV === 'production') {
-    $: baseURI = '/pokedex/';
+    baseURI = '/pokedex/';
   } else {
-    $: baseURI = '/';
+    baseURI = '/';
   }
 
   function draw(m, obj) {
