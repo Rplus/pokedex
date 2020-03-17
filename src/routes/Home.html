@@ -50,7 +50,7 @@
     <ul>
       {#each result[0] as item}
         <li class="mb-1">
-          <a class="result-link" href="/pokemon/{item.uid}">
+          <a class="result-link" href="./pokemon/{item.uid}">
             #{item.dex} {item.name} {item.id}
           </a>
         </li>
@@ -64,7 +64,7 @@
     <ul>
       {#each result[1] as item}
         <li class="mb-1">
-          <a class="result-link" href="/move/{item.moveId}">
+          <a class="result-link" href="./move/{item.moveId}">
             {item.name} {item.moveId}
           </a>
         </li>
