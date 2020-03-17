@@ -21036,7 +21036,11 @@
       "chargedMoves": [
         "CLOSE_COMBAT",
         "IRON_HEAD",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "SACRED_SWORD"
+      ],
+      "legacyMoves": [
+        "SACRED_SWORD"
       ],
       "_atk": 192,
       "_def": 229,
@@ -24288,6 +24292,22 @@
       "pve_duration": 3.6,
       "pve_damageWindowStart": 2,
       "pve_damageWindowEnd": 2.7
+    },
+    {
+      "moveId": "SACRED_SWORD",
+      "name": "Sacred Sword",
+      "power": 60,
+      "type": "fighting",
+      "energy": 35,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "330",
+      "isFast": false,
+      "pve_power": 55,
+      "pve_energyDelta": -33,
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 0.5,
+      "pve_damageWindowEnd": 1
     },
     {
       "moveId": "SAND_TOMB",
