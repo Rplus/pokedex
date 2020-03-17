@@ -9,6 +9,12 @@
   <TypeDialog />
 </div>
 
+
+<svelte:head>
+  <base href={baseURI} />
+</svelte:head>
+
+
 <script>
   import Navaid from 'navaid';
   import About from '@r/About.html';
@@ -29,9 +35,10 @@
   let uri = location.pathname;
   $: active = uri.split('/')[1] || 'home';
 
-  let basrURI = '/';
   if (process.env.NODE_ENV === 'production') {
-    basrURI = '/pokedex';
+    $: baseURI = '/pokedex/';
+  } else {
+    $: baseURI = '/';
   }
 
   function draw(m, obj) {
@@ -48,7 +55,7 @@
   addEventListener('pushstate', track);
   addEventListener('popstate', track);
 
-  $router = Navaid(basrURI, () => draw(Home))
+  $router = Navaid(baseURI, () => draw(Home))
     .on('/', () => draw(Home))
     .on('/about', () => draw(About))
     .on('/move', () => draw(MoveList))
