@@ -211,7 +211,8 @@ details details summary:not([dir="ltr"]) {
 
 
 .workspace {
-  max-width: 40rem;
+  --card-max-width: 40rem;
+  max-width: var(--card-max-width);
   margin-left: auto;
   margin-right: auto;
   padding: .5rem;
