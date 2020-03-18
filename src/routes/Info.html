@@ -18,7 +18,7 @@ let _cpm = Object.keys(CPM)
     <h3>PVP Buff / Debuff factor</h3>
   </summary>
   <div>
-    <table class="ml-a mr-a">
+    <table class="ml-a mr-a buff-factor">
       <tr>
         <th>times</th>
         <td>1"</td>
@@ -31,7 +31,10 @@ let _cpm = Object.keys(CPM)
           <th>{e.type}</th>
 
           {#each e.value as v}
-            <td>{v}</td>
+            <td class="pos-r">
+              {v}
+              <div class="bar" style="--h: {v > 1 ? v - 1 : v}"></div>
+            </td>
           {/each}
         </tr>
       {/each}
@@ -70,5 +73,18 @@ let _cpm = Object.keys(CPM)
     .cpm-table {
       columns: 2;
     }
+  }
+
+  .buff-factor {
+    line-height: 1.5;
+  }
+  .bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: calc(var(--h) * 100%);
+    background-color: #f002;
+    pointer-events: none;
   }
 </style>
