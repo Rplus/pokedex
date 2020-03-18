@@ -28,3 +28,6 @@ copy-assets:
 # 	mkdir -p public/pokedex; \
 	cp -r ./assets/* ./public/; \
 	cp ./public/index.html ./public/404.html
+
+dev: copy-assets
+	npm run dev
