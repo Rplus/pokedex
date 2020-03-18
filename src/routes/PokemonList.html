@@ -11,11 +11,6 @@
   let type = location.hash ? location.hash.replace('#', '') : '';
   let dexRangeMin = 1;
   let dexRangeMax = 1;
-  let showAllTable = $settings.showAllTable || null;
-
-  $: {
-    $settings.showAllTable = showAllTable;
-  }
 
   let genDex = [
     [1, 151],
@@ -128,13 +123,13 @@
   {#if $pokemons.length}
   <div
     class="card card__pokemon-table pt-4"
-    class:show-all={showAllTable}
+    class:show-all={$settings.io.showAllTable}
     hidden={!$pokemons.length}
   >
     <div class="text-right">
       <label class="label ai-c mb-4">
         <input type="checkbox"
-          bind:checked={showAllTable}
+          bind:checked={$settings.io.showAllTable}
         >
         Show all?
       </label>

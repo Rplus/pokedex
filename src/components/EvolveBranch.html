@@ -9,7 +9,7 @@
       ? data.suffix
       : `000${data.pm.dex}`.slice(-3)
         + (data.iso ? `_${data.iso}` : '_00')
-        + ($settings.shinyAvatar ? '_shiny' : '');
+        + ($settings.io.shinyAvatar ? '_shiny' : '');
     data.src = cdnImgSrc(pmImgFN(fn));
   }
 

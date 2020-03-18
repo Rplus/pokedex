@@ -109,16 +109,16 @@ $: {
 
       <Details type="pm_family">
         <summary>演化分支</summary>
-        <div class="mb-4 pos-r" style="--uid-bdw-{pm.uid}: 1px; --zoom-ratio: {$settings.largeAvatar ? 2 : 1}">
+        <div class="mb-4 pos-r" style="--uid-bdw-{pm.uid}: 1px; --zoom-ratio: {$settings.io.largeAvatar ? 2 : 1}">
           <Family pm={pm} />
           <div class="avatar-ctrl fz-s">
             <label class="label">
-              <input type="checkbox" bind:checked={$settings.largeAvatar}>
+              <input type="checkbox" bind:checked={$settings.io.largeAvatar}>
               大圖
             </label>
             <br>
             <label class="label">
-              <input type="checkbox" bind:checked={$settings.shinyAvatar}>
+              <input type="checkbox" bind:checked={$settings.io.shinyAvatar}>
               異色
             </label>
           </div>

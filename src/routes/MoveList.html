@@ -9,7 +9,7 @@
   import Switcher from '@c/Switcher.html';
   import Ruby from '@c/Ruby.html';
 
-  $: isPVE = $settings.isPVE;
+  $: ispve = $settings.io.ispve;
   let _moves;
   let type = location.hash ? location.hash.replace('#', '') : '';
 
@@ -75,19 +75,19 @@
         <th data-sort="name">Name</th>
 
         <!-- PVE -->
-        <th hidden={!isPVE} data-sort="pve_power" title="Damage">D</th>
-        <th hidden={!isPVE} data-sort="pve_energyDelta" title="Energy">E</th>
-        <th hidden={!isPVE} data-sort="pve_duration" title="Time(s)">T</th>
-        <th hidden={!isPVE} data-sort="pve_dps" title="DPS">DPS</th>
-        <th hidden={!isPVE} data-sort="pve_eps" title="EPS">EPS</th>
+        <th hidden={!ispve} data-sort="pve_power" title="Damage">D</th>
+        <th hidden={!ispve} data-sort="pve_energyDelta" title="Energy">E</th>
+        <th hidden={!ispve} data-sort="pve_duration" title="Time(s)">T</th>
+        <th hidden={!ispve} data-sort="pve_dps" title="DPS">DPS</th>
+        <th hidden={!ispve} data-sort="pve_eps" title="EPS">EPS</th>
 
         <!-- PVP -->
-        <th hidden={isPVE} data-sort="power" title="Damage">D</th>
-        <th hidden={isPVE} data-sort="energyGain" title="Energy">E</th>
-        <th hidden={isPVE} data-sort="turn" title="Turn">T</th>
-        <th hidden={isPVE} data-sort="dpt">DPT</th>
-        <th hidden={isPVE} data-sort="ept">EPT</th>
-        <th hidden={isPVE} data-sort="eptxdpt" title="EPT x DPT">Π</th>
+        <th hidden={ispve} data-sort="power" title="Damage">D</th>
+        <th hidden={ispve} data-sort="energyGain" title="Energy">E</th>
+        <th hidden={ispve} data-sort="turn" title="Turn">T</th>
+        <th hidden={ispve} data-sort="dpt">DPT</th>
+        <th hidden={ispve} data-sort="ept">EPT</th>
+        <th hidden={ispve} data-sort="eptxdpt" title="EPT x DPT">Π</th>
       </tr>
       <tr slot="tbody" let:item={item}>
         <td>
@@ -102,26 +102,26 @@
           </a>
         </td>
 
-        <td>{isPVE ? item.pve_power : item.power}</td>
-        <td>{isPVE ? item.pve_energyDelta : item.energyGain}</td>
-        <td>{isPVE ? item.pve_duration : item.turn}</td>
-        <td>{isPVE ? item.pve_dps : item.dpt}</td>
-        <td>{isPVE ? item.pve_eps : item.ept}</td>
+        <td>{ispve ? item.pve_power : item.power}</td>
+        <td>{ispve ? item.pve_energyDelta : item.energyGain}</td>
+        <td>{ispve ? item.pve_duration : item.turn}</td>
+        <td>{ispve ? item.pve_dps : item.dpt}</td>
+        <td>{ispve ? item.pve_eps : item.ept}</td>
 
         <!-- PVE -->
-        <!-- <td hidden={!isPVE}>{item.pve_power}</td> -->
-        <!-- <td hidden={!isPVE}>{item.pve_energyDelta}</td> -->
-        <!-- <td hidden={!isPVE}>{item.pve_duration}</td> -->
-        <!-- <td hidden={!isPVE}>{item.pve_dps}</td> -->
-        <!-- <td hidden={!isPVE}>{item.pve_eps}</td> -->
+        <!-- <td hidden={!ispve}>{item.pve_power}</td> -->
+        <!-- <td hidden={!ispve}>{item.pve_energyDelta}</td> -->
+        <!-- <td hidden={!ispve}>{item.pve_duration}</td> -->
+        <!-- <td hidden={!ispve}>{item.pve_dps}</td> -->
+        <!-- <td hidden={!ispve}>{item.pve_eps}</td> -->
 
         <!-- PVP -->
-        <!-- <td hidden={isPVE}>{item.power}</td> -->
-        <!-- <td hidden={isPVE}>{item.energyGain}</td> -->
-        <!-- <td hidden={isPVE}>{item.turn}</td> -->
-        <!-- <td hidden={isPVE}>{item.dpt}</td> -->
-        <!-- <td hidden={isPVE}>{item.ept}</td> -->
-        <td hidden={isPVE}>{item.eptxdpt}</td>
+        <!-- <td hidden={ispve}>{item.power}</td> -->
+        <!-- <td hidden={ispve}>{item.energyGain}</td> -->
+        <!-- <td hidden={ispve}>{item.turn}</td> -->
+        <!-- <td hidden={ispve}>{item.dpt}</td> -->
+        <!-- <td hidden={ispve}>{item.ept}</td> -->
+        <td hidden={ispve}>{item.eptxdpt}</td>
       </tr>
     </TableSort>
   </Details>
@@ -138,19 +138,19 @@
         <th data-sort="name">Name</th>
 
         <!-- PVE -->
-        <th hidden={!isPVE} data-sort="pve_power" title="Damage">D</th>
-        <th hidden={!isPVE} data-sort="pve_energyDelta" title="Energy">E</th>
-        <th hidden={!isPVE} data-sort="pve_duration" title="Time(s)">T</th>
-        <th hidden={!isPVE} data-sort="pve_damageWindowStart" title="Active(s)">⚡</th>
-        <th hidden={!isPVE} data-sort="pve_dps" title="DPS">DPS</th>
-        <th hidden={!isPVE} data-sort="pve_dpe" title="DPE">DPE</th>
-        <th hidden={!isPVE} data-sort="pve_dpsxdpe" title="DPS x DPE">Π</th>
+        <th hidden={!ispve} data-sort="pve_power" title="Damage">D</th>
+        <th hidden={!ispve} data-sort="pve_energyDelta" title="Energy">E</th>
+        <th hidden={!ispve} data-sort="pve_duration" title="Time(s)">T</th>
+        <th hidden={!ispve} data-sort="pve_damageWindowStart" title="Active(s)">⚡</th>
+        <th hidden={!ispve} data-sort="pve_dps" title="DPS">DPS</th>
+        <th hidden={!ispve} data-sort="pve_dpe" title="DPE">DPE</th>
+        <th hidden={!ispve} data-sort="pve_dpsxdpe" title="DPS x DPE">Π</th>
 
         <!-- PVP -->
-        <th hidden={isPVE} data-sort="power" title="Damage">D</th>
-        <th hidden={isPVE} data-sort="energy" title="Energy">E</th>
-        <th hidden={isPVE} data-sort="dpe">DPE</th>
-        <th hidden={isPVE} data-sort="effect">Effect</th>
+        <th hidden={ispve} data-sort="power" title="Damage">D</th>
+        <th hidden={ispve} data-sort="energy" title="Energy">E</th>
+        <th hidden={ispve} data-sort="dpe">DPE</th>
+        <th hidden={ispve} data-sort="effect">Effect</th>
       </tr>
       <tr slot="tbody" let:item={item}>
         <td class="p-0 text-center">
@@ -166,19 +166,19 @@
         </td>
 
         <!-- PVE -->
-        <td hidden={!isPVE}>{item.pve_power}</td>
-        <td hidden={!isPVE}>{item.pve_energyDelta}</td>
-        <td hidden={!isPVE}>{item.pve_duration}</td>
-        <td hidden={!isPVE}>{item.pve_damageWindowStart}</td>
-        <td hidden={!isPVE}>{item.pve_dps}</td>
-        <td hidden={!isPVE}>{item.pve_dpe}</td>
-        <td hidden={!isPVE}>{item.pve_dpsxdpe}</td>
+        <td hidden={!ispve}>{item.pve_power}</td>
+        <td hidden={!ispve}>{item.pve_energyDelta}</td>
+        <td hidden={!ispve}>{item.pve_duration}</td>
+        <td hidden={!ispve}>{item.pve_damageWindowStart}</td>
+        <td hidden={!ispve}>{item.pve_dps}</td>
+        <td hidden={!ispve}>{item.pve_dpe}</td>
+        <td hidden={!ispve}>{item.pve_dpsxdpe}</td>
 
         <!-- PVP -->
-        <td hidden={isPVE}>{item.power}</td>
-        <td hidden={isPVE}>{item.energy}</td>
-        <td hidden={isPVE}>{item.dpe}</td>
-        <td hidden={isPVE} class="effect text-left fz-s">{@html effText(item.effect) || ''}</td>
+        <td hidden={ispve}>{item.power}</td>
+        <td hidden={ispve}>{item.energy}</td>
+        <td hidden={ispve}>{item.dpe}</td>
+        <td hidden={ispve} class="effect text-left fz-s">{@html effText(item.effect) || ''}</td>
       </tr>
     </TableSort>
   </Details>

@@ -60,13 +60,7 @@ const defaultSettings = {
 };
 const _settings = {
   details: localSettings.details || defaultSettings,
-  showAllTable: localSettings.showAllTable,
-  isPVE: localSettings.isPVE,
-  largeAvatar: localSettings.largeAvatar,
-  shinyAvatar: localSettings.shinyAvatar,
-  // darktheme: localSettings.darktheme === undefined
-  //   ? isOsDarktheme
-  //   : localSettings.darktheme,
+  io: localSettings.io || {},
 };
 
 
