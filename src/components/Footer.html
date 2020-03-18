@@ -1,3 +1,23 @@
+<script>
+  let queryUpdateTime = queryCommitInfo();
+
+  async function queryCommitInfo() {
+    const latest_commit_url = 'https://api.github.com/repos/Rplus/pokedex/branches/gh-pages';
+    let r = await fetch(latest_commit_url);
+    let data = await r.json();
+    if (r.ok) {
+      try {
+        return data.commit.commit.committer.date;
+      } catch (e) {
+        throw new Error(e);
+      }
+    } else {
+      throw new Error(r);
+    }
+  }
+</script>
+
+
 <hr>
 <hr>
 <hr>
@@ -14,6 +34,12 @@
     <li>
       Relesed with: <a href="https://opensource.org/licenses/MIT">MIT license</a>
     </li>
+    {#await queryUpdateTime then date}
+      <li>
+        update on:
+        <time class="ff-m" datetime={date}>{date.slice(0, 10)}</time>
+      </li>
+    {/await}
   </ul>
 </footer>
 
