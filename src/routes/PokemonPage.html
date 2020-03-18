@@ -109,7 +109,8 @@ $: {
 
       <Details type="pm_family">
         <summary>演化分支</summary>
-        <div class="mb-4" style="--uid-bdw-{pm.uid}: 1px; --zoom-ratio: {$settings.largeAvatar ? 2 : 1}">
+        <div class="mb-4 pos-r" style="--uid-bdw-{pm.uid}: 1px; --zoom-ratio: {$settings.largeAvatar ? 2 : 1}">
+          <Family pm={pm} />
           <div class="avatar-ctrl fz-s">
             <label class="label">
               <input type="checkbox" bind:checked={$settings.largeAvatar}>
@@ -121,7 +122,6 @@ $: {
               異色
             </label>
           </div>
-          <Family pm={pm} />
         </div>
       </Details>
 
@@ -182,7 +182,8 @@ $: {
 
   .avatar-ctrl {
     position: absolute;
-    right: 1rem;
+    right: -.5rem;
+    bottom: -1.5rem;
     color: #666;
   }
 </style>
