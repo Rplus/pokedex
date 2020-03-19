@@ -194,7 +194,6 @@ function effText(eff) {
 
     <TypeFactor types={[move.type]} role="⚔️" />
 
-
     <Details type="samemove" class="card">
       <summary><h3>Pokemon with this Move</h3></summary>
 
@@ -217,6 +216,13 @@ function effText(eff) {
         </tr>
       </TableSort>
     </Details>
+
+    <details>
+      <summary>raw data</summary>
+      <pre>
+        {JSON.stringify(move, null, 2)}
+      </pre>
+    </details>
   </div>
 {/if}
 
