@@ -7,6 +7,7 @@
   const dispatch = createEventDispatcher();
 
   export let type;
+  export let route = '';
 
   function _clickType(_type) {
     dispatch('clicktype', {
@@ -25,7 +26,12 @@
       class={eff_item.type === type ? 'filter-icon active' : 'filter-icon'}
       click={_clickType.bind(eff_item.type)}
     />
-      <small class="title">{types_zh[index]}</small>
+      <a class="text-no-decoration"
+        on:click|preventDefault
+        href="./{route}#{eff_item.type}"
+      >
+        <small class="title">{types_zh[index]}</small>
+      </a>
     </div>
   {/each}
 </div>
