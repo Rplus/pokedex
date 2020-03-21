@@ -1,12 +1,12 @@
 TODO
 
-# img
+- img
 
 # pm page
-  # 族系：
+  - 族系：
     - 進化[1]
     - 分支
-    # 異色
+    - 異色
   - 相鄰
   - query
   - cp list from 15-15-15 ~ 10-10-10
@@ -23,16 +23,16 @@ TODO
 
 - query page(Home)
 
-# info
+- info
   - candy / stardust cost
 
 # ctrl panel
 x go to top
-# ROUTER fix <base /> in index
+- ROUTER fix <base /> in index
 # donate
 - get data from pvpoke, get name from pvpoketw
 
-# 留言版
+_ 留言版
   ```
   <button id="initCommentBtn" onclick="initDisqus()">開啟留言</button>
   <script>
@@ -52,4 +52,4 @@ x go to top
   ```
 # load promise
 
-# [1] PVE DATA
+- [1] PVE DATA
