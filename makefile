@@ -25,8 +25,8 @@ genGM:
 
 copy-assets:
 	mkdir -p public; \
-# 	mkdir -p public/pokedex; \
 	cp -r ./assets/* ./public/; \
+	sed -i -r "s/2020-03-20T00:00:00/`date '+%FT%T'`/g" ./public/index.html; \
 	cp ./public/index.html ./public/404.html
 
 dev: copy-assets
