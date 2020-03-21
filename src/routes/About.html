@@ -2,6 +2,81 @@
   <title>About</title>
 </svelte:head>
 
-<h1>About this site</h1>
+<h1>導覽</h1>
 
-<p>This is the 'about' page. There's not much here.</p>
+<div class="card">
+  <h3>0. 共通</h3>
+  <ol>
+    <li class="mb-2">點擊屬性圖示 => 屬性相剋圖</li>
+    <li class="mb-2">有三角符號的標題可點擊展現更多內容，<br>並且會記住開閤狀態</li>
+    <li class="mb-2">表格標頭有漸層者即為當前排序欄，<br>點擊切換排序欄或方向</li>
+    <li class="mb-2">部份表格標頭滑鼠懸停可顯示標頭說明</li>
+    <li class="mb-2">招式與寶可夢同屬性時，字體樣式會加粗提示</li>
+    <li class="mb-2">下方的留言首次需點開才會載入</li>
+  </ol>
+</div>
+
+<div class="card">
+  <h3>1. /Home</h3>
+  <p>
+    以 [關鍵字] 搜尋 [寶可夢] / [招式] <br>
+  </p>
+  <ul>
+    <li class="mb-2">
+      寶可夢:
+      <ul>
+        <li>Pokedex(數字)</li>
+        <li>名字(zh, en)</li>
+        <li>屬性(en)</li>
+      </ul>
+    </li>
+    <li class="mb-2">
+      招式:
+      <ul>
+        <li>名字(zh, en)</li>
+        <li>屬性(en)</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>2. /Move</h3>
+  <p>招式列表</p>
+  <ul>
+    <li class="mb-2">
+      屬性過濾
+      <ul>
+        <li>點擊可單獨列出某一屬性的招式</li>
+        <li>圖示下方中文字可取得該屬性連結 <small>/move#fire</small></li>
+      </ul>
+    </li>
+    <li class="mb-2">
+      PVP / PVE 切換鈕<br>
+      切換該招式在各模式下的數值
+    </li>
+    <li class="mb-2">
+      點擊招式名稱 => 招式頁
+    </li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>2. /Pokemon</h3>
+  <p>寶可夢列表</p>
+  <ul>
+    <li>
+      屬性過濾
+      <ul>
+        <li>點擊可單獨列出某一屬性的寶可夢</li>
+        <li>圖示下方中文字可取得該屬性連結 <small>/pokemon#fire</small></li>
+      </ul>
+    </li>
+    <li class="mb-2">
+      點擊寶可夢名稱 => 寶可夢頁
+    </li>
+    <li>
+      寶可夢頁下方可模擬對戰方屬性，進而更新各招式數值
+    </li>
+  </ul>
+</div>
