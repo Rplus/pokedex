@@ -4,29 +4,15 @@
 
   let open;
 
-  function getConfig() {
-    this.page.url = location.href;
-    if (navigator.language.indexOf('zh') !== -1) {
-      this.language = 'zh-Hant';
-    }
-  }
-
-  function resetDisqus() {
-    window.DISQUS.reset({
-      reload: true,
-      config: window.disqus_config,
-    });
-  }
-
   function initDisqus(e) {
     if (!open) { return; }
-    window.disqus_config = getConfig;
 
     if (window.DISQUS) {
-      resetDisqus();
+      window.DISQUS.reset({
+        reload: true,
+      });
       return;
     }
-
     (function() {
       var d = document, s = d.createElement('script');
       s.src = 'https://rplus-pokedex.disqus.com/embed.js';
