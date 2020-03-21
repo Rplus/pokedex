@@ -1,12 +1,16 @@
 <script>
 import { settings } from '@/stores.js';
 
+import { createEventDispatcher } from 'svelte';
+const dispatch = createEventDispatcher();
+
 export let type;
 let className = '';
 export { className as class };
 
 function toggle(e) {
   $settings.details[type] = e.target.open;
+  dispatch('toggle', { open: e.target.open });
 }
 </script>
 

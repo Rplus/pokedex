@@ -1,0 +1,61 @@
+<script>
+  import { onMount, onDestroy } from 'svelte';
+  import Details from '@c/Details.html';
+
+  let open;
+
+  function getConfig() {
+    this.page.url = location.href;
+    if (navigator.language.indexOf('zh') !== -1) {
+      this.language = 'zh-Hant';
+    }
+  }
+
+  function resetDisqus() {
+    window.DISQUS.reset({
+      reload: true,
+      config: window.disqus_config,
+    });
+  }
+
+  function initDisqus(e) {
+    if (!open) { return; }
+    window.disqus_config = getConfig;
+
+    if (window.DISQUS) {
+      resetDisqus();
+      return;
+    }
+
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://rplus-pokedex.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
+
+  function onToggle(e) {
+    open = e.detail.open;
+    initDisqus();
+  }
+
+  onMount(() => {
+    addEventListener('pushstate', initDisqus);
+    addEventListener('popstate', initDisqus);
+  });
+
+  onDestroy(() => {
+    removeEventListener('pushstate', initDisqus);
+    removeEventListener('popstate', initDisqus);
+  })
+</script>
+
+
+
+<Details type="comment" class="card" on:toggle={onToggle}>
+  <summary><h3>留言</h3></summary>
+  <div>
+    <div id="disqus_thread"></div>
+  </div>
+</Details>
