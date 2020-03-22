@@ -80155,7 +80155,7 @@
             "shoulderModeScale": 0.5
           },
           "encounter": {
-            "baseCaptureRate": 0.050000001,
+            "baseCaptureRate": 0.15000001,
             "baseFleeRate": 0.050000001,
             "collisionRadiusM": 1.7,
             "collisionHeightM": 0.60000002,
@@ -80251,7 +80251,7 @@
             "shoulderModeScale": 0.5
           },
           "encounter": {
-            "baseCaptureRate": 0.050000001,
+            "baseCaptureRate": 0.15000001,
             "baseFleeRate": 0.050000001,
             "collisionRadiusM": 1.7,
             "collisionHeightM": 0.60000002,
@@ -118022,7 +118022,7 @@
             "shoulderModeScale": 0.5
           },
           "encounter": {
-            "baseCaptureRate": 0.02,
+            "baseCaptureRate": 0.039999999,
             "baseFleeRate": 0.0099999998,
             "collisionRadiusM": 0.5,
             "collisionHeightM": 0.1,
@@ -125880,6 +125880,27 @@
           "durationMs": 2800,
           "damageWindowStartMs": 1000,
           "damageWindowEndMs": 2300
+        }
+      }
+    },
+    {
+      "templateId": "V0330_MOVE_SACRED_SWORD",
+      "data": {
+        "templateId": "V0330_MOVE_SACRED_SWORD",
+        "moveSettings": {
+          "movementId": "SACRED_SWORD",
+          "animationId": 5,
+          "pokemonType": "POKEMON_TYPE_FIGHTING",
+          "power": 55,
+          "accuracyChance": 1,
+          "staminaLossScalar": 0.0099999998,
+          "trainerLevelMin": 1,
+          "trainerLevelMax": 100,
+          "vfxName": "sacred_sword",
+          "durationMs": 1200,
+          "damageWindowStartMs": 500,
+          "damageWindowEndMs": 1000,
+          "energyDelta": -33
         }
       }
     },
