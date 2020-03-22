@@ -51,7 +51,7 @@ let _cpm = Object.keys(CPM)
     <h3>Level Multiplier (CPm)</h3>
   </summary>
 
-  <div class="cpm-table">
+  <div class="cpm-table mb-4">
     <table class="striped-table ml-a mr-a fz-s">
       {#each _cpm as item}
       <tr>
@@ -60,6 +60,16 @@ let _cpm = Object.keys(CPM)
       </tr>
       {/each}
     </table>
+  </div>
+
+  <div class="dots">
+    {#each _cpm as item}
+      <div
+        class="dot"
+        style="--x: {item.lv}; --y: {item.m}"
+        title="lv:{item.lv} m:{item.m}"
+      />
+    {/each}
   </div>
 </Details>
 
@@ -86,5 +96,31 @@ let _cpm = Object.keys(CPM)
     height: calc(var(--h) * 100%);
     background-color: #f002;
     pointer-events: none;
+  }
+
+  .dots {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #eee;
+  }
+
+  .dot {
+    position: absolute;
+    top: calc(100% - var(--y) * 100%);
+    left: calc(var(--x) * 100% / 45);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: .2;
+  }
+  .dot:hover {
+    opacity: 1;
+  }
+  .dot:hover::before {
+    content: attr(title);
+    position: absolute;
+    bottom: 200%;
   }
 </style>
