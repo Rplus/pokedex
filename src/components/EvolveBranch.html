@@ -29,7 +29,7 @@
 
 
 
-<div class="family-tree df jc-c ai-c text-center fz-s mb-2">
+<div class="family-tree df ai-c text-center fz-s mb-2">
   <a class="pm df fd-c text-no-decoration"
     title="#{data.pm.dex} {data.pm.name}"
     href="./pokemon/{data.pm.uid}"
@@ -48,8 +48,9 @@
 
       {#each data.next as item}
         <div class="df">
-          <div class="evolve-requirement df fd-c jc-c text-nowrap">
 
+          <!-- evolve-requirement -->
+          <div class="df fd-c jc-c text-nowrap">
             <div class="d-if flex-center">
               {item.candyCost}
               <img class="candy" src={candySrc} alt="candy">
@@ -69,7 +70,6 @@
                 </details>
               </div>
             {/if}
-
           </div>
 
           <svelte:self data={item} />
@@ -84,6 +84,11 @@
 <style>
   .family-tree {
     --unit: 72px;
+    width: fit-content;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
   }
 
   .family-tree :global(.family-tree) {
@@ -103,11 +108,10 @@
 
   .pm-img {
     position: relative;
-    width: var(--unit);
-    height: var(--unit);
+    width: calc(var(--unit) * var(--zoom-ratio, 1));
+    height: calc(var(--unit) * var(--zoom-ratio, 1));
     background-size: cover;
     color: #aaa;
-    zoom: var(--zoom-ratio, 1);
     box-shadow: inset 0 0 1px var(--bdw);
   }
 
