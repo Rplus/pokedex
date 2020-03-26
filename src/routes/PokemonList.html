@@ -126,15 +126,6 @@
     class:show-all={$settings.io.showAllTable}
     hidden={!$pokemons.length}
   >
-    <div class="text-right">
-      <label class="label ai-c mb-4">
-        <input type="checkbox"
-          bind:checked={$settings.io.showAllTable}
-        >
-        Show all?
-      </label>
-    </div>
-
     <TableSort
       items={_pokemons}
       class="pokemon-table sticky-thead narrow text-right ml-a mr-a"
@@ -183,9 +174,19 @@
       </tr>
 
       <tr slot="tfoot" class="sticky-bottom">
+        <!--
         <th>#</th>
         <th>@</th>
         <th><div class="text-left">Name</div></th>
+        -->
+        <th colspan="3" class="show-all-btn text-left">
+          <label class="label ai-c">
+            <input type="checkbox"
+              bind:checked={$settings.io.showAllTable}
+            >
+            Show all?
+          </label>
+        </th>
         <th title="max CP">CP</th>
         <th title="max HP">HP</th>
         <th title="base Atk">Atk</th>
@@ -211,5 +212,9 @@
     position: sticky;
     bottom: 0;
     box-shadow: 0 -1px 2px 0 #0002;
+  }
+
+  .show-all-btn {
+    background-color: #eef;
   }
 </style>
