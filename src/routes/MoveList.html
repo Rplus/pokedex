@@ -167,7 +167,9 @@
 
         <!-- PVE -->
         <td hidden={!ispve}>{item.pve_power}</td>
-        <td hidden={!ispve}>{item.pve_energyDelta}</td>
+        <td hidden={!ispve} class="energy-bar" style="--bgzx: {-item.pve_energyDelta}%">
+          {item.pve_energyDelta}
+        </td>
         <td hidden={!ispve}>{item.pve_duration}</td>
         <td hidden={!ispve}>{item.pve_damageWindowStart}</td>
         <td hidden={!ispve}>{item.pve_dps}</td>
@@ -176,7 +178,9 @@
 
         <!-- PVP -->
         <td hidden={ispve}>{item.power}</td>
-        <td hidden={ispve}>{item.energy}</td>
+        <td hidden={ispve} class="energy-bar" style="--bgzx: {item.energy}%">
+          {item.energy}
+        </td>
         <td hidden={ispve}>{item.dpe}</td>
         <td hidden={ispve} class="effect text-left fz-s">{@html effText(item.effect) || ''}</td>
       </tr>
