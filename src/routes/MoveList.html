@@ -135,7 +135,7 @@
     >
       <tr slot="thead">
         <th data-sort="type" data-sort-initial>@</th>
-        <th data-sort="name">Name</th>
+        <th data-sort="name" class="sticky-left">Name</th>
 
         <!-- PVE -->
         <th hidden={!ispve} data-sort="pve_power" title="Damage">D</th>
@@ -156,7 +156,7 @@
         <td class="p-0 text-center">
           <TypeIcon type={item.type} class="d-ib" />
         </td>
-        <td class="text-left">
+        <td class="sticky-left text-left">
           <a href="./move/{item.moveId}">
             <Ruby class="x">
               <div slot="rb">{item.name}</div>

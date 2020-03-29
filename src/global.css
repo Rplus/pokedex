@@ -160,7 +160,11 @@ details details summary:not([dir="ltr"]) {
   }
 }
 
-.sticky-thead thead tr {
+.sticky-left {
+  position: sticky;
+  left: 0;
+  white-space: nowrap;
+  background-color: #fff;
 }
 .sticky-thead th {
   position: sticky;
