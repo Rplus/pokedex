@@ -3,6 +3,7 @@
   import { moves, settings } from '@/stores.js';
   import eff from '@d/eff.js';
   import { copy } from '@/u.js';
+  import MoveChart from '@c/MoveChart.html';
   import Details from '@c/Details.html';
   import TypeFilter from '@c/TypeFilter.html';
   import TypeIcon from '@c/TypeIcon.html';
@@ -186,6 +187,8 @@
       </tr>
     </TableSort>
   </Details>
+
+  <MoveChart moves={_moves} ispve={ispve} />
 
 </section>
 

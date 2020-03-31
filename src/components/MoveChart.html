@@ -1,0 +1,201 @@
+<script>
+  export let moves = {};
+  export let ispve = false;
+
+  import Details from '@c/Details.html';
+  import TypeIcon from '@c/TypeIcon.html';
+
+  let max = {};
+
+  $: {
+    max = ['fast', 'charge'].reduce((ooo, type) => {
+      ooo[type] = moves[type].reduce((oi, m) => {
+        if (type === 'fast') {
+          oi.pve_dps.push(m.pve_dps);
+          oi.pve_eps.push(m.pve_eps);
+          oi.pvp_dpt.push(m.dpt);
+          oi.pvp_ept.push(m.ept);
+        } else {
+          oi.pve_dps.push(m.pve_dps);
+          oi.pve_dpe.push(m.pve_dpe);
+          oi.pvp_dpe.push(m.dpe);
+          oi.pvp_energy.push(m.energy);
+        }
+
+        return oi;
+      }, {
+        // fast
+        pve_dps: [],
+        pve_eps: [],
+        pvp_dpt: [],
+        pvp_ept: [],
+
+        // charge
+        pve_dps: [],
+        pve_dpe: [],
+        pvp_dpe: [],
+        pvp_energy: [],
+      });
+      return ooo;
+    }, {});
+
+    let sort = (a, b) => {
+      return b - a;
+    };
+
+    for (let i in max) {
+      for (let j in max[i]) {
+        if (max[i][j].length) {
+          max[i][j] = max[i][j].sort(sort)[0];
+        }
+      }
+    }
+
+  };
+
+</script>
+
+
+
+<Details type="movechart" class="card">
+  <summary><h3>Chart</h3></summary>
+
+  <div>
+    <details open>
+      <summary><h3>FAST</h3></summary>
+      <div class="chart fast pos-r" class:ispve={ispve}
+        data-x={ispve ? 'DPS' : 'DPT'}
+        data-y={ispve ? 'EPS' : 'EPT'}
+        style="
+          --max-x: {ispve ? max.fast.pve_dps : max.fast.pvp_dpt};
+          --max-y: {ispve ? max.fast.pve_eps : max.fast.pvp_ept};
+        "
+      >
+        {#each moves.fast as m}
+          <a class="chart-dot text-nowrap text-no-decoration"
+            href="./move/{m.moveId}"
+            style="
+              --pve_dps: {m.pve_dps};
+              --pve_eps: {m.pve_eps};
+              --dpt: {m.dpt};
+              --ept: {m.ept};
+            "
+          >
+            <TypeIcon type={m.type} />
+            <span class="text">
+              {m.name}<sup>{m.turn || ''}</sup>
+            </span>
+          </a>
+        {/each}
+      </div>
+    </details>
+
+    <hr>
+
+    <details open>
+      <summary><h3>CHARGE</h3></summary>
+
+      <div class="chart charge pos-r" class:ispve={ispve}
+        data-x={ispve ? 'DPS' : 'DPE'}
+        data-y={ispve ? 'DPE' : 'ENERGY'}
+        style="
+          --max-x: {ispve ? max.charge.pve_dps : max.charge.pvp_dpe};
+          --max-y: {ispve ? max.charge.pve_dpe : max.charge.pvp_energy};
+        "
+      >
+        {#each moves.charge as m}
+          <a class="chart-dot text-nowrap text-no-decoration"
+            href="./move/{m.moveId}"
+            style="
+              --pve_dps: {m.pve_dps};
+              --pve_dpe: {m.pve_dpe};
+              --dpe: {m.dpe};
+              --energy: {m.energy};
+            "
+          >
+            <TypeIcon type={m.type} />
+            <span class="text">
+              {m.name}
+            </span>
+          </a>
+        {/each}
+      </div>
+    </details>
+
+
+    <blockquote>
+      inspired from:
+      <a href="https://www.reddit.com/r/TheSilphRoad/comments/btxqh9/pvp_fast_moves_update_28th_may_now_including/.compact">
+        <cite>https://redd.it/btxqh9</cite>
+      </a>
+    </blockquote>
+  </div>
+</Details>
+
+
+
+<style>
+  .chart {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #eee;
+    text-align: center;
+  }
+
+  .chart:hover { --o: .2; }
+  .chart:active { --o: .5; }
+
+  .chart.fast .chart-dot {
+    --x: var(--dpt);
+    --y: var(--ept);
+  }
+  .chart.fast.ispve .chart-dot {
+    --x: var(--pve_dps);
+    --y: var(--pve_eps);
+  }
+  .chart.charge .chart-dot {
+    --x: var(--dpe);
+    --y: var(--energy);
+  }
+  .chart.charge.ispve .chart-dot {
+    --x: var(--pve_dps);
+    --y: var(--pve_dpe);
+  }
+
+  .chart::before {
+    content: '- ' attr(data-x) ' +';
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+  }
+  .chart::after {
+    content: '- ' attr(data-y) ' +';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    writing-mode: vertical-lr;
+  }
+
+  .chart-dot {
+    position: absolute;
+    top: calc(var(--y, 0) * 100% / (var(--max-y) * 1.2));
+    left: calc(var(--x, 0) * 100% / (var(--max-x) * 1.2));
+    color: inherit;
+  }
+
+  .chart-dot:hover {
+    --o: 1;
+    z-index: 1;
+  }
+
+  .text {
+    position: absolute;
+    top: .75em;
+    left: .75em;
+    padding: .25em .5em;
+    opacity: var(--o, 0);
+    background-color: rgba(255, 255, 200, var(--o, 0));
+  }
+</style>
