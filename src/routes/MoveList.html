@@ -13,6 +13,7 @@
   $: ispve = $settings.io.ispve;
   let _moves;
   let type = location.hash ? location.hash.replace('#', '') : '';
+  let sticky = false;
 
   $: {
     if (type && !eff.some(_eff => _eff.type === type)) {
@@ -57,8 +58,13 @@
 
 <section class="move-list">
 
-  <Details type="move_filter" class="card">
-    <summary><h3>Filter</h3></summary>
+  <Details type="move_filter" class="card {sticky ? 'stickycard' : ''}">
+    <summary>
+      <h3>
+        Filter
+        <input class="sticky-checkbox" type="checkbox" bind:checked={sticky}>
+      </h3>
+    </summary>
     <TypeFilter type={type} on:clicktype={clicktype} route="move" />
   </Details>
 
@@ -198,6 +204,25 @@
 
 
 <style>
+  :global(.stickycard) {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  :global(.sticky-checkbox) {
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+  }
+  :global(.sticky-checkbox)::before {
+    content: '📌';
+  }
+  :global(.sticky-checkbox):checked {
+    filter: drop-shadow(2px 4px 2px);
+  }
+
   .effect :global(span::after) {
     content: ', ';
     white-space: pre-wrap;
