@@ -6345,7 +6345,8 @@
       ],
       "fastMoves": [
         "ACID",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "BULLET_SEED"
       ],
       "chargedMoves": [
         "DAZZLING_GLEAM",
@@ -6555,6 +6556,7 @@
       "chargedMoves": [
         "DAZZLING_GLEAM",
         "ENERGY_BALL",
+        "AERIAL_ACE",
         "SOLAR_BEAM"
       ],
       "_atk": 118,
@@ -9211,6 +9213,7 @@
       "chargedMoves": [
         "BLIZZARD",
         "HYDRO_PUMP",
+        "ENERGY_BALL",
         "ICE_BEAM",
         "SOLAR_BEAM"
       ],
@@ -11352,7 +11355,8 @@
       ],
       "fastMoves": [
         "ACID",
-        "INFESTATION"
+        "INFESTATION",
+        "BULLET_SEED"
       ],
       "chargedMoves": [
         "BULLDOZE",
@@ -13811,7 +13815,8 @@
       "chargedMoves": [
         "DAZZLING_GLEAM",
         "HYPER_BEAM",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "WEATHER_BALL_FIRE"
       ],
       "_atk": 170,
       "_def": 153,
@@ -15153,6 +15158,7 @@
       ],
       "chargedMoves": [
         "ANCIENT_POWER",
+        "ROCK_SLIDE",
         "SLUDGE_BOMB",
         "SOLAR_BEAM",
         "POWER_WHIP"
@@ -21847,7 +21853,7 @@
     {
       "moveId": "ANCIENT_POWER",
       "name": "原始之力",
-      "power": 70,
+      "power": 45,
       "type": "rock",
       "energy": 45,
       "energyGain": 0,
@@ -22188,7 +22194,7 @@
       "power": 5,
       "type": "grass",
       "energy": 0,
-      "energyGain": 11,
+      "energyGain": 13,
       "turn": 3,
       "mid": "271",
       "isFast": true,
@@ -22655,8 +22661,9 @@
       "name": "能量球",
       "power": 90,
       "type": "grass",
-      "energy": 60,
+      "energy": 55,
       "energyGain": 0,
+      "effect": "[敵], 10%, -1階防",
       "turn": 1,
       "mid": "273",
       "isFast": false,
@@ -23427,7 +23434,7 @@
       "type": "grass",
       "energy": 40,
       "energyGain": 0,
-      "effect": "[敵], 50%, -1階攻",
+      "effect": "[敵], 50%, -2階攻",
       "turn": 1,
       "mid": "312",
       "isFast": false,
@@ -23748,9 +23755,9 @@
     {
       "moveId": "OMINOUS_WIND",
       "name": "奇異之風",
-      "power": 50,
+      "power": 45,
       "type": "ghost",
-      "energy": 40,
+      "energy": 45,
       "energyGain": 0,
       "effect": "[己], 10%, +2階攻, +2階防",
       "turn": 1,
@@ -24458,7 +24465,7 @@
     {
       "moveId": "SILVER_WIND",
       "name": "銀色旋風",
-      "power": 70,
+      "power": 45,
       "type": "bug",
       "energy": 45,
       "energyGain": 0,
