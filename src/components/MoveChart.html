@@ -39,10 +39,6 @@
       return ooo;
     }, {});
 
-    let sort = (a, b) => {
-      return b - a;
-    };
-
     for (let i in max) {
       for (let j in max[i]) {
         if (max[i][j].length) {
@@ -53,6 +49,9 @@
 
   };
 
+  function sort(a, b) {
+    return b - a;
+  };
 </script>
 
 
