@@ -6,8 +6,19 @@
   import TypeIcon from '@c/TypeIcon.html';
 
   let max = {};
+  let init = false;
 
   $: {
+    if (!init) {
+      updateMax(max, moves);
+
+      if (moves.fast.length) {
+        init = true;
+      }
+    }
+  };
+
+  function updateMax() {
     max = ['fast', 'charge'].reduce((ooo, type) => {
       ooo[type] = moves[type].reduce((oi, m) => {
         if (type === 'fast') {
