@@ -1,6 +1,7 @@
 <script>
   import escapeStringRegexp from 'escape-string-regexp';
   import { pokemons, moves } from '@/stores.js';
+  import Title from '@c/Title.html';
 
   let q = new URLSearchParams(location.search).get('q') || '';
   let result = [[], []];
@@ -40,6 +41,9 @@
 
 </script>
 
+
+
+<Title title="Home" />
 
 <div class="card">
   <div class="pt-4">

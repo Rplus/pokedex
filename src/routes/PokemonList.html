@@ -6,6 +6,7 @@
   import Details from '@c/Details.html';
   import TypeFilter from '@c/TypeFilter.html';
   import Ruby from '@c/Ruby.html';
+  import Title from '@c/Title.html';
 
   let _pokemons = [];
   let type = location.hash ? location.hash.replace('#', '') : '';
@@ -62,9 +63,7 @@
 <!--  -->
 
 
-<svelte:head>
-  <title>Pokemon</title>
-</svelte:head>
+<Title title="Pokemon" />
 
 <section>
 

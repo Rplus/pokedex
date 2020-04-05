@@ -7,6 +7,7 @@ import TypeFactor from '@c/TypeFactor.html';
 import Details from '@c/Details.html';
 import Ruby from '@c/Ruby.html';
 import TypeIcon from '@c/TypeIcon.html';
+import Title from '@c/Title.html';
 
 export let params = {};
 
@@ -44,9 +45,9 @@ function effText(eff) {
 
 
 
-<svelte:head>
-  <title>Move: {move && move.name || ''}</title>
-</svelte:head>
+{#if move && move.name}
+  <Title title="{move.isFast ? 'F' : 'C'} {move.name}" />
+{/if}
 
 {#if move}
   <div>

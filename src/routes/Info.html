@@ -4,6 +4,7 @@ import { pvp_eff } from '@d/eff.js';
 import TypeTable from '@c/TypeTable.html';
 import CostCalc from '@c/CostCalc.html';
 import Details from '@c/Details.html';
+import Title from '@c/Title.html';
 
 let _cpm = Object.keys(CPM)
   .map(lv => ({ lv: lv, m: CPM[lv] }))
@@ -12,6 +13,8 @@ let _cpm = Object.keys(CPM)
 </script>
 
 
+
+<Title title="Info" />
 
 <Details class="card" type="pvp_buff">
   <summary>

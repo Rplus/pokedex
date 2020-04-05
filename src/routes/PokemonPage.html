@@ -12,6 +12,7 @@ import TypeIcon from '@c/TypeIcon.html';
 import FloatLink from '@c/FloatLink.html';
 import Switcher from '@c/Switcher.html';
 import QueryPM from '@c/QueryPM.html';
+import Title from '@c/Title.html';
 import { fixNum } from '@/u.js';
 
 let pm;
@@ -64,9 +65,9 @@ $: {
 </script>
 
 
-<svelte:head>
-  <title>{pm && `#${pm.dex} ${pm.name}` || ''}</title>
-</svelte:head>
+{#if pm}
+  <Title title="#{pm.dex} {pm.name}" />
+{/if}
 
 {#if pm}
   <section class="pos-r df fd-c">

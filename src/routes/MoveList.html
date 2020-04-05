@@ -9,6 +9,7 @@
   import TypeIcon from '@c/TypeIcon.html';
   import Switcher from '@c/Switcher.html';
   import Ruby from '@c/Ruby.html';
+  import Title from '@c/Title.html';
 
   $: ispve = $settings.io.ispve;
   let _moves;
@@ -52,9 +53,8 @@
 <!--  -->
 
 
-<svelte:head>
-  <title>Move</title>
-</svelte:head>
+
+<Title title="Move" />
 
 <section class="move-list">
 
