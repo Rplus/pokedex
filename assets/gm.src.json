@@ -22,7 +22,7 @@
       "name": "妙蛙種子",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BULBASAUR",
       "genderMF": [
         87.5,
@@ -51,7 +51,7 @@
       "name": "妙蛙草",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BULBASAUR",
       "genderMF": [
         87.5,
@@ -84,7 +84,7 @@
       "name": "妙蛙花",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BULBASAUR",
       "genderMF": [
         87.5,
@@ -112,7 +112,7 @@
       "name": "小火龍",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHARMANDER",
       "genderMF": [
         87.5,
@@ -144,7 +144,7 @@
       "name": "火恐龍",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHARMANDER",
       "genderMF": [
         87.5,
@@ -183,7 +183,7 @@
       "name": "噴火龍",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHARMANDER",
       "genderMF": [
         87.5,
@@ -211,7 +211,7 @@
       "name": "傑尼龜",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SQUIRTLE",
       "genderMF": [
         87.5,
@@ -239,7 +239,7 @@
       "name": "卡咪龜",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SQUIRTLE",
       "genderMF": [
         87.5,
@@ -272,7 +272,7 @@
       "name": "水箭龜",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SQUIRTLE",
       "genderMF": [
         87.5,
@@ -298,7 +298,7 @@
       "name": "綠毛蟲",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_CATERPIE",
       "genderMF": [
         50,
@@ -324,7 +324,7 @@
       "name": "鐵甲蛹",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_CATERPIE",
       "genderMF": [
         50,
@@ -357,7 +357,7 @@
       "name": "巴大蝶",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_CATERPIE",
       "genderMF": [
         50,
@@ -384,7 +384,7 @@
       "name": "獨角蟲",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WEEDLE",
       "genderMF": [
         50,
@@ -411,7 +411,7 @@
       "name": "鐵殼蛹",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WEEDLE",
       "genderMF": [
         50,
@@ -445,7 +445,7 @@
       "name": "大針蜂",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WEEDLE",
       "genderMF": [
         50,
@@ -474,7 +474,7 @@
       "name": "波波",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIDGEY",
       "genderMF": [
         50,
@@ -503,7 +503,7 @@
       "name": "比比鳥",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIDGEY",
       "genderMF": [
         50,
@@ -538,7 +538,7 @@
       "name": "大比鳥",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIDGEY",
       "genderMF": [
         50,
@@ -566,7 +566,7 @@
       "name": "小拉達",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_RATTATA",
       "genderMF": [
         50,
@@ -595,7 +595,7 @@
       "name": "小拉達 阿羅拉型態",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_RATTATA",
       "genderMF": [
         50,
@@ -623,7 +623,7 @@
       "name": "拉達",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_RATTATA",
       "genderMF": [
         50,
@@ -652,7 +652,7 @@
       "name": "拉達 阿羅拉型態",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_RATTATA",
       "genderMF": [
         50,
@@ -685,7 +685,7 @@
       "name": "烈雀",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SPEAROW",
       "genderMF": [
         50,
@@ -718,7 +718,7 @@
       "name": "大嘴雀",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SPEAROW",
       "genderMF": [
         50,
@@ -750,7 +750,7 @@
       "name": "阿柏蛇",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_EKANS",
       "genderMF": [
         50,
@@ -780,7 +780,7 @@
       "name": "阿柏怪",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_EKANS",
       "genderMF": [
         50,
@@ -816,7 +816,7 @@
       "name": "皮卡丘",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIKACHU",
       "genderMF": [
         50,
@@ -872,7 +872,7 @@
       "name": "雷丘",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIKACHU",
       "genderMF": [
         50,
@@ -903,7 +903,7 @@
       "name": "雷丘 阿羅拉型態",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIKACHU",
       "genderMF": [
         50,
@@ -935,7 +935,7 @@
       "name": "穿山鼠",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SANDSHREW",
       "genderMF": [
         50,
@@ -964,7 +964,7 @@
       "name": "穿山鼠 阿羅拉型態",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SANDSHREW",
       "genderMF": [
         50,
@@ -992,7 +992,7 @@
       "name": "穿山王",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SANDSHREW",
       "genderMF": [
         50,
@@ -1022,7 +1022,7 @@
       "name": "穿山王 阿羅拉型態",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SANDSHREW",
       "genderMF": [
         50,
@@ -1050,7 +1050,7 @@
       "name": "尼多蘭",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NIDORAN_FEMALE",
       "genderMF": [
         0,
@@ -1078,7 +1078,7 @@
       "name": "尼多娜",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NIDORAN_FEMALE",
       "genderMF": [
         0,
@@ -1108,7 +1108,7 @@
       "name": "尼多后",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NIDORAN_FEMALE",
       "genderMF": [
         0,
@@ -1136,7 +1136,7 @@
       "name": "尼多朗",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NIDORAN_MALE",
       "genderMF": [
         100,
@@ -1164,7 +1164,7 @@
       "name": "尼多力諾",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NIDORAN_MALE",
       "genderMF": [
         100,
@@ -1198,7 +1198,7 @@
       "name": "尼多王",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NIDORAN_MALE",
       "genderMF": [
         100,
@@ -1226,7 +1226,7 @@
       "name": "皮皮",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_CLEFAIRY",
       "genderMF": [
         25,
@@ -1260,7 +1260,7 @@
       "name": "皮可西",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_CLEFAIRY",
       "genderMF": [
         25,
@@ -1288,7 +1288,7 @@
       "name": "六尾",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VULPIX",
       "genderMF": [
         25,
@@ -1316,7 +1316,7 @@
       "name": "六尾 阿羅拉型態",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VULPIX",
       "genderMF": [
         25,
@@ -1353,7 +1353,7 @@
       "name": "九尾",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VULPIX",
       "genderMF": [
         25,
@@ -1384,7 +1384,7 @@
       "name": "九尾 阿羅拉型態",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VULPIX",
       "genderMF": [
         25,
@@ -1419,7 +1419,7 @@
       "name": "胖丁",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_JIGGLYPUFF",
       "genderMF": [
         25,
@@ -1450,7 +1450,7 @@
       "name": "胖可丁",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_JIGGLYPUFF",
       "genderMF": [
         25,
@@ -1483,7 +1483,7 @@
       "name": "超音蝠",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ZUBAT",
       "genderMF": [
         50,
@@ -1516,7 +1516,7 @@
       "name": "大嘴蝠",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ZUBAT",
       "genderMF": [
         50,
@@ -1545,7 +1545,7 @@
       "name": "走路草",
       "captureRate": 0.6,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ODDISH",
       "genderMF": [
         50,
@@ -1574,7 +1574,7 @@
       "name": "臭臭花",
       "captureRate": 0.3,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ODDISH",
       "genderMF": [
         50,
@@ -1604,7 +1604,7 @@
       "name": "霸王花",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ODDISH",
       "genderMF": [
         50,
@@ -1633,7 +1633,7 @@
       "name": "派拉斯",
       "captureRate": 0.4,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PARAS",
       "genderMF": [
         50,
@@ -1666,7 +1666,7 @@
       "name": "派拉斯特",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PARAS",
       "genderMF": [
         50,
@@ -1695,7 +1695,7 @@
       "name": "毛球",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VENONAT",
       "genderMF": [
         50,
@@ -1729,7 +1729,7 @@
       "name": "摩魯蛾",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VENONAT",
       "genderMF": [
         50,
@@ -1761,7 +1761,7 @@
       "name": "地鼠",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DIGLETT",
       "genderMF": [
         50,
@@ -1790,7 +1790,7 @@
       "name": "地鼠 阿羅拉型態",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DIGLETT",
       "genderMF": [
         50,
@@ -1822,7 +1822,7 @@
       "name": "三地鼠",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DIGLETT",
       "genderMF": [
         50,
@@ -1851,7 +1851,7 @@
       "name": "三地鼠 阿羅拉型態",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DIGLETT",
       "genderMF": [
         50,
@@ -1883,7 +1883,7 @@
       "name": "喵喵",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MEOWTH",
       "genderMF": [
         50,
@@ -1911,7 +1911,7 @@
       "name": "喵喵 阿羅拉型態",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MEOWTH",
       "genderMF": [
         50,
@@ -1943,7 +1943,7 @@
       "name": "貓老大",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MEOWTH",
       "genderMF": [
         50,
@@ -1971,7 +1971,7 @@
       "name": "貓老大 阿羅拉型態",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MEOWTH",
       "genderMF": [
         50,
@@ -1999,7 +1999,7 @@
       "name": "可達鴨",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PSYDUCK",
       "genderMF": [
         50,
@@ -2030,7 +2030,7 @@
       "name": "哥達鴨",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PSYDUCK",
       "genderMF": [
         50,
@@ -2058,7 +2058,7 @@
       "name": "猴怪",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MANKEY",
       "genderMF": [
         50,
@@ -2092,7 +2092,7 @@
       "name": "火爆猴",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MANKEY",
       "genderMF": [
         50,
@@ -2120,7 +2120,7 @@
       "name": "卡蒂狗",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GROWLITHE",
       "genderMF": [
         75,
@@ -2156,7 +2156,7 @@
       "name": "風速狗",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GROWLITHE",
       "genderMF": [
         75,
@@ -2184,7 +2184,7 @@
       "name": "蚊香蝌蚪",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_POLIWAG",
       "genderMF": [
         50,
@@ -2216,7 +2216,7 @@
       "name": "蚊香君",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_POLIWAG",
       "genderMF": [
         50,
@@ -2251,7 +2251,7 @@
       "name": "蚊香泳士",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_POLIWAG",
       "genderMF": [
         50,
@@ -2279,7 +2279,7 @@
       "name": "凱西",
       "captureRate": 0.5,
       "fleeRate": 0.99,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ABRA",
       "genderMF": [
         75,
@@ -2307,7 +2307,7 @@
       "name": "勇基拉",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ABRA",
       "genderMF": [
         75,
@@ -2321,7 +2321,8 @@
       ],
       "fastMoves": [
         "CONFUSION",
-        "PSYCHO_CUT"
+        "PSYCHO_CUT",
+        "COUNTER"
       ],
       "chargedMoves": [
         "DAZZLING_GLEAM",
@@ -2333,7 +2334,8 @@
       ],
       "legacyMoves": [
         "DAZZLING_GLEAM",
-        "PSYCHIC"
+        "PSYCHIC",
+        "COUNTER"
       ],
       "_atk": 271,
       "_def": 167,
@@ -2342,7 +2344,7 @@
       "name": "胡地",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ABRA",
       "genderMF": [
         75,
@@ -2374,7 +2376,7 @@
       "name": "腕力",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MACHOP",
       "genderMF": [
         75,
@@ -2406,7 +2408,7 @@
       "name": "豪力",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MACHOP",
       "genderMF": [
         75,
@@ -2444,7 +2446,7 @@
       "name": "怪力",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MACHOP",
       "genderMF": [
         75,
@@ -2473,7 +2475,7 @@
       "name": "喇叭芽",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BELLSPROUT",
       "genderMF": [
         50,
@@ -2506,7 +2508,7 @@
       "name": "口呆花",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BELLSPROUT",
       "genderMF": [
         50,
@@ -2537,7 +2539,7 @@
       "name": "大食花",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BELLSPROUT",
       "genderMF": [
         50,
@@ -2566,7 +2568,7 @@
       "name": "瑪瑙水母",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TENTACOOL",
       "genderMF": [
         50,
@@ -2596,7 +2598,7 @@
       "name": "毒刺水母",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TENTACOOL",
       "genderMF": [
         50,
@@ -2625,7 +2627,7 @@
       "name": "小拳石",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_GEODUDE",
       "genderMF": [
         50,
@@ -2654,7 +2656,7 @@
       "name": "小拳石 阿羅拉型態",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_GEODUDE",
       "genderMF": [
         50,
@@ -2689,7 +2691,7 @@
       "name": "隆隆石",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_GEODUDE",
       "genderMF": [
         50,
@@ -2718,7 +2720,7 @@
       "name": "隆隆石 阿羅拉型態",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_GEODUDE",
       "genderMF": [
         50,
@@ -2752,7 +2754,7 @@
       "name": "隆隆岩",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_GEODUDE",
       "genderMF": [
         50,
@@ -2781,7 +2783,7 @@
       "name": "隆隆岩 阿羅拉型態",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_GEODUDE",
       "genderMF": [
         50,
@@ -2813,7 +2815,7 @@
       "name": "小火馬",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PONYTA",
       "genderMF": [
         50,
@@ -2845,7 +2847,7 @@
       "name": "烈焰馬",
       "captureRate": 0.15,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PONYTA",
       "genderMF": [
         50,
@@ -2874,7 +2876,7 @@
       "name": "呆呆獸",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SLOWPOKE",
       "genderMF": [
         50,
@@ -2903,7 +2905,7 @@
       "name": "呆殼獸",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SLOWPOKE",
       "genderMF": [
         50,
@@ -2932,7 +2934,7 @@
       "name": "小磁怪",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MAGNEMITE",
       "genderMF": [
         0,
@@ -2963,7 +2965,7 @@
       "name": "三合一磁怪",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MAGNEMITE",
       "genderMF": [
         0,
@@ -2996,7 +2998,7 @@
       "name": "大蔥鴨",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_FARFETCHD",
       "genderMF": [
         50,
@@ -3029,7 +3031,7 @@
       "name": "嘟嘟",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DODUO",
       "genderMF": [
         50,
@@ -3062,7 +3064,7 @@
       "name": "嘟嘟利",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DODUO",
       "genderMF": [
         50,
@@ -3096,7 +3098,7 @@
       "name": "小海獅",
       "captureRate": 0.5,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SEEL",
       "genderMF": [
         50,
@@ -3133,7 +3135,7 @@
       "name": "白海獅",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SEEL",
       "genderMF": [
         50,
@@ -3165,7 +3167,7 @@
       "name": "臭泥",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GRIMER",
       "genderMF": [
         50,
@@ -3198,7 +3200,7 @@
       "name": "臭泥 阿羅拉型態",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GRIMER",
       "genderMF": [
         50,
@@ -3234,7 +3236,7 @@
       "name": "臭臭泥",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GRIMER",
       "genderMF": [
         50,
@@ -3265,7 +3267,7 @@
       "name": "臭臭泥 阿羅拉型態",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GRIMER",
       "genderMF": [
         50,
@@ -3293,7 +3295,7 @@
       "name": "大舌貝",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHELLDER",
       "genderMF": [
         50,
@@ -3327,7 +3329,7 @@
       "name": "刺甲貝",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHELLDER",
       "genderMF": [
         50,
@@ -3362,7 +3364,7 @@
       "name": "鬼斯",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GASTLY",
       "genderMF": [
         50,
@@ -3396,7 +3398,7 @@
       "name": "鬼斯通",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GASTLY",
       "genderMF": [
         50,
@@ -3436,7 +3438,7 @@
       "name": "耿鬼",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GASTLY",
       "genderMF": [
         50,
@@ -3471,7 +3473,7 @@
       "name": "大岩蛇",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ONIX",
       "genderMF": [
         50,
@@ -3499,7 +3501,7 @@
       "name": "催眠貘",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DROWZEE",
       "genderMF": [
         50,
@@ -3535,7 +3537,7 @@
       "name": "引夢貘人",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DROWZEE",
       "genderMF": [
         50,
@@ -3563,7 +3565,7 @@
       "name": "大鉗蟹",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_KRABBY",
       "genderMF": [
         50,
@@ -3596,7 +3598,7 @@
       "name": "巨鉗蟹",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_KRABBY",
       "genderMF": [
         50,
@@ -3628,7 +3630,7 @@
       "name": "霹靂電球",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VOLTORB",
       "genderMF": [
         0,
@@ -3661,7 +3663,7 @@
       "name": "頑皮雷彈",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VOLTORB",
       "genderMF": [
         0,
@@ -3690,7 +3692,7 @@
       "name": "蛋蛋",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_EXEGGCUTE",
       "genderMF": [
         50,
@@ -3724,7 +3726,7 @@
       "name": "椰蛋樹",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_EXEGGCUTE",
       "genderMF": [
         50,
@@ -3753,7 +3755,7 @@
       "name": "椰蛋樹 阿羅拉型態",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_EXEGGCUTE",
       "genderMF": [
         50,
@@ -3781,7 +3783,7 @@
       "name": "卡拉卡拉",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CUBONE",
       "genderMF": [
         50,
@@ -3809,7 +3811,7 @@
       "name": "嘎啦嘎啦",
       "captureRate": 0.15,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CUBONE",
       "genderMF": [
         50,
@@ -3840,7 +3842,7 @@
       "name": "嘎啦嘎啦 阿羅拉型態",
       "captureRate": 0.15,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CUBONE",
       "genderMF": [
         50,
@@ -3874,7 +3876,7 @@
       "name": "飛腿郎",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TYROGUE",
       "genderMF": [
         100,
@@ -3910,7 +3912,7 @@
       "name": "快拳郎",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TYROGUE",
       "genderMF": [
         100,
@@ -3942,7 +3944,7 @@
       "name": "大舌頭",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_LICKITUNG",
       "genderMF": [
         50,
@@ -3974,7 +3976,7 @@
       "name": "瓦斯彈",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_KOFFING",
       "genderMF": [
         50,
@@ -4007,7 +4009,7 @@
       "name": "雙彈瓦斯",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_KOFFING",
       "genderMF": [
         50,
@@ -4036,7 +4038,7 @@
       "name": "雙彈瓦斯 伽勒爾型態",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_KOFFING",
       "genderMF": [
         50,
@@ -4065,7 +4067,7 @@
       "name": "獨角犀牛",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_RHYHORN",
       "genderMF": [
         50,
@@ -4098,7 +4100,7 @@
       "name": "鑽角犀獸",
       "captureRate": 0.05,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_RHYHORN",
       "genderMF": [
         50,
@@ -4130,7 +4132,7 @@
       "name": "吉利蛋",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CHANSEY",
       "genderMF": [
         0,
@@ -4162,7 +4164,7 @@
       "name": "蔓藤怪",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TANGELA",
       "genderMF": [
         50,
@@ -4197,7 +4199,7 @@
       "name": "袋獸",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_KANGASKHAN",
       "genderMF": [
         0,
@@ -4225,7 +4227,7 @@
       "name": "墨海馬",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HORSEA",
       "genderMF": [
         50,
@@ -4257,7 +4259,7 @@
       "name": "海刺龍",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HORSEA",
       "genderMF": [
         50,
@@ -4285,7 +4287,7 @@
       "name": "角金魚",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GOLDEEN",
       "genderMF": [
         50,
@@ -4321,7 +4323,7 @@
       "name": "金魚王",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GOLDEEN",
       "genderMF": [
         50,
@@ -4353,7 +4355,7 @@
       "name": "海星星",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_STARYU",
       "genderMF": [
         0,
@@ -4392,7 +4394,7 @@
       "name": "寶石海星",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_STARYU",
       "genderMF": [
         0,
@@ -4421,7 +4423,7 @@
       "name": "魔牆人偶",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MR_MIME",
       "genderMF": [
         50,
@@ -4456,7 +4458,7 @@
       "name": "飛天螳螂",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SCYTHER",
       "genderMF": [
         50,
@@ -4492,7 +4494,7 @@
       "name": "迷唇姐",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_JYNX",
       "genderMF": [
         0,
@@ -4520,7 +4522,7 @@
       "name": "電擊獸",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ELECTABUZZ",
       "genderMF": [
         75,
@@ -4548,7 +4550,7 @@
       "name": "鴨嘴火獸",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MAGMAR",
       "genderMF": [
         75,
@@ -4582,7 +4584,7 @@
       "name": "凱羅斯",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_PINSIR",
       "genderMF": [
         50,
@@ -4610,7 +4612,7 @@
       "name": "肯泰羅",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TAUROS",
       "genderMF": [
         100,
@@ -4635,7 +4637,7 @@
       "name": "鯉魚王",
       "captureRate": 0.7,
       "fleeRate": 0.15,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_MAGIKARP",
       "genderMF": [
         50,
@@ -4672,7 +4674,7 @@
       "name": "暴鯉龍",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_MAGIKARP",
       "genderMF": [
         50,
@@ -4710,7 +4712,7 @@
       "name": "拉普拉斯",
       "captureRate": 0.05,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LAPRAS",
       "genderMF": [
         50,
@@ -4735,7 +4737,7 @@
       "name": "百變怪",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DITTO",
       "genderMF": [
         0,
@@ -4768,7 +4770,7 @@
       "name": "伊布",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_EEVEE",
       "genderMF": [
         87.5,
@@ -4799,7 +4801,7 @@
       "name": "水伊布",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_EEVEE",
       "genderMF": [
         87.5,
@@ -4831,7 +4833,7 @@
       "name": "雷伊布",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_EEVEE",
       "genderMF": [
         87.5,
@@ -4865,7 +4867,7 @@
       "name": "火伊布",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_EEVEE",
       "genderMF": [
         87.5,
@@ -4907,7 +4909,7 @@
       "name": "多邊獸",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PORYGON",
       "genderMF": [
         0,
@@ -4942,7 +4944,7 @@
       "name": "菊石獸",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_OMANYTE",
       "genderMF": [
         87.5,
@@ -4977,7 +4979,7 @@
       "name": "多刺菊石獸",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_OMANYTE",
       "genderMF": [
         87.5,
@@ -5006,7 +5008,7 @@
       "name": "化石盔",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_KABUTO",
       "genderMF": [
         87.5,
@@ -5040,7 +5042,7 @@
       "name": "鐮刀盔",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_KABUTO",
       "genderMF": [
         87.5,
@@ -5072,7 +5074,7 @@
       "name": "化石翼龍",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_AERODACTYL",
       "genderMF": [
         87.5,
@@ -5108,7 +5110,7 @@
       "name": "卡比獸",
       "captureRate": 0.05,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SNORLAX",
       "genderMF": [
         87.5,
@@ -5142,7 +5144,7 @@
       "name": "急凍鳥",
       "captureRate": 0.03,
       "fleeRate": 0.1,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARTICUNO",
       "genderMF": [
         0,
@@ -5176,7 +5178,7 @@
       "name": "閃電鳥",
       "captureRate": 0.03,
       "fleeRate": 0.1,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ZAPDOS",
       "genderMF": [
         0,
@@ -5212,7 +5214,7 @@
       "name": "火焰鳥",
       "captureRate": 0.03,
       "fleeRate": 0.1,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MOLTRES",
       "genderMF": [
         0,
@@ -5240,7 +5242,7 @@
       "name": "迷你龍",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DRATINI",
       "genderMF": [
         50,
@@ -5268,7 +5270,7 @@
       "name": "哈克龍",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DRATINI",
       "genderMF": [
         50,
@@ -5305,7 +5307,7 @@
       "name": "快龍",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DRATINI",
       "genderMF": [
         50,
@@ -5343,7 +5345,7 @@
       "name": "超夢",
       "captureRate": 0.06,
       "fleeRate": 0.1,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MEWTWO",
       "genderMF": [
         0,
@@ -5376,7 +5378,7 @@
       "name": "超夢 裝甲型態",
       "captureRate": 0.06,
       "fleeRate": 0.1,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MEWTWO",
       "genderMF": [
         0,
@@ -5437,7 +5439,7 @@
       "id": "MEW",
       "name": "夢幻",
       "captureRate": 100,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MEW",
       "genderMF": [
         0,
@@ -5465,7 +5467,7 @@
       "name": "菊草葉",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHIKORITA",
       "genderMF": [
         87.5,
@@ -5493,7 +5495,7 @@
       "name": "月桂葉",
       "captureRate": 0.13,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHIKORITA",
       "genderMF": [
         87.5,
@@ -5525,7 +5527,7 @@
       "name": "大竺葵",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHIKORITA",
       "genderMF": [
         87.5,
@@ -5553,7 +5555,7 @@
       "name": "火球鼠",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CYNDAQUIL",
       "genderMF": [
         87.5,
@@ -5581,7 +5583,7 @@
       "name": "火岩鼠",
       "captureRate": 0.13,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CYNDAQUIL",
       "genderMF": [
         87.5,
@@ -5613,7 +5615,7 @@
       "name": "火爆獸",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CYNDAQUIL",
       "genderMF": [
         87.5,
@@ -5641,7 +5643,7 @@
       "name": "小鋸鱷",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TOTODILE",
       "genderMF": [
         87.5,
@@ -5669,7 +5671,7 @@
       "name": "藍鱷",
       "captureRate": 0.13,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TOTODILE",
       "genderMF": [
         87.5,
@@ -5704,7 +5706,7 @@
       "name": "大力鱷",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TOTODILE",
       "genderMF": [
         87.5,
@@ -5732,7 +5734,7 @@
       "name": "尾立",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SENTRET",
       "genderMF": [
         50,
@@ -5760,7 +5762,7 @@
       "name": "大尾立",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SENTRET",
       "genderMF": [
         50,
@@ -5789,7 +5791,7 @@
       "name": "咕咕",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_HOOTHOOT",
       "genderMF": [
         50,
@@ -5818,7 +5820,7 @@
       "name": "貓頭夜鷹",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_HOOTHOOT",
       "genderMF": [
         50,
@@ -5847,7 +5849,7 @@
       "name": "芭瓢蟲",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_LEDYBA",
       "genderMF": [
         50,
@@ -5876,7 +5878,7 @@
       "name": "安瓢蟲",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_LEDYBA",
       "genderMF": [
         50,
@@ -5905,7 +5907,7 @@
       "name": "圓絲蛛",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SPINARAK",
       "genderMF": [
         50,
@@ -5934,7 +5936,7 @@
       "name": "阿利多斯",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SPINARAK",
       "genderMF": [
         50,
@@ -5963,7 +5965,7 @@
       "name": "叉字蝠",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ZUBAT",
       "genderMF": [
         50,
@@ -5992,7 +5994,7 @@
       "name": "燈籠魚",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHINCHOU",
       "genderMF": [
         50,
@@ -6022,7 +6024,7 @@
       "name": "電燈怪",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHINCHOU",
       "genderMF": [
         50,
@@ -6052,7 +6054,7 @@
       "id": "PICHU",
       "name": "皮丘",
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIKACHU",
       "genderMF": [
         50,
@@ -6085,7 +6087,7 @@
       "id": "CLEFFA",
       "name": "皮寶寶",
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_CLEFAIRY",
       "genderMF": [
         25,
@@ -6117,7 +6119,7 @@
       "id": "IGGLYBUFF",
       "name": "寶寶丁",
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_JIGGLYPUFF",
       "genderMF": [
         25,
@@ -6148,7 +6150,7 @@
       "id": "TOGEPI",
       "name": "波克比",
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TOGEPI",
       "genderMF": [
         87.5,
@@ -6183,7 +6185,7 @@
       "name": "波克基古",
       "captureRate": 0.2,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TOGEPI",
       "genderMF": [
         87.5,
@@ -6212,7 +6214,7 @@
       "name": "天然雀",
       "captureRate": 0.4,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NATU",
       "genderMF": [
         50,
@@ -6241,7 +6243,7 @@
       "name": "天然鳥",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NATU",
       "genderMF": [
         50,
@@ -6269,7 +6271,7 @@
       "name": "咩利羊",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MAREEP",
       "genderMF": [
         50,
@@ -6297,7 +6299,7 @@
       "name": "茸茸羊",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MAREEP",
       "genderMF": [
         50,
@@ -6331,7 +6333,7 @@
       "name": "電龍",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MAREEP",
       "genderMF": [
         50,
@@ -6360,7 +6362,7 @@
       "name": "美麗花",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ODDISH",
       "genderMF": [
         50,
@@ -6389,7 +6391,7 @@
       "name": "瑪力露",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MARILL",
       "genderMF": [
         50,
@@ -6418,7 +6420,7 @@
       "name": "瑪力露麗",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MARILL",
       "genderMF": [
         50,
@@ -6446,7 +6448,7 @@
       "name": "樹才怪",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SUDOWOODO",
       "genderMF": [
         50,
@@ -6478,7 +6480,7 @@
       "name": "蚊香蛙皇",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_POLIWAG",
       "genderMF": [
         50,
@@ -6507,7 +6509,7 @@
       "name": "毽子草",
       "captureRate": 0.5,
       "fleeRate": 0.12,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HOPPIP",
       "genderMF": [
         50,
@@ -6536,7 +6538,7 @@
       "name": "毽子花",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HOPPIP",
       "genderMF": [
         50,
@@ -6566,7 +6568,7 @@
       "name": "毽子棉",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HOPPIP",
       "genderMF": [
         50,
@@ -6594,7 +6596,7 @@
       "name": "長尾怪手",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_AIPOM",
       "genderMF": [
         50,
@@ -6622,7 +6624,7 @@
       "name": "向日種子",
       "captureRate": 0.5,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SUNKERN",
       "genderMF": [
         50,
@@ -6650,7 +6652,7 @@
       "name": "向日花怪",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SUNKERN",
       "genderMF": [
         50,
@@ -6679,7 +6681,7 @@
       "name": "蜻蜻蜓",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_YANMA",
       "genderMF": [
         50,
@@ -6708,7 +6710,7 @@
       "name": "烏波",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_WOOPER",
       "genderMF": [
         50,
@@ -6738,7 +6740,7 @@
       "name": "沼王",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_WOOPER",
       "genderMF": [
         50,
@@ -6770,7 +6772,7 @@
       "name": "太陽伊布",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_EEVEE",
       "genderMF": [
         87.5,
@@ -6801,7 +6803,7 @@
       "name": "月亮伊布",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_EEVEE",
       "genderMF": [
         87.5,
@@ -6830,7 +6832,7 @@
       "name": "黑暗鴉",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MURKROW",
       "genderMF": [
         50,
@@ -6859,7 +6861,7 @@
       "name": "呆呆王",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SLOWPOKE",
       "genderMF": [
         50,
@@ -6887,7 +6889,7 @@
       "name": "夢妖",
       "captureRate": 0.3,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MISDREAVUS",
       "genderMF": [
         50,
@@ -6912,7 +6914,7 @@
       "name": "未知圖騰",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_UNOWN",
       "genderMF": [
         0,
@@ -6939,7 +6941,7 @@
       "name": "果然翁",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_WOBBUFFET",
       "genderMF": [
         50,
@@ -6968,7 +6970,7 @@
       "name": "麒麟奇",
       "captureRate": 0.3,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GIRAFARIG",
       "genderMF": [
         50,
@@ -6996,7 +6998,7 @@
       "name": "榛果球",
       "captureRate": 0.4,
       "fleeRate": 0.12,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_PINECO",
       "genderMF": [
         50,
@@ -7027,7 +7029,7 @@
       "name": "佛烈托斯",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_PINECO",
       "genderMF": [
         50,
@@ -7055,7 +7057,7 @@
       "name": "土龍弟弟",
       "captureRate": 0.3,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DUNSPARCE",
       "genderMF": [
         50,
@@ -7084,7 +7086,7 @@
       "name": "天蠍",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_GLIGAR",
       "genderMF": [
         50,
@@ -7114,7 +7116,7 @@
       "name": "大鋼蛇",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ONIX",
       "genderMF": [
         50,
@@ -7142,7 +7144,7 @@
       "name": "布魯",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNUBBULL",
       "genderMF": [
         25,
@@ -7171,7 +7173,7 @@
       "name": "布魯皇",
       "captureRate": 0.15,
       "fleeRate": 0.08,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNUBBULL",
       "genderMF": [
         25,
@@ -7202,7 +7204,7 @@
       "name": "千針魚",
       "captureRate": 0.3,
       "fleeRate": 0.08,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_QWILFISH",
       "genderMF": [
         50,
@@ -7231,7 +7233,7 @@
       "name": "巨鉗螳螂",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SCYTHER",
       "genderMF": [
         50,
@@ -7260,7 +7262,7 @@
       "name": "壺壺",
       "captureRate": 0.3,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHUCKLE",
       "genderMF": [
         50,
@@ -7289,7 +7291,7 @@
       "name": "赫拉克羅斯",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HERACROSS",
       "genderMF": [
         50,
@@ -7318,7 +7320,7 @@
       "name": "狃拉",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNEASEL",
       "genderMF": [
         50,
@@ -7346,7 +7348,7 @@
       "name": "熊寶寶",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TEDDIURSA",
       "genderMF": [
         50,
@@ -7375,7 +7377,7 @@
       "name": "圈圈熊",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TEDDIURSA",
       "genderMF": [
         50,
@@ -7403,7 +7405,7 @@
       "name": "熔岩蟲",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SLUGMA",
       "genderMF": [
         50,
@@ -7432,7 +7434,7 @@
       "name": "熔岩蝸牛",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SLUGMA",
       "genderMF": [
         50,
@@ -7461,7 +7463,7 @@
       "name": "小山豬",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SWINUB",
       "genderMF": [
         50,
@@ -7490,7 +7492,7 @@
       "name": "長毛豬",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SWINUB",
       "genderMF": [
         50,
@@ -7519,7 +7521,7 @@
       "name": "太陽珊瑚",
       "captureRate": 0.3,
       "fleeRate": 0.12,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CORSOLA",
       "genderMF": [
         25,
@@ -7547,7 +7549,7 @@
       "name": "鐵炮魚",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_REMORAID",
       "genderMF": [
         50,
@@ -7577,7 +7579,7 @@
       "name": "章魚桶",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_REMORAID",
       "genderMF": [
         50,
@@ -7611,7 +7613,7 @@
       "name": "信使鳥",
       "captureRate": 0.2,
       "fleeRate": 0.2,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DELIBIRD",
       "genderMF": [
         50,
@@ -7642,7 +7644,7 @@
       "name": "巨翅飛魚",
       "captureRate": 0.3,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MANTINE",
       "genderMF": [
         50,
@@ -7671,7 +7673,7 @@
       "name": "盔甲鳥",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SKARMORY",
       "genderMF": [
         50,
@@ -7700,7 +7702,7 @@
       "name": "戴魯比",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HOUNDOUR",
       "genderMF": [
         50,
@@ -7730,7 +7732,7 @@
       "name": "黑魯加",
       "captureRate": 0.15,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HOUNDOUR",
       "genderMF": [
         50,
@@ -7764,7 +7766,7 @@
       "name": "刺龍王",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HORSEA",
       "genderMF": [
         50,
@@ -7792,7 +7794,7 @@
       "name": "小小象",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PHANPY",
       "genderMF": [
         50,
@@ -7822,7 +7824,7 @@
       "name": "頓甲",
       "captureRate": 0.13,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PHANPY",
       "genderMF": [
         50,
@@ -7851,7 +7853,7 @@
       "name": "多邊獸Ⅱ",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PORYGON",
       "genderMF": [
         0,
@@ -7879,7 +7881,7 @@
       "name": "驚角鹿",
       "captureRate": 0.3,
       "fleeRate": 0.08,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_STANTLER",
       "genderMF": [
         50,
@@ -8077,7 +8079,7 @@
       "name": "圖圖犬",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SMEARGLE",
       "genderMF": [
         50,
@@ -8104,7 +8106,7 @@
       "id": "TYROGUE",
       "name": "無畏小子",
       "fleeRate": 0.2,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TYROGUE",
       "genderMF": [
         100,
@@ -8132,7 +8134,7 @@
       "name": "戰舞郎",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TYROGUE",
       "genderMF": [
         100,
@@ -8164,7 +8166,7 @@
       "id": "SMOOCHUM",
       "name": "迷唇娃",
       "fleeRate": 0.2,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_JYNX",
       "genderMF": [
         0,
@@ -8195,7 +8197,7 @@
       "id": "ELEKID",
       "name": "電擊怪",
       "fleeRate": 0.2,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ELECTABUZZ",
       "genderMF": [
         75,
@@ -8226,7 +8228,7 @@
       "id": "MAGBY",
       "name": "鴨嘴寶寶",
       "fleeRate": 0.2,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MAGMAR",
       "genderMF": [
         75,
@@ -8256,7 +8258,7 @@
       "name": "大奶罐",
       "captureRate": 0.2,
       "fleeRate": 0.08,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MILTANK",
       "genderMF": [
         0,
@@ -8284,7 +8286,7 @@
       "name": "幸福蛋",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CHANSEY",
       "genderMF": [
         0,
@@ -8313,7 +8315,7 @@
       "name": "雷公",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_RAIKOU",
       "genderMF": [
         0,
@@ -8342,7 +8344,7 @@
       "name": "炎帝",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ENTEI",
       "genderMF": [
         0,
@@ -8376,7 +8378,7 @@
       "name": "水君",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_SUICUNE",
       "genderMF": [
         0,
@@ -8405,7 +8407,7 @@
       "name": "幼基拉斯",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LARVITAR",
       "genderMF": [
         50,
@@ -8434,7 +8436,7 @@
       "name": "沙基拉斯",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LARVITAR",
       "genderMF": [
         50,
@@ -8467,7 +8469,7 @@
       "name": "班基拉斯",
       "captureRate": 0.05,
       "fleeRate": 0.04,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LARVITAR",
       "genderMF": [
         50,
@@ -8496,7 +8498,7 @@
       "name": "洛奇亞",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_LUGIA",
       "genderMF": [
         0,
@@ -8526,7 +8528,7 @@
       "name": "鳳王",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_HO_OH",
       "genderMF": [
         0,
@@ -8555,7 +8557,7 @@
       "id": "CELEBI",
       "name": "時拉比",
       "captureRate": 100,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_CELEBI",
       "genderMF": [
         0,
@@ -8583,7 +8585,7 @@
       "name": "木守宮",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TREECKO",
       "genderMF": [
         87.5,
@@ -8611,7 +8613,7 @@
       "name": "森林蜥蜴",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TREECKO",
       "genderMF": [
         87.5,
@@ -8644,7 +8646,7 @@
       "name": "蜥蜴王",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TREECKO",
       "genderMF": [
         87.5,
@@ -8672,7 +8674,7 @@
       "name": "火稚雞",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TORCHIC",
       "genderMF": [
         87.5,
@@ -8701,7 +8703,7 @@
       "name": "力壯雞",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TORCHIC",
       "genderMF": [
         87.5,
@@ -8737,7 +8739,7 @@
       "name": "火焰雞",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TORCHIC",
       "genderMF": [
         87.5,
@@ -8765,7 +8767,7 @@
       "name": "水躍魚",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MUDKIP",
       "genderMF": [
         87.5,
@@ -8794,7 +8796,7 @@
       "name": "沼躍魚",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MUDKIP",
       "genderMF": [
         87.5,
@@ -8828,7 +8830,7 @@
       "name": "巨沼怪",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MUDKIP",
       "genderMF": [
         87.5,
@@ -8856,7 +8858,7 @@
       "name": "土狼犬",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_POOCHYENA",
       "genderMF": [
         50,
@@ -8886,7 +8888,7 @@
       "name": "大狼犬",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_POOCHYENA",
       "genderMF": [
         50,
@@ -8914,7 +8916,7 @@
       "name": "蛇紋熊",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ZIGZAGOON",
       "genderMF": [
         50,
@@ -8943,7 +8945,7 @@
       "name": "蛇紋熊 伽勒爾型態",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ZIGZAGOON",
       "genderMF": [
         50,
@@ -8971,7 +8973,7 @@
       "name": "直衝熊",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ZIGZAGOON",
       "genderMF": [
         50,
@@ -9000,7 +9002,7 @@
       "name": "直衝熊 伽勒爾型態",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ZIGZAGOON",
       "genderMF": [
         50,
@@ -9026,7 +9028,7 @@
       "name": "刺尾蟲",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WURMPLE",
       "genderMF": [
         50,
@@ -9052,7 +9054,7 @@
       "name": "甲殼繭",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WURMPLE",
       "genderMF": [
         50,
@@ -9081,7 +9083,7 @@
       "name": "狩獵鳳蝶",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WURMPLE",
       "genderMF": [
         50,
@@ -9107,7 +9109,7 @@
       "name": "盾甲繭",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WURMPLE",
       "genderMF": [
         50,
@@ -9136,7 +9138,7 @@
       "name": "毒粉蛾",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WURMPLE",
       "genderMF": [
         50,
@@ -9164,7 +9166,7 @@
       "name": "蓮葉童子",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_LOTAD",
       "genderMF": [
         50,
@@ -9193,7 +9195,7 @@
       "name": "蓮帽小童",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_LOTAD",
       "genderMF": [
         50,
@@ -9224,7 +9226,7 @@
       "name": "樂天河童",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_LOTAD",
       "genderMF": [
         50,
@@ -9252,7 +9254,7 @@
       "name": "橡實果",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SEEDOT",
       "genderMF": [
         50,
@@ -9281,7 +9283,7 @@
       "name": "長鼻葉",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SEEDOT",
       "genderMF": [
         50,
@@ -9312,7 +9314,7 @@
       "name": "狡猾天狗",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SEEDOT",
       "genderMF": [
         50,
@@ -9339,7 +9341,7 @@
       "name": "傲骨燕",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_TAILLOW",
       "genderMF": [
         50,
@@ -9368,7 +9370,7 @@
       "name": "大王燕",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_TAILLOW",
       "genderMF": [
         50,
@@ -9397,7 +9399,7 @@
       "name": "長翅鷗",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_WINGULL",
       "genderMF": [
         50,
@@ -9426,7 +9428,7 @@
       "name": "大嘴鷗",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_WINGULL",
       "genderMF": [
         50,
@@ -9455,7 +9457,7 @@
       "name": "拉魯拉絲",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_RALTS",
       "genderMF": [
         50,
@@ -9484,7 +9486,7 @@
       "name": "奇魯莉安",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_RALTS",
       "genderMF": [
         50,
@@ -9518,7 +9520,7 @@
       "name": "沙奈朵",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_RALTS",
       "genderMF": [
         50,
@@ -9547,7 +9549,7 @@
       "name": "溜溜糖球",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SURSKIT",
       "genderMF": [
         50,
@@ -9577,7 +9579,7 @@
       "name": "雨翅蛾",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SURSKIT",
       "genderMF": [
         50,
@@ -9605,7 +9607,7 @@
       "name": "蘑蘑菇",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHROOMISH",
       "genderMF": [
         50,
@@ -9638,7 +9640,7 @@
       "name": "斗笠菇",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHROOMISH",
       "genderMF": [
         50,
@@ -9665,7 +9667,7 @@
       "name": "懶人獺",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SLAKOTH",
       "genderMF": [
         50,
@@ -9693,7 +9695,7 @@
       "name": "過動猿",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SLAKOTH",
       "genderMF": [
         50,
@@ -9721,7 +9723,7 @@
       "name": "請假王",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SLAKOTH",
       "genderMF": [
         50,
@@ -9750,7 +9752,7 @@
       "name": "土居忍士",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_NINCADA",
       "genderMF": [
         50,
@@ -9779,7 +9781,7 @@
       "name": "鐵面忍者",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_NINCADA",
       "genderMF": [
         50,
@@ -9808,7 +9810,7 @@
       "name": "脫殼忍者",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_NINCADA",
       "genderMF": [
         0,
@@ -9836,7 +9838,7 @@
       "name": "咕妞妞",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WHISMUR",
       "genderMF": [
         50,
@@ -9868,7 +9870,7 @@
       "name": "吼爆彈",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WHISMUR",
       "genderMF": [
         50,
@@ -9896,7 +9898,7 @@
       "name": "爆音怪",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WHISMUR",
       "genderMF": [
         50,
@@ -9924,7 +9926,7 @@
       "name": "幕下力士",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MAKUHITA",
       "genderMF": [
         75,
@@ -9953,7 +9955,7 @@
       "name": "鐵掌力士",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MAKUHITA",
       "genderMF": [
         75,
@@ -9982,7 +9984,7 @@
       "name": "露力麗",
       "captureRate": 0.1,
       "fleeRate": 0.04,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MARILL",
       "genderMF": [
         25,
@@ -10010,7 +10012,7 @@
       "name": "朝北鼻",
       "captureRate": 0.2,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NOSEPASS",
       "genderMF": [
         50,
@@ -10038,7 +10040,7 @@
       "name": "向尾喵",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SKITTY",
       "genderMF": [
         25,
@@ -10067,7 +10069,7 @@
       "name": "優雅貓",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SKITTY",
       "genderMF": [
         25,
@@ -10096,7 +10098,7 @@
       "name": "勾魂眼",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SABLEYE",
       "genderMF": [
         50,
@@ -10128,7 +10130,7 @@
       "name": "大嘴娃",
       "captureRate": 0.5,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MAWILE",
       "genderMF": [
         50,
@@ -10157,7 +10159,7 @@
       "name": "可可多拉",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ARON",
       "genderMF": [
         50,
@@ -10186,7 +10188,7 @@
       "name": "可多拉",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ARON",
       "genderMF": [
         50,
@@ -10216,7 +10218,7 @@
       "name": "波士可多拉",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_ARON",
       "genderMF": [
         50,
@@ -10245,7 +10247,7 @@
       "name": "瑪沙那",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MEDITITE",
       "genderMF": [
         50,
@@ -10275,7 +10277,7 @@
       "name": "恰雷姆",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MEDITITE",
       "genderMF": [
         50,
@@ -10303,7 +10305,7 @@
       "name": "落雷獸",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ELECTRIKE",
       "genderMF": [
         50,
@@ -10331,7 +10333,7 @@
       "name": "雷電獸",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ELECTRIKE",
       "genderMF": [
         50,
@@ -10360,7 +10362,7 @@
       "name": "正電拍拍",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PLUSLE",
       "genderMF": [
         50,
@@ -10389,7 +10391,7 @@
       "name": "負電拍拍",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MINUN",
       "genderMF": [
         50,
@@ -10417,7 +10419,7 @@
       "name": "電螢蟲",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VOLBEAT",
       "genderMF": [
         100,
@@ -10445,7 +10447,7 @@
       "name": "甜甜螢",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ILLUMISE",
       "genderMF": [
         0,
@@ -10474,7 +10476,7 @@
       "name": "毒薔薇",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ROSELIA",
       "genderMF": [
         50,
@@ -10502,7 +10504,7 @@
       "name": "溶食獸",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_GULPIN",
       "genderMF": [
         50,
@@ -10531,7 +10533,7 @@
       "name": "吞食獸",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_GULPIN",
       "genderMF": [
         50,
@@ -10560,7 +10562,7 @@
       "name": "利牙魚",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CARVANHA",
       "genderMF": [
         50,
@@ -10589,7 +10591,7 @@
       "name": "巨牙鯊",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CARVANHA",
       "genderMF": [
         50,
@@ -10617,7 +10619,7 @@
       "name": "吼吼鯨",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WAILMER",
       "genderMF": [
         50,
@@ -10645,7 +10647,7 @@
       "name": "吼鯨王",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WAILMER",
       "genderMF": [
         50,
@@ -10674,7 +10676,7 @@
       "name": "呆火駝",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NUMEL",
       "genderMF": [
         50,
@@ -10704,7 +10706,7 @@
       "name": "噴火駝",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NUMEL",
       "genderMF": [
         50,
@@ -10732,7 +10734,7 @@
       "name": "煤炭龜",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TORKOAL",
       "genderMF": [
         50,
@@ -10760,7 +10762,7 @@
       "name": "跳跳豬",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SPOINK",
       "genderMF": [
         50,
@@ -10788,7 +10790,7 @@
       "name": "噗噗豬",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SPOINK",
       "genderMF": [
         50,
@@ -10816,7 +10818,7 @@
       "name": "晃晃斑",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SPINDA",
       "genderMF": [
         50,
@@ -10844,7 +10846,7 @@
       "name": "大顎蟻",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TRAPINCH",
       "genderMF": [
         50,
@@ -10873,7 +10875,7 @@
       "name": "超音波幼蟲",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TRAPINCH",
       "genderMF": [
         50,
@@ -10906,7 +10908,7 @@
       "name": "沙漠蜻蜓",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TRAPINCH",
       "genderMF": [
         50,
@@ -10934,7 +10936,7 @@
       "name": "刺球仙人掌",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CACNEA",
       "genderMF": [
         50,
@@ -10963,7 +10965,7 @@
       "name": "夢歌仙人掌",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CACNEA",
       "genderMF": [
         50,
@@ -10992,7 +10994,7 @@
       "name": "青綿鳥",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SWABLU",
       "genderMF": [
         50,
@@ -11021,7 +11023,7 @@
       "name": "七夕青鳥",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SWABLU",
       "genderMF": [
         50,
@@ -11049,7 +11051,7 @@
       "name": "貓鼬斬",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ZANGOOSE",
       "genderMF": [
         50,
@@ -11077,7 +11079,7 @@
       "name": "飯匙蛇",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SEVIPER",
       "genderMF": [
         50,
@@ -11106,7 +11108,7 @@
       "name": "月石",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_LUNATONE",
       "genderMF": [
         0,
@@ -11135,7 +11137,7 @@
       "name": "太陽岩",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SOLROCK",
       "genderMF": [
         0,
@@ -11164,7 +11166,7 @@
       "name": "泥泥鰍",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BARBOACH",
       "genderMF": [
         50,
@@ -11193,7 +11195,7 @@
       "name": "鯰魚王",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BARBOACH",
       "genderMF": [
         50,
@@ -11221,7 +11223,7 @@
       "name": "龍蝦小兵",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CORPHISH",
       "genderMF": [
         50,
@@ -11251,7 +11253,7 @@
       "name": "鐵螯龍蝦",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CORPHISH",
       "genderMF": [
         50,
@@ -11280,7 +11282,7 @@
       "name": "天秤偶",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BALTOY",
       "genderMF": [
         0,
@@ -11311,7 +11313,7 @@
       "name": "念力土偶",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BALTOY",
       "genderMF": [
         0,
@@ -11340,7 +11342,7 @@
       "name": "觸手百合",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_LILEEP",
       "genderMF": [
         87.5,
@@ -11370,7 +11372,7 @@
       "name": "搖籃百合",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_LILEEP",
       "genderMF": [
         87.5,
@@ -11399,7 +11401,7 @@
       "name": "太古羽蟲",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ANORITH",
       "genderMF": [
         87.5,
@@ -11428,7 +11430,7 @@
       "name": "太古盔甲",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ANORITH",
       "genderMF": [
         87.5,
@@ -11454,7 +11456,7 @@
       "name": "醜醜魚",
       "captureRate": 0.7,
       "fleeRate": 0.15,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_FEEBAS",
       "genderMF": [
         50,
@@ -11482,7 +11484,7 @@
       "name": "美納斯",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_FEEBAS",
       "genderMF": [
         50,
@@ -11510,7 +11512,7 @@
       "name": "飄浮泡泡",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CASTFORM",
       "genderMF": [
         50,
@@ -11538,7 +11540,7 @@
       "name": "飄浮泡泡 雨天型態",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CASTFORM",
       "genderMF": [
         50,
@@ -11566,7 +11568,7 @@
       "name": "飄浮泡泡 雪型態",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CASTFORM",
       "genderMF": [
         50,
@@ -11594,7 +11596,7 @@
       "name": "飄浮泡泡 晴天型態",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CASTFORM",
       "genderMF": [
         50,
@@ -11625,7 +11627,7 @@
       "name": "變隱龍",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_KECLEON",
       "genderMF": [
         50,
@@ -11653,7 +11655,7 @@
       "name": "怨影娃娃",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHUPPET",
       "genderMF": [
         50,
@@ -11681,7 +11683,7 @@
       "name": "詛咒娃娃",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHUPPET",
       "genderMF": [
         50,
@@ -11709,7 +11711,7 @@
       "name": "夜巡靈",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DUSKULL",
       "genderMF": [
         50,
@@ -11737,7 +11739,7 @@
       "name": "彷徨夜靈",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DUSKULL",
       "genderMF": [
         50,
@@ -11766,7 +11768,7 @@
       "name": "熱帶龍",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TROPIUS",
       "genderMF": [
         50,
@@ -11794,7 +11796,7 @@
       "name": "風鈴鈴",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CHIMECHO",
       "genderMF": [
         50,
@@ -11822,7 +11824,7 @@
       "name": "阿勃梭魯",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ABSOL",
       "genderMF": [
         50,
@@ -11848,7 +11850,7 @@
       "name": "小果然",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_WOBBUFFET",
       "genderMF": [
         50,
@@ -11876,7 +11878,7 @@
       "name": "雪童子",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNORUNT",
       "genderMF": [
         50,
@@ -11904,7 +11906,7 @@
       "name": "冰鬼護",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNORUNT",
       "genderMF": [
         50,
@@ -11933,7 +11935,7 @@
       "name": "海豹球",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SPHEAL",
       "genderMF": [
         50,
@@ -11962,7 +11964,7 @@
       "name": "海魔獅",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SPHEAL",
       "genderMF": [
         50,
@@ -11991,7 +11993,7 @@
       "name": "帝牙海獅",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SPHEAL",
       "genderMF": [
         50,
@@ -12018,7 +12020,7 @@
       "name": "珍珠貝",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CLAMPERL",
       "genderMF": [
         50,
@@ -12046,7 +12048,7 @@
       "name": "獵斑魚",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CLAMPERL",
       "genderMF": [
         50,
@@ -12074,7 +12076,7 @@
       "name": "櫻花魚",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CLAMPERL",
       "genderMF": [
         50,
@@ -12103,7 +12105,7 @@
       "name": "古空棘魚",
       "captureRate": 0.9,
       "fleeRate": 0.01,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_RELICANTH",
       "genderMF": [
         87.5,
@@ -12131,7 +12133,7 @@
       "name": "愛心魚",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_LUVDISC",
       "genderMF": [
         25,
@@ -12159,7 +12161,7 @@
       "name": "寶貝龍",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_BAGON",
       "genderMF": [
         50,
@@ -12187,7 +12189,7 @@
       "name": "甲殼龍",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_BAGON",
       "genderMF": [
         50,
@@ -12211,6 +12213,9 @@
         "HYDRO_PUMP",
         "OUTRAGE"
       ],
+      "legacyMoves": [
+        "OUTRAGE"
+      ],
       "_atk": 277,
       "_def": 168,
       "_sta": 216,
@@ -12218,7 +12223,7 @@
       "name": "暴飛龍",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_BAGON",
       "genderMF": [
         50,
@@ -12244,7 +12249,7 @@
       "name": "鐵啞鈴",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_BELDUM",
       "genderMF": [
         0,
@@ -12273,7 +12278,7 @@
       "name": "金屬怪",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_BELDUM",
       "genderMF": [
         0,
@@ -12304,9 +12309,9 @@
       "_sta": 190,
       "id": "METAGROSS",
       "name": "巨金怪",
-      "captureRate": 0.15,
+      "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_BELDUM",
       "genderMF": [
         0,
@@ -12335,7 +12340,7 @@
       "name": "雷吉洛克",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_REGIROCK",
       "genderMF": [
         0,
@@ -12364,7 +12369,7 @@
       "name": "雷吉艾斯",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_REGICE",
       "genderMF": [
         0,
@@ -12393,7 +12398,7 @@
       "name": "雷吉斯奇魯",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_REGISTEEL",
       "genderMF": [
         0,
@@ -12423,7 +12428,7 @@
       "name": "拉帝亞斯",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_LATIAS",
       "genderMF": [
         0,
@@ -12452,7 +12457,7 @@
       "name": "拉帝歐斯",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_LATIOS",
       "genderMF": [
         100,
@@ -12480,7 +12485,7 @@
       "name": "蓋歐卡",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_KYOGRE",
       "genderMF": [
         0,
@@ -12508,7 +12513,7 @@
       "name": "固拉多",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_GROUDON",
       "genderMF": [
         0,
@@ -12537,7 +12542,7 @@
       "name": "烈空坐",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_RAYQUAZA",
       "genderMF": [
         0,
@@ -12565,7 +12570,7 @@
       "id": "JIRACHI",
       "name": "基拉祈",
       "captureRate": 100,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_JIRACHI",
       "genderMF": [
         0,
@@ -12593,7 +12598,7 @@
       "name": "代歐奇希斯",
       "captureRate": 0.06,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_DEOXYS",
       "genderMF": [
         0,
@@ -12621,7 +12626,7 @@
       "name": "代歐奇希斯 攻擊型",
       "captureRate": 0.06,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_DEOXYS",
       "genderMF": [
         0,
@@ -12649,7 +12654,7 @@
       "name": "代歐奇希斯 防禦型",
       "captureRate": 0.06,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_DEOXYS",
       "genderMF": [
         0,
@@ -12677,7 +12682,7 @@
       "name": "代歐奇希斯 速度型",
       "captureRate": 0.06,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_DEOXYS",
       "genderMF": [
         0,
@@ -12705,7 +12710,7 @@
       "name": "草苗龜",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TURTWIG",
       "genderMF": [
         87.5,
@@ -12733,7 +12738,7 @@
       "name": "樹林龜",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TURTWIG",
       "genderMF": [
         87.5,
@@ -12767,7 +12772,7 @@
       "name": "土台龜",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TURTWIG",
       "genderMF": [
         87.5,
@@ -12795,7 +12800,7 @@
       "name": "小火焰猴",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHIMCHAR",
       "genderMF": [
         87.5,
@@ -12824,7 +12829,7 @@
       "name": "猛火猴",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHIMCHAR",
       "genderMF": [
         87.5,
@@ -12857,7 +12862,7 @@
       "name": "烈焰猴",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CHIMCHAR",
       "genderMF": [
         87.5,
@@ -12885,7 +12890,7 @@
       "name": "波加曼",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PIPLUP",
       "genderMF": [
         87.5,
@@ -12913,7 +12918,7 @@
       "name": "波皇子",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PIPLUP",
       "genderMF": [
         87.5,
@@ -12946,7 +12951,7 @@
       "name": "帝王拿波",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PIPLUP",
       "genderMF": [
         87.5,
@@ -12974,7 +12979,7 @@
       "name": "姆克兒",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_STARLY",
       "genderMF": [
         50,
@@ -13003,7 +13008,7 @@
       "name": "姆克鳥",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_STARLY",
       "genderMF": [
         50,
@@ -13032,7 +13037,7 @@
       "name": "姆克鷹",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_STARLY",
       "genderMF": [
         50,
@@ -13060,7 +13065,7 @@
       "name": "大牙狸",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BIDOOF",
       "genderMF": [
         50,
@@ -13089,7 +13094,7 @@
       "name": "大尾狸",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BIDOOF",
       "genderMF": [
         50,
@@ -13115,7 +13120,7 @@
       "name": "圓法師",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_KRICKETOT",
       "genderMF": [
         50,
@@ -13143,7 +13148,7 @@
       "name": "音箱蟀",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_KRICKETOT",
       "genderMF": [
         50,
@@ -13171,7 +13176,7 @@
       "name": "小貓怪",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SHINX",
       "genderMF": [
         50,
@@ -13199,7 +13204,7 @@
       "name": "勒克貓",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SHINX",
       "genderMF": [
         50,
@@ -13228,7 +13233,7 @@
       "name": "倫琴貓",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SHINX",
       "genderMF": [
         50,
@@ -13256,7 +13261,7 @@
       "name": "含羞苞",
       "captureRate": 0.1,
       "fleeRate": 0.04,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ROSELIA",
       "genderMF": [
         50,
@@ -13286,7 +13291,7 @@
       "name": "羅絲雷朵",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ROSELIA",
       "genderMF": [
         50,
@@ -13314,7 +13319,7 @@
       "name": "頭蓋龍",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CRANIDOS",
       "genderMF": [
         87.5,
@@ -13342,7 +13347,7 @@
       "name": "戰槌龍",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CRANIDOS",
       "genderMF": [
         87.5,
@@ -13371,7 +13376,7 @@
       "name": "盾甲龍",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SHIELDON",
       "genderMF": [
         87.5,
@@ -13400,7 +13405,7 @@
       "name": "護城龍",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SHIELDON",
       "genderMF": [
         87.5,
@@ -13426,7 +13431,7 @@
       "name": "結草兒 草木蓑衣",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BURMY",
       "genderMF": [
         50,
@@ -13452,7 +13457,7 @@
       "name": "結草兒 砂土蓑衣",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BURMY",
       "genderMF": [
         50,
@@ -13478,7 +13483,7 @@
       "name": "結草兒 垃圾蓑衣",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BURMY",
       "genderMF": [
         50,
@@ -13507,7 +13512,7 @@
       "name": "結草貴婦 草木蓑衣",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BURMY",
       "genderMF": [
         0,
@@ -13536,7 +13541,7 @@
       "name": "結草貴婦 砂土蓑衣",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BURMY",
       "genderMF": [
         0,
@@ -13565,7 +13570,7 @@
       "name": "結草貴婦 垃圾蓑衣",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BURMY",
       "genderMF": [
         0,
@@ -13594,7 +13599,7 @@
       "name": "紳士蛾",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BURMY",
       "genderMF": [
         100,
@@ -13620,7 +13625,7 @@
       "name": "三蜜蜂",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_COMBEE",
       "genderMF": [
         87.5,
@@ -13652,7 +13657,7 @@
       "name": "蜂女王",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_COMBEE",
       "genderMF": [
         0,
@@ -13680,7 +13685,7 @@
       "name": "帕奇利茲",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_PACHIRISU",
       "genderMF": [
         50,
@@ -13708,7 +13713,7 @@
       "name": "泳圈鼬",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BUIZEL",
       "genderMF": [
         50,
@@ -13736,7 +13741,7 @@
       "name": "浮潛鼬",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BUIZEL",
       "genderMF": [
         50,
@@ -13768,7 +13773,7 @@
       "name": "櫻花寶",
       "captureRate": 0.5,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_CHERUBI",
       "genderMF": [
         50,
@@ -13796,7 +13801,7 @@
       "name": "櫻花兒 花苞型態",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_CHERUBI",
       "genderMF": [
         50,
@@ -13825,7 +13830,7 @@
       "name": "櫻花兒 盛開型態",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_CHERUBI",
       "genderMF": [
         50,
@@ -13853,7 +13858,7 @@
       "name": "無殼海兔 東海型態",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHELLOS",
       "genderMF": [
         50,
@@ -13881,7 +13886,7 @@
       "name": "無殼海兔 西海型態",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHELLOS",
       "genderMF": [
         50,
@@ -13914,7 +13919,7 @@
       "name": "海兔獸 東海型態",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHELLOS",
       "genderMF": [
         50,
@@ -13947,7 +13952,7 @@
       "name": "海兔獸 西海型態",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHELLOS",
       "genderMF": [
         50,
@@ -13975,7 +13980,7 @@
       "name": "雙尾怪手",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_AIPOM",
       "genderMF": [
         50,
@@ -14004,7 +14009,7 @@
       "name": "飄飄球",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DRIFLOON",
       "genderMF": [
         50,
@@ -14033,7 +14038,7 @@
       "name": "隨風球",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DRIFLOON",
       "genderMF": [
         50,
@@ -14060,7 +14065,7 @@
       "name": "捲捲耳",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BUNEARY",
       "genderMF": [
         50,
@@ -14088,7 +14093,7 @@
       "name": "長耳兔",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BUNEARY",
       "genderMF": [
         50,
@@ -14116,7 +14121,7 @@
       "name": "夢妖魔",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MISDREAVUS",
       "genderMF": [
         50,
@@ -14146,7 +14151,7 @@
       "name": "烏鴉頭頭",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MURKROW",
       "genderMF": [
         50,
@@ -14174,7 +14179,7 @@
       "name": "魅力喵",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GLAMEOW",
       "genderMF": [
         25,
@@ -14202,7 +14207,7 @@
       "name": "東施喵",
       "captureRate": 0.15,
       "fleeRate": 0.08,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GLAMEOW",
       "genderMF": [
         25,
@@ -14230,7 +14235,7 @@
       "name": "鈴鐺響",
       "captureRate": 0.1,
       "fleeRate": 0.04,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CHIMECHO",
       "genderMF": [
         50,
@@ -14259,7 +14264,7 @@
       "name": "臭鼬噗",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_STUNKY",
       "genderMF": [
         50,
@@ -14288,7 +14293,7 @@
       "name": "坦克臭鼬",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_STUNKY",
       "genderMF": [
         50,
@@ -14317,7 +14322,7 @@
       "name": "銅鏡怪",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BRONZOR",
       "genderMF": [
         0,
@@ -14348,7 +14353,7 @@
       "name": "青銅鐘",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BRONZOR",
       "genderMF": [
         0,
@@ -14376,7 +14381,7 @@
       "name": "盆才怪",
       "captureRate": 0.1,
       "fleeRate": 0.04,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SUDOWOODO",
       "genderMF": [
         50,
@@ -14405,7 +14410,7 @@
       "name": "魔尼尼",
       "captureRate": 0.1,
       "fleeRate": 0.04,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MR_MIME",
       "genderMF": [
         50,
@@ -14431,7 +14436,7 @@
       "name": "小福蛋",
       "captureRate": 0.1,
       "fleeRate": 0.04,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CHANSEY",
       "genderMF": [
         0,
@@ -14460,7 +14465,7 @@
       "name": "聒噪鳥",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CHATOT",
       "genderMF": [
         50,
@@ -14489,7 +14494,7 @@
       "name": "花岩怪",
       "captureRate": 0.1,
       "fleeRate": 0.04,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SPIRITOMB",
       "genderMF": [
         50,
@@ -14518,7 +14523,7 @@
       "name": "圓陸鯊",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_GIBLE",
       "genderMF": [
         50,
@@ -14547,7 +14552,7 @@
       "name": "尖牙陸鯊",
       "captureRate": 0.1,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_GIBLE",
       "genderMF": [
         50,
@@ -14577,7 +14582,7 @@
       "name": "烈咬陸鯊",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_GIBLE",
       "genderMF": [
         50,
@@ -14605,7 +14610,7 @@
       "name": "小卡比獸",
       "captureRate": 0.1,
       "fleeRate": 0.04,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SNORLAX",
       "genderMF": [
         87.5,
@@ -14632,7 +14637,7 @@
       "id": "RIOLU",
       "name": "利歐路",
       "fleeRate": 0.2,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LUCARIO",
       "genderMF": [
         87.5,
@@ -14663,7 +14668,7 @@
       "name": "路卡利歐",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LUCARIO",
       "genderMF": [
         87.5,
@@ -14691,7 +14696,7 @@
       "name": "沙河馬",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HIPPOPOTAS",
       "genderMF": [
         50,
@@ -14722,7 +14727,7 @@
       "name": "河馬獸",
       "captureRate": 0.15,
       "fleeRate": 0.08,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HIPPOPOTAS",
       "genderMF": [
         50,
@@ -14751,7 +14756,7 @@
       "name": "鉗尾蠍",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SKORUPI",
       "genderMF": [
         50,
@@ -14783,7 +14788,7 @@
       "name": "龍王蠍",
       "captureRate": 0.15,
       "fleeRate": 0.08,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SKORUPI",
       "genderMF": [
         50,
@@ -14812,7 +14817,7 @@
       "name": "不良蛙",
       "captureRate": 0.4,
       "fleeRate": 0.12,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CROAGUNK",
       "genderMF": [
         50,
@@ -14841,7 +14846,7 @@
       "name": "毒骷蛙",
       "captureRate": 0.15,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CROAGUNK",
       "genderMF": [
         50,
@@ -14869,7 +14874,7 @@
       "name": "尖牙籠",
       "captureRate": 0.9,
       "fleeRate": 0.01,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CARNIVINE",
       "genderMF": [
         50,
@@ -14897,7 +14902,7 @@
       "name": "螢光魚",
       "captureRate": 0.5,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_FINNEON",
       "genderMF": [
         50,
@@ -14925,7 +14930,7 @@
       "name": "霓虹魚",
       "captureRate": 0.2,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_FINNEON",
       "genderMF": [
         50,
@@ -14954,7 +14959,7 @@
       "name": "小球飛魚",
       "captureRate": 0.1,
       "fleeRate": 0.04,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MANTINE",
       "genderMF": [
         50,
@@ -14983,7 +14988,7 @@
       "name": "雪笠怪",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNOVER",
       "genderMF": [
         50,
@@ -15012,7 +15017,7 @@
       "name": "暴雪王",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNOVER",
       "genderMF": [
         50,
@@ -15042,7 +15047,7 @@
       "name": "瑪狃拉",
       "captureRate": 0.15,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNEASEL",
       "genderMF": [
         50,
@@ -15072,7 +15077,7 @@
       "name": "自爆磁怪",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MAGNEMITE",
       "genderMF": [
         0,
@@ -15105,7 +15110,7 @@
       "name": "大舌舔",
       "captureRate": 0.15,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_LICKITUNG",
       "genderMF": [
         50,
@@ -15140,7 +15145,7 @@
       "name": "超甲狂犀",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_RHYHORN",
       "genderMF": [
         50,
@@ -15170,7 +15175,7 @@
       "name": "巨蔓藤",
       "captureRate": 0.15,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TANGELA",
       "genderMF": [
         50,
@@ -15199,7 +15204,7 @@
       "name": "電擊魔獸",
       "captureRate": 0.15,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ELECTABUZZ",
       "genderMF": [
         75,
@@ -15228,7 +15233,7 @@
       "name": "鴨嘴炎獸",
       "captureRate": 0.15,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_MAGMAR",
       "genderMF": [
         75,
@@ -15259,7 +15264,7 @@
       "name": "波克基斯",
       "captureRate": 0.01,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TOGEPI",
       "genderMF": [
         87.5,
@@ -15288,7 +15293,7 @@
       "name": "遠古巨蜓",
       "captureRate": 0.17,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_YANMA",
       "genderMF": [
         50,
@@ -15320,7 +15325,7 @@
       "name": "葉伊布",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_EEVEE",
       "genderMF": [
         87.5,
@@ -15352,7 +15357,7 @@
       "name": "冰伊布",
       "captureRate": 0.13,
       "fleeRate": 0.06,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_EEVEE",
       "genderMF": [
         87.5,
@@ -15382,7 +15387,7 @@
       "name": "天蠍王",
       "captureRate": 0.13,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_GLIGAR",
       "genderMF": [
         50,
@@ -15415,7 +15420,7 @@
       "name": "象牙豬",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SWINUB",
       "genderMF": [
         50,
@@ -15445,7 +15450,7 @@
       "name": "多邊獸Ｚ",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PORYGON",
       "genderMF": [
         0,
@@ -15479,7 +15484,7 @@
       "name": "艾路雷朵",
       "captureRate": 0.5,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_RALTS",
       "genderMF": [
         100,
@@ -15508,7 +15513,7 @@
       "name": "大朝北鼻",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_NOSEPASS",
       "genderMF": [
         50,
@@ -15536,7 +15541,7 @@
       "name": "黑夜魔靈",
       "captureRate": 0.1,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DUSKULL",
       "genderMF": [
         50,
@@ -15565,7 +15570,7 @@
       "name": "雪妖女",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNORUNT",
       "genderMF": [
         0,
@@ -15594,7 +15599,7 @@
       "name": "洛托姆 洛托姆的樣子",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ROTOM",
       "genderMF": [
         0,
@@ -15623,7 +15628,7 @@
       "name": "洛托姆 旋轉洛托姆",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ROTOM",
       "genderMF": [
         0,
@@ -15652,7 +15657,7 @@
       "name": "洛托姆 結冰洛托姆",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ROTOM",
       "genderMF": [
         0,
@@ -15681,7 +15686,7 @@
       "name": "洛托姆 加熱洛托姆",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ROTOM",
       "genderMF": [
         0,
@@ -15710,7 +15715,7 @@
       "name": "洛托姆 切割洛托姆",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ROTOM",
       "genderMF": [
         0,
@@ -15739,7 +15744,7 @@
       "name": "洛托姆 清洗洛托姆",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ROTOM",
       "genderMF": [
         0,
@@ -15766,7 +15771,7 @@
       "id": "UXIE",
       "name": "由克希",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_UXIE",
       "genderMF": [
         0,
@@ -15793,7 +15798,7 @@
       "id": "MESPRIT",
       "name": "艾姆利多",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MESPRIT",
       "genderMF": [
         0,
@@ -15820,7 +15825,7 @@
       "id": "AZELF",
       "name": "亞克諾姆",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_AZELF",
       "genderMF": [
         0,
@@ -15849,7 +15854,7 @@
       "name": "帝牙盧卡",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_DIALGA",
       "genderMF": [
         0,
@@ -15878,7 +15883,7 @@
       "name": "帕路奇亞",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_PALKIA",
       "genderMF": [
         0,
@@ -15908,7 +15913,7 @@
       "name": "席多藍恩",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_HEATRAN",
       "genderMF": [
         50,
@@ -15936,7 +15941,7 @@
       "name": "雷吉奇卡斯",
       "captureRate": 0.06,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_REGIGIGAS",
       "genderMF": [
         0,
@@ -15965,7 +15970,7 @@
       "name": "騎拉帝納 別種型態",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_GIRATINA",
       "genderMF": [
         0,
@@ -15994,7 +15999,7 @@
       "name": "騎拉帝納 起源型態",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_GIRATINA",
       "genderMF": [
         0,
@@ -16022,7 +16027,7 @@
       "name": "克雷色利亞",
       "captureRate": 0.02,
       "fleeRate": 0.04,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_CRESSELIA",
       "genderMF": [
         0,
@@ -16049,7 +16054,7 @@
       "id": "PHIONE",
       "name": "霏歐納",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_PHIONE",
       "genderMF": [
         0,
@@ -16076,7 +16081,7 @@
       "id": "MANAPHY",
       "name": "瑪納霏",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MANAPHY",
       "genderMF": [
         0,
@@ -16103,7 +16108,7 @@
       "id": "DARKRAI",
       "name": "達克萊伊",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_DARKRAI",
       "genderMF": [
         0,
@@ -16130,7 +16135,7 @@
       "id": "SHAYMIN_LAND",
       "name": "謝米 陸上型態",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_SHAYMIN",
       "genderMF": [
         0,
@@ -16158,7 +16163,7 @@
       "id": "SHAYMIN_SKY",
       "name": "謝米 天空型態",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_SHAYMIN",
       "genderMF": [
         0,
@@ -16185,7 +16190,7 @@
       "id": "ARCEUS",
       "name": "阿爾宙斯",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16212,7 +16217,7 @@
       "id": "ARCEUS_BUG",
       "name": "阿爾宙斯 蟲屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16239,7 +16244,7 @@
       "id": "ARCEUS_DARK",
       "name": "阿爾宙斯 惡屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16266,7 +16271,7 @@
       "id": "ARCEUS_DRAGON",
       "name": "阿爾宙斯 龍屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16293,7 +16298,7 @@
       "id": "ARCEUS_ELECTRIC",
       "name": "阿爾宙斯 電屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16320,7 +16325,7 @@
       "id": "ARCEUS_FAIRY",
       "name": "阿爾宙斯 妖精屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16347,7 +16352,7 @@
       "id": "ARCEUS_FIGHTING",
       "name": "阿爾宙斯 格鬥屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16374,7 +16379,7 @@
       "id": "ARCEUS_FIRE",
       "name": "阿爾宙斯 火屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16401,7 +16406,7 @@
       "id": "ARCEUS_FLYING",
       "name": "阿爾宙斯 飛行屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16428,7 +16433,7 @@
       "id": "ARCEUS_GHOST",
       "name": "阿爾宙斯 幽靈屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16455,7 +16460,7 @@
       "id": "ARCEUS_GRASS",
       "name": "阿爾宙斯 草屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16482,7 +16487,7 @@
       "id": "ARCEUS_GROUND",
       "name": "阿爾宙斯 地面屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16509,7 +16514,7 @@
       "id": "ARCEUS_ICE",
       "name": "阿爾宙斯 冰屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16536,7 +16541,7 @@
       "id": "ARCEUS_POISON",
       "name": "阿爾宙斯 毒屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16563,7 +16568,7 @@
       "id": "ARCEUS_PSYCHIC",
       "name": "阿爾宙斯 超能力屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16590,7 +16595,7 @@
       "id": "ARCEUS_ROCK",
       "name": "阿爾宙斯 岩石屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16617,7 +16622,7 @@
       "id": "ARCEUS_STEEL",
       "name": "阿爾宙斯 鋼屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16644,7 +16649,7 @@
       "id": "ARCEUS_WATER",
       "name": "阿爾宙斯 水屬性",
       "captureRate": 0.02,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ARCEUS",
       "genderMF": [
         0,
@@ -16673,7 +16678,7 @@
       "name": "比克提尼",
       "captureRate": 100,
       "fleeRate": 0.1,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_VICTINI",
       "genderMF": [
         0,
@@ -16701,7 +16706,7 @@
       "name": "藤藤蛇",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNIVY",
       "genderMF": [
         87.5,
@@ -16729,7 +16734,7 @@
       "name": "青藤蛇",
       "captureRate": 0.1,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNIVY",
       "genderMF": [
         87.5,
@@ -16757,7 +16762,7 @@
       "name": "君主蛇",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SNIVY",
       "genderMF": [
         87.5,
@@ -16785,7 +16790,7 @@
       "name": "暖暖豬",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TEPIG",
       "genderMF": [
         87.5,
@@ -16814,7 +16819,7 @@
       "name": "炒炒豬",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TEPIG",
       "genderMF": [
         87.5,
@@ -16843,7 +16848,7 @@
       "name": "炎武王",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TEPIG",
       "genderMF": [
         87.5,
@@ -16871,7 +16876,7 @@
       "name": "水水獺",
       "captureRate": 0.2,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_OSHAWOTT",
       "genderMF": [
         87.5,
@@ -16899,7 +16904,7 @@
       "name": "雙刃丸",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_OSHAWOTT",
       "genderMF": [
         87.5,
@@ -16927,7 +16932,7 @@
       "name": "大劍鬼",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_OSHAWOTT",
       "genderMF": [
         87.5,
@@ -16955,7 +16960,7 @@
       "name": "探探鼠",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PATRAT",
       "genderMF": [
         50,
@@ -16983,7 +16988,7 @@
       "name": "步哨鼠",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PATRAT",
       "genderMF": [
         50,
@@ -17011,7 +17016,7 @@
       "name": "小約克",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_LILLIPUP",
       "genderMF": [
         50,
@@ -17039,7 +17044,7 @@
       "name": "哈約克",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_LILLIPUP",
       "genderMF": [
         50,
@@ -17068,7 +17073,7 @@
       "name": "長毛狗",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_LILLIPUP",
       "genderMF": [
         50,
@@ -17096,7 +17101,7 @@
       "name": "扒手貓",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PURRLOIN",
       "genderMF": [
         50,
@@ -17124,7 +17129,7 @@
       "name": "酷豹",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PURRLOIN",
       "genderMF": [
         50,
@@ -17152,7 +17157,7 @@
       "name": "花椰猴",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PANSAGE",
       "genderMF": [
         87.5,
@@ -17180,7 +17185,7 @@
       "name": "花椰猿",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PANSAGE",
       "genderMF": [
         87.5,
@@ -17208,7 +17213,7 @@
       "name": "爆香猴",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PANSEAR",
       "genderMF": [
         87.5,
@@ -17236,7 +17241,7 @@
       "name": "爆香猿",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PANSEAR",
       "genderMF": [
         87.5,
@@ -17264,7 +17269,7 @@
       "name": "冷水猴",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PANPOUR",
       "genderMF": [
         87.5,
@@ -17292,7 +17297,7 @@
       "name": "冷水猿",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_PANPOUR",
       "genderMF": [
         87.5,
@@ -17320,7 +17325,7 @@
       "name": "食夢夢",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MUNNA",
       "genderMF": [
         50,
@@ -17348,7 +17353,7 @@
       "name": "夢夢蝕",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MUNNA",
       "genderMF": [
         50,
@@ -17377,7 +17382,7 @@
       "name": "豆豆鴿",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIDOVE",
       "genderMF": [
         50,
@@ -17406,7 +17411,7 @@
       "name": "咕咕鴿",
       "captureRate": 0.25,
       "fleeRate": 0.09,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIDOVE",
       "genderMF": [
         50,
@@ -17435,7 +17440,7 @@
       "name": "高傲雉雞",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PIDOVE",
       "genderMF": [
         50,
@@ -17463,7 +17468,7 @@
       "name": "斑斑馬",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BLITZLE",
       "genderMF": [
         50,
@@ -17491,7 +17496,7 @@
       "name": "雷電斑馬",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BLITZLE",
       "genderMF": [
         50,
@@ -17519,7 +17524,7 @@
       "name": "石丸子",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ROGGENROLA",
       "genderMF": [
         50,
@@ -17547,7 +17552,7 @@
       "name": "地幔岩",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ROGGENROLA",
       "genderMF": [
         50,
@@ -17576,7 +17581,7 @@
       "name": "龐岩怪",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ROGGENROLA",
       "genderMF": [
         50,
@@ -17605,7 +17610,7 @@
       "name": "滾滾蝙蝠",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WOOBAT",
       "genderMF": [
         50,
@@ -17634,7 +17639,7 @@
       "name": "心蝙蝠",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_WOOBAT",
       "genderMF": [
         50,
@@ -17662,7 +17667,7 @@
       "name": "螺釘地鼠",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DRILBUR",
       "genderMF": [
         50,
@@ -17692,7 +17697,7 @@
       "name": "龍頭地鼠",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DRILBUR",
       "genderMF": [
         50,
@@ -17720,7 +17725,7 @@
       "name": "差不多娃娃",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_AUDINO",
       "genderMF": [
         50,
@@ -17748,7 +17753,7 @@
       "name": "搬運小匠",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TIMBURR",
       "genderMF": [
         75,
@@ -17776,7 +17781,7 @@
       "name": "鐵骨土人",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TIMBURR",
       "genderMF": [
         75,
@@ -17804,7 +17809,7 @@
       "name": "修建老匠",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TIMBURR",
       "genderMF": [
         75,
@@ -17832,7 +17837,7 @@
       "name": "圓蝌蚪",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TYMPOLE",
       "genderMF": [
         50,
@@ -17861,7 +17866,7 @@
       "name": "藍蟾蜍",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TYMPOLE",
       "genderMF": [
         50,
@@ -17890,7 +17895,7 @@
       "name": "蟾蜍王",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TYMPOLE",
       "genderMF": [
         50,
@@ -17918,7 +17923,7 @@
       "name": "投摔鬼",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_THROH",
       "genderMF": [
         100,
@@ -17946,7 +17951,7 @@
       "name": "打擊鬼",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SAWK",
       "genderMF": [
         100,
@@ -17975,7 +17980,7 @@
       "name": "蟲寶包",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SEWADDLE",
       "genderMF": [
         50,
@@ -18004,7 +18009,7 @@
       "name": "寶包繭",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SEWADDLE",
       "genderMF": [
         50,
@@ -18033,7 +18038,7 @@
       "name": "保母蟲",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_SEWADDLE",
       "genderMF": [
         50,
@@ -18062,7 +18067,7 @@
       "name": "百足蜈蚣",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_VENIPEDE",
       "genderMF": [
         50,
@@ -18091,7 +18096,7 @@
       "name": "車輪毬",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_VENIPEDE",
       "genderMF": [
         50,
@@ -18121,7 +18126,7 @@
       "name": "蜈蚣王",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_VENIPEDE",
       "genderMF": [
         50,
@@ -18150,7 +18155,7 @@
       "name": "木棉球",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_COTTONEE",
       "genderMF": [
         50,
@@ -18179,7 +18184,7 @@
       "name": "風妖精",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_COTTONEE",
       "genderMF": [
         50,
@@ -18206,7 +18211,7 @@
       "name": "百合根娃娃",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PETILIL",
       "genderMF": [
         0,
@@ -18234,7 +18239,7 @@
       "name": "裙兒小姐",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_PETILIL",
       "genderMF": [
         0,
@@ -18262,7 +18267,7 @@
       "name": "野蠻鱸魚",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_BASCULIN",
       "genderMF": [
         50,
@@ -18291,7 +18296,7 @@
       "name": "黑眼鱷",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SANDILE",
       "genderMF": [
         50,
@@ -18320,7 +18325,7 @@
       "name": "混混鱷",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SANDILE",
       "genderMF": [
         50,
@@ -18349,7 +18354,7 @@
       "name": "流氓鱷",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SANDILE",
       "genderMF": [
         50,
@@ -18376,7 +18381,7 @@
       "name": "火紅不倒翁",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DARUMAKA",
       "genderMF": [
         50,
@@ -18405,7 +18410,7 @@
       "name": "達摩狒狒 普通型態",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DARUMAKA",
       "genderMF": [
         50,
@@ -18435,7 +18440,7 @@
       "name": "達摩狒狒 達摩型態",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DARUMAKA",
       "genderMF": [
         50,
@@ -18463,7 +18468,7 @@
       "name": "沙鈴仙人掌",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_MARACTUS",
       "genderMF": [
         50,
@@ -18492,7 +18497,7 @@
       "name": "石居蟹",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_DWEBBLE",
       "genderMF": [
         50,
@@ -18521,7 +18526,7 @@
       "name": "岩殿居蟹",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_DWEBBLE",
       "genderMF": [
         50,
@@ -18550,7 +18555,7 @@
       "name": "滑滑小子",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SCRAGGY",
       "genderMF": [
         50,
@@ -18579,7 +18584,7 @@
       "name": "頭巾混混",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SCRAGGY",
       "genderMF": [
         50,
@@ -18609,7 +18614,7 @@
       "name": "象徵鳥",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_SIGILYPH",
       "genderMF": [
         50,
@@ -18637,7 +18642,7 @@
       "name": "哭哭面具",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_YAMASK",
       "genderMF": [
         50,
@@ -18665,7 +18670,7 @@
       "name": "死神棺",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_YAMASK",
       "genderMF": [
         50,
@@ -18694,7 +18699,7 @@
       "name": "原蓋海龜",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TIRTOUGA",
       "genderMF": [
         87.5,
@@ -18723,7 +18728,7 @@
       "name": "肋骨海龜",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_TIRTOUGA",
       "genderMF": [
         87.5,
@@ -18752,7 +18757,7 @@
       "name": "始祖小鳥",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ARCHEN",
       "genderMF": [
         87.5,
@@ -18781,7 +18786,7 @@
       "name": "始祖大鳥",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ARCHEN",
       "genderMF": [
         87.5,
@@ -18809,7 +18814,7 @@
       "name": "破破袋",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TRUBBISH",
       "genderMF": [
         50,
@@ -18838,7 +18843,7 @@
       "name": "灰塵山",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_TRUBBISH",
       "genderMF": [
         50,
@@ -18866,7 +18871,7 @@
       "name": "索羅亞",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ZORUA",
       "genderMF": [
         87.5,
@@ -18894,7 +18899,7 @@
       "name": "索羅亞克",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ZORUA",
       "genderMF": [
         87.5,
@@ -18922,7 +18927,7 @@
       "name": "泡沫栗鼠",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MINCCINO",
       "genderMF": [
         25,
@@ -18950,7 +18955,7 @@
       "name": "奇諾栗鼠",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MINCCINO",
       "genderMF": [
         25,
@@ -18978,7 +18983,7 @@
       "name": "哥德寶寶",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GOTHITA",
       "genderMF": [
         25,
@@ -19006,7 +19011,7 @@
       "name": "哥德小童",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GOTHITA",
       "genderMF": [
         25,
@@ -19034,7 +19039,7 @@
       "name": "哥德小姐",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_GOTHITA",
       "genderMF": [
         25,
@@ -19062,7 +19067,7 @@
       "name": "單卵細胞球",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SOLOSIS",
       "genderMF": [
         50,
@@ -19090,7 +19095,7 @@
       "name": "雙卵細胞球",
       "captureRate": 0.25,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SOLOSIS",
       "genderMF": [
         50,
@@ -19118,7 +19123,7 @@
       "name": "人造細胞卵",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SOLOSIS",
       "genderMF": [
         50,
@@ -19147,7 +19152,7 @@
       "name": "鴨寶寶",
       "captureRate": 0.5,
       "fleeRate": 0.15,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DUCKLETT",
       "genderMF": [
         50,
@@ -19176,7 +19181,7 @@
       "name": "舞天鵝",
       "captureRate": 0.4,
       "fleeRate": 0.12,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DUCKLETT",
       "genderMF": [
         50,
@@ -19204,7 +19209,7 @@
       "name": "迷你冰",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VANILLITE",
       "genderMF": [
         50,
@@ -19232,7 +19237,7 @@
       "name": "多多冰",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VANILLITE",
       "genderMF": [
         50,
@@ -19260,7 +19265,7 @@
       "name": "雙倍多多冰",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_VANILLITE",
       "genderMF": [
         50,
@@ -19289,7 +19294,7 @@
       "name": "四季鹿",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19318,7 +19323,7 @@
       "name": "四季鹿 秋天型態",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19347,7 +19352,7 @@
       "name": "四季鹿 春天型態",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19376,7 +19381,7 @@
       "name": "四季鹿 夏天型態",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19405,7 +19410,7 @@
       "name": "四季鹿 冬天型態",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19435,7 +19440,7 @@
       "name": "萌芽鹿",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19465,7 +19470,7 @@
       "name": "萌芽鹿 秋天型態",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19495,7 +19500,7 @@
       "name": "萌芽鹿 春天型態",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19525,7 +19530,7 @@
       "name": "萌芽鹿 夏天型態",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19555,7 +19560,7 @@
       "name": "萌芽鹿 冬天型態",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DEERLING",
       "genderMF": [
         50,
@@ -19584,7 +19589,7 @@
       "name": "電飛鼠",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_EMOLGA",
       "genderMF": [
         50,
@@ -19613,7 +19618,7 @@
       "name": "蓋蓋蟲",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_KARRABLAST",
       "genderMF": [
         50,
@@ -19643,7 +19648,7 @@
       "name": "騎士蝸牛",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_KARRABLAST",
       "genderMF": [
         50,
@@ -19672,7 +19677,7 @@
       "name": "哎呀球菇",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_FOONGUS",
       "genderMF": [
         50,
@@ -19701,7 +19706,7 @@
       "name": "敗露球菇",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_FOONGUS",
       "genderMF": [
         50,
@@ -19730,7 +19735,7 @@
       "name": "輕飄飄",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_FRILLISH",
       "genderMF": [
         100,
@@ -19759,7 +19764,7 @@
       "name": "胖嘟嘟",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_FRILLISH",
       "genderMF": [
         100,
@@ -19787,7 +19792,7 @@
       "name": "保母曼波",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_ALOMOMOLA",
       "genderMF": [
         50,
@@ -19816,7 +19821,7 @@
       "name": "電電蟲",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_JOLTIK",
       "genderMF": [
         50,
@@ -19846,7 +19851,7 @@
       "name": "電蜘蛛",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_JOLTIK",
       "genderMF": [
         50,
@@ -19875,7 +19880,7 @@
       "name": "種子鐵球",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_FERROSEED",
       "genderMF": [
         50,
@@ -19906,7 +19911,7 @@
       "name": "堅果啞鈴",
       "captureRate": 0.13,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_FERROSEED",
       "genderMF": [
         50,
@@ -19934,7 +19939,7 @@
       "name": "齒輪兒",
       "captureRate": 0.4,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_KLINK",
       "genderMF": [
         0,
@@ -19962,7 +19967,7 @@
       "name": "齒輪組",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_KLINK",
       "genderMF": [
         0,
@@ -19991,7 +19996,7 @@
       "name": "齒輪怪",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_KLINK",
       "genderMF": [
         0,
@@ -20017,7 +20022,7 @@
       "name": "麻麻小魚",
       "captureRate": 0.4,
       "fleeRate": 0.15,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_TYNAMO",
       "genderMF": [
         50,
@@ -20045,7 +20050,7 @@
       "name": "麻麻鰻",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_TYNAMO",
       "genderMF": [
         50,
@@ -20074,7 +20079,7 @@
       "name": "麻麻鰻魚王",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 1,
+      "buddyKm": 0.5,
       "familyId": "F_TYNAMO",
       "genderMF": [
         50,
@@ -20102,7 +20107,7 @@
       "name": "小灰怪",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ELGYEM",
       "genderMF": [
         50,
@@ -20130,7 +20135,7 @@
       "name": "大宇怪",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_ELGYEM",
       "genderMF": [
         50,
@@ -20159,7 +20164,7 @@
       "name": "燭光靈",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LITWICK",
       "genderMF": [
         50,
@@ -20188,7 +20193,7 @@
       "name": "燈火幽靈",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LITWICK",
       "genderMF": [
         50,
@@ -20217,7 +20222,7 @@
       "name": "水晶燈火靈",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LITWICK",
       "genderMF": [
         50,
@@ -20245,7 +20250,7 @@
       "name": "牙牙",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_AXEW",
       "genderMF": [
         50,
@@ -20273,7 +20278,7 @@
       "name": "斧牙龍",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_AXEW",
       "genderMF": [
         50,
@@ -20302,7 +20307,7 @@
       "name": "雙斧戰龍",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_AXEW",
       "genderMF": [
         50,
@@ -20330,7 +20335,7 @@
       "name": "噴嚏熊",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CUBCHOO",
       "genderMF": [
         50,
@@ -20358,7 +20363,7 @@
       "name": "凍原熊",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_CUBCHOO",
       "genderMF": [
         50,
@@ -20387,7 +20392,7 @@
       "name": "幾何雪花",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_CRYOGONAL",
       "genderMF": [
         0,
@@ -20415,7 +20420,7 @@
       "name": "小嘴蝸",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHELMET",
       "genderMF": [
         50,
@@ -20444,7 +20449,7 @@
       "name": "敏捷蟲",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_SHELMET",
       "genderMF": [
         50,
@@ -20473,7 +20478,7 @@
       "name": "泥巴魚",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_STUNFISK",
       "genderMF": [
         50,
@@ -20501,7 +20506,7 @@
       "name": "功夫鼬",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MIENFOO",
       "genderMF": [
         50,
@@ -20529,7 +20534,7 @@
       "name": "師父鼬",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_MIENFOO",
       "genderMF": [
         50,
@@ -20557,7 +20562,7 @@
       "name": "赤面龍",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DRUDDIGON",
       "genderMF": [
         50,
@@ -20586,7 +20591,7 @@
       "name": "泥偶小人",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_GOLETT",
       "genderMF": [
         0,
@@ -20615,7 +20620,7 @@
       "name": "泥偶巨人",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_GOLETT",
       "genderMF": [
         0,
@@ -20644,7 +20649,7 @@
       "name": "駒刀小兵",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_PAWNIARD",
       "genderMF": [
         50,
@@ -20674,7 +20679,7 @@
       "name": "劈斬司令",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_PAWNIARD",
       "genderMF": [
         50,
@@ -20703,7 +20708,7 @@
       "name": "爆炸頭水牛",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_BOUFFALANT",
       "genderMF": [
         50,
@@ -20732,7 +20737,7 @@
       "name": "毛頭小鷹",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_RUFFLET",
       "genderMF": [
         100,
@@ -20761,7 +20766,7 @@
       "name": "勇士雄鷹",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_RUFFLET",
       "genderMF": [
         100,
@@ -20790,7 +20795,7 @@
       "name": "禿鷹丫頭",
       "captureRate": 0.3,
       "fleeRate": 0.1,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_VULLABY",
       "genderMF": [
         0,
@@ -20820,7 +20825,7 @@
       "name": "禿鷹娜",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_VULLABY",
       "genderMF": [
         0,
@@ -20848,7 +20853,7 @@
       "name": "熔蟻獸",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_HEATMOR",
       "genderMF": [
         50,
@@ -20877,7 +20882,7 @@
       "name": "鐵蟻",
       "captureRate": 0.2,
       "fleeRate": 0.07,
-      "buddyKm": 3,
+      "buddyKm": 1.5,
       "familyId": "F_DURANT",
       "genderMF": [
         50,
@@ -20906,7 +20911,7 @@
       "name": "單首龍",
       "captureRate": 0.4,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DEINO",
       "genderMF": [
         50,
@@ -20935,7 +20940,7 @@
       "name": "雙首暴龍",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DEINO",
       "genderMF": [
         50,
@@ -20964,7 +20969,7 @@
       "name": "三首惡龍",
       "captureRate": 0.05,
       "fleeRate": 0.05,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_DEINO",
       "genderMF": [
         50,
@@ -20993,7 +20998,7 @@
       "name": "燃燒蟲",
       "captureRate": 0.7,
       "fleeRate": 0.15,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LARVESTA",
       "genderMF": [
         50,
@@ -21023,7 +21028,7 @@
       "name": "火神蛾",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 2.5,
       "familyId": "F_LARVESTA",
       "genderMF": [
         50,
@@ -21054,9 +21059,9 @@
       "_sta": 209,
       "id": "COBALION",
       "name": "勾帕路翁",
-      "captureRate": 0.04,
+      "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_COBALION",
       "genderMF": [
         0,
@@ -21085,7 +21090,7 @@
       "name": "代拉基翁",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_TERRAKION",
       "genderMF": [
         0,
@@ -21114,7 +21119,7 @@
       "name": "畢力吉翁",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_VIRIZION",
       "genderMF": [
         0,
@@ -21143,7 +21148,7 @@
       "name": "龍捲雲 化身型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_TORNADUS",
       "genderMF": [
         100,
@@ -21172,7 +21177,7 @@
       "name": "龍捲雲 靈獸型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_TORNADUS",
       "genderMF": [
         100,
@@ -21202,7 +21207,7 @@
       "name": "雷電雲 化身型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_THUNDURUS",
       "genderMF": [
         100,
@@ -21232,7 +21237,7 @@
       "name": "雷電雲 靈獸型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_THUNDURUS",
       "genderMF": [
         100,
@@ -21262,7 +21267,7 @@
       "name": "萊希拉姆",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_RESHIRAM",
       "genderMF": [
         0,
@@ -21292,7 +21297,7 @@
       "name": "捷克羅姆",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_ZEKROM",
       "genderMF": [
         0,
@@ -21322,7 +21327,7 @@
       "name": "土地雲 化身型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_LANDORUS",
       "genderMF": [
         100,
@@ -21352,7 +21357,7 @@
       "name": "土地雲 靈獸型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_LANDORUS",
       "genderMF": [
         100,
@@ -21382,7 +21387,7 @@
       "name": "酋雷姆 一般型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_KYUREM",
       "genderMF": [
         0,
@@ -21412,7 +21417,7 @@
       "name": "酋雷姆 闇黑型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_KYUREM",
       "genderMF": [
         0,
@@ -21442,7 +21447,7 @@
       "name": "酋雷姆 焰白型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_KYUREM",
       "genderMF": [
         0,
@@ -21472,7 +21477,7 @@
       "name": "凱路迪歐 平常型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_KELDEO",
       "genderMF": [
         0,
@@ -21502,7 +21507,7 @@
       "name": "凱路迪歐 覺悟型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_KELDEO",
       "genderMF": [
         0,
@@ -21532,7 +21537,7 @@
       "name": "美洛耶塔 歌聲型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MELOETTA",
       "genderMF": [
         0,
@@ -21562,7 +21567,7 @@
       "name": "美洛耶塔 舞步型態",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MELOETTA",
       "genderMF": [
         0,
@@ -21591,7 +21596,7 @@
       "name": "蓋諾賽克特",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_GENESECT",
       "genderMF": [
         0,
@@ -21620,7 +21625,7 @@
       "name": "蓋諾賽克特 火焰卡帶",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_GENESECT",
       "genderMF": [
         0,
@@ -21649,7 +21654,7 @@
       "name": "蓋諾賽克特 冰凍卡帶",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_GENESECT",
       "genderMF": [
         0,
@@ -21678,7 +21683,7 @@
       "name": "蓋諾賽克特 水流卡帶",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_GENESECT",
       "genderMF": [
         0,
@@ -21707,7 +21712,7 @@
       "name": "蓋諾賽克特 閃電卡帶",
       "captureRate": 0.02,
       "fleeRate": 0.01,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_GENESECT",
       "genderMF": [
         0,
@@ -21732,7 +21737,7 @@
       "id": "MELTAN",
       "name": "美錄坦",
       "captureRate": 0.3,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MELTAN",
       "genderMF": [
         0,
@@ -21760,7 +21765,7 @@
       "id": "MELMETAL",
       "name": "美錄梅塔",
       "captureRate": 0.3,
-      "buddyKm": 20,
+      "buddyKm": 10,
       "familyId": "F_MELTAN",
       "genderMF": [
         0,
