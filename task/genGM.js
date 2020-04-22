@@ -80,7 +80,7 @@ function doPM(pokemon, shadowPokemon) {
         }
       });
 
-      if (shadowPokemon.indexOf(pm.id) !== -1) {
+      if (shadowPokemon.indexOf(pm.speciesId) !== -1) {
         pm.chargedMoves.push('RETURN');
         pm.chargedMoves.push('FRUSTRATION');
       }
