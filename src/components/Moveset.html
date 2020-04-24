@@ -32,6 +32,7 @@
     forceBuff;
 
     lmoves = pm.legacyMoves;
+    emoves = pm.eliteMoves;
     mdata = [
       {
         title: 'Fast Moves',
@@ -60,6 +61,7 @@
     mmm.power = fixNum(mmm.typeEff * mmm.power);
 
     mmm.isLegacy = (lmoves && lmoves.includes(mname));
+    mmm.isElite = (emoves && emoves.includes(mname));
     mmm.isFast = isFast;
     mmm.stab = (pm.types.includes(mmm.type));
     mmm.stabFactor = mmm.stab ? 1.2 : 1;
@@ -131,6 +133,7 @@
                   <a href="./move/{item.moveId}"
                     class:is-stab={item.stab}
                     class:is-legacy={item.isLegacy}
+                    class:is-elite={item.isElite}
                   >
                     {item.name}
                   </a>

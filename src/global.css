@@ -186,6 +186,7 @@ details details summary:not([dir="ltr"]) {
 .is-stab {
   text-shadow: var(--glow-text, 0 1px 1px #66c);
 }
+.is-elite::after,
 .is-legacy::after {
   content: '†';
   position: absolute;
@@ -194,6 +195,9 @@ details details summary:not([dir="ltr"]) {
   font-size: smaller;
   color: var(--color-3, #666);
   text-shadow: none;
+}
+.is-elite::after {
+  content: '‡';
 }
 
 .energy-bar {
