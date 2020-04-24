@@ -73,7 +73,7 @@ function doPM(pokemon, shadowPokemon) {
         console.warn(`new pm: ${pm.speciesId}`);
       }
 
-      ['fastMoves', 'legacyMoves'].forEach(movetype => {
+      ['fastMoves', 'legacyMoves', 'eliteMoves'].forEach(movetype => {
         if (pm[movetype] && pm[movetype].indexOf('HIDDEN_POWER_BUG') !== -1) {
           pm[movetype] = pm[movetype].filter(m => !m.startsWith('HIDDEN_POWER_'));
           pm[movetype].push('HIDDEN_POWER');
@@ -91,14 +91,18 @@ function doPM(pokemon, shadowPokemon) {
         fastMoves,
         chargedMoves,
         legacyMoves,
+        eliteMoves,
       } = pm;
+
+      let mergedLegacyMoves = [].concat(legacyMoves, eliteMoves).filter(Boolean);
 
       let oppm = {
         dex,
         types,
         fastMoves,
         chargedMoves,
-        legacyMoves,
+        legacyMoves: mergedLegacyMoves.length ? mergedLegacyMoves : undefined,
+        eliteMoves,
         _atk: pm.baseStats.atk,
         _def: pm.baseStats.def,
         _sta: pm.baseStats.hp,
