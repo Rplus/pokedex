@@ -1115,7 +1115,10 @@
             -0.699999988079071,
             0
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -1222,7 +1225,10 @@
             -0.699999988079071,
             0
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -1329,7 +1335,10 @@
             -0.699999988079071,
             0
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -1442,7 +1451,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -2026,7 +2038,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "SCRATCH_FAST"
+          ]
         }
       }
     },
@@ -2127,7 +2142,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "SCRATCH_FAST"
+          ]
         }
       }
     },
@@ -2228,7 +2246,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "SCRATCH_FAST"
+          ]
         }
       }
     },
@@ -2335,7 +2356,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "SCRATCH_FAST"
+          ]
         }
       }
     },
@@ -2427,7 +2451,15 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST",
+            "WING_ATTACK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BLAST_BURN",
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -2520,7 +2552,15 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST",
+            "WING_ATTACK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BLAST_BURN",
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -2613,7 +2653,15 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST",
+            "WING_ATTACK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BLAST_BURN",
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -2706,7 +2754,15 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST",
+            "WING_ATTACK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BLAST_BURN",
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -2805,7 +2861,15 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST",
+            "WING_ATTACK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BLAST_BURN",
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -3789,7 +3853,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -3881,7 +3948,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -3973,7 +4043,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -4065,7 +4138,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -4163,7 +4239,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -4443,7 +4522,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -5346,7 +5428,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -5440,7 +5525,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -5534,7 +5622,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -5634,7 +5725,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -5926,7 +6020,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteQuickMove": [
+            "WING_ATTACK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "AIR_CUTTER"
+          ]
         }
       }
     },
@@ -6981,7 +7081,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteCinematicMove": [
+            "TWISTER"
+          ]
         }
       }
     },
@@ -7073,7 +7176,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteCinematicMove": [
+            "TWISTER"
+          ]
         }
       }
     },
@@ -7170,7 +7276,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "GUNK_SHOT"
+          ]
         }
       }
     },
@@ -7268,7 +7377,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "GUNK_SHOT"
+          ]
         }
       }
     },
@@ -7366,7 +7478,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "GUNK_SHOT"
+          ]
         }
       }
     },
@@ -7470,7 +7585,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "GUNK_SHOT"
+          ]
         }
       }
     },
@@ -7965,7 +8083,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteQuickMove": [
+            "PRESENT_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SURF",
+            "THUNDER"
+          ]
         }
       }
     },
@@ -8054,7 +8179,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteQuickMove": [
+            "PRESENT_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SURF",
+            "THUNDER"
+          ]
         }
       }
     },
@@ -8143,7 +8275,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteQuickMove": [
+            "PRESENT_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SURF",
+            "THUNDER"
+          ]
         }
       }
     },
@@ -8242,7 +8381,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteQuickMove": [
+            "PRESENT_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SURF",
+            "THUNDER"
+          ]
         }
       }
     },
@@ -8331,7 +8477,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteQuickMove": [
+            "PRESENT_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SURF",
+            "THUNDER"
+          ]
         }
       }
     },
@@ -8423,7 +8576,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "THUNDER"
+          ]
         }
       }
     },
@@ -8609,7 +8765,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "THUNDER"
+          ]
         }
       }
     },
@@ -8706,7 +8865,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "ROCK_TOMB"
+          ]
         }
       }
     },
@@ -8903,7 +9065,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "ROCK_TOMB"
+          ]
         }
       }
     },
@@ -9001,7 +9166,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "ROCK_TOMB"
+          ]
         }
       }
     },
@@ -9105,7 +9273,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "ROCK_TOMB"
+          ]
         }
       }
     },
@@ -10141,7 +10312,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "FURY_CUTTER_FAST"
+          ]
         }
       }
     },
@@ -10340,7 +10514,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "POUND_FAST"
+          ]
         }
       }
     },
@@ -10926,7 +11103,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "FIRE_BLAST",
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -11112,7 +11296,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "FIRE_BLAST",
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -11204,7 +11395,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "FIRE_BLAST",
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -11302,7 +11500,14 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "FIRE_BLAST",
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -11405,7 +11610,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "PLAY_ROUGH",
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -11603,7 +11812,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteCinematicMove": [
+            "SLUDGE_BOMB"
+          ]
         }
       }
     },
@@ -11704,7 +11916,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteCinematicMove": [
+            "SLUDGE_BOMB"
+          ]
         }
       }
     },
@@ -11805,7 +12020,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteCinematicMove": [
+            "SLUDGE_BOMB"
+          ]
         }
       }
     },
@@ -11912,7 +12130,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteCinematicMove": [
+            "SLUDGE_BOMB"
+          ]
         }
       }
     },
@@ -12011,7 +12232,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteCinematicMove": [
+            "OMINOUS_WIND"
+          ]
         }
       }
     },
@@ -12111,7 +12335,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteCinematicMove": [
+            "OMINOUS_WIND"
+          ]
         }
       }
     },
@@ -12211,7 +12438,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteCinematicMove": [
+            "OMINOUS_WIND"
+          ]
         }
       }
     },
@@ -12317,7 +12547,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteCinematicMove": [
+            "OMINOUS_WIND"
+          ]
         }
       }
     },
@@ -13739,7 +13972,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -14233,7 +14469,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -14327,7 +14566,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -14421,7 +14663,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -14521,7 +14766,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteQuickMove": [
+            "BUG_BITE_FAST"
+          ]
         }
       }
     },
@@ -15570,7 +15818,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -15771,7 +16022,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -15869,7 +16123,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -15973,7 +16230,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -16062,7 +16322,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "NIGHT_SLASH"
+          ]
         }
       }
     },
@@ -16247,7 +16510,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "NIGHT_SLASH"
+          ]
         }
       }
     },
@@ -16337,7 +16603,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "NIGHT_SLASH"
+          ]
         }
       }
     },
@@ -16433,7 +16702,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "NIGHT_SLASH"
+          ]
         }
       }
     },
@@ -17397,7 +17669,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "KARATE_CHOP_FAST"
+          ],
+          "eliteCinematicMove": [
+            "CROSS_CHOP"
+          ]
         }
       }
     },
@@ -17906,7 +18184,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "BITE_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BULLDOZE"
+          ]
         }
       }
     },
@@ -17999,7 +18283,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "BITE_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BULLDOZE"
+          ]
         }
       }
     },
@@ -18092,7 +18382,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "BITE_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BULLDOZE"
+          ]
         }
       }
     },
@@ -18191,7 +18487,13 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "BITE_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BULLDOZE"
+          ]
         }
       }
     },
@@ -18695,7 +18997,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SCALD"
+          ]
         }
       }
     },
@@ -18803,7 +19108,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SCALD"
+          ]
         }
       }
     },
@@ -18911,7 +19219,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SCALD"
+          ]
         }
       }
     },
@@ -19025,7 +19336,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SCALD"
+          ]
         }
       }
     },
@@ -19118,7 +19432,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SUBMISSION"
+          ]
         }
       }
     },
@@ -19212,7 +19529,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SUBMISSION"
+          ]
         }
       }
     },
@@ -19306,7 +19626,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SUBMISSION"
+          ]
         }
       }
     },
@@ -19406,7 +19729,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SUBMISSION"
+          ]
         }
       }
     },
@@ -20314,7 +20640,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "COUNTER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DAZZLING_GLEAM",
+            "PSYCHIC"
+          ]
         }
       }
     },
@@ -20406,7 +20739,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "COUNTER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DAZZLING_GLEAM",
+            "PSYCHIC"
+          ]
         }
       }
     },
@@ -20498,7 +20838,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "COUNTER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DAZZLING_GLEAM",
+            "PSYCHIC"
+          ]
         }
       }
     },
@@ -20596,7 +20943,14 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "COUNTER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DAZZLING_GLEAM",
+            "PSYCHIC"
+          ]
         }
       }
     },
@@ -20692,7 +21046,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "LOW_KICK_FAST"
+          ]
         }
       }
     },
@@ -20793,7 +21150,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "CROSS_CHOP"
+          ]
         }
       }
     },
@@ -20885,7 +21245,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "KARATE_CHOP_FAST"
+          ],
+          "eliteCinematicMove": [
+            "STONE_EDGE",
+            "SUBMISSION"
+          ]
         }
       }
     },
@@ -21394,7 +21761,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "RAZOR_LEAF_FAST"
+          ]
         }
       }
     },
@@ -21503,7 +21873,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "RAZOR_LEAF_FAST"
+          ]
         }
       }
     },
@@ -21612,7 +21985,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "RAZOR_LEAF_FAST"
+          ]
         }
       }
     },
@@ -21727,7 +22103,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "RAZOR_LEAF_FAST"
+          ]
         }
       }
     },
@@ -22911,7 +23290,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -23124,7 +23506,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -23228,7 +23613,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -23337,7 +23725,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -23902,7 +24293,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "FIRE_BLAST"
+          ]
         }
       }
     },
@@ -23992,7 +24386,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ]
         }
       }
     },
@@ -25097,7 +25494,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "CUT_FAST"
+          ]
         }
       }
     },
@@ -25199,7 +25599,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "SWIFT"
+          ]
         }
       }
     },
@@ -25290,7 +25693,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "AIR_CUTTER"
+          ]
         }
       }
     },
@@ -25386,7 +25792,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "WATER_GUN_FAST"
+          ],
+          "eliteCinematicMove": [
+            "AQUA_JET"
+          ]
         }
       }
     },
@@ -25477,7 +25889,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "ICE_SHARD_FAST"
+          ],
+          "eliteCinematicMove": [
+            "AQUA_JET",
+            "ICY_WIND"
+          ]
         }
       }
     },
@@ -26090,7 +26509,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "LICK_FAST"
+          ]
         }
       }
     },
@@ -26287,7 +26709,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "LICK_FAST"
+          ]
         }
       }
     },
@@ -26385,7 +26810,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "LICK_FAST"
+          ]
         }
       }
     },
@@ -26489,7 +26917,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "LICK_FAST"
+          ]
         }
       }
     },
@@ -26979,7 +27410,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLIZZARD"
+          ]
         }
       }
     },
@@ -27073,7 +27507,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLIZZARD"
+          ]
         }
       }
     },
@@ -27167,7 +27604,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLIZZARD"
+          ]
         }
       }
     },
@@ -27267,7 +27707,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLIZZARD"
+          ]
         }
       }
     },
@@ -27371,7 +27814,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteQuickMove": [
+            "SUCKER_PUNCH_FAST"
+          ],
+          "eliteCinematicMove": [
+            "OMINOUS_WIND"
+          ]
         }
       }
     },
@@ -27475,7 +27924,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteQuickMove": [
+            "LICK_FAST"
+          ]
         }
       }
     },
@@ -27577,7 +28029,15 @@
             -0.699999988079071,
             0.10000000149011612
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "LICK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SLUDGE_WAVE",
+            "DARK_PULSE",
+            "PSYCHIC"
+          ]
         }
       }
     },
@@ -27671,7 +28131,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "IRON_HEAD",
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -27766,7 +28230,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "IRON_HEAD",
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -27861,7 +28329,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "IRON_HEAD",
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -27963,7 +28435,11 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "IRON_HEAD",
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -28458,7 +28934,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYSHOCK"
+          ]
         }
       }
     },
@@ -28553,7 +29032,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYSHOCK"
+          ]
         }
       }
     },
@@ -28648,7 +29130,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYSHOCK"
+          ]
         }
       }
     },
@@ -28749,7 +29234,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYSHOCK"
+          ]
         }
       }
     },
@@ -29262,7 +29750,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "MUD_SHOT_FAST"
+          ]
         }
       }
     },
@@ -29359,7 +29850,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "MUD_SHOT_FAST"
+          ]
         }
       }
     },
@@ -29456,7 +29950,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "MUD_SHOT_FAST"
+          ]
         }
       }
     },
@@ -29559,7 +30056,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "MUD_SHOT_FAST"
+          ]
         }
       }
     },
@@ -29655,7 +30155,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "SIGNAL_BEAM"
+          ]
         }
       }
     },
@@ -29746,7 +30249,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "TACKLE_FAST"
+          ]
         }
       }
     },
@@ -30259,7 +30765,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ZEN_HEADBUTT_FAST"
+          ]
         }
       }
     },
@@ -30454,7 +30963,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ZEN_HEADBUTT_FAST"
+          ]
         }
       }
     },
@@ -30547,7 +31059,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ZEN_HEADBUTT_FAST"
+          ]
         }
       }
     },
@@ -30646,7 +31161,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ZEN_HEADBUTT_FAST"
+          ]
         }
       }
     },
@@ -31594,7 +32112,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "STOMP",
+            "BRICK_BREAK"
+          ]
         }
       }
     },
@@ -31688,7 +32210,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "STOMP",
+            "BRICK_BREAK"
+          ]
         }
       }
     },
@@ -31782,7 +32308,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "STOMP",
+            "BRICK_BREAK"
+          ]
         }
       }
     },
@@ -31882,7 +32412,11 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "STOMP",
+            "BRICK_BREAK"
+          ]
         }
       }
     },
@@ -31972,7 +32506,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ROCK_SMASH_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BRICK_BREAK"
+          ]
         }
       }
     },
@@ -32063,7 +32603,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ROCK_SMASH_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BRICK_BREAK"
+          ]
         }
       }
     },
@@ -32154,7 +32700,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ROCK_SMASH_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BRICK_BREAK"
+          ]
         }
       }
     },
@@ -32251,7 +32803,13 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ROCK_SMASH_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BRICK_BREAK"
+          ]
         }
       }
     },
@@ -32349,7 +32907,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -33734,7 +34295,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "MEGAHORN"
+          ]
         }
       }
     },
@@ -33839,7 +34403,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "MEGAHORN"
+          ]
         }
       }
     },
@@ -33944,7 +34511,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "MEGAHORN"
+          ]
         }
       }
     },
@@ -34055,7 +34625,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "MEGAHORN"
+          ]
         }
       }
     },
@@ -34149,7 +34722,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYBEAM"
+          ]
         }
       }
     },
@@ -34242,7 +34818,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "POWER_WHIP"
+          ]
         }
       }
     },
@@ -34335,7 +34914,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BRICK_BREAK",
+            "STOMP"
+          ]
         }
       }
     },
@@ -34429,7 +35012,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BRICK_BREAK",
+            "STOMP"
+          ]
         }
       }
     },
@@ -34523,7 +35110,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BRICK_BREAK",
+            "STOMP"
+          ]
         }
       }
     },
@@ -34623,7 +35214,11 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BRICK_BREAK",
+            "STOMP"
+          ]
         }
       }
     },
@@ -34818,7 +35413,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "BLIZZARD"
+          ]
         }
       }
     },
@@ -35006,7 +35604,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "POISON_JAB_FAST"
+          ],
+          "eliteCinematicMove": [
+            "ICY_WIND",
+            "DRILL_RUN"
+          ]
         }
       }
     },
@@ -35196,7 +35801,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "TACKLE_FAST"
+          ],
+          "eliteCinematicMove": [
+            "PSYBEAM"
+          ]
         }
       }
     },
@@ -35386,7 +35997,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "STEEL_WING_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BUG_BUZZ"
+          ]
         }
       }
     },
@@ -35489,7 +36106,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "STEEL_WING_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BUG_BUZZ"
+          ]
         }
       }
     },
@@ -35592,7 +36215,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "STEEL_WING_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BUG_BUZZ"
+          ]
         }
       }
     },
@@ -35701,7 +36330,13 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "STEEL_WING_FAST"
+          ],
+          "eliteCinematicMove": [
+            "BUG_BUZZ"
+          ]
         }
       }
     },
@@ -35796,7 +36431,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "POUND_FAST"
+          ],
+          "eliteCinematicMove": [
+            "ICE_PUNCH"
+          ]
         }
       }
     },
@@ -36676,7 +37317,10 @@
             -0.699999988079071,
             0
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SUBMISSION"
+          ]
         }
       }
     },
@@ -36771,7 +37415,10 @@
             -0.699999988079071,
             0
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SUBMISSION"
+          ]
         }
       }
     },
@@ -36866,7 +37513,10 @@
             -0.699999988079071,
             0
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SUBMISSION"
+          ]
         }
       }
     },
@@ -36967,7 +37617,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SUBMISSION"
+          ]
         }
       }
     },
@@ -37529,7 +38182,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "DRAGON_TAIL_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -37624,7 +38283,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "DRAGON_TAIL_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -37719,7 +38384,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "DRAGON_TAIL_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -37820,7 +38491,13 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "DRAGON_TAIL_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -37909,7 +38586,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ICE_SHARD_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRAGON_PULSE",
+            "ICE_BEAM"
+          ]
         }
       }
     },
@@ -37999,7 +38683,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ICE_SHARD_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRAGON_PULSE",
+            "ICE_BEAM"
+          ]
         }
       }
     },
@@ -38089,7 +38780,14 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ICE_SHARD_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRAGON_PULSE",
+            "ICE_BEAM"
+          ]
         }
       }
     },
@@ -38185,7 +38883,14 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ICE_SHARD_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRAGON_PULSE",
+            "ICE_BEAM"
+          ]
         }
       }
     },
@@ -38402,7 +39107,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "LAST_RESORT",
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -38495,7 +39204,10 @@
             -0.4000000059604645,
             0
           ],
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteCinematicMove": [
+            "LAST_RESORT"
+          ]
         }
       }
     },
@@ -38589,7 +39301,10 @@
             -0.4000000059604645,
             0
           ],
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "LAST_RESORT"
+          ]
         }
       }
     },
@@ -38683,7 +39398,11 @@
             -0.4000000059604645,
             0
           ],
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "LAST_RESORT",
+            "HEAT_WAVE"
+          ]
         }
       }
     },
@@ -38779,7 +39498,16 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "TACKLE_FAST",
+            "ZEN_HEADBUTT_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SIGNAL_BEAM",
+            "PSYBEAM",
+            "DISCHARGE"
+          ]
         }
       }
     },
@@ -38876,7 +39604,16 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "TACKLE_FAST",
+            "ZEN_HEADBUTT_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SIGNAL_BEAM",
+            "PSYBEAM",
+            "DISCHARGE"
+          ]
         }
       }
     },
@@ -38973,7 +39710,16 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "TACKLE_FAST",
+            "ZEN_HEADBUTT_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SIGNAL_BEAM",
+            "PSYBEAM",
+            "DISCHARGE"
+          ]
         }
       }
     },
@@ -39076,7 +39822,16 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "TACKLE_FAST",
+            "ZEN_HEADBUTT_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SIGNAL_BEAM",
+            "PSYBEAM",
+            "DISCHARGE"
+          ]
         }
       }
     },
@@ -39173,7 +39928,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "ROCK_TOMB",
+            "BRINE"
+          ]
         }
       }
     },
@@ -39272,7 +40031,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "ROCK_TOMB",
+            "BRINE"
+          ]
         }
       }
     },
@@ -39371,7 +40134,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "ROCK_TOMB",
+            "BRINE"
+          ]
         }
       }
     },
@@ -39476,7 +40243,11 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "ROCK_TOMB",
+            "BRINE"
+          ]
         }
       }
     },
@@ -39567,7 +40338,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ROCK_THROW_FAST"
+          ],
+          "eliteCinematicMove": [
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -39659,7 +40436,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ROCK_THROW_FAST"
+          ],
+          "eliteCinematicMove": [
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -39751,7 +40534,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ROCK_THROW_FAST"
+          ],
+          "eliteCinematicMove": [
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -39849,7 +40638,13 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "ROCK_THROW_FAST"
+          ],
+          "eliteCinematicMove": [
+            "ROCK_SLIDE"
+          ]
         }
       }
     },
@@ -40038,7 +40833,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "FURY_CUTTER_FAST"
+          ]
         }
       }
     },
@@ -40242,7 +41040,10 @@
             2,
             2
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "YAWN_FAST"
+          ]
         }
       }
     },
@@ -40350,7 +41151,10 @@
             2,
             2
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "YAWN_FAST"
+          ]
         }
       }
     },
@@ -40458,7 +41262,10 @@
             2,
             2
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "YAWN_FAST"
+          ]
         }
       }
     },
@@ -40572,7 +41379,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "YAWN_FAST"
+          ]
         }
       }
     },
@@ -40662,7 +41472,10 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteCinematicMove": [
+            "HURRICANE"
+          ]
         }
       }
     },
@@ -40753,7 +41566,10 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteCinematicMove": [
+            "HURRICANE"
+          ]
         }
       }
     },
@@ -40844,7 +41660,10 @@
             "candyToUnlock": 80
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteCinematicMove": [
+            "HURRICANE"
+          ]
         }
       }
     },
@@ -40941,7 +41760,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteCinematicMove": [
+            "HURRICANE"
+          ]
         }
       }
     },
@@ -41031,7 +41853,13 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteQuickMove": [
+            "THUNDER_SHOCK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DISCHARGE"
+          ]
         }
       }
     },
@@ -41122,7 +41950,13 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteQuickMove": [
+            "THUNDER_SHOCK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DISCHARGE"
+          ]
         }
       }
     },
@@ -41213,7 +42047,13 @@
             "candyToUnlock": 80
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteQuickMove": [
+            "THUNDER_SHOCK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DISCHARGE"
+          ]
         }
       }
     },
@@ -41310,7 +42150,13 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteQuickMove": [
+            "THUNDER_SHOCK_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DISCHARGE"
+          ]
         }
       }
     },
@@ -41400,7 +42246,13 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SKY_ATTACK"
+          ]
         }
       }
     },
@@ -41491,7 +42343,13 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SKY_ATTACK"
+          ]
         }
       }
     },
@@ -41582,7 +42440,13 @@
             "candyToUnlock": 80
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SKY_ATTACK"
+          ]
         }
       }
     },
@@ -41679,7 +42543,13 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ],
+          "eliteCinematicMove": [
+            "SKY_ATTACK"
+          ]
         }
       }
     },
@@ -42583,7 +43453,16 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "combatDefaultCameraAngle": [
+            3,
+            3.5,
+            2
+          ],
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "DRACO_METEOR",
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -42678,7 +43557,16 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 6
+          "combatDefaultCameraAngle": [
+            3,
+            3.5,
+            2
+          ],
+          "buddyGroupNumber": 6,
+          "eliteCinematicMove": [
+            "DRACO_METEOR",
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -42773,7 +43661,16 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 6
+          "combatDefaultCameraAngle": [
+            3,
+            3.5,
+            2
+          ],
+          "buddyGroupNumber": 6,
+          "eliteCinematicMove": [
+            "DRACO_METEOR",
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -42868,13 +43765,22 @@
           },
           "isTransferable": true,
           "isDeployable": true,
+          "combatDefaultCameraAngle": [
+            3,
+            3.5,
+            2
+          ],
           "shadow": {
             "purificationStardustNeeded": 5000,
             "purificationCandyNeeded": 5,
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 6
+          "buddyGroupNumber": 6,
+          "eliteCinematicMove": [
+            "DRACO_METEOR",
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -42968,7 +43874,12 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYSTRIKE",
+            "SHADOW_BALL",
+            "HYPER_BEAM"
+          ]
         }
       }
     },
@@ -43062,7 +43973,10 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYSTRIKE"
+          ]
         }
       }
     },
@@ -43157,7 +44071,12 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYSTRIKE",
+            "SHADOW_BALL",
+            "HYPER_BEAM"
+          ]
         }
       }
     },
@@ -43570,7 +44489,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -43860,7 +44782,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLAST_BURN"
+          ]
         }
       }
     },
@@ -44146,7 +45071,13 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "WATER_GUN_FAST"
+          ],
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -45712,7 +46643,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteCinematicMove": [
+            "PSYCHIC",
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -45814,7 +46749,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -45915,7 +46853,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteQuickMove": [
+            "ZEN_HEADBUTT_FAST"
+          ]
         }
       }
     },
@@ -46013,7 +46954,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "STEEL_WING_FAST",
+            "ZEN_HEADBUTT_FAST"
+          ]
         }
       }
     },
@@ -47116,7 +48061,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -47214,7 +48162,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -47312,7 +48263,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -47416,7 +48370,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "DRAGON_PULSE"
+          ]
         }
       }
     },
@@ -48162,7 +49119,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "EARTHQUAKE"
+          ]
         }
       }
     },
@@ -48257,7 +49217,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "EARTHQUAKE"
+          ]
         }
       }
     },
@@ -48352,7 +49315,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "EARTHQUAKE"
+          ]
         }
       }
     },
@@ -48453,7 +49419,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "EARTHQUAKE"
+          ]
         }
       }
     },
@@ -49435,7 +50404,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "LAST_RESORT"
+          ]
         }
       }
     },
@@ -49523,7 +50495,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "LAST_RESORT"
+          ]
         }
       }
     },
@@ -53904,7 +54879,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "ICE_SHARD_FAST",
+            "QUICK_ATTACK_FAST"
+          ]
         }
       }
     },
@@ -53991,7 +54970,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "ICE_SHARD_FAST",
+            "QUICK_ATTACK_FAST"
+          ]
         }
       }
     },
@@ -54078,7 +55061,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "ICE_SHARD_FAST",
+            "QUICK_ATTACK_FAST"
+          ]
         }
       }
     },
@@ -54171,7 +55158,11 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteQuickMove": [
+            "ICE_SHARD_FAST",
+            "QUICK_ATTACK_FAST"
+          ]
         }
       }
     },
@@ -55219,7 +56210,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "WATER_GUN_FAST"
+          ]
         }
       }
     },
@@ -56550,7 +57544,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteQuickMove": [
+            "FROST_BREATH_FAST"
+          ]
         }
       }
     },
@@ -56646,7 +57643,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteCinematicMove": [
+            "THUNDERBOLT"
+          ]
         }
       }
     },
@@ -56747,7 +57747,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "eliteCinematicMove": [
+            "FLAMETHROWER"
+          ]
         }
       }
     },
@@ -57737,7 +58740,10 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "HIDDEN_POWER_FAST"
+          ]
         }
       }
     },
@@ -57827,7 +58833,10 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "HIDDEN_POWER_FAST"
+          ]
         }
       }
     },
@@ -57917,7 +58926,10 @@
             "candyToUnlock": 80
           },
           "isTransferable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "HIDDEN_POWER_FAST"
+          ]
         }
       }
     },
@@ -58013,7 +59025,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "HIDDEN_POWER_FAST"
+          ]
         }
       }
     },
@@ -58938,7 +59953,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "SMACK_DOWN_FAST"
+          ]
         }
       }
     },
@@ -59030,7 +60048,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "SMACK_DOWN_FAST"
+          ]
         }
       }
     },
@@ -59122,7 +60143,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "SMACK_DOWN_FAST"
+          ]
         }
       }
     },
@@ -59220,7 +60244,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "SMACK_DOWN_FAST"
+          ]
         }
       }
     },
@@ -59769,7 +60796,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -60055,7 +61085,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLAST_BURN",
+            "STONE_EDGE"
+          ]
         }
       }
     },
@@ -60945,7 +61979,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -61038,7 +62075,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -61131,7 +62171,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -61230,7 +62273,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -65233,7 +66279,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SYNCHRONOISE"
+          ]
         }
       }
     },
@@ -65326,7 +66375,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SYNCHRONOISE"
+          ]
         }
       }
     },
@@ -65419,7 +66471,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SYNCHRONOISE"
+          ]
         }
       }
     },
@@ -65518,7 +66573,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SYNCHRONOISE"
+          ]
         }
       }
     },
@@ -65902,7 +66960,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "GRASS_KNOT"
+          ]
         }
       }
     },
@@ -66182,7 +67243,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -66469,7 +67533,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "eliteQuickMove": [
+            "STRUGGLE_BUG_FAST"
+          ]
         }
       }
     },
@@ -71814,7 +72881,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteCinematicMove": [
+            "EARTH_POWER"
+          ]
         }
       }
     },
@@ -71907,7 +72977,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteCinematicMove": [
+            "EARTH_POWER"
+          ]
         }
       }
     },
@@ -72000,7 +73073,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteCinematicMove": [
+            "EARTH_POWER"
+          ]
         }
       }
     },
@@ -72099,7 +73175,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "eliteCinematicMove": [
+            "EARTH_POWER"
+          ]
         }
       }
     },
@@ -74025,8 +75104,7 @@
           },
           "quickMoves": [
             "ACID_FAST",
-            "INFESTATION_FAST",
-            "BULLET_SEED_FAST"
+            "INFESTATION_FAST"
           ],
           "cinematicMoves": [
             "GRASS_KNOT",
@@ -74121,7 +75199,8 @@
           },
           "quickMoves": [
             "ACID_FAST",
-            "INFESTATION_FAST"
+            "INFESTATION_FAST",
+            "BULLET_SEED_FAST"
           ],
           "cinematicMoves": [
             "GRASS_KNOT",
@@ -79074,7 +80153,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "OUTRAGE"
+          ]
         }
       }
     },
@@ -79168,7 +80250,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "OUTRAGE"
+          ]
         }
       }
     },
@@ -79262,7 +80347,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "OUTRAGE"
+          ]
         }
       }
     },
@@ -79362,7 +80450,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "OUTRAGE"
+          ]
         }
       }
     },
@@ -80239,7 +81330,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "METEOR_MASH"
+          ]
         }
       }
     },
@@ -80336,7 +81430,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "METEOR_MASH"
+          ]
         }
       }
     },
@@ -80433,7 +81530,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "METEOR_MASH"
+          ]
         }
       }
     },
@@ -80536,7 +81636,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "METEOR_MASH"
+          ]
         }
       }
     },
@@ -82685,7 +83788,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -82778,7 +83884,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -82871,7 +83980,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -82970,7 +84082,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "FRENZY_PLANT"
+          ]
         }
       }
     },
@@ -83872,7 +84987,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLAST_BURN"
+          ]
         }
       }
     },
@@ -83965,7 +85083,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLAST_BURN"
+          ]
         }
       }
     },
@@ -84058,7 +85179,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLAST_BURN"
+          ]
         }
       }
     },
@@ -84157,7 +85281,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "BLAST_BURN"
+          ]
         }
       }
     },
@@ -84449,7 +85576,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "HYDRO_CANNON"
+          ]
         }
       }
     },
@@ -95353,7 +96483,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "BODY_SLAM"
+          ]
         }
       }
     },
@@ -95447,12 +96580,20 @@
           },
           "isTransferable": true,
           "isDeployable": true,
+          "combatDefaultCameraAngle": [
+            3,
+            3.5,
+            2
+          ],
           "combatOpponentFocusCameraAngle": [
             1.899999976158142,
             0,
             0
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "ROCK_WRECKER"
+          ]
         }
       }
     },
@@ -95547,12 +96688,20 @@
           },
           "isTransferable": true,
           "isDeployable": true,
+          "combatDefaultCameraAngle": [
+            3,
+            3.5,
+            2
+          ],
           "combatOpponentFocusCameraAngle": [
             1.899999976158142,
             0,
             0
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "ROCK_WRECKER"
+          ]
         }
       }
     },
@@ -95647,12 +96796,20 @@
           },
           "isTransferable": true,
           "isDeployable": true,
+          "combatDefaultCameraAngle": [
+            3,
+            3.5,
+            2
+          ],
           "combatOpponentFocusCameraAngle": [
             1.899999976158142,
             0,
             0
           ],
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "ROCK_WRECKER"
+          ]
         }
       }
     },
@@ -95747,6 +96904,11 @@
           },
           "isTransferable": true,
           "isDeployable": true,
+          "combatDefaultCameraAngle": [
+            3,
+            3.5,
+            2
+          ],
           "combatOpponentFocusCameraAngle": [
             1.899999976158142,
             0,
@@ -95758,7 +96920,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "ROCK_WRECKER"
+          ]
         }
       }
     },
@@ -96888,7 +98053,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "LAST_RESORT"
+          ]
         }
       }
     },
@@ -96983,7 +98151,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "LAST_RESORT"
+          ]
         }
       }
     },
@@ -97173,7 +98344,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "ANCIENT_POWER"
+          ]
         }
       }
     },
@@ -97666,7 +98840,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "SYNCHRONOISE"
+          ]
         }
       }
     },
@@ -97759,7 +98936,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "SYNCHRONOISE"
+          ]
         }
       }
     },
@@ -97852,7 +99032,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "SYNCHRONOISE"
+          ]
         }
       }
     },
@@ -97951,7 +99134,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "SYNCHRONOISE"
+          ]
         }
       }
     },
@@ -99988,6 +101174,11 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
+          "combatDefaultCameraAngle": [
+            3,
+            3,
+            2
+          ],
           "buddyGroupNumber": 3
         }
       }
@@ -100083,6 +101274,11 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
+          "combatDefaultCameraAngle": [
+            3,
+            3,
+            2
+          ],
           "buddyGroupNumber": 7
         }
       }
@@ -118106,7 +119302,10 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "SACRED_SWORD"
+          ]
         }
       }
     },
