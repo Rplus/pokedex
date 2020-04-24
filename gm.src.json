@@ -83,6 +83,9 @@
       "legacyMoves": [
         "FRENZY_PLANT"
       ],
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
       "_atk": 198,
       "_def": 189,
       "_sta": 190,
@@ -145,8 +148,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "SCRATCH",
-        "RETURN"
+        "SCRATCH"
+      ],
+      "eliteMoves": [
+        "SCRATCH"
       ],
       "_atk": 158,
       "_def": 126,
@@ -184,10 +189,16 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BLAST_BURN",
         "EMBER",
-        "FLAMETHROWER",
-        "WING_ATTACK"
+        "WING_ATTACK",
+        "BLAST_BURN",
+        "FLAMETHROWER"
+      ],
+      "eliteMoves": [
+        "EMBER",
+        "WING_ATTACK",
+        "BLAST_BURN",
+        "FLAMETHROWER"
       ],
       "_atk": 223,
       "_def": 173,
@@ -284,6 +295,9 @@
       "legacyMoves": [
         "HYDRO_CANNON"
       ],
+      "eliteMoves": [
+        "HYDRO_CANNON"
+      ],
       "_atk": 171,
       "_def": 207,
       "_sta": 188,
@@ -367,6 +381,9 @@
         "SIGNAL_BEAM"
       ],
       "legacyMoves": [
+        "BUG_BITE"
+      ],
+      "eliteMoves": [
         "BUG_BITE"
       ],
       "_atk": 167,
@@ -461,8 +478,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BUG_BITE",
-        "RETURN"
+        "BUG_BITE"
+      ],
+      "eliteMoves": [
+        "BUG_BITE"
       ],
       "_atk": 169,
       "_def": 130,
@@ -554,8 +573,12 @@
         "HURRICANE"
       ],
       "legacyMoves": [
-        "AIR_CUTTER",
-        "WING_ATTACK"
+        "WING_ATTACK",
+        "AIR_CUTTER"
+      ],
+      "eliteMoves": [
+        "WING_ATTACK",
+        "AIR_CUTTER"
       ],
       "_atk": 166,
       "_def": 154,
@@ -708,6 +731,9 @@
       "legacyMoves": [
         "TWISTER"
       ],
+      "eliteMoves": [
+        "TWISTER"
+      ],
       "_atk": 112,
       "_def": 60,
       "_sta": 120,
@@ -741,6 +767,9 @@
       "legacyMoves": [
         "TWISTER"
       ],
+      "eliteMoves": [
+        "TWISTER"
+      ],
       "_atk": 182,
       "_def": 133,
       "_sta": 163,
@@ -771,6 +800,9 @@
         "WRAP"
       ],
       "legacyMoves": [
+        "GUNK_SHOT"
+      ],
+      "eliteMoves": [
         "GUNK_SHOT"
       ],
       "_atk": 110,
@@ -839,6 +871,11 @@
         "SURF",
         "THUNDER"
       ],
+      "eliteMoves": [
+        "PRESENT",
+        "SURF",
+        "THUNDER"
+      ],
       "_atk": 112,
       "_def": 96,
       "_sta": 111,
@@ -893,6 +930,9 @@
         "SKULL_BASH"
       ],
       "legacyMoves": [
+        "THUNDER"
+      ],
+      "eliteMoves": [
         "THUNDER"
       ],
       "_atk": 193,
@@ -958,8 +998,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ROCK_TOMB",
-        "RETURN"
+        "ROCK_TOMB"
+      ],
+      "eliteMoves": [
+        "ROCK_TOMB"
       ],
       "_atk": 126,
       "_def": 120,
@@ -1226,6 +1268,9 @@
       "legacyMoves": [
         "FURY_CUTTER"
       ],
+      "eliteMoves": [
+        "FURY_CUTTER"
+      ],
       "_atk": 204,
       "_def": 156,
       "_sta": 191,
@@ -1286,6 +1331,9 @@
         "PSYCHIC"
       ],
       "legacyMoves": [
+        "POUND"
+      ],
+      "eliteMoves": [
         "POUND"
       ],
       "_atk": 178,
@@ -1383,8 +1431,12 @@
       "legacyMoves": [
         "EMBER",
         "FIRE_BLAST",
-        "FLAMETHROWER",
-        "RETURN"
+        "FLAMETHROWER"
+      ],
+      "eliteMoves": [
+        "EMBER",
+        "FIRE_BLAST",
+        "FLAMETHROWER"
       ],
       "_atk": 169,
       "_def": 190,
@@ -1449,8 +1501,12 @@
         "PLAY_ROUGH"
       ],
       "legacyMoves": [
-        "BODY_SLAM",
-        "PLAY_ROUGH"
+        "PLAY_ROUGH",
+        "BODY_SLAM"
+      ],
+      "eliteMoves": [
+        "PLAY_ROUGH",
+        "BODY_SLAM"
       ],
       "_atk": 80,
       "_def": 41,
@@ -1516,8 +1572,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "SLUDGE_BOMB",
-        "RETURN"
+        "SLUDGE_BOMB"
+      ],
+      "eliteMoves": [
+        "SLUDGE_BOMB"
       ],
       "_atk": 83,
       "_def": 73,
@@ -1552,8 +1610,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "OMINOUS_WIND",
-        "RETURN"
+        "OMINOUS_WIND"
+      ],
+      "eliteMoves": [
+        "OMINOUS_WIND"
       ],
       "_atk": 161,
       "_def": 150,
@@ -1711,6 +1771,9 @@
       "legacyMoves": [
         "BUG_BITE"
       ],
+      "eliteMoves": [
+        "BUG_BITE"
+      ],
       "_atk": 165,
       "_def": 146,
       "_sta": 155,
@@ -1776,8 +1839,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BUG_BITE",
-        "RETURN"
+        "BUG_BITE"
+      ],
+      "eliteMoves": [
+        "BUG_BITE"
       ],
       "_atk": 179,
       "_def": 143,
@@ -1809,6 +1874,9 @@
         "ROCK_TOMB"
       ],
       "legacyMoves": [
+        "MUD_SHOT"
+      ],
+      "eliteMoves": [
         "MUD_SHOT"
       ],
       "_atk": 109,
@@ -1933,8 +2001,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BODY_SLAM",
-        "RETURN"
+        "BODY_SLAM"
+      ],
+      "eliteMoves": [
+        "BODY_SLAM"
       ],
       "_atk": 92,
       "_def": 78,
@@ -1996,8 +2066,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "NIGHT_SLASH",
-        "RETURN"
+        "NIGHT_SLASH"
+      ],
+      "eliteMoves": [
+        "NIGHT_SLASH"
       ],
       "_atk": 150,
       "_def": 136,
@@ -2149,8 +2221,12 @@
         "NIGHT_SLASH"
       ],
       "legacyMoves": [
-        "CROSS_CHOP",
-        "KARATE_CHOP"
+        "KARATE_CHOP",
+        "CROSS_CHOP"
+      ],
+      "eliteMoves": [
+        "KARATE_CHOP",
+        "CROSS_CHOP"
       ],
       "_atk": 207,
       "_def": 138,
@@ -2220,6 +2296,10 @@
         "BITE",
         "BULLDOZE"
       ],
+      "eliteMoves": [
+        "BITE",
+        "BULLDOZE"
+      ],
       "_atk": 227,
       "_def": 166,
       "_sta": 207,
@@ -2282,8 +2362,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "SCALD",
-        "RETURN"
+        "SCALD"
+      ],
+      "eliteMoves": [
+        "SCALD"
       ],
       "_atk": 130,
       "_def": 123,
@@ -2320,6 +2402,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
+        "SUBMISSION"
+      ],
+      "eliteMoves": [
         "SUBMISSION"
       ],
       "_atk": 182,
@@ -2417,9 +2502,14 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
+        "COUNTER",
         "DAZZLING_GLEAM",
-        "PSYCHIC",
-        "COUNTER"
+        "PSYCHIC"
+      ],
+      "eliteMoves": [
+        "COUNTER",
+        "DAZZLING_GLEAM",
+        "PSYCHIC"
       ],
       "_atk": 271,
       "_def": 167,
@@ -2453,6 +2543,9 @@
       "legacyMoves": [
         "LOW_KICK"
       ],
+      "eliteMoves": [
+        "LOW_KICK"
+      ],
       "_atk": 137,
       "_def": 82,
       "_sta": 172,
@@ -2483,6 +2576,9 @@
         "SUBMISSION"
       ],
       "legacyMoves": [
+        "CROSS_CHOP"
+      ],
+      "eliteMoves": [
         "CROSS_CHOP"
       ],
       "_atk": 177,
@@ -2519,6 +2615,11 @@
         "SUBMISSION"
       ],
       "legacyMoves": [
+        "KARATE_CHOP",
+        "STONE_EDGE",
+        "SUBMISSION"
+      ],
+      "eliteMoves": [
         "KARATE_CHOP",
         "STONE_EDGE",
         "SUBMISSION"
@@ -2587,8 +2688,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "RAZOR_LEAF",
-        "RETURN"
+        "RAZOR_LEAF"
+      ],
+      "eliteMoves": [
+        "RAZOR_LEAF"
       ],
       "_atk": 172,
       "_def": 92,
@@ -2709,9 +2812,7 @@
       "chargedMoves": [
         "DIG",
         "ROCK_SLIDE",
-        "ROCK_TOMB",
-        "RETURN",
-        "FRUSTRATION"
+        "ROCK_TOMB"
       ],
       "_atk": 132,
       "_def": 132,
@@ -2771,14 +2872,14 @@
         "DIG",
         "ROCK_BLAST",
         "ROCK_SLIDE",
-        "STONE_EDGE",
-        "RETURN",
-        "FRUSTRATION"
+        "STONE_EDGE"
       ],
       "legacyMoves": [
         "MUD_SHOT",
-        "ROCK_SLIDE",
-        "RETURN"
+        "ROCK_SLIDE"
+      ],
+      "eliteMoves": [
+        "ROCK_SLIDE"
       ],
       "_atk": 164,
       "_def": 164,
@@ -2838,9 +2939,7 @@
         "ANCIENT_POWER",
         "EARTHQUAKE",
         "ROCK_BLAST",
-        "STONE_EDGE",
-        "RETURN",
-        "FRUSTRATION"
+        "STONE_EDGE"
       ],
       "legacyMoves": [
         "MUD_SHOT"
@@ -2906,6 +3005,9 @@
       "legacyMoves": [
         "FIRE_BLAST"
       ],
+      "eliteMoves": [
+        "FIRE_BLAST"
+      ],
       "_atk": 170,
       "_def": 127,
       "_sta": 137,
@@ -2936,6 +3038,9 @@
         "HEAT_WAVE"
       ],
       "legacyMoves": [
+        "EMBER"
+      ],
+      "eliteMoves": [
         "EMBER"
       ],
       "_atk": 207,
@@ -3093,6 +3198,9 @@
       "legacyMoves": [
         "CUT"
       ],
+      "eliteMoves": [
+        "CUT"
+      ],
       "_atk": 124,
       "_def": 115,
       "_sta": 141,
@@ -3124,6 +3232,9 @@
         "SWIFT"
       ],
       "legacyMoves": [
+        "SWIFT"
+      ],
+      "eliteMoves": [
         "SWIFT"
       ],
       "_atk": 158,
@@ -3159,6 +3270,9 @@
       "legacyMoves": [
         "AIR_CUTTER"
       ],
+      "eliteMoves": [
+        "AIR_CUTTER"
+      ],
       "_atk": 218,
       "_def": 140,
       "_sta": 155,
@@ -3190,8 +3304,12 @@
         "ICY_WIND"
       ],
       "legacyMoves": [
-        "AQUA_JET",
-        "WATER_GUN"
+        "WATER_GUN",
+        "AQUA_JET"
+      ],
+      "eliteMoves": [
+        "WATER_GUN",
+        "AQUA_JET"
       ],
       "_atk": 85,
       "_def": 121,
@@ -3226,8 +3344,13 @@
         "WATER_PULSE"
       ],
       "legacyMoves": [
-        "AQUA_JET",
         "ICE_SHARD",
+        "AQUA_JET",
+        "ICY_WIND"
+      ],
+      "eliteMoves": [
+        "ICE_SHARD",
+        "AQUA_JET",
         "ICY_WIND"
       ],
       "_atk": 139,
@@ -3262,8 +3385,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 135,
       "_def": 90,
@@ -3334,6 +3456,9 @@
       ],
       "legacyMoves": [
         "ACID",
+        "LICK"
+      ],
+      "eliteMoves": [
         "LICK"
       ],
       "_atk": 190,
@@ -3433,6 +3558,9 @@
       "legacyMoves": [
         "BLIZZARD"
       ],
+      "eliteMoves": [
+        "BLIZZARD"
+      ],
       "_atk": 186,
       "_def": 256,
       "_sta": 137,
@@ -3465,8 +3593,12 @@
         "SLUDGE_BOMB"
       ],
       "legacyMoves": [
-        "OMINOUS_WIND",
-        "SUCKER_PUNCH"
+        "SUCKER_PUNCH",
+        "OMINOUS_WIND"
+      ],
+      "eliteMoves": [
+        "SUCKER_PUNCH",
+        "OMINOUS_WIND"
       ],
       "_atk": 186,
       "_def": 67,
@@ -3500,6 +3632,9 @@
         "SLUDGE_BOMB"
       ],
       "legacyMoves": [
+        "LICK"
+      ],
+      "eliteMoves": [
         "LICK"
       ],
       "_atk": 223,
@@ -3537,10 +3672,16 @@
         "SLUDGE_WAVE"
       ],
       "legacyMoves": [
-        "DARK_PULSE",
         "LICK",
-        "PSYCHIC",
-        "SLUDGE_WAVE"
+        "SLUDGE_WAVE",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "eliteMoves": [
+        "LICK",
+        "SLUDGE_WAVE",
+        "DARK_PULSE",
+        "PSYCHIC"
       ],
       "_atk": 261,
       "_def": 149,
@@ -3575,8 +3716,11 @@
       ],
       "legacyMoves": [
         "IRON_HEAD",
-        "ROCK_SLIDE",
-        "RETURN"
+        "ROCK_SLIDE"
+      ],
+      "eliteMoves": [
+        "IRON_HEAD",
+        "ROCK_SLIDE"
       ],
       "_atk": 85,
       "_def": 232,
@@ -3644,8 +3788,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "PSYSHOCK",
-        "RETURN"
+        "PSYSHOCK"
+      ],
+      "eliteMoves": [
+        "PSYSHOCK"
       ],
       "_atk": 144,
       "_def": 193,
@@ -3708,6 +3854,9 @@
       "legacyMoves": [
         "MUD_SHOT"
       ],
+      "eliteMoves": [
+        "MUD_SHOT"
+      ],
       "_atk": 240,
       "_def": 181,
       "_sta": 146,
@@ -3738,6 +3887,9 @@
         "THUNDERBOLT"
       ],
       "legacyMoves": [
+        "SIGNAL_BEAM"
+      ],
+      "eliteMoves": [
         "SIGNAL_BEAM"
       ],
       "_atk": 109,
@@ -3771,6 +3923,9 @@
         "FOUL_PLAY"
       ],
       "legacyMoves": [
+        "TACKLE"
+      ],
+      "eliteMoves": [
         "TACKLE"
       ],
       "_atk": 173,
@@ -3838,6 +3993,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
+        "ZEN_HEADBUTT"
+      ],
+      "eliteMoves": [
         "ZEN_HEADBUTT"
       ],
       "_atk": 233,
@@ -3993,8 +4151,12 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BRICK_BREAK",
-        "STOMP"
+        "STOMP",
+        "BRICK_BREAK"
+      ],
+      "eliteMoves": [
+        "STOMP",
+        "BRICK_BREAK"
       ],
       "_atk": 224,
       "_def": 181,
@@ -4031,9 +4193,12 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BRICK_BREAK",
         "ROCK_SMASH",
-        "RETURN"
+        "BRICK_BREAK"
+      ],
+      "eliteMoves": [
+        "ROCK_SMASH",
+        "BRICK_BREAK"
       ],
       "_atk": 193,
       "_def": 197,
@@ -4065,6 +4230,9 @@
         "BODY_SLAM"
       ],
       "legacyMoves": [
+        "BODY_SLAM"
+      ],
+      "eliteMoves": [
         "BODY_SLAM"
       ],
       "_atk": 108,
@@ -4223,6 +4391,9 @@
       "legacyMoves": [
         "MEGAHORN"
       ],
+      "eliteMoves": [
+        "MEGAHORN"
+      ],
       "_atk": 222,
       "_def": 171,
       "_sta": 233,
@@ -4253,6 +4424,9 @@
         "PSYCHIC"
       ],
       "legacyMoves": [
+        "PSYBEAM"
+      ],
+      "eliteMoves": [
         "PSYBEAM"
       ],
       "_atk": 60,
@@ -4287,6 +4461,9 @@
       "legacyMoves": [
         "POWER_WHIP"
       ],
+      "eliteMoves": [
+        "POWER_WHIP"
+      ],
       "_atk": 183,
       "_def": 169,
       "_sta": 163,
@@ -4319,6 +4496,10 @@
         "POWER_UP_PUNCH"
       ],
       "legacyMoves": [
+        "BRICK_BREAK",
+        "STOMP"
+      ],
+      "eliteMoves": [
         "BRICK_BREAK",
         "STOMP"
       ],
@@ -4382,6 +4563,9 @@
       "legacyMoves": [
         "BLIZZARD"
       ],
+      "eliteMoves": [
+        "BLIZZARD"
+      ],
       "_atk": 187,
       "_def": 156,
       "_sta": 146,
@@ -4442,9 +4626,14 @@
         "WATER_PULSE"
       ],
       "legacyMoves": [
-        "DRILL_RUN",
+        "POISON_JAB",
         "ICY_WIND",
-        "POISON_JAB"
+        "DRILL_RUN"
+      ],
+      "eliteMoves": [
+        "POISON_JAB",
+        "ICY_WIND",
+        "DRILL_RUN"
       ],
       "_atk": 175,
       "_def": 147,
@@ -4513,9 +4702,13 @@
         "THUNDER"
       ],
       "legacyMoves": [
-        "PSYBEAM",
         "QUICK_ATTACK",
-        "TACKLE"
+        "TACKLE",
+        "PSYBEAM"
+      ],
+      "eliteMoves": [
+        "TACKLE",
+        "PSYBEAM"
       ],
       "_atk": 210,
       "_def": 184,
@@ -4580,8 +4773,12 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BUG_BUZZ",
-        "STEEL_WING"
+        "STEEL_WING",
+        "BUG_BUZZ"
+      ],
+      "eliteMoves": [
+        "STEEL_WING",
+        "BUG_BUZZ"
       ],
       "_atk": 218,
       "_def": 170,
@@ -4616,8 +4813,12 @@
         "PSYSHOCK"
       ],
       "legacyMoves": [
-        "ICE_PUNCH",
-        "POUND"
+        "POUND",
+        "ICE_PUNCH"
+      ],
+      "eliteMoves": [
+        "POUND",
+        "ICE_PUNCH"
       ],
       "_atk": 223,
       "_def": 151,
@@ -4715,6 +4916,9 @@
       "legacyMoves": [
         "SUBMISSION"
       ],
+      "eliteMoves": [
+        "SUBMISSION"
+      ],
       "_atk": 238,
       "_def": 182,
       "_sta": 163,
@@ -4806,8 +5010,12 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "DRAGON_PULSE",
-        "DRAGON_TAIL"
+        "DRAGON_TAIL",
+        "DRAGON_PULSE"
+      ],
+      "eliteMoves": [
+        "DRAGON_TAIL",
+        "DRAGON_PULSE"
       ],
       "_atk": 237,
       "_def": 186,
@@ -4845,9 +5053,14 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
+        "ICE_SHARD",
         "DRAGON_PULSE",
-        "ICE_BEAM",
-        "ICE_SHARD"
+        "ICE_BEAM"
+      ],
+      "eliteMoves": [
+        "ICE_SHARD",
+        "DRAGON_PULSE",
+        "ICE_BEAM"
       ],
       "_atk": 165,
       "_def": 174,
@@ -4904,8 +5117,12 @@
         "SWIFT"
       ],
       "legacyMoves": [
-        "BODY_SLAM",
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "BODY_SLAM"
+      ],
+      "eliteMoves": [
+        "LAST_RESORT",
+        "BODY_SLAM"
       ],
       "_atk": 104,
       "_def": 114,
@@ -4936,6 +5153,9 @@
         "WATER_PULSE"
       ],
       "legacyMoves": [
+        "LAST_RESORT"
+      ],
+      "eliteMoves": [
         "LAST_RESORT"
       ],
       "_atk": 205,
@@ -4970,6 +5190,9 @@
       "legacyMoves": [
         "LAST_RESORT"
       ],
+      "eliteMoves": [
+        "LAST_RESORT"
+      ],
       "_atk": 232,
       "_def": 182,
       "_sta": 163,
@@ -5001,8 +5224,12 @@
         "OVERHEAT"
       ],
       "legacyMoves": [
-        "HEAT_WAVE",
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "HEAT_WAVE"
+      ],
+      "eliteMoves": [
+        "LAST_RESORT",
+        "HEAT_WAVE"
       ],
       "_atk": 246,
       "_def": 179,
@@ -5041,13 +5268,19 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "DISCHARGE",
-        "PSYBEAM",
         "QUICK_ATTACK",
-        "SIGNAL_BEAM",
         "TACKLE",
         "ZEN_HEADBUTT",
-        "RETURN"
+        "SIGNAL_BEAM",
+        "PSYBEAM",
+        "DISCHARGE"
+      ],
+      "eliteMoves": [
+        "TACKLE",
+        "ZEN_HEADBUTT",
+        "SIGNAL_BEAM",
+        "PSYBEAM",
+        "DISCHARGE"
       ],
       "_atk": 153,
       "_def": 136,
@@ -5083,9 +5316,12 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BRINE",
         "ROCK_TOMB",
-        "RETURN"
+        "BRINE"
+      ],
+      "eliteMoves": [
+        "ROCK_TOMB",
+        "BRINE"
       ],
       "_atk": 155,
       "_def": 153,
@@ -5121,8 +5357,12 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ROCK_SLIDE",
-        "ROCK_THROW"
+        "ROCK_THROW",
+        "ROCK_SLIDE"
+      ],
+      "eliteMoves": [
+        "ROCK_THROW",
+        "ROCK_SLIDE"
       ],
       "_atk": 207,
       "_def": 201,
@@ -5185,6 +5425,9 @@
         "WATER_PULSE"
       ],
       "legacyMoves": [
+        "FURY_CUTTER"
+      ],
+      "eliteMoves": [
         "FURY_CUTTER"
       ],
       "_atk": 220,
@@ -5257,6 +5500,9 @@
       "legacyMoves": [
         "YAWN"
       ],
+      "eliteMoves": [
+        "YAWN"
+      ],
       "_atk": 190,
       "_def": 169,
       "_sta": 330,
@@ -5293,6 +5539,9 @@
       "legacyMoves": [
         "HURRICANE"
       ],
+      "eliteMoves": [
+        "HURRICANE"
+      ],
       "_atk": 192,
       "_def": 236,
       "_sta": 207,
@@ -5323,11 +5572,17 @@
         "ZAP_CANNON",
         "ANCIENT_POWER",
         "DRILL_PECK",
+        "DISCHARGE",
         "RETURN",
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "THUNDER_SHOCK"
+        "THUNDER_SHOCK",
+        "DISCHARGE"
+      ],
+      "eliteMoves": [
+        "THUNDER_SHOCK",
+        "DISCHARGE"
       ],
       "_atk": 253,
       "_def": 185,
@@ -5364,6 +5619,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
+        "EMBER",
+        "SKY_ATTACK"
+      ],
+      "eliteMoves": [
         "EMBER",
         "SKY_ATTACK"
       ],
@@ -5466,6 +5725,10 @@
         "DRACO_METEOR",
         "DRAGON_PULSE"
       ],
+      "eliteMoves": [
+        "DRACO_METEOR",
+        "DRAGON_PULSE"
+      ],
       "_atk": 263,
       "_def": 198,
       "_sta": 209,
@@ -5500,9 +5763,14 @@
         "PSYSTRIKE"
       ],
       "legacyMoves": [
-        "HYPER_BEAM",
+        "PSYSTRIKE",
         "SHADOW_BALL",
-        "PSYSTRIKE"
+        "HYPER_BEAM"
+      ],
+      "eliteMoves": [
+        "PSYSTRIKE",
+        "SHADOW_BALL",
+        "HYPER_BEAM"
       ],
       "_atk": 300,
       "_def": 182,
@@ -5686,6 +5954,9 @@
       "legacyMoves": [
         "FRENZY_PLANT"
       ],
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
       "_atk": 168,
       "_def": 202,
       "_sta": 190,
@@ -5772,6 +6043,9 @@
         "SOLAR_BEAM"
       ],
       "legacyMoves": [
+        "BLAST_BURN"
+      ],
+      "eliteMoves": [
         "BLAST_BURN"
       ],
       "_atk": 223,
@@ -5862,8 +6136,12 @@
         "ICE_BEAM"
       ],
       "legacyMoves": [
-        "HYDRO_CANNON",
-        "WATER_GUN"
+        "WATER_GUN",
+        "HYDRO_CANNON"
+      ],
+      "eliteMoves": [
+        "WATER_GUN",
+        "HYDRO_CANNON"
       ],
       "_atk": 205,
       "_def": 188,
@@ -6246,8 +6524,12 @@
         "SIGNAL_BEAM"
       ],
       "legacyMoves": [
-        "BODY_SLAM",
-        "PSYCHIC"
+        "PSYCHIC",
+        "BODY_SLAM"
+      ],
+      "eliteMoves": [
+        "PSYCHIC",
+        "BODY_SLAM"
       ],
       "_atk": 75,
       "_def": 79,
@@ -6281,6 +6563,9 @@
       "legacyMoves": [
         "BODY_SLAM"
       ],
+      "eliteMoves": [
+        "BODY_SLAM"
+      ],
       "_atk": 69,
       "_def": 32,
       "_sta": 207,
@@ -6310,6 +6595,9 @@
         "PSYSHOCK"
       ],
       "legacyMoves": [
+        "ZEN_HEADBUTT"
+      ],
+      "eliteMoves": [
         "ZEN_HEADBUTT"
       ],
       "_atk": 67,
@@ -6343,6 +6631,10 @@
         "DAZZLING_GLEAM"
       ],
       "legacyMoves": [
+        "STEEL_WING",
+        "ZEN_HEADBUTT"
+      ],
+      "eliteMoves": [
         "STEEL_WING",
         "ZEN_HEADBUTT"
       ],
@@ -6500,6 +6792,9 @@
       "legacyMoves": [
         "DRAGON_PULSE"
       ],
+      "eliteMoves": [
+        "DRAGON_PULSE"
+      ],
       "_atk": 211,
       "_def": 169,
       "_sta": 207,
@@ -6649,8 +6944,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "EARTHQUAKE",
-        "RETURN"
+        "EARTHQUAKE"
+      ],
+      "eliteMoves": [
+        "EARTHQUAKE"
       ],
       "_atk": 174,
       "_def": 179,
@@ -6944,6 +7241,9 @@
       "legacyMoves": [
         "LAST_RESORT"
       ],
+      "eliteMoves": [
+        "LAST_RESORT"
+      ],
       "_atk": 261,
       "_def": 175,
       "_sta": 163,
@@ -6973,6 +7273,9 @@
         "LAST_RESORT"
       ],
       "legacyMoves": [
+        "LAST_RESORT"
+      ],
+      "eliteMoves": [
         "LAST_RESORT"
       ],
       "_atk": 126,
@@ -7793,8 +8096,11 @@
       ],
       "legacyMoves": [
         "ICE_SHARD",
-        "QUICK_ATTACK",
-        "RETURN"
+        "QUICK_ATTACK"
+      ],
+      "eliteMoves": [
+        "ICE_SHARD",
+        "QUICK_ATTACK"
       ],
       "_atk": 128,
       "_def": 90,
@@ -7951,6 +8257,9 @@
         "OCTAZOOKA"
       ],
       "legacyMoves": [
+        "WATER_GUN"
+      ],
+      "eliteMoves": [
         "WATER_GUN"
       ],
       "_atk": 194,
@@ -8358,6 +8667,9 @@
       "legacyMoves": [
         "FROST_BREATH"
       ],
+      "eliteMoves": [
+        "FROST_BREATH"
+      ],
       "_atk": 153,
       "_def": 91,
       "_sta": 128,
@@ -8389,6 +8701,9 @@
       "legacyMoves": [
         "THUNDERBOLT"
       ],
+      "eliteMoves": [
+        "THUNDERBOLT"
+      ],
       "_atk": 135,
       "_def": 101,
       "_sta": 128,
@@ -8418,6 +8733,9 @@
         "FLAMETHROWER"
       ],
       "legacyMoves": [
+        "FLAMETHROWER"
+      ],
+      "eliteMoves": [
         "FLAMETHROWER"
       ],
       "_atk": 151,
@@ -8562,6 +8880,7 @@
         "EXTRASENSORY",
         "ICE_FANG",
         "SNARL",
+        "HIDDEN_POWER",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -8571,6 +8890,10 @@
         "WATER_PULSE"
       ],
       "legacyMoves": [
+        "HIDDEN_POWER",
+        "HIDDEN_POWER"
+      ],
+      "eliteMoves": [
         "HIDDEN_POWER"
       ],
       "_atk": 180,
@@ -8668,6 +8991,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
+        "SMACK_DOWN"
+      ],
+      "eliteMoves": [
         "SMACK_DOWN"
       ],
       "_atk": 251,
@@ -8847,6 +9173,9 @@
       "legacyMoves": [
         "FRENZY_PLANT"
       ],
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
       "_atk": 223,
       "_def": 169,
       "_sta": 172,
@@ -8937,8 +9266,12 @@
         "BLAZE_KICK"
       ],
       "legacyMoves": [
-        "STONE_EDGE",
-        "BLAST_BURN"
+        "BLAST_BURN",
+        "STONE_EDGE"
+      ],
+      "eliteMoves": [
+        "BLAST_BURN",
+        "STONE_EDGE"
       ],
       "_atk": 240,
       "_def": 141,
@@ -9035,6 +9368,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
+        "HYDRO_CANNON"
+      ],
+      "eliteMoves": [
         "HYDRO_CANNON"
       ],
       "_atk": 208,
@@ -9739,6 +10075,9 @@
       "legacyMoves": [
         "SYNCHRONOISE"
       ],
+      "eliteMoves": [
+        "SYNCHRONOISE"
+      ],
       "_atk": 237,
       "_def": 195,
       "_sta": 169,
@@ -9859,6 +10198,9 @@
       "legacyMoves": [
         "GRASS_KNOT"
       ],
+      "eliteMoves": [
+        "GRASS_KNOT"
+      ],
       "_atk": 241,
       "_def": 144,
       "_sta": 155,
@@ -9942,6 +10284,12 @@
         "PLAY_ROUGH",
         "BODY_SLAM"
       ],
+      "legacyMoves": [
+        "BODY_SLAM"
+      ],
+      "eliteMoves": [
+        "BODY_SLAM"
+      ],
       "_atk": 290,
       "_def": 166,
       "_sta": 284,
@@ -10022,12 +10370,19 @@
       ],
       "fastMoves": [
         "BUG_BITE",
-        "SHADOW_CLAW"
+        "SHADOW_CLAW",
+        "STRUGGLE_BUG"
       ],
       "chargedMoves": [
         "AERIAL_ACE",
         "DIG",
         "SHADOW_SNEAK"
+      ],
+      "legacyMoves": [
+        "STRUGGLE_BUG"
+      ],
+      "eliteMoves": [
+        "STRUGGLE_BUG"
       ],
       "_atk": 153,
       "_def": 73,
@@ -11141,6 +11496,9 @@
       "legacyMoves": [
         "EARTH_POWER"
       ],
+      "eliteMoves": [
+        "EARTH_POWER"
+      ],
       "_atk": 205,
       "_def": 168,
       "_sta": 190,
@@ -11572,12 +11930,16 @@
       ],
       "fastMoves": [
         "ACID",
-        "INFESTATION"
+        "INFESTATION",
+        "BULLET_SEED"
       ],
       "chargedMoves": [
         "ANCIENT_POWER",
         "GRASS_KNOT",
         "MIRROR_COAT"
+      ],
+      "legacyMoves": [
+        "BULLET_SEED"
       ],
       "_atk": 105,
       "_def": 150,
@@ -12476,6 +12838,9 @@
       "legacyMoves": [
         "OUTRAGE"
       ],
+      "eliteMoves": [
+        "OUTRAGE"
+      ],
       "_atk": 277,
       "_def": 168,
       "_sta": 216,
@@ -12568,6 +12933,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
+        "METEOR_MASH"
+      ],
+      "eliteMoves": [
         "METEOR_MASH"
       ],
       "_atk": 257,
@@ -13037,6 +13405,9 @@
       "legacyMoves": [
         "FRENZY_PLANT"
       ],
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
       "_atk": 202,
       "_def": 188,
       "_sta": 216,
@@ -13127,6 +13498,9 @@
       "legacyMoves": [
         "BLAST_BURN"
       ],
+      "eliteMoves": [
+        "BLAST_BURN"
+      ],
       "_atk": 222,
       "_def": 151,
       "_sta": 183,
@@ -13214,6 +13588,9 @@
         "HYDRO_CANNON"
       ],
       "legacyMoves": [
+        "HYDRO_CANNON"
+      ],
+      "eliteMoves": [
         "HYDRO_CANNON"
       ],
       "_atk": 210,
@@ -15385,6 +15762,9 @@
       "legacyMoves": [
         "BODY_SLAM"
       ],
+      "eliteMoves": [
+        "BODY_SLAM"
+      ],
       "_atk": 161,
       "_def": 181,
       "_sta": 242,
@@ -15418,6 +15798,9 @@
         "ROCK_WRECKER"
       ],
       "legacyMoves": [
+        "ROCK_WRECKER"
+      ],
+      "eliteMoves": [
         "ROCK_WRECKER"
       ],
       "_atk": 241,
@@ -15604,6 +15987,9 @@
       "legacyMoves": [
         "LAST_RESORT"
       ],
+      "eliteMoves": [
+        "LAST_RESORT"
+      ],
       "_atk": 216,
       "_def": 219,
       "_sta": 163,
@@ -15634,6 +16020,9 @@
         "LAST_RESORT"
       ],
       "legacyMoves": [
+        "LAST_RESORT"
+      ],
+      "eliteMoves": [
         "LAST_RESORT"
       ],
       "_atk": 238,
@@ -15697,6 +16086,9 @@
         "ANCIENT_POWER"
       ],
       "legacyMoves": [
+        "ANCIENT_POWER"
+      ],
+      "eliteMoves": [
         "ANCIENT_POWER"
       ],
       "_atk": 247,
@@ -15765,6 +16157,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
+        "SYNCHRONOISE"
+      ],
+      "eliteMoves": [
         "SYNCHRONOISE"
       ],
       "_atk": 237,
@@ -21344,6 +21739,9 @@
         "SACRED_SWORD"
       ],
       "legacyMoves": [
+        "SACRED_SWORD"
+      ],
+      "eliteMoves": [
         "SACRED_SWORD"
       ],
       "_atk": 192,
