@@ -1873,12 +1873,6 @@
         "MUD_BOMB",
         "ROCK_TOMB"
       ],
-      "legacyMoves": [
-        "MUD_SHOT"
-      ],
-      "eliteMoves": [
-        "MUD_SHOT"
-      ],
       "_atk": 109,
       "_def": 78,
       "_sta": 67,
@@ -4426,9 +4420,6 @@
       "legacyMoves": [
         "PSYBEAM"
       ],
-      "eliteMoves": [
-        "PSYBEAM"
-      ],
       "_atk": 60,
       "_def": 128,
       "_sta": 487,
@@ -4703,12 +4694,11 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK",
-        "TACKLE",
-        "PSYBEAM"
+        "PSYBEAM",
+        "TACKLE"
       ],
       "eliteMoves": [
-        "TACKLE",
-        "PSYBEAM"
+        "TACKLE"
       ],
       "_atk": 210,
       "_def": 184,
@@ -5577,12 +5567,11 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "THUNDER_SHOCK",
-        "DISCHARGE"
+        "DISCHARGE",
+        "THUNDER_SHOCK"
       ],
       "eliteMoves": [
-        "THUNDER_SHOCK",
-        "DISCHARGE"
+        "THUNDER_SHOCK"
       ],
       "_atk": 253,
       "_def": 185,
@@ -5605,7 +5594,6 @@
         "flying"
       ],
       "fastMoves": [
-        "EMBER",
         "FIRE_SPIN",
         "WING_ATTACK"
       ],
@@ -5619,11 +5607,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "EMBER",
         "SKY_ATTACK"
       ],
       "eliteMoves": [
-        "EMBER",
         "SKY_ATTACK"
       ],
       "_atk": 251,
@@ -8098,10 +8084,6 @@
         "ICE_SHARD",
         "QUICK_ATTACK"
       ],
-      "eliteMoves": [
-        "ICE_SHARD",
-        "QUICK_ATTACK"
-      ],
       "_atk": 128,
       "_def": 90,
       "_sta": 128,
@@ -8880,7 +8862,6 @@
         "EXTRASENSORY",
         "ICE_FANG",
         "SNARL",
-        "HIDDEN_POWER",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
