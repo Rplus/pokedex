@@ -5,7 +5,8 @@
 
 <div class="card card-switcher">
   <label class="switcher df jc-c fxw-w mb-2 mt-2 ml-a mr-a">
-    <input class="switcher-input hidden-checkbox" type="checkbox" bind:checked={$settings.io.ispve} >
+    <!-- svelte-ignore a11y-accesskey -->
+    <input class="switcher-input hidden-checkbox" type="checkbox" bind:checked={$settings.io.ispve} accesskey="v">
     <span class="switcher-icon ml-2 mr-2"></span>
     <div class="pt-2">
       <span class="switcher-text">PVP</span>

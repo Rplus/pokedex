@@ -47,7 +47,10 @@
 
 <div class="card">
   <div class="pt-4">
-    Q <input type="search" bind:value={q}>
+    <label>
+      <!-- svelte-ignore a11y-accesskey -->
+      Q <input type="search" bind:value={q} accesskey="s">
+    </label>
   </div>
 
   <details open class="mb-6">

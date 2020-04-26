@@ -83,7 +83,8 @@
 <section class="moves">
   {#each mdata as mmm}
     <Details type={mmm.setting} class="card">
-      <summary><h3>{mmm.title}</h3></summary>
+      <!-- svelte-ignore a11y-accesskey -->
+      <summary accesskey={mmm.setting.slice(0, 1)}><h3>{mmm.title}</h3></summary>
 
       <div>
         <TableSort items={mmm.data} class="ml-a mr-a text-center {ispve ? 'narrow' : ''}">
