@@ -20,13 +20,14 @@ Promise.all(
     )
 )
 .then(d => {
-  if (d[0].pmProps) {
-    d[0] = decompressJSON(d[0]);
+  let [gm, allF] = d;
+  if (gm.pmProps) {
+    gm = decompressJSON(gm);
   }
-  pokemons.set(handlePm(d[0].pokemon));
-  moves.set(handleMove(d[0].moves));
-  family.set(d[1]);
-  maxDex.set(d[0].pokemon[d[0].pokemon.length - 1].dex);
+  pokemons.set(handlePm(gm.pokemon));
+  moves.set(handleMove(gm.moves));
+  family.set(allF);
+  maxDex.set(gm.pokemon[gm.pokemon.length - 1].dex);
   console.log('gm done:', d);
 });
 
