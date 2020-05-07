@@ -149,6 +149,7 @@ function doMove(moves) {
     moves = moves.filter(move => {
       return (
         // (move.moveId !== 'TRANSFORM') &&
+        // (move.moveId.indexOf('_UPDATED') === -1) &&
         (move.moveId.indexOf('BLASTOISE') === -1) &&
         (move.moveId.indexOf('HIDDEN_POWER_') === -1)
       );
@@ -162,6 +163,9 @@ function doMove(moves) {
       let pveData = queryMove(mmm.moveId);
       if (!pveData) {
         pveData = queryMove(mmm.moveId.replace(/\_/g, ''));
+        if (!pveData) {
+          return;
+        }
       }
       pveData.data.moveSettings.mid = pveData.templateId.slice(2, 5);
       pveData = pveData.data.moveSettings;
