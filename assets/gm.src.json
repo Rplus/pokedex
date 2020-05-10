@@ -83,9 +83,6 @@
       "legacyMoves": [
         "FRENZY_PLANT"
       ],
-      "eliteMoves": [
-        "FRENZY_PLANT"
-      ],
       "_atk": 198,
       "_def": 189,
       "_sta": 190,
@@ -5791,6 +5788,9 @@
       "legacyMoves": [
         "PSYSTRIKE"
       ],
+      "eliteMoves": [
+        "PSYSTRIKE"
+      ],
       "_atk": 182,
       "_def": 278,
       "_sta": 214,
@@ -9034,7 +9034,11 @@
       "chargedMoves": [
         "BRAVE_BIRD",
         "FIRE_BLAST",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "EARTHQUAKE"
+      ],
+      "legacyMoves": [
+        "EARTHQUAKE"
       ],
       "_atk": 239,
       "_def": 244,
