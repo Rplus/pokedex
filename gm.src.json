@@ -83,6 +83,9 @@
       "legacyMoves": [
         "FRENZY_PLANT"
       ],
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
       "_atk": 198,
       "_def": 189,
       "_sta": 190,
@@ -9040,6 +9043,9 @@
       "legacyMoves": [
         "EARTHQUAKE"
       ],
+      "eliteMoves": [
+        "EARTHQUAKE"
+      ],
       "_atk": 239,
       "_def": 244,
       "_sta": 214,
@@ -9838,7 +9844,8 @@
       "fastMoves": [
         "FEINT_ATTACK",
         "RAZOR_LEAF",
-        "SNARL"
+        "SNARL",
+        "BULLET_SEED"
       ],
       "chargedMoves": [
         "FOUL_PLAY",
@@ -13123,7 +13130,14 @@
       "chargedMoves": [
         "EARTHQUAKE",
         "FIRE_BLAST",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "FIRE_PUNCH"
+      ],
+      "legacyMoves": [
+        "FIRE_PUNCH"
+      ],
+      "eliteMoves": [
+        "FIRE_PUNCH"
       ],
       "_atk": 270,
       "_def": 228,
