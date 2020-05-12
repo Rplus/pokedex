@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "svelte-demo",
+  "name": "@rplus/pokedex",
   "scripts": {
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
