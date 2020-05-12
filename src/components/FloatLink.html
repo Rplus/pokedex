@@ -56,25 +56,23 @@
     border-radius: .25em;
     opacity: .5;
     user-select: none;
-  }
-  .float-card:hover {
-    opacity: unset;
+
+    &:hover {
+      opacity: unset;
+    }
+
+    &.left { right: var(--pos); }
+    &.right { left: var(--pos); }
+
+    a {
+      display: block;
+      margin-bottom: 0;
+      padding: .5em 1em;
+      text-decoration: none;
+      color: inherit;
+    }
   }
 
-  .float-card.left {
-    right: var(--pos);
-  }
-  .float-card.right {
-    left: var(--pos);
-  }
-
-  .float-card a {
-    display: block;
-    margin-bottom: 0;
-    padding: .5em 1em;
-    text-decoration: none;
-    color: inherit;
-  }
   .float-links {
     position: sticky;
     top: .5em;

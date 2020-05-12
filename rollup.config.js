@@ -24,6 +24,7 @@ export default {
       preprocess: autoPreprocess({
         postcss: {
           plugins: [
+            require('postcss-nested')(),
             require('autoprefixer')(),
           ]
         },
