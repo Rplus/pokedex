@@ -224,7 +224,7 @@
     filter: drop-shadow(2px 4px 2px);
   }
 
-  .effect :global(span::after) {
+  .effect :global(span + span:not(:empty)::before) {
     content: ', ';
     white-space: pre-wrap;
   }
