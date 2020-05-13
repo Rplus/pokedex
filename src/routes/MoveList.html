@@ -78,7 +78,7 @@
       class="sticky-thead ml-a mr-a"
     >
       <tr slot="thead">
-        <th data-sort="type" data-sort-initial>@</th>
+        <th data-sort="type">@</th>
         <th data-sort="name">Name</th>
 
         <!-- PVE -->
@@ -94,7 +94,8 @@
         <th hidden={ispve} data-sort="turn" title="Turn">T</th>
         <th hidden={ispve} data-sort="dpt">DPT</th>
         <th hidden={ispve} data-sort="ept">EPT</th>
-        <th hidden={ispve} data-sort="eptxdpt" title="EPT x DPT">Π</th>
+        <th hidden={ispve} data-sort="eptxdpt" title="EPT x DPT"
+           data-sort-initial="descending">Π</th>
       </tr>
       <tr slot="tbody" let:item={item}>
         <td>
@@ -141,7 +142,7 @@
       class="sticky-thead narrow ml-a mr-a"
     >
       <tr slot="thead">
-        <th data-sort="type" data-sort-initial>@</th>
+        <th data-sort="type">@</th>
         <th data-sort="name" class="sticky-left">Name</th>
 
         <!-- PVE -->
@@ -156,7 +157,7 @@
         <!-- PVP -->
         <th hidden={ispve} data-sort="power" title="Damage">D</th>
         <th hidden={ispve} data-sort="energy" title="Energy">E</th>
-        <th hidden={ispve} data-sort="dpe">DPE</th>
+        <th hidden={ispve} data-sort="dpe" data-sort-initial="descending">DPE</th>
         <th hidden={ispve} data-sort="effect">Effect</th>
       </tr>
       <tr slot="tbody" let:item={item}>
