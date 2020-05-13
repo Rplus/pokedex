@@ -109,7 +109,7 @@
               <th hidden={ispve} data-sort="turn" title="Turns">T</th>
               <th hidden={ispve} data-sort="dpt" title="Damage per Turn">DPT</th>
               <th hidden={ispve} data-sort="ept" title="Energy per Turn">EPT</th>
-              <th hidden={ispve} data-sort="eptxdpt" title="EPT x DPT">Π</th>
+              <th hidden={ispve} data-sort="eptxdpt" title="EPT x DPT" data-sort-initial="descending">Π</th>
             {:else}
               <!-- PVE -->
               <th hidden={!ispve} data-sort="pve_energyDelta" title="Energy">E</th>
@@ -121,7 +121,7 @@
 
               <!-- PVP -->
               <th hidden={ispve} data-sort="energy" title="Energy">E</th>
-              <th hidden={ispve} data-sort="dpe" title="Damage per Energy">DPE</th>
+              <th hidden={ispve} data-sort="dpe" title="Damage per Energy" data-sort-initial="descending">DPE</th>
               <th hidden={ispve} data-sort="effect">Effect</th>
             {/if}
           </tr>
