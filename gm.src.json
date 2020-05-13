@@ -9844,8 +9844,7 @@
       "fastMoves": [
         "FEINT_ATTACK",
         "RAZOR_LEAF",
-        "SNARL",
-        "BULLET_SEED"
+        "SNARL"
       ],
       "chargedMoves": [
         "FOUL_PLAY",
