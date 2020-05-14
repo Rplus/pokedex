@@ -1,3 +1,6 @@
+init: copy-assets
+	npm install;
+
 deploy: copy-assets build
 	sh deploy.sh
 
