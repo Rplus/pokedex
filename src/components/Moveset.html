@@ -64,7 +64,7 @@
     mmm.stab = (pm.types.includes(mmm.type));
     mmm.stabFactor = mmm.stab ? 1.2 : 1;
 
-    mmm.power = fixNum(mmm.typeEff * mmm.power) * (xSTAB ? mmm.stabFactor : 1);
+    mmm.power = fixNum(mmm.typeEff * mmm.power * (xSTAB ? mmm.stabFactor : 1));
 
     mmm.isLegacy = (lmoves && lmoves.includes(mname));
     mmm.isElite = (emoves && emoves.includes(mname));
