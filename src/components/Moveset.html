@@ -26,10 +26,13 @@
   let forceBuff = 1;
   let forceBuffOptions = (pvp_eff.map(i => i.value).flat()).concat(forceBuff).sort();
 
+  let xSTAB = false;
+
   $: {
     opponentType1;
     opponentType2;
     forceBuff;
+    xSTAB;
 
     lmoves = pm.legacyMoves;
     emoves = pm.eliteMoves;
@@ -58,13 +61,14 @@
     mmm.typeEff = queryTypeEffect(mmm.type, opponentType1, opponentType2) * forceBuff;
     mmm.efficon = (mmm.typeEff === 1) ? '' : ((mmm.typeEff > 1) ? '▲' : '▼');
 
-    mmm.power = fixNum(mmm.typeEff * mmm.power);
+    mmm.stab = (pm.types.includes(mmm.type));
+    mmm.stabFactor = mmm.stab ? 1.2 : 1;
+
+    mmm.power = fixNum(mmm.typeEff * mmm.power) * (xSTAB ? mmm.stabFactor : 1);
 
     mmm.isLegacy = (lmoves && lmoves.includes(mname));
     mmm.isElite = (emoves && emoves.includes(mname));
     mmm.isFast = isFast;
-    mmm.stab = (pm.types.includes(mmm.type));
-    mmm.stabFactor = mmm.stab ? 1.2 : 1;
 
     if (isFast) {
       mmm.ept = fixNum(mmm.energyGain / mmm.turn);
@@ -178,7 +182,15 @@
               <td hidden={ispve} class="fz-s">{item.effect}</td>
             {/if}
           </tr>
+
+          <tr slot="tfoot">
+            <td></td>
+            <td>
+              <label><input type="checkbox" bind:checked={xSTAB}> STAB</label>
+            </td>
+          </tr>
         </TableSort>
+
 
       </div>
     </Details>
