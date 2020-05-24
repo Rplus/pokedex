@@ -9844,7 +9844,8 @@
       "fastMoves": [
         "FEINT_ATTACK",
         "RAZOR_LEAF",
-        "SNARL"
+        "SNARL",
+        "BULLET_SEED"
       ],
       "chargedMoves": [
         "FOUL_PLAY",
@@ -9853,6 +9854,12 @@
         "LEAF_TORNADO",
         "RETURN",
         "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "BULLET_SEED"
+      ],
+      "eliteMoves": [
+        "BULLET_SEED"
       ],
       "_atk": 200,
       "_def": 121,
