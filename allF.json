@@ -389,6 +389,18 @@
       ]
     },
     {
+      "form": "MEOWTH_GALARIAN",
+      "name": "MEOWTH",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "PERRSERKER",
+          "iso": 31
+        }
+      ],
+      "iso": 31
+    },
+    {
       "form": "MEOWTH_ALOLA",
       "name": "MEOWTH",
       "next": [
@@ -623,6 +635,16 @@
   "F_FARFETCHD": [
     {
       "name": "FARFETCHD"
+    },
+    {
+      "form": "FARFETCHD_GALARIAN",
+      "name": "FARFETCHD",
+      "iso": 31
+    },
+    {
+      "name": "SIRFETCHD",
+      "prev": "FARFETCHD",
+      "iso": 31
     }
   ],
   "F_DODUO": [
@@ -1812,7 +1834,6 @@
       "next": [
         {
           "candyCost": 50,
-          "form": "LINOONE_NORMAL",
           "name": "LINOONE"
         }
       ]
@@ -1822,9 +1843,16 @@
       "name": "ZIGZAGOON",
       "next": [
         {
-          "candyCost": 50,
+          "candyCost": 25,
           "form": "LINOONE_GALARIAN",
           "name": "LINOONE",
+          "next": [
+            {
+              "candyCost": 100,
+              "name": "OBSTAGOON",
+              "iso": 31
+            }
+          ],
           "iso": 31
         }
       ],
@@ -3587,6 +3615,25 @@
       "name": "DARMANITAN",
       "prev": "DARUMAKA",
       "iso": 12
+    },
+    {
+      "form": "DARUMAKA_GALARIAN",
+      "name": "DARUMAKA",
+      "next": [
+        {
+          "candyCost": 50,
+          "form": "DARMANITAN_GALARIAN_STANDARD",
+          "name": "DARMANITAN",
+          "iso": 31
+        }
+      ],
+      "iso": 31
+    },
+    {
+      "form": "DARMANITAN_GALARIAN_ZEN",
+      "name": "DARMANITAN",
+      "prev": "DARUMAKA",
+      "iso": 32
     }
   ],
   "F_MARACTUS": [
@@ -4008,6 +4055,11 @@
   "F_STUNFISK": [
     {
       "name": "STUNFISK"
+    },
+    {
+      "form": "STUNFISK_GALARIAN",
+      "name": "STUNFISK",
+      "iso": 31
     }
   ],
   "F_MIENFOO": [
