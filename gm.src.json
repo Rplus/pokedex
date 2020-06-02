@@ -2043,6 +2043,34 @@
       ]
     },
     {
+      "dex": 52,
+      "types": [
+        "steel"
+      ],
+      "fastMoves": [
+        "SCRATCH",
+        "METAL_CLAW"
+      ],
+      "chargedMoves": [
+        "NIGHT_SLASH",
+        "GYRO_BALL",
+        "DIG"
+      ],
+      "_atk": 115,
+      "_def": 92,
+      "_sta": 137,
+      "id": "MEOWTH_GALARIAN",
+      "name": "喵喵 伽勒爾型態",
+      "captureRate": 0.5,
+      "fleeRate": 0.15,
+      "buddyKm": 3,
+      "familyId": "F_MEOWTH",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 53,
       "types": [
         "normal"
@@ -3200,6 +3228,34 @@
       "_sta": 141,
       "id": "FARFETCHD",
       "name": "大蔥鴨",
+      "captureRate": 0.3,
+      "fleeRate": 0.09,
+      "buddyKm": 3,
+      "familyId": "F_FARFETCHD",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 83,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "ROCK_SMASH",
+        "FURY_CUTTER"
+      ],
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "BRAVE_BIRD",
+        "LEAF_BLADE"
+      ],
+      "_atk": 174,
+      "_def": 114,
+      "_sta": 141,
+      "id": "FARFETCHD_GALARIAN",
+      "name": "大蔥鴨 伽勒爾型態",
       "captureRate": 0.3,
       "fleeRate": 0.09,
       "buddyKm": 3,
@@ -9467,17 +9523,17 @@
     {
       "dex": 263,
       "types": [
-        "normal",
-        "dark"
+        "dark",
+        "normal"
       ],
       "fastMoves": [
-        "ROCK_SMASH",
-        "TACKLE"
+        "TACKLE",
+        "TAKE_DOWN"
       ],
       "chargedMoves": [
         "DIG",
-        "GRASS_KNOT",
-        "THUNDERBOLT"
+        "BODY_SLAM",
+        "SWIFT"
       ],
       "_atk": 58,
       "_def": 80,
@@ -9524,17 +9580,17 @@
     {
       "dex": 264,
       "types": [
-        "normal",
-        "dark"
+        "dark",
+        "normal"
       ],
       "fastMoves": [
-        "SHADOW_CLAW",
-        "TACKLE"
+        "SNARL",
+        "LICK"
       ],
       "chargedMoves": [
         "DIG",
-        "GRASS_KNOT",
-        "THUNDER"
+        "BODY_SLAM",
+        "GUNK_SHOT"
       ],
       "_atk": 142,
       "_def": 128,
@@ -19089,6 +19145,33 @@
       ]
     },
     {
+      "dex": 554,
+      "types": [
+        "ice"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "ICE_FANG"
+      ],
+      "chargedMoves": [
+        "ICE_PUNCH",
+        "ICE_BEAM"
+      ],
+      "_atk": 153,
+      "_def": 86,
+      "_sta": 172,
+      "id": "DARUMAKA_GALARIAN",
+      "name": "火紅不倒翁 伽勒爾型態",
+      "captureRate": 0.3,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_DARUMAKA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 555,
       "types": [
         "fire"
@@ -19111,6 +19194,65 @@
       "captureRate": 0.1,
       "fleeRate": 0.07,
       "buddyKm": 3,
+      "familyId": "F_DARUMAKA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 555,
+      "types": [
+        "ice"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "ICE_FANG"
+      ],
+      "chargedMoves": [
+        "OVERHEAT",
+        "AVALANCHE",
+        "SUPER_POWER",
+        "ICE_PUNCH"
+      ],
+      "_atk": 263,
+      "_def": 114,
+      "_sta": 233,
+      "id": "DARMANITAN_GALARIAN_STANDARD",
+      "name": "達摩狒狒 伽勒爾普通型態",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_DARUMAKA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 555,
+      "types": [
+        "ice",
+        "fire"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "ICE_FANG"
+      ],
+      "chargedMoves": [
+        "OVERHEAT",
+        "AVALANCHE",
+        "SUPER_POWER",
+        "ICE_PUNCH"
+      ],
+      "_atk": 323,
+      "_def": 123,
+      "_sta": 233,
+      "id": "DARMANITAN_GALARIAN_ZEN",
+      "name": "達摩狒狒 伽勒爾達摩型態",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
       "familyId": "F_DARUMAKA",
       "genderMF": [
         50,
@@ -21186,6 +21328,36 @@
       ]
     },
     {
+      "dex": 618,
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "fastMoves": [
+        "MUD_SHOT",
+        "METAL_CLAW"
+      ],
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "FLASH_CANNON",
+        "MUDDY_WATER",
+        "ROCK_SLIDE"
+      ],
+      "_atk": 144,
+      "_def": 171,
+      "_sta": 240,
+      "id": "STUNFISK_GALARIAN",
+      "name": "泥巴魚 伽勒爾型態",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_STUNFISK",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 619,
       "types": [
         "fighting"
@@ -22473,6 +22645,94 @@
       "genderMF": [
         0,
         0
+      ]
+    },
+    {
+      "dex": 862,
+      "types": [
+        "dark",
+        "normal"
+      ],
+      "fastMoves": [
+        "COUNTER",
+        "LICK"
+      ],
+      "chargedMoves": [
+        "CROSS_CHOP",
+        "NIGHT_SLASH",
+        "HYPER_BEAM",
+        "GUNK_SHOT"
+      ],
+      "_atk": 180,
+      "_def": 194,
+      "_sta": 212,
+      "id": "OBSTAGOON",
+      "name": "Obstagoon",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_ZIGZAGOON",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 863,
+      "types": [
+        "steel"
+      ],
+      "fastMoves": [
+        "METAL_CLAW",
+        "SHADOW_CLAW"
+      ],
+      "chargedMoves": [
+        "IRON_HEAD",
+        "CLOSE_COMBAT",
+        "PLAY_ROUGH",
+        "FOUL_PLAY"
+      ],
+      "_atk": 195,
+      "_def": 162,
+      "_sta": 172,
+      "id": "PERRSERKER",
+      "name": "Perrserker",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MEOWTH",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 865,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "COUNTER",
+        "FURY_CUTTER"
+      ],
+      "chargedMoves": [
+        "CLOSE_COMBAT",
+        "BRAVE_BIRD",
+        "LEAF_BLADE",
+        "NIGHT_SLASH"
+      ],
+      "_atk": 248,
+      "_def": 176,
+      "_sta": 158,
+      "id": "SIRFETCHD",
+      "name": "Sirfetchd",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_FARFETCHD",
+      "genderMF": [
+        50,
+        50
       ]
     }
   ],
