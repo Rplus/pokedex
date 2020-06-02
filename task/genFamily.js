@@ -200,6 +200,17 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
             // pm.name = pm.form;
             // delete pm.form;
           }
+
+          // FIXME
+          if ([
+            'OBSTAGOON',
+            'PERRSERKER',
+            'SIRFETCHD',
+            'STUNFISK_GALARIAN',
+          ].indexOf(pm.name) !== -1) {
+            pm.iso = 31;
+          }
+
           if (pm.next) {
             loopNext(pm.next);
           }
