@@ -13,7 +13,8 @@
     data.src = cdnImgSrc(pmImgFN(fn));
   }
 
-  let candySrc = cdnImgSrc(`${ASSET_FOLDER}static_assets/png/pokemon_details_candy.png`, 32);
+  // let candySrc = cdnImgSrc(`${ASSET_FOLDER}static_assets/png/pokemon_details_candy.png`, 32);
+  let candySrc = cdnImgSrc(`${ASSET_FOLDER}Images/Menu%20Icons/pokemon_details_candy.png`, 32);
 
   function getPm(pid) {
     if (!$pokemons.length) {
@@ -23,7 +24,8 @@
   }
 
   function pmImgFN(fn) {
-    return `${ASSET_FOLDER}/pokemon_icons/pokemon_icon_${fn}.png`;
+    // return `${ASSET_FOLDER}/pokemon_icons/pokemon_icon_${fn}.png`;
+    return `${ASSET_FOLDER}/Images/Pokemon%20-%20256x256/pokemon_icon_${fn}.png`;
   }
 </script>
 
