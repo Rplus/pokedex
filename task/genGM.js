@@ -11,9 +11,9 @@ const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
   console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
 };
 
-let contents = fs.readFileSync('./tmp/gamemaster-pvpoke.json', 'utf8');
-let contents_tw = fs.readFileSync('./tmp/gamemaster-pvpoketw.json', 'utf8');
-let contents_FULL = fs.readFileSync('./tmp/gamemaster-full.json', 'utf8');
+let contents = fs.readFileSync('./data/gamemaster-pvpoke.json', 'utf8');
+let contents_tw = fs.readFileSync('./data/gamemaster-pvpoketw.json', 'utf8');
+let contents_FULL = fs.readFileSync('./data/gamemaster-full.json', 'utf8');
 
 let fullData = JSON.parse(contents_FULL);
 let twData = JSON.parse(contents_tw);
@@ -26,11 +26,11 @@ let oGender = fullData.filter(i => i.data.genderSettings);
 outputJSON({
   oPm,
   oMove,
-}, './tmp/o.json', 2);
+}, './data/o.json', 2);
 
 let allF =do_gm_to_family(JSON.parse(contents_FULL));
 outputJSON(allF, './assets/allF.json', 0);
-outputJSON(allF, './tmp/allF.json', 2);
+outputJSON(allF, './data/allF.json', 2);
 
 handleJSON(JSON.parse(contents));
 
