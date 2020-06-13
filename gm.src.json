@@ -5618,12 +5618,10 @@
         "ZAP_CANNON",
         "ANCIENT_POWER",
         "DRILL_PECK",
-        "DISCHARGE",
         "RETURN",
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "DISCHARGE",
         "THUNDER_SHOCK"
       ],
       "eliteMoves": [
