@@ -474,14 +474,17 @@
         "SLUDGE_BOMB",
         "X_SCISSOR",
         "FELL_STINGER",
+        "DRILL_RUN",
         "RETURN",
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BUG_BITE"
+        "BUG_BITE",
+        "DRILL_RUN"
       ],
       "eliteMoves": [
-        "BUG_BITE"
+        "BUG_BITE",
+        "DRILL_RUN"
       ],
       "_atk": 169,
       "_def": 130,
