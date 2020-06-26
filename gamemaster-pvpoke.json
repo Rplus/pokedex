@@ -311,20 +311,6 @@
             "values": ["drapion", "mawile", "metang", "metagross", "lapras", "dewgong", "snorlax", "vigoroth", "slaking", "castform", "rufflet", "braviary", "chansey", "blissey", "mr_mime", "jynx", "eevee", "espeon", "delibird", "miltank", "gardevoir", "gallade", "chimecho", "chatot", "skorupi", "sigilyph", "cryogonal", "glaceon", "castform_snowy", "raichu_alolan", "linoone_galarian", "obstagoon"]
         }]
     }, {
-        "name": "sorcerous-bee",
-        "title": "Sorcerous Cup",
-        "include": [{
-            "filterType": "type",
-            "values": ["ice","poison","fairy","psychic","normal"]
-        }],
-        "exclude": [{
-            "filterType": "tag",
-            "values": ["legendary", "mythical", "shadow"]
-        }, {
-            "filterType": "id",
-            "values": ["drapion", "mawile", "metang", "metagross", "lapras", "dewgong", "snorlax", "vigoroth", "slaking", "castform", "rufflet", "braviary", "chansey", "blissey", "mr_mime", "jynx", "eevee", "espeon", "delibird", "miltank", "gardevoir", "gallade", "chimecho", "chatot", "skorupi", "sigilyph", "cryogonal", "glaceon", "castform_snowy", "raichu_alolan", "linoone_galarian", "obstagoon"]
-        }]
-    }, {
         "name": "goteamup",
         "title": "GOTeamUp",
         "include": [],
@@ -360,6 +346,23 @@
 				"pokemon": ["jirachi", "bronzong", "lugia", "wobbuffet", "celebi", "latios", "latias", "slowbro", "slowking", "alakazam", "gothitelle", "metagross", "raichu_alolan", "sneasel", "weavile", "tyranitar", "shiftry", "escavalier", "forretress", "heracross", "galvantula", "crustle", "scizor", "beedrill", "vespiquen", "scolipede", "ninjask", "venomoth", "dustox", "linoone_galarian", "obstagoon", "wormadam_trash", "wormadam_plant", "wormadam_sandy", "durant", "hydreigon", "mr_mime", "metang", "pinsir", "kricketune", "masquerain", "yanma", "yanmega"]
 			}
 		]
+    }, {
+        "name": "catacomb",
+        "title": "Catacomb Cup",
+		"include": [{
+	        "filterType": "type",
+	        "values": ["dark","grass","rock","ice","bug"]
+	    }],
+	    "exclude": [{
+	        "filterType": "id",
+	        "values": ["scrafty", "obstagoon", "dewgong", "ninetales_alolan", "crustle"]
+	    }, {
+	        "filterType": "type",
+	        "values": ["steel"]
+	    }, {
+	        "filterType": "tag",
+	        "values": ["legendary", "mythical", "shadow", "regional"]
+	    }]
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable"],
     "pokemonRegions": [{
@@ -14865,7 +14868,7 @@
         "tags": ["legendary"]
     }, {
         "dex": 646,
-        "speciesId": "kyurem_normal",
+        "speciesId": "kyurem",
         "speciesName": "Kyurem",
         "baseStats": {
             "atk": 246,
@@ -14874,7 +14877,7 @@
         },
         "types": ["dragon", "ice"],
         "fastMoves": ["DRAGON_BREATH", "STEEL_WING"],
-        "chargedMoves": ["DRAGON_CLAW", "BLIZZARD", "ICY_WIND", "DRACO_METEOR"],
+        "chargedMoves": ["DRAGON_CLAW", "BLIZZARD", "DRACO_METEOR"],
         "defaultIVs": {
             "cp1500": [15.5, 7, 12, 6],
             "cp2500": [25.5, 6, 15, 9]
