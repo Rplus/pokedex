@@ -5434,6 +5434,9 @@
           "buddyGroupNumber": 4,
           "eliteQuickMove": [
             "BUG_BITE_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRILL_RUN"
           ]
         }
       }
@@ -5531,6 +5534,9 @@
           "buddyGroupNumber": 4,
           "eliteQuickMove": [
             "BUG_BITE_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRILL_RUN"
           ]
         }
       }
@@ -5628,6 +5634,9 @@
           "buddyGroupNumber": 4,
           "eliteQuickMove": [
             "BUG_BITE_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRILL_RUN"
           ]
         }
       }
@@ -5731,6 +5740,9 @@
           "buddyGroupNumber": 4,
           "eliteQuickMove": [
             "BUG_BITE_FAST"
+          ],
+          "eliteCinematicMove": [
+            "DRILL_RUN"
           ]
         }
       }
@@ -90316,8 +90328,8 @@
           "type": "POKEMON_TYPE_NORMAL",
           "camera": {
             "diskRadiusM": 0.378,
-            "cylinderRadiusM": 0.252,
-            "cylinderHeightM": 1.1,
+            "cylinderRadiusM": 0.9,
+            "cylinderHeightM": 1.4,
             "shoulderModeScale": 0.5
           },
           "encounter": {
@@ -110687,7 +110699,7 @@
           "weightStdDev": 5,
           "familyId": "FAMILY_DARUMAKA",
           "candyToEvolve": 25,
-          "kmBuddyDistance": 5,
+          "kmBuddyDistance": 3,
           "modelHeight": 0.72,
           "evolutionBranch": [
             {
@@ -111171,7 +111183,7 @@
           "heightStdDev": 0.2125,
           "weightStdDev": 15,
           "familyId": "FAMILY_DARUMAKA",
-          "kmBuddyDistance": 5,
+          "kmBuddyDistance": 3,
           "modelHeight": 1.7,
           "modelScaleV2": 1.1,
           "form": "DARMANITAN_GALARIAN_STANDARD",
@@ -111267,7 +111279,7 @@
           "heightStdDev": 0.2125,
           "weightStdDev": 15,
           "familyId": "FAMILY_DARUMAKA",
-          "kmBuddyDistance": 5,
+          "kmBuddyDistance": 3,
           "modelHeight": 1.7,
           "modelScaleV2": 1.1,
           "form": "DARMANITAN_GALARIAN_ZEN",
@@ -122459,7 +122471,6 @@
           "cinematicMoves": [
             "DRAGON_CLAW",
             "BLIZZARD",
-            "ICY_WIND",
             "DRACO_METEOR"
           ],
           "animationTime": [
@@ -122650,7 +122661,6 @@
           "cinematicMoves": [
             "DRAGON_CLAW",
             "BLIZZARD",
-            "ICY_WIND",
             "DRACO_METEOR"
           ],
           "animationTime": [
