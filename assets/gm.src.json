@@ -19165,7 +19165,7 @@
       "name": "火紅不倒翁 伽勒爾型態",
       "captureRate": 0.3,
       "fleeRate": 0.09,
-      "buddyKm": 5,
+      "buddyKm": 3,
       "familyId": "F_DARUMAKA",
       "genderMF": [
         50,
@@ -19223,7 +19223,7 @@
       "name": "達摩狒狒 伽勒爾普通型態",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 3,
       "familyId": "F_DARUMAKA",
       "genderMF": [
         50,
@@ -19253,7 +19253,7 @@
       "name": "達摩狒狒 伽勒爾達摩型態",
       "captureRate": 0.1,
       "fleeRate": 0.07,
-      "buddyKm": 5,
+      "buddyKm": 3,
       "familyId": "F_DARUMAKA",
       "genderMF": [
         50,
@@ -22253,14 +22253,13 @@
       "chargedMoves": [
         "DRAGON_CLAW",
         "BLIZZARD",
-        "ICY_WIND",
         "DRACO_METEOR"
       ],
       "_atk": 246,
       "_def": 170,
       "_sta": 245,
-      "id": "KYUREM_NORMAL",
-      "name": "酋雷姆 一般型態",
+      "id": "KYUREM",
+      "name": "Kyurem",
       "captureRate": 0.02,
       "fleeRate": 0.01,
       "buddyKm": 20,
