@@ -22259,7 +22259,7 @@
       "_def": 170,
       "_sta": 245,
       "id": "KYUREM",
-      "name": "Kyurem",
+      "name": "酋雷姆",
       "captureRate": 0.02,
       "fleeRate": 0.01,
       "buddyKm": 20,
@@ -23849,6 +23849,22 @@
       "pve_duration": 2.7,
       "pve_damageWindowStart": 1.6,
       "pve_damageWindowEnd": 2.5
+    },
+    {
+      "moveId": "FLY",
+      "name": "飛翔",
+      "power": 80,
+      "type": "flying",
+      "energy": 45,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "341",
+      "isFast": false,
+      "pve_power": 80,
+      "pve_energyDelta": -50,
+      "pve_duration": 1.8,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.5
     },
     {
       "moveId": "FLYING_PRESS",
