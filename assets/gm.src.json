@@ -522,7 +522,7 @@
       "name": "波波",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 1,
+      "buddyKm": 5,
       "familyId": "F_PIDGEY",
       "genderMF": [
         50,
@@ -913,6 +913,27 @@
       "id": "PIKACHU_LIBRE",
       "name": "皮卡丘 面罩摔角手",
       "familyId": "F_PIKACHU"
+    },
+    {
+      "dex": 25,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "QUICK_ATTACK",
+        "THUNDER_SHOCK"
+      ],
+      "chargedMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE",
+        "FLY"
+      ],
+      "_atk": 112,
+      "_def": 96,
+      "_sta": 111,
+      "id": "PIKACHU_FLYING",
+      "name": "Pikachu (Flying)"
     },
     {
       "dex": 26,
