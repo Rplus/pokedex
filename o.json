@@ -5814,7 +5814,7 @@
           "weightStdDev": 0.225,
           "familyId": "FAMILY_PIDGEY",
           "candyToEvolve": 12,
-          "kmBuddyDistance": 1,
+          "kmBuddyDistance": 5,
           "buddySize": "BUDDY_SHOULDER",
           "modelHeight": 0.3,
           "evolutionBranch": [
@@ -8202,6 +8202,97 @@
             "SURF",
             "THUNDER"
           ]
+        }
+      }
+    },
+    {
+      "templateId": "V0025_POKEMON_PIKACHU_COSTUME_2020",
+      "data": {
+        "templateId": "V0025_POKEMON_PIKACHU_COSTUME_2020",
+        "pokemonSettings": {
+          "pokemonId": "PIKACHU",
+          "modelScale": 1.48,
+          "type": "POKEMON_TYPE_ELECTRIC",
+          "camera": {
+            "diskRadiusM": 0.555,
+            "cylinderRadiusM": 0.37,
+            "cylinderHeightM": 0.5,
+            "cylinderGroundM": 0.4,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.2,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.185,
+            "collisionHeightM": 0.518,
+            "collisionHeadRadiusM": 0.185,
+            "movementType": "MOVEMENT_FLYING",
+            "movementTimerS": 10,
+            "jumpTimeS": 0.9,
+            "attackTimerS": 29,
+            "attackProbability": 0.05,
+            "dodgeProbability": 0.3,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 2.775,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 111,
+            "baseAttack": 112,
+            "baseDefense": 96
+          },
+          "quickMoves": [
+            "THUNDER_SHOCK_FAST",
+            "QUICK_ATTACK_FAST"
+          ],
+          "cinematicMoves": [
+            "DISCHARGE",
+            "THUNDERBOLT",
+            "WILD_CHARGE",
+            "FLY"
+          ],
+          "animationTime": [
+            1.8333,
+            0.6667,
+            1.6,
+            1.5667,
+            0,
+            1.8,
+            1.1333,
+            1.066667
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 0.4,
+          "pokedexWeightKg": 6,
+          "parentPokemonId": "PICHU",
+          "heightStdDev": 0.05,
+          "weightStdDev": 0.75,
+          "familyId": "FAMILY_PIKACHU",
+          "candyToEvolve": 50,
+          "kmBuddyDistance": 1,
+          "modelHeight": 0.4,
+          "modelScaleV2": 1.1,
+          "form": "PIKACHU_COSTUME_2020",
+          "buddyOffsetMale": [
+            5,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            5,
+            0,
+            0
+          ],
+          "buddyScale": 11,
+          "thirdMove": {
+            "stardustToUnlock": 10000,
+            "candyToUnlock": 25
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 1
         }
       }
     },
@@ -11895,7 +11986,7 @@
           "weightStdDev": 0.9375,
           "familyId": "FAMILY_ZUBAT",
           "candyToEvolve": 50,
-          "kmBuddyDistance": 1,
+          "kmBuddyDistance": 5,
           "buddySize": "BUDDY_FLYING",
           "modelHeight": 0.85,
           "evolutionBranch": [
@@ -72931,7 +73022,6 @@
             "movementTimerS": 11,
             "jumpTimeS": 1.1,
             "attackTimerS": 20,
-            "bonusCandyCaptureReward": 7,
             "attackProbability": 0.2,
             "dodgeProbability": 0.05,
             "dodgeDurationS": 1,
@@ -73025,7 +73115,6 @@
             "movementTimerS": 11,
             "jumpTimeS": 1.1,
             "attackTimerS": 20,
-            "bonusCandyCaptureReward": 7,
             "attackProbability": 0.2,
             "dodgeProbability": 0.05,
             "dodgeDurationS": 1,
@@ -130197,6 +130286,27 @@
           "durationMs": 3600,
           "damageWindowStartMs": 2000,
           "damageWindowEndMs": 2700,
+          "energyDelta": -50
+        }
+      }
+    },
+    {
+      "templateId": "V0341_MOVE_FLY",
+      "data": {
+        "templateId": "V0341_MOVE_FLY",
+        "moveSettings": {
+          "movementId": "FLY",
+          "animationId": 5,
+          "pokemonType": "POKEMON_TYPE_FLYING",
+          "power": 80,
+          "accuracyChance": 1,
+          "staminaLossScalar": 0.01,
+          "trainerLevelMin": 1,
+          "trainerLevelMax": 100,
+          "vfxName": "fly",
+          "durationMs": 1800,
+          "damageWindowStartMs": 1200,
+          "damageWindowEndMs": 1500,
           "energyDelta": -50
         }
       }

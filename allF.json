@@ -149,6 +149,12 @@
   ],
   "F_PIKACHU": [
     {
+      "form": "PIKACHU_COSTUME_2020",
+      "name": "PIKACHU",
+      "prev": "PICHU",
+      "suffix": "pm0025_00_pgo_4thanniversary"
+    },
+    {
       "name": "PICHU",
       "next": [
         {
