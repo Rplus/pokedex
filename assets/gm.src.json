@@ -522,7 +522,7 @@
       "name": "波波",
       "captureRate": 0.5,
       "fleeRate": 0.2,
-      "buddyKm": 5,
+      "buddyKm": 1,
       "familyId": "F_PIDGEY",
       "genderMF": [
         50,
@@ -800,7 +800,9 @@
         "GUNK_SHOT",
         "POISON_FANG",
         "SLUDGE_BOMB",
-        "WRAP"
+        "WRAP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "GUNK_SHOT"
@@ -836,7 +838,9 @@
         "DARK_PULSE",
         "GUNK_SHOT",
         "SLUDGE_WAVE",
-        "ACID_SPRAY"
+        "ACID_SPRAY",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 167,
       "_def": 153,
@@ -899,6 +903,27 @@
         "electric"
       ],
       "fastMoves": [
+        "QUICK_ATTACK",
+        "THUNDER_SHOCK"
+      ],
+      "chargedMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE",
+        "FLY"
+      ],
+      "_atk": 112,
+      "_def": 96,
+      "_sta": 111,
+      "id": "PIKACHU_FLYING",
+      "name": "皮卡丘 飛翔氣球"
+    },
+    {
+      "dex": 25,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
         "THUNDER_SHOCK",
         "CHARM"
       ],
@@ -913,27 +938,6 @@
       "id": "PIKACHU_LIBRE",
       "name": "皮卡丘 面罩摔角手",
       "familyId": "F_PIKACHU"
-    },
-    {
-      "dex": 25,
-      "types": [
-        "electric"
-      ],
-      "fastMoves": [
-        "QUICK_ATTACK",
-        "THUNDER_SHOCK"
-      ],
-      "chargedMoves": [
-        "DISCHARGE",
-        "THUNDERBOLT",
-        "WILD_CHARGE",
-        "FLY"
-      ],
-      "_atk": 112,
-      "_def": 96,
-      "_sta": 111,
-      "id": "PIKACHU_FLYING",
-      "name": "Pikachu (Flying)"
     },
     {
       "dex": 26,
@@ -1142,7 +1146,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "POISON_FANG",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 86,
       "_def": 89,
@@ -1170,7 +1176,9 @@
       "chargedMoves": [
         "DIG",
         "POISON_FANG",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 117,
       "_def": 120,
@@ -1200,7 +1208,9 @@
         "EARTHQUAKE",
         "SLUDGE_WAVE",
         "STONE_EDGE",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 180,
       "_def": 173,
@@ -1228,7 +1238,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "HORN_ATTACK",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 105,
       "_def": 76,
@@ -1256,7 +1268,9 @@
       "chargedMoves": [
         "DIG",
         "HORN_ATTACK",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 137,
       "_def": 111,
@@ -1287,7 +1301,9 @@
         "EARTHQUAKE",
         "MEGAHORN",
         "SLUDGE_WAVE",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "FURY_CUTTER"
@@ -2584,7 +2600,9 @@
       "chargedMoves": [
         "BRICK_BREAK",
         "CROSS_CHOP",
-        "LOW_SWEEP"
+        "LOW_SWEEP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "LOW_KICK"
@@ -2619,7 +2637,9 @@
         "BRICK_BREAK",
         "CROSS_CHOP",
         "DYNAMIC_PUNCH",
-        "SUBMISSION"
+        "SUBMISSION",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "CROSS_CHOP"
@@ -2658,7 +2678,9 @@
         "HEAVY_SLAM",
         "ROCK_SLIDE",
         "STONE_EDGE",
-        "SUBMISSION"
+        "SUBMISSION",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "KARATE_CHOP",
@@ -3592,9 +3614,7 @@
       "chargedMoves": [
         "BUBBLE_BEAM",
         "ICY_WIND",
-        "WATER_PULSE",
-        "RETURN",
-        "FRUSTRATION"
+        "WATER_PULSE"
       ],
       "_atk": 116,
       "_def": 134,
@@ -3625,9 +3645,7 @@
         "AVALANCHE",
         "BLIZZARD",
         "HYDRO_PUMP",
-        "ICY_WIND",
-        "RETURN",
-        "FRUSTRATION"
+        "ICY_WIND"
       ],
       "legacyMoves": [
         "BLIZZARD"
@@ -4336,7 +4354,9 @@
       "chargedMoves": [
         "DARK_PULSE",
         "SLUDGE",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "ACID"
@@ -4369,7 +4389,9 @@
         "DARK_PULSE",
         "SHADOW_BALL",
         "SLUDGE_BOMB",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "ACID"
@@ -7542,7 +7564,9 @@
       "chargedMoves": [
         "GYRO_BALL",
         "ROCK_TOMB",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 108,
       "_def": 122,
@@ -7573,7 +7597,9 @@
         "HEAVY_SLAM",
         "ROCK_TOMB",
         "SAND_TOMB",
-        "MIRROR_SHOT"
+        "MIRROR_SHOT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 161,
       "_def": 205,
@@ -7630,7 +7656,9 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "DIG",
-        "NIGHT_SLASH"
+        "NIGHT_SLASH",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 143,
       "_def": 184,
@@ -7808,7 +7836,9 @@
       "chargedMoves": [
         "GYRO_BALL",
         "ROCK_BLAST",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 17,
       "_def": 396,
@@ -8949,10 +8979,11 @@
         "BUBBLE_BEAM",
         "HYDRO_PUMP",
         "ICE_BEAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
-        "HIDDEN_POWER",
         "HIDDEN_POWER"
       ],
       "eliteMoves": [
@@ -14989,7 +15020,9 @@
       "chargedMoves": [
         "CRUNCH",
         "FLAMETHROWER",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 121,
       "_def": 90,
@@ -15018,7 +15051,9 @@
       "chargedMoves": [
         "CRUNCH",
         "FLAMETHROWER",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 184,
       "_def": 132,
@@ -16136,7 +16171,9 @@
         "AERIAL_ACE",
         "EARTHQUAKE",
         "NIGHT_SLASH",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 185,
       "_def": 222,
@@ -19196,23 +19233,24 @@
     {
       "dex": 555,
       "types": [
+        "ice",
         "fire"
       ],
       "fastMoves": [
         "TACKLE",
-        "FIRE_FANG"
+        "ICE_FANG"
       ],
       "chargedMoves": [
         "OVERHEAT",
-        "FOCUS_BLAST",
-        "PSYCHIC",
-        "ROCK_SLIDE"
+        "AVALANCHE",
+        "SUPER_POWER",
+        "ICE_PUNCH"
       ],
-      "_atk": 263,
-      "_def": 114,
+      "_atk": 323,
+      "_def": 123,
       "_sta": 233,
-      "id": "DARMANITAN_STANDARD",
-      "name": "達摩狒狒 普通型態",
+      "id": "DARMANITAN_GALARIAN_ZEN",
+      "name": "達摩狒狒 伽勒爾達摩型態",
       "captureRate": 0.1,
       "fleeRate": 0.07,
       "buddyKm": 3,
@@ -19254,24 +19292,23 @@
     {
       "dex": 555,
       "types": [
-        "ice",
         "fire"
       ],
       "fastMoves": [
         "TACKLE",
-        "ICE_FANG"
+        "FIRE_FANG"
       ],
       "chargedMoves": [
         "OVERHEAT",
-        "AVALANCHE",
-        "SUPER_POWER",
-        "ICE_PUNCH"
+        "FOCUS_BLAST",
+        "PSYCHIC",
+        "ROCK_SLIDE"
       ],
-      "_atk": 323,
-      "_def": 123,
+      "_atk": 263,
+      "_def": 114,
       "_sta": 233,
-      "id": "DARMANITAN_GALARIAN_ZEN",
-      "name": "達摩狒狒 伽勒爾達摩型態",
+      "id": "DARMANITAN_STANDARD",
+      "name": "達摩狒狒 普通型態",
       "captureRate": 0.1,
       "fleeRate": 0.07,
       "buddyKm": 3,
