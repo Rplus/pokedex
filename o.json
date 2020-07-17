@@ -47418,6 +47418,212 @@
       }
     },
     {
+      "templateId": "V0150_POKEMON_MEWTWO_PURIFIED",
+      "data": {
+        "templateId": "V0150_POKEMON_MEWTWO_PURIFIED",
+        "pokemonSettings": {
+          "pokemonId": "MEWTWO",
+          "modelScale": 0.74,
+          "type": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "diskRadiusM": 0.555,
+            "cylinderRadiusM": 0.6,
+            "cylinderHeightM": 2,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.02,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.37,
+            "collisionHeightM": 1.184,
+            "collisionHeadRadiusM": 0.185,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 8,
+            "jumpTimeS": 1.2,
+            "attackTimerS": 3,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.15,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 5.55,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 214,
+            "baseAttack": 300,
+            "baseDefense": 182
+          },
+          "quickMoves": [
+            "PSYCHO_CUT_FAST",
+            "CONFUSION_FAST"
+          ],
+          "cinematicMoves": [
+            "PSYCHIC",
+            "THUNDERBOLT",
+            "ICE_BEAM",
+            "FOCUS_BLAST",
+            "FLAMETHROWER"
+          ],
+          "animationTime": [
+            1.3333,
+            0.6667,
+            1.6667,
+            2,
+            0,
+            2,
+            3,
+            3
+          ],
+          "evolutionPips": 1,
+          "rarity": "POKEMON_RARITY_LEGENDARY",
+          "pokedexHeightM": 2,
+          "pokedexWeightKg": 122,
+          "heightStdDev": 0.25,
+          "weightStdDev": 15.25,
+          "familyId": "FAMILY_MEWTWO",
+          "kmBuddyDistance": 20,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 2,
+          "modelScaleV2": 1,
+          "form": "MEWTWO_PURIFIED",
+          "buddyOffsetMale": [
+            20,
+            0,
+            59.2
+          ],
+          "buddyOffsetFemale": [
+            20,
+            0,
+            59.2
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0.09,
+            0.06,
+            0.35
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 80000,
+            "candyToUnlock": 80
+          },
+          "isTransferable": true,
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYSTRIKE",
+            "SHADOW_BALL",
+            "HYPER_BEAM"
+          ]
+        }
+      }
+    },
+    {
+      "templateId": "V0150_POKEMON_MEWTWO_SHADOW",
+      "data": {
+        "templateId": "V0150_POKEMON_MEWTWO_SHADOW",
+        "pokemonSettings": {
+          "pokemonId": "MEWTWO",
+          "modelScale": 0.74,
+          "type": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "diskRadiusM": 0.555,
+            "cylinderRadiusM": 0.6,
+            "cylinderHeightM": 2,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.02,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.37,
+            "collisionHeightM": 1.184,
+            "collisionHeadRadiusM": 0.185,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 8,
+            "jumpTimeS": 1.2,
+            "attackTimerS": 3,
+            "attackProbability": 0.7,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 5.55,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 214,
+            "baseAttack": 300,
+            "baseDefense": 182
+          },
+          "quickMoves": [
+            "PSYCHO_CUT_FAST",
+            "CONFUSION_FAST"
+          ],
+          "cinematicMoves": [
+            "PSYCHIC",
+            "THUNDERBOLT",
+            "ICE_BEAM",
+            "FOCUS_BLAST",
+            "FLAMETHROWER"
+          ],
+          "animationTime": [
+            1.3333,
+            0.6667,
+            1.6667,
+            2,
+            0,
+            2,
+            3,
+            3
+          ],
+          "evolutionPips": 1,
+          "rarity": "POKEMON_RARITY_LEGENDARY",
+          "pokedexHeightM": 2,
+          "pokedexWeightKg": 122,
+          "heightStdDev": 0.25,
+          "weightStdDev": 15.25,
+          "familyId": "FAMILY_MEWTWO",
+          "kmBuddyDistance": 20,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 2,
+          "modelScaleV2": 1,
+          "form": "MEWTWO_SHADOW",
+          "buddyOffsetMale": [
+            20,
+            0,
+            59.2
+          ],
+          "buddyOffsetFemale": [
+            20,
+            0,
+            59.2
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0.09,
+            0.06,
+            0.35
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 120000,
+            "candyToUnlock": 120
+          },
+          "isTransferable": true,
+          "shadow": {
+            "purificationStardustNeeded": 20000,
+            "purificationCandyNeeded": 20,
+            "purifiedChargeMove": "RETURN",
+            "shadowChargeMove": "FRUSTRATION"
+          },
+          "buddyGroupNumber": 3,
+          "eliteCinematicMove": [
+            "PSYSTRIKE",
+            "SHADOW_BALL",
+            "HYPER_BEAM"
+          ]
+        }
+      }
+    },
+    {
       "templateId": "V0151_POKEMON_MEW",
       "data": {
         "templateId": "V0151_POKEMON_MEW",
@@ -109464,7 +109670,8 @@
           "cinematicMoves": [
             "OVERHEAT",
             "FOCUS_BLAST",
-            "PSYCHIC"
+            "PSYCHIC",
+            "V_CREATE"
           ],
           "animationTime": [
             1.9,
@@ -135153,6 +135360,27 @@
           "damageWindowStartMs": 1200,
           "damageWindowEndMs": 1500,
           "energyDelta": -50
+        }
+      }
+    },
+    {
+      "templateId": "V0342_MOVE_V_CREATE",
+      "data": {
+        "templateId": "V0342_MOVE_V_CREATE",
+        "moveSettings": {
+          "movementId": "V_CREATE",
+          "animationId": 5,
+          "pokemonType": "POKEMON_TYPE_FIRE",
+          "power": 9001,
+          "accuracyChance": 1,
+          "staminaLossScalar": 0.01,
+          "trainerLevelMin": 1,
+          "trainerLevelMax": 100,
+          "vfxName": "v_create",
+          "durationMs": 2800,
+          "damageWindowStartMs": 1700,
+          "damageWindowEndMs": 2500,
+          "energyDelta": -33
         }
       }
     }
