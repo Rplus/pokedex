@@ -3761,19 +3761,22 @@
         "PSYCHIC",
         "SHADOW_BALL",
         "SLUDGE_BOMB",
-        "SLUDGE_WAVE"
+        "SLUDGE_WAVE",
+        "SHADOW_PUNCH"
       ],
       "legacyMoves": [
         "LICK",
         "SLUDGE_WAVE",
         "DARK_PULSE",
-        "PSYCHIC"
+        "PSYCHIC",
+        "SHADOW_PUNCH"
       ],
       "eliteMoves": [
         "LICK",
         "SLUDGE_WAVE",
         "DARK_PULSE",
-        "PSYCHIC"
+        "PSYCHIC",
+        "SHADOW_PUNCH"
       ],
       "_atk": 261,
       "_def": 149,
@@ -17484,7 +17487,8 @@
       "chargedMoves": [
         "OVERHEAT",
         "FOCUS_BLAST",
-        "PSYCHIC"
+        "PSYCHIC",
+        "V_CREATE"
       ],
       "_atk": 210,
       "_def": 210,
@@ -26003,6 +26007,23 @@
       "pve_duration": 2.8,
       "pve_damageWindowStart": 0.95,
       "pve_damageWindowEnd": 2.6
+    },
+    {
+      "moveId": "V_CREATE",
+      "name": "V-Create",
+      "power": 100,
+      "type": "fire",
+      "energy": 40,
+      "energyGain": 0,
+      "effect": "[己], 100%, -3階攻, -3階防",
+      "turn": 1,
+      "mid": "342",
+      "isFast": false,
+      "pve_power": 9001,
+      "pve_energyDelta": -33,
+      "pve_duration": 2.8,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 2.5
     },
     {
       "moveId": "VICE_GRIP",
