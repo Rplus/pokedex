@@ -12587,10 +12587,11 @@
         },
         "types": ["psychic", "fire"],
         "fastMoves": ["CONFUSION", "QUICK_ATTACK"],
-        "chargedMoves": ["OVERHEAT", "FOCUS_BLAST", "PSYCHIC"],
+        "chargedMoves": ["OVERHEAT", "FOCUS_BLAST", "PSYCHIC", "V_CREATE"],
+		"tags": ["mythical", "untradeable"],
         "defaultIVs": {
-            "cp1500": [17, 6, 13, 9],
-            "cp2500": [28.5, 5, 7, 14]
+			"cp1500": [16.5, 12, 12, 10],
+            "cp2500": [27.5, 10, 15, 10]
         }
     }, {
         "dex": 495,
@@ -17408,6 +17409,17 @@
         "energy": 45,
         "energyGain": 0,
         "cooldown": 500
+    }, {
+        "moveId": "V_CREATE",
+        "name": "Ｖ熱焰",
+        "type": "fire",
+        "power": 100,
+        "energy": 40,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [-3, -3],
+        "buffTarget": "self",
+        "buffApplyChance": "1"
     }, {
         "moveId": "VICE_GRIP",
         "name": "夾住",

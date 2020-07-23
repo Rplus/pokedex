@@ -14131,14 +14131,14 @@
           ],
           "modelScaleV2": 0.9,
           "buddyOffsetMale": [
-            20,
-            -50,
-            -20
+            45,
+            -40,
+            -70
           ],
           "buddyOffsetFemale": [
-            20,
-            -50,
-            -20
+            45,
+            -40,
+            -70
           ],
           "buddyScale": 19,
           "thirdMove": {
@@ -14234,14 +14234,14 @@
           "modelScaleV2": 0.9,
           "form": "GOLBAT_NORMAL",
           "buddyOffsetMale": [
-            20,
-            -50,
-            -20
+            45,
+            -40,
+            -70
           ],
           "buddyOffsetFemale": [
-            20,
-            -50,
-            -20
+            45,
+            -40,
+            -70
           ],
           "buddyScale": 19,
           "thirdMove": {
@@ -14337,14 +14337,14 @@
           "modelScaleV2": 0.9,
           "form": "GOLBAT_PURIFIED",
           "buddyOffsetMale": [
-            20,
-            -50,
-            -20
+            45,
+            -40,
+            -70
           ],
           "buddyOffsetFemale": [
-            20,
-            -50,
-            -20
+            45,
+            -40,
+            -70
           ],
           "buddyScale": 19,
           "thirdMove": {
@@ -14440,14 +14440,14 @@
           "modelScaleV2": 0.9,
           "form": "GOLBAT_SHADOW",
           "buddyOffsetMale": [
-            20,
-            -50,
-            -20
+            45,
+            -40,
+            -70
           ],
           "buddyOffsetFemale": [
-            20,
-            -50,
-            -20
+            45,
+            -40,
+            -70
           ],
           "buddyScale": 19,
           "thirdMove": {
@@ -31403,7 +31403,8 @@
           "eliteCinematicMove": [
             "SLUDGE_WAVE",
             "DARK_PULSE",
-            "PSYCHIC"
+            "PSYCHIC",
+            "SHADOW_PUNCH"
           ]
         }
       }
@@ -109642,7 +109643,6 @@
           },
           "encounter": {
             "baseCaptureRate": 100,
-            "baseFleeRate": 0.1,
             "collisionRadiusM": 0.07,
             "collisionHeightM": 0.1,
             "collisionHeadRadiusM": 0.08,
@@ -109683,14 +109683,12 @@
             0.8667,
             0
           ],
-          "evolutionPips": 1,
           "rarity": "POKEMON_RARITY_MYTHIC",
           "pokedexHeightM": 0.4,
           "pokedexWeightKg": 4,
           "heightStdDev": 0.05,
           "weightStdDev": 0.5,
           "familyId": "FAMILY_VICTINI",
-          "candyToEvolve": 25,
           "kmBuddyDistance": 20,
           "modelHeight": 0.5,
           "modelScaleV2": 1.1,
@@ -135371,7 +135369,7 @@
           "movementId": "V_CREATE",
           "animationId": 5,
           "pokemonType": "POKEMON_TYPE_FIRE",
-          "power": 9001,
+          "power": 95,
           "accuracyChance": 1,
           "staminaLossScalar": 0.01,
           "trainerLevelMin": 1,
