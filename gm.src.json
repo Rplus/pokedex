@@ -5849,7 +5849,9 @@
         "PSYCHIC",
         "SHADOW_BALL",
         "THUNDERBOLT",
-        "PSYSTRIKE"
+        "PSYSTRIKE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "PSYSTRIKE",
@@ -16552,8 +16554,7 @@
       "_sta": 137,
       "id": "ROTOM_WASH",
       "name": "洛托姆 清洗洛托姆",
-      "captureRate": 0.3,
-      "fleeRate": 0.1,
+      "captureRate": 0.25,
       "buddyKm": 5,
       "familyId": "F_ROTOM",
       "genderMF": [
