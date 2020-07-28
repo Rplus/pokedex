@@ -400,7 +400,7 @@
         "dexStart": 494,
         "dexEnd": 649
     }],
-    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress"],
+    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo"],
     "cliffhangerTiers": [{
         "league": 1500,
         "max": 17,
@@ -2862,7 +2862,8 @@
         "defaultIVs": {
             "cp1500": [23.5, 5, 12, 7],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 74,
         "speciesName": "Geodude",
@@ -4941,13 +4942,32 @@
         "types": ["psychic", "none"],
         "fastMoves": ["CONFUSION", "PSYCHO_CUT"],
         "chargedMoves": ["FLAMETHROWER", "FOCUS_BLAST", "HYPER_BEAM", "ICE_BEAM", "PSYCHIC", "SHADOW_BALL", "THUNDERBOLT", "PSYSTRIKE"],
-        "tags": ["legendary"],
+        "tags": ["legendary", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [13, 5, 14, 11],
             "cp2500": [21.5, 11, 13, 11]
         },
+		"level25CP": 2686,
         "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"],
         "searchPriority": 7
+    }, {
+        "dex": 150,
+        "speciesName": "Mewtwo (Shadow)",
+        "speciesId": "mewtwo_shadow",
+        "baseStats": {
+            "atk": 300,
+            "def": 182,
+            "hp": 214
+        },
+        "types": ["psychic", "none"],
+        "fastMoves": ["CONFUSION", "PSYCHO_CUT"],
+        "chargedMoves": ["FLAMETHROWER", "FOCUS_BLAST", "HYPER_BEAM", "ICE_BEAM", "PSYCHIC", "SHADOW_BALL", "THUNDERBOLT", "PSYSTRIKE"],
+        "tags": ["legendary", "shadow"],
+        "defaultIVs": {
+            "cp1500": [13, 5, 14, 11],
+            "cp2500": [21.5, 11, 13, 11]
+        },
+        "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"]
     }, {
         "dex": 150,
         "speciesName": "Mewtwo (Armored)",
@@ -7703,7 +7723,7 @@
         },
         "types": ["water", "flying"],
         "fastMoves": ["WATER_GUN", "WING_ATTACK"],
-        "chargedMoves": ["BLIZZARD", "HURRICANE", "HYDRO_PUMP"],
+        "chargedMoves": ["BLIZZARD", "HURRICANE", "HYDRO_PUMP", "WEATHER_BALL_WATER"],
         "defaultIVs": {
             "cp1500": [26, 8, 13, 11],
             "cp2500": [40, 15, 15, 15]
@@ -10210,7 +10230,7 @@
         },
         "types": ["water", "steel"],
         "fastMoves": ["METAL_CLAW", "WATERFALL"],
-        "chargedMoves": ["BLIZZARD", "FLASH_CANNON", "HYDRO_PUMP", "HYDRO_CANNON"],
+        "chargedMoves": ["BLIZZARD", "FLASH_CANNON", "HYDRO_PUMP", "HYDRO_CANNON", "DRILL_PECK"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp1500": [19, 6, 11, 14],
@@ -11458,7 +11478,7 @@
         },
         "types": ["grass", "ice"],
         "fastMoves": ["POWDER_SNOW", "RAZOR_LEAF"],
-        "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE"],
+        "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE", "WEATHER_BALL_ICE"],
         "defaultIVs": {
             "cp1500": [23.5, 5, 14, 11],
             "cp2500": [40, 15, 15, 15]
@@ -11476,7 +11496,7 @@
         },
         "types": ["grass", "ice"],
         "fastMoves": ["POWDER_SNOW", "RAZOR_LEAF"],
-        "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE"],
+        "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE", "WEATHER_BALL_ICE"],
         "defaultIVs": {
             "cp1500": [23.5, 5, 14, 11],
             "cp2500": [40, 15, 15, 15]
@@ -12032,7 +12052,8 @@
         "defaultIVs": {
             "cp1500": [22, 5, 7, 11],
             "cp2500": [38.5, 13, 14, 14]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 480,
         "speciesName": "Uxie",
@@ -14811,7 +14832,7 @@
             "cp1500": [26, 7, 15, 6],
             "cp2500": [40, 15, 15, 15]
         },
-        "searchPriority": 10
+        "searchPriority": 20
     }, {
         "dex": 619,
         "speciesId": "mienfoo",
@@ -14967,7 +14988,7 @@
         },
         "types": ["normal", "flying"],
         "fastMoves": ["STEEL_WING", "AIR_SLASH"],
-        "chargedMoves": ["HEAT_WAVE", "BRAVE_BIRD", "ROCK_SLIDE"],
+        "chargedMoves": ["HEAT_WAVE", "BRAVE_BIRD", "ROCK_SLIDE", "CLOSE_COMBAT"],
         "defaultIVs": {
             "cp1500": [18, 5, 15, 5],
             "cp2500": [30, 7, 11, 9]
@@ -15720,7 +15741,7 @@
         "moveId": "BLIZZARD",
         "name": "Blizzard",
         "type": "ice",
-        "power": 130,
+        "power": 140,
         "energy": 75,
         "energyGain": 0,
         "cooldown": 500
@@ -15744,10 +15765,13 @@
         "moveId": "BRAVE_BIRD",
         "name": "Brave Bird",
         "type": "flying",
-        "power": 90,
+        "power": 130,
         "energy": 55,
         "energyGain": 0,
-        "cooldown": 500
+        "cooldown": 500,
+		"buffs": [0, -3],
+        "buffTarget": "self",
+        "buffApplyChance": "1"
     }, {
         "moveId": "BRICK_BREAK",
         "name": "Brick Break",
@@ -16012,7 +16036,7 @@
         "moveId": "DRILL_PECK",
         "name": "Drill Peck",
         "type": "flying",
-        "power": 60,
+        "power": 65,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500
@@ -16174,7 +16198,7 @@
         "name": "Flash Cannon",
         "type": "steel",
         "power": 110,
-        "energy": 65,
+        "energy": 70,
         "energyGain": 0,
         "cooldown": 500
     }, {
@@ -16197,7 +16221,7 @@
         "moveId": "FOCUS_BLAST",
         "name": "Focus Blast",
         "type": "fighting",
-        "power": 150,
+        "power": 140,
         "energy": 75,
         "energyGain": 0,
         "cooldown": 500
@@ -16319,7 +16343,7 @@
         "type": "ghost",
         "power": 6,
         "energy": 0,
-        "energyGain": 11,
+        "energyGain": 12,
         "cooldown": 1500
     }, {
         "moveId": "HIDDEN_POWER_BUG",
@@ -16554,7 +16578,7 @@
         "type": "bug",
         "power": 6,
         "energy": 0,
-        "energyGain": 11,
+        "energyGain": 12,
         "cooldown": 1500
     }, {
         "moveId": "IRON_HEAD",
@@ -16708,7 +16732,7 @@
         "cooldown": 500,
         "buffs": [-1, 0],
         "buffTarget": "opponent",
-        "buffApplyChance": ".3"
+        "buffApplyChance": ".1"
     }, {
         "moveId": "MUD_BOMB",
         "name": "Mud Bomb",
@@ -16880,7 +16904,7 @@
         "moveId": "POWDER_SNOW",
         "name": "Powder Snow",
         "type": "ice",
-        "power": 4,
+        "power": 5,
         "energy": 0,
         "energyGain": 8,
         "cooldown": 1000

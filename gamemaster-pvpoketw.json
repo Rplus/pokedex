@@ -400,7 +400,7 @@
         "dexStart": 494,
         "dexEnd": 649
     }],
-    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress"],
+    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo"],
     "cliffhangerTiers": [{
         "league": 1500,
         "max": 17,
@@ -1109,7 +1109,7 @@
         "eliteMoves": ["GUNK_SHOT"]
     }, {
         "dex": 23,
-        "speciesName": "Ekans (Shadow)",
+        "speciesName": "阿柏蛇 暗影化",
         "speciesId": "ekans_shadow",
         "baseStats": {
             "atk": 110,
@@ -1145,7 +1145,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 24,
-        "speciesName": "Arbok (Shadow)",
+        "speciesName": "阿柏怪 暗影化",
         "speciesId": "arbok_shadow",
         "baseStats": {
             "atk": 167,
@@ -1370,7 +1370,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 29,
-        "speciesName": "Nidoran♀ (Shadow)",
+        "speciesName": "尼多蘭 暗影化",
         "speciesId": "nidoran_female_shadow",
         "baseStats": {
             "atk": 86,
@@ -1405,7 +1405,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 30,
-        "speciesName": "Nidorina (Shadow)",
+        "speciesName": "尼多娜 暗影化",
         "speciesId": "nidorina_shadow",
         "baseStats": {
             "atk": 117,
@@ -1439,7 +1439,7 @@
 		"tags": ["shadoweligible"]
     }, {
         "dex": 31,
-        "speciesName": "Nidoqueen (Shadow)",
+        "speciesName": "尼多后 暗影化",
         "speciesId": "nidoqueen_shadow",
         "baseStats": {
             "atk": 180,
@@ -1474,7 +1474,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 32,
-        "speciesName": "Nidoran♂ (Shadow)",
+        "speciesName": "尼多朗 暗影化",
         "speciesId": "nidoran_male_shadow",
         "baseStats": {
             "atk": 105,
@@ -1509,7 +1509,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 33,
-        "speciesName": "Nidorino (Shadow)",
+        "speciesName": "尼多力諾 暗影化",
         "speciesId": "nidorino_shadow",
         "baseStats": {
             "atk": 137,
@@ -1545,7 +1545,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 34,
-        "speciesName": "Nidoking (Shadow)",
+        "speciesName": "尼多王 暗影化",
         "speciesId": "nidoking_shadow",
         "baseStats": {
             "atk": 204,
@@ -2630,7 +2630,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 66,
-        "speciesName": "Machop (Shadow)",
+        "speciesName": "腕力 暗影化",
         "speciesId": "machop_shadow",
         "baseStats": {
             "atk": 137,
@@ -2667,7 +2667,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 67,
-        "speciesName": "Machoke (Shadow)",
+        "speciesName": "豪力 暗影化",
         "speciesId": "machoke_shadow",
         "baseStats": {
             "atk": 177,
@@ -2705,7 +2705,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 68,
-        "speciesName": "Machamp (Shadow)",
+        "speciesName": "怪力 暗影化",
         "speciesId": "machamp_shadow",
         "baseStats": {
             "atk": 234,
@@ -2862,7 +2862,8 @@
         "defaultIVs": {
             "cp1500": [23.5, 5, 12, 7],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 74,
         "speciesName": "小拳石",
@@ -3854,7 +3855,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 109,
-        "speciesName": "Koffing (Shadow)",
+        "speciesName": "瓦斯彈 暗影化",
         "speciesId": "koffing_shadow",
         "baseStats": {
             "atk": 119,
@@ -3907,7 +3908,7 @@
         "tags": ["galarian"]
     }, {
         "dex": 110,
-        "speciesName": "Weezing (Shadow)",
+        "speciesName": "雙彈瓦斯 暗影化",
         "speciesId": "weezing_shadow",
         "baseStats": {
             "atk": 174,
@@ -4941,13 +4942,32 @@
         "types": ["psychic", "none"],
         "fastMoves": ["CONFUSION", "PSYCHO_CUT"],
         "chargedMoves": ["FLAMETHROWER", "FOCUS_BLAST", "HYPER_BEAM", "ICE_BEAM", "PSYCHIC", "SHADOW_BALL", "THUNDERBOLT", "PSYSTRIKE"],
-        "tags": ["legendary"],
+        "tags": ["legendary", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [13, 5, 14, 11],
             "cp2500": [21.5, 11, 13, 11]
         },
+		"level25CP": 2686,
         "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"],
         "searchPriority": 7
+    }, {
+        "dex": 150,
+        "speciesName": "超夢 暗影化",
+        "speciesId": "mewtwo_shadow",
+        "baseStats": {
+            "atk": 300,
+            "def": 182,
+            "hp": 214
+        },
+        "types": ["psychic", "none"],
+        "fastMoves": ["CONFUSION", "PSYCHO_CUT"],
+        "chargedMoves": ["FLAMETHROWER", "FOCUS_BLAST", "HYPER_BEAM", "ICE_BEAM", "PSYCHIC", "SHADOW_BALL", "THUNDERBOLT", "PSYSTRIKE"],
+        "tags": ["legendary", "shadow"],
+        "defaultIVs": {
+            "cp1500": [13, 5, 14, 11],
+            "cp2500": [21.5, 11, 13, 11]
+        },
+        "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"]
     }, {
         "dex": 150,
         "speciesName": "超夢 裝甲型態",
@@ -6036,7 +6056,7 @@
 		"tags": ["shadoweligible"]
     }, {
         "dex": 205,
-        "speciesName": "Forretress (Shadow)",
+        "speciesName": "佛烈托斯 暗影化",
         "speciesId": "forretress_shadow",
         "baseStats": {
             "atk": 161,
@@ -6087,7 +6107,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 207,
-        "speciesName": "Gligar (Shadow)",
+        "speciesName": "天蠍 暗影化",
         "speciesId": "gligar_shadow",
         "baseStats": {
             "atk": 143,
@@ -6224,7 +6244,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 213,
-        "speciesName": "Shuckle (Shadow)",
+        "speciesName": "壺壺 暗影化",
         "speciesId": "shuckle_shadow",
         "baseStats": {
             "atk": 17,
@@ -6918,7 +6938,7 @@
         "level25CP": 1846
     }, {
         "dex": 245,
-        "speciesName": "Suicune (Shadow)",
+        "speciesName": "水君 暗影化",
         "speciesId": "suicune_shadow",
         "baseStats": {
             "atk": 180,
@@ -7703,7 +7723,7 @@
         },
         "types": ["water", "flying"],
         "fastMoves": ["WATER_GUN", "WING_ATTACK"],
-        "chargedMoves": ["BLIZZARD", "HURRICANE", "HYDRO_PUMP"],
+        "chargedMoves": ["BLIZZARD", "HURRICANE", "HYDRO_PUMP", "WEATHER_BALL_WATER"],
         "defaultIVs": {
             "cp1500": [26, 8, 13, 11],
             "cp2500": [40, 15, 15, 15]
@@ -10210,7 +10230,7 @@
         },
         "types": ["water", "steel"],
         "fastMoves": ["METAL_CLAW", "WATERFALL"],
-        "chargedMoves": ["BLIZZARD", "FLASH_CANNON", "HYDRO_PUMP", "HYDRO_CANNON"],
+        "chargedMoves": ["BLIZZARD", "FLASH_CANNON", "HYDRO_PUMP", "HYDRO_CANNON", "DRILL_PECK"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp1500": [19, 6, 11, 14],
@@ -10985,7 +11005,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 434,
-        "speciesName": "Stunky (Shadow)",
+        "speciesName": "臭鼬噗 暗影化",
         "speciesId": "stunky_shadow",
         "baseStats": {
             "atk": 121,
@@ -11021,7 +11041,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 435,
-        "speciesName": "Skuntank (Shadow)",
+        "speciesName": "坦克臭鼬 暗影化",
         "speciesId": "skuntank_shadow",
         "baseStats": {
             "atk": 184,
@@ -11458,7 +11478,7 @@
         },
         "types": ["grass", "ice"],
         "fastMoves": ["POWDER_SNOW", "RAZOR_LEAF"],
-        "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE"],
+        "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE", "WEATHER_BALL_ICE"],
         "defaultIVs": {
             "cp1500": [23.5, 5, 14, 11],
             "cp2500": [40, 15, 15, 15]
@@ -11476,7 +11496,7 @@
         },
         "types": ["grass", "ice"],
         "fastMoves": ["POWDER_SNOW", "RAZOR_LEAF"],
-        "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE"],
+        "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE", "WEATHER_BALL_ICE"],
         "defaultIVs": {
             "cp1500": [23.5, 5, 14, 11],
             "cp2500": [40, 15, 15, 15]
@@ -11764,7 +11784,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 472,
-        "speciesName": "Gliscor (Shadow)",
+        "speciesName": "天蠍王 暗影化",
         "speciesId": "gliscor_shadow",
         "baseStats": {
             "atk": 185,
@@ -12032,7 +12052,8 @@
         "defaultIVs": {
             "cp1500": [22, 5, 7, 11],
             "cp2500": [38.5, 13, 14, 14]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 480,
         "speciesName": "由克希",
@@ -14811,7 +14832,7 @@
             "cp1500": [26, 7, 15, 6],
             "cp2500": [40, 15, 15, 15]
         },
-        "searchPriority": 10
+        "searchPriority": 20
     }, {
         "dex": 619,
         "speciesId": "mienfoo",
@@ -14967,7 +14988,7 @@
         },
         "types": ["normal", "flying"],
         "fastMoves": ["STEEL_WING", "AIR_SLASH"],
-        "chargedMoves": ["HEAT_WAVE", "BRAVE_BIRD", "ROCK_SLIDE"],
+        "chargedMoves": ["HEAT_WAVE", "BRAVE_BIRD", "ROCK_SLIDE", "CLOSE_COMBAT"],
         "defaultIVs": {
             "cp1500": [18, 5, 15, 5],
             "cp2500": [30, 7, 11, 9]
@@ -15720,7 +15741,7 @@
         "moveId": "BLIZZARD",
         "name": "暴風雪",
         "type": "ice",
-        "power": 130,
+        "power": 140,
         "energy": 75,
         "energyGain": 0,
         "cooldown": 500
@@ -15744,10 +15765,13 @@
         "moveId": "BRAVE_BIRD",
         "name": "勇鳥猛攻",
         "type": "flying",
-        "power": 90,
+        "power": 130,
         "energy": 55,
         "energyGain": 0,
-        "cooldown": 500
+        "cooldown": 500,
+		"buffs": [0, -3],
+        "buffTarget": "self",
+        "buffApplyChance": "1"
     }, {
         "moveId": "BRICK_BREAK",
         "name": "劈瓦",
@@ -16012,7 +16036,7 @@
         "moveId": "DRILL_PECK",
         "name": "啄鑽",
         "type": "flying",
-        "power": 60,
+        "power": 65,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500
@@ -16174,7 +16198,7 @@
         "name": "加農光炮",
         "type": "steel",
         "power": 110,
-        "energy": 65,
+        "energy": 70,
         "energyGain": 0,
         "cooldown": 500
     }, {
@@ -16197,7 +16221,7 @@
         "moveId": "FOCUS_BLAST",
         "name": "真氣彈",
         "type": "fighting",
-        "power": 150,
+        "power": 140,
         "energy": 75,
         "energyGain": 0,
         "cooldown": 500
@@ -16319,7 +16343,7 @@
         "type": "ghost",
         "power": 6,
         "energy": 0,
-        "energyGain": 11,
+        "energyGain": 12,
         "cooldown": 1500
     }, {
         "moveId": "HIDDEN_POWER_BUG",
@@ -16554,7 +16578,7 @@
         "type": "bug",
         "power": 6,
         "energy": 0,
-        "energyGain": 11,
+        "energyGain": 12,
         "cooldown": 1500
     }, {
         "moveId": "IRON_HEAD",
@@ -16708,7 +16732,7 @@
         "cooldown": 500,
         "buffs": [-1, 0],
         "buffTarget": "opponent",
-        "buffApplyChance": ".3"
+        "buffApplyChance": ".1"
     }, {
         "moveId": "MUD_BOMB",
         "name": "泥巴炸彈",
@@ -16880,7 +16904,7 @@
         "moveId": "POWDER_SNOW",
         "name": "細雪",
         "type": "ice",
-        "power": 4,
+        "power": 5,
         "energy": 0,
         "energyGain": 8,
         "cooldown": 1000
@@ -17413,11 +17437,11 @@
         "moveId": "V_CREATE",
         "name": "Ｖ熱焰",
         "type": "fire",
-        "power": 100,
+        "power": 95,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500,
-        "buffs": [-3, -3],
+        "buffs": [0, -3],
         "buffTarget": "self",
         "buffApplyChance": "1"
     }, {

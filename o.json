@@ -70477,7 +70477,8 @@
           "cinematicMoves": [
             "HYDRO_PUMP",
             "HURRICANE",
-            "BLIZZARD"
+            "BLIZZARD",
+            "WEATHER_BALL_WATER"
           ],
           "animationTime": [
             1.3333,
@@ -90683,7 +90684,8 @@
           "cinematicMoves": [
             "HYDRO_PUMP",
             "BLIZZARD",
-            "FLASH_CANNON"
+            "FLASH_CANNON",
+            "DRILL_PECK"
           ],
           "animationTime": [
             1.9,
@@ -101048,7 +101050,8 @@
           "cinematicMoves": [
             "BLIZZARD",
             "ENERGY_BALL",
-            "OUTRAGE"
+            "OUTRAGE",
+            "WEATHER_BALL_ICE"
           ],
           "animationTime": [
             1.9,
@@ -101138,7 +101141,8 @@
           "cinematicMoves": [
             "BLIZZARD",
             "ENERGY_BALL",
-            "OUTRAGE"
+            "OUTRAGE",
+            "WEATHER_BALL_ICE"
           ],
           "animationTime": [
             1.9,
@@ -101229,7 +101233,8 @@
           "cinematicMoves": [
             "BLIZZARD",
             "ENERGY_BALL",
-            "OUTRAGE"
+            "OUTRAGE",
+            "WEATHER_BALL_ICE"
           ],
           "animationTime": [
             1.9,
@@ -101320,7 +101325,8 @@
           "cinematicMoves": [
             "BLIZZARD",
             "ENERGY_BALL",
-            "OUTRAGE"
+            "OUTRAGE",
+            "WEATHER_BALL_ICE"
           ],
           "animationTime": [
             1.9,
@@ -125300,7 +125306,8 @@
           "cinematicMoves": [
             "HEAT_WAVE",
             "BRAVE_BIRD",
-            "ROCK_SLIDE"
+            "ROCK_SLIDE",
+            "CLOSE_COMBAT"
           ],
           "animationTime": [
             1.9,
@@ -130810,7 +130817,7 @@
           "movementId": "DRILL_PECK",
           "animationId": 5,
           "pokemonType": "POKEMON_TYPE_FLYING",
-          "power": 60,
+          "power": 65,
           "accuracyChance": 1,
           "criticalChance": 0.05,
           "staminaLossScalar": 0.08,
@@ -133706,7 +133713,7 @@
           "movementId": "BRAVE_BIRD",
           "animationId": 5,
           "pokemonType": "POKEMON_TYPE_FLYING",
-          "power": 90,
+          "power": 130,
           "accuracyChance": 1,
           "criticalChance": 0.05,
           "staminaLossScalar": 0.04,
@@ -133888,7 +133895,7 @@
           "durationMs": 1200,
           "damageWindowStartMs": 1000,
           "damageWindowEndMs": 1200,
-          "energyDelta": 15
+          "energyDelta": 16
         }
       }
     },
