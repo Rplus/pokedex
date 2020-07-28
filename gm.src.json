@@ -10087,7 +10087,8 @@
       "chargedMoves": [
         "BLIZZARD",
         "HURRICANE",
-        "HYDRO_PUMP"
+        "HYDRO_PUMP",
+        "WEATHER_BALL_WATER"
       ],
       "_atk": 175,
       "_def": 174,
@@ -13704,7 +13705,8 @@
         "BLIZZARD",
         "FLASH_CANNON",
         "HYDRO_PUMP",
-        "HYDRO_CANNON"
+        "HYDRO_CANNON",
+        "DRILL_PECK"
       ],
       "legacyMoves": [
         "HYDRO_CANNON"
@@ -15785,6 +15787,7 @@
         "BLIZZARD",
         "ENERGY_BALL",
         "OUTRAGE",
+        "WEATHER_BALL_ICE",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -16554,7 +16557,8 @@
       "_sta": 137,
       "id": "ROTOM_WASH",
       "name": "洛托姆 清洗洛托姆",
-      "captureRate": 0.25,
+      "captureRate": 0.3,
+      "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_ROTOM",
       "genderMF": [
@@ -21692,7 +21696,8 @@
       "chargedMoves": [
         "HEAT_WAVE",
         "BRAVE_BIRD",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "CLOSE_COMBAT"
       ],
       "_atk": 232,
       "_def": 152,
@@ -23028,7 +23033,7 @@
     {
       "moveId": "BLIZZARD",
       "name": "暴風雪",
-      "power": 130,
+      "power": 140,
       "type": "ice",
       "energy": 75,
       "energyGain": 0,
@@ -23076,14 +23081,15 @@
     {
       "moveId": "BRAVE_BIRD",
       "name": "勇鳥猛攻",
-      "power": 90,
+      "power": 130,
       "type": "flying",
       "energy": 55,
       "energyGain": 0,
+      "effect": "[己], 100%, -3階防",
       "turn": 1,
       "mid": "256",
       "isFast": false,
-      "pve_power": 90,
+      "pve_power": 130,
       "pve_energyDelta": -100,
       "pve_duration": 2,
       "pve_damageWindowStart": 1,
@@ -23592,14 +23598,14 @@
     {
       "moveId": "DRILL_PECK",
       "name": "啄鑽",
-      "power": 60,
+      "power": 65,
       "type": "flying",
       "energy": 40,
       "energyGain": 0,
       "turn": 1,
       "mid": "038",
       "isFast": false,
-      "pve_power": 60,
+      "pve_power": 65,
       "pve_energyDelta": -33,
       "pve_duration": 2.3,
       "pve_damageWindowStart": 1.7,
@@ -23901,7 +23907,7 @@
       "name": "加農光炮",
       "power": 110,
       "type": "steel",
-      "energy": 65,
+      "energy": 70,
       "energyGain": 0,
       "turn": 1,
       "mid": "036",
@@ -23947,7 +23953,7 @@
     {
       "moveId": "FOCUS_BLAST",
       "name": "真氣彈",
-      "power": 150,
+      "power": 140,
       "type": "fighting",
       "energy": 75,
       "energyGain": 0,
@@ -24190,12 +24196,12 @@
       "power": 6,
       "type": "ghost",
       "energy": 0,
-      "energyGain": 11,
+      "energyGain": 12,
       "turn": 3,
       "mid": "264",
       "isFast": true,
       "pve_power": 10,
-      "pve_energyDelta": 15,
+      "pve_energyDelta": 16,
       "pve_duration": 1.2,
       "pve_damageWindowStart": 1,
       "pve_damageWindowEnd": 1.2
@@ -24383,7 +24389,7 @@
       "power": 6,
       "type": "bug",
       "energy": 0,
-      "energyGain": 11,
+      "energyGain": 12,
       "turn": 3,
       "mid": "260",
       "isFast": true,
@@ -24674,7 +24680,7 @@
       "type": "fairy",
       "energy": 60,
       "energyGain": 0,
-      "effect": "[敵], 30%, -1階攻",
+      "effect": "[敵], 10%, -1階攻",
       "turn": 1,
       "mid": "087",
       "isFast": false,
@@ -24996,7 +25002,7 @@
     {
       "moveId": "POWDER_SNOW",
       "name": "細雪",
-      "power": 4,
+      "power": 5,
       "type": "ice",
       "energy": 0,
       "energyGain": 8,
