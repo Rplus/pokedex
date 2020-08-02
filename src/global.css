@@ -167,7 +167,7 @@ details details summary:not([dir="ltr"]) {
 }
 .sticky-thead th {
   position: sticky;
-  top: 0;
+  top: var(--sticky-top, 0);
   padding-top: .5em;
   padding-bottom: .5em;
   background-color: #f6f6f6;

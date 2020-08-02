@@ -2,6 +2,7 @@
   import { createEventDispatcher } from 'svelte';
   import { calPmCPHP, flatten } from '@/u.js';
   import Dialog from '@c/Dialog.html';
+  import { TableSort } from 'svelte-tablesort';
 
   export let hidden = true;
   export let ads;
@@ -35,9 +36,8 @@
       lv.disabled = checkDisabledLv(lv.value);
       return lv;
     });
-    cpList = genCPList();;
+    cpList = genCPList();
   }
-
 
   function close() {
     dispatch('close');
@@ -51,17 +51,18 @@
   function genCPList() {
     return ivList.map(iv => {
       let { atk, def, sta } = iv;
-      return {
-        ...iv,
-        data: selectedLvs.map(lv => {
-          let { cp, hp } = calPmCPHP(ads, [atk, def, sta, lv]);
-          return {
-            lv,
-            cp,
-            hp,
-          }
-        }),
-      };
+      let op = {...iv};
+      const datas = selectedLvs.map(lv => {
+        let { cp, hp } = calPmCPHP(ads, [atk, def, sta, lv]);
+        return { lv, cp, hp, }
+      });
+      datas.forEach((i, index) => {
+        op[`cp${index}`] = i.cp;
+        op[`hp${index}`] = i.hp;
+        op[`lv${index}`] = i.lv;
+      })
+
+      return op;
     });
   }
 </script>
@@ -74,44 +75,47 @@
     <details class="mb-4" open>
       <summary class="sticky top-0">Lv [{selectedLvs}] CP list</summary>
       {#if cpList}
-        <table class:is-shall-all={showAllList} class="ml-a mr-a text-right">
-          <thead class="thead pokemon-table sticky-thead">
-            <tr>
+        <div class:is-show-all={showAllList} class="table-box">
+          <TableSort items={cpList} class="cp-table ml-a mr-a text-center">
+            <tr slot="thead" class="thead pokemon-table sticky-thead">
+              <th data-sort="cp0" data-sort-initial="descending">
+                CP
+                <sup class="fw-n">{selectedLvs[0]}</sup>
+              </th>
+              <th data-sort="cp1" hidden={!selectedLvs[1]}>
+                CP
+                <sup class="fw-n">{selectedLvs[1]}</sup>
+              </th>
+              <th data-sort="cp2" hidden={!selectedLvs[2]}>
+                CP
+                <sup class="fw-n">{selectedLvs[2]}</sup>
+              </th>
+              <th data-sort="atk">A</th>
+              <th data-sort="def">D</th>
+              <th data-sort="sta">S</th>
+              <th data-sort="iv">IV</th>
               {#each selectedLvs as lv}
-                <th>CP<sup class="fw-n">{lv}</sup></th>
-              {/each}
-              <th>A</th>
-              <th>D</th>
-              <th>S</th>
-              <th>IV</th>
-              {#each selectedLvs as lv}
-                <th hidden={selectedLvs.length > 1}>HP</th>
+                <th data-sort="hp" hidden={selectedLvs.length > 1}>HP</th>
               {/each}
             </tr>
-          </thead>
-          <tbody>
-            {#each cpList as item}
-              <tr>
-                {#each item.data as d}
-                  <td>{d.cp}</td>
-                {/each}
-                <td>{item.atk}</td>
-                <td>{item.def}</td>
-                <td>{item.sta}</td>
-                <td>{item.iv}</td>
-                {#each item.data as d}
-                  <td hidden={selectedLvs.length > 1}>{d.hp}</td>
-                {/each}
-              </tr>
-            {/each}
-          </tbody>
-        </table>
+            <tr slot="tbody" let:item={item}>
+              <td>{item.cp0}</td>
+              <td hidden={!selectedLvs[1]}>{item.cp1}</td>
+              <td hidden={!selectedLvs[2]}>{item.cp2}</td>
+              <td>{item.atk}</td>
+              <td>{item.def}</td>
+              <td>{item.sta}</td>
+              <td>{item.iv}</td>
+              <td hidden={selectedLvs.length > 1}>{item.hp0}</td>
+            </tr>
+          </TableSort>
 
-        <div class="read-more text-center mt-2 mb-2">
-          <label class="label">
-            <input type="checkbox" bind:checked={showAllList}>
-            <span>show all?</span>
-          </label>
+          <div class="read-more text-center mt-2 mb-2">
+            <label class="label">
+              <input type="checkbox" bind:checked={showAllList}>
+              <span>show all?</span>
+            </label>
+          </div>
         </div>
       {/if}
     </details>
@@ -146,25 +150,25 @@
     overflow: auto;
   }
 
-  table:not(.is-shall-all) tr:nth-of-type(n + 30) {
+  .table-box:not(.is-show-all) .cp-table tr:nth-of-type(n + 30) {
     display: none;
   }
 
-  table:not(.is-shall-all) + .read-more::before {
+  .cp-table + .read-more::before {
     content: '...';
   }
 
-  tbody td {
+  .cp-table tr td {
     padding-top: .1rem;
     padding-bottom: .1rem;
   }
 
-  tbody tr:nth-of-type(5n - 4) td {
+  .cp-table tr:nth-of-type(5n - 4) td {
     padding-top: .75em;
   }
 
-  .sticky-thead th {
-    top: 1em;
+  .sticky-thead {
+    --sticky-top: 1em;
   }
 
   summary.sticky {
