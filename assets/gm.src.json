@@ -5101,16 +5101,19 @@
         "HYDRO_PUMP",
         "OUTRAGE",
         "TWISTER",
+        "AQUA_TAIL",
         "RETURN",
         "FRUSTRATION"
       ],
       "legacyMoves": [
         "DRAGON_TAIL",
-        "DRAGON_PULSE"
+        "DRAGON_PULSE",
+        "AQUA_TAIL"
       ],
       "eliteMoves": [
         "DRAGON_TAIL",
-        "DRAGON_PULSE"
+        "DRAGON_PULSE",
+        "AQUA_TAIL"
       ],
       "_atk": 237,
       "_def": 186,
@@ -13350,7 +13353,7 @@
       "_sta": 137,
       "id": "DEOXYS",
       "name": "代歐奇希斯",
-      "captureRate": 0.06,
+      "captureRate": 0.02,
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_DEOXYS",
@@ -13378,7 +13381,7 @@
       "_sta": 137,
       "id": "DEOXYS_ATTACK",
       "name": "代歐奇希斯 攻擊型",
-      "captureRate": 0.06,
+      "captureRate": 0.02,
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_DEOXYS",
@@ -13434,7 +13437,7 @@
       "_sta": 137,
       "id": "DEOXYS_SPEED",
       "name": "代歐奇希斯 速度型",
-      "captureRate": 0.06,
+      "captureRate": 0.02,
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_DEOXYS",
