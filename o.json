@@ -87619,7 +87619,7 @@
             "shoulderModeScale": 0.5
           },
           "encounter": {
-            "baseCaptureRate": 0.06,
+            "baseCaptureRate": 0.02,
             "baseFleeRate": 0.01,
             "collisionRadiusM": 0.25,
             "collisionHeightM": 1,
@@ -87706,7 +87706,7 @@
             "shoulderModeScale": 0.5
           },
           "encounter": {
-            "baseCaptureRate": 0.06,
+            "baseCaptureRate": 0.02,
             "baseFleeRate": 0.01,
             "collisionRadiusM": 0.25,
             "collisionHeightM": 1,
@@ -87892,7 +87892,7 @@
             "shoulderModeScale": 0.5
           },
           "encounter": {
-            "baseCaptureRate": 0.06,
+            "baseCaptureRate": 0.02,
             "baseFleeRate": 0.01,
             "collisionRadiusM": 0.25,
             "collisionHeightM": 1,
@@ -87985,7 +87985,7 @@
             "shoulderModeScale": 0.5
           },
           "encounter": {
-            "baseCaptureRate": 0.06,
+            "baseCaptureRate": 0.02,
             "baseFleeRate": 0.01,
             "collisionRadiusM": 0.25,
             "collisionHeightM": 1,
