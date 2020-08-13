@@ -41549,7 +41549,8 @@
             "DRAGON_TAIL_FAST"
           ],
           "eliteCinematicMove": [
-            "DRAGON_PULSE"
+            "DRAGON_PULSE",
+            "AQUA_TAIL"
           ]
         }
       }
@@ -41650,7 +41651,8 @@
             "DRAGON_TAIL_FAST"
           ],
           "eliteCinematicMove": [
-            "DRAGON_PULSE"
+            "DRAGON_PULSE",
+            "AQUA_TAIL"
           ]
         }
       }
@@ -41751,7 +41753,8 @@
             "DRAGON_TAIL_FAST"
           ],
           "eliteCinematicMove": [
-            "DRAGON_PULSE"
+            "DRAGON_PULSE",
+            "AQUA_TAIL"
           ]
         }
       }
@@ -41858,7 +41861,8 @@
             "DRAGON_TAIL_FAST"
           ],
           "eliteCinematicMove": [
-            "DRAGON_PULSE"
+            "DRAGON_PULSE",
+            "AQUA_TAIL"
           ]
         }
       }
