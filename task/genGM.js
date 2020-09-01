@@ -112,15 +112,9 @@ function doPM(pokemon, shadowPokemon) {
       };
 
       // FIXME
-      if (dex === 862) {
-        oppm.name = '堵爛熊';
-      }
-      if (dex === 863) {
-        oppm.name = '喵頭目';
-      }
-      if (dex === 865) {
-        oppm.name = '蔥遊兵';
-      }
+      if (dex === 862) { oppm.name = '堵爛熊'; }
+      if (dex === 863) { oppm.name = '喵頭目'; }
+      if (dex === 865) { oppm.name = '蔥遊兵'; }
 
       // TODO
       if (oppm.id === 'PIKACHU_LIBRE') {
