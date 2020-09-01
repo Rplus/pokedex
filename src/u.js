@@ -77,7 +77,8 @@ export function handlePm(pms) {
     pm.uid = `${dex}${form}`;
 
     if (pm.name.indexOf(' ') !== -1) {
-      pm.formName = pm.name.split(' ');
+      let [s1, ...s2] = pm.name.split(' ');
+      pm.formName = [s1, s2.join(' ')];
     }
 
     let _cphp = calPmCPHP({
