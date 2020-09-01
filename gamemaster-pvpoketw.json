@@ -187,10 +187,10 @@
         }],
         "exclude": [{
             "filterType": "id",
-            "values": ["skarmory", "hypno", "drifblim"]
+            "values": ["skarmory", "hypno", "drifblim", "beheeyem"]
         }, {
             "filterType": "tag",
-            "values": ["legendary", "mythical", "shadow", "galarian"]
+            "values": ["legendary", "mythical", "shadow", "galarian", "mega"]
         }, {
             "filterType": "type",
             "values": ["dark"]
@@ -247,13 +247,13 @@
         }],
         "exclude": [{
             "filterType": "tag",
-            "values": ["legendary", "mythical", "alolan", "shadow"]
+            "values": ["legendary", "mythical", "alolan", "shadow", "mega"]
         }, {
             "filterType": "type",
             "values": ["fighting", "flying", "normal", "psychic", "steel", "fairy"]
         }, {
             "filterType": "id",
-            "values": ["umbreon", "kingdra","abomasnow","castform_snowy","froslass","rotom_wash"]
+            "values": ["umbreon", "kingdra","abomasnow","castform_snowy","froslass","rotom_wash","rotom_wash"]
         }]
     }, {
         "name": "fusion",
@@ -335,25 +335,30 @@
         "include": [],
         "exclude": [{
             "filterType": "tag",
-            "values": ["legendary", "mythical"]
+            "values": ["legendary", "mythical", "mega"]
         }]
     }, {
-        "name": "grunt-4",
-        "title": "Grunt Cup 4",
+        "name": "grunt",
+        "title": "Grunt Cup",
         "restrictedPokemon": ["ivysaur", "ivysaur_shadow", "venusaur", "venusaur_shadow", "wartortle", "wartortle_shadow", "blastoise", "blastoise_shadow", "charmeleon", "charmeleon_shadow", "charizard", "charizard_shadow"],
         "include": [{
             "filterType": "id",
-            "values": ["ivysaur", "ivysaur_shadow", "venusaur", "venusaur_shadow", "wartortle", "wartortle_shadow", "blastoise", "blastoise_shadow", "charmeleon", "charmeleon_shadow", "charizard", "charizard_shadow", "sneasel", "sneasel_shadow", "raticate", "arbok", "sandslash", "nidorina", "nidorino", "nidoking", "gyarados", "nidoqueen", "golbat", "golem", "gloom", "vileplume", "parasect", "venomoth", "persian", "poliwhirl", "poliwrath", "machoke", "arcanine", "machamp", "weepinbell", "victreebel", "tentacruel", "graveler", "slowbro", "slowpoke", "wobbuffet", "wobbuffet_shadow", "dodrio", "dewgong", "muk", "cloyster", "haunter", "gengar", "onix", "electrode", "magmar", "tyranitar", "tyranitar_shadow", "houndoom", "houndoom_shadow", "dugtrio", "dugtrio_alolan", "exeggutor", "exeggutor_shadow", "magneton", "magneton_shadow", "drowzee", "marowak", "weezing", "rhyhorn", "rhydon", "kangaskhan", "seadra", "seaking", "jynx", "tauros", "omanyte", "omastar", "kabuto", "kabutops", "aerodactyl", "golbat_shadow", "victreebel_shadow", "weepinbell_shadow", "moltres_shadow", "raticate_shadow", "sandslash_shadow", "gloom_shadow", "vileplume_shadow", "venomoth_shadow", "persian_shadow", "poliwhirl_shadow", "poliwrath_shadow", "drowzee_shadow", "muk_shadow", "marowak_shadow", "omanyte_shadow", "omastar_shadow", "muk_alolan", "raticate_alolan", "persian_alolan", "golem_alolan", "graveler_alolan", "lickitung", "moltres", "vaporeon", "clefable"]
+            "values": ["ferrothorn","alomomola","escavalier","galvantula","victini","serperior","klang","lapras","shiftry","gallade","hypno","sableye","alakazam","muk","grimer","grimer_shadow","muk_shadow","lapras_shadow","shiftry_shadow","gallade_shadow","hypno_shadow","sableye_shadow","alakazam_shadow","exeggutor","exeggutor_shadow","sharpedo","sharpedo_shadow","metagross","metagross_shadow","houndoom","houndoom_shadow","charizard","charizard_shadow","blastoise","blastoise_shadow","fortress","fortress_shadow","dragonite","dragonite_shadow","steelix","crobat","crobat_shadow","mawile","mawile_shadow","scizor","scizor_shadow","zapdos","zapdos_shadow","moltres","moltres_shadow","articuno","articuno_shadow","suicune","suicune_shadow","rhyperior","machamp","machamp_shadow","rhydon","khangaskan","golem_alolan","graveler_alolan","gliscor","gliscor_shadow","victreebel","victreebel_shadow","gyarados","gyarados_shadow","arcanine","arcanine_shadow","venomoth","venomoth_shadow","cradily","lanturn","skuntank","skuntank_shadow","sealeo","beedrill","beedrill_shadow","weezing","weezing_shadow","golbat","arbok","arbok_shadow","wobbuffet","wobbuffet_shadow","lickitung","tentacruel","electrode","haunter","cloyster","gengar","clefable","golbat_shadow","poliwrath","poliwrath_shadow","forretress","forretress_shadow","magneton","magneton_shadow"]
         }],
-        "exclude": []
-    }, {
-        "name": "grunt-6",
-        "title": "Grunt Cup 6",
-        "include": [{
-            "filterType": "id",
-            "values": ["beedrill_shadow", "beedrill", "cradily", "golbat", "sneasel", "houndoom", "drapion", "toxicroak", "masquerain", "liepard", "scyther", "scyther_shadow", "scizor_shadow", "scizor", "skuntank", "froslass", "electabuzz", "electabuzz_shadow", "electivire_shadow", "electivire", "muk_alolan", "graveler_alolan", "golem_alolan", "arcanine", "venomoth", "alakazam_shadow", "grimer", "moltres_shadow", "arcanine_shadow", "alakazam", "breloom", "manectric", "walrein", "sealeo", "seviper", "lanturn", "crawdaunt", "cacturne", "cacturne_shadow", "torkoal", "zangoose", "claydol", "lairon", "aggron", "camerupt", "mightyyena", "sharpedo", "sharpedo_shadow", "magneton_shadow", "sneasel_shadow", "raticate", "arbok", "sandslash", "nidorina", "nidorino", "nidoking", "crobat", "crobat_shadow", "gyarados", "nidoqueen", "golem", "parasect", "persian", "poliwhirl", "poliwrath", "tentacruel", "graveler", "slowbro", "slowpoke", "wobbuffet", "wobbuffet_shadow", "dodrio", "muk", "cloyster", "haunter", "gengar", "onix", "electrode", "magmar", "tyranitar", "tyranitar_shadow", "houndoom_shadow", "dugtrio", "exeggutor", "exeggutor_shadow", "magneton", "drowzee", "marowak", "weezing", "rhyhorn", "rhydon", "kangaskhan", "seadra", "seaking", "jynx", "tauros", "omanyte", "omastar", "kabuto", "kabutops", "aerodactyl", "golbat_shadow", "raticate_shadow", "sandslash_shadow", "venomoth_shadow", "persian_shadow", "poliwhirl_shadow", "poliwrath_shadow", "drowzee_shadow", "muk_shadow", "marowak_shadow", "omanyte_shadow", "omastar_shadow", "lickitung", "moltres", "vaporeon", "porygon", "porygon_shadow", "porygon2", "porygon2_shadow", "porygon_z", "porygon_z_shadow", "arbok", "arbok_shadow", "weezing", "weezing_shadow", "nidorino", "nidorina", "nidorina_shadow", "nidoking", "nidoking_shadow", "nidoqueen", "nidoqueen_shadow", "gyarados_shadow", "grimer", "grimer_shadow", "grimer_alolan"]
-        }],
-        "exclude": []
+        "exclude": [],
+		"slots": [{
+            "pokemon": ["ferrothorn","alomomola","escavalier","galvantula","victini","serperior","klang","muk","grimer","muk_shadow","grimer_shadow"]
+        }, {
+            "pokemon": ["lapras","lapras_shadow","shiftry","shiftry_shadow","gallade","gallade_shadow","hypno","hypno_shadow","sableye","sableye_shadow","alakazam","alakazam_shadow","exeggutor","exeggutor_shadow","sharpedo","sharpedo_shadow","metagross","metagross_shadow","houndoom","houndoom_shadow"]
+        }, {
+            "pokemon": ["charizard","charizard_shadow","blastoise","blastoise_shadow","forretress","forretress_shadow","dragonite","dragonite_shadow","magneton","magneton_shadow","steelix","golbat","golbat_shadow","crobat","crobat_shadow","mawile","mawile_shadow","scizor","scizor_shadow"]
+        }, {
+            "pokemon": ["zapdos","moltres","articuno","zapdos_shadow","moltres_shadow","articuno_shadow","suicune","suicune_shadow","rhyperior","machamp","machamp_shadow","rhydon","khangaskan","graveler_alolan","golem_alolan","gliscor","gliscor_shadow"]
+        }, {
+            "pokemon": ["victreebel","victreebel_shadow","arcanine","arcanine_shadow","gyarados","gyarados_shadow","venomoth","venomoth_shadow","cradily","weezing","weezing_shadow","lanturn","skuntank","skuntank_shadow","sealeo","beedrill","beedrill_shadow"]
+        }, {
+            "pokemon": ["wobbuffet","wobbuffet_shadow","arbok","arbok_shadow","lickitung","poliwrath","poliwrath_shadow","tentacruel","electrode","haunter","gengar","cloyster","clefable"]
+        }]
     }, {
         "name": "sorcerous",
         "title": "Sorcerous Cup",
@@ -377,10 +382,10 @@
         }],
         "exclude": [{
             "filterType": "tag",
-            "values": ["legendary", "mythical", "shadow"]
+            "values": ["legendary", "mythical", "shadow", "mega"]
         }, {
             "filterType": "id",
-            "values": ["drapion", "mawile", "lapras", "dewgong", "vigoroth", "slaking", "castform", "rufflet", "braviary", "chansey", "blissey", "mr_mime", "jynx", "eevee", "espeon", "delibird", "miltank", "gardevoir", "metang", "chimecho", "chatot", "skorupi", "sigilyph", "cryogonal", "glaceon", "castform_snowy", "raichu_alolan", "obstagoon"]
+            "values": ["drapion", "mawile", "lapras", "dewgong", "vigoroth", "slaking", "castform", "rufflet", "braviary", "chansey", "blissey", "mr_mime", "jynx", "eevee", "espeon", "delibird", "miltank", "gardevoir", "metang", "chimecho", "chatot", "skorupi", "sigilyph", "cryogonal", "glaceon", "castform_snowy", "raichu_alolan", "obstagoon", "bouffalant", "whimsicott"]
         }]
     }, {
         "name": "goteamup",
@@ -446,10 +451,30 @@
         }],
         "exclude": [{
             "filterType": "tag",
-            "values": ["legendary", "mythical"]
+            "values": ["legendary", "mythical", "mega"]
         }]
+    }, {
+        "name": "kaiser",
+        "title": "Kaiser Invitational",
+        "include": [],
+        "exclude": [{
+            "filterType": "id",
+            "values": ["stunfisk_galarian","bastiodon","registeel","ferrothorn","deoxys_defense","skarmory","altaria"]
+        }, {
+            "filterType": "tag",
+            "values": ["regional", "mega"]
+        }]
+    }, {
+        "name": "shadow",
+        "title": "Shadow Cup",
+		"link": "https://silph.gg/t/vxtj/team-rocket-academy-presents-shadow-cup",
+        "include": [{
+            "filterType": "tag",
+            "values": ["shadow"]
+        }],
+        "exclude": []
     }],
-    "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable"],
+    "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega"],
     "pokemonRegions": [{
         "string": "gen1",
         "name": "kanto",
@@ -476,7 +501,7 @@
         "dexStart": 494,
         "dexEnd": 649
     }],
-    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo"],
+    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "venusaur_mega", "charmander", "charmeleon", "charizard", "charizard_mega_x", "charizard_mega_y", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "beedrill_mega", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "alakazam_mega", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "gyarados_mega", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "ampharos_mega", "bellossom", "politoed", "scizor", "scizor_mega", "houndour", "houndoom", "houndoom_mega", "larvitar", "pupitar", "tyranitar", "tyranitar_mega", "mudkip", "marshtomp", "swampert", "swampert_mega", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "gardevoir_mega", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "banette_mega", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "gallade_mega", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "sableye_mega", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "salamence_mega", "snover", "abomasnow", "abomasnow_mega", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "sharpedo_mega", "pinsir", "pinsir_mega", "mawile", "mawile_mega", "beldum", "metang", "metagross", "metagross_mega", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo", "mewtwo_mega_x", "mewtwo_mega_y"],
     "cliffhangerTiers": [{
         "league": 1500,
         "max": 17,
@@ -3695,7 +3720,8 @@
         },
         "level25CP": 1864,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["ZEN_HEADBUTT"]
+        "eliteMoves": ["ZEN_HEADBUTT"],
+		"searchPriority": 2
     }, {
         "dex": 103,
         "speciesName": "椰蛋樹 阿羅拉型態",
@@ -11911,7 +11937,8 @@
             "cp2500": [28, 6, 11, 14]
         },
         "level25CP": 2029,
-        "tags": ["shadoweligible"]
+        "tags": ["shadoweligible"],
+		"searchPriority": 2
     }, {
         "dex": 474,
         "speciesName": "多邊獸Ｚ 暗影化",
@@ -15037,7 +15064,8 @@
         "defaultIVs": {
             "cp1500": [20, 5, 8, 15],
             "cp2500": [36.5, 6, 14, 8]
-        }
+        },
+		"tags": ["regional"]
     }, {
         "dex": 627,
         "speciesId": "rufflet",
@@ -16896,7 +16924,7 @@
         "cooldown": 500
     }, {
         "moveId": "OUTRAGE",
-        "name": "逆麟",
+        "name": "逆鱗",
         "type": "dragon",
         "power": 110,
         "energy": 60,
