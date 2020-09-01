@@ -12,7 +12,6 @@
               "name": "VENUSAUR",
               "next": [
                 {
-                  "tempEvolution": "TEMP_EVOLUTION_MEGA",
                   "name": "VENUSAUR_MEGA",
                   "candyCost": 200,
                   "iso": 51,
@@ -40,7 +39,6 @@
               "name": "CHARIZARD",
               "next": [
                 {
-                  "tempEvolution": "TEMP_EVOLUTION_MEGA_X",
                   "name": "CHARIZARD_MEGA_X",
                   "candyCost": 200,
                   "iso": 51,
@@ -49,7 +47,6 @@
                   ]
                 },
                 {
-                  "tempEvolution": "TEMP_EVOLUTION_MEGA_Y",
                   "name": "CHARIZARD_MEGA_Y",
                   "candyCost": 200,
                   "iso": 52,
@@ -77,7 +74,6 @@
               "name": "BLASTOISE",
               "next": [
                 {
-                  "tempEvolution": "TEMP_EVOLUTION_MEGA",
                   "name": "BLASTOISE_MEGA",
                   "candyCost": 200,
                   "iso": 51,
@@ -122,7 +118,6 @@
               "name": "BEEDRILL",
               "next": [
                 {
-                  "tempEvolution": "TEMP_EVOLUTION_MEGA",
                   "name": "BEEDRILL_MEGA",
                   "candyCost": 100,
                   "iso": 51,
