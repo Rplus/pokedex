@@ -1622,7 +1622,7 @@
       "_sta": 120,
       "id": "ZUBAT",
       "name": "超音蝠",
-      "captureRate": 0.5,
+      "captureRate": 0.6,
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_ZUBAT",
@@ -22804,6 +22804,216 @@
         50,
         50
       ]
+    },
+    {
+      "dex": 3,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "fastMoves": [
+        "RAZOR_LEAF",
+        "VINE_WHIP"
+      ],
+      "chargedMoves": [
+        "FRENZY_PLANT",
+        "PETAL_BLIZZARD",
+        "SLUDGE_BOMB",
+        "SOLAR_BEAM",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "FRENZY_PLANT"
+      ],
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
+      "_atk": 241,
+      "_def": 246,
+      "_sta": 190,
+      "id": "VENUSAUR_MEGA",
+      "name": "Venusaur (Mega)",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_BULBASAUR",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 6,
+      "types": [
+        "fire",
+        "dragon"
+      ],
+      "fastMoves": [
+        "AIR_SLASH",
+        "EMBER",
+        "FIRE_SPIN",
+        "WING_ATTACK"
+      ],
+      "chargedMoves": [
+        "BLAST_BURN",
+        "DRAGON_CLAW",
+        "FIRE_BLAST",
+        "FLAMETHROWER",
+        "OVERHEAT",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "EMBER",
+        "WING_ATTACK",
+        "BLAST_BURN",
+        "FLAMETHROWER"
+      ],
+      "eliteMoves": [
+        "EMBER",
+        "WING_ATTACK",
+        "BLAST_BURN",
+        "FLAMETHROWER"
+      ],
+      "_atk": 273,
+      "_def": 213,
+      "_sta": 186,
+      "id": "CHARIZARD_MEGA_X",
+      "name": "Charizard (Mega X)",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_CHARMANDER",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 6,
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "fastMoves": [
+        "AIR_SLASH",
+        "EMBER",
+        "FIRE_SPIN",
+        "WING_ATTACK"
+      ],
+      "chargedMoves": [
+        "BLAST_BURN",
+        "DRAGON_CLAW",
+        "FIRE_BLAST",
+        "FLAMETHROWER",
+        "OVERHEAT",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "EMBER",
+        "WING_ATTACK",
+        "BLAST_BURN",
+        "FLAMETHROWER"
+      ],
+      "eliteMoves": [
+        "EMBER",
+        "WING_ATTACK",
+        "BLAST_BURN",
+        "FLAMETHROWER"
+      ],
+      "_atk": 319,
+      "_def": 212,
+      "_sta": 186,
+      "id": "CHARIZARD_MEGA_Y",
+      "name": "Charizard (Mega Y)",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_CHARMANDER",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 9,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "BITE",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "FLASH_CANNON",
+        "HYDRO_CANNON",
+        "HYDRO_PUMP",
+        "ICE_BEAM",
+        "SKULL_BASH"
+      ],
+      "legacyMoves": [
+        "HYDRO_CANNON"
+      ],
+      "eliteMoves": [
+        "HYDRO_CANNON"
+      ],
+      "_atk": 264,
+      "_def": 237,
+      "_sta": 188,
+      "id": "BLASTOISE_MEGA",
+      "name": "Blastoise (Mega)",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_SQUIRTLE",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 15,
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "fastMoves": [
+        "BUG_BITE",
+        "INFESTATION",
+        "POISON_JAB"
+      ],
+      "chargedMoves": [
+        "AERIAL_ACE",
+        "SLUDGE_BOMB",
+        "X_SCISSOR",
+        "FELL_STINGER",
+        "DRILL_RUN",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "BUG_BITE",
+        "DRILL_RUN"
+      ],
+      "eliteMoves": [
+        "BUG_BITE",
+        "DRILL_RUN"
+      ],
+      "_atk": 303,
+      "_def": 148,
+      "_sta": 163,
+      "id": "BEEDRILL_MEGA",
+      "name": "Beedrill (Mega)",
+      "captureRate": 0.13,
+      "fleeRate": 0.06,
+      "buddyKm": 1,
+      "familyId": "F_WEEDLE",
+      "genderMF": [
+        50,
+        50
+      ]
     }
   ],
   "moves": [
@@ -24843,7 +25053,7 @@
     },
     {
       "moveId": "OUTRAGE",
-      "name": "逆麟",
+      "name": "逆鱗",
       "power": 110,
       "type": "dragon",
       "energy": 60,
