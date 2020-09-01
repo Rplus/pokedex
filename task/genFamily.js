@@ -27,6 +27,25 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
         prev: pmdata.parentPokemonId,
         next: pmdata.evolutionBranch && pmdata.evolutionBranch.map(i => {
           i.name = i.evolution;
+
+          if (i.tempEvolution) {
+            i.name = pmdata.pokemonId + i.tempEvolution.replace('TEMP_EVOLUTION', '');
+            i.candyCost = i.obFirstTempEvolutionCandyCost || 0;
+
+            // query mega iso
+            try {
+              i.iso = gm
+                .find(i => i.templateId === `TEMPORARY_EVOLUTION_${pm.templateId}`)
+                .data
+                .temporaryEvolutionSettings
+                .obTemporaryEvolutions
+                .find(j => j.obTemporaryEvolution === i.tempEvolution)
+                .assetBundleValue;
+            } catch (e) {
+              new Error(e);
+            }
+          }
+
           // i.id = ALL.pokemonSettings.find(pm => {
           //   return (pm.data.pokemonSettings.pokemonId === i.name) &&
           //   (!i.form || i.form === pm.data.pokemonSettings.form)
@@ -47,6 +66,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
             i.onlyNighttime && 'night',
             i.onlyDaytime && 'day',
             i.noCandyCostViaTrade && 'free:Trade',
+            i.obSubsequentTempEvolutionCandyCost && `2nd:${i.obSubsequentTempEvolutionCandyCost} Candy`,
           ].filter(Boolean);
           if (requirement.length) {
             i.requirement = requirement;
@@ -61,6 +81,9 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
           delete i.onlyNighttime;
           delete i.onlyDaytime;
           delete i.noCandyCostViaTrade;
+          delete i.obSubsequentTempEvolutionCandyCost;
+          delete i.obFirstTempEvolutionCandyCost;
+          delete i.tempEvolution;
           return i;
         }),
       }
