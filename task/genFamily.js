@@ -30,7 +30,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
 
           if (i.tempEvolution) {
             i.name = pmdata.pokemonId + i.tempEvolution.replace('TEMP_EVOLUTION', '');
-            i.candyCost = i.obFirstTempEvolutionCandyCost || 0;
+            i.candyCost = 0;
 
             // query mega iso
             try {
@@ -66,7 +66,8 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
             i.onlyNighttime && 'night',
             i.onlyDaytime && 'day',
             i.noCandyCostViaTrade && 'free:Trade',
-            i.obSubsequentTempEvolutionCandyCost && `2nd:${i.obSubsequentTempEvolutionCandyCost} Candy`,
+            i.obFirstTempEvolutionCandyCost && `1st:${i.obFirstTempEvolutionCandyCost} E`,
+            i.obSubsequentTempEvolutionCandyCost && `2nd:${i.obSubsequentTempEvolutionCandyCost} E`,
           ].filter(Boolean);
           if (requirement.length) {
             i.requirement = requirement;
