@@ -94,7 +94,7 @@ export function handlePm(pms) {
       pm.genderMF = [0, 0];
     }
   });
-  return pms.filter(Boolean);
+  return pms.filter(Boolean).sort((a, b) => a.dex - b.dex);
 }
 
 
