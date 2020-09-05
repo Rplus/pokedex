@@ -13,10 +13,11 @@
               "next": [
                 {
                   "name": "VENUSAUR_MEGA",
-                  "candyCost": 200,
+                  "candyCost": 0,
                   "iso": 51,
                   "requirement": [
-                    "2nd:50 Candy"
+                    "1st:200 E",
+                    "2nd:40 E"
                   ]
                 }
               ]
@@ -40,18 +41,20 @@
               "next": [
                 {
                   "name": "CHARIZARD_MEGA_X",
-                  "candyCost": 200,
+                  "candyCost": 0,
                   "iso": 51,
                   "requirement": [
-                    "2nd:50 Candy"
+                    "1st:200 E",
+                    "2nd:40 E"
                   ]
                 },
                 {
                   "name": "CHARIZARD_MEGA_Y",
-                  "candyCost": 200,
+                  "candyCost": 0,
                   "iso": 52,
                   "requirement": [
-                    "2nd:50 Candy"
+                    "1st:200 E",
+                    "2nd:40 E"
                   ]
                 }
               ]
@@ -75,10 +78,11 @@
               "next": [
                 {
                   "name": "BLASTOISE_MEGA",
-                  "candyCost": 200,
+                  "candyCost": 0,
                   "iso": 51,
                   "requirement": [
-                    "2nd:50 Candy"
+                    "1st:200 E",
+                    "2nd:40 E"
                   ]
                 }
               ]
@@ -119,10 +123,11 @@
               "next": [
                 {
                   "name": "BEEDRILL_MEGA",
-                  "candyCost": 100,
+                  "candyCost": 0,
                   "iso": 51,
                   "requirement": [
-                    "2nd:25 Candy"
+                    "1st:100 E",
+                    "2nd:20 E"
                   ]
                 }
               ]

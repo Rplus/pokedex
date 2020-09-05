@@ -473,7 +473,24 @@
             "values": ["shadow"]
         }],
         "exclude": []
-    }],
+    }, {
+        "name": "flying",
+        "title": "Flying Cup",
+        "include": [{
+            "filterType": "type",
+            "values": ["flying"]
+        }],
+        "exclude": []
+    },
+	{
+		"name": "halloween",
+		"title": "Halloween Cup",
+		"include": [{
+			"filterType": "type",
+			"values": ["poison","ghost","bug","dark","fairy"]
+		}],
+		"exclude": []
+	}],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega"],
     "pokemonRegions": [{
         "string": "gen1",
@@ -513,7 +530,7 @@
             "pokemon": ["bastiodon", "bronzong", "cresselia", "ferrothorn", "hypno", "ivysaur", "jirachi", "marowak_alolan", "medicham", "meganium", "melmetal", "probopass", "regirock", "sableye", "scrafty", "swampert", "umbreon", "venusaur", "zweilous", "abomasnow"]
         }, {
             "points": 1,
-            "pokemon": ["cherrim_sunny", "clefable", "dewgong", "gardevoir", "golbat", "haunter", "jumpluff", "lanturn", "lapras", "lugia", "mantine", "mew", "muk_alolan", "noctowl", "obstagoon", "perrserker", "raichu", "raichu_alolan", "raikou", "shiftry", "stunfisk", "togekiss", "toxicroak", "uxie", "victreebel", "vigoroth", "whiscash", "wigglytuff", "zapdos", "drifblim", "froslass", "empoleon", "gengar", "machamp", "regice"]
+            "pokemon": ["cherrim_sunny", "clefable", "dewgong", "gardevoir", "golbat", "haunter", "jumpluff", "lanturn", "lapras", "lugia", "mantine", "mew", "muk_alolan", "noctowl", "obstagoon", "raichu", "raichu_alolan", "raikou", "shiftry", "stunfisk", "togekiss", "toxicroak", "uxie", "victreebel", "vigoroth", "whiscash", "wigglytuff", "zapdos", "drifblim", "froslass", "empoleon", "gengar", "machamp", "regice"]
         }]
     }],
     "pokemon": [{
@@ -10693,7 +10710,8 @@
         "defaultIVs": {
             "cp1500": [37.5, 13, 13, 13],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 414,
         "speciesName": "Mothim",

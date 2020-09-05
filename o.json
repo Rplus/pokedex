@@ -979,7 +979,7 @@
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             }
           ],
           "modelScaleV2": 0.84,
@@ -1225,7 +1225,7 @@
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             }
           ],
           "modelScaleV2": 0.84,
@@ -1363,7 +1363,7 @@
               "form": "VENUSAUR_PURIFIED",
               "tempEvolution": "TEMP_EVOLUTION_MEGA",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             }
           ],
           "modelScaleV2": 0.84,
@@ -2522,12 +2522,12 @@
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA_X",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             },
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA_Y",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             }
           ],
           "modelScaleV2": 1.1,
@@ -2785,12 +2785,12 @@
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA_X",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             },
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA_Y",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             }
           ],
           "modelScaleV2": 1.1,
@@ -2949,13 +2949,13 @@
               "form": "CHARIZARD_PURIFIED",
               "tempEvolution": "TEMP_EVOLUTION_MEGA_X",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             },
             {
               "form": "CHARIZARD_PURIFIED",
               "tempEvolution": "TEMP_EVOLUTION_MEGA_Y",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             }
           ],
           "modelScaleV2": 1.1,
@@ -4112,7 +4112,7 @@
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             }
           ],
           "modelScaleV2": 1.15,
@@ -4327,7 +4327,7 @@
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             }
           ],
           "modelScaleV2": 1.15,
@@ -4449,7 +4449,7 @@
               "form": "BLASTOISE_PURIFIED",
               "tempEvolution": "TEMP_EVOLUTION_MEGA",
               "obFirstTempEvolutionCandyCost": 200,
-              "obSubsequentTempEvolutionCandyCost": 50
+              "obSubsequentTempEvolutionCandyCost": 40
             }
           ],
           "modelScaleV2": 1.15,
@@ -5766,7 +5766,7 @@
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA",
               "obFirstTempEvolutionCandyCost": 100,
-              "obSubsequentTempEvolutionCandyCost": 25
+              "obSubsequentTempEvolutionCandyCost": 20
             }
           ],
           "modelScaleV2": 0.77,
@@ -5893,7 +5893,7 @@
             {
               "tempEvolution": "TEMP_EVOLUTION_MEGA",
               "obFirstTempEvolutionCandyCost": 100,
-              "obSubsequentTempEvolutionCandyCost": 25
+              "obSubsequentTempEvolutionCandyCost": 20
             }
           ],
           "modelScaleV2": 0.77,
@@ -6022,7 +6022,7 @@
               "form": "BEEDRILL_PURIFIED",
               "tempEvolution": "TEMP_EVOLUTION_MEGA",
               "obFirstTempEvolutionCandyCost": 100,
-              "obSubsequentTempEvolutionCandyCost": 25
+              "obSubsequentTempEvolutionCandyCost": 20
             }
           ],
           "modelScaleV2": 0.77,
