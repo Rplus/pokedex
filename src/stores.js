@@ -27,7 +27,7 @@ Promise.all(
   pokemons.set(handlePm(gm.pokemon));
   moves.set(handleMove(gm.moves));
   family.set(allF);
-  maxDex.set(gm.pokemon[gm.pokemon.length - 1].dex);
+  maxDex.set(Math.max(...gm.pokemon.map(i => i.dex)));
   console.log('gm done:', d);
 });
 
