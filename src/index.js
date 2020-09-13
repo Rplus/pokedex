@@ -1,3 +1,4 @@
+import './i18n.js';
 import GAnalytics from 'ganalytics';
 import App from '@c/App.html';
 

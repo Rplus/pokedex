@@ -5,6 +5,7 @@ import alias from '@rollup/plugin-alias';
 import autoPreprocess from 'svelte-preprocess';
 import livereload from 'rollup-plugin-livereload';
 import commonjs from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
 import { terser } from 'rollup-plugin-terser';
 
 const production = !process.env.ROLLUP_WATCH;
@@ -36,6 +37,7 @@ export default {
       }
     }),
 
+    json(),
     // If you have external dependencies installed from
     // npm, you'll most likely need these plugins. In
     // some cases you'll need additional configuration —
