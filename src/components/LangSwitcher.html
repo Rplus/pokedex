@@ -1,0 +1,21 @@
+<script>
+  import { _ } from 'svelte-i18n';
+  import { locale, locales } from 'svelte-i18n';
+</script>
+
+
+
+<div class="card- card-switcher-">
+  {$_('lang')}
+
+  <select bind:value={$locale}>
+    {#each $locales as locale}
+      <option value={locale}>{locale}</option>
+    {/each}
+  </select>
+</div>
+
+
+
+<style>
+</style>

@@ -313,6 +313,7 @@ details details summary:not([dir="ltr"]) {
 .jc-sb { justify-content: space-between; }
 .ai-c { align-items: center;}
 .ai-fs { align-items: flex-start; }
+.ai-fe { align-items: flex-end; }
 .flex-center { place-content: center; }
 
 .pos-r { position: relative; }
