@@ -6,7 +6,7 @@
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
     "start": "sirv public --single",
-    "start:dev": "sirv public --dev --single --port 1510"
+    "start:dev": "sirv public --dev --single --port 1510 --host 0.0.0.0"
   },
   "dependencies": {
     "escape-string-regexp": "^2.0.0",
