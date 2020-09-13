@@ -139,6 +139,7 @@
                     class:is-stab={item.stab}
                     class:is-legacy={item.isLegacy}
                     class:is-elite={item.isElite}
+                    title={item.isElite ? '可兌' : item.isLegacy ? '不可兌' : '' }
                   >
                     {item.name}
                   </a>

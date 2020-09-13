@@ -188,7 +188,7 @@ details details summary:not([dir="ltr"]) {
 }
 .is-elite::after,
 .is-legacy::after {
-  content: '†';
+  content: '×';
   position: absolute;
   top: -.2em;
   padding-left: .1em;
@@ -197,7 +197,7 @@ details details summary:not([dir="ltr"]) {
   text-shadow: none;
 }
 .is-elite::after {
-  content: '‡';
+  content: '†';
 }
 
 .energy-bar {
