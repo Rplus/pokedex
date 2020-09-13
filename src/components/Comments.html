@@ -1,6 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
   import Details from '@c/Details.html';
+  import { _ } from 'svelte-i18n';
 
   let open;
 
@@ -40,7 +41,7 @@
 
 
 <Details type="comment" class="card" on:toggle={onToggle}>
-  <summary><h3>留言</h3></summary>
+  <summary><h3>{$_('comment')}</h3></summary>
   <div>
     <div id="disqus_thread"></div>
   </div>

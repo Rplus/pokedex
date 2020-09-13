@@ -8,6 +8,7 @@
   import Details from '@c/Details.html';
   import TypeIcon from '@c/TypeIcon.html';
   import Ruby from '@c/Ruby.html';
+  import { _ } from 'svelte-i18n';
 
   export let pm;
   $: ispve = $settings.io.ispve;
@@ -38,12 +39,12 @@
     emoves = pm.eliteMoves;
     mdata = [
       {
-        title: 'Fast Moves',
+        title: $_('fastMove'),
         data: pm.fastMoves.map(m => genMove(m, true)),
         setting: 'fmove',
       },
       {
-        title: 'Charged Moves',
+        title: $_('chargedMove'),
         data: pm.chargedMoves.map(m => genMove(m, false)),
         setting: 'cmove',
       }
@@ -139,7 +140,12 @@
                     class:is-stab={item.stab}
                     class:is-legacy={item.isLegacy}
                     class:is-elite={item.isElite}
-                    title={item.isElite ? '可兌' : item.isLegacy ? '不可兌' : '' }
+                    title={item.isElite
+                      ? $_('pmPage.eliteTeachable')
+                      : item.isLegacy
+                        ? $_('pmPage.nonTeachable')
+                        : ''
+                    }
                   >
                     {item.name}
                   </a>
@@ -203,10 +209,10 @@
 {/if}
 
 <Details type="opponent_type" class="card opponent_type_card">
-  <summary><h3>模擬對方屬性</h3></summary>
+  <summary><h3>{$_('pmPage.simulateOpponentTypes')}</h3></summary>
   <div class="df jc-se">
     <div>
-      type 1:
+      {$_('pmPage.typeN', { values: { n: 1 } })}:
       <select bind:value={opponentType1} class="text-capitalize">
         {#each _types as type}
           <option value={type.v}>{type.l} {type.v}</option>
@@ -216,7 +222,7 @@
     </div>
 
     <div>
-      type 2:
+      {$_('pmPage.typeN', { values: { n: 2 } })}:
       <select bind:value={opponentType2} class="text-capitalize">
         {#each _types as type}
           <option value={type.v}>{type.l} {type.v}</option>
@@ -225,7 +231,7 @@
     </div>
   </div>
   <div class="text-center">
-    force Atk buff:
+    {$_('pmPage.atkBuff')}:
     <select bind:value={forceBuff}>
       {#each forceBuffOptions as i}
         <option value="{i}">{i}</option>

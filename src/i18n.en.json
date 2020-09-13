@@ -1,11 +1,26 @@
 {
   "comment": "Comments",
   "filter": "Filter",
+  "fastMove": "Fast Move",
+  "chargedMove": "Charged Move",
   "pmlist": {
     "showAll": "show all?"
   },
-  "lang": "language",
-  "page_title": "Page title",
-  "sign_in": "Sign in",
-  "sign_up": "Sign up"
+  "pmPage": {
+    "simulateOpponentTypes": "Simulate Opponent Types",
+    "typeN": "Type {n}",
+    "atkBuff": "Atk Buff",
+    "movePair": "Move Pair",
+    "eliteTeachable": "Teachable by Elite TM",
+    "nonEliteTeachable": "non-Teachable by Elite TM"
+  },
+  "ttfa": {
+    "fastMove": "Fast",
+    "chargedMove": "Charged",
+    "turn": "Turn",
+    "moveHitTimes": "Hit\nTimes",
+    "circleDamage": "Circle\nDamage\n(+STAB)",
+    "avgDamage": "average\nDamage\nin\nTurn\n(+STAB)"
+  },
+  "lang": "Language"
 }

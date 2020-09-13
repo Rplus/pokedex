@@ -1,6 +1,7 @@
 <script>
 import Details from '@c/Details.html';
 import { TableSort } from 'svelte-tablesort';
+import { _ } from 'svelte-i18n';
 
 import { fixNum, copy } from '@/u.js';
 export let mdata;
@@ -11,12 +12,14 @@ let o_ths = [
   {
     title: 't',
     value: 'turns',
-    intro: '回合',
+    // intro: '回合',
+    intro: $_('ttfa.turn'),
   },
   {
     title: 'H',
     value: 'hits',
     intro: '小招攻擊次數',
+    intro: $_('ttfa.moveHitTimes'),
   },
   // {
   //   title: 'ΣDf',
@@ -26,20 +29,24 @@ let o_ths = [
   {
     title: 'ΣD',
     value: 'dmg_t',
-    intro: '循環傷害 (+STAB)',
+    // intro: '循環傷害 (+STAB)',
+    intro: $_('ttfa.circleDamage'),
   },
   {
     title: 'DPT',
     value: 'dpt',
-    intro: '回合均傷 (+STAB)',
+    // intro: '回合均傷 (+STAB)',
+    intro: $_('ttfa.avgDamage'),
   },
   {
     // title: 'f.name',
-    title: '小招',
+    // title: '小招',
+    title: $_('ttfa.fastMove'),
   },
   {
     // title: 'c.name',
-    title: '大招',
+    // title: '大招',
+    title: $_('ttfa.charged'),
   },
 ];
 let ths;
@@ -82,12 +89,12 @@ function genPairs() {
   <div>
     <TableSort items={pairs} class="ml-a mr-a narrow">
       <tr slot="thead">
-        <th data-sort="turns" title="回合" data-sort-initial>T</th>
-        <th data-sort="hits" title="小招攻擊次數">H</th>
-        <th data-sort="dmg_t" title="循環傷害 (+STAB)">ΣD</th>
-        <th data-sort="dpt" title="回合均傷 (+STAB)">DPT</th>
-        <th>小招</th>
-        <th>大招</th>
+        <th data-sort="turns" title={$_('ttfa.turn')} data-sort-initial>T</th>
+        <th data-sort="hits" title={$_('ttfa.moveHitTimes')}>H</th>
+        <th data-sort="dmg_t" title={$_('ttfa.circleDamage')}>ΣD</th>
+        <th data-sort="dpt" title={$_('ttfa.avgDamage')}>DPT</th>
+        <th>{$_('ttfa.fastMove')}</th>
+        <th>{$_('ttfa.chargedMove')}</th>
       </tr>
 
       <tr slot="tbody" let:item={item}>
@@ -99,13 +106,19 @@ function genPairs() {
         <td class={item.c.stab ? 'is-stab' : ''} data-efficon={item.c.efficon}>{item.c.name}</td>
       </tr>
 
-      <tr slot="tfoot" class="fz-s" style="color: #999">
-        <td class="pt-4 pb-4">回合</td>
-        <td class="pt-4 pb-4">小招<br>攻擊<br>次數</td>
-        <td class="pt-4 pb-4">循環<br>傷害<br><sub>(+STAB)</sub></td>
-        <td class="pt-4 pb-4">回合<br>均傷<br>(+STAB)</td>
-        <td class="pt-4 pb-4">小招</td>
-        <td class="pt-4 pb-4">大招</td>
+      <tr slot="tfoot" class="fz-s tfoot"
+        style="color: #999; white-space: pre-wrap"
+      >
+        <td class="pt-4 pb-4">{$_('ttfa.turn')}</td>
+        <td class="pt-4 pb-4">{$_('ttfa.moveHitTimes')}</td>
+        <!-- <td class="pt-4 pb-4">循環<br>傷害<br>(+STAB)</td> -->
+        <td class="pt-4 pb-4">{$_('ttfa.circleDamage')}</td>
+        <!-- <td class="pt-4 pb-4">回合<br>均傷<br>(+STAB)</td> -->
+        <td class="pt-4 pb-4">{$_('ttfa.avgDamage')}</td>
+        <!-- <td class="pt-4 pb-4">小招</td> -->
+        <td class="pt-4 pb-4">{$_('ttfa.fastMove')}</td>
+        <!-- <td class="pt-4 pb-4">大招</td> -->
+        <td class="pt-4 pb-4">{$_('ttfa.chargedMove')}</td>
       </tr>
     </TableSort>
   </div>

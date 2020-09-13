@@ -1,6 +1,12 @@
 <script>
-  import { _ } from 'svelte-i18n';
-  import { locale, locales } from 'svelte-i18n';
+  import { _, locale, locales } from 'svelte-i18n';
+  import { settings } from '@/stores.js';
+  import { langMap } from '../i18n';
+
+  locale.subscribe((lang) => {
+    $settings.lang = lang;
+  });
+
 </script>
 
 
@@ -10,7 +16,7 @@
 
   <select bind:value={$locale}>
     {#each $locales as locale}
-      <option value={locale}>{locale}</option>
+      <option value={locale}>{langMap[locale] || locale}</option>
     {/each}
   </select>
 </div>

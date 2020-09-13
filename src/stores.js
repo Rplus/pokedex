@@ -5,6 +5,7 @@ import {
   handlePm, handleMove,
   saveItem, getItem
 } from '@/u.js';
+import { locale } from 'svelte-i18n';
 
 
 export const pokemons = writable([]);
