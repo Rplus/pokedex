@@ -14422,7 +14422,8 @@
         "BUG_BUZZ",
         "POWER_GEM",
         "X_SCISSOR",
-        "FELL_STINGER"
+        "FELL_STINGER",
+        "SIGNAL_BEAM"
       ],
       "_atk": 149,
       "_def": 190,
@@ -23398,6 +23399,7 @@
       "type": "bug",
       "energy": 60,
       "energyGain": 0,
+      "effect": "[敵], 30%, -1階防",
       "turn": 1,
       "mid": "049",
       "isFast": false,
@@ -24072,10 +24074,11 @@
     {
       "moveId": "FLAME_CHARGE",
       "name": "蓄能焰襲",
-      "power": 70,
+      "power": 65,
       "type": "fire",
       "energy": 50,
       "energyGain": 0,
+      "effect": "[己], 100%, +1階攻",
       "turn": 1,
       "mid": "101",
       "isFast": false,
@@ -25738,6 +25741,7 @@
       "type": "bug",
       "energy": 55,
       "energyGain": 0,
+      "effect": "[敵], 20%, -1階攻, -1階防",
       "turn": 1,
       "mid": "099",
       "isFast": false,
