@@ -1,0 +1,223 @@
+<script>
+  import Title from '@c/Title.html';
+  import { pokemons, moves, settings } from '@/stores.js';
+  import eff from '@d/eff.js';
+  import TypeIcon from '@c/TypeIcon.html';
+  import Details from '@c/Details.html';
+  import TypeFilter from '@c/TypeFilter.html';
+  import { TableSort } from 'svelte-tablesort';
+
+  let o_pms = [];
+  let o_moves = {
+    ff: [],
+    cc: [],
+  };
+  $: showMoveValue = true;
+
+  let selectedMove = {
+    id: undefined,
+    isFast: undefined,
+  };
+
+  $: {
+    if ($pokemons.length) {
+      o_pms = $pokemons
+        .filter(pm => pm.types.indexOf('flying') !== -1)
+        .map(pm => {
+          let output = {
+            ff: [...pm.fastMoves],
+            cc: [...pm.chargedMoves],
+          };
+
+          console.log(output.cc);
+          let ggMoves = [...(pm.legacyMoves || []), ...(pm.eliteMoves || [])].filter(Boolean)
+
+          ggMoves.forEach(m => {
+            let moveData = qMove(m);
+            if (!moveData) { return; }
+            output[moveData.isFast ? 'ff' : 'cc'].push(m);
+            // o_moves[moveData.isFast ? 'ff' : 'cc'].push(m);
+          });
+
+          pm.mm = {
+            ff: [...new Set(output.ff)],
+            cc: [...new Set(output.cc)],
+          }
+
+          o_moves.ff = o_moves.ff.concat(pm.mm.ff || []);
+          o_moves.cc = o_moves.cc.concat(pm.mm.cc || []);
+
+          return pm;
+        });
+
+      o_moves.ff = [...new Set(o_moves.ff)].map(qMove);
+      o_moves.cc = [...new Set(o_moves.cc)].map(qMove);
+    }
+  }
+
+  $: {
+    const clickType = selectedMove.isFast ? 'ff' : 'cc';
+    const otherType = selectedMove.isFast ? 'cc' : 'ff';
+
+    o_moves[clickType] = o_moves[clickType].map(m => {
+      m.selected = selectedMove.id === m.moveId;
+      return m;
+    });
+
+    const pmWithMove = qPmByMove(selectedMove.id, clickType);
+    console.log({pmWithMove});
+    const pmOtherMoves = [...new Set(pmWithMove.map(pm => pm.mm[otherType]).flat())];
+
+    o_moves[otherType] = o_moves[otherType].map(m => {
+      m.selected = pmOtherMoves.includes(m.moveId);
+      return m;
+    });
+  }
+
+  function qMove(mid) {
+    if (!$moves.length) {
+      return;
+    }
+    return $moves.find(m => m.moveId === mid);
+  }
+
+  function qPmByMove(mid, mtype) {
+    return o_pms.filter(pm => pm.mm[mtype].includes(mid));
+  }
+
+  function clickTr(move) {
+    const isSame = move.moveId === selectedMove.id;
+
+    selectedMove = {
+      id: isSame ? undefined : move.moveId,
+      isFast: isSame ? undefined : move.isFast,
+    };
+  }
+
+</script>
+
+
+
+<Title title="Pick" />
+
+<div class="card">
+  <h3>
+    PM Type:
+    <input type="text" value="flying" readonly disabled />
+  </h3>
+</div>
+
+<div class="card">
+  <h3>
+  <label>
+    <input type="checkbox" bind:checked={showMoveValue}>
+    顯示招式數值
+  </label>
+  </h3>
+
+</div>
+
+<div class={showMoveValue ? 'df jc-sb' : ''}>
+
+<Details type="picked_fastMoves" class="card">
+  <summary>
+    <h3>Fast Moves</h3>
+  </summary>
+
+  <TableSort
+    items={o_moves.ff}
+    class="narrow ml-a mr-a text-center"
+  >
+    <tr slot="thead">
+      <th></th>
+      <th data-sort="type">@</th>
+      <th data-sort="name">Name</th>
+      <th hidden={showMoveValue} data-sort="power">D</th>
+      <th hidden={showMoveValue} data-sort="turn">T</th>
+      <th hidden={showMoveValue} data-sort="dpt">DPT</th>
+      <th hidden={showMoveValue} data-sort="energyGain">E</th>
+      <th hidden={showMoveValue} data-sort="ept">EPT</th>
+      <th hidden={showMoveValue} data-sort="eptxdpt"
+          data-sort-initial="descending">Π</th>
+    </tr>
+
+    <tr
+      slot="tbody"
+      let:item={item}
+      class:active={item.selected}
+    >
+      <td>
+        <input type="checkbox" checked={item.selected} on:input={clickTr(item)}>
+      </td>
+      <td>
+        <TypeIcon type={item.type} class="d-ib" />
+      </td>
+      <td align="left">{item.name}</td>
+      <td hidden={showMoveValue}>{item.power}</td>
+      <td hidden={showMoveValue}>{item.turn}</td>
+      <td hidden={showMoveValue}>{item.dpt}</td>
+      <td hidden={showMoveValue}>{item.energyGain}</td>
+      <td hidden={showMoveValue}>{item.ept}</td>
+      <td hidden={showMoveValue}>{item.eptxdpt}</td>
+    </tr>
+  </TableSort>
+</Details>
+
+<Details type="picked_chargedMoves" class="card">
+  <summary>
+    <h3>Charged Moves</h3>
+  </summary>
+
+  <TableSort
+    items={o_moves.cc}
+    class="narrow ml-a mr-a text-center"
+  >
+    <tr slot="thead">
+      <th></th>
+      <th data-sort="type">@</th>
+      <th data-sort="name">Name</th>
+      <th hidden={showMoveValue} data-sort="power">D</th>
+      <th hidden={showMoveValue} data-sort="energy">E</th>
+      <th hidden={showMoveValue} data-sort="dpe" data-sort-initial="descending">DPE</th>
+    </tr>
+
+    <tr
+      slot="tbody"
+      let:item={item}
+      class:active={item.selected}
+    >
+      <td>
+        <input type="checkbox" checked={item.selected} on:input={clickTr(item)}>
+      </td>
+      <td>
+        <TypeIcon type={item.type} class="d-ib" />
+      </td>
+      <td align="left">{item.name}</td>
+      <td hidden={showMoveValue}>{item.power}</td>
+      <td hidden={showMoveValue}>{item.energy}</td>
+      <td hidden={showMoveValue}>{item.dpe}</td>
+    </tr>
+  </TableSort>
+</Details>
+
+</div>
+
+
+<style>
+  :global(tr.active) {
+    /* box-shadow: inset 0 0 0 1px #0003; */
+    background-color: #ffd;
+  }
+  :global(tr.active:hover) {
+    background-color: #efe;
+  }
+
+  td input:only-child {
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+</style>

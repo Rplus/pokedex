@@ -24,6 +24,7 @@
   import PokemonList from '@r/PokemonList.html';
   import MovePage from '@r/MovePage.html';
   import PokemonPage from '@r/PokemonPage.html';
+  import Pick from '@r/Pick.html';
   import Info from '@r/Info.html';
   import Footer from '@c/Footer.html';
   import TypeDialog from '@c/TypeDialog.html';
@@ -60,6 +61,7 @@
     .on('/move/:moveId', obj => draw(MovePage, obj))
     .on('/pokemon', () => draw(PokemonList))
     .on('/pokemon/:uid', obj => draw(PokemonPage, obj))
+    .on('/pick', () => draw(Pick))
     .on('/info', () => draw(Info))
     .listen();
 
