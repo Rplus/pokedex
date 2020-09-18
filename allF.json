@@ -147,7 +147,18 @@
           "next": [
             {
               "candyCost": 50,
-              "name": "PIDGEOT"
+              "name": "PIDGEOT",
+              "next": [
+                {
+                  "name": "PIDGEOT_MEGA",
+                  "candyCost": 0,
+                  "iso": 51,
+                  "requirement": [
+                    "1st:100 E",
+                    "2nd:20 E"
+                  ]
+                }
+              ]
             }
           ]
         }

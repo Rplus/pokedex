@@ -6451,6 +6451,13 @@
           "kmBuddyDistance": 1,
           "buddySize": "BUDDY_FLYING",
           "modelHeight": 2.18,
+          "evolutionBranch": [
+            {
+              "tempEvolution": "TEMP_EVOLUTION_MEGA",
+              "obFirstTempEvolutionCandyCost": 100,
+              "obSubsequentTempEvolutionCandyCost": 20
+            }
+          ],
           "modelScaleV2": 0.97,
           "buddyOffsetMale": [
             20,
@@ -6475,6 +6482,37 @@
           ],
           "eliteCinematicMove": [
             "AIR_CUTTER"
+          ],
+          "obTemporaryEvolutions": [
+            {
+              "obTemporaryEvolution": "TEMP_EVOLUTION_MEGA",
+              "stats": {
+                "baseStamina": 195,
+                "baseAttack": 280,
+                "baseDefense": 175
+              },
+              "obPokedexHeightM": 2.2,
+              "obPokedexWeightKg": 50.5,
+              "type": "POKEMON_TYPE_NORMAL",
+              "type2": "POKEMON_TYPE_FLYING",
+              "camera": {
+                "cylinderRadiusM": 2.5,
+                "cylinderHeightM": 1.65,
+                "cylinderGroundM": 1.2
+              },
+              "modelScaleV2": 0.97,
+              "modelHeight": 2.18,
+              "buddyOffsetMale": [
+                20,
+                -27.48,
+                -30
+              ],
+              "buddyOffsetFemale": [
+                20,
+                -27.48,
+                -30
+              ]
+            }
           ]
         }
       }
@@ -72311,7 +72349,8 @@
             "AIR_CUTTER",
             "OMINOUS_WIND",
             "SILVER_WIND",
-            "BUBBLE_BEAM"
+            "BUBBLE_BEAM",
+            "LUNGE"
           ],
           "animationTime": [
             1.3333,
@@ -93712,7 +93751,8 @@
             "BUG_BUZZ",
             "POWER_GEM",
             "X_SCISSOR",
-            "FELL_STINGER"
+            "FELL_STINGER",
+            "SIGNAL_BEAM"
           ],
           "animationTime": [
             1.9,
@@ -122237,7 +122277,8 @@
             "CROSS_POISON",
             "BUG_BUZZ",
             "DISCHARGE",
-            "ENERGY_BALL"
+            "ENERGY_BALL",
+            "LUNGE"
           ],
           "animationTime": [
             1.9,
@@ -135220,6 +135261,7 @@
           "movementId": "LUNGE",
           "animationId": 5,
           "pokemonType": "POKEMON_TYPE_BUG",
+          "power": 55,
           "accuracyChance": 1,
           "staminaLossScalar": 0.01,
           "trainerLevelMin": 1,
@@ -135227,7 +135269,8 @@
           "vfxName": "lunge",
           "durationMs": 2900,
           "damageWindowStartMs": 2400,
-          "damageWindowEndMs": 2700
+          "damageWindowEndMs": 2700,
+          "energyDelta": -33
         }
       }
     },
@@ -135824,6 +135867,27 @@
           "damageWindowStartMs": 1700,
           "damageWindowEndMs": 2500,
           "energyDelta": -33
+        }
+      }
+    },
+    {
+      "templateId": "V0344_MOVE_TRI_ATTACK",
+      "data": {
+        "templateId": "V0344_MOVE_TRI_ATTACK",
+        "moveSettings": {
+          "movementId": "TRI_ATTACK",
+          "animationId": 5,
+          "pokemonType": "POKEMON_TYPE_NORMAL",
+          "power": 75,
+          "accuracyChance": 1,
+          "staminaLossScalar": 0.01,
+          "trainerLevelMin": 1,
+          "trainerLevelMax": 100,
+          "vfxName": "tri_attack",
+          "durationMs": 2500,
+          "damageWindowStartMs": 1300,
+          "damageWindowEndMs": 2400,
+          "energyDelta": -50
         }
       }
     }
