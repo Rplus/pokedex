@@ -567,7 +567,8 @@
       "fastMoves": [
         "AIR_SLASH",
         "STEEL_WING",
-        "WING_ATTACK"
+        "WING_ATTACK",
+        "GUST"
       ],
       "chargedMoves": [
         "AERIAL_ACE",
@@ -577,11 +578,13 @@
       ],
       "legacyMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "GUST"
       ],
       "eliteMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "GUST"
       ],
       "_atk": 166,
       "_def": 154,
@@ -1622,7 +1625,7 @@
       "_sta": 120,
       "id": "ZUBAT",
       "name": "超音蝠",
-      "captureRate": 0.6,
+      "captureRate": 0.5,
       "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_ZUBAT",
@@ -23034,7 +23037,8 @@
       "fastMoves": [
         "AIR_SLASH",
         "STEEL_WING",
-        "WING_ATTACK"
+        "WING_ATTACK",
+        "GUST"
       ],
       "chargedMoves": [
         "AERIAL_ACE",
@@ -23044,11 +23048,13 @@
       ],
       "legacyMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "GUST"
       ],
       "eliteMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "GUST"
       ],
       "_atk": 280,
       "_def": 175,
@@ -24389,6 +24395,22 @@
       "pve_duration": 3.1,
       "pve_damageWindowStart": 1.7,
       "pve_damageWindowEnd": 2.7
+    },
+    {
+      "moveId": "GUST",
+      "name": "起風",
+      "power": 16,
+      "type": "flying",
+      "energy": 0,
+      "energyGain": 12,
+      "turn": 4,
+      "mid": "345",
+      "isFast": true,
+      "pve_power": 25,
+      "pve_energyDelta": 20,
+      "pve_duration": 2,
+      "pve_damageWindowStart": 0.9,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "GYRO_BALL",
