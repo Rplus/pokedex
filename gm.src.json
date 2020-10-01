@@ -567,8 +567,7 @@
       "fastMoves": [
         "AIR_SLASH",
         "STEEL_WING",
-        "WING_ATTACK",
-        "GUST"
+        "WING_ATTACK"
       ],
       "chargedMoves": [
         "AERIAL_ACE",
@@ -578,13 +577,11 @@
       ],
       "legacyMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER",
-        "GUST"
+        "AIR_CUTTER"
       ],
       "eliteMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER",
-        "GUST"
+        "AIR_CUTTER"
       ],
       "_atk": 166,
       "_def": 154,
@@ -23037,8 +23034,7 @@
       "fastMoves": [
         "AIR_SLASH",
         "STEEL_WING",
-        "WING_ATTACK",
-        "GUST"
+        "WING_ATTACK"
       ],
       "chargedMoves": [
         "AERIAL_ACE",
@@ -23048,13 +23044,11 @@
       ],
       "legacyMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER",
-        "GUST"
+        "AIR_CUTTER"
       ],
       "eliteMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER",
-        "GUST"
+        "AIR_CUTTER"
       ],
       "_atk": 280,
       "_def": 175,
@@ -23065,6 +23059,38 @@
       "fleeRate": 0.06,
       "buddyKm": 1,
       "familyId": "F_PIDGEY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 229,
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "fastMoves": [
+        "FIRE_FANG",
+        "SNARL"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "FIRE_BLAST",
+        "FLAMETHROWER",
+        "FOUL_PLAY",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "_atk": 289,
+      "_def": 194,
+      "_sta": 181,
+      "id": "HOUNDOOM_MEGA",
+      "name": "黑魯加 (Mega)",
+      "captureRate": 0.15,
+      "fleeRate": 0.06,
+      "buddyKm": 3,
+      "familyId": "F_HOUNDOUR",
       "genderMF": [
         50,
         50
