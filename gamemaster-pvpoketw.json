@@ -17,7 +17,7 @@
     }, {
         "slug": "switches",
         "shields": [1, 1],
-        "energy": [6, 0]
+        "energy": [4, 0]
     }, {
         "slug": "chargers",
         "shields": [1, 1],
@@ -554,6 +554,17 @@
 	        "values": ["sneasel", "whimsicott", "emolga", "beheeyem", "bouffalant", "accelgor", "aerodactyl", "aipom", "alomomola", "ambipom", "amoonguss", "anorith", "archen", "archeops", "ariados", "armaldo", "audino", "basculin", "bastiodon", "beartic", "bibarel", "bonsly", "braviary", "breloom", "bronzong", "buneary", "camerupt", "carnivine", "carracosta", "castform", "castform_rainy", "castform_snowy", "castform_sunny", "chatot", "cherrim_overcast", "cherrim_sunny", "chimecho", "chinchou", "cinccino", "clamperl", "claydol", "cloyster", "cofagrigus", "corsola", "cradily", "cranidos", "crawdaunt", "crustle", "cryogonal", "darmanitan_standard", "darumaka", "delcatty", "dewgong", "dodrio", "donphan", "drapion", "drifblim", "drifloon", "drilbur", "dugtrio", "dugtrio_alolan", "dunsparce", "durant", "dwebble", "electrode", "escavalier", "espeon", "excadrill", "exeggutor_alolan", "farfetchd", "fearow", "ferrothorn", "flareon", "floatzel", "froslass", "furret", "galvantula", "garbodor", "gastrodon_east_sea", "gastrodon_west_sea", "girafarig", "glaceon", "glalie", "golett", "golurk", "gorebyss", "granbull", "grimer_alolan", "grumpig", "hariyama", "heatmor", "heracross", "hippopotas", "hippowdon", "hitmontop", "honchkrow", "huntail", "illumise", "jolteon", "jynx", "kabuto", "kabutops", "kangaskhan", "kingler", "krabby", "kricketune", "lanturn", "leafeon", "ledian", "lickilicky", "lickitung", "liepard", "lileep", "lilligant", "linoone", "lopunny", "lucario", "lumineon", "lunatone", "magcargo", "manectric", "mantine", "mantyke", "maractus", "marowak_alolan", "masquerain", "mightyena", "milotic", "miltank", "minun", "mothim", "mr.mime", "muk_alolan", "munchlax", "murkrow", "ninetales_alolan", "noctowl", "nosepass", "octillery", "onix", "pachirisu", "parasect", "pelipper", "persian_alolan", "phanpy", "pineco", "plusle", "ponyta", "primeape", "probopass", "purugly", "quagsire", "qwilfish", "rampardos", "rapidash", "raticate_alolan", "relicanth", "rotom_wash", "rufflet", "sandshrew_alolan", "sandslash_alolan", "sawk", "scrafty", "scraggy", "seaking", "sealeo", "seviper", "shellos_east_sea", "shellos_west_sea", "sigilyph", "simipour", "simisage", "simisear", "slowbro", "slowking", "slowpoke", "smoochum", "snubbull", "solrock", "spinda", "spiritomb", "spoink", "starmie", "steelix", "stunfisk", "sudowoodo", "sunflora", "swalot", "swanna", "swellow", "swoobat", "tangela", "tangrowth", "tauros", "teddiursa", "tentacruel", "throh", "tirtouga", "torkoal", "toxicroak", "umbreon", "ursaring", "vaporeon", "vespiquen", "volbeat", "wailmer", "wailord", "walrein", "watchog", "whiscash", "wormadam_plant", "wormadam_sandy", "wormadam_trash", "xatu", "yanma", "yanmega", "zangoose", "zebstrika", "raticate", "sandshrew", "sandslash", "arbok", "persian", "ninetales", "venomoth", "golduck", "arcanine", "muk", "grimer", "hypno", "exeggutor", "marowak", "hitmonlee", "hitmonchan", "weezing", "weezing_galarian", "chansey", "mr_mime", "scyther", "pinsir", "gyarados", "lapras", "omanyte", "omastar", "snorlax", "misdreavus", "wobbuffet", "forretress", "gligar", "scizor", "houndoom", "stantler", "miltank", "blissey", "ninjask", "sableye", "mawile", "sharpedo", "cacturne", "banette", "absol", "farfetchd_galarian", "mismagius", "skuntank", "bronzong", "abomasnow", "weavile", "gliscor", "darmanitan_galarian", "perrserker"]
 	    }],
 	    "exclude": []
+	}, {
+	    "name": "sunrise",
+	    "title": "sunrise Cup",
+	    "include": [{
+	        "filterType": "type",
+	        "values": ["fire", "flying", "grass", "ground", "normal"]
+	    }],
+	    "exclude": [{
+	        "filterType": "type",
+	        "values": ["rock"]
+	    }]
 	}],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega"],
     "pokemonRegions": [{
@@ -591,10 +602,10 @@
             "pokemon": ["altaria", "azumarill", "skarmory", "deoxys_defense", "registeel", "stunfisk_galarian", "tropius"]
         }, {
             "points": 5,
-            "pokemon": ["abomasnow", "bastiodon", "bronzong", "cresselia", "ferrothorn", "hypno", "ivysaur", "jirachi", "marowak_alolan", "medicham", "meganium", "melmetal", "probopass", "regirock", "sableye", "scrafty", "swampert", "umbreon", "venusaur", "zweilous"]
+            "pokemon": ["abomasnow", "bastiodon", "bronzong", "cresselia", "ferrothorn", "galvantula", "hypno", "ivysaur", "jirachi", "marowak_alolan", "medicham", "meganium", "melmetal", "probopass", "regirock", "sableye", "scrafty", "swampert", "umbreon", "venusaur", "whiscash", "zweilous"]
         }, {
             "points": 1,
-            "pokemon": ["cherrim_sunny", "clefable", "dewgong", "drifblim", "empoleon", "froslass", "gardevoir", "gengar", "golbat", "haunter", "jumpluff", "lanturn", "lapras", "lugia", "machamp", "mantine", "mew", "muk_alolan", "noctowl", "obstagoon", "pelipper", "raichu", "raichu_alolan", "raikou", "regice", "shiftry", "stunfisk", "togekiss", "toxicroak", "uxie", "victreebel", "vigoroth", "whiscash", "wigglytuff", "zapdos"]
+            "pokemon": ["cherrim_sunny", "clefable", "dewgong", "drifblim", "empoleon", "froslass", "gardevoir", "gengar", "golbat", "haunter", "jumpluff", "lanturn", "lapras", "lugia", "machamp", "mantine", "mew", "muk_alolan", "noctowl", "obstagoon", "pelipper", "raichu", "raichu_alolan", "raikou", "regice", "shiftry", "stunfisk", "togekiss", "toxicroak", "uxie", "victreebel", "vigoroth", "wigglytuff", "zapdos"]
         }]
     }],
     "pokemon": [{
@@ -7957,13 +7968,14 @@
         },
         "types": ["psychic", "fairy"],
         "fastMoves": ["CHARGE_BEAM", "CONFUSION"],
-        "chargedMoves": ["DISARMING_VOICE", "PSYCHIC", "SHADOW_SNEAK"],
+        "chargedMoves": ["DISARMING_VOICE", "PSYCHIC", "SHADOW_SNEAK", "DRAINING_KISS"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 533,
-        "tags": ["shadoweligible"]
+        "tags": ["shadoweligible"],
+		"eliteMoves": ["DRAINING_KISS"]
     }, {
         "dex": 281,
         "speciesName": "奇魯莉安 暗影化",
@@ -7975,12 +7987,13 @@
         },
         "types": ["psychic", "fairy"],
         "fastMoves": ["CHARGE_BEAM", "CONFUSION"],
-        "chargedMoves": ["DISARMING_VOICE", "PSYCHIC", "SHADOW_SNEAK"],
+        "chargedMoves": ["DISARMING_VOICE", "PSYCHIC", "SHADOW_SNEAK", "DRAINING_KISS"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"]
+        "tags": ["shadow"],
+		"eliteMoves": ["DRAINING_KISS"]
     }, {
         "dex": 282,
         "speciesName": "沙奈朵",
@@ -15920,6 +15933,24 @@
         },
 		"tags": ["mega"],
         "eliteMoves": ["WING_ATTACK", "AIR_CUTTER"]
+    },{
+        "dex": 229,
+        "speciesName": "黑魯加 (Mega)",
+        "speciesId": "houndoom_mega",
+        "baseStats": {
+            "atk": 289,
+            "def": 194,
+            "hp": 181
+        },
+        "types": ["dark", "fire"],
+        "fastMoves": ["FIRE_FANG", "SNARL"],
+        "chargedMoves": ["CRUNCH", "FIRE_BLAST", "FLAMETHROWER", "FOUL_PLAY"],
+        "defaultIVs": {
+            "cp1500": [14, 6, 14, 14],
+            "cp2500": [23.5, 9, 15, 9]
+        },
+        "tags": ["shadoweligible", "mega"],
+        "level25CP": 2416
     }],
     "moves": [{
         "moveId": "ACID",
@@ -16613,6 +16644,14 @@
         "energy": 75,
         "energyGain": 0,
         "cooldown": 500
+    }, {
+        "moveId": "GUST",
+        "name": "起風",
+        "type": "flying",
+        "power": 16,
+        "energy": 0,
+        "energyGain": 12,
+        "cooldown": 2000
     }, {
         "moveId": "GYRO_BALL",
         "name": "陀螺球",
@@ -17757,7 +17796,7 @@
         "cooldown": 500,
 		"buffs": [-1, -1],
         "buffTarget": "opponent",
-        "buffApplyChance": ".2"
+        "buffApplyChance": ".5"
     }, {
         "moveId": "TWISTER",
         "name": "龍捲風",

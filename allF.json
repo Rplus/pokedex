@@ -1758,7 +1758,18 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "HOUNDOOM"
+          "name": "HOUNDOOM",
+          "next": [
+            {
+              "name": "HOUNDOOM_MEGA",
+              "candyCost": 0,
+              "iso": 51,
+              "requirement": [
+                "1st:200 E",
+                "2nd:40 E"
+              ]
+            }
+          ]
         }
       ]
     }

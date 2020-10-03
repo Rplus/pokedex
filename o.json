@@ -14120,7 +14120,7 @@
             "shoulderModeScale": 0.5
           },
           "encounter": {
-            "baseCaptureRate": 0.6,
+            "baseCaptureRate": 0.5,
             "baseFleeRate": 0.2,
             "collisionRadiusM": 0.0535,
             "collisionHeightM": 0.0535,
@@ -14129,7 +14129,7 @@
             "movementTimerS": 10,
             "jumpTimeS": 1,
             "attackTimerS": 29,
-            "attackProbability": 0.05,
+            "attackProbability": 0.1,
             "dodgeProbability": 0.2,
             "dodgeDurationS": 0.7,
             "dodgeDistance": 0.125,
@@ -61006,6 +61006,13 @@
           "familyId": "FAMILY_HOUNDOUR",
           "kmBuddyDistance": 3,
           "modelHeight": 1.25,
+          "evolutionBranch": [
+            {
+              "tempEvolution": "TEMP_EVOLUTION_MEGA",
+              "obFirstTempEvolutionCandyCost": 200,
+              "obSubsequentTempEvolutionCandyCost": 40
+            }
+          ],
           "modelScaleV2": 1,
           "buddyOffsetMale": [
             4.3,
@@ -61024,7 +61031,37 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "obTemporaryEvolutions": [
+            {
+              "obTemporaryEvolution": "TEMP_EVOLUTION_MEGA",
+              "stats": {
+                "baseStamina": 181,
+                "baseAttack": 289,
+                "baseDefense": 194
+              },
+              "obPokedexHeightM": 1.9,
+              "obPokedexWeightKg": 49.5,
+              "type": "POKEMON_TYPE_DARK",
+              "type2": "POKEMON_TYPE_FIRE",
+              "camera": {
+                "cylinderRadiusM": 0.9,
+                "cylinderHeightM": 2
+              },
+              "modelScaleV2": 1,
+              "modelHeight": 2,
+              "buddyOffsetMale": [
+                20,
+                0,
+                0
+              ],
+              "buddyOffsetFemale": [
+                20,
+                0,
+                0
+              ]
+            }
+          ]
         }
       }
     },
@@ -61097,6 +61134,13 @@
           "familyId": "FAMILY_HOUNDOUR",
           "kmBuddyDistance": 3,
           "modelHeight": 1.25,
+          "evolutionBranch": [
+            {
+              "tempEvolution": "TEMP_EVOLUTION_MEGA",
+              "obFirstTempEvolutionCandyCost": 200,
+              "obSubsequentTempEvolutionCandyCost": 40
+            }
+          ],
           "modelScaleV2": 1,
           "form": "HOUNDOOM_NORMAL",
           "buddyOffsetMale": [
@@ -61116,7 +61160,37 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "obTemporaryEvolutions": [
+            {
+              "obTemporaryEvolution": "TEMP_EVOLUTION_MEGA",
+              "stats": {
+                "baseStamina": 181,
+                "baseAttack": 289,
+                "baseDefense": 194
+              },
+              "obPokedexHeightM": 1.9,
+              "obPokedexWeightKg": 49.5,
+              "type": "POKEMON_TYPE_DARK",
+              "type2": "POKEMON_TYPE_FIRE",
+              "camera": {
+                "cylinderRadiusM": 0.9,
+                "cylinderHeightM": 2
+              },
+              "modelScaleV2": 1,
+              "modelHeight": 2,
+              "buddyOffsetMale": [
+                20,
+                0,
+                0
+              ],
+              "buddyOffsetFemale": [
+                20,
+                0,
+                0
+              ]
+            }
+          ]
         }
       }
     },
@@ -61189,6 +61263,14 @@
           "familyId": "FAMILY_HOUNDOUR",
           "kmBuddyDistance": 3,
           "modelHeight": 1.25,
+          "evolutionBranch": [
+            {
+              "form": "HOUNDOOM_PURIFIED",
+              "tempEvolution": "TEMP_EVOLUTION_MEGA",
+              "obFirstTempEvolutionCandyCost": 200,
+              "obSubsequentTempEvolutionCandyCost": 40
+            }
+          ],
           "modelScaleV2": 1,
           "form": "HOUNDOOM_PURIFIED",
           "buddyOffsetMale": [
@@ -61208,7 +61290,37 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "obTemporaryEvolutions": [
+            {
+              "obTemporaryEvolution": "TEMP_EVOLUTION_MEGA",
+              "stats": {
+                "baseStamina": 181,
+                "baseAttack": 289,
+                "baseDefense": 194
+              },
+              "obPokedexHeightM": 1.9,
+              "obPokedexWeightKg": 49.5,
+              "type": "POKEMON_TYPE_DARK",
+              "type2": "POKEMON_TYPE_FIRE",
+              "camera": {
+                "cylinderRadiusM": 0.9,
+                "cylinderHeightM": 2
+              },
+              "modelScaleV2": 1,
+              "modelHeight": 2,
+              "buddyOffsetMale": [
+                20,
+                0,
+                0
+              ],
+              "buddyOffsetFemale": [
+                20,
+                0,
+                0
+              ]
+            }
+          ]
         }
       }
     },
@@ -104990,7 +105102,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "TRI_ATTACK"
+          ]
         }
       }
     },
@@ -105089,7 +105204,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "TRI_ATTACK"
+          ]
         }
       }
     },
@@ -105188,7 +105306,10 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "TRI_ATTACK"
+          ]
         }
       }
     },
@@ -105293,7 +105414,10 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "TRI_ATTACK"
+          ]
         }
       }
     },
@@ -106430,7 +106554,7 @@
           "candyToEvolve": 25,
           "kmBuddyDistance": 5,
           "modelHeight": 0.3,
-          "modelScaleV2": 1.27,
+          "modelScaleV2": 1.33,
           "form": "ROTOM_FAN",
           "buddyOffsetMale": [
             17,
@@ -106524,7 +106648,7 @@
           "candyToEvolve": 25,
           "kmBuddyDistance": 5,
           "modelHeight": 0.39,
-          "modelScaleV2": 1.1,
+          "modelScaleV2": 1.33,
           "form": "ROTOM_FROST",
           "buddyOffsetMale": [
             17,
@@ -106702,7 +106826,7 @@
           "candyToEvolve": 25,
           "kmBuddyDistance": 5,
           "modelHeight": 0.3,
-          "modelScaleV2": 1.27,
+          "modelScaleV2": 1.33,
           "form": "ROTOM_MOW",
           "buddyOffsetMale": [
             17,
@@ -106791,7 +106915,7 @@
           "candyToEvolve": 25,
           "kmBuddyDistance": 5,
           "modelHeight": 0.35,
-          "modelScaleV2": 1.17,
+          "modelScaleV2": 1.33,
           "form": "ROTOM_NORMAL",
           "buddyOffsetMale": [
             17,
@@ -106880,7 +107004,7 @@
           "candyToEvolve": 25,
           "kmBuddyDistance": 5,
           "modelHeight": 0.35,
-          "modelScaleV2": 1.17,
+          "modelScaleV2": 1.33,
           "form": "ROTOM_WASH",
           "buddyOffsetMale": [
             17,
@@ -135888,6 +136012,27 @@
           "damageWindowStartMs": 1300,
           "damageWindowEndMs": 2400,
           "energyDelta": -50
+        }
+      }
+    },
+    {
+      "templateId": "V0345_MOVE_GUST_FAST",
+      "data": {
+        "templateId": "V0345_MOVE_GUST_FAST",
+        "moveSettings": {
+          "movementId": "GUST_FAST",
+          "animationId": 5,
+          "pokemonType": "POKEMON_TYPE_FLYING",
+          "power": 25,
+          "accuracyChance": 1,
+          "staminaLossScalar": 0.01,
+          "trainerLevelMin": 1,
+          "trainerLevelMax": 100,
+          "vfxName": "gust_fast",
+          "durationMs": 2000,
+          "damageWindowStartMs": 900,
+          "damageWindowEndMs": 2000,
+          "energyDelta": 20
         }
       }
     }
