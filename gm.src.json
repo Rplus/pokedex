@@ -8776,6 +8776,7 @@
       "_sta": 128,
       "id": "SMOOCHUM",
       "name": "迷唇娃",
+      "captureRate": 0.25,
       "fleeRate": 0.2,
       "buddyKm": 5,
       "familyId": "F_JYNX",
@@ -10152,8 +10153,15 @@
         "DISARMING_VOICE",
         "PSYCHIC",
         "SHADOW_SNEAK",
+        "DRAINING_KISS",
         "RETURN",
         "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "DRAINING_KISS"
+      ],
+      "eliteMoves": [
+        "DRAINING_KISS"
       ],
       "_atk": 117,
       "_def": 90,
@@ -20223,122 +20231,6 @@
       ]
     },
     {
-      "dex": 585,
-      "types": [
-        "normal",
-        "grass"
-      ],
-      "fastMoves": [
-        "TACKLE",
-        "TAKE_DOWN"
-      ],
-      "chargedMoves": [
-        "ENERGY_BALL",
-        "SEED_BOMB",
-        "WILD_CHARGE"
-      ],
-      "_atk": 115,
-      "_def": 100,
-      "_sta": 155,
-      "id": "DEERLING_AUTUMN",
-      "name": "四季鹿 秋天型態",
-      "captureRate": 0.3,
-      "fleeRate": 0.1,
-      "buddyKm": 3,
-      "familyId": "F_DEERLING",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 585,
-      "types": [
-        "normal",
-        "grass"
-      ],
-      "fastMoves": [
-        "TACKLE",
-        "TAKE_DOWN"
-      ],
-      "chargedMoves": [
-        "ENERGY_BALL",
-        "SEED_BOMB",
-        "WILD_CHARGE"
-      ],
-      "_atk": 115,
-      "_def": 100,
-      "_sta": 155,
-      "id": "DEERLING_SPRING",
-      "name": "四季鹿 春天型態",
-      "captureRate": 0.3,
-      "fleeRate": 0.1,
-      "buddyKm": 3,
-      "familyId": "F_DEERLING",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 585,
-      "types": [
-        "normal",
-        "grass"
-      ],
-      "fastMoves": [
-        "TACKLE",
-        "TAKE_DOWN"
-      ],
-      "chargedMoves": [
-        "ENERGY_BALL",
-        "SEED_BOMB",
-        "WILD_CHARGE"
-      ],
-      "_atk": 115,
-      "_def": 100,
-      "_sta": 155,
-      "id": "DEERLING_SUMMER",
-      "name": "四季鹿 夏天型態",
-      "captureRate": 0.3,
-      "fleeRate": 0.1,
-      "buddyKm": 3,
-      "familyId": "F_DEERLING",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 585,
-      "types": [
-        "normal",
-        "grass"
-      ],
-      "fastMoves": [
-        "TACKLE",
-        "TAKE_DOWN"
-      ],
-      "chargedMoves": [
-        "ENERGY_BALL",
-        "SEED_BOMB",
-        "WILD_CHARGE"
-      ],
-      "_atk": 115,
-      "_def": 100,
-      "_sta": 155,
-      "id": "DEERLING_WINTER",
-      "name": "四季鹿 冬天型態",
-      "captureRate": 0.3,
-      "fleeRate": 0.1,
-      "buddyKm": 3,
-      "familyId": "F_DEERLING",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
       "dex": 586,
       "types": [
         "normal",
@@ -20361,126 +20253,6 @@
       "name": "萌芽鹿",
       "captureRate": 0.15,
       "fleeRate": 0.05,
-      "buddyKm": 3,
-      "familyId": "F_DEERLING",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 586,
-      "types": [
-        "normal",
-        "grass"
-      ],
-      "fastMoves": [
-        "FEINT_ATTACK",
-        "TAKE_DOWN"
-      ],
-      "chargedMoves": [
-        "MEGAHORN",
-        "SOLAR_BEAM",
-        "WILD_CHARGE",
-        "HYPER_BEAM"
-      ],
-      "_atk": 198,
-      "_def": 146,
-      "_sta": 190,
-      "id": "SAWSBUCK_AUTUMN",
-      "name": "萌芽鹿 秋天型態",
-      "captureRate": 0.15,
-      "fleeRate": 0.05,
-      "buddyKm": 3,
-      "familyId": "F_DEERLING",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 586,
-      "types": [
-        "normal",
-        "grass"
-      ],
-      "fastMoves": [
-        "FEINT_ATTACK",
-        "TAKE_DOWN"
-      ],
-      "chargedMoves": [
-        "MEGAHORN",
-        "SOLAR_BEAM",
-        "WILD_CHARGE",
-        "HYPER_BEAM"
-      ],
-      "_atk": 198,
-      "_def": 146,
-      "_sta": 190,
-      "id": "SAWSBUCK_SPRING",
-      "name": "萌芽鹿 春天型態",
-      "captureRate": 0.15,
-      "fleeRate": 0.05,
-      "buddyKm": 3,
-      "familyId": "F_DEERLING",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 586,
-      "types": [
-        "normal",
-        "grass"
-      ],
-      "fastMoves": [
-        "FEINT_ATTACK",
-        "TAKE_DOWN"
-      ],
-      "chargedMoves": [
-        "MEGAHORN",
-        "SOLAR_BEAM",
-        "WILD_CHARGE",
-        "HYPER_BEAM"
-      ],
-      "_atk": 198,
-      "_def": 146,
-      "_sta": 190,
-      "id": "SAWSBUCK_SUMMER",
-      "name": "萌芽鹿 夏天型態",
-      "captureRate": 0.15,
-      "fleeRate": 0.05,
-      "buddyKm": 3,
-      "familyId": "F_DEERLING",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 586,
-      "types": [
-        "normal",
-        "grass"
-      ],
-      "fastMoves": [
-        "FEINT_ATTACK",
-        "TAKE_DOWN"
-      ],
-      "chargedMoves": [
-        "MEGAHORN",
-        "SOLAR_BEAM",
-        "WILD_CHARGE",
-        "HYPER_BEAM"
-      ],
-      "_atk": 198,
-      "_def": 146,
-      "_sta": 190,
-      "id": "SAWSBUCK_WINTER",
-      "name": "萌芽鹿 冬天型態",
-      "captureRate": 0.2,
-      "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_DEERLING",
       "genderMF": [
