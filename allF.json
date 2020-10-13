@@ -3671,7 +3671,7 @@
           "name": "KROKOROK",
           "next": [
             {
-              "candyCost": 50,
+              "candyCost": 100,
               "name": "KROOKODILE"
             }
           ]
