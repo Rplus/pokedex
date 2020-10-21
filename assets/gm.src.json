@@ -25590,6 +25590,23 @@
       "pve_damageWindowEnd": 2.8
     },
     {
+      "moveId": "SHADOW_BONE",
+      "name": "Shadow Bone",
+      "power": 80,
+      "type": "ghost",
+      "energy": 45,
+      "energyGain": 0,
+      "effect": "[敵], 20%, -1階防",
+      "turn": 1,
+      "mid": "315",
+      "isFast": false,
+      "pve_power": 80,
+      "pve_energyDelta": -50,
+      "pve_duration": 2.8,
+      "pve_damageWindowStart": 2.25,
+      "pve_damageWindowEnd": 2.7
+    },
+    {
       "moveId": "SHADOW_CLAW",
       "name": "暗影爪",
       "power": 6,
