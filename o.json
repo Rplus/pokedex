@@ -2551,7 +2551,8 @@
           "buddyGroupNumber": 3,
           "eliteQuickMove": [
             "EMBER_FAST",
-            "WING_ATTACK_FAST"
+            "WING_ATTACK_FAST",
+            "DRAGON_BREATH_FAST"
           ],
           "eliteCinematicMove": [
             "BLAST_BURN",
@@ -2702,7 +2703,8 @@
           "buddyGroupNumber": 3,
           "eliteQuickMove": [
             "EMBER_FAST",
-            "WING_ATTACK_FAST"
+            "WING_ATTACK_FAST",
+            "DRAGON_BREATH_FAST"
           ],
           "eliteCinematicMove": [
             "BLAST_BURN",
@@ -2815,7 +2817,8 @@
           "buddyGroupNumber": 3,
           "eliteQuickMove": [
             "EMBER_FAST",
-            "WING_ATTACK_FAST"
+            "WING_ATTACK_FAST",
+            "DRAGON_BREATH_FAST"
           ],
           "eliteCinematicMove": [
             "BLAST_BURN",
@@ -2980,7 +2983,8 @@
           "buddyGroupNumber": 3,
           "eliteQuickMove": [
             "EMBER_FAST",
-            "WING_ATTACK_FAST"
+            "WING_ATTACK_FAST",
+            "DRAGON_BREATH_FAST"
           ],
           "eliteCinematicMove": [
             "BLAST_BURN",
@@ -3137,7 +3141,8 @@
           "buddyGroupNumber": 3,
           "eliteQuickMove": [
             "EMBER_FAST",
-            "WING_ATTACK_FAST"
+            "WING_ATTACK_FAST",
+            "DRAGON_BREATH_FAST"
           ],
           "eliteCinematicMove": [
             "BLAST_BURN",
@@ -139774,6 +139779,7 @@
           "movementId": "SHADOW_BONE",
           "animationId": 5,
           "pokemonType": "POKEMON_TYPE_GHOST",
+          "power": 80,
           "accuracyChance": 1,
           "staminaLossScalar": 0.01,
           "trainerLevelMin": 1,
@@ -139781,7 +139787,8 @@
           "vfxName": "shadow_bone",
           "durationMs": 2800,
           "damageWindowStartMs": 2250,
-          "damageWindowEndMs": 2700
+          "damageWindowEndMs": 2700,
+          "energyDelta": -50
         }
       }
     },

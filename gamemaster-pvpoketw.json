@@ -16119,6 +16119,7 @@
     "moves": [{
         "moveId": "ACID",
         "name": "溶解液",
+		"abbreviation": "Ac",
         "type": "poison",
         "power": 6,
         "energy": 0,
@@ -16213,6 +16214,7 @@
     }, {
         "moveId": "AVALANCHE",
         "name": "雪崩",
+		"abbreviation": "Av",
         "type": "ice",
         "power": 90,
         "energy": 45,
@@ -16221,6 +16223,7 @@
     }, {
         "moveId": "BITE",
         "name": "咬住",
+		"abbreviation": "Bi",
         "type": "dark",
         "power": 4,
         "energy": 0,
@@ -16237,6 +16240,7 @@
     }, {
         "moveId": "BLIZZARD",
         "name": "暴風雪",
+		"abbreviation": "Bl",
         "type": "ice",
         "power": 140,
         "energy": 75,
@@ -16261,6 +16265,7 @@
     }, {
         "moveId": "BRAVE_BIRD",
         "name": "勇鳥猛攻",
+		"abbreviation": "BrB",
         "type": "flying",
         "power": 130,
         "energy": 55,
@@ -16272,6 +16277,7 @@
     }, {
         "moveId": "BRICK_BREAK",
         "name": "劈瓦",
+		"abbreviation": "BkB",
         "type": "fighting",
         "power": 40,
         "energy": 35,
@@ -16280,6 +16286,7 @@
     }, {
         "moveId": "BRINE",
         "name": "鹽水",
+		"abbreviation": "Bri",
         "type": "water",
         "power": 60,
         "energy": 50,
@@ -16296,6 +16303,7 @@
     }, {
         "moveId": "BUBBLE_BEAM",
         "name": "泡沫光線",
+		"abbreviation": "BuB",
         "type": "water",
         "power": 25,
         "energy": 40,
@@ -16307,6 +16315,7 @@
     }, {
         "moveId": "BUG_BITE",
         "name": "蟲咬",
+		"abbreviation": "BBi",
         "type": "bug",
         "power": 3,
         "energy": 0,
@@ -16315,6 +16324,7 @@
     }, {
         "moveId": "BUG_BUZZ",
         "name": "蟲鳴",
+		"abbreviation": "BBu",
         "type": "bug",
         "power": 90,
         "energy": 60,
@@ -16326,6 +16336,7 @@
     }, {
         "moveId": "BULLDOZE",
         "name": "重踏",
+		"abbreviation": "Bd",
         "type": "ground",
         "power": 80,
         "energy": 60,
@@ -16358,6 +16369,7 @@
     }, {
         "moveId": "CHARM",
         "name": "撒嬌",
+		"abbreviation": "Ch",
         "type": "fairy",
         "power": 16,
         "energy": 0,
@@ -16377,6 +16389,7 @@
     }, {
         "moveId": "CONFUSION",
         "name": "念力",
+		"abbreviation": "Cf",
         "type": "psychic",
         "power": 16,
         "energy": 0,
@@ -16385,6 +16398,7 @@
     }, {
         "moveId": "COUNTER",
         "name": "雙倍奉還",
+		"abbreviation": "C",
         "type": "fighting",
         "power": 8,
         "energy": 0,
@@ -16393,6 +16407,7 @@
     }, {
         "moveId": "CRABHAMMER",
         "name": "蟹鉗錘",
+		"abbreviation": "Crbh",
         "type": "water",
         "power": 75,
         "energy": 50,
@@ -16404,6 +16419,7 @@
     }, {
         "moveId": "CROSS_CHOP",
         "name": "十字劈",
+		"abbreviation": "CrC",
         "type": "fighting",
         "power": 50,
         "energy": 35,
@@ -16420,6 +16436,7 @@
     }, {
         "moveId": "CRUNCH",
         "name": "咬碎",
+		"abbreviation": "Cr",
         "type": "dark",
         "power": 70,
         "energy": 45,
@@ -16428,6 +16445,7 @@
     }, {
         "moveId": "CUT",
         "name": "居合斬",
+		"abbreviation": "Cu",
         "type": "normal",
         "power": 3,
         "energy": 0,
@@ -16452,6 +16470,7 @@
     }, {
         "moveId": "DIG",
         "name": "挖洞",
+		"abbreviation": "Dg",
         "type": "ground",
         "power": 100,
         "energy": 80,
@@ -16511,6 +16530,7 @@
     }, {
         "moveId": "DRAGON_PULSE",
         "name": "龍之波動",
+		"abbreviation": "DgP",
         "type": "dragon",
         "power": 90,
         "energy": 60,
@@ -16535,6 +16555,7 @@
     }, {
         "moveId": "DRILL_PECK",
         "name": "啄鑽",
+		"abbreviation": "DrlP",
         "type": "flying",
         "power": 65,
         "energy": 40,
@@ -16551,6 +16572,7 @@
     }, {
         "moveId": "DYNAMIC_PUNCH",
         "name": "爆裂拳",
+		"abbreviation": "DyP",
         "type": "fighting",
         "power": 90,
         "energy": 50,
@@ -16559,6 +16581,7 @@
     }, {
         "moveId": "EARTHQUAKE",
         "name": "地震",
+		"abbreviation": "Eq",
         "type": "ground",
         "power": 120,
         "energy": 65,
@@ -16597,6 +16620,7 @@
     }, {
         "moveId": "EXTRASENSORY",
         "name": "神通力",
+		"abbreviation": "Ex",
         "type": "psychic",
         "power": 8,
         "energy": 0,
@@ -16613,6 +16637,7 @@
     }, {
         "moveId": "FELL_STINGER",
         "name": "致命針刺",
+		"abbreviation": "FeS",
         "type": "bug",
         "power": 20,
         "energy": 35,
@@ -16624,6 +16649,7 @@
     }, {
         "moveId": "FIRE_BLAST",
         "name": "大字爆炎",
+		"abbreviation": "FiB",
         "type": "fire",
         "power": 140,
         "energy": 80,
@@ -16640,6 +16666,7 @@
     }, {
         "moveId": "FIRE_PUNCH",
         "name": "火焰拳",
+		"abbreviation": "FiP",
         "type": "fire",
         "power": 55,
         "energy": 40,
@@ -16664,6 +16691,7 @@
     }, {
         "moveId": "FLAME_BURST",
         "name": "烈焰濺射",
+		"abbreviation": "FmB",
         "type": "fire",
         "power": 70,
         "energy": 55,
@@ -16672,6 +16700,7 @@
     }, {
         "moveId": "FLAME_CHARGE",
         "name": "蓄能焰襲",
+		"abbreviation": "FmC",
         "type": "fire",
         "power": 65,
         "energy": 50,
@@ -16691,6 +16720,7 @@
     }, {
         "moveId": "FLAMETHROWER",
         "name": "噴射火焰",
+		"abbreviation": "Ft",
         "type": "fire",
         "power": 90,
         "energy": 55,
@@ -16715,6 +16745,7 @@
     }, {
         "moveId": "FLYING_PRESS",
         "name": "飛身重壓",
+		"abbreviation": "FlP",
         "type": "fighting",
         "power": 90,
         "energy": 40,
@@ -16731,6 +16762,7 @@
     }, {
         "moveId": "FOUL_PLAY",
         "name": "欺詐",
+		"abbreviation": "FoP",
         "type": "dark",
         "power": 70,
         "energy": 45,
@@ -16995,6 +17027,7 @@
     }, {
         "moveId": "HURRICANE",
         "name": "暴風",
+		"abbreviation": "Hu",
         "type": "flying",
         "power": 110,
         "energy": 65,
@@ -17177,6 +17210,7 @@
     }, {
         "moveId": "LUNGE",
         "name": "猛撲",
+		"abbreviation": "Lu",
         "type": "bug",
         "power": 60,
         "energy": 45,
@@ -17188,6 +17222,7 @@
     }, {
         "moveId": "MAGNET_BOMB",
         "name": "磁鐵炸彈",
+		"abbreviation": "MgB",
         "type": "steel",
         "power": 70,
         "energy": 45,
@@ -17204,6 +17239,7 @@
     }, {
         "moveId": "MEGAHORN",
         "name": "超級角擊",
+		"abbreviation": "Mh",
         "type": "bug",
         "power": 100,
         "energy": 55,
@@ -17228,6 +17264,7 @@
     }, {
         "moveId": "MIRROR_COAT",
         "name": "鏡面反射",
+		"abbreviation": "MrC",
         "type": "psychic",
         "power": 60,
         "energy": 55,
@@ -17236,6 +17273,7 @@
     }, {
         "moveId": "MIRROR_SHOT",
         "name": "鏡光射擊",
+		"abbreviation": "MrS",
         "type": "steel",
         "power": 35,
         "energy": 35,
@@ -17285,6 +17323,7 @@
     }, {
         "moveId": "MUD_SLAP",
         "name": "擲泥",
+		"abbreviation": "MSl",
         "type": "ground",
         "power": 11,
         "energy": 0,
@@ -17293,6 +17332,7 @@
     }, {
         "moveId": "NIGHT_SHADE",
         "name": "黑夜魔影",
+		"abbreviation": "NSh",
         "type": "ghost",
         "power": 60,
         "energy": 55,
@@ -17312,6 +17352,7 @@
     }, {
         "moveId": "OCTAZOOKA",
         "name": "章魚桶炮",
+		"abbreviation": "Oc",
         "type": "water",
         "power": 50,
         "energy": 50,
@@ -17350,6 +17391,7 @@
     }, {
         "moveId": "OVERHEAT",
         "name": "過熱",
+		"abbreviation": "Ov",
         "type": "fire",
         "power": 130,
         "energy": 55,
@@ -17361,6 +17403,7 @@
     }, {
         "moveId": "PARABOLIC_CHARGE",
         "name": "拋物面充電",
+		"abbreviation": "PbC",
         "type": "electric",
         "power": 25,
         "energy": 55,
@@ -17369,6 +17412,7 @@
     }, {
         "moveId": "PECK",
         "name": "啄",
+		"abbreviation": "Pk",
         "type": "flying",
         "power": 6,
         "energy": 0,
@@ -17377,6 +17421,7 @@
     }, {
         "moveId": "PETAL_BLIZZARD",
         "name": "落英繽紛",
+		"abbreviation": "PlB",
         "type": "grass",
         "power": 110,
         "energy": 65,
@@ -17409,6 +17454,7 @@
     }, {
         "moveId": "POISON_STING",
         "name": "毒針",
+		"abbreviation": "PSt",
         "type": "poison",
         "power": 3,
         "energy": 0,
@@ -17417,6 +17463,7 @@
     }, {
         "moveId": "POUND",
         "name": "拍擊",
+		"abbreviation": "Pd",
         "type": "normal",
         "power": 5,
         "energy": 0,
@@ -17460,6 +17507,7 @@
     }, {
         "moveId": "PRECIPICE_BLADES",
         "name": "斷崖之劍",
+		"abbreviation": "PrB",
         "type": "ground",
         "power": 130,
         "energy": 60,
@@ -17468,6 +17516,7 @@
     }, {
         "moveId": "PRESENT",
         "name": "禮物",
+		"abbreviation": "Pr",
         "type": "normal",
         "power": 3,
         "energy": 0,
@@ -17476,6 +17525,7 @@
     }, {
         "moveId": "PSYBEAM",
         "name": "幻象光線",
+		"abbreviation": "Psb",
         "type": "psychic",
         "power": 70,
         "energy": 60,
@@ -17514,6 +17564,7 @@
     }, {
         "moveId": "PSYSHOCK",
         "name": "精神衝擊",
+		"abbreviation": "Psh",
         "type": "psychic",
         "power": 70,
         "energy": 45,
@@ -17522,6 +17573,7 @@
     }, {
         "moveId": "PSYSTRIKE",
         "name": "精神擊破",
+		"abbreviation": "Pst",
         "type": "psychic",
         "power": 90,
         "energy": 45,
@@ -17554,6 +17606,7 @@
     }, {
         "moveId": "RETURN",
         "name": "報恩",
+		"abbreviation": "Re",
         "type": "normal",
         "power": 130,
         "energy": 70,
@@ -17578,6 +17631,7 @@
     }, {
         "moveId": "ROCK_SMASH",
         "name": "碎岩",
+		"abbreviation": "RSm",
         "type": "fighting",
         "power": 9,
         "energy": 0,
@@ -17586,6 +17640,7 @@
     }, {
         "moveId": "ROCK_THROW",
         "name": "落石",
+		"abbreviation": "RTh",
         "type": "rock",
         "power": 8,
         "energy": 0,
@@ -17610,6 +17665,7 @@
     }, {
         "moveId": "SACRED_SWORD",
         "name": "聖劍",
+		"abbreviation": "SSw",
         "type": "fighting",
         "power": 60,
         "energy": 35,
@@ -17629,6 +17685,7 @@
     }, {
         "moveId": "SCALD",
         "name": "熱水",
+		"abbreviation": "Sc",
         "type": "water",
         "power": 80,
         "energy": 60,
@@ -17645,6 +17702,7 @@
     }, {
         "moveId": "SCRATCH",
         "name": "抓",
+		"abbreviation": "Scr",
         "type": "normal",
         "power": 4,
         "energy": 0,
@@ -17653,6 +17711,7 @@
     }, {
         "moveId": "SEED_BOMB",
         "name": "種子炸彈",
+		"abbreviation": "SeB",
         "type": "grass",
         "power": 55,
         "energy": 40,
@@ -17677,6 +17736,7 @@
     }, {
         "moveId": "SHADOW_PUNCH",
         "name": "暗影拳",
+		"abbreviation": "ShP",
         "type": "ghost",
         "power": 40,
         "energy": 35,
@@ -17704,6 +17764,7 @@
     }, {
         "moveId": "SILVER_WIND",
         "name": "銀色旋風",
+		"abbreviation": "SvW",
         "type": "bug",
         "power": 45,
         "energy": 45,
@@ -17715,6 +17776,7 @@
     }, {
         "moveId": "SKULL_BASH",
         "name": "火箭頭錘",
+		"abbreviation": "SkB",
         "type": "normal",
         "power": 130,
         "energy": 75,
@@ -17742,6 +17804,7 @@
     }, {
         "moveId": "SLUDGE_BOMB",
         "name": "污泥炸彈",
+		"abbreviation": "SlB",
         "type": "poison",
         "power": 80,
         "energy": 50,
@@ -17766,6 +17829,7 @@
     }, {
         "moveId": "SNARL",
         "name": "大聲咆哮",
+		"abbreviation": "Sn",
         "type": "dark",
         "power": 5,
         "energy": 0,
@@ -17774,6 +17838,7 @@
     }, {
         "moveId": "SOLAR_BEAM",
         "name": "日光束",
+		"abbreviation": "SoB",
         "type": "grass",
         "power": 150,
         "energy": 80,
@@ -17782,6 +17847,7 @@
     }, {
         "moveId": "SPARK",
         "name": "電光",
+		"abbreviation": "Sp",
         "type": "electric",
         "power": 4,
         "energy": 0,
@@ -17790,6 +17856,7 @@
     }, {
         "moveId": "SPLASH",
         "name": "躍起",
+		"abbreviation": "Spl",
         "type": "water",
         "power": 0,
         "energy": 0,
@@ -17798,6 +17865,7 @@
     }, {
         "moveId": "STEEL_WING",
         "name": "鋼翼",
+		"abbreviation": "StW",
         "type": "steel",
         "power": 7,
         "energy": 0,
@@ -17806,6 +17874,7 @@
     }, {
         "moveId": "STOMP",
         "name": "踩踏",
+		"abbreviation": "St",
         "type": "normal",
         "power": 55,
         "energy": 40,
@@ -17822,6 +17891,7 @@
     }, {
         "moveId": "STRUGGLE",
         "name": "掙扎",
+		"abbreviation": "Str",
         "type": "normal",
         "power": 35,
         "energy": 100,
@@ -17830,6 +17900,7 @@
     }, {
         "moveId": "STRUGGLE_BUG",
         "name": "蟲之抵抗",
+		"abbreviation": "StB",
         "type": "bug",
         "power": 9,
         "energy": 0,
@@ -17838,6 +17909,7 @@
     }, {
         "moveId": "SUBMISSION",
         "name": "地獄翻滾",
+		"abbreviation": "Sm",
         "type": "fighting",
         "power": 60,
         "energy": 50,
@@ -17846,6 +17918,7 @@
     }, {
         "moveId": "SUCKER_PUNCH",
         "name": "突襲",
+		"abbreviation": "SkP",
         "type": "dark",
         "power": 5,
         "energy": 0,
@@ -17873,6 +17946,7 @@
     }, {
         "moveId": "SWIFT",
         "name": "高速星星",
+		"abbreviation": "Sw",
         "type": "normal",
         "power": 60,
         "energy": 55,
@@ -17881,6 +17955,7 @@
     }, {
         "moveId": "SYNCHRONOISE",
         "name": "同步干擾",
+		"abbreviation": "Sy",
         "type": "psychic",
         "power": 80,
         "energy": 50,
@@ -17889,6 +17964,7 @@
     }, {
         "moveId": "TACKLE",
         "name": "撞擊",
+		"abbreviation": "Tk",
         "type": "normal",
         "power": 3,
         "energy": 0,
@@ -17937,6 +18013,7 @@
     }, {
         "moveId": "THUNDERBOLT",
         "name": "十萬伏特",
+		"abbreviation": "Tb",
         "type": "electric",
         "power": 90,
         "energy": 55,
@@ -17964,6 +18041,7 @@
     }, {
         "moveId": "TWISTER",
         "name": "龍捲風",
+		"abbreviation": "Tw",
         "type": "dragon",
         "power": 45,
         "energy": 45,
@@ -18090,6 +18168,7 @@
     }, {
         "moveId": "WRAP",
         "name": "緊束",
+		"abbreviation": "Wr",
         "type": "normal",
         "power": 60,
         "energy": 45,
