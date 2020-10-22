@@ -3353,6 +3353,34 @@
       ]
     },
     {
+      "dex": 77,
+      "types": [
+        "psychic"
+      ],
+      "fastMoves": [
+        "LOW_KICK",
+        "PSYCHO_CUT"
+      ],
+      "chargedMoves": [
+        "PLAY_ROUGH",
+        "PSYBEAM",
+        "SWIFT"
+      ],
+      "_atk": 170,
+      "_def": 127,
+      "_sta": 137,
+      "id": "PONYTA_GALARIAN",
+      "name": "小火馬 伽勒爾型態",
+      "captureRate": 0.4,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_PONYTA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 78,
       "types": [
         "fire"
@@ -3378,6 +3406,36 @@
       "_sta": 163,
       "id": "RAPIDASH",
       "name": "烈焰馬",
+      "captureRate": 0.15,
+      "fleeRate": 0.06,
+      "buddyKm": 3,
+      "familyId": "F_PONYTA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 78,
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "fastMoves": [
+        "LOW_KICK",
+        "PSYCHO_CUT"
+      ],
+      "chargedMoves": [
+        "PLAY_ROUGH",
+        "PSYCHIC",
+        "BODY_SLAM",
+        "MEGAHORN"
+      ],
+      "_atk": 207,
+      "_def": 162,
+      "_sta": 163,
+      "id": "RAPIDASH_GALARIAN",
+      "name": "烈焰馬 伽勒爾型態",
       "captureRate": 0.15,
       "fleeRate": 0.06,
       "buddyKm": 3,
@@ -19897,6 +19955,34 @@
       ]
     },
     {
+      "dex": 562,
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH"
+      ],
+      "chargedMoves": [
+        "NIGHT_SHADE",
+        "SAND_TOMB",
+        "ROCK_TOMB"
+      ],
+      "_atk": 95,
+      "_def": 141,
+      "_sta": 116,
+      "id": "YAMASK_GALARIAN",
+      "name": "哭哭面具 伽勒爾型態",
+      "captureRate": 0.3,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_YAMASK",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 563,
       "types": [
         "ghost"
@@ -19917,6 +20003,34 @@
       "name": "死神棺",
       "captureRate": 0.1,
       "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_YAMASK",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 867,
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "SAND_TOMB",
+        "ROCK_TOMB"
+      ],
+      "_atk": 163,
+      "_def": 237,
+      "_sta": 151,
+      "id": "RUNERIGUS",
+      "name": "死神板",
+      "captureRate": 0.3,
+      "fleeRate": 0.1,
       "buddyKm": 3,
       "familyId": "F_YAMASK",
       "genderMF": [
@@ -25591,7 +25705,7 @@
     },
     {
       "moveId": "SHADOW_BONE",
-      "name": "Shadow Bone",
+      "name": "暗影之骨",
       "power": 80,
       "type": "ghost",
       "energy": 45,
