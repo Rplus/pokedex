@@ -27725,7 +27725,8 @@
           "evolutionBranch": [
             {
               "evolution": "RAPIDASH",
-              "candyCost": 50
+              "candyCost": 50,
+              "form": "RAPIDASH_NORMAL"
             }
           ],
           "modelScaleV2": 1,
@@ -27740,12 +27741,445 @@
             0
           ],
           "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
           "thirdMove": {
             "stardustToUnlock": 50000,
             "candyToUnlock": 50
           },
           "isTransferable": true,
           "isDeployable": true,
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "FIRE_BLAST"
+          ]
+        }
+      }
+    },
+    {
+      "templateId": "V0077_POKEMON_PONYTA_GALARIAN",
+      "data": {
+        "templateId": "V0077_POKEMON_PONYTA_GALARIAN",
+        "pokemonSettings": {
+          "pokemonId": "PONYTA",
+          "modelScale": 1.01,
+          "type": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "diskRadiusM": 0.5681,
+            "cylinderRadiusM": 0.5,
+            "cylinderHeightM": 0.95,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.4,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.2525,
+            "collisionHeightM": 0.63125,
+            "collisionHeadRadiusM": 0.202,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 8,
+            "jumpTimeS": 0.95,
+            "attackTimerS": 23,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 3.7,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 137,
+            "baseAttack": 170,
+            "baseDefense": 127
+          },
+          "quickMoves": [
+            "LOW_KICK_FAST",
+            "PSYCHO_CUT_FAST"
+          ],
+          "cinematicMoves": [
+            "PLAY_ROUGH",
+            "PSYBEAM",
+            "SWIFT"
+          ],
+          "animationTime": [
+            2.3333,
+            0.6667,
+            1.6667,
+            1.5,
+            5.333333,
+            2.3333,
+            1.6667,
+            0
+          ],
+          "evolutionIds": [
+            "RAPIDASH"
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 0.8,
+          "pokedexWeightKg": 24,
+          "heightStdDev": 0.1,
+          "weightStdDev": 3,
+          "familyId": "FAMILY_PONYTA",
+          "candyToEvolve": 50,
+          "kmBuddyDistance": 3,
+          "modelHeight": 0.96,
+          "evolutionBranch": [
+            {
+              "evolution": "RAPIDASH",
+              "candyCost": 50,
+              "form": "RAPIDASH_GALARIAN"
+            }
+          ],
+          "modelScaleV2": 1,
+          "form": "PONYTA_GALARIAN",
+          "buddyOffsetMale": [
+            0,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            0,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 2,
+          "obSharedPokemonFloat1": 3
+        }
+      }
+    },
+    {
+      "templateId": "V0077_POKEMON_PONYTA_NORMAL",
+      "data": {
+        "templateId": "V0077_POKEMON_PONYTA_NORMAL",
+        "pokemonSettings": {
+          "pokemonId": "PONYTA",
+          "modelScale": 1.01,
+          "type": "POKEMON_TYPE_FIRE",
+          "camera": {
+            "diskRadiusM": 0.5681,
+            "cylinderRadiusM": 0.5,
+            "cylinderHeightM": 1.2625,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.4,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.2525,
+            "collisionHeightM": 0.63125,
+            "collisionHeadRadiusM": 0.202,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 8,
+            "jumpTimeS": 0.95,
+            "attackTimerS": 23,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 3.7,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 137,
+            "baseAttack": 170,
+            "baseDefense": 127
+          },
+          "quickMoves": [
+            "TACKLE_FAST",
+            "EMBER_FAST"
+          ],
+          "cinematicMoves": [
+            "FLAME_CHARGE",
+            "FLAME_WHEEL",
+            "STOMP"
+          ],
+          "animationTime": [
+            2.3333,
+            0.6667,
+            1.6667,
+            1.5,
+            5.333333,
+            2.3333,
+            1.6667,
+            0
+          ],
+          "evolutionIds": [
+            "RAPIDASH"
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1,
+          "pokedexWeightKg": 30,
+          "heightStdDev": 0.125,
+          "weightStdDev": 3.75,
+          "familyId": "FAMILY_PONYTA",
+          "candyToEvolve": 50,
+          "kmBuddyDistance": 3,
+          "modelHeight": 0.97,
+          "evolutionBranch": [
+            {
+              "evolution": "RAPIDASH",
+              "candyCost": 50,
+              "form": "RAPIDASH_NORMAL"
+            }
+          ],
+          "modelScaleV2": 1,
+          "form": "PONYTA_NORMAL",
+          "buddyOffsetMale": [
+            0,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            0,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "FIRE_BLAST"
+          ]
+        }
+      }
+    },
+    {
+      "templateId": "V0077_POKEMON_PONYTA_PURIFIED",
+      "data": {
+        "templateId": "V0077_POKEMON_PONYTA_PURIFIED",
+        "pokemonSettings": {
+          "pokemonId": "PONYTA",
+          "modelScale": 1.01,
+          "type": "POKEMON_TYPE_FIRE",
+          "camera": {
+            "diskRadiusM": 0.5681,
+            "cylinderRadiusM": 0.5,
+            "cylinderHeightM": 1.2625,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.4,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.2525,
+            "collisionHeightM": 0.63125,
+            "collisionHeadRadiusM": 0.202,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 8,
+            "jumpTimeS": 0.95,
+            "attackTimerS": 23,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 3.7,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 137,
+            "baseAttack": 170,
+            "baseDefense": 127
+          },
+          "quickMoves": [
+            "TACKLE_FAST",
+            "EMBER_FAST"
+          ],
+          "cinematicMoves": [
+            "FLAME_CHARGE",
+            "FLAME_WHEEL",
+            "STOMP"
+          ],
+          "animationTime": [
+            2.3333,
+            0.6667,
+            1.6667,
+            1.5,
+            5.333333,
+            2.3333,
+            1.6667,
+            0
+          ],
+          "evolutionIds": [
+            "RAPIDASH"
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1,
+          "pokedexWeightKg": 30,
+          "heightStdDev": 0.125,
+          "weightStdDev": 3.75,
+          "familyId": "FAMILY_PONYTA",
+          "candyToEvolve": 50,
+          "kmBuddyDistance": 3,
+          "modelHeight": 0.97,
+          "evolutionBranch": [
+            {
+              "evolution": "RAPIDASH",
+              "candyCost": 50,
+              "form": "RAPIDASH_PURIFIED"
+            }
+          ],
+          "modelScaleV2": 1,
+          "form": "PONYTA_PURIFIED",
+          "buddyOffsetMale": [
+            0,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            0,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 2,
+          "eliteCinematicMove": [
+            "FIRE_BLAST"
+          ]
+        }
+      }
+    },
+    {
+      "templateId": "V0077_POKEMON_PONYTA_SHADOW",
+      "data": {
+        "templateId": "V0077_POKEMON_PONYTA_SHADOW",
+        "pokemonSettings": {
+          "pokemonId": "PONYTA",
+          "modelScale": 1.01,
+          "type": "POKEMON_TYPE_FIRE",
+          "camera": {
+            "diskRadiusM": 0.5681,
+            "cylinderRadiusM": 0.5,
+            "cylinderHeightM": 1.2625,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.4,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.2525,
+            "collisionHeightM": 0.63125,
+            "collisionHeadRadiusM": 0.202,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 8,
+            "jumpTimeS": 0.95,
+            "attackTimerS": 23,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 3.7,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 137,
+            "baseAttack": 170,
+            "baseDefense": 127
+          },
+          "quickMoves": [
+            "TACKLE_FAST",
+            "EMBER_FAST"
+          ],
+          "cinematicMoves": [
+            "FLAME_CHARGE",
+            "FLAME_WHEEL",
+            "STOMP"
+          ],
+          "animationTime": [
+            2.3333,
+            0.6667,
+            1.6667,
+            1.5,
+            5.333333,
+            2.3333,
+            1.6667,
+            0
+          ],
+          "evolutionIds": [
+            "RAPIDASH"
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1,
+          "pokedexWeightKg": 30,
+          "heightStdDev": 0.125,
+          "weightStdDev": 3.75,
+          "familyId": "FAMILY_PONYTA",
+          "candyToEvolve": 50,
+          "kmBuddyDistance": 3,
+          "modelHeight": 0.97,
+          "evolutionBranch": [
+            {
+              "evolution": "RAPIDASH",
+              "candyCost": 50,
+              "form": "RAPIDASH_SHADOW"
+            }
+          ],
+          "modelScaleV2": 1,
+          "form": "PONYTA_SHADOW",
+          "buddyOffsetMale": [
+            0,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            0,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "shadow": {
+            "purificationStardustNeeded": 3000,
+            "purificationCandyNeeded": 3,
+            "purifiedChargeMove": "RETURN",
+            "shadowChargeMove": "FRUSTRATION"
+          },
           "buddyGroupNumber": 2,
           "eliteCinematicMove": [
             "FIRE_BLAST"
@@ -27833,12 +28267,419 @@
             73.55
           ],
           "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
           "thirdMove": {
             "stardustToUnlock": 50000,
             "candyToUnlock": 50
           },
           "isTransferable": true,
           "isDeployable": true,
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ]
+        }
+      }
+    },
+    {
+      "templateId": "V0078_POKEMON_RAPIDASH_GALARIAN",
+      "data": {
+        "templateId": "V0078_POKEMON_RAPIDASH_GALARIAN",
+        "pokemonSettings": {
+          "pokemonId": "RAPIDASH",
+          "modelScale": 0.81,
+          "type": "POKEMON_TYPE_PSYCHIC",
+          "type2": "POKEMON_TYPE_FAIRY",
+          "camera": {
+            "diskRadiusM": 0.6075,
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 1.9,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.15,
+            "baseFleeRate": 0.06,
+            "collisionRadiusM": 0.5,
+            "collisionHeightM": 0.891,
+            "collisionHeadRadiusM": 0.243,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 6,
+            "jumpTimeS": 1,
+            "attackTimerS": 17,
+            "bonusCandyCaptureReward": 2,
+            "bonusStardustCaptureReward": 200,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 5,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 163,
+            "baseAttack": 207,
+            "baseDefense": 162
+          },
+          "quickMoves": [
+            "LOW_KICK_FAST",
+            "PSYCHO_CUT_FAST"
+          ],
+          "cinematicMoves": [
+            "PLAY_ROUGH",
+            "PSYCHIC",
+            "BODY_SLAM",
+            "MEGAHORN"
+          ],
+          "animationTime": [
+            2.0667,
+            0.8333,
+            2.3333,
+            1.8667,
+            0,
+            2.1667,
+            2.6667,
+            0
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1.7,
+          "pokedexWeightKg": 80,
+          "parentPokemonId": "PONYTA",
+          "heightStdDev": 0.2125,
+          "weightStdDev": 10,
+          "familyId": "FAMILY_PONYTA",
+          "kmBuddyDistance": 3,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 2.07,
+          "modelScaleV2": 1,
+          "form": "RAPIDASH_GALARIAN",
+          "buddyOffsetMale": [
+            13,
+            0,
+            60
+          ],
+          "buddyOffsetFemale": [
+            13,
+            0,
+            60
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 3,
+          "obSharedPokemonFloat1": 4
+        }
+      }
+    },
+    {
+      "templateId": "V0078_POKEMON_RAPIDASH_NORMAL",
+      "data": {
+        "templateId": "V0078_POKEMON_RAPIDASH_NORMAL",
+        "pokemonSettings": {
+          "pokemonId": "RAPIDASH",
+          "modelScale": 0.81,
+          "type": "POKEMON_TYPE_FIRE",
+          "camera": {
+            "diskRadiusM": 0.6075,
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 1.701,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.15,
+            "baseFleeRate": 0.06,
+            "collisionRadiusM": 0.5,
+            "collisionHeightM": 0.891,
+            "collisionHeadRadiusM": 0.243,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 6,
+            "jumpTimeS": 1,
+            "attackTimerS": 17,
+            "bonusCandyCaptureReward": 2,
+            "bonusStardustCaptureReward": 200,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 4.2,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 163,
+            "baseAttack": 207,
+            "baseDefense": 162
+          },
+          "quickMoves": [
+            "LOW_KICK_FAST",
+            "FIRE_SPIN_FAST"
+          ],
+          "cinematicMoves": [
+            "FIRE_BLAST",
+            "DRILL_RUN",
+            "HEAT_WAVE"
+          ],
+          "animationTime": [
+            2.0667,
+            0.8333,
+            2.3333,
+            1.8667,
+            0,
+            2.1667,
+            2.6667,
+            0
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1.7,
+          "pokedexWeightKg": 95,
+          "parentPokemonId": "PONYTA",
+          "heightStdDev": 0.2125,
+          "weightStdDev": 11.875,
+          "familyId": "FAMILY_PONYTA",
+          "kmBuddyDistance": 3,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 1.65,
+          "modelScaleV2": 1,
+          "form": "RAPIDASH_NORMAL",
+          "buddyOffsetMale": [
+            13,
+            0,
+            73.55
+          ],
+          "buddyOffsetFemale": [
+            13,
+            0,
+            73.55
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ]
+        }
+      }
+    },
+    {
+      "templateId": "V0078_POKEMON_RAPIDASH_PURIFIED",
+      "data": {
+        "templateId": "V0078_POKEMON_RAPIDASH_PURIFIED",
+        "pokemonSettings": {
+          "pokemonId": "RAPIDASH",
+          "modelScale": 0.81,
+          "type": "POKEMON_TYPE_FIRE",
+          "camera": {
+            "diskRadiusM": 0.6075,
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 1.701,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.15,
+            "baseFleeRate": 0.06,
+            "collisionRadiusM": 0.5,
+            "collisionHeightM": 0.891,
+            "collisionHeadRadiusM": 0.243,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 6,
+            "jumpTimeS": 1,
+            "attackTimerS": 17,
+            "bonusCandyCaptureReward": 2,
+            "bonusStardustCaptureReward": 200,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 4.2,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 163,
+            "baseAttack": 207,
+            "baseDefense": 162
+          },
+          "quickMoves": [
+            "LOW_KICK_FAST",
+            "FIRE_SPIN_FAST"
+          ],
+          "cinematicMoves": [
+            "FIRE_BLAST",
+            "DRILL_RUN",
+            "HEAT_WAVE"
+          ],
+          "animationTime": [
+            2.0667,
+            0.8333,
+            2.3333,
+            1.8667,
+            0,
+            2.1667,
+            2.6667,
+            0
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1.7,
+          "pokedexWeightKg": 95,
+          "parentPokemonId": "PONYTA",
+          "heightStdDev": 0.2125,
+          "weightStdDev": 11.875,
+          "familyId": "FAMILY_PONYTA",
+          "kmBuddyDistance": 3,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 1.65,
+          "modelScaleV2": 1,
+          "form": "RAPIDASH_PURIFIED",
+          "buddyOffsetMale": [
+            13,
+            0,
+            73.55
+          ],
+          "buddyOffsetFemale": [
+            13,
+            0,
+            73.55
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 3,
+          "eliteQuickMove": [
+            "EMBER_FAST"
+          ]
+        }
+      }
+    },
+    {
+      "templateId": "V0078_POKEMON_RAPIDASH_SHADOW",
+      "data": {
+        "templateId": "V0078_POKEMON_RAPIDASH_SHADOW",
+        "pokemonSettings": {
+          "pokemonId": "RAPIDASH",
+          "modelScale": 0.81,
+          "type": "POKEMON_TYPE_FIRE",
+          "camera": {
+            "diskRadiusM": 0.6075,
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 1.701,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.15,
+            "baseFleeRate": 0.06,
+            "collisionRadiusM": 0.5,
+            "collisionHeightM": 0.891,
+            "collisionHeadRadiusM": 0.243,
+            "movementType": "MOVEMENT_JUMP",
+            "movementTimerS": 6,
+            "jumpTimeS": 1,
+            "attackTimerS": 17,
+            "bonusCandyCaptureReward": 2,
+            "bonusStardustCaptureReward": 200,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1,
+            "dodgeDistance": 1,
+            "cameraDistance": 4.2,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 163,
+            "baseAttack": 207,
+            "baseDefense": 162
+          },
+          "quickMoves": [
+            "LOW_KICK_FAST",
+            "FIRE_SPIN_FAST"
+          ],
+          "cinematicMoves": [
+            "FIRE_BLAST",
+            "DRILL_RUN",
+            "HEAT_WAVE"
+          ],
+          "animationTime": [
+            2.0667,
+            0.8333,
+            2.3333,
+            1.8667,
+            0,
+            2.1667,
+            2.6667,
+            0
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1.7,
+          "pokedexWeightKg": 95,
+          "parentPokemonId": "PONYTA",
+          "heightStdDev": 0.2125,
+          "weightStdDev": 11.875,
+          "familyId": "FAMILY_PONYTA",
+          "kmBuddyDistance": 3,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 1.65,
+          "modelScaleV2": 1,
+          "form": "RAPIDASH_SHADOW",
+          "buddyOffsetMale": [
+            13,
+            0,
+            73.55
+          ],
+          "buddyOffsetFemale": [
+            13,
+            0,
+            73.55
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "shadow": {
+            "purificationStardustNeeded": 3000,
+            "purificationCandyNeeded": 3,
+            "purifiedChargeMove": "RETURN",
+            "shadowChargeMove": "FRUSTRATION"
+          },
           "buddyGroupNumber": 3,
           "eliteQuickMove": [
             "EMBER_FAST"
@@ -122098,6 +122939,9 @@
             0.8667,
             0
           ],
+          "evolutionIds": [
+            "COFAGRIGUS"
+          ],
           "evolutionPips": 1,
           "pokedexHeightM": 0.5,
           "pokedexWeightKg": 1.5,
@@ -122110,7 +122954,8 @@
           "evolutionBranch": [
             {
               "evolution": "COFAGRIGUS",
-              "candyCost": 50
+              "candyCost": 50,
+              "form": "COFAGRIGUS_NORMAL"
             }
           ],
           "modelScaleV2": 1.09,
@@ -122136,6 +122981,433 @@
           },
           "isTransferable": true,
           "isDeployable": true,
+          "buddyGroupNumber": 2
+        }
+      }
+    },
+    {
+      "templateId": "V0562_POKEMON_YAMASK_GALARIAN",
+      "data": {
+        "templateId": "V0562_POKEMON_YAMASK_GALARIAN",
+        "pokemonSettings": {
+          "pokemonId": "YAMASK",
+          "modelScale": 1.26,
+          "type": "POKEMON_TYPE_GROUND",
+          "type2": "POKEMON_TYPE_GHOST",
+          "camera": {
+            "diskRadiusM": 0.378,
+            "cylinderRadiusM": 0.26,
+            "cylinderHeightM": 0.51,
+            "cylinderGroundM": 0.14,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.3,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.2,
+            "collisionHeightM": 0.1,
+            "collisionHeadRadiusM": 0.1,
+            "movementType": "MOVEMENT_PSYCHIC",
+            "movementTimerS": 10,
+            "jumpTimeS": 1,
+            "attackTimerS": 29,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1.75,
+            "dodgeDistance": 0.5,
+            "cameraDistance": 3,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 116,
+            "baseAttack": 95,
+            "baseDefense": 141
+          },
+          "quickMoves": [
+            "ASTONISH_FAST"
+          ],
+          "cinematicMoves": [
+            "NIGHT_SHADE",
+            "SAND_TOMB",
+            "ROCK_TOMB"
+          ],
+          "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+          ],
+          "evolutionIds": [
+            "RUNERIGUS"
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 0.5,
+          "pokedexWeightKg": 1.5,
+          "heightStdDev": 0.0625,
+          "weightStdDev": 0.1875,
+          "familyId": "FAMILY_YAMASK",
+          "candyToEvolve": 25,
+          "kmBuddyDistance": 3,
+          "modelHeight": 0.45,
+          "evolutionBranch": [
+            {
+              "evolution": "RUNERIGUS",
+              "candyCost": 50,
+              "form": "RUNERIGUS_NORMAL",
+              "questRequirementTemplateId": [
+                {
+                  "obQuestName": "RUNERIGUS_EVOLUTION_QUEST"
+                }
+              ]
+            }
+          ],
+          "modelScaleV2": 1.09,
+          "form": "YAMASK_GALARIAN",
+          "buddyOffsetMale": [
+            7.2,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            7.2,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 2
+        }
+      }
+    },
+    {
+      "templateId": "V0562_POKEMON_YAMASK_NORMAL",
+      "data": {
+        "templateId": "V0562_POKEMON_YAMASK_NORMAL",
+        "pokemonSettings": {
+          "pokemonId": "YAMASK",
+          "modelScale": 1.26,
+          "type": "POKEMON_TYPE_GHOST",
+          "camera": {
+            "diskRadiusM": 0.378,
+            "cylinderRadiusM": 0.26,
+            "cylinderHeightM": 0.51,
+            "cylinderGroundM": 0.14,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.3,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.2,
+            "collisionHeightM": 0.1,
+            "collisionHeadRadiusM": 0.1,
+            "movementType": "MOVEMENT_PSYCHIC",
+            "movementTimerS": 10,
+            "jumpTimeS": 1,
+            "attackTimerS": 29,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1.75,
+            "dodgeDistance": 0.5,
+            "cameraDistance": 3,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 116,
+            "baseAttack": 95,
+            "baseDefense": 141
+          },
+          "quickMoves": [
+            "ASTONISH_FAST",
+            "ZEN_HEADBUTT_FAST"
+          ],
+          "cinematicMoves": [
+            "SHADOW_BALL",
+            "DARK_PULSE",
+            "OMINOUS_WIND"
+          ],
+          "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+          ],
+          "evolutionIds": [
+            "COFAGRIGUS"
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 0.5,
+          "pokedexWeightKg": 1.5,
+          "heightStdDev": 0.0625,
+          "weightStdDev": 0.1875,
+          "familyId": "FAMILY_YAMASK",
+          "candyToEvolve": 25,
+          "kmBuddyDistance": 3,
+          "modelHeight": 0.45,
+          "evolutionBranch": [
+            {
+              "evolution": "COFAGRIGUS",
+              "candyCost": 50,
+              "form": "COFAGRIGUS_NORMAL"
+            }
+          ],
+          "modelScaleV2": 1.09,
+          "form": "YAMASK_NORMAL",
+          "buddyOffsetMale": [
+            7.2,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            7.2,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            90,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 2
+        }
+      }
+    },
+    {
+      "templateId": "V0562_POKEMON_YAMASK_PURIFIED",
+      "data": {
+        "templateId": "V0562_POKEMON_YAMASK_PURIFIED",
+        "pokemonSettings": {
+          "pokemonId": "YAMASK",
+          "modelScale": 1.26,
+          "type": "POKEMON_TYPE_GHOST",
+          "camera": {
+            "diskRadiusM": 0.378,
+            "cylinderRadiusM": 0.26,
+            "cylinderHeightM": 0.51,
+            "cylinderGroundM": 0.14,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.3,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.2,
+            "collisionHeightM": 0.1,
+            "collisionHeadRadiusM": 0.1,
+            "movementType": "MOVEMENT_PSYCHIC",
+            "movementTimerS": 10,
+            "jumpTimeS": 1,
+            "attackTimerS": 29,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1.75,
+            "dodgeDistance": 0.5,
+            "cameraDistance": 3,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 116,
+            "baseAttack": 95,
+            "baseDefense": 141
+          },
+          "quickMoves": [
+            "ASTONISH_FAST",
+            "ZEN_HEADBUTT_FAST"
+          ],
+          "cinematicMoves": [
+            "SHADOW_BALL",
+            "DARK_PULSE",
+            "OMINOUS_WIND"
+          ],
+          "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+          ],
+          "evolutionIds": [
+            "COFAGRIGUS"
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 0.5,
+          "pokedexWeightKg": 1.5,
+          "heightStdDev": 0.0625,
+          "weightStdDev": 0.1875,
+          "familyId": "FAMILY_YAMASK",
+          "candyToEvolve": 25,
+          "kmBuddyDistance": 3,
+          "modelHeight": 0.45,
+          "evolutionBranch": [
+            {
+              "evolution": "COFAGRIGUS",
+              "candyCost": 50,
+              "form": "COFAGRIGUS_PURIFIED"
+            }
+          ],
+          "modelScaleV2": 1.09,
+          "form": "YAMASK_PURIFIED",
+          "buddyOffsetMale": [
+            7.2,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            7.2,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            90,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 2
+        }
+      }
+    },
+    {
+      "templateId": "V0562_POKEMON_YAMASK_SHADOW",
+      "data": {
+        "templateId": "V0562_POKEMON_YAMASK_SHADOW",
+        "pokemonSettings": {
+          "pokemonId": "YAMASK",
+          "modelScale": 1.26,
+          "type": "POKEMON_TYPE_GHOST",
+          "camera": {
+            "diskRadiusM": 0.378,
+            "cylinderRadiusM": 0.26,
+            "cylinderHeightM": 0.51,
+            "cylinderGroundM": 0.14,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.3,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.2,
+            "collisionHeightM": 0.1,
+            "collisionHeadRadiusM": 0.1,
+            "movementType": "MOVEMENT_PSYCHIC",
+            "movementTimerS": 10,
+            "jumpTimeS": 1,
+            "attackTimerS": 29,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1.75,
+            "dodgeDistance": 0.5,
+            "cameraDistance": 3,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 116,
+            "baseAttack": 95,
+            "baseDefense": 141
+          },
+          "quickMoves": [
+            "ASTONISH_FAST",
+            "ZEN_HEADBUTT_FAST"
+          ],
+          "cinematicMoves": [
+            "SHADOW_BALL",
+            "DARK_PULSE",
+            "OMINOUS_WIND"
+          ],
+          "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+          ],
+          "evolutionIds": [
+            "COFAGRIGUS"
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 0.5,
+          "pokedexWeightKg": 1.5,
+          "heightStdDev": 0.0625,
+          "weightStdDev": 0.1875,
+          "familyId": "FAMILY_YAMASK",
+          "candyToEvolve": 25,
+          "kmBuddyDistance": 3,
+          "modelHeight": 0.45,
+          "evolutionBranch": [
+            {
+              "evolution": "COFAGRIGUS",
+              "candyCost": 50,
+              "form": "COFAGRIGUS_SHADOW"
+            }
+          ],
+          "modelScaleV2": 1.09,
+          "form": "YAMASK_SHADOW",
+          "buddyOffsetMale": [
+            7.2,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            7.2,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            0,
+            90,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "shadow": {
+            "purificationStardustNeeded": 3000,
+            "purificationCandyNeeded": 3,
+            "purifiedChargeMove": "RETURN",
+            "shadowChargeMove": "FRUSTRATION"
+          },
           "buddyGroupNumber": 2
         }
       }
@@ -135244,6 +136516,395 @@
             "shadowChargeMove": "FRUSTRATION"
           },
           "buddyGroupNumber": 2
+        }
+      }
+    },
+    {
+      "templateId": "V0867_POKEMON_RUNERIGUS",
+      "data": {
+        "templateId": "V0867_POKEMON_RUNERIGUS",
+        "pokemonSettings": {
+          "pokemonId": "RUNERIGUS",
+          "modelScale": 1,
+          "type": "POKEMON_TYPE_GROUND",
+          "type2": "POKEMON_TYPE_GHOST",
+          "camera": {
+            "diskRadiusM": 1.5,
+            "cylinderRadiusM": 1.25,
+            "cylinderHeightM": 1.6,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.3,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.75,
+            "collisionHeightM": 1.5,
+            "collisionHeadRadiusM": 0.3,
+            "movementTimerS": 10,
+            "jumpTimeS": 1,
+            "attackTimerS": 29,
+            "bonusCandyCaptureReward": 2,
+            "bonusStardustCaptureReward": 200,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1.75,
+            "dodgeDistance": 0.5,
+            "cameraDistance": 4,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 151,
+            "baseAttack": 163,
+            "baseDefense": 237
+          },
+          "quickMoves": [
+            "ASTONISH_FAST"
+          ],
+          "cinematicMoves": [
+            "SHADOW_BALL",
+            "SAND_TOMB",
+            "ROCK_TOMB"
+          ],
+          "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1.6,
+          "pokedexWeightKg": 66.6,
+          "parentPokemonId": "YAMASK",
+          "heightStdDev": 0.2,
+          "weightStdDev": 8.325,
+          "familyId": "FAMILY_YAMASK",
+          "kmBuddyDistance": 3,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 1.7,
+          "modelScaleV2": 1,
+          "buddyOffsetMale": [
+            0,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            0,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            -0.1,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 3,
+          "obSharedPokemonFloat1": 3
+        }
+      }
+    },
+    {
+      "templateId": "V0867_POKEMON_RUNERIGUS_NORMAL",
+      "data": {
+        "templateId": "V0867_POKEMON_RUNERIGUS_NORMAL",
+        "pokemonSettings": {
+          "pokemonId": "RUNERIGUS",
+          "modelScale": 1,
+          "type": "POKEMON_TYPE_GROUND",
+          "type2": "POKEMON_TYPE_GHOST",
+          "camera": {
+            "diskRadiusM": 1.5,
+            "cylinderRadiusM": 1.25,
+            "cylinderHeightM": 1.6,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.3,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.75,
+            "collisionHeightM": 1.5,
+            "collisionHeadRadiusM": 0.3,
+            "movementTimerS": 10,
+            "jumpTimeS": 1,
+            "attackTimerS": 29,
+            "bonusCandyCaptureReward": 2,
+            "bonusStardustCaptureReward": 200,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1.75,
+            "dodgeDistance": 0.5,
+            "cameraDistance": 4,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 151,
+            "baseAttack": 163,
+            "baseDefense": 237
+          },
+          "quickMoves": [
+            "ASTONISH_FAST"
+          ],
+          "cinematicMoves": [
+            "SHADOW_BALL",
+            "SAND_TOMB",
+            "ROCK_TOMB"
+          ],
+          "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1.6,
+          "pokedexWeightKg": 66.6,
+          "parentPokemonId": "YAMASK",
+          "heightStdDev": 0.2,
+          "weightStdDev": 8.325,
+          "familyId": "FAMILY_YAMASK",
+          "kmBuddyDistance": 3,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 1.7,
+          "modelScaleV2": 1,
+          "form": "RUNERIGUS_NORMAL",
+          "buddyOffsetMale": [
+            0,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            0,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            -0.1,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 3,
+          "obSharedPokemonFloat1": 3
+        }
+      }
+    },
+    {
+      "templateId": "V0867_POKEMON_RUNERIGUS_PURIFIED",
+      "data": {
+        "templateId": "V0867_POKEMON_RUNERIGUS_PURIFIED",
+        "pokemonSettings": {
+          "pokemonId": "RUNERIGUS",
+          "modelScale": 1,
+          "type": "POKEMON_TYPE_GROUND",
+          "type2": "POKEMON_TYPE_GHOST",
+          "camera": {
+            "diskRadiusM": 1.5,
+            "cylinderRadiusM": 1.25,
+            "cylinderHeightM": 1.6,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.3,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.75,
+            "collisionHeightM": 1.5,
+            "collisionHeadRadiusM": 0.3,
+            "movementTimerS": 10,
+            "jumpTimeS": 1,
+            "attackTimerS": 29,
+            "bonusCandyCaptureReward": 2,
+            "bonusStardustCaptureReward": 200,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1.75,
+            "dodgeDistance": 0.5,
+            "cameraDistance": 4,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 151,
+            "baseAttack": 163,
+            "baseDefense": 237
+          },
+          "quickMoves": [
+            "ASTONISH_FAST"
+          ],
+          "cinematicMoves": [
+            "SHADOW_BALL",
+            "SAND_TOMB",
+            "ROCK_TOMB"
+          ],
+          "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1.6,
+          "pokedexWeightKg": 66.6,
+          "parentPokemonId": "YAMASK",
+          "heightStdDev": 0.2,
+          "weightStdDev": 8.325,
+          "familyId": "FAMILY_YAMASK",
+          "kmBuddyDistance": 3,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 1.7,
+          "modelScaleV2": 1,
+          "form": "RUNERIGUS_PURIFIED",
+          "buddyOffsetMale": [
+            0,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            0,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            -0.1,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "buddyGroupNumber": 3,
+          "obSharedPokemonFloat1": 3
+        }
+      }
+    },
+    {
+      "templateId": "V0867_POKEMON_RUNERIGUS_SHADOW",
+      "data": {
+        "templateId": "V0867_POKEMON_RUNERIGUS_SHADOW",
+        "pokemonSettings": {
+          "pokemonId": "RUNERIGUS",
+          "modelScale": 1,
+          "type": "POKEMON_TYPE_GROUND",
+          "type2": "POKEMON_TYPE_GHOST",
+          "camera": {
+            "diskRadiusM": 1.5,
+            "cylinderRadiusM": 1.25,
+            "cylinderHeightM": 1.6,
+            "shoulderModeScale": 0.5
+          },
+          "encounter": {
+            "baseCaptureRate": 0.3,
+            "baseFleeRate": 0.1,
+            "collisionRadiusM": 0.75,
+            "collisionHeightM": 1.5,
+            "collisionHeadRadiusM": 0.3,
+            "movementTimerS": 10,
+            "jumpTimeS": 1,
+            "attackTimerS": 29,
+            "bonusCandyCaptureReward": 2,
+            "bonusStardustCaptureReward": 200,
+            "attackProbability": 0.1,
+            "dodgeProbability": 0.2,
+            "dodgeDurationS": 1.75,
+            "dodgeDistance": 0.5,
+            "cameraDistance": 4,
+            "minPokemonActionFrequencyS": 0.2,
+            "maxPokemonActionFrequencyS": 1.6
+          },
+          "stats": {
+            "baseStamina": 151,
+            "baseAttack": 163,
+            "baseDefense": 237
+          },
+          "quickMoves": [
+            "ASTONISH_FAST"
+          ],
+          "cinematicMoves": [
+            "SHADOW_BALL",
+            "SAND_TOMB",
+            "ROCK_TOMB"
+          ],
+          "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+          ],
+          "evolutionPips": 1,
+          "pokedexHeightM": 1.6,
+          "pokedexWeightKg": 66.6,
+          "parentPokemonId": "YAMASK",
+          "heightStdDev": 0.2,
+          "weightStdDev": 8.325,
+          "familyId": "FAMILY_YAMASK",
+          "kmBuddyDistance": 3,
+          "buddySize": "BUDDY_BIG",
+          "modelHeight": 1.7,
+          "modelScaleV2": 1,
+          "form": "RUNERIGUS_SHADOW",
+          "buddyOffsetMale": [
+            0,
+            0,
+            0
+          ],
+          "buddyOffsetFemale": [
+            0,
+            0,
+            0
+          ],
+          "buddyScale": 19,
+          "buddyPortraitOffset": [
+            -0.1,
+            0,
+            0
+          ],
+          "thirdMove": {
+            "stardustToUnlock": 50000,
+            "candyToUnlock": 50
+          },
+          "isTransferable": true,
+          "isDeployable": true,
+          "shadow": {
+            "purificationStardustNeeded": 3000,
+            "purificationCandyNeeded": 3,
+            "purifiedChargeMove": "RETURN",
+            "shadowChargeMove": "FRUSTRATION"
+          },
+          "buddyGroupNumber": 3,
+          "obSharedPokemonFloat1": 3
         }
       }
     }

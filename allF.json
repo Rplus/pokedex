@@ -662,6 +662,19 @@
           "name": "RAPIDASH"
         }
       ]
+    },
+    {
+      "form": "PONYTA_GALARIAN",
+      "name": "PONYTA",
+      "next": [
+        {
+          "candyCost": 50,
+          "form": "RAPIDASH_GALARIAN",
+          "name": "RAPIDASH",
+          "iso": 31
+        }
+      ],
+      "iso": 31
     }
   ],
   "F_SLOWPOKE": [
@@ -3758,6 +3771,22 @@
           "name": "COFAGRIGUS"
         }
       ]
+    },
+    {
+      "form": "YAMASK_GALARIAN",
+      "name": "YAMASK",
+      "next": [
+        {
+          "candyCost": 50,
+          "questRequirementTemplateId": [
+            {
+              "obQuestName": "RUNERIGUS_EVOLUTION_QUEST"
+            }
+          ],
+          "name": "RUNERIGUS"
+        }
+      ],
+      "iso": 31
     }
   ],
   "F_TIRTOUGA": [
