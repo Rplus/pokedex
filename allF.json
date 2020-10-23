@@ -725,12 +725,10 @@
       "next": [
         {
           "candyCost": 50,
-          "questRequirementTemplateId": [
-            {
-              "obQuestName": "SIRFETCHD_EVOLUTION_QUEST"
-            }
-          ],
           "name": "SIRFETCHD",
+          "requirement": [
+            "ACTIVITY_CATCH_EXCELLENT_THROW: 10"
+          ],
           "iso": 31
         }
       ],
@@ -3832,12 +3830,11 @@
       "next": [
         {
           "candyCost": 50,
-          "questRequirementTemplateId": [
-            {
-              "obQuestName": "RUNERIGUS_EVOLUTION_QUEST"
-            }
+          "name": "RUNERIGUS",
+          "requirement": [
+            "WITH_WIN_RAID_STATUS: 10"
           ],
-          "name": "RUNERIGUS"
+          "iso": 31
         }
       ],
       "iso": 31
