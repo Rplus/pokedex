@@ -6,6 +6,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
     'genderSettings',
     'formSettings',
     'typeEffective',
+    'obEvolutionQuestTemplate',
   ];
 
   let ALL = props.reduce((all, prop) => {
@@ -56,6 +57,28 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
           // } else {
           //   console.log(123, 'gg', i.name);
           // }
+          let questRequirement;
+          if (i.questRequirementTemplateId) {
+            questRequirement = i.questRequirementTemplateId.map(quest => {
+              const questData = ALL.obEvolutionQuestTemplate.find(o => o.templateId === quest.obQuestName);
+              if (!questData) { return; }
+              const info = questData.data.obEvolutionQuestTemplate;
+
+              return info.obQuestGoal.map(goal => {
+                const requirementString = goal.condition.map(c => {
+                  let r = c.type;
+                  for (const _p in c) {
+                    if (_p !== 'type') {
+                      r = Object.values(c[_p]).join();
+                    }
+                  }
+                  return r;
+                });
+                return `${requirementString}: ${goal.target}`;
+              }).join();
+            }).join();
+          }
+
 
           let requirement = [
             i.evolutionItemRequirement && `item:${i.evolutionItemRequirement}`,
@@ -68,6 +91,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
             i.noCandyCostViaTrade && 'free:Trade',
             i.obFirstTempEvolutionCandyCost && `1st:${i.obFirstTempEvolutionCandyCost} E`,
             i.obSubsequentTempEvolutionCandyCost && `2nd:${i.obSubsequentTempEvolutionCandyCost} E`,
+            questRequirement,
           ].filter(Boolean);
           if (requirement.length) {
             i.requirement = requirement;
@@ -85,6 +109,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
           delete i.obSubsequentTempEvolutionCandyCost;
           delete i.obFirstTempEvolutionCandyCost;
           delete i.tempEvolution;
+          delete i.questRequirementTemplateId;
           return i;
         }),
       }
@@ -231,6 +256,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
             'PERRSERKER',
             'SIRFETCHD',
             'STUNFISK_GALARIAN',
+            'RUNERIGUS',
           ].indexOf(pm.name) !== -1) {
             pm.iso = 31;
           }
