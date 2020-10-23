@@ -722,11 +722,18 @@
     {
       "form": "FARFETCHD_GALARIAN",
       "name": "FARFETCHD",
-      "iso": 31
-    },
-    {
-      "name": "SIRFETCHD",
-      "prev": "FARFETCHD",
+      "next": [
+        {
+          "candyCost": 50,
+          "questRequirementTemplateId": [
+            {
+              "obQuestName": "SIRFETCHD_EVOLUTION_QUEST"
+            }
+          ],
+          "name": "SIRFETCHD",
+          "iso": 31
+        }
+      ],
       "iso": 31
     }
   ],
@@ -800,11 +807,53 @@
               "name": "GENGAR",
               "requirement": [
                 "free:Trade"
+              ],
+              "next": [
+                {
+                  "name": "GENGAR_MEGA",
+                  "candyCost": 0,
+                  "iso": 51,
+                  "requirement": [
+                    "1st:200 E",
+                    "2nd:40 E"
+                  ]
+                }
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "form": "GENGAR_NORMAL",
+      "name": "GENGAR",
+      "prev": "HAUNTER",
+      "next": [
+        {
+          "name": "GENGAR_MEGA",
+          "candyCost": 0,
+          "requirement": [
+            "1st:200 E",
+            "2nd:40 E"
+          ]
+        }
+      ]
+    },
+    {
+      "form": "GENGAR_COSTUME_2020",
+      "name": "GENGAR",
+      "prev": "HAUNTER",
+      "next": [
+        {
+          "name": "GENGAR_MEGA",
+          "candyCost": 0,
+          "requirement": [
+            "1st:200 E",
+            "2nd:40 E"
+          ]
+        }
+      ],
+      "iso": 26
     }
   ],
   "F_ONIX": [
@@ -2171,6 +2220,11 @@
   "F_SABLEYE": [
     {
       "name": "SABLEYE"
+    },
+    {
+      "form": "SABLEYE_COSTUME_2020",
+      "name": "SABLEYE",
+      "suffix": "pm0302_00_pgo_fall2020"
     }
   ],
   "F_MAWILE": [
