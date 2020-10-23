@@ -20029,8 +20029,8 @@
       "_sta": 151,
       "id": "RUNERIGUS",
       "name": "死神板",
-      "captureRate": 0.3,
-      "fleeRate": 0.1,
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_YAMASK",
       "genderMF": [
