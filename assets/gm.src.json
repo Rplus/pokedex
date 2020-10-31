@@ -4121,6 +4121,55 @@
       ]
     },
     {
+      "dex": 94,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "fastMoves": [
+        "HEX",
+        "LICK",
+        "SHADOW_CLAW",
+        "SUCKER_PUNCH"
+      ],
+      "chargedMoves": [
+        "DARK_PULSE",
+        "FOCUS_BLAST",
+        "PSYCHIC",
+        "SHADOW_BALL",
+        "SLUDGE_BOMB",
+        "SLUDGE_WAVE",
+        "SHADOW_PUNCH"
+      ],
+      "legacyMoves": [
+        "LICK",
+        "SLUDGE_WAVE",
+        "DARK_PULSE",
+        "PSYCHIC",
+        "SHADOW_PUNCH"
+      ],
+      "eliteMoves": [
+        "LICK",
+        "SLUDGE_WAVE",
+        "DARK_PULSE",
+        "PSYCHIC",
+        "SHADOW_PUNCH"
+      ],
+      "_atk": 349,
+      "_def": 199,
+      "_sta": 155,
+      "id": "GENGAR_MEGA",
+      "name": "耿鬼 (Mega)",
+      "captureRate": 0.1,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_GASTLY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 95,
       "types": [
         "rock",
@@ -4539,7 +4588,14 @@
         "BONE_CLUB",
         "FIRE_BLAST",
         "SHADOW_BALL",
-        "FLAME_WHEEL"
+        "FLAME_WHEEL",
+        "SHADOW_BONE"
+      ],
+      "legacyMoves": [
+        "SHADOW_BONE"
+      ],
+      "eliteMoves": [
+        "SHADOW_BONE"
       ],
       "_atk": 144,
       "_def": 186,
@@ -23069,6 +23125,23 @@
       "pve_duration": 2.4,
       "pve_damageWindowStart": 1.9,
       "pve_damageWindowEnd": 2.2
+    },
+    {
+      "moveId": "AEROBLAST",
+      "name": "Aeroblast",
+      "power": 180,
+      "type": "flying",
+      "energy": 75,
+      "energyGain": 0,
+      "effect": "[己], 12.5%, +2階攻",
+      "turn": 1,
+      "mid": "335",
+      "isFast": false,
+      "pve_power": 180,
+      "pve_energyDelta": -100,
+      "pve_duration": 3.4,
+      "pve_damageWindowStart": 3.2,
+      "pve_damageWindowEnd": 3.4
     },
     {
       "moveId": "AIR_CUTTER",
