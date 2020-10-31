@@ -31,7 +31,10 @@
         "name": "all",
         "title": "All Pokemon",
         "include": [],
-        "exclude": []
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }]
     }, {
         "name": "custom",
         "title": "Custom",
@@ -395,7 +398,10 @@
         "include": [],
         "exclude": [{
             "filterType": "id",
-            "values": ["skarmory", "cresselia", "ferrothorn", "bronzong", "hypno", "hypno_shadow"]
+            "values": ["umbreon", "stunfisk_galarian", "medicham", "deoxys_defense", "scrafty"]
+        }, {
+            "filterType": "tag",
+            "values": ["mega"]
         }]
     }, {
         "name": "continentals-2",
@@ -588,7 +594,13 @@
 			"filterType": "tag",
 			"values": ["mega"]
 		}]
-	}],
+	}, {
+        "name": "uber",
+        "title": "Uber Tier Cup",
+		"link": "https://twitter.com/PoGoKieng/status/1321532380407103493",
+        "include": [],
+        "exclude": []
+    }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega"],
     "pokemonRegions": [{
         "string": "gen1",
@@ -3882,6 +3894,24 @@
         "eliteMoves": ["LICK", "SLUDGE_WAVE", "DARK_PULSE", "PSYCHIC", "SHADOW_PUNCH"],
         "searchPriority": 14
     }, {
+	    "dex": 94,
+	    "speciesName": "Gengar (Mega)",
+	    "speciesId": "gengar_mega",
+	    "baseStats": {
+	        "atk": 349,
+	        "def": 199,
+	        "hp": 155
+	    },
+	    "types": ["ghost", "poison"],
+	    "fastMoves": ["HEX", "LICK", "SHADOW_CLAW", "SUCKER_PUNCH"],
+	    "chargedMoves": ["DARK_PULSE", "FOCUS_BLAST", "PSYCHIC", "SHADOW_BALL", "SLUDGE_BOMB", "SLUDGE_WAVE", "SHADOW_PUNCH"],
+	    "defaultIVs": {
+	        "cp1500": [12.5, 8, 10, 13],
+	        "cp2500": [21, 9, 15, 7]
+	    },
+	    "tags": ["mega"],
+	    "eliteMoves": ["LICK", "SLUDGE_WAVE", "DARK_PULSE", "PSYCHIC", "SHADOW_PUNCH"]
+	}, {
         "dex": 95,
         "speciesName": "Onix",
         "speciesId": "onix",
@@ -4195,7 +4225,8 @@
         },
         "types": ["fire", "ghost"],
         "fastMoves": ["HEX", "ROCK_SMASH", "FIRE_SPIN"],
-        "chargedMoves": ["BONE_CLUB", "FIRE_BLAST", "SHADOW_BALL", "FLAME_WHEEL"],
+        "chargedMoves": ["BONE_CLUB", "FIRE_BLAST", "SHADOW_BALL", "FLAME_WHEEL", "SHADOW_BONE"],
+		"eliteMoves": ["SHADOW_BONE"],
         "tags": ["alolan"],
         "defaultIVs": {
             "cp1500": [31, 7, 11, 14],
@@ -16228,6 +16259,17 @@
         "energy": 45,
         "energyGain": 0,
         "cooldown": 500
+    }, {
+        "moveId": "AEROBLAST",
+        "name": "Aeroblast",
+        "type": "flying",
+        "power": 180,
+        "energy": 75,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [2, 0],
+        "buffTarget": "self",
+        "buffApplyChance": ".125"
     }, {
         "moveId": "AIR_CUTTER",
         "name": "Air Cutter",
