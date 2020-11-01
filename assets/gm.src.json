@@ -23128,7 +23128,7 @@
     },
     {
       "moveId": "AEROBLAST",
-      "name": "Aeroblast",
+      "name": "氣旋攻擊",
       "power": 180,
       "type": "flying",
       "energy": 75,
