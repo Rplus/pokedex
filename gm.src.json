@@ -786,8 +786,7 @@
       "fastMoves": [
         "AIR_SLASH",
         "STEEL_WING",
-        "WING_ATTACK",
-        "GUST"
+        "WING_ATTACK"
       ],
       "chargedMoves": [
         "AERIAL_ACE",
@@ -797,13 +796,11 @@
       ],
       "legacyMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER",
-        "GUST"
+        "AIR_CUTTER"
       ],
       "eliteMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER",
-        "GUST"
+        "AIR_CUTTER"
       ],
       "_atk": 166,
       "_def": 154,
@@ -828,8 +825,7 @@
       "fastMoves": [
         "AIR_SLASH",
         "STEEL_WING",
-        "WING_ATTACK",
-        "GUST"
+        "WING_ATTACK"
       ],
       "chargedMoves": [
         "AERIAL_ACE",
@@ -839,13 +835,11 @@
       ],
       "legacyMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER",
-        "GUST"
+        "AIR_CUTTER"
       ],
       "eliteMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER",
-        "GUST"
+        "AIR_CUTTER"
       ],
       "_atk": 280,
       "_def": 175,
@@ -2179,9 +2173,6 @@
         "RETURN",
         "FRUSTRATION"
       ],
-      "legacyMoves": [
-        "MUD_SHOT"
-      ],
       "_atk": 109,
       "_def": 78,
       "_sta": 67,
@@ -2243,9 +2234,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT",
-        "RETURN",
-        "RETURN"
+        "MUD_SHOT"
       ],
       "_atk": 167,
       "_def": 136,
@@ -3816,9 +3805,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 135,
       "_def": 90,
@@ -4759,9 +4746,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 119,
       "_def": 141,
@@ -4796,9 +4781,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 174,
       "_def": 197,
@@ -5768,8 +5751,6 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK",
-        "RETURN",
-        "RETURN",
         "TACKLE",
         "ZEN_HEADBUTT",
         "SIGNAL_BEAM",
@@ -8618,9 +8599,7 @@
       ],
       "legacyMoves": [
         "ICE_SHARD",
-        "QUICK_ATTACK",
-        "RETURN",
-        "RETURN"
+        "QUICK_ATTACK"
       ],
       "_atk": 128,
       "_def": 90,
@@ -9578,14 +9557,7 @@
       "chargedMoves": [
         "FUTURE_SIGHT",
         "HYDRO_PUMP",
-        "SKY_ATTACK",
-        "AEROBLAST"
-      ],
-      "legacyMoves": [
-        "AEROBLAST"
-      ],
-      "eliteMoves": [
-        "AEROBLAST"
+        "SKY_ATTACK"
       ],
       "_atk": 193,
       "_def": 310,
@@ -20095,6 +20067,34 @@
       ]
     },
     {
+      "dex": 867,
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "SAND_TOMB",
+        "ROCK_TOMB"
+      ],
+      "_atk": 163,
+      "_def": 237,
+      "_sta": 151,
+      "id": "RUNERIGUS",
+      "name": "死神板",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_YAMASK",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 564,
       "types": [
         "water",
@@ -23074,34 +23074,6 @@
         50,
         50
       ]
-    },
-    {
-      "dex": 867,
-      "types": [
-        "ground",
-        "ghost"
-      ],
-      "fastMoves": [
-        "ASTONISH"
-      ],
-      "chargedMoves": [
-        "SHADOW_BALL",
-        "SAND_TOMB",
-        "ROCK_TOMB"
-      ],
-      "_atk": 163,
-      "_def": 237,
-      "_sta": 151,
-      "id": "RUNERIGUS",
-      "name": "死神板",
-      "captureRate": 0.1,
-      "fleeRate": 0.07,
-      "buddyKm": 3,
-      "familyId": "F_YAMASK",
-      "genderMF": [
-        50,
-        50
-      ]
     }
   ],
   "moves": [
@@ -23157,7 +23129,7 @@
     {
       "moveId": "AEROBLAST",
       "name": "氣旋攻擊",
-      "power": 170,
+      "power": 180,
       "type": "flying",
       "energy": 75,
       "energyGain": 0,
