@@ -6,7 +6,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
     'genderSettings',
     'formSettings',
     'typeEffective',
-    'obEvolutionQuestTemplate',
+    'evolutionQuestTemplate',
   ];
 
   let ALL = props.reduce((all, prop) => {
@@ -29,8 +29,8 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
         next: pmdata.evolutionBranch && pmdata.evolutionBranch.map(i => {
           i.name = i.evolution;
 
-          if (i.tempEvolution) {
-            i.name = pmdata.pokemonId + i.tempEvolution.replace('TEMP_EVOLUTION', '');
+          if (i.temporaryEvolution) {
+            i.name = pmdata.pokemonId + i.temporaryEvolution.replace('TEMP_EVOLUTION', '');
             i.candyCost = 0;
 
             // query mega iso
@@ -39,8 +39,8 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
                 .find(i => i.templateId === `TEMPORARY_EVOLUTION_${pm.templateId}`)
                 .data
                 .temporaryEvolutionSettings
-                .obTemporaryEvolutions
-                .find(j => j.obTemporaryEvolution === i.tempEvolution)
+                .temporaryEvolutions
+                .find(j => j.temporaryEvolutionId === i.temporaryEvolution)
                 .assetBundleValue;
             } catch (e) {
               new Error(e);
@@ -58,13 +58,18 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
           //   console.log(123, 'gg', i.name);
           // }
           let questRequirement;
-          if (i.questRequirementTemplateId) {
-            questRequirement = i.questRequirementTemplateId.map(quest => {
-              const questData = ALL.obEvolutionQuestTemplate.find(o => o.templateId === quest.obQuestName);
-              if (!questData) { return; }
-              const info = questData.data.obEvolutionQuestTemplate;
+          if (i.questDisplay) {
+            console.log(1122, i.questDisplay.length);
 
-              return info.obQuestGoal.map(goal => {
+            questRequirement = i.questDisplay.map(q => {
+              const qid = q.questRequirementTemplateId;
+              const qData = ALL.evolutionQuestTemplate.find(d => d.templateId === qid);
+
+              if (!qData) { return; }
+
+              const qInfo = qData.data.evolutionQuestTemplate;
+
+              return qInfo.goals.map(goal => {
                 const requirementString = goal.condition.map(c => {
                   let r = c.type;
                   for (const _p in c) {
@@ -89,8 +94,8 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
             i.onlyNighttime && 'night',
             i.onlyDaytime && 'day',
             i.noCandyCostViaTrade && 'free:Trade',
-            i.obFirstTempEvolutionCandyCost && `1st:${i.obFirstTempEvolutionCandyCost} E`,
-            i.obSubsequentTempEvolutionCandyCost && `2nd:${i.obSubsequentTempEvolutionCandyCost} E`,
+            i.temporaryEvolutionEnergyCost && `1st:${i.temporaryEvolutionEnergyCost} E`,
+            i.temporaryEvolutionEnergyCostSubsequent && `2nd:${i.temporaryEvolutionEnergyCostSubsequent} E`,
             questRequirement,
           ].filter(Boolean);
           if (requirement.length) {
@@ -106,10 +111,10 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
           delete i.onlyNighttime;
           delete i.onlyDaytime;
           delete i.noCandyCostViaTrade;
-          delete i.obSubsequentTempEvolutionCandyCost;
-          delete i.obFirstTempEvolutionCandyCost;
-          delete i.tempEvolution;
-          delete i.questRequirementTemplateId;
+          delete i.temporaryEvolutionEnergyCostSubsequent;
+          delete i.temporaryEvolutionEnergyCost;
+          delete i.temporaryEvolution;
+          delete i.questDisplay;
           return i;
         }),
       }
