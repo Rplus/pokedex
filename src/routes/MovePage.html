@@ -31,7 +31,7 @@ $: {
         maxcp: pm.maxcp,
         tankStr: pm.tankStr,
         atk: pm._atk,
-        stab: pm.types.includes(move.type)
+        stab: pm.types.includes(move.type),
       }
     });
   }
@@ -198,22 +198,22 @@ function effText(eff) {
     <Details type="samemove" class="card">
       <summary><h3>Pokemon with this Move</h3></summary>
 
-      <TableSort items={pms} class="ml-a mr-a">
+      <TableSort items={pms} class="ml-a mr-a text-right">
         <tr slot="thead">
           <th data-sort="dex">Dex</th>
-          <th data-sort="name">Name</th>
+          <th data-sort="name" align="left">Name</th>
           <th data-sort="atk">Atk</th>
           <th data-sort="maxcp">CP</th>
           <th data-sort="tankStr" data-sort-initial="descending" title="Def x Sta">Tank</th>
         </tr>
         <tr slot="tbody" let:item={item}>
           <td>{item.dex}</td>
-          <td class={item.stab ? 'is-stab' : ''}>
+          <td align="left" class={item.stab ? 'is-stab' : ''}>
             <a href="./pokemon/{item.uid}">{item.name}</a>
           </td>
           <td>{item.atk}</td>
           <td>{item.maxcp}</td>
-          <td class="fz-s">{item.tankStr}</td>
+          <td>{item.tankStr}</td>
         </tr>
       </TableSort>
     </Details>
