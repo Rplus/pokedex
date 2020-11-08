@@ -786,7 +786,8 @@
       "fastMoves": [
         "AIR_SLASH",
         "STEEL_WING",
-        "WING_ATTACK"
+        "WING_ATTACK",
+        "GUST"
       ],
       "chargedMoves": [
         "AERIAL_ACE",
@@ -796,11 +797,13 @@
       ],
       "legacyMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "GUST"
       ],
       "eliteMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "GUST"
       ],
       "_atk": 166,
       "_def": 154,
@@ -825,7 +828,8 @@
       "fastMoves": [
         "AIR_SLASH",
         "STEEL_WING",
-        "WING_ATTACK"
+        "WING_ATTACK",
+        "GUST"
       ],
       "chargedMoves": [
         "AERIAL_ACE",
@@ -835,11 +839,13 @@
       ],
       "legacyMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "GUST"
       ],
       "eliteMoves": [
         "WING_ATTACK",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "GUST"
       ],
       "_atk": 280,
       "_def": 175,
@@ -2173,6 +2179,9 @@
         "RETURN",
         "FRUSTRATION"
       ],
+      "legacyMoves": [
+        "MUD_SHOT"
+      ],
       "_atk": 109,
       "_def": 78,
       "_sta": 67,
@@ -2234,7 +2243,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT"
+        "MUD_SHOT",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 167,
       "_def": 136,
@@ -3805,7 +3816,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID"
+        "ACID",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 135,
       "_def": 90,
@@ -4746,7 +4759,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID"
+        "ACID",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 119,
       "_def": 141,
@@ -4781,7 +4796,9 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID"
+        "ACID",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 174,
       "_def": 197,
@@ -5751,6 +5768,8 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK",
+        "RETURN",
+        "RETURN",
         "TACKLE",
         "ZEN_HEADBUTT",
         "SIGNAL_BEAM",
@@ -8599,7 +8618,9 @@
       ],
       "legacyMoves": [
         "ICE_SHARD",
-        "QUICK_ATTACK"
+        "QUICK_ATTACK",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 128,
       "_def": 90,
@@ -9557,7 +9578,14 @@
       "chargedMoves": [
         "FUTURE_SIGHT",
         "HYDRO_PUMP",
-        "SKY_ATTACK"
+        "SKY_ATTACK",
+        "AEROBLAST"
+      ],
+      "legacyMoves": [
+        "AEROBLAST"
+      ],
+      "eliteMoves": [
+        "AEROBLAST"
       ],
       "_atk": 193,
       "_def": 310,
@@ -20021,7 +20049,6 @@
       ],
       "chargedMoves": [
         "NIGHT_SHADE",
-        "SAND_TOMB",
         "ROCK_TOMB"
       ],
       "_atk": 95,
@@ -20057,34 +20084,6 @@
       "_sta": 151,
       "id": "COFAGRIGUS",
       "name": "死神棺",
-      "captureRate": 0.1,
-      "fleeRate": 0.07,
-      "buddyKm": 3,
-      "familyId": "F_YAMASK",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 867,
-      "types": [
-        "ground",
-        "ghost"
-      ],
-      "fastMoves": [
-        "ASTONISH"
-      ],
-      "chargedMoves": [
-        "SHADOW_BALL",
-        "SAND_TOMB",
-        "ROCK_TOMB"
-      ],
-      "_atk": 163,
-      "_def": 237,
-      "_sta": 151,
-      "id": "RUNERIGUS",
-      "name": "死神板",
       "captureRate": 0.1,
       "fleeRate": 0.07,
       "buddyKm": 3,
@@ -23074,6 +23073,34 @@
         50,
         50
       ]
+    },
+    {
+      "dex": 867,
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "SAND_TOMB",
+        "ROCK_TOMB"
+      ],
+      "_atk": 163,
+      "_def": 237,
+      "_sta": 151,
+      "id": "RUNERIGUS",
+      "name": "死神板",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_YAMASK",
+      "genderMF": [
+        50,
+        50
+      ]
     }
   ],
   "moves": [
@@ -23129,7 +23156,7 @@
     {
       "moveId": "AEROBLAST",
       "name": "氣旋攻擊",
-      "power": 180,
+      "power": 170,
       "type": "flying",
       "energy": 75,
       "energyGain": 0,
@@ -24690,6 +24717,22 @@
       "pve_duration": 3.3,
       "pve_damageWindowStart": 2,
       "pve_damageWindowEnd": 2.8
+    },
+    {
+      "moveId": "INCINERATE",
+      "name": "燒盡",
+      "power": 15,
+      "type": "fire",
+      "energy": 0,
+      "energyGain": 20,
+      "turn": 5,
+      "mid": "346",
+      "isFast": true,
+      "pve_power": 29,
+      "pve_energyDelta": 20,
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 0.5,
+      "pve_damageWindowEnd": 2.3
     },
     {
       "moveId": "INFESTATION",
