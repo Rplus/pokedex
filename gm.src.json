@@ -3399,12 +3399,14 @@
       "fastMoves": [
         "EMBER",
         "FIRE_SPIN",
-        "LOW_KICK"
+        "LOW_KICK",
+        "INCINERATE"
       ],
       "chargedMoves": [
         "DRILL_RUN",
         "FIRE_BLAST",
-        "HEAT_WAVE"
+        "HEAT_WAVE",
+        "FLAME_CHARGE"
       ],
       "legacyMoves": [
         "EMBER"
@@ -6536,7 +6538,8 @@
       ],
       "fastMoves": [
         "EMBER",
-        "SHADOW_CLAW"
+        "SHADOW_CLAW",
+        "INCINERATE"
       ],
       "chargedMoves": [
         "BLAST_BURN",
@@ -9409,6 +9412,7 @@
         "FLAMETHROWER",
         "IRON_HEAD",
         "OVERHEAT",
+        "FLAME_CHARGE",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -9610,6 +9614,7 @@
       "fastMoves": [
         "EXTRASENSORY",
         "STEEL_WING",
+        "INCINERATE",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -18142,7 +18147,8 @@
       "chargedMoves": [
         "HEAT_WAVE",
         "ROCK_SLIDE",
-        "FOCUS_BLAST"
+        "FOCUS_BLAST",
+        "FLAME_CHARGE"
       ],
       "_atk": 235,
       "_def": 127,
@@ -19784,7 +19790,8 @@
       ],
       "fastMoves": [
         "TACKLE",
-        "FIRE_FANG"
+        "FIRE_FANG",
+        "INCINERATE"
       ],
       "chargedMoves": [
         "OVERHEAT",
@@ -21389,12 +21396,14 @@
       ],
       "fastMoves": [
         "HEX",
-        "FIRE_SPIN"
+        "FIRE_SPIN",
+        "INCINERATE"
       ],
       "chargedMoves": [
         "ENERGY_BALL",
         "SHADOW_BALL",
-        "OVERHEAT"
+        "OVERHEAT",
+        "FLAME_CHARGE"
       ],
       "_atk": 271,
       "_def": 182,
@@ -25341,7 +25350,7 @@
       "power": 3,
       "type": "poison",
       "energy": 0,
-      "energyGain": 6,
+      "energyGain": 8,
       "turn": 2,
       "mid": "236",
       "isFast": true,
