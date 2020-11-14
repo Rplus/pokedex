@@ -16465,8 +16465,15 @@
         "THUNDER_PUNCH",
         "WILD_CHARGE",
         "ICE_PUNCH",
+        "FLAMETHROWER",
         "RETURN",
         "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "FLAMETHROWER"
+      ],
+      "eliteMoves": [
+        "FLAMETHROWER"
       ],
       "_atk": 249,
       "_def": 163,
