@@ -94,7 +94,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -182,7 +183,9 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -281,7 +284,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -380,7 +384,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -485,7 +490,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -587,7 +593,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -690,7 +697,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -793,7 +801,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -902,7 +911,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -1038,7 +1048,8 @@
               "modelScaleV2": 0.84,
               "modelHeight": 2.45
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -1148,7 +1159,9 @@
           "buddyGroupNumber": 3,
           "eliteCinematicMove": [
             "FRENZY_PLANT"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -1285,7 +1298,8 @@
               "modelScaleV2": 0.84,
               "modelHeight": 2.45
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -1423,7 +1437,8 @@
               "modelScaleV2": 0.84,
               "modelHeight": 2.45
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -1539,7 +1554,8 @@
           "buddyGroupNumber": 3,
           "eliteCinematicMove": [
             "FRENZY_PLANT"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -1636,7 +1652,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -1723,7 +1740,9 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -1821,7 +1840,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -1919,7 +1939,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -2023,7 +2044,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -2126,7 +2148,8 @@
           "buddyGroupNumber": 2,
           "eliteQuickMove": [
             "SCRATCH_FAST"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -2230,7 +2253,8 @@
           "buddyGroupNumber": 2,
           "eliteQuickMove": [
             "SCRATCH_FAST"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -2334,7 +2358,8 @@
           "buddyGroupNumber": 2,
           "eliteQuickMove": [
             "SCRATCH_FAST"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -2444,7 +2469,8 @@
           "buddyGroupNumber": 2,
           "eliteQuickMove": [
             "SCRATCH_FAST"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -2607,7 +2633,8 @@
                 -34.8
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -2709,7 +2736,9 @@
           "eliteCinematicMove": [
             "BLAST_BURN",
             "FLAMETHROWER"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -2873,7 +2902,8 @@
                 -34.8
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -3039,7 +3069,8 @@
                 -34.8
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -3147,7 +3178,8 @@
           "eliteCinematicMove": [
             "BLAST_BURN",
             "FLAMETHROWER"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -3244,7 +3276,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -3331,7 +3364,9 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -3429,7 +3464,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -3527,7 +3563,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -3631,7 +3668,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -3731,7 +3769,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -3832,7 +3871,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -3933,7 +3973,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -4040,7 +4081,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -4160,7 +4202,8 @@
               "modelScaleV2": 1.05,
               "modelHeight": 1.39
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -4255,7 +4298,9 @@
           "buddyGroupNumber": 3,
           "eliteCinematicMove": [
             "HYDRO_CANNON"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -4376,7 +4421,8 @@
               "modelScaleV2": 1.05,
               "modelHeight": 1.39
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -4498,7 +4544,8 @@
               "modelScaleV2": 1.05,
               "modelHeight": 1.39
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -4599,7 +4646,8 @@
           "buddyGroupNumber": 3,
           "eliteCinematicMove": [
             "HYDRO_CANNON"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -4979,7 +5027,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -5077,7 +5126,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -5175,7 +5225,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -5279,7 +5330,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -5380,7 +5432,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -5482,7 +5535,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -5584,7 +5638,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -5692,7 +5747,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -5819,7 +5875,8 @@
               "modelScaleV2": 0.77,
               "modelHeight": 1.28
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -5947,7 +6004,8 @@
               "modelScaleV2": 0.77,
               "modelHeight": 1.28
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -6076,7 +6134,8 @@
               "modelScaleV2": 0.77,
               "modelHeight": 1.28
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -6182,7 +6241,8 @@
           ],
           "eliteCinematicMove": [
             "DRILL_RUN"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -6280,7 +6340,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 4
+          "buddyGroupNumber": 4,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -6382,7 +6443,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 5
+          "buddyGroupNumber": 5,
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -6519,7 +6581,8 @@
                 -30
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 5
         }
       }
     },
@@ -8679,7 +8742,8 @@
           "eliteCinematicMove": [
             "SURF",
             "THUNDER"
-          ]
+          ],
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -8770,7 +8834,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -8866,7 +8931,8 @@
           "eliteCinematicMove": [
             "SURF",
             "THUNDER"
-          ]
+          ],
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -9061,7 +9127,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 1
+          "buddyGroupNumber": 1,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -28229,12 +28296,14 @@
           },
           "quickMoves": [
             "LOW_KICK_FAST",
-            "FIRE_SPIN_FAST"
+            "FIRE_SPIN_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "FIRE_BLAST",
             "DRILL_RUN",
-            "HEAT_WAVE"
+            "HEAT_WAVE",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             2.0667,
@@ -28426,12 +28495,14 @@
           },
           "quickMoves": [
             "LOW_KICK_FAST",
-            "FIRE_SPIN_FAST"
+            "FIRE_SPIN_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "FIRE_BLAST",
             "DRILL_RUN",
-            "HEAT_WAVE"
+            "HEAT_WAVE",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             2.0667,
@@ -28525,12 +28596,14 @@
           },
           "quickMoves": [
             "LOW_KICK_FAST",
-            "FIRE_SPIN_FAST"
+            "FIRE_SPIN_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "FIRE_BLAST",
             "DRILL_RUN",
-            "HEAT_WAVE"
+            "HEAT_WAVE",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             2.0667,
@@ -28624,12 +28697,14 @@
           },
           "quickMoves": [
             "LOW_KICK_FAST",
-            "FIRE_SPIN_FAST"
+            "FIRE_SPIN_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "FIRE_BLAST",
             "DRILL_RUN",
-            "HEAT_WAVE"
+            "HEAT_WAVE",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             2.0667,
@@ -33126,7 +33201,8 @@
           ],
           "eliteCinematicMove": [
             "OMINOUS_WIND"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -33233,7 +33309,8 @@
           "buddyGroupNumber": 5,
           "eliteQuickMove": [
             "LICK_FAST"
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -33372,7 +33449,8 @@
                 0
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -33512,7 +33590,9 @@
                 0
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -33652,7 +33732,8 @@
                 0
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -50467,7 +50548,8 @@
           "buddyGroupNumber": 3,
           "eliteCinematicMove": [
             "PSYSTRIKE"
-          ]
+          ],
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -51424,7 +51506,8 @@
           },
           "quickMoves": [
             "EMBER_FAST",
-            "SHADOW_CLAW_FAST"
+            "SHADOW_CLAW_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "FIRE_BLAST",
@@ -65714,7 +65797,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -65813,7 +65897,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -65912,7 +65997,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -66017,7 +66103,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -66145,7 +66232,8 @@
                 0
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -66274,7 +66362,8 @@
                 0
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -66404,7 +66493,8 @@
                 0
               ]
             }
-          ]
+          ],
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -66502,7 +66592,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -68725,7 +68816,8 @@
             "FLAMETHROWER",
             "FIRE_BLAST",
             "OVERHEAT",
-            "IRON_HEAD"
+            "IRON_HEAD",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             1.3333,
@@ -68813,7 +68905,8 @@
             "FLAMETHROWER",
             "FIRE_BLAST",
             "OVERHEAT",
-            "IRON_HEAD"
+            "IRON_HEAD",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             1.3333,
@@ -68902,7 +68995,8 @@
             "FLAMETHROWER",
             "FIRE_BLAST",
             "OVERHEAT",
-            "IRON_HEAD"
+            "IRON_HEAD",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             1.3333,
@@ -68991,7 +69085,8 @@
             "FLAMETHROWER",
             "FIRE_BLAST",
             "OVERHEAT",
-            "IRON_HEAD"
+            "IRON_HEAD",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             1.3333,
@@ -70768,7 +70863,8 @@
           "quickMoves": [
             "EXTRASENSORY_FAST",
             "STEEL_WING_FAST",
-            "HIDDEN_POWER_FAST"
+            "HIDDEN_POWER_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "BRAVE_BIRD",
@@ -79393,7 +79489,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -82916,7 +83013,8 @@
           },
           "isTransferable": true,
           "isDeployable": true,
-          "buddyGroupNumber": 3
+          "buddyGroupNumber": 3,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -116338,7 +116436,8 @@
           "cinematicMoves": [
             "HEAT_WAVE",
             "ROCK_SLIDE",
-            "FOCUS_BLAST"
+            "FOCUS_BLAST",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             1.9,
@@ -122281,7 +122380,8 @@
           },
           "quickMoves": [
             "TACKLE_FAST",
-            "FIRE_FANG_FAST"
+            "FIRE_FANG_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "OVERHEAT",
@@ -122569,7 +122669,8 @@
           },
           "quickMoves": [
             "TACKLE_FAST",
-            "FIRE_FANG_FAST"
+            "FIRE_FANG_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "OVERHEAT",
@@ -122668,7 +122769,8 @@
           },
           "quickMoves": [
             "TACKLE_FAST",
-            "FIRE_FANG_FAST"
+            "FIRE_FANG_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "OVERHEAT",
@@ -129878,12 +129980,14 @@
           },
           "quickMoves": [
             "HEX_FAST",
-            "FIRE_SPIN_FAST"
+            "FIRE_SPIN_FAST",
+            "INCINERATE_FAST"
           ],
           "cinematicMoves": [
             "ENERGY_BALL",
             "SHADOW_BALL",
-            "OVERHEAT"
+            "OVERHEAT",
+            "FLAME_CHARGE"
           ],
           "animationTime": [
             1.9,
@@ -134557,7 +134661,8 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -134748,7 +134853,8 @@
             "candyToUnlock": 100
           },
           "isTransferable": true,
-          "buddyGroupNumber": 7
+          "buddyGroupNumber": 7,
+          "disableTransferToPokemonHome": true
         }
       }
     },

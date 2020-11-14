@@ -604,9 +604,10 @@
         "title": "Little Cup",
         "include": [{
             "filterType": "id",
-            "values": ["abra", "aipom", "anorith", "archen", "aron", "axew", "azurill", "bagon", "baltoy", "barboach", "beldum", "bellsprout", "bidoof", "blitzle", "bonsly", "bronzor", "budew", "buizel", "bulbasaur", "buneary", "burmy", "cacnea", "carvanha", "caterpie", "charmander", "cherubi", "chikorita", "chimchar", "chinchou", "chingling", "cleffa", "combee", "corphish", "corsola", "cranidos", "croagunk", "cubchoo", "cubone", "cyndaquil", "darumaka", "darumaka_galarian", "deerling", "deino", "diglett", "diglett_alolan", "doduo", "dratini", "drifloon", "drilbur", "drowzee", "ducklett", "duskull", "dwebble", "ekans", "electrike", "elekid", "elgyem", "exeggcute", "farfetchd_galarian", "feebas", "ferroseed", "finneon", "foongus", "frillish", "gastly", "geodude", "geodude_alolan", "gible", "glameow", "gligar", "goldeen", "golett", "gothita", "grimer", "grimer_alolan", "growlithe", "gulpin", "happiny", "hippopotas", "hoothoot", "hoppip", "horsea", "houndour", "igglybuff", "joltik", "kabuto", "klink", "koffing", "krabby", "kricketot", "larvesta", "larvitar", "ledyba", "lickitung", "lileep", "lillipup", "litwick", "lotad", "machop", "magby", "magikarp", "magnemite", "makuhita", "mankey", "mantyke", "mareep", "meditite", "meowth", "meowth_alolan", "meowth_galarian", "mienfoo", "mime jr.", "misdreavus", "mudkip", "munchlax", "munna", "murkrow", "natu", "nidoran_male", "nidoran_female", "nincada", "nosepass", "numel", "oddish", "omanyte", "oshawott", "pansage", "pansear", "paras", "patrat", "phanpy", "pichu", "pidgey", "pidove", "pineco", "piplup", "poliwag", "ponyta", "ponyta", "poochyena", "psyduck", "purrloin", "ralts", "rattata", "rattata_alolan", "remoraid", "rhyhorn", "riolu", "roggenrola", "rufflet", "sandile", "sandshrew", "sandshrew_alolan", "scraggy", "seedot", "seel", "sentret", "sewaddle", "shellos_east_sea", "shellos_west_sea", "shieldon", "shinx", "shroomish", "shuppet", "skitty", "skorupi", "slakoth", "slowpoke", "", "slugma", "smoochum", "sneasel", "snivy", "snorunt", "snover", "snubbull", "solosis", "spearow", "spheal", "spinarak", "spoink", "squirtle", "starly", "stunky", "surskit", "swablu", "swinub", "taillow", "tangela", "teddiursa", "tentacool", "tepig", "timburr", "tirtouga", "togepi", "torchic", "totodile", "trapinch", "treecko", "trubbish", "turtwig", "tympole", "tynamo", "tyrogue", "vanillite", "venipede", "venonat", "voltorb", "vulpix", "vulpix_alolan", "wailmer", "weedle", "whismur", "wingull", "woobat", "wooper", "wurmple", "wynaut", "yamask", "yanma", "zigzagoon", "zigzagoon_galarian", "zubat", "meltan", "yamask_galarian", "vulpix_shadow", "dratini_shadow", "stunky_shadow", "cubone_shadow", "gligar_shadow", "mareep_shadow", "turtwig_shadow", "growlithe_shadow", "psyduck_shadow", "duskull_shadow", "oddish_shadow", "hoppip_shadow", "houndour_shadow", "venonat_shadow", "squirtle_shadow", "drowzee_shadow", "nidoran_male_shadow", "seedot_shadow", "meowth_shadow", "pineco_shadow", "sandshrew_shadow", "mudkip_shadow", "poliwag_shadow", "machop_shadow", "exeggcute_shadow", "slowpoke_shadow", "magnemite_shadow", "grimer_shadow", "zubat_shadow", "teddiursa_shadow", "charmander_shadow", "rattata_shadow", "misdreavus_shadow", "snover_shadow", "bulbusaur_shadow", "ralts_shadow", "larvitar_shadow", "omanyte_shadow", "sneasel_shadow", "koffing_shadow", "carvanha_shadow", "bagon_shadow", "diglett_shadow", "trapinch_shadow", "cacnea_shadow", "weedle_shadow", "nidoran_female_shadow", "shuppet_shadow", "bellsprout_shadow", "ekans_shadow", "abra_shadow", "beldum_shadow", "magikarp_shadow", "shellder", "shellder_shadow", "cottonee", "scyther", "scyther_shadow", "onix", "mime_jr", "eevee", "porygon", "sunkern", "clamperl", "burmy", "shellos", "panpour", "petilil", "minccino", "karrablast", "shelmet"]
+            "values": ["abra", "aipom", "anorith", "archen", "aron", "axew", "azurill", "bagon", "baltoy", "barboach", "beldum", "bellsprout", "bidoof", "blitzle", "bonsly", "bronzor", "budew", "buizel", "bulbasaur", "buneary", "burmy", "cacnea", "carvanha", "caterpie", "charmander", "cherubi", "chikorita", "chimchar", "chinchou", "chingling", "cleffa", "combee", "corphish", "cranidos", "croagunk", "cubchoo", "cubone", "cyndaquil", "darumaka", "darumaka_galarian", "deerling", "deino", "diglett", "diglett_alolan", "doduo", "dratini", "drifloon", "drilbur", "drowzee", "ducklett", "duskull", "dwebble", "ekans", "electrike", "elekid", "elgyem", "exeggcute", "farfetchd_galarian", "feebas", "ferroseed", "finneon", "foongus", "frillish", "gastly", "geodude", "geodude_alolan", "gible", "glameow", "gligar", "goldeen", "golett", "gothita", "grimer", "grimer_alolan", "growlithe", "gulpin", "happiny", "hippopotas", "hoothoot", "hoppip", "horsea", "houndour", "igglybuff", "joltik", "kabuto", "klink", "koffing", "krabby", "kricketot", "larvesta", "larvitar", "ledyba", "lickitung", "lileep", "lillipup", "litwick", "lotad", "machop", "magby", "magikarp", "magnemite", "makuhita", "mankey", "mantyke", "mareep", "meditite", "meowth", "meowth_alolan", "meowth_galarian", "mienfoo", "mime jr.", "misdreavus", "mudkip", "munchlax", "munna", "murkrow", "natu", "nidoran_male", "nidoran_female", "nincada", "nosepass", "numel", "oddish", "omanyte", "oshawott", "pansage", "pansear", "paras", "patrat", "phanpy", "pichu", "pidgey", "pidove", "pineco", "piplup", "poliwag", "ponyta", "ponyta", "poochyena", "psyduck", "purrloin", "ralts", "rattata", "rattata_alolan", "remoraid", "rhyhorn", "riolu", "roggenrola", "rufflet", "sandile", "sandshrew", "sandshrew_alolan", "scraggy", "seedot", "seel", "sentret", "sewaddle", "shellos_east_sea", "shellos_west_sea", "shieldon", "shinx", "shroomish", "shuppet", "skitty", "skorupi", "slakoth", "slowpoke", "", "slugma", "smoochum", "sneasel", "snivy", "snorunt", "snover", "snubbull", "solosis", "spearow", "spheal", "spinarak", "spoink", "squirtle", "starly", "stunky", "surskit", "swablu", "swinub", "taillow", "tangela", "teddiursa", "tentacool", "tepig", "timburr", "tirtouga", "togepi", "torchic", "totodile", "trapinch", "treecko", "trubbish", "turtwig", "tympole", "tynamo", "tyrogue", "vanillite", "venipede", "venonat", "voltorb", "vulpix", "vulpix_alolan", "wailmer", "weedle", "whismur", "wingull", "woobat", "wooper", "wurmple", "wynaut", "yamask", "yanma", "zigzagoon", "zigzagoon_galarian", "zubat", "meltan", "yamask_galarian", "vulpix_shadow", "dratini_shadow", "stunky_shadow", "cubone_shadow", "gligar_shadow", "mareep_shadow", "turtwig_shadow", "growlithe_shadow", "psyduck_shadow", "duskull_shadow", "oddish_shadow", "hoppip_shadow", "houndour_shadow", "venonat_shadow", "squirtle_shadow", "drowzee_shadow", "nidoran_male_shadow", "seedot_shadow", "meowth_shadow", "pineco_shadow", "sandshrew_shadow", "mudkip_shadow", "poliwag_shadow", "machop_shadow", "exeggcute_shadow", "slowpoke_shadow", "magnemite_shadow", "grimer_shadow", "zubat_shadow", "teddiursa_shadow", "charmander_shadow", "rattata_shadow", "misdreavus_shadow", "snover_shadow", "bulbusaur_shadow", "ralts_shadow", "larvitar_shadow", "omanyte_shadow", "sneasel_shadow", "koffing_shadow", "carvanha_shadow", "bagon_shadow", "diglett_shadow", "trapinch_shadow", "cacnea_shadow", "weedle_shadow", "nidoran_female_shadow", "shuppet_shadow", "bellsprout_shadow", "ekans_shadow", "abra_shadow", "beldum_shadow", "magikarp_shadow", "shellder", "shellder_shadow", "cottonee", "scyther", "scyther_shadow", "onix", "mime_jr", "eevee", "porygon", "sunkern", "clamperl", "burmy", "shellos", "panpour", "petilil", "minccino", "karrablast", "shelmet", "vullaby", "pawniard", "staryu"]
         }],
-        "exclude": []
+        "exclude": [],
+		"partySize": 3
     }, {
         "name": "kanto",
         "title": "Kanto Cup",
@@ -617,7 +618,8 @@
         "exclude": [{
             "filterType": "tag",
             "values": ["mega"]
-        }]
+        }],
+		"partySize": 3
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega"],
     "pokemonRegions": [{
@@ -1749,7 +1751,8 @@
             "cp500": [7.5, 12, 15, 11],
             "cp1500": [23, 7, 11, 10],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 28,
         "speciesName": "穿山王 暗影化",
@@ -3369,7 +3372,7 @@
             "cp2500": [40, 15, 15, 15]
         },
         "tags": ["shadow"],
-        "searchPriority": 3
+        "searchPriority": 4
     }, {
         "dex": 72,
         "speciesName": "瑪瑙水母",
@@ -3563,8 +3566,8 @@
             "hp": 163
         },
         "types": ["fire", "none"],
-        "fastMoves": ["EMBER", "FIRE_SPIN", "LOW_KICK"],
-        "chargedMoves": ["DRILL_RUN", "FIRE_BLAST", "HEAT_WAVE"],
+        "fastMoves": ["EMBER", "FIRE_SPIN", "LOW_KICK", "INCINERATE"],
+        "chargedMoves": ["DRILL_RUN", "FIRE_BLAST", "HEAT_WAVE", "FLAME_CHARGE"],
         "defaultIVs": {
             "cp500": [7.5, 11, 9, 14],
             "cp1500": [21.5, 13, 15, 15],
@@ -5922,7 +5925,7 @@
             "hp": 186
         },
         "types": ["fire", "none"],
-        "fastMoves": ["EMBER", "SHADOW_CLAW"],
+        "fastMoves": ["EMBER", "SHADOW_CLAW", "INCINERATE"],
         "chargedMoves": ["BLAST_BURN", "FIRE_BLAST", "OVERHEAT", "SOLAR_BEAM"],
         "tags": ["starter"],
         "defaultIVs": {
@@ -8002,7 +8005,7 @@
         },
         "types": ["fire", "none"],
         "fastMoves": ["FIRE_FANG", "FIRE_SPIN"],
-        "chargedMoves": ["FIRE_BLAST", "FLAMETHROWER", "IRON_HEAD", "OVERHEAT"],
+        "chargedMoves": ["FIRE_BLAST", "FLAMETHROWER", "IRON_HEAD", "OVERHEAT", "FLAME_CHARGE"],
         "tags": ["legendary", "shadoweligible"],
         "defaultIVs": {
             "cp500": [5.5, 5, 14, 13],
@@ -8021,7 +8024,7 @@
         },
         "types": ["fire", "none"],
         "fastMoves": ["FIRE_FANG", "FIRE_SPIN"],
-        "chargedMoves": ["FIRE_BLAST", "FLAMETHROWER", "IRON_HEAD", "OVERHEAT"],
+        "chargedMoves": ["FIRE_BLAST", "FLAMETHROWER", "IRON_HEAD", "OVERHEAT", "FLAME_CHARGE"],
         "tags": ["legendary", "shadow"],
         "defaultIVs": {
             "cp500": [5.5, 5, 14, 13],
@@ -8211,7 +8214,7 @@
             "hp": 214
         },
         "types": ["fire", "flying"],
-        "fastMoves": ["EXTRASENSORY", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "STEEL_WING"],
+        "fastMoves": ["EXTRASENSORY", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "STEEL_WING", "INCINERATE"],
         "chargedMoves": ["BRAVE_BIRD", "FIRE_BLAST", "SOLAR_BEAM", "EARTHQUAKE"],
         "tags": ["legendary"],
         "defaultIVs": {
@@ -14172,7 +14175,7 @@
         },
         "types": ["fire", "fighting"],
         "fastMoves": ["LOW_KICK", "EMBER"],
-        "chargedMoves": ["HEAT_WAVE", "ROCK_SLIDE", "FOCUS_BLAST"],
+        "chargedMoves": ["HEAT_WAVE", "ROCK_SLIDE", "FOCUS_BLAST", "FLAME_CHARGE"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp500": [6.5, 6, 5, 13],
@@ -15171,7 +15174,7 @@
             "hp": 233
         },
         "types": ["fire", "none"],
-        "fastMoves": ["TACKLE", "FIRE_FANG"],
+        "fastMoves": ["TACKLE", "FIRE_FANG", "INCINERATE"],
         "chargedMoves": ["OVERHEAT", "FOCUS_BLAST", "PSYCHIC", "ROCK_SLIDE"],
         "defaultIVs": {
             "cp500": [6, 13, 14, 7],
@@ -16131,8 +16134,8 @@
             "hp": 155
         },
         "types": ["ghost", "fire"],
-        "fastMoves": ["HEX", "FIRE_SPIN"],
-        "chargedMoves": ["ENERGY_BALL", "SHADOW_BALL", "OVERHEAT"],
+        "fastMoves": ["HEX", "FIRE_SPIN", "INCINERATE"],
+        "chargedMoves": ["ENERGY_BALL", "SHADOW_BALL", "OVERHEAT", "FLAME_CHARGE"],
         "defaultIVs": {
             "cp500": [6, 6, 5, 5],
             "cp1500": [17, 8, 12, 7],
@@ -18524,7 +18527,7 @@
         "type": "poison",
         "power": 3,
         "energy": 0,
-        "energyGain": 6,
+        "energyGain": 8,
         "cooldown": 1000
     }, {
         "moveId": "POUND",
