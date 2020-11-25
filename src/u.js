@@ -75,6 +75,9 @@ export function handlePm(pms) {
 
     let pm = pms[idx];
     pm.uid = `${dex}${form}`;
+    pm._atk = pm._atk || 0;
+    pm._def = pm._def || 0;
+    pm._sta = pm._sta || 0;
 
     if (pm.name.indexOf(' ') !== -1) {
       let [s1, ...s2] = pm.name.split(' ');
