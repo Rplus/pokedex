@@ -1249,6 +1249,9 @@
           ]
         }
       ]
+    },
+    {
+      "name": "SYLVEON"
     }
   ],
   "F_PORYGON": [
@@ -3168,7 +3171,18 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "ABOMASNOW"
+          "name": "ABOMASNOW",
+          "next": [
+            {
+              "name": "ABOMASNOW_MEGA",
+              "candyCost": 0,
+              "iso": 51,
+              "requirement": [
+                "1st:200 E",
+                "2nd:40 E"
+              ]
+            }
+          ]
         }
       ]
     }
@@ -4453,6 +4467,470 @@
       "form": "GENESECT_CHILL",
       "name": "GENESECT",
       "iso": 15
+    }
+  ],
+  "F_CHESPIN": [
+    {
+      "name": "CHESPIN",
+      "next": [
+        {
+          "candyCost": 25,
+          "name": "QUILLADIN",
+          "next": [
+            {
+              "candyCost": 100,
+              "name": "CHESNAUGHT"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "F_FENNEKIN": [
+    {
+      "name": "FENNEKIN",
+      "next": [
+        {
+          "candyCost": 25,
+          "name": "BRAIXEN",
+          "next": [
+            {
+              "candyCost": 100,
+              "name": "DELPHOX"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "F_FROAKIE": [
+    {
+      "name": "FROAKIE",
+      "next": [
+        {
+          "candyCost": 25,
+          "name": "FROGADIER",
+          "next": [
+            {
+              "candyCost": 100,
+              "name": "GRENINJA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "F_BUNNELBY": [
+    {
+      "name": "BUNNELBY",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "DIGGERSBY"
+        }
+      ]
+    }
+  ],
+  "F_FLETCHLING": [
+    {
+      "name": "FLETCHLING",
+      "next": [
+        {
+          "candyCost": 25,
+          "name": "FLETCHINDER",
+          "next": [
+            {
+              "candyCost": 100,
+              "name": "TALONFLAME"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "F_SCATTERBUG": [
+    {
+      "name": "SCATTERBUG",
+      "next": [
+        {
+          "candyCost": 12,
+          "name": "SPEWPA"
+        }
+      ]
+    },
+    {
+      "name": "SPEWPA",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "VIVILLON"
+        }
+      ]
+    },
+    {
+      "name": "VIVILLON"
+    }
+  ],
+  "F_LITLEO": [
+    {
+      "name": "LITLEO",
+      "next": [
+        {
+          "candyCost": 50,
+          "form": "PYROAR_NORMAL",
+          "name": "PYROAR",
+          "requirement": [
+            "gender:MALE"
+          ]
+        },
+        {
+          "candyCost": 50,
+          "form": "PYROAR_FEMALE",
+          "name": "PYROAR",
+          "requirement": [
+            "gender:FEMALE"
+          ],
+          "iso": 1
+        }
+      ]
+    }
+  ],
+  "F_FLABEBE": [
+    {
+      "name": "FLABEBE",
+      "next": [
+        {
+          "candyCost": 25,
+          "name": "FLOETTE"
+        }
+      ]
+    },
+    {
+      "name": "FLOETTE",
+      "next": [
+        {
+          "candyCost": 100,
+          "name": "FLORGES"
+        }
+      ]
+    },
+    {
+      "name": "FLORGES"
+    }
+  ],
+  "F_SKIDDO": [
+    {
+      "name": "SKIDDO",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "GOGOAT"
+        }
+      ]
+    },
+    {
+      "name": "GOGOAT"
+    }
+  ],
+  "F_PANCHAM": [
+    {
+      "name": "PANCHAM",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "PANGORO"
+        }
+      ]
+    },
+    {
+      "name": "PANGORO"
+    }
+  ],
+  "F_FURFROU": [
+    {
+      "name": "FURFROU"
+    }
+  ],
+  "F_ESPURR": [
+    {
+      "name": "ESPURR",
+      "next": [
+        {
+          "candyCost": 50,
+          "form": "MEOWSTIC_NORMAL",
+          "name": "MEOWSTIC",
+          "requirement": [
+            "gender:MALE"
+          ]
+        },
+        {
+          "candyCost": 50,
+          "form": "MEOWSTIC_FEMALE",
+          "name": "MEOWSTIC",
+          "requirement": [
+            "gender:FEMALE"
+          ],
+          "iso": 1
+        }
+      ]
+    }
+  ],
+  "F_HONEDGE": [
+    {
+      "name": "HONEDGE",
+      "next": [
+        {
+          "candyCost": 25,
+          "name": "DOUBLADE"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLADE",
+      "next": [
+        {
+          "candyCost": 100,
+          "name": "AEGISLASH"
+        }
+      ]
+    },
+    {
+      "name": "AEGISLASH"
+    }
+  ],
+  "F_SPRITZEE": [
+    {
+      "name": "SPRITZEE",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "AROMATISSE"
+        }
+      ]
+    },
+    {
+      "name": "AROMATISSE"
+    }
+  ],
+  "F_SWIRLIX": [
+    {
+      "name": "SWIRLIX",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "SLURPUFF"
+        }
+      ]
+    },
+    {
+      "name": "SLURPUFF"
+    }
+  ],
+  "F_INKAY": [
+    {
+      "name": "INKAY",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "MALAMAR"
+        }
+      ]
+    },
+    {
+      "name": "MALAMAR"
+    }
+  ],
+  "F_BINACLE": [
+    {
+      "name": "BINACLE",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "BARBARACLE"
+        }
+      ]
+    },
+    {
+      "name": "BARBARACLE"
+    }
+  ],
+  "F_SKRELP": [
+    {
+      "name": "SKRELP",
+      "next": [
+        {
+          "candyCost": 400,
+          "name": "DRAGALGE"
+        }
+      ]
+    },
+    {
+      "name": "DRAGALGE"
+    }
+  ],
+  "F_CLAUNCHER": [
+    {
+      "name": "CLAUNCHER",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "CLAWITZER"
+        }
+      ]
+    },
+    {
+      "name": "CLAWITZER"
+    }
+  ],
+  "F_HELIOPTILE": [
+    {
+      "name": "HELIOPTILE",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "HELIOLISK"
+        }
+      ]
+    },
+    {
+      "name": "HELIOLISK"
+    }
+  ],
+  "F_TYRUNT": [
+    {
+      "name": "TYRUNT",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "TYRANTRUM"
+        }
+      ]
+    },
+    {
+      "name": "TYRANTRUM"
+    }
+  ],
+  "F_AMAURA": [
+    {
+      "name": "AMAURA",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "AURORUS"
+        }
+      ]
+    },
+    {
+      "name": "AURORUS"
+    }
+  ],
+  "F_HAWLUCHA": [
+    {
+      "name": "HAWLUCHA"
+    }
+  ],
+  "F_DEDENNE": [
+    {
+      "name": "DEDENNE"
+    }
+  ],
+  "F_CARBINK": [
+    {
+      "name": "CARBINK"
+    }
+  ],
+  "F_GOOMY": [
+    {
+      "name": "GOOMY",
+      "next": [
+        {
+          "candyCost": 25,
+          "name": "SLIGGOO"
+        }
+      ]
+    },
+    {
+      "name": "SLIGGOO",
+      "next": [
+        {
+          "candyCost": 100,
+          "name": "GOODRA"
+        }
+      ]
+    },
+    {
+      "name": "GOODRA"
+    }
+  ],
+  "F_KLEFKI": [
+    {
+      "name": "KLEFKI"
+    }
+  ],
+  "F_PHANTUMP": [
+    {
+      "name": "PHANTUMP",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "TREVENANT"
+        }
+      ]
+    },
+    {
+      "name": "TREVENANT"
+    }
+  ],
+  "F_PUMPKABOO": [
+    {
+      "name": "PUMPKABOO",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "GOURGEIST"
+        }
+      ]
+    },
+    {
+      "name": "GOURGEIST"
+    }
+  ],
+  "F_BERGMITE": [
+    {
+      "name": "BERGMITE",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "AVALUGG"
+        }
+      ]
+    },
+    {
+      "name": "AVALUGG"
+    }
+  ],
+  "F_NOIBAT": [
+    {
+      "name": "NOIBAT",
+      "next": [
+        {
+          "candyCost": 400,
+          "name": "NOIVERN"
+        }
+      ]
+    }
+  ],
+  "F_XERNEAS": [
+    {
+      "name": "XERNEAS"
+    }
+  ],
+  "F_YVELTAL": [
+    {
+      "name": "YVELTAL"
+    },
+    {
+      "name": "YVELTAL"
     }
   ],
   "F_MELTAN": [

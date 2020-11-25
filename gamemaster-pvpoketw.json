@@ -620,7 +620,18 @@
             "values": ["mega"]
         }],
 		"partySize": 3
-    }],
+    }, {
+	    "name": "nightfall",
+	    "title": "Silph Nightfall Cup",
+	    "include": [{
+	        "filterType": "type",
+	        "values": ["ice","fighting","normal","poison","ground"]
+	    }],
+	    "exclude": [{
+	        "filterType": "tag",
+	        "values": ["mega"]
+	    }]
+	}],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega"],
     "pokemonRegions": [{
         "string": "gen1",
@@ -657,10 +668,10 @@
             "pokemon": ["altaria", "azumarill", "skarmory", "deoxys_defense", "registeel", "stunfisk_galarian", "tropius"]
         }, {
             "points": 5,
-            "pokemon": ["abomasnow", "bastiodon", "bronzong", "cresselia", "ferrothorn", "galvantula", "hypno", "ivysaur", "jirachi", "marowak_alolan", "medicham", "meganium", "melmetal", "probopass", "regirock", "sableye", "scrafty", "swampert", "umbreon", "venusaur", "whiscash", "zweilous"]
+            "pokemon": ["abomasnow", "bastiodon", "bronzong", "cresselia", "ferrothorn", "galvantula", "hypno", "ivysaur", "jirachi", "mandibuzz", "marowak_alolan", "medicham", "meganium", "melmetal", "probopass", "regirock", "sableye", "scrafty", "swampert", "umbreon", "venusaur", "whiscash", "zweilous"]
         }, {
             "points": 1,
-            "pokemon": ["cherrim_sunny", "clefable", "dewgong", "drifblim", "empoleon", "froslass", "gardevoir", "gengar", "golbat", "haunter", "jumpluff", "lanturn", "lapras", "lugia", "machamp", "mantine", "mew", "muk_alolan", "noctowl", "obstagoon", "pelipper", "raichu", "raichu_alolan", "raikou", "regice", "shiftry", "stunfisk", "togekiss", "toxicroak", "uxie", "victreebel", "vigoroth", "wigglytuff", "zapdos"]
+            "pokemon": ["cherrim_sunny", "clefable", "dewgong", "drifblim", "empoleon", "froslass", "gardevoir", "gengar", "golbat", "haunter", "jumpluff", "lanturn", "lapras", "lugia", "machamp", "mantine", "mew", "muk_alolan", "noctowl", "obstagoon", "pelipper", "raichu", "raichu_alolan", "raikou", "regice", "shiftry", "sirfetchd", "stunfisk", "togekiss", "toxicroak", "uxie", "victreebel", "vigoroth", "wigglytuff", "zapdos"]
         }]
     }],
     "pokemon": [{
@@ -13035,7 +13046,8 @@
         },
         "types": ["electric", "none"],
         "fastMoves": ["LOW_KICK", "THUNDER_SHOCK"],
-        "chargedMoves": ["THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "ICE_PUNCH"],
+        "chargedMoves": ["THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "ICE_PUNCH", "FLAMETHROWER"],
+		"eliteMoves": ["FLAMETHROWER"],
         "defaultIVs": {
             "cp500": [6, 9, 14, 15],
             "cp1500": [18, 5, 10, 12],
@@ -13054,7 +13066,8 @@
         },
         "types": ["electric", "none"],
         "fastMoves": ["LOW_KICK", "THUNDER_SHOCK"],
-        "chargedMoves": ["THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "ICE_PUNCH"],
+        "chargedMoves": ["THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "ICE_PUNCH", "FLAMETHROWER"],
+		"eliteMoves": ["FLAMETHROWER"],
         "defaultIVs": {
             "cp500": [6, 9, 14, 15],
             "cp1500": [18, 5, 10, 12],
@@ -13072,7 +13085,8 @@
         },
         "types": ["fire", "none"],
         "fastMoves": ["FIRE_SPIN", "KARATE_CHOP"],
-        "chargedMoves": ["BRICK_BREAK", "FIRE_BLAST", "FIRE_PUNCH", "PSYCHIC"],
+        "chargedMoves": ["BRICK_BREAK", "FIRE_BLAST", "FIRE_PUNCH", "PSYCHIC", "THUNDERBOLT"],
+		"eliteMoves": ["THUNDERBOLT"],
         "defaultIVs": {
             "cp500": [6, 9, 14, 9],
             "cp1500": [17.5, 5, 12, 14],
@@ -13091,7 +13105,8 @@
         },
         "types": ["fire", "none"],
         "fastMoves": ["FIRE_SPIN", "KARATE_CHOP"],
-        "chargedMoves": ["BRICK_BREAK", "FIRE_BLAST", "FIRE_PUNCH", "PSYCHIC"],
+        "chargedMoves": ["BRICK_BREAK", "FIRE_BLAST", "FIRE_PUNCH", "PSYCHIC", "THUNDERBOLT"],
+		"eliteMoves": ["THUNDERBOLT"],
         "defaultIVs": {
             "cp500": [6, 9, 14, 9],
             "cp1500": [17.5, 5, 12, 14],
