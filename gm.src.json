@@ -16287,6 +16287,38 @@
       ]
     },
     {
+      "dex": 460,
+      "types": [
+        "grass",
+        "ice"
+      ],
+      "fastMoves": [
+        "POWDER_SNOW",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "BLIZZARD",
+        "ENERGY_BALL",
+        "OUTRAGE",
+        "WEATHER_BALL_ICE",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "_atk": 240,
+      "_def": 191,
+      "_sta": 207,
+      "id": "ABOMASNOW_MEGA",
+      "name": "Abomasnow (Mega)",
+      "captureRate": 0.13,
+      "fleeRate": 0.06,
+      "buddyKm": 3,
+      "familyId": "F_SNOVER",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 461,
       "types": [
         "dark",
