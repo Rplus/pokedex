@@ -65,7 +65,7 @@ function handleJSON(json) {
 function doPM(pokemon, shadowPokemon) {
   // remove shadow pokemon
   pokemon = pokemon
-    .filter(pm => pm.speciesId.indexOf('_shadow') === -1)
+    .filter(pm => pm.speciesId.indexOf('_shadow') === -1 && pm.speciesId.indexOf('_xl') === -1)
     .map(pm => {
       let ppp = queryPM(pm.speciesId);
       let pm_tw = queryPM_tw(pm.speciesId);
