@@ -136257,7 +136257,7 @@
           },
           "quickMoves": [
             "LOW_KICK_FAST",
-            "RAZOR_LEAF_FAST"
+            "VINE_WHIP_FAST"
           ],
           "cinematicMoves": [
             "GYRO_BALL",
@@ -136354,8 +136354,8 @@
           },
           "quickMoves": [
             "LOW_KICK_FAST",
-            "RAZOR_LEAF_FAST",
-            "VINE_WHIP_FAST"
+            "VINE_WHIP_FAST",
+            "SMACK_DOWN_FAST"
           ],
           "cinematicMoves": [
             "GYRO_BALL",
@@ -136824,7 +136824,7 @@
             "BUBBLE_FAST"
           ],
           "cinematicMoves": [
-            "NIGHT_SLASH",
+            "WATER_PULSE",
             "AERIAL_ACE",
             "SURF"
           ],
@@ -138985,7 +138985,6 @@
             "FURY_CUTTER_FAST"
           ],
           "cinematicMoves": [
-            "NIGHT_SLASH",
             "IRON_HEAD",
             "GYRO_BALL"
           ],
@@ -139057,7 +139056,6 @@
             "FURY_CUTTER_FAST"
           ],
           "cinematicMoves": [
-            "NIGHT_SLASH",
             "IRON_HEAD",
             "GYRO_BALL"
           ],
@@ -139129,7 +139127,6 @@
             "FURY_CUTTER_FAST"
           ],
           "cinematicMoves": [
-            "NIGHT_SLASH",
             "FLASH_CANNON",
             "GYRO_BALL",
             "SHADOW_BALL"
@@ -140348,8 +140345,7 @@
           },
           "quickMoves": [
             "POWDER_SNOW_FAST",
-            "FROST_BREATH_FAST",
-            "MIRROR_COAT"
+            "FROST_BREATH_FAST"
           ],
           "cinematicMoves": [
             "WEATHER_BALL_ICE",
@@ -140427,7 +140423,6 @@
           "quickMoves": [
             "POWDER_SNOW_FAST",
             "FROST_BREATH_FAST",
-            "MIRROR_COAT",
             "ROCK_THROW_FAST"
           ],
           "cinematicMoves": [
@@ -141356,11 +141351,12 @@
           },
           "quickMoves": [
             "BITE_FAST",
-            "MIRROR_COAT"
+            "TACKLE_FAST"
           ],
           "cinematicMoves": [
             "CRUNCH",
-            "ICY_WIND"
+            "ICY_WIND",
+            "MIRROR_COAT"
           ],
           "animationTime": [
             1.9,
@@ -141428,14 +141424,14 @@
           },
           "quickMoves": [
             "BITE_FAST",
-            "ICE_FANG_FAST",
-            "MIRROR_COAT"
+            "ICE_FANG_FAST"
           ],
           "cinematicMoves": [
             "CRUNCH",
             "AVALANCHE",
             "EARTHQUAKE",
-            "BODY_SLAM"
+            "BODY_SLAM",
+            "MIRROR_COAT"
           ],
           "animationTime": [
             1.9,
