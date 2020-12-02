@@ -2596,6 +2596,7 @@
               "averageWeightKg": 110.5,
               "typeOverride1": "POKEMON_TYPE_FIRE",
               "typeOverride2": "POKEMON_TYPE_DRAGON",
+              "cpMultiplierOverride": 0.8153,
               "camera": {
                 "cylinderRadiusM": 1.25,
                 "cylinderHeightM": 1.75,
@@ -2865,6 +2866,7 @@
               "averageWeightKg": 110.5,
               "typeOverride1": "POKEMON_TYPE_FIRE",
               "typeOverride2": "POKEMON_TYPE_DRAGON",
+              "cpMultiplierOverride": 0.8153,
               "camera": {
                 "cylinderRadiusM": 1.25,
                 "cylinderHeightM": 1.75,
@@ -3032,6 +3034,7 @@
               "averageWeightKg": 110.5,
               "typeOverride1": "POKEMON_TYPE_FIRE",
               "typeOverride2": "POKEMON_TYPE_DRAGON",
+              "cpMultiplierOverride": 0.8153,
               "camera": {
                 "cylinderRadiusM": 1.25,
                 "cylinderHeightM": 1.75,
@@ -16274,6 +16277,7 @@
             "movementTimerS": 29,
             "jumpTimeS": 1.1,
             "attackTimerS": 10,
+            "bonusStardustCaptureReward": 400,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -16372,7 +16376,7 @@
             "jumpTimeS": 1.25,
             "attackTimerS": 6,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 600,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -18209,6 +18213,7 @@
             "movementTimerS": 29,
             "jumpTimeS": 1,
             "attackTimerS": 10,
+            "bonusStardustCaptureReward": 400,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -18314,6 +18319,7 @@
             "movementTimerS": 29,
             "jumpTimeS": 1,
             "attackTimerS": 10,
+            "bonusStardustCaptureReward": 650,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -18517,6 +18523,7 @@
             "movementTimerS": 29,
             "jumpTimeS": 1,
             "attackTimerS": 10,
+            "bonusStardustCaptureReward": 400,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -18842,7 +18849,7 @@
             "jumpTimeS": 1.25,
             "attackTimerS": 23,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 600,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -18934,7 +18941,7 @@
             "jumpTimeS": 1.25,
             "attackTimerS": 23,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 850,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -19024,7 +19031,7 @@
             "jumpTimeS": 1.25,
             "attackTimerS": 23,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 600,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -32329,6 +32336,7 @@
             "movementTimerS": 23,
             "jumpTimeS": 1.2,
             "attackTimerS": 8,
+            "bonusStardustCaptureReward": 900,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -32426,6 +32434,7 @@
             "movementTimerS": 23,
             "jumpTimeS": 1.2,
             "attackTimerS": 8,
+            "bonusStardustCaptureReward": 900,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -32729,7 +32738,7 @@
             "jumpTimeS": 1,
             "attackTimerS": 8,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 1100,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 0.8,
@@ -32825,7 +32834,7 @@
             "jumpTimeS": 1,
             "attackTimerS": 8,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 1100,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 0.8,
@@ -41335,6 +41344,7 @@
             "movementTimerS": 10,
             "jumpTimeS": 1.35,
             "attackTimerS": 29,
+            "bonusStardustCaptureReward": 650,
             "attackProbability": 0.1,
             "dodgeProbability": 0.2,
             "dodgeDurationS": 1,
@@ -41434,7 +41444,7 @@
             "jumpTimeS": 1.6,
             "attackTimerS": 17,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 850,
             "attackProbability": 0.1,
             "dodgeProbability": 0.2,
             "dodgeDurationS": 1,
@@ -64918,6 +64928,7 @@
             "movementTimerS": 11,
             "jumpTimeS": 1,
             "attackTimerS": 20,
+            "bonusStardustCaptureReward": 400,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -65004,6 +65015,7 @@
             "movementTimerS": 11,
             "jumpTimeS": 1,
             "attackTimerS": 20,
+            "bonusStardustCaptureReward": 400,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -77719,6 +77731,7 @@
             "movementTimerS": 11,
             "jumpTimeS": 1.1,
             "attackTimerS": 20,
+            "bonusStardustCaptureReward": 400,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -77813,7 +77826,7 @@
             "jumpTimeS": 1.1,
             "attackTimerS": 20,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 600,
             "attackProbability": 0.3,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -79336,6 +79349,7 @@
             "movementTimerS": 11,
             "jumpTimeS": 1.1,
             "attackTimerS": 20,
+            "bonusStardustCaptureReward": 650,
             "attackProbability": 0.3,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -79522,6 +79536,7 @@
             "movementTimerS": 11,
             "jumpTimeS": 1.1,
             "attackTimerS": 20,
+            "bonusStardustCaptureReward": 650,
             "attackProbability": 0.3,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -99019,6 +99034,7 @@
             "movementTimerS": 10,
             "jumpTimeS": 0.9,
             "attackTimerS": 29,
+            "bonusStardustCaptureReward": 650,
             "attackProbability": 0.05,
             "dodgeProbability": 0.4,
             "dodgeDurationS": 1,
@@ -99118,7 +99134,7 @@
             "jumpTimeS": 0.9,
             "attackTimerS": 29,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 850,
             "attackProbability": 0.2,
             "dodgeProbability": 0.3,
             "dodgeDurationS": 1,
@@ -107292,6 +107308,7 @@
               ]
             }
           ],
+          "buddyWalkedMegaEnergyAward": 15,
           "raidBossDistanceOffset": 3
         }
       }
@@ -107422,6 +107439,7 @@
               ]
             }
           ],
+          "buddyWalkedMegaEnergyAward": 15,
           "raidBossDistanceOffset": 3
         }
       }
@@ -107553,6 +107571,7 @@
               ]
             }
           ],
+          "buddyWalkedMegaEnergyAward": 15,
           "raidBossDistanceOffset": 3
         }
       }
@@ -107651,7 +107670,8 @@
             "purifiedChargeMove": "RETURN",
             "shadowChargeMove": "FRUSTRATION"
           },
-          "buddyGroupNumber": 2
+          "buddyGroupNumber": 2,
+          "buddyWalkedMegaEnergyAward": 15
         }
       }
     },
@@ -124880,6 +124900,7 @@
             "movementTimerS": 10,
             "jumpTimeS": 1,
             "attackTimerS": 29,
+            "bonusStardustCaptureReward": 650,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -124979,7 +125000,7 @@
             "jumpTimeS": 1.1,
             "attackTimerS": 29,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 850,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -127831,6 +127852,7 @@
             "movementTimerS": 10,
             "jumpTimeS": 0.8,
             "attackTimerS": 29,
+            "bonusStardustCaptureReward": 400,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
@@ -127931,7 +127953,7 @@
             "jumpTimeS": 0.9,
             "attackTimerS": 29,
             "bonusCandyCaptureReward": 2,
-            "bonusStardustCaptureReward": 200,
+            "bonusStardustCaptureReward": 600,
             "attackProbability": 0.1,
             "dodgeProbability": 0.15,
             "dodgeDurationS": 1,
