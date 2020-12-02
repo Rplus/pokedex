@@ -3,7 +3,7 @@
   import Details from '@c/Details.html';
 
   let lvStart = 20;
-  let lvEnd = 40;
+  let lvEnd = 50;
 
   let cost = {
     dust: 0,
@@ -30,6 +30,7 @@
 
     cost.dust = `${result.dust / 1000}k`;
     cost.candy = result.candy;
+    cost.candyXL = result.candyXL;
   }
 
   function calcCost(lvS, lvE) {
@@ -38,10 +39,11 @@
     return costTable
       .filter(i => i[0] >= lvS && i[0] < lvE)
       .reduce((all, i) => {
-        all.candy += Math.round(i[1] * ratio.candy);
-        all.dust += Math.round(i[2] * ratio.dust);
+        all.candyXL += Math.round((i[3] || 0) * ratio.candy);
+        all.candy += Math.round(i[2] * ratio.candy);
+        all.dust += Math.round(i[1] * ratio.dust);
         return all;
-      }, { candy: 0, dust: 0 });
+      }, { candy: 0, dust: 0, candyXL: 0 });
   }
 
 </script>
@@ -58,13 +60,13 @@
       <tr>
         <td class="text-right">
           <input type="number"
-            max="40" min="1" step="0.5"
+            max="50" min="1" step="0.5"
             bind:value={lvStart}
           />
         </td>
         <td>
           <input type="range"
-            max="40" min="1" step="0.5"
+            max="50" min="1" step="0.5"
             bind:value={lvStart}
           />
         </td>
@@ -73,13 +75,13 @@
       <tr>
         <td class="text-right">
           <input type="number"
-            max="40" min="1" step="0.5"
+            max="50" min="1" step="0.5"
             bind:value={lvEnd}
           />
         </td>
         <td>
           <input type="range"
-            max="40" min="1" step="0.5"
+            max="50" min="1" step="0.5"
             bind:value={lvEnd}
           />
         </td>
@@ -92,6 +94,15 @@
         </td>
         <td>
           {cost.candy}
+        </td>
+      </tr>
+      <tr>
+        <td class="cost-title text-right">
+          XL糖果
+          <div class="cost-ratio d-ib text-left fz-s">x{ratio.candy}</div>
+        </td>
+        <td>
+          {cost.candyXL}
         </td>
       </tr>
       <tr>

@@ -88,7 +88,7 @@ export function handlePm(pms) {
       atk: pm._atk,
       def: pm._def,
       sta: pm._sta,
-    }, [15, 15, 15, 40]);
+    }, [15, 15, 15, 50]);
 
     pm.maxcp = _cphp.cp;
     pm.maxhp = _cphp.hp;
