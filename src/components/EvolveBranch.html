@@ -8,7 +8,7 @@
     let fn = data.suffix
       ? data.suffix
       : `000${data.pm.dex}`.slice(-3)
-        + (data.iso ? `_${data.iso}` : '_00')
+        + (data.iso ? `_${('00' + data.iso).slice(-2)}` : '_00')
         + ($settings.io.shinyAvatar ? '_shiny' : '');
     data.src = cdnImgSrc(pmImgFN(fn));
   }
