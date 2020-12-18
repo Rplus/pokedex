@@ -213,10 +213,22 @@
   ],
   "F_PIKACHU": [
     {
+      "form": "PIKACHU_ADVENTURE_HAT_2020",
+      "name": "PIKACHU",
+      "prev": "PICHU",
+      "suffix": "pm0025_00_pgo_movie2020"
+    },
+    {
       "form": "PIKACHU_COSTUME_2020",
       "name": "PIKACHU",
       "prev": "PICHU",
       "suffix": "pm0025_00_pgo_4thanniversary"
+    },
+    {
+      "form": "PIKACHU_WINTER_2020",
+      "name": "PIKACHU",
+      "prev": "PICHU",
+      "suffix": "pm0025_00_pgo_winter2020"
     },
     {
       "name": "PICHU",
@@ -693,6 +705,19 @@
           ]
         }
       ]
+    },
+    {
+      "form": "SLOWPOKE_2020",
+      "name": "SLOWPOKE",
+      "next": [
+        {
+          "candyCost": 50,
+          "form": "SLOWBRO_2021",
+          "name": "SLOWBRO",
+          "suffix": "pm0080_00_pgo_2021"
+        }
+      ],
+      "suffix": "pm0079_00_pgo_2020"
     }
   ],
   "F_MAGNEMITE": [
@@ -1098,6 +1123,18 @@
           ]
         }
       ]
+    },
+    {
+      "form": "MR_MIME_GALARIAN",
+      "name": "MR_MIME",
+      "prev": "MIME_JR",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "MR_RIME"
+        }
+      ],
+      "iso": 31
     }
   ],
   "F_SCYTHER": [
@@ -1797,6 +1834,11 @@
   "F_DELIBIRD": [
     {
       "name": "DELIBIRD"
+    },
+    {
+      "form": "DELIBIRD_WINTER_2020",
+      "name": "DELIBIRD",
+      "suffix": "pm0225_00_pgo_winter2020"
     }
   ],
   "F_MANTINE": [
@@ -4206,6 +4248,21 @@
           "name": "BEARTIC"
         }
       ]
+    },
+    {
+      "form": "CUBCHOO_NORMAL",
+      "name": "CUBCHOO",
+      "next": [
+        {
+          "candyCost": 50,
+          "name": "BEARTIC"
+        }
+      ]
+    },
+    {
+      "form": "CUBCHOO_WINTER_2020",
+      "name": "CUBCHOO",
+      "suffix": "pm0613_00_pgo_winter2020"
     }
   ],
   "F_CRYOGONAL": [
