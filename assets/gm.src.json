@@ -5254,6 +5254,35 @@
       ]
     },
     {
+      "dex": 122,
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "ZEN_HEADBUTT"
+      ],
+      "chargedMoves": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "ICE_PUNCH"
+      ],
+      "_atk": 183,
+      "_def": 169,
+      "_sta": 137,
+      "id": "MR_MIME_GALARIAN",
+      "name": "魔牆人偶 伽勒爾型態",
+      "captureRate": 0.3,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_MR_MIME",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 123,
       "types": [
         "bug",
@@ -7690,7 +7719,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "DIG",
-        "MUD_BOMB"
+        "MUD_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 75,
       "_def": 66,
@@ -7720,7 +7751,9 @@
         "EARTHQUAKE",
         "SLUDGE_BOMB",
         "STONE_EDGE",
-        "ACID_SPRAY"
+        "ACID_SPRAY",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 152,
       "_def": 143,
@@ -24605,8 +24638,8 @@
       "buddyKm": 5,
       "familyId": "F_CARBINK",
       "genderMF": [
-        50,
-        50
+        0,
+        0
       ]
     },
     {
@@ -24979,8 +25012,8 @@
       "buddyKm": 20,
       "familyId": "F_XERNEAS",
       "genderMF": [
-        50,
-        50
+        0,
+        0
       ]
     },
     {
@@ -25011,8 +25044,8 @@
       "buddyKm": 20,
       "familyId": "F_YVELTAL",
       "genderMF": [
-        50,
-        50
+        0,
+        0
       ]
     },
     {
@@ -25043,8 +25076,8 @@
       "buddyKm": 20,
       "familyId": "F_YVELTAL",
       "genderMF": [
-        50,
-        50
+        0,
+        0
       ]
     },
     {
@@ -25183,6 +25216,37 @@
       "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_FARFETCHD",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 866,
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "ZEN_HEADBUTT",
+        "ICE_SHARD"
+      ],
+      "chargedMoves": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "ICE_PUNCH",
+        "ICY_WIND"
+      ],
+      "_atk": 212,
+      "_def": 179,
+      "_sta": 190,
+      "id": "MR_RIME",
+      "name": "踏冰人偶",
+      "captureRate": 0.3,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_MR_MIME",
       "genderMF": [
         50,
         50
