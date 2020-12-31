@@ -39,9 +39,9 @@
     return costTable
       .filter(i => i[0] >= lvS && i[0] < lvE)
       .reduce((all, i) => {
-        all.candyXL += Math.round((i[3] || 0) * ratio.candy);
-        all.candy += Math.round(i[2] * ratio.candy);
-        all.dust += Math.round(i[1] * ratio.dust);
+        all.candyXL += Math.ceil((i[3] || 0) * ratio.candy);
+        all.candy += Math.ceil(i[2] * ratio.candy);
+        all.dust += Math.ceil(i[1] * ratio.dust);
         return all;
       }, { candy: 0, dust: 0, candyXL: 0 });
   }
