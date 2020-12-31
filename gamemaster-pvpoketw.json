@@ -639,6 +639,9 @@
         "exclude": [{
             "filterType": "tag",
             "values": ["mega"]
+        }, {
+            "filterType": "id",
+            "values": ["mr_rime", "mr_mime_galarian"]
         }]
     }, {
         "name": "holiday",
@@ -650,6 +653,29 @@
         "exclude": [{
             "filterType": "tag",
             "values": ["mega"]
+        }]
+    }, {
+        "name": "cerberus",
+        "title": "Victory Road Cerberus Cup",
+		"link": "https://silph.gg/t/eh4b/the-three-heads-of-cerberus",
+        "restrictedPicks": 1,
+        "restrictedPokemon": ["sableye","sableye_xl","sableye_shadow","sableye_shadow_xl","zweilous","umbreon"],
+        "include": [{
+            "filterType": "type",
+            "values": ["dragon","ice","fire","psychic","fighting"]
+        }, {
+            "filterType": "id",
+            "values": ["sableye","sableye_xl","sableye_shadow","sableye_shadow_xl","zweilous","umbreon"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["legendary","mythical","mega"]
+        }, {
+            "filterType": "id",
+            "values": ["marowak_alolan","gardevoir_shadow"]
+        }, {
+            "filterType": "type",
+            "values": ["dark"]
         }]
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega", "xl"],
@@ -1810,6 +1836,24 @@
         }
     }, {
         "dex": 27,
+        "speciesName": "穿山鼠 阿羅拉型態XL",
+        "speciesId": "sandshrew_alolan_xl",
+        "baseStats": {
+            "atk": 125,
+            "def": 129,
+            "hp": 137
+        },
+        "types": ["ice", "steel"],
+        "fastMoves": ["METAL_CLAW", "POWDER_SNOW"],
+        "chargedMoves": ["BLIZZARD", "GYRO_BALL", "NIGHT_SLASH"],
+        "tags": ["alolan", "xl"],
+        "defaultIVs": {
+            "cp500": [14.5, 6, 13, 14],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        }
+    }, {
+        "dex": 27,
         "speciesName": "穿山鼠 暗影化",
         "speciesId": "sandshrew_shadow",
         "baseStats": {
@@ -1865,6 +1909,24 @@
             "cp2500": [40, 15, 15, 15]
         },
         "searchPriority": 2
+    }, {
+        "dex": 28,
+        "speciesName": "穿山王 阿羅拉型態XL",
+        "speciesId": "sandslash_alolan_xl",
+        "baseStats": {
+            "atk": 177,
+            "def": 195,
+            "hp": 181
+        },
+        "types": ["ice", "steel"],
+        "fastMoves": ["METAL_CLAW", "POWDER_SNOW"],
+        "chargedMoves": ["BLIZZARD", "BULLDOZE", "GYRO_BALL", "ICE_PUNCH"],
+        "tags": ["alolan", "xl"],
+        "defaultIVs": {
+            "cp500": [7.5, 12, 12, 14],
+            "cp1500": [23, 7, 11, 10],
+            "cp2500": [47, 4, 14, 15]
+        }
     }, {
         "dex": 28,
         "speciesName": "穿山王 暗影化",
@@ -4384,6 +4446,27 @@
         "searchPriority": 14
     }, {
         "dex": 97,
+        "speciesName": "引夢貘人 XL",
+        "speciesId": "hypno_xl",
+        "baseStats": {
+            "atk": 144,
+            "def": 193,
+            "hp": 198
+        },
+        "types": ["psychic", "none"],
+        "fastMoves": ["CONFUSION", "ZEN_HEADBUTT"],
+        "chargedMoves": ["FOCUS_BLAST", "FUTURE_SIGHT", "PSYCHIC", "PSYSHOCK", "SHADOW_BALL", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH"],
+        "defaultIVs": {
+            "cp500": [9, 7, 9, 13],
+            "cp1500": [27, 7, 14, 7],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "level25CP": 1255,
+        "tags": ["shadoweligible", "xl"],
+        "eliteMoves": ["PSYSHOCK"],
+        "searchPriority": 14
+    }, {
+        "dex": 97,
         "speciesName": "引夢貘人 暗影化",
         "speciesId": "hypno_shadow",
         "baseStats": {
@@ -4400,6 +4483,26 @@
             "cp2500": [40, 15, 15, 15]
         },
         "tags": ["shadow"],
+        "eliteMoves": ["PSYSHOCK"],
+        "searchPriority": 14
+    }, {
+        "dex": 97,
+        "speciesName": "引夢貘人 暗影化XL",
+        "speciesId": "hypno_shadow_xl",
+        "baseStats": {
+            "atk": 144,
+            "def": 193,
+            "hp": 198
+        },
+        "types": ["psychic", "none"],
+        "fastMoves": ["CONFUSION", "ZEN_HEADBUTT"],
+        "chargedMoves": ["FOCUS_BLAST", "FUTURE_SIGHT", "PSYCHIC", "PSYSHOCK", "SHADOW_BALL", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH"],
+        "defaultIVs": {
+            "cp500": [9, 7, 9, 13],
+            "cp1500": [27, 7, 14, 7],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["shadow", "xl"],
         "eliteMoves": ["PSYSHOCK"],
         "searchPriority": 14
     }, {
@@ -7369,6 +7472,25 @@
         },
         "level25CP": 538,
         "tags": ["shadoweligible"]
+    }, {
+        "dex": 202,
+        "speciesName": "果然翁 XL",
+        "speciesId": "wobbuffet_xl",
+        "baseStats": {
+            "atk": 60,
+            "def": 106,
+            "hp": 382
+        },
+        "types": ["psychic", "none"],
+        "fastMoves": ["COUNTER", "SPLASH", "CHARM"],
+        "chargedMoves": ["MIRROR_COAT"],
+        "defaultIVs": {
+            "cp500": [19.5, 7, 11, 12],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "level25CP": 538,
+        "tags": ["shadoweligible", "xl"]
     }, {
         "dex": 202,
         "speciesName": "果然翁 暗影化",
@@ -14311,6 +14433,24 @@
         },
         "searchPriority": 7
     }, {
+        "dex": 478,
+        "speciesName": "雪妖女 XL",
+        "speciesId": "froslass_xl",
+        "baseStats": {
+            "atk": 171,
+            "def": 150,
+            "hp": 172
+        },
+        "types": ["ice", "ghost"],
+        "fastMoves": ["HEX", "POWDER_SNOW"],
+        "chargedMoves": ["AVALANCHE", "CRUNCH", "SHADOW_BALL"],
+        "defaultIVs": {
+            "cp500": [9, 10, 12, 12],
+            "cp1500": [27.5, 8, 6, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"]
+    }, {
         "dex": 479,
         "speciesName": "洛托姆 洛托姆的樣子",
         "speciesId": "rotom",
@@ -18450,7 +18590,7 @@
             "hp": 200
         },
         "types": ["fire", "normal"],
-        "fastMoves": ["FIRE_FANG", "TAKE_DOWN", "EMBER"],
+        "fastMoves": ["FIRE_FANG", "TAKE_DOWN"],
         "chargedMoves": ["FLAME_CHARGE", "SOLAR_BEAM", "DARK_PULSE", "OVERHEAT"],
         "defaultIVs": {
             "cp500": [6.5, 15, 15, 14],
@@ -21366,6 +21506,46 @@
         "energy": 0,
         "energyGain": 8,
         "cooldown": 1500
+    }, {
+        "moveId": "TECHNO_BLAST_NORMAL",
+        "name": "高科技光炮 一般",
+        "type": "normal",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "TECHNO_BLAST_BURN",
+        "name": "高科技光炮 火",
+        "type": "fire",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "TECHNO_BLAST_CHILL",
+        "name": "高科技光炮 冰",
+        "type": "ice",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "TECHNO_BLAST_DOUSE",
+        "name": "高科技光炮 水",
+        "type": "water",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "TECHNO_BLAST_SHOCK",
+        "name": "高科技光炮 電",
+        "type": "electric",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
     }, {
         "moveId": "THUNDER",
         "name": "打雷",
