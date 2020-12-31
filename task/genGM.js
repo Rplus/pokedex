@@ -166,6 +166,11 @@ function doMove(moves) {
   {
     moves = moves.map(mmm => {
       let pveData = queryMove(mmm.moveId);
+
+      if (mmm.moveId === 'TECHNO_BLAST_DOUSE') {
+        pveData = queryMove('TECHNO_BLAST_WATER');
+      }
+
       if (!pveData) {
         pveData = queryMove(mmm.moveId.replace(/\_/g, ''));
         if (!pveData) {
@@ -212,7 +217,7 @@ function doMove(moves) {
         pve_damageWindowEnd: pveData.damageWindowEndMs / 1000,
       };
     });
-    return moves;
+    return moves.filter(Boolean);
   }
 }
 
