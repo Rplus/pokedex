@@ -2180,9 +2180,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT",
-        "RETURN",
-        "RETURN"
+        "MUD_SHOT"
       ],
       "_atk": 109,
       "_def": 78,
@@ -2245,9 +2243,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT",
-        "RETURN",
-        "RETURN"
+        "MUD_SHOT"
       ],
       "_atk": 167,
       "_def": 136,
@@ -3820,9 +3816,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 135,
       "_def": 90,
@@ -4763,9 +4757,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 119,
       "_def": 141,
@@ -4800,9 +4792,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 174,
       "_def": 197,
@@ -5801,8 +5791,6 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK",
-        "RETURN",
-        "RETURN",
         "TACKLE",
         "ZEN_HEADBUTT",
         "SIGNAL_BEAM",
@@ -8643,7 +8631,6 @@
         "flying"
       ],
       "fastMoves": [
-        "ICE_SHARD",
         "PRESENT",
         "QUICK_ATTACK"
       ],
@@ -8655,10 +8642,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ICE_SHARD",
-        "QUICK_ATTACK",
-        "RETURN",
-        "RETURN"
+        "QUICK_ATTACK"
       ],
       "_atk": 128,
       "_def": 90,
@@ -15039,11 +15023,7 @@
       "chargedMoves": [
         "DAZZLING_GLEAM",
         "PETAL_BLIZZARD",
-        "SEED_BOMB",
-        "POWER_WHIP"
-      ],
-      "legacyMoves": [
-        "POWER_WHIP"
+        "SEED_BOMB"
       ],
       "_atk": 108,
       "_def": 92,
@@ -22916,7 +22896,14 @@
       "chargedMoves": [
         "X_SCISSOR",
         "MAGNET_BOMB",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "TECHNO_BLAST_BURN"
+      ],
+      "legacyMoves": [
+        "TECHNO_BLAST_BURN"
+      ],
+      "eliteMoves": [
+        "TECHNO_BLAST_BURN"
       ],
       "_atk": 252,
       "_def": 199,
