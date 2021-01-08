@@ -67,7 +67,7 @@
     mmm.power = fixNum(mmm.typeEff * mmm.power * (xSTAB ? mmm.stabFactor : 1));
     mmm.pve_power = fixNum(mmm.typeEff * mmm.pve_power * (xSTAB ? mmm.stabFactor : 1));
     mmm.pve_dps = fixNum(mmm.pve_power / mmm.pve_duration)
-    mmm.pve_dpsxdpe = fixNum(mmm.pve_dps / mmm.pve_dpe)
+    mmm.pve_dpsxdpe = fixNum(mmm.pve_dps * mmm.pve_dpe)
 
     mmm.isLegacy = (lmoves && lmoves.includes(mname));
     mmm.isElite = (emoves && emoves.includes(mname));
