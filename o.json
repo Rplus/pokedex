@@ -2615,7 +2615,6 @@
               "averageWeightKg": 100.5,
               "typeOverride1": "POKEMON_TYPE_FIRE",
               "typeOverride2": "POKEMON_TYPE_FLYING",
-              "cpMultiplierOverride": 0.8503,
               "camera": {
                 "cylinderRadiusM": 2,
                 "cylinderHeightM": 2.7,
@@ -2885,7 +2884,6 @@
               "averageWeightKg": 100.5,
               "typeOverride1": "POKEMON_TYPE_FIRE",
               "typeOverride2": "POKEMON_TYPE_FLYING",
-              "cpMultiplierOverride": 0.8503,
               "camera": {
                 "cylinderRadiusM": 2,
                 "cylinderHeightM": 2.7,
@@ -3053,7 +3051,6 @@
               "averageWeightKg": 100.5,
               "typeOverride1": "POKEMON_TYPE_FIRE",
               "typeOverride2": "POKEMON_TYPE_FLYING",
-              "cpMultiplierOverride": 0.8503,
               "camera": {
                 "cylinderRadiusM": 2,
                 "cylinderHeightM": 2.7,
@@ -13224,7 +13221,8 @@
           "cinematicMoves": [
             "BODY_SLAM",
             "FLAMETHROWER",
-            "FLAME_CHARGE"
+            "FLAME_CHARGE",
+            "WEATHER_BALL_FIRE"
           ],
           "animationTime": [
             1.6667,
@@ -13321,7 +13319,8 @@
           "cinematicMoves": [
             "DARK_PULSE",
             "ICE_BEAM",
-            "BLIZZARD"
+            "BLIZZARD",
+            "WEATHER_BALL_ICE"
           ],
           "animationTime": [
             1.6667,
@@ -13419,7 +13418,8 @@
           "cinematicMoves": [
             "BODY_SLAM",
             "FLAMETHROWER",
-            "FLAME_CHARGE"
+            "FLAME_CHARGE",
+            "WEATHER_BALL_FIRE"
           ],
           "animationTime": [
             1.6667,
@@ -13517,7 +13517,8 @@
           "cinematicMoves": [
             "BODY_SLAM",
             "FLAMETHROWER",
-            "FLAME_CHARGE"
+            "FLAME_CHARGE",
+            "WEATHER_BALL_FIRE"
           ],
           "animationTime": [
             1.6667,
@@ -13615,7 +13616,8 @@
           "cinematicMoves": [
             "BODY_SLAM",
             "FLAMETHROWER",
-            "FLAME_CHARGE"
+            "FLAME_CHARGE",
+            "WEATHER_BALL_FIRE"
           ],
           "animationTime": [
             1.6667,
@@ -13722,7 +13724,8 @@
             "HEAT_WAVE",
             "OVERHEAT",
             "SOLAR_BEAM",
-            "PSYSHOCK"
+            "PSYSHOCK",
+            "WEATHER_BALL_FIRE"
           ],
           "animationTime": [
             2.6667,
@@ -13822,7 +13825,8 @@
             "DAZZLING_GLEAM",
             "ICE_BEAM",
             "BLIZZARD",
-            "PSYSHOCK"
+            "PSYSHOCK",
+            "WEATHER_BALL_ICE"
           ],
           "animationTime": [
             2.6667,
@@ -13914,7 +13918,8 @@
             "HEAT_WAVE",
             "OVERHEAT",
             "SOLAR_BEAM",
-            "PSYSHOCK"
+            "PSYSHOCK",
+            "WEATHER_BALL_FIRE"
           ],
           "animationTime": [
             2.6667,
@@ -14013,7 +14018,8 @@
             "HEAT_WAVE",
             "OVERHEAT",
             "SOLAR_BEAM",
-            "PSYSHOCK"
+            "PSYSHOCK",
+            "WEATHER_BALL_FIRE"
           ],
           "animationTime": [
             2.6667,
@@ -14112,7 +14118,8 @@
             "HEAT_WAVE",
             "OVERHEAT",
             "SOLAR_BEAM",
-            "PSYSHOCK"
+            "PSYSHOCK",
+            "WEATHER_BALL_FIRE"
           ],
           "animationTime": [
             2.6667,
@@ -20412,7 +20419,8 @@
           "cinematicMoves": [
             "CLOSE_COMBAT",
             "LOW_SWEEP",
-            "NIGHT_SLASH"
+            "NIGHT_SLASH",
+            "ICE_PUNCH"
           ],
           "animationTime": [
             1.3333,
@@ -20458,7 +20466,8 @@
           ],
           "eliteCinematicMove": [
             "CROSS_CHOP"
-          ]
+          ],
+          "disableTransferToPokemonHome": true
         }
       }
     },
@@ -56641,7 +56650,8 @@
           "cinematicMoves": [
             "HYDRO_PUMP",
             "BLIZZARD",
-            "SURF"
+            "SURF",
+            "WEATHER_BALL_WATER"
           ],
           "animationTime": [
             1.3333,
@@ -56738,7 +56748,8 @@
           "cinematicMoves": [
             "HYDRO_PUMP",
             "BLIZZARD",
-            "SURF"
+            "SURF",
+            "WEATHER_BALL_WATER"
           ],
           "animationTime": [
             1.3333,
@@ -56836,7 +56847,8 @@
           "cinematicMoves": [
             "HYDRO_PUMP",
             "BLIZZARD",
-            "SURF"
+            "SURF",
+            "WEATHER_BALL_WATER"
           ],
           "animationTime": [
             1.3333,
@@ -56934,7 +56946,8 @@
           "cinematicMoves": [
             "HYDRO_PUMP",
             "BLIZZARD",
-            "SURF"
+            "SURF",
+            "WEATHER_BALL_WATER"
           ],
           "animationTime": [
             1.3333,
@@ -68435,7 +68448,8 @@
           "cinematicMoves": [
             "SOLAR_BEAM",
             "HYPER_BEAM",
-            "ZAP_CANNON"
+            "ZAP_CANNON",
+            "TRI_ATTACK"
           ],
           "animationTime": [
             1.3333,
@@ -68534,7 +68548,8 @@
           "cinematicMoves": [
             "SOLAR_BEAM",
             "HYPER_BEAM",
-            "ZAP_CANNON"
+            "ZAP_CANNON",
+            "TRI_ATTACK"
           ],
           "animationTime": [
             1.3333,
@@ -68634,7 +68649,8 @@
           "cinematicMoves": [
             "SOLAR_BEAM",
             "HYPER_BEAM",
-            "ZAP_CANNON"
+            "ZAP_CANNON",
+            "TRI_ATTACK"
           ],
           "animationTime": [
             1.3333,
@@ -68734,7 +68750,8 @@
           "cinematicMoves": [
             "SOLAR_BEAM",
             "HYPER_BEAM",
-            "ZAP_CANNON"
+            "ZAP_CANNON",
+            "TRI_ATTACK"
           ],
           "animationTime": [
             1.3333,
@@ -87539,7 +87556,9 @@
             "GYRO_BALL",
             "PSYCHIC",
             "EARTHQUAKE",
-            "EARTH_POWER"
+            "EARTH_POWER",
+            "ICE_BEAM",
+            "SHADOW_BALL"
           ],
           "animationTime": [
             1.3333,
@@ -121031,7 +121050,8 @@
           },
           "quickMoves": [
             "METAL_CLAW_FAST",
-            "MUD_SLAP_FAST"
+            "MUD_SLAP_FAST",
+            "MUD_SHOT_FAST"
           ],
           "cinematicMoves": [
             "ROCK_SLIDE",
