@@ -1667,6 +1667,7 @@
         "BODY_SLAM",
         "FLAME_CHARGE",
         "FLAMETHROWER",
+        "WEATHER_BALL_FIRE",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -1696,7 +1697,8 @@
       "chargedMoves": [
         "BLIZZARD",
         "DARK_PULSE",
-        "ICE_BEAM"
+        "ICE_BEAM",
+        "WEATHER_BALL_ICE"
       ],
       "_atk": 96,
       "_def": 109,
@@ -1729,6 +1731,7 @@
         "OVERHEAT",
         "PSYSHOCK",
         "SOLAR_BEAM",
+        "WEATHER_BALL_FIRE",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -1771,7 +1774,8 @@
         "BLIZZARD",
         "DAZZLING_GLEAM",
         "ICE_BEAM",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "WEATHER_BALL_ICE"
       ],
       "_atk": 170,
       "_def": 193,
@@ -2551,7 +2555,8 @@
         "CLOSE_COMBAT",
         "CROSS_CHOP",
         "LOW_SWEEP",
-        "NIGHT_SLASH"
+        "NIGHT_SLASH",
+        "ICE_PUNCH"
       ],
       "legacyMoves": [
         "KARATE_CHOP",
@@ -7464,6 +7469,7 @@
         "EARTHQUAKE",
         "HYDRO_PUMP",
         "SURF",
+        "WEATHER_BALL_WATER",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -8924,6 +8930,7 @@
         "HYPER_BEAM",
         "SOLAR_BEAM",
         "ZAP_CANNON",
+        "TRI_ATTACK",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -12511,7 +12518,9 @@
         "EARTHQUAKE",
         "GYRO_BALL",
         "PSYCHIC",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "ICE_BEAM",
+        "SHADOW_BALL"
       ],
       "_atk": 140,
       "_def": 229,
@@ -19048,7 +19057,8 @@
       ],
       "fastMoves": [
         "METAL_CLAW",
-        "MUD_SLAP"
+        "MUD_SLAP",
+        "MUD_SHOT"
       ],
       "chargedMoves": [
         "ROCK_SLIDE",
@@ -25611,7 +25621,7 @@
     {
       "moveId": "BUBBLE",
       "name": "泡沫",
-      "power": 8,
+      "power": 7,
       "type": "water",
       "energy": 0,
       "energyGain": 11,
@@ -25806,7 +25816,7 @@
     {
       "moveId": "CRABHAMMER",
       "name": "蟹鉗錘",
-      "power": 75,
+      "power": 85,
       "type": "water",
       "energy": 50,
       "energyGain": 0,
@@ -26161,7 +26171,7 @@
     {
       "moveId": "EMBER",
       "name": "火花",
-      "power": 6,
+      "power": 7,
       "type": "fire",
       "energy": 0,
       "energyGain": 6,
@@ -26952,7 +26962,7 @@
       "power": 5,
       "type": "fighting",
       "energy": 0,
-      "energyGain": 7,
+      "energyGain": 8,
       "turn": 2,
       "mid": "208",
       "isFast": true,
@@ -27745,7 +27755,7 @@
     {
       "moveId": "RAZOR_LEAF",
       "name": "飛葉快刀",
-      "power": 11,
+      "power": 10,
       "type": "grass",
       "energy": 0,
       "energyGain": 4,
@@ -27809,7 +27819,7 @@
     {
       "moveId": "ROCK_SLIDE",
       "name": "岩崩",
-      "power": 80,
+      "power": 75,
       "type": "rock",
       "energy": 45,
       "energyGain": 0,
@@ -27986,7 +27996,7 @@
     {
       "moveId": "SHADOW_BONE",
       "name": "暗影之骨",
-      "power": 80,
+      "power": 75,
       "type": "ghost",
       "energy": 45,
       "energyGain": 0,
@@ -28102,7 +28112,7 @@
     {
       "moveId": "SKY_ATTACK",
       "name": "神鳥猛擊",
-      "power": 80,
+      "power": 75,
       "type": "flying",
       "energy": 45,
       "energyGain": 0,
