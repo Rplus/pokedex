@@ -2,8 +2,11 @@
   import costTable from '@d/cost.js';
   import Details from '@c/Details.html';
 
+  const maxLevel = 50;
+  const minLevel = 1;
+
   let lvStart = 20;
-  let lvEnd = 50;
+  let lvEnd = maxLevel;
 
   let cost = {
     dust: 0,
@@ -60,13 +63,13 @@
       <tr>
         <td class="text-right">
           <input type="number"
-            max="50" min="1" step="0.5"
+            max={maxLevel} min={minLevel} step="0.5"
             bind:value={lvStart}
           />
         </td>
         <td>
           <input type="range"
-            max="50" min="1" step="0.5"
+            max={maxLevel} min={minLevel} step="0.5"
             bind:value={lvStart}
           />
         </td>
@@ -75,13 +78,13 @@
       <tr>
         <td class="text-right">
           <input type="number"
-            max="50" min="1" step="0.5"
+            max={maxLevel} min={minLevel} step="0.5"
             bind:value={lvEnd}
           />
         </td>
         <td>
           <input type="range"
-            max="50" min="1" step="0.5"
+            max={maxLevel} min={minLevel} step="0.5"
             bind:value={lvEnd}
           />
         </td>
