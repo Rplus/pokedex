@@ -2955,18 +2955,21 @@
         "ROCK_SLIDE",
         "STONE_EDGE",
         "SUBMISSION",
+        "PAYBACK",
         "RETURN",
         "FRUSTRATION"
       ],
       "legacyMoves": [
         "KARATE_CHOP",
         "STONE_EDGE",
-        "SUBMISSION"
+        "SUBMISSION",
+        "PAYBACK"
       ],
       "eliteMoves": [
         "KARATE_CHOP",
         "STONE_EDGE",
-        "SUBMISSION"
+        "SUBMISSION",
+        "PAYBACK"
       ],
       "_atk": 234,
       "_def": 159,
@@ -13788,7 +13791,14 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "ANCIENT_POWER",
-        "OUTRAGE"
+        "OUTRAGE",
+        "HURRICANE"
+      ],
+      "legacyMoves": [
+        "HURRICANE"
+      ],
+      "eliteMoves": [
+        "HURRICANE"
       ],
       "_atk": 284,
       "_def": 170,
@@ -27428,6 +27438,22 @@
       "pve_duration": 2.8,
       "pve_damageWindowStart": 1.2,
       "pve_damageWindowEnd": 2.4
+    },
+    {
+      "moveId": "PAYBACK",
+      "name": "Payback",
+      "power": 110,
+      "type": "dark",
+      "energy": 60,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "333",
+      "isFast": false,
+      "pve_power": 100,
+      "pve_energyDelta": -100,
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.1,
+      "pve_damageWindowEnd": 2
     },
     {
       "moveId": "PECK",
