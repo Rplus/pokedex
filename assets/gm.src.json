@@ -7342,6 +7342,46 @@
       ]
     },
     {
+      "dex": 181,
+      "types": [
+        "electric",
+        "dragon"
+      ],
+      "fastMoves": [
+        "CHARGE_BEAM",
+        "VOLT_SWITCH"
+      ],
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "FOCUS_BLAST",
+        "POWER_GEM",
+        "THUNDER",
+        "ZAP_CANNON",
+        "THUNDER_PUNCH",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "DRAGON_PULSE"
+      ],
+      "eliteMoves": [
+        "DRAGON_PULSE"
+      ],
+      "_atk": 294,
+      "_def": 203,
+      "_sta": 207,
+      "id": "AMPHAROS_MEGA",
+      "name": "電龍 (Mega)",
+      "captureRate": 0.13,
+      "fleeRate": 0.05,
+      "buddyKm": 5,
+      "familyId": "F_MAREEP",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 182,
       "types": [
         "grass"
@@ -27441,7 +27481,7 @@
     },
     {
       "moveId": "PAYBACK",
-      "name": "Payback",
+      "name": "以牙還牙",
       "power": 110,
       "type": "dark",
       "energy": 60,
