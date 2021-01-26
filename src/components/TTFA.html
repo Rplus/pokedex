@@ -55,8 +55,8 @@ function genPairs() {
     for (let c of mdata[1].data) {
       let hits = Math.ceil(c.energy / f.energyGain);
       let turns = hits * f.turn;
-      let dmg_f = f.power * hits * f.stabFactor;
-      let dmg_t = fixNum(dmg_f + c.power * c.stabFactor);
+      let dmg_f = f.power * hits;
+      let dmg_t = fixNum(dmg_f + c.power);
       let dpt = fixNum(dmg_t / turns);
 
       pairs = pairs.concat({
