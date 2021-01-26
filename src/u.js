@@ -11,7 +11,7 @@ export function cdnImgSrc(imgsrc, size = 200) {
 }
 
 // export const ASSET_FOLDER = 'https://github.com/ZeChrales/PogoAssets/raw/master/';
-export const ASSET_FOLDER = 'https://github.com/PokeMiners/pogo_assets/raw/master/';
+export const ASSET_FOLDER = 'https://github.com/PokeMiners/pogo_assets/raw/master';
 
 function queryMoveName(mid, movebase) {
   let _m = movebase.find(m => m.mid === mid);
