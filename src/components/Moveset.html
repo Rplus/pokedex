@@ -23,15 +23,15 @@
     ...types.map((t, idx) => ({ v: t, l: types_zh[idx] }))
   ];
 
-  let forceBuff = 1;
-  let forceBuffOptions = (pvp_eff.map(i => i.value).flat()).concat(forceBuff).sort();
+  let basicAtkFactor = 1;
+  let basicAtkFactorOptions = (pvp_eff.map(i => i.value).flat()).concat(basicAtkFactor).sort();
 
   let xSTAB = true;
 
   $: {
     opponentType1;
     opponentType2;
-    forceBuff;
+    basicAtkFactor;
     xSTAB;
 
     lmoves = pm.legacyMoves;
@@ -58,7 +58,7 @@
   function genMove(mname, isFast) {
     let mmm = queryMove(mname);
 
-    mmm.typeEff = queryTypeEffect(mmm.type, opponentType1, opponentType2) * forceBuff;
+    mmm.typeEff = queryTypeEffect(mmm.type, opponentType1, opponentType2) * basicAtkFactor;
     mmm.efficon = (mmm.typeEff === 1) ? '' : ((mmm.typeEff > 1) ? '▲' : '▼');
 
     mmm.stab = (pm.types.includes(mmm.type));
@@ -228,9 +228,9 @@
     </div>
   </div>
   <div class="text-center">
-    force Atk buff:
-    <select bind:value={forceBuff}>
-      {#each forceBuffOptions as i}
+    basic Atk factor:
+    <select bind:value={basicAtkFactor}>
+      {#each basicAtkFactorOptions as i}
         <option value="{i}">{i}</option>
       {/each}
     </select>
