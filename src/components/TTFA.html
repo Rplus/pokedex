@@ -1,6 +1,7 @@
 <script>
 import Details from '@c/Details.html';
 import { TableSort } from 'svelte-tablesort';
+import Digi from '@c/Digi.html';
 
 import { fixNum, copy } from '@/u.js';
 export let mdata;
@@ -96,12 +97,21 @@ function genPairs() {
       </tr>
 
       <tr slot="tbody" let:item={item}>
-        <td>{item.turns}</td>
-        <td>{item.hits}<span class="hits-delta">{item.hitsDelta}<span></td>
-        <td>{item.dmg_t}</td>
-        <td>{item.dpt}</td>
-        <td class={item.f.stab ? 'is-stab' : ''} data-efficon={item.f.efficon}>{item.f.name}</td>
-        <td class={item.c.stab ? 'is-stab' : ''} data-efficon={item.c.efficon}>{item.c.name}</td>
+        <td align="center">{item.turns}</td>
+        <td align="center">
+          <span class="hits" data-delta={item.hitsDelta}>{item.hits}<span>
+        </td>
+
+        <td align="right">
+          <Digi number={item.dmg_t} />
+        </td>
+
+        <td align="right">
+          <Digi number={item.dpt} p={2} />
+        </td>
+
+        <td align="center" class={item.f.stab ? 'is-stab' : ''} data-efficon={item.f.efficon}>{item.f.name}</td>
+        <td align="center" class={item.c.stab ? 'is-stab' : ''} data-efficon={item.c.efficon}>{item.c.name}</td>
       </tr>
 
       <tr slot="tfoot" class="fz-s" style="color: #999">
@@ -119,11 +129,16 @@ function genPairs() {
 
 
 <style>
-  .hits-delta {
+  .hits[data-delta="-"] {
     position: relative;
-    top: -0.3em;
-    font-weight: bolder;
-    font-size: smaller;
-    color: #0096;
+
+    &::after {
+      content: attr(data-delta);
+      position: absolute;
+      top: -0.3em;
+      font-weight: bolder;
+      font-size: smaller;
+      color: #0096;
+    }
   }
 </style>

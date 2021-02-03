@@ -1,0 +1,40 @@
+<script>
+  export let number;
+  export let p = 1;
+
+  let nL, nR, str;
+
+  $: {
+    str = `${number}`;
+    [nL, nR] = str.split('.');
+    if (nR) {
+      nR = Number(`.${nR}`).toFixed(p).split('.')[1].replace(/0$/, '');
+    }
+  }
+</script>
+
+
+
+<span class="digi">
+  <span class="digi--l">{nL}</span>
+  <span class="digi--r" style="--digi-precision: {p}">
+    {#if nR}.{nR}{/if}
+  </span>
+</span>
+
+
+
+<style>
+  .digi {
+    text-align: right;
+    display: inline-flex;
+    align-items: baseline;
+  }
+  .digi--r {
+    width: calc(var(--digi-precision) * .5em + .5em);
+    font-size: smaller;
+    letter-spacing: -.5px;
+    text-align: start;
+    color: #888;
+  }
+</style>

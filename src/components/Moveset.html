@@ -8,6 +8,7 @@
   import Details from '@c/Details.html';
   import TypeIcon from '@c/TypeIcon.html';
   import Ruby from '@c/Ruby.html';
+  import Digi from '@c/Digi.html';
 
   export let pm;
   $: ispve = $settings.io.ispve;
@@ -155,10 +156,18 @@
             <td data-efficon={item.efficon}>{ispve ? item.pve_power : item.power}</td>
 
             {#if mmm.setting === 'fmove'}
-              <td>{ispve ? item.pve_energyDelta : item.energyGain}</td>
-              <td>{ispve ? item.pve_duration : item.turn}</td>
-              <td>{ispve ? item.pve_dps : item.dpt}</td>
-              <td>{ispve ? item.pve_eps : item.ept}</td>
+              <td align="right">
+                <Digi number={ispve ? item.pve_energyDelta : item.energyGain} />
+              </td>
+              <td align="right">
+                <Digi number={ispve ? item.pve_duration : item.turn} />
+              </td>
+              <td align="right">
+                <Digi number={ispve ? item.pve_dps : item.dpt} />
+              </td>
+              <td align="right">
+                <Digi number={ispve ? item.pve_eps : item.ept} p={2} />
+              </td>
               <!-- PVE fast -->
               <!-- <td hidden={!ispve}>{item.pve_energyDelta}</td> -->
               <!-- <td hidden={!ispve}>{item.pve_duration}</td> -->
@@ -170,19 +179,33 @@
               <!-- <td hidden={ispve}>{item.turn}</td> -->
               <!-- <td hidden={ispve}>{item.dpt}</td> -->
               <!-- <td hidden={ispve}>{item.ept}</td> -->
-              <td hidden={ispve}>{item.eptxdpt}</td>
+              <td align="right" hidden={ispve}>
+                <Digi number={item.eptxdpt} p={2} />
+              </td>
             {:else}
               <!-- PVE Charge -->
               <td hidden={!ispve} class="energy-bar" style="--bgzx: {-item.pve_energyDelta}%">{item.pve_energyDelta}</td>
-              <td hidden={!ispve}>{item.pve_duration}</td>
-              <td hidden={!ispve}>{item.pve_damageWindowStart}</td>
-              <td hidden={!ispve}>{item.pve_dps}</td>
-              <td hidden={!ispve}>{item.pve_dpe}</td>
-              <td hidden={!ispve}>{item.pve_dpsxdpe}</td>
+              <td align="right" hidden={!ispve}>
+                <Digi number={item.pve_duration} />
+              </td>
+              <td align="right" hidden={!ispve}>
+                <Digi number={item.pve_damageWindowStart} />
+              </td>
+              <td align="right" hidden={!ispve}>
+                <Digi number={item.pve_dps} p={2} />
+              </td>
+              <td align="right" hidden={!ispve}>
+                <Digi number={item.pve_dpe} p={2} />
+              </td>
+              <td align="right" hidden={!ispve}>
+                <Digi number={item.pve_dpsxdpe} />
+              </td>
 
               <!-- PVP Charge -->
               <td hidden={ispve} class="energy-bar" style="--bgzx: {item.energy}%">{item.energy}</td>
-              <td hidden={ispve}>{item.dpe}</td>
+              <td align="right" hidden={ispve}>
+                <Digi number={item.dpe} p={2} />
+              </td>
               <td hidden={ispve} class="fz-s">{item.effect}</td>
             {/if}
           </tr>
