@@ -53,7 +53,11 @@ function genPairs() {
   pairs = [];
   for (let f of mdata[0].data) {
     for (let c of mdata[1].data) {
-      let hits = Math.ceil(c.energy / f.energyGain);
+      let absHits = c.energy / f.energyGain;
+      let absHits2 = (c.energy * 2) / f.energyGain;
+      let hits = Math.ceil(absHits);
+      let hits2 = Math.ceil(absHits2);
+      let hitsDelta = hits * 2 > hits2 ? '-' : '';
       let turns = hits * f.turn;
       let dmg_f = f.power * hits;
       let dmg_t = fixNum(dmg_f + c.power);
@@ -64,6 +68,7 @@ function genPairs() {
         c,
         turns,
         hits,
+        hitsDelta,
         dmg_f,
         dmg_t,
         dpt,
@@ -92,7 +97,7 @@ function genPairs() {
 
       <tr slot="tbody" let:item={item}>
         <td>{item.turns}</td>
-        <td>{item.hits}</td>
+        <td>{item.hits}<span class="hits-delta">{item.hitsDelta}<span></td>
         <td>{item.dmg_t}</td>
         <td>{item.dpt}</td>
         <td class={item.f.stab ? 'is-stab' : ''} data-efficon={item.f.efficon}>{item.f.name}</td>
@@ -114,4 +119,11 @@ function genPairs() {
 
 
 <style>
+  .hits-delta {
+    position: relative;
+    top: -0.3em;
+    font-weight: bolder;
+    font-size: smaller;
+    color: #0096;
+  }
 </style>
