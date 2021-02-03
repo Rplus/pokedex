@@ -1218,7 +1218,18 @@
       "next": [
         {
           "candyCost": 400,
-          "name": "GYARADOS"
+          "name": "GYARADOS",
+          "next": [
+            {
+              "name": "GYARADOS_MEGA",
+              "candyCost": 0,
+              "iso": 51,
+              "requirement": [
+                "1st:200 E",
+                "2nd:40 E"
+              ]
+            }
+          ]
         }
       ]
     }
@@ -1546,7 +1557,18 @@
           "next": [
             {
               "candyCost": 100,
-              "name": "AMPHAROS"
+              "name": "AMPHAROS",
+              "next": [
+                {
+                  "name": "AMPHAROS_MEGA",
+                  "candyCost": 0,
+                  "iso": 51,
+                  "requirement": [
+                    "1st:200 E",
+                    "2nd:40 E"
+                  ]
+                }
+              ]
             }
           ]
         }
