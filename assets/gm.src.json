@@ -8541,7 +8541,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "ICY_WIND",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 90,
       "_def": 69,
@@ -8570,7 +8572,9 @@
       "chargedMoves": [
         "AVALANCHE",
         "BULLDOZE",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 181,
       "_def": 138,
@@ -11239,7 +11243,9 @@
       "chargedMoves": [
         "ROCK_BLAST",
         "ROCK_SLIDE",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 82,
       "_def": 215,
@@ -11390,7 +11396,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "IRON_HEAD",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 121,
       "_def": 141,
@@ -11419,7 +11427,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "HEAVY_SLAM",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 158,
       "_def": 198,
@@ -11449,7 +11459,9 @@
       "chargedMoves": [
         "HEAVY_SLAM",
         "STONE_EDGE",
-        "THUNDER"
+        "THUNDER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 198,
       "_def": 257,
@@ -12593,7 +12605,9 @@
       "chargedMoves": [
         "ANCIENT_POWER",
         "GRASS_KNOT",
-        "MIRROR_COAT"
+        "MIRROR_COAT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "BULLET_SEED"
@@ -12626,7 +12640,9 @@
       "chargedMoves": [
         "BULLDOZE",
         "GRASS_KNOT",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 152,
       "_def": 194,
@@ -13199,7 +13215,9 @@
       "chargedMoves": [
         "AURORA_BEAM",
         "BODY_SLAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 95,
       "_def": 90,
@@ -13228,7 +13246,9 @@
       "chargedMoves": [
         "AURORA_BEAM",
         "BODY_SLAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 137,
       "_def": 132,
@@ -13257,7 +13277,9 @@
       "chargedMoves": [
         "BLIZZARD",
         "EARTHQUAKE",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 182,
       "_def": 176,
@@ -16805,7 +16827,9 @@
         "AVALANCHE",
         "BULLDOZE",
         "STONE_EDGE",
-        "ANCIENT_POWER"
+        "ANCIENT_POWER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "ANCIENT_POWER"
@@ -16918,7 +16942,9 @@
       "chargedMoves": [
         "MAGNET_BOMB",
         "ROCK_SLIDE",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 135,
       "_def": 275,
@@ -23914,34 +23940,6 @@
       ],
       "fastMoves": [
         "CONFUSION",
-        "SUCKER_PUNCH"
-      ],
-      "chargedMoves": [
-        "PSYCHIC",
-        "ENERGY_BALL",
-        "THUNDERBOLT"
-      ],
-      "_atk": 166,
-      "_def": 167,
-      "_sta": 179,
-      "id": "MEOWSTIC",
-      "name": "超能妙喵 雄性",
-      "captureRate": 0.2,
-      "fleeRate": 0.07,
-      "buddyKm": 3,
-      "familyId": "F_ESPURR",
-      "genderMF": [
-        100,
-        0
-      ]
-    },
-    {
-      "dex": 678,
-      "types": [
-        "psychic"
-      ],
-      "fastMoves": [
-        "CONFUSION",
         "CHARM"
       ],
       "chargedMoves": [
@@ -23961,6 +23959,34 @@
       "genderMF": [
         0,
         100
+      ]
+    },
+    {
+      "dex": 678,
+      "types": [
+        "psychic"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "SUCKER_PUNCH"
+      ],
+      "chargedMoves": [
+        "PSYCHIC",
+        "ENERGY_BALL",
+        "THUNDERBOLT"
+      ],
+      "_atk": 166,
+      "_def": 167,
+      "_sta": 179,
+      "id": "MEOWSTIC",
+      "name": "超能妙喵 雄性",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ESPURR",
+      "genderMF": [
+        100,
+        0
       ]
     },
     {
