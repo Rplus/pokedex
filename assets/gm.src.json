@@ -5562,6 +5562,52 @@
       ]
     },
     {
+      "dex": 130,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "fastMoves": [
+        "BITE",
+        "DRAGON_BREATH",
+        "DRAGON_TAIL",
+        "WATERFALL"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "DRAGON_PULSE",
+        "HYDRO_PUMP",
+        "OUTRAGE",
+        "TWISTER",
+        "AQUA_TAIL",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "DRAGON_TAIL",
+        "DRAGON_PULSE",
+        "AQUA_TAIL"
+      ],
+      "eliteMoves": [
+        "DRAGON_TAIL",
+        "DRAGON_PULSE",
+        "AQUA_TAIL"
+      ],
+      "_atk": 292,
+      "_def": 247,
+      "_sta": 216,
+      "id": "GYARADOS_MEGA",
+      "name": "暴鯉龍 (Mega)",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_MAGIKARP",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 131,
       "types": [
         "water",
@@ -14619,13 +14665,23 @@
       ],
       "fastMoves": [
         "POISON_JAB",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "BULLET_SEED"
       ],
       "chargedMoves": [
         "DAZZLING_GLEAM",
         "GRASS_KNOT",
         "SLUDGE_BOMB",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "WEATHER_BALL_FIRE"
+      ],
+      "legacyMoves": [
+        "BULLET_SEED",
+        "WEATHER_BALL_FIRE"
+      ],
+      "eliteMoves": [
+        "BULLET_SEED",
+        "WEATHER_BALL_FIRE"
       ],
       "_atk": 243,
       "_def": 185,
