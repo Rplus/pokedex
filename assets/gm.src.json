@@ -12717,7 +12717,9 @@
       "chargedMoves": [
         "ANCIENT_POWER",
         "AQUA_JET",
-        "CROSS_POISON"
+        "CROSS_POISON",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 176,
       "_def": 100,
@@ -12746,7 +12748,9 @@
       "chargedMoves": [
         "CROSS_POISON",
         "ROCK_BLAST",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 222,
       "_def": 174,
@@ -23534,13 +23538,20 @@
       "fastMoves": [
         "PECK",
         "FIRE_SPIN",
-        "STEEL_WING"
+        "STEEL_WING",
+        "INCINERATE"
       ],
       "chargedMoves": [
         "BRAVE_BIRD",
         "FIRE_BLAST",
         "FLAME_CHARGE",
         "HURRICANE"
+      ],
+      "legacyMoves": [
+        "INCINERATE"
+      ],
+      "eliteMoves": [
+        "INCINERATE"
       ],
       "_atk": 176,
       "_def": 155,
