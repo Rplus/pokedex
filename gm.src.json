@@ -11639,6 +11639,34 @@
       ]
     },
     {
+      "dex": 310,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "CHARGE_BEAM",
+        "SNARL"
+      ],
+      "chargedMoves": [
+        "FLAME_BURST",
+        "THUNDER",
+        "WILD_CHARGE"
+      ],
+      "_atk": 286,
+      "_def": 179,
+      "_sta": 172,
+      "id": "MANECTRIC_MEGA",
+      "name": "雷電獸 (Mega)",
+      "captureRate": 0.2,
+      "fleeRate": 0.06,
+      "buddyKm": 3,
+      "familyId": "F_ELECTRIKE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 311,
       "types": [
         "electric"
@@ -18694,8 +18722,8 @@
       "_sta": 181,
       "id": "SIMISAGE",
       "name": "花椰猿",
-      "captureRate": 0.5,
-      "fleeRate": 0.2,
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_PANSAGE",
       "genderMF": [
@@ -18722,8 +18750,8 @@
       "_sta": 137,
       "id": "PANSEAR",
       "name": "爆香猴",
-      "captureRate": 0.2,
-      "fleeRate": 0.07,
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_PANSEAR",
       "genderMF": [
@@ -18750,8 +18778,8 @@
       "_sta": 181,
       "id": "SIMISEAR",
       "name": "爆香猿",
-      "captureRate": 0.5,
-      "fleeRate": 0.2,
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
       "buddyKm": 3,
       "familyId": "F_PANSEAR",
       "genderMF": [
