@@ -2331,7 +2331,18 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "MANECTRIC"
+          "name": "MANECTRIC",
+          "next": [
+            {
+              "name": "MANECTRIC_MEGA",
+              "candyCost": 0,
+              "iso": 51,
+              "requirement": [
+                "1st:200 E",
+                "2nd:40 E"
+              ]
+            }
+          ]
         }
       ]
     }
@@ -4196,18 +4207,15 @@
       "next": [
         {
           "candyCost": 25,
-          "name": "EELEKTRIK"
-        }
-      ]
-    },
-    {
-      "name": "EELEKTRIK",
-      "next": [
-        {
-          "candyCost": 100,
-          "name": "EELEKTROSS",
-          "requirement": [
-            "item:ITEM_GEN5_EVOLUTION_STONE"
+          "name": "EELEKTRIK",
+          "next": [
+            {
+              "candyCost": 100,
+              "name": "EELEKTROSS",
+              "requirement": [
+                "item:ITEM_GEN5_EVOLUTION_STONE"
+              ]
+            }
           ]
         }
       ]
