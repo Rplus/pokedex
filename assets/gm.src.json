@@ -22676,14 +22676,14 @@
         "flying"
       ],
       "fastMoves": [
-        "ASTONISH",
-        "THUNDER_SHOCK"
+        "BITE",
+        "VOLT_SWITCH"
       ],
       "chargedMoves": [
-        "CRUNCH",
+        "SLUDGE_WAVE",
         "THUNDER",
-        "BRICK_BREAK",
-        "THUNDER_PUNCH"
+        "FOCUS_BLAST",
+        "THUNDERBOLT"
       ],
       "_atk": 295,
       "_def": 161,
@@ -23519,7 +23519,7 @@
       "id": "FLETCHLING",
       "name": "小箭雀",
       "captureRate": 0.5,
-      "fleeRate": 0.1,
+      "fleeRate": 0.2,
       "buddyKm": 1,
       "familyId": "F_FLETCHLING",
       "genderMF": [
@@ -23699,8 +23699,8 @@
       "_sta": 158,
       "id": "LITLEO",
       "name": "小獅獅",
-      "captureRate": 0.4,
-      "fleeRate": 0.1,
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
       "buddyKm": 3,
       "familyId": "F_LITLEO",
       "genderMF": [
