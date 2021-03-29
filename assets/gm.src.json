@@ -22616,13 +22616,13 @@
         "flying"
       ],
       "fastMoves": [
-        "BITE",
-        "AIR_SLASH"
+        "ASTONISH",
+        "GUST"
       ],
       "chargedMoves": [
-        "GRASS_KNOT",
-        "DARK_PULSE",
-        "HYPER_BEAM",
+        "HEAT_WAVE",
+        "PSYCHIC",
+        "FOCUS_BLAST",
         "HURRICANE"
       ],
       "_atk": 238,
