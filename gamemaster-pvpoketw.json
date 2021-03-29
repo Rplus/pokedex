@@ -629,7 +629,8 @@
             "filterType": "tag",
             "values": ["mega"]
         }],
-        "partySize": 3
+        "partySize": 3,
+		"link": "https://antimatter.gg/nexusleague"
     }, {
         "name": "love",
         "title": "Love Cup",
@@ -731,6 +732,36 @@
         "exclude": [{
             "filterType": "id",
             "values": ["dialga","palkia","giratina_altered","giratina_origin","charizard_mega_x","charizard_mega_y","blastoise_mega","gengar_mega","melmetal","kyogre","groudon","zekrom","reshiram","mewtwo","lugia","ho_oh","dragonite","gyarados_mega"]
+        }]
+    }, {
+        "name": "slitzko",
+        "title": "Slitzko Memorial Cup",
+        "include": [{
+            "filterType": "id",
+            "values": ["lapras","steelix","blaziken","bastiodon","lucario","altaria","graveler_alolan","beedrill","vigoroth","forretress","noctowl","heracross","charizard","quagsire","mantine","qwilfish","hypno","mightyena","skuntank","raichu_alolan","toxicroak","skarmory","melmetal","kingdra","registeel","marshtomp","magneton","tropius","ninetales_alolan","houndoom","muk","arbok","absol","azumarill","toxicroak","muk_alolan","noctowl","venusaur","swampert","wigglytuff","golbat","sableye","probopass","scrafty","marowak_alolan","whiscash","shiftry","cloyster","bronzong","steelix","dusclops","drifblim","cresselia","medicham","abomasnow","stunfisk_galarian","ferrothorn","pelipper","dewgong","whimsicott","poliwrath","pidgeot","forretress","munchlax","zweilous","politoed","toxicroak","froslass","umbreon","gliscor","medicham_xl","azumarill_xl","sableye_xl","bastiodon_xl"]
+        }],
+        "exclude": [],
+		"link": "https://silph.gg/t/5wvm"
+    }, {
+        "name": "prismatic",
+        "title": "Silph Prismatic Cup",
+        "include": [{
+            "filterType": "id",
+            "values": ["ivysaur", "weepinbell", "victreebel", "grimer_alolan", "muk_alolan", "scyther", "bayleef", "meganium", "xatu", "bellossom", "tyranitar", "celebi", "grovyle", "sceptile", "dustox", "ludicolo", "breloom", "roselia", "flygon", "cradily", "grotle", "torterra", "roserade", "wormadam_plant", "bronzong", "yanmega", "leafeon", "servine", "serperior", "simisage", "whimsicott", "maractus", "gardobor", "golurk", "quilladin", "chesnaught", "beedrill", "raichu", "ninetales", "persian", "ponyta", "rapidash", "hypno", "exeggutor", "electabuzz", "jolteon", "quilava", "typhlosion", "ampharos", "sunflora", "girafarig", "dunsparce", "pelipper", "ninjask", "manectric", "plusle", "minun", "lunatone", "mothim", "vespiquen", "electivire", "leavanny", "archeops", "raticate_alolan", "snorlax", "murkrow", "sneasel", "houndoom", "mawile", "claydol", "banette", "dusclops", "honchkrow", "munchlax", "weavile", "zebstrika", "chandelure", "wartortle", "blastoise", "sandslash_alolan", "nidoqueen", "gloom", "persian_alolan", "tangela", "seadra", "gyarados", "vaporeon", "omanyte", "omastar", "croconaw", "feraligatr", "lanturn", "jumpluff", "quagsire", "kingdra", "suicune", "marshtomp", "swellow", "masquerain", "wailmer", "wailord", "castform_rainy", "sealeo", "walrein", "huntail", "metang", "metagross", "regice", "prinplup", "empoleon", "luxio", "luxray", "rampardos", "gabite", "lucario", "lumineon", "tangrowth", "glaceon", "dewott", "simipour", "boldore", "gigalith", "swoobat", "palpitoad", "seismitoad", "carracosta", "cryogonal", "frogadier", "greninja", "charmeleon", "charizard", "vileplume", "parasect", "kingler", "electrode", "seaking", "magmar", "ledian", "ariados", "yanma", "scizor", "magcargo", "octillery", "porygon2", "combusken", "blaziken", "camerupt", "solrock", "crawdaunt", "castform_sunny", "kricketune", "wormadam_trash", "magmortar", "porygon_z", "rotom", "pignite", "emboar", "simisear", "scolipede", "krookodile", "darmanitan_standard", "crustle", "bisharp", "braviary", "heatmor", "braixen", "delphox", "fletchinder", "talonflame", "slowbro", "porygon", "slowking", "corsola", "milotic", "cherrim_sunny", "alomomola", "butterfree", "rapidash_galarian", "dewgong", "togetic", "linoone", "gardevoir", "zangoose", "castform_snowy", "shelgon", "pachirisu", "togekiss", "gallade", "swanna", "emolga", "amoonguss", "beartic", "floette", "florges", "meowstic", "machoke", "graveler_alolan", "golem_alolan", "magneton", "rhydon", "misdreavus", "steelix", "qwilfish", "donphan", "mightyena", "lairon", "aggron", "armaldo", "glalie", "relicanth", "purugly", "magnezone", "rhyperior", "probopass", "tranquill", "unfezant", "excadrill", "cinccino", "escavalier", "ferrothorn", "klinklang", "durant", "arbok", "nidoking", "golbat", "crobat", "venomoth", "grimer", "muk", "cloyster", "haunter", "gengar", "weezing", "aerodactyl", "espeon", "forretress", "gligar", "granbull", "mantine", "delcatty", "swalot", "drifblim", "mismagius", "skuntank", "spiritomb", "drapion", "gliscor", "gothitelle", "noivern", "pidgeot", "fearow", "raichu_alolan", "dugtrio", "arcanine", "alakazam", "graveler", "golem", "marowak", "hitmonchan", "kangaskhan", "pinsir", "kabutops", "furret", "noctowl", "sudowoodo", "ursaring", "piloswine", "hitmontop", "shiftry", "hariyama", "monferno", "infernape", "staraptor", "bibarel", "wormadam_sandy", "floatzel", "hippowdon", "mamoswine", "litleo_xl", "litleo", "pyroar", "froslass", "dragonite", "zapdos", "garbodor", "salamence", "liepard", "meowstic_female"]
+        }],
+        "exclude": [],
+		"slots": [{
+            "pokemon": ["wartortle", "blastoise", "sandslash_alolan", "nidoqueen", "gloom", "persian_alolan", "tangela", "seadra", "gyarados", "vaporeon", "omanyte", "omastar", "croconaw", "feraligatr", "lanturn", "jumpluff", "quagsire", "kingdra", "suicune", "marshtomp", "swellow", "masquerain", "wailmer", "wailord", "castform_rainy", "sealeo", "walrein", "huntail", "metang", "metagross", "regice", "prinplup", "empoleon", "luxio", "luxray", "rampardos", "gabite", "lucario", "lumineon", "tangrowth", "glaceon", "dewott", "simipour", "boldore", "gigalith", "swoobat", "palpitoad", "seismitoad", "carracosta", "cryogonal", "frogadier", "greninja", "salamence"]
+        }, {
+            "pokemon": ["charmeleon", "charizard", "vileplume", "parasect", "kingler", "electrode", "seaking", "magmar", "ledian", "ariados", "yanma", "scizor", "magcargo", "octillery", "porygon2", "combusken", "blaziken", "camerupt", "solrock", "crawdaunt", "castform_sunny", "kricketune", "wormadam_trash", "magmortar", "porygon_z", "rotom", "pignite", "emboar", "simisear", "scolipede", "krookodile", "darmanitan_standard", "crustle", "bisharp", "braviary", "heatmor", "braixen", "delphox", "fletchinder", "talonflame"]
+        }, {
+            "pokemon": ["beedrill", "raichu", "ninetales", "persian", "ponyta", "rapidash", "hypno", "exeggutor", "electabuzz", "jolteon", "quilava", "typhlosion", "ampharos", "sunflora", "girafarig", "dunsparce", "pelipper", "ninjask", "manectric", "plusle", "minun", "lunatone", "mothim", "vespiquen", "electivire", "leavanny", "archeops", "zapdos","butterfree", "rapidash_galarian", "dewgong", "togetic", "linoone", "gardevoir", "zangoose", "castform_snowy", "shelgon", "pachirisu", "togekiss", "gallade", "swanna", "emolga", "amoonguss", "beartic", "floette", "florges", "meowstic", "froslass", "meowstic_female"]
+        }, {
+            "pokemon": ["ivysaur", "weepinbell", "victreebel", "grimer_alolan", "muk_alolan", "scyther", "bayleef", "meganium", "xatu", "bellossom", "tyranitar", "celebi", "grovyle", "sceptile", "dustox", "ludicolo", "breloom", "roselia", "flygon", "cradily", "grotle", "torterra", "roserade", "wormadam_plant", "bronzong", "yanmega", "leafeon", "servine", "serperior", "simisage", "whimsicott", "maractus", "gardobor", "golurk", "quilladin", "chesnaught", "raticate_alolan", "snorlax", "murkrow", "sneasel", "houndoom", "mawile", "claydol", "banette", "dusclops", "honchkrow", "munchlax", "weavile", "zebstrika", "chandelure", "garbodor"]
+        }, {
+            "pokemon": ["pidgeot", "fearow", "raichu_alolan", "dugtrio", "arcanine", "alakazam", "graveler", "golem", "marowak", "hitmonchan", "kangaskhan", "pinsir", "kabutops", "furret", "noctowl", "sudowoodo", "ursaring", "piloswine", "hitmontop", "shiftry", "hariyama", "monferno", "infernape", "staraptor", "bibarel", "wormadam_sandy", "floatzel", "hippowdon", "mamoswine", "litleo", "litleo_xl", "pyroar", "dragonite", "slowbro", "porygon", "slowking", "corsola", "milotic", "cherrim_sunny", "alomomola"]
+        }, {
+            "pokemon": ["arbok", "nidoking", "golbat", "crobat", "venomoth", "grimer", "muk", "cloyster", "haunter", "gengar", "weezing", "aerodactyl", "espeon", "forretress", "gligar", "granbull", "mantine", "delcatty", "swalot", "drifblim", "mismagius", "skuntank", "spiritomb", "drapion", "gliscor", "gothitelle", "noivern", "machoke", "graveler_alolan", "golem_alolan", "magneton", "rhydon", "misdreavus", "steelix", "qwilfish", "donphan", "mightyena", "lairon", "aggron", "armaldo", "glalie", "relicanth", "purugly", "magnezone", "rhyperior", "probopass", "tranquill", "unfezant", "excadrill", "cinccino", "escavalier", "ferrothorn", "klinklang", "durant", "liepard"]
         }]
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega", "xl"],
@@ -1090,8 +1121,26 @@
             "cp1500": [19.5, 6, 8, 10],
             "cp2500": [35, 5, 13, 6]
         },
-        "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER", "DRAGON_BREATH"],
-        "searchPriority": 10
+        "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER", "DRAGON_BREATH"]
+    }, {
+        "dex": 6,
+        "speciesName": "噴火龍 暗影化XL",
+        "speciesId": "charizard_shadow",
+        "baseStats": {
+            "atk": 223,
+            "def": 173,
+            "hp": 186
+        },
+        "types": ["fire", "flying"],
+        "fastMoves": ["AIR_SLASH", "EMBER", "FIRE_SPIN", "WING_ATTACK", "DRAGON_BREATH"],
+        "chargedMoves": ["BLAST_BURN", "DRAGON_CLAW", "FIRE_BLAST", "FLAMETHROWER", "OVERHEAT"],
+        "tags": ["starter", "shadow", "xl"],
+        "defaultIVs": {
+            "cp500": [6.5, 9, 9, 15],
+            "cp1500": [19.5, 6, 8, 10],
+            "cp2500": [35, 5, 13, 6]
+        },
+        "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER", "DRAGON_BREATH"]
     }, {
         "dex": 7,
         "speciesName": "傑尼龜",
@@ -3606,6 +3655,25 @@
         "searchPriority": 5,
         "tags": ["shadow"]
     }, {
+        "dex": 68,
+        "speciesName": "怪力 暗影化XL",
+        "speciesId": "machamp_shadow_xl",
+        "baseStats": {
+            "atk": 234,
+            "def": 159,
+            "hp": 207
+        },
+        "types": ["fighting", "none"],
+        "fastMoves": ["BULLET_PUNCH", "COUNTER", "KARATE_CHOP"],
+        "chargedMoves": ["CLOSE_COMBAT", "CROSS_CHOP", "DYNAMIC_PUNCH", "HEAVY_SLAM", "ROCK_SLIDE", "STONE_EDGE", "SUBMISSION", "PAYBACK"],
+        "defaultIVs": {
+            "cp500": [6, 7, 15, 15],
+            "cp1500": [18, 6, 10, 15],
+            "cp2500": [30, 5, 12, 14]
+        },
+        "eliteMoves": ["KARATE_CHOP", "STONE_EDGE", "SUBMISSION", "PAYBACK"],
+        "tags": ["shadow", "xl"]
+    }, {
         "dex": 69,
         "speciesName": "喇叭芽",
         "speciesId": "bellsprout",
@@ -4692,6 +4760,25 @@
         },
         "eliteMoves": ["TACKLE"]
     }, {
+        "dex": 101,
+        "speciesName": "頑皮雷彈 XL",
+        "speciesId": "electrode_xl",
+        "baseStats": {
+            "atk": 173,
+            "def": 173,
+            "hp": 155
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["SPARK", "TACKLE", "VOLT_SWITCH"],
+        "chargedMoves": ["DISCHARGE", "HYPER_BEAM", "THUNDERBOLT", "FOUL_PLAY"],
+        "defaultIVs": {
+            "cp500": [9, 6, 12, 9],
+            "cp1500": [26, 10, 13, 13],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"],
+        "eliteMoves": ["TACKLE"]
+    }, {
         "dex": 102,
         "speciesName": "蛋蛋",
         "speciesId": "exeggcute",
@@ -5257,6 +5344,25 @@
         },
         "eliteMoves": ["POISON_JAB", "ICY_WIND", "DRILL_RUN"]
     }, {
+        "dex": 119,
+        "speciesName": "金魚王 XL",
+        "speciesId": "seaking_xl",
+        "baseStats": {
+            "atk": 175,
+            "def": 147,
+            "hp": 190
+        },
+        "types": ["water", "none"],
+        "fastMoves": ["PECK", "POISON_JAB", "WATERFALL"],
+        "chargedMoves": ["DRILL_RUN", "ICE_BEAM", "ICY_WIND", "MEGAHORN", "WATER_PULSE"],
+        "defaultIVs": {
+            "cp500": [8.5, 10, 14, 10],
+            "cp1500": [26, 7, 7, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "eliteMoves": ["POISON_JAB", "ICY_WIND", "DRILL_RUN"],
+		"tags": ["xl"]
+    }, {
         "dex": 120,
         "speciesName": "海星星",
         "speciesId": "staryu",
@@ -5617,6 +5723,25 @@
         "tags": ["shadow"],
         "eliteMoves": ["DRAGON_TAIL", "DRAGON_PULSE", "AQUA_TAIL"],
         "searchPriority": 4
+    },  {
+        "dex": 130,
+        "speciesName": "暴鯉龍 暗影化XL",
+        "speciesId": "gyarados_shadow_xl",
+        "baseStats": {
+            "atk": 237,
+            "def": 186,
+            "hp": 216
+        },
+        "types": ["water", "flying"],
+        "fastMoves": ["BITE", "DRAGON_BREATH", "DRAGON_TAIL", "WATERFALL"],
+        "chargedMoves": ["CRUNCH", "DRAGON_PULSE", "HYDRO_PUMP", "OUTRAGE", "TWISTER", "AQUA_TAIL"],
+        "defaultIVs": {
+            "cp500": [5.5, 14, 10, 13],
+            "cp1500": [16, 10, 11, 13],
+            "cp2500": [27.5, 6, 7, 11]
+        },
+        "tags": ["shadow", "xl"],
+        "eliteMoves": ["DRAGON_TAIL", "DRAGON_PULSE", "AQUA_TAIL"]
     }, {
 	    "dex": 130,
 	    "speciesName": "暴鯉龍 (Mega)",
@@ -6234,26 +6359,6 @@
         "searchPriority": 10
     }, {
         "dex": 149,
-        "speciesName": "快龍 XL",
-        "speciesId": "dragonite_xl",
-        "baseStats": {
-            "atk": 263,
-            "def": 198,
-            "hp": 209
-        },
-        "types": ["dragon", "flying"],
-        "fastMoves": ["DRAGON_BREATH", "DRAGON_TAIL", "STEEL_WING"],
-        "chargedMoves": ["DRACO_METEOR", "DRAGON_CLAW", "DRAGON_PULSE", "HURRICANE", "HYPER_BEAM", "OUTRAGE"],
-        "defaultIVs": {
-            "cp500": [5, 13, 14, 9],
-            "cp1500": [14.5, 7, 9, 12],
-            "cp2500": [24.5, 5, 8, 11]
-        },
-        "level25CP": 2386,
-        "tags": ["shadoweligible", "xl"],
-        "eliteMoves": ["DRACO_METEOR", "DRAGON_PULSE"]
-    }, {
-        "dex": 149,
         "speciesName": "快龍 暗影化",
         "speciesId": "dragonite_shadow",
         "baseStats": {
@@ -6743,6 +6848,24 @@
             "cp2500": [40, 15, 15, 15]
         },
         "searchPriority": 3
+    }, {
+        "dex": 171,
+        "speciesName": "電燈怪 XL",
+        "speciesId": "lanturn_xl",
+        "baseStats": {
+            "atk": 146,
+            "def": 137,
+            "hp": 268
+        },
+        "types": ["water", "electric"],
+        "fastMoves": ["CHARGE_BEAM", "WATER_GUN", "SPARK"],
+        "chargedMoves": ["HYDRO_PUMP", "THUNDER", "THUNDERBOLT"],
+        "defaultIVs": {
+            "cp500": [9, 7, 12, 10],
+            "cp1500": [27, 5, 14, 9],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["xl"]
     }, {
         "dex": 172,
         "speciesName": "皮丘",
@@ -8335,6 +8458,24 @@
         },
         "searchPriority": 13
     }, {
+        "dex": 226,
+        "speciesName": "巨翅飛魚 XL",
+        "speciesId": "mantine_xl",
+        "baseStats": {
+            "atk": 148,
+            "def": 226,
+            "hp": 163
+        },
+        "types": ["water", "flying"],
+        "fastMoves": ["BUBBLE", "BULLET_SEED", "WING_ATTACK"],
+        "chargedMoves": ["AERIAL_ACE", "ICE_BEAM", "WATER_PULSE", "BUBBLE_BEAM"],
+        "defaultIVs": {
+            "cp500": [9, 6, 13, 9],
+            "cp1500": [27, 6, 9, 10],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"]
+    }, {
         "dex": 227,
         "speciesName": "盔甲鳥",
         "speciesId": "skarmory",
@@ -9282,6 +9423,26 @@
         "eliteMoves": ["HYDRO_CANNON"],
         "searchPriority": 31
     }, {
+        "dex": 260,
+        "speciesName": "巨沼怪 暗影化XL",
+        "speciesId": "swampert_shadow_xl",
+        "baseStats": {
+            "atk": 208,
+            "def": 175,
+            "hp": 225
+        },
+        "types": ["water", "ground"],
+        "fastMoves": ["MUD_SHOT", "WATER_GUN"],
+        "chargedMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "SURF", "HYDRO_CANNON", "MUDDY_WATER"],
+        "tags": ["starter", "shadow", "xl"],
+        "defaultIVs": {
+            "cp500": [6.5, 5, 9, 9],
+            "cp1500": [19, 5, 7, 11],
+            "cp2500": [32, 6, 11, 14]
+        },
+        "eliteMoves": ["HYDRO_CANNON"],
+        "searchPriority": 31
+    }, {
         "dex": 261,
         "speciesName": "土狼犬",
         "speciesId": "poochyena",
@@ -9780,6 +9941,24 @@
             "cp1500": [26, 8, 13, 11],
             "cp2500": [40, 15, 15, 15]
         }
+    }, {
+        "dex": 279,
+        "speciesName": "大嘴鷗 XL",
+        "speciesId": "pelipper_xl",
+        "baseStats": {
+            "atk": 175,
+            "def": 174,
+            "hp": 155
+        },
+        "types": ["water", "flying"],
+        "fastMoves": ["WATER_GUN", "WING_ATTACK"],
+        "chargedMoves": ["BLIZZARD", "HURRICANE", "HYDRO_PUMP", "WEATHER_BALL_WATER"],
+        "defaultIVs": {
+            "cp500": [9, 6, 13, 5],
+            "cp1500": [26, 8, 13, 11],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"]
     }, {
         "dex": 280,
         "speciesName": "拉魯拉絲",
@@ -11397,6 +11576,25 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 346,
+        "speciesName": "搖籃百合 XL",
+        "speciesId": "cradily_xl",
+        "baseStats": {
+            "atk": 152,
+            "def": 194,
+            "hp": 200
+        },
+        "types": ["rock", "grass"],
+        "fastMoves": ["ACID", "INFESTATION", "BULLET_SEED"],
+        "chargedMoves": ["BULLDOZE", "GRASS_KNOT", "STONE_EDGE"],
+        "defaultIVs": {
+            "cp500": [8.5, 8, 14, 7],
+            "cp1500": [25.5, 5, 15, 8],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "level25CP": 1335,
+        "tags": ["shadoweligible", "xl"]
+    }, {
+        "dex": 346,
         "speciesName": "搖籃百合 暗影化",
         "speciesId": "cradily_shadow",
         "baseStats": {
@@ -11414,6 +11612,24 @@
         },
         "searchPriority": 2,
         "tags": ["shadow"]
+    }, {
+        "dex": 346,
+        "speciesName": "搖籃百合 暗影化XL",
+        "speciesId": "cradily_shadow_xl",
+        "baseStats": {
+            "atk": 152,
+            "def": 194,
+            "hp": 200
+        },
+        "types": ["rock", "grass"],
+        "fastMoves": ["ACID", "INFESTATION", "BULLET_SEED"],
+        "chargedMoves": ["BULLDOZE", "GRASS_KNOT", "STONE_EDGE"],
+        "defaultIVs": {
+            "cp500": [8.5, 8, 14, 7],
+            "cp1500": [25.5, 5, 15, 8],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 347,
         "speciesName": "太古羽蟲",
@@ -11536,8 +11752,25 @@
             "cp500": [11.5, 8, 8, 14],
             "cp1500": [39.5, 6, 12, 12],
             "cp2500": [40, 15, 15, 15]
+        }
+    }, {
+        "dex": 351,
+        "speciesName": "飄浮泡泡 XL",
+        "speciesId": "castform_xl",
+        "baseStats": {
+            "atk": 139,
+            "def": 139,
+            "hp": 172
         },
-        "searchPriority": 3
+        "types": ["normal", "none"],
+        "fastMoves": ["HEX", "TACKLE"],
+        "chargedMoves": ["ENERGY_BALL", "HURRICANE", "WEATHER_BALL_ROCK"],
+        "defaultIVs": {
+            "cp500": [11.5, 8, 8, 14],
+            "cp1500": [41.5, 0, 14, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"]
     }, {
         "dex": 351,
         "speciesName": "飄浮泡泡 雨天型態",
@@ -11558,6 +11791,24 @@
 		"searchPriority": 2
     }, {
         "dex": 351,
+        "speciesName": "飄浮泡泡 雨天型態XL",
+        "speciesId": "castform_rainy_xl",
+        "baseStats": {
+            "atk": 139,
+            "def": 139,
+            "hp": 172
+        },
+        "types": ["water", "none"],
+        "fastMoves": ["TACKLE", "WATER_GUN"],
+        "chargedMoves": ["HYDRO_PUMP", "THUNDER", "WEATHER_BALL_WATER"],
+        "defaultIVs": {
+            "cp500": [11.5, 8, 8, 14],
+			"cp1500": [41.5, 0, 14, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"]
+    }, {
+        "dex": 351,
         "speciesName": "飄浮泡泡 雪型態",
         "speciesId": "castform_snowy",
         "baseStats": {
@@ -11575,6 +11826,24 @@
         }
     }, {
         "dex": 351,
+        "speciesName": "飄浮泡泡 雪型態XL",
+        "speciesId": "castform_snowy_xl",
+        "baseStats": {
+            "atk": 139,
+            "def": 139,
+            "hp": 172
+        },
+        "types": ["ice", "none"],
+        "fastMoves": ["POWDER_SNOW", "TACKLE"],
+        "chargedMoves": ["BLIZZARD", "ICE_BEAM", "WEATHER_BALL_ICE"],
+        "defaultIVs": {
+			"cp500": [11.5, 8, 8, 14],
+			"cp1500": [41.5, 0, 14, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"]
+    }, {
+        "dex": 351,
         "speciesName": "飄浮泡泡 晴天型態",
         "speciesId": "castform_sunny",
         "baseStats": {
@@ -11590,6 +11859,24 @@
             "cp1500": [39.5, 6, 12, 12],
             "cp2500": [40, 15, 15, 15]
         }
+    }, {
+        "dex": 351,
+        "speciesName": "飄浮泡泡 晴天型態XL",
+        "speciesId": "castform_sunny_xl",
+        "baseStats": {
+            "atk": 139,
+            "def": 139,
+            "hp": 172
+        },
+        "types": ["fire", "none"],
+        "fastMoves": ["EMBER", "TACKLE"],
+        "chargedMoves": ["FIRE_BLAST", "SOLAR_BEAM", "WEATHER_BALL_FIRE"],
+        "defaultIVs": {
+			"cp500": [11.5, 8, 8, 14],
+			"cp1500": [41.5, 0, 14, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"]
     }, {
         "dex": 352,
         "speciesName": "變隱龍",
@@ -12487,6 +12774,25 @@
         "chargedMoves": ["AERIAL_ACE", "ANCIENT_POWER", "OUTRAGE", "HURRICANE"],
         "eliteMoves": ["HURRICANE"],
         "tags": ["legendary"],
+        "defaultIVs": {
+            "cp500": [5, 8, 15, 8],
+            "cp1500": [14.5, 6, 13, 5],
+            "cp2500": [23.5, 9, 11, 14]
+        }
+    }, {
+        "dex": 384,
+        "speciesName": "烈空坐 XL",
+        "speciesId": "rayquaza_xl",
+        "baseStats": {
+            "atk": 284,
+            "def": 170,
+            "hp": 213
+        },
+        "types": ["dragon", "flying"],
+        "fastMoves": ["AIR_SLASH", "DRAGON_TAIL"],
+        "chargedMoves": ["AERIAL_ACE", "ANCIENT_POWER", "OUTRAGE", "HURRICANE"],
+        "eliteMoves": ["HURRICANE"],
+        "tags": ["legendary", "xl"],
         "defaultIVs": {
             "cp500": [5, 8, 15, 8],
             "cp1500": [14.5, 6, 13, 5],
@@ -14379,6 +14685,25 @@
         "tags": ["shadow"],
         "searchPriority": 4
     }, {
+        "dex": 462,
+        "speciesName": "自爆磁怪 暗影化XL",
+        "speciesId": "magnezone_shadow_xl",
+        "baseStats": {
+            "atk": 238,
+            "def": 205,
+            "hp": 172
+        },
+        "types": ["electric", "steel"],
+        "fastMoves": ["CHARGE_BEAM", "SPARK"],
+        "chargedMoves": ["FLASH_CANNON", "WILD_CHARGE", "ZAP_CANNON", "MIRROR_SHOT"],
+        "defaultIVs": {
+            "cp500": [6, 5, 8, 12],
+            "cp1500": [17, 10, 15, 8],
+            "cp2500": [29, 5, 15, 6]
+        },
+        "tags": ["shadow"],
+        "searchPriority": 4
+    }, {
         "dex": 463,
         "speciesName": "大舌舔",
         "speciesId": "lickilicky",
@@ -14718,6 +15043,26 @@
         "eliteMoves": ["ANCIENT_POWER"],
         "searchPriority": 2,
         "tags": ["shadow"]
+    }, {
+        "dex": 473,
+        "speciesName": "象牙豬 暗影化XL",
+        "speciesId": "mamoswine_shadow_xl",
+        "baseStats": {
+            "atk": 247,
+            "def": 146,
+            "hp": 242
+        },
+        "types": ["ice", "ground"],
+        "fastMoves": ["MUD_SLAP", "POWDER_SNOW"],
+        "chargedMoves": ["AVALANCHE", "BULLDOZE", "STONE_EDGE", "ANCIENT_POWER"],
+        "defaultIVs": {
+            "cp500": [5.5, 9, 15, 15],
+            "cp1500": [16, 11, 14, 15],
+            "cp2500": [27.5, 8, 15, 5]
+        },
+        "eliteMoves": ["ANCIENT_POWER"],
+        "searchPriority": 2,
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 474,
         "speciesName": "多邊獸Ｚ",
@@ -15103,24 +15448,6 @@
             "cp2500": [22.5, 5, 12, 14]
         },
         "searchPriority": 20
-    }, {
-        "dex": 483,
-        "speciesName": "帝牙盧卡 XL",
-        "speciesId": "dialga_xl",
-        "baseStats": {
-            "atk": 275,
-            "def": 211,
-            "hp": 205
-        },
-        "types": ["steel", "dragon"],
-        "fastMoves": ["DRAGON_BREATH", "METAL_CLAW"],
-        "chargedMoves": ["DRACO_METEOR", "IRON_HEAD", "THUNDER"],
-        "tags": ["legendary", "xl"],
-        "defaultIVs": {
-            "cp500": [4.5, 13, 14, 12],
-            "cp1500": [13.5, 7, 14, 9],
-            "cp2500": [22.5, 5, 12, 14]
-        }
     }, {
         "dex": 484,
         "speciesName": "帕路奇亞",
@@ -15678,6 +16005,25 @@
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         }
+    }, {
+        "dex": 496,
+        "speciesId": "servine_xl",
+        "speciesName": "青藤蛇 XL",
+        "baseStats": {
+            "atk": 122,
+            "def": 152,
+            "hp": 155
+        },
+        "types": ["grass", "none"],
+        "fastMoves": ["IRON_TAIL", "VINE_WHIP"],
+        "chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "WRAP"],
+        "tags": ["starter"],
+        "defaultIVs": {
+            "cp500": [13.5, 6, 6, 11],
+            "cp1500": [49.5, 5, 15, 14],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"]
     }, {
         "dex": 497,
         "speciesId": "serperior",
@@ -16287,6 +16633,24 @@
             "cp1500": [17, 5, 12, 12],
             "cp2500": [27.5, 11, 13, 15]
         }
+    }, {
+        "dex": 530,
+        "speciesId": "excadrill_xl",
+        "speciesName": "龍頭地鼠 XL",
+        "baseStats": {
+            "atk": 255,
+            "def": 129,
+            "hp": 242
+        },
+        "types": ["ground", "steel"],
+        "fastMoves": ["METAL_CLAW", "MUD_SLAP", "MUD_SHOT"],
+        "chargedMoves": ["ROCK_SLIDE", "EARTHQUAKE", "DRILL_RUN", "IRON_HEAD"],
+        "defaultIVs": {
+            "cp500": [6, 10, 7, 5],
+            "cp1500": [17, 5, 12, 12],
+            "cp2500": [27.5, 11, 13, 15]
+        },
+		"tags": ["xl"]
     }, {
         "dex": 531,
         "speciesId": "audino",
@@ -17974,6 +18338,24 @@
         "searchPriority": 10
     }, {
         "dex": 618,
+        "speciesId": "stunfisk_xl",
+        "speciesName": "泥巴魚 XL",
+        "baseStats": {
+            "atk": 144,
+            "def": 171,
+            "hp": 240
+        },
+        "types": ["ground", "electric"],
+        "fastMoves": ["THUNDER_SHOCK", "MUD_SHOT"],
+        "chargedMoves": ["MUD_BOMB", "DISCHARGE", "MUDDY_WATER"],
+        "defaultIVs": {
+            "cp500": [8.5, 10, 15, 10],
+            "cp1500": [26, 7, 15, 6],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["xl"]
+    }, {
+        "dex": 618,
         "speciesName": "泥巴魚 伽勒爾型態XL",
         "speciesId": "stunfisk_galarian_xl",
         "baseStats": {
@@ -18438,8 +18820,8 @@
             "hp": 188
         },
         "types": ["flying", "none"],
-        "fastMoves": ["BITE", "AIR_SLASH"],
-        "chargedMoves": ["GRASS_KNOT", "DARK_PULSE", "HYPER_BEAM", "HURRICANE"],
+        "fastMoves": ["ASTONISH", "GUST"],
+        "chargedMoves": ["HEAT_WAVE", "PSYCHIC", "FOCUS_BLAST", "HURRICANE"],
         "defaultIVs": {
             "cp500": [6, 5, 7, 13],
             "cp1500": [16.5, 13, 15, 14],
@@ -18466,6 +18848,24 @@
         "tags": ["legendary"]
     }, {
         "dex": 642,
+        "speciesId": "thundurus_incarnate_xl",
+        "speciesName": "雷電雲 化身型態XL",
+        "baseStats": {
+            "atk": 266,
+            "def": 164,
+            "hp": 188
+        },
+        "types": ["electric", "flying"],
+        "fastMoves": ["ASTONISH", "THUNDER_SHOCK"],
+        "chargedMoves": ["CRUNCH", "THUNDER", "BRICK_BREAK", "THUNDER_PUNCH"],
+        "defaultIVs": {
+            "cp500": [5.5, 12, 14, 14],
+            "cp1500": [16.5, 9, 13, 6],
+            "cp2500": [27, 7, 15, 12]
+        },
+        "tags": ["legendary", "xl"]
+    }, {
+        "dex": 642,
         "speciesId": "thundurus_therian",
         "speciesName": "雷電雲 靈獸型態",
         "baseStats": {
@@ -18474,14 +18874,32 @@
             "hp": 188
         },
         "types": ["electric", "flying"],
-        "fastMoves": ["ASTONISH", "THUNDER_SHOCK"],
-        "chargedMoves": ["CRUNCH", "THUNDER", "BRICK_BREAK", "THUNDER_PUNCH"],
+        "fastMoves": ["BITE", "VOLT_SWITCH"],
+        "chargedMoves": ["SLUDGE_WAVE","THUNDER","FOCUS_BLAST","THUNDERBOLT"],
         "defaultIVs": {
             "cp500": [5, 9, 15, 15],
             "cp1500": [15, 8, 11, 10],
             "cp2500": [25, 5, 13, 11]
         },
         "tags": ["legendary"]
+    }, {
+        "dex": 642,
+        "speciesId": "thundurus_therian_xl",
+        "speciesName": "雷電雲 靈獸型態XL",
+        "baseStats": {
+            "atk": 295,
+            "def": 161,
+            "hp": 188
+        },
+        "types": ["electric", "flying"],
+        "fastMoves": ["BITE", "VOLT_SWITCH"],
+        "chargedMoves": ["SLUDGE_WAVE","THUNDER","FOCUS_BLAST","THUNDERBOLT"],
+        "defaultIVs": {
+            "cp500": [5, 9, 15, 15],
+            "cp1500": [15, 8, 11, 10],
+            "cp2500": [25, 5, 13, 11]
+        },
+        "tags": ["legendary", "xl"]
     }, {
         "dex": 643,
         "speciesId": "reshiram",
@@ -18611,24 +19029,6 @@
             "cp2500": [20, 7, 6, 13]
         },
         "tags": ["legendary"]
-    }, {
-        "dex": 646,
-        "speciesId": "kyurem_xl",
-        "speciesName": "酋雷姆 XL",
-        "baseStats": {
-            "atk": 246,
-            "def": 170,
-            "hp": 245
-        },
-        "types": ["dragon", "ice"],
-        "fastMoves": ["DRAGON_BREATH", "STEEL_WING"],
-        "chargedMoves": ["DRAGON_CLAW", "BLIZZARD", "DRACO_METEOR"],
-        "defaultIVs": {
-            "cp500": [5.5, 6, 5, 7],
-            "cp1500": [15.5, 7, 12, 6],
-            "cp2500": [25.5, 6, 15, 9]
-        },
-        "tags": ["legendary", "xl"]
     }, {
         "dex": 647,
         "speciesId": "keldeo_ordinary",
@@ -19027,6 +19427,24 @@
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         }
+    }, {
+        "dex": 662,
+        "speciesName": "火箭雀 XL",
+        "speciesId": "fletchinder_xl",
+        "baseStats": {
+            "atk": 145,
+            "def": 110,
+            "hp": 158
+        },
+        "types": ["fire", "flying"],
+        "fastMoves": ["PECK", "EMBER", "STEEL_WING"],
+        "chargedMoves": ["AERIAL_ACE", "HEAT_WAVE", "FLAME_CHARGE"],
+        "defaultIVs": {
+            "cp500": [12.5, 10, 11, 15],
+            "cp1500": [49.5, 1, 14, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl"]
     }, {
         "dex": 663,
         "speciesName": "烈箭鷹",
