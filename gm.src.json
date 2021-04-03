@@ -7688,7 +7688,9 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "LOW_SWEEP",
-        "SWIFT"
+        "SWIFT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 136,
       "_def": 112,
@@ -12266,9 +12268,7 @@
       "chargedMoves": [
         "BRICK_BREAK",
         "GRASS_KNOT",
-        "SEED_BOMB",
-        "RETURN",
-        "FRUSTRATION"
+        "SEED_BOMB"
       ],
       "_atk": 156,
       "_def": 74,
@@ -12297,9 +12297,7 @@
       "chargedMoves": [
         "DARK_PULSE",
         "DYNAMIC_PUNCH",
-        "GRASS_KNOT",
-        "RETURN",
-        "FRUSTRATION"
+        "GRASS_KNOT"
       ],
       "_atk": 221,
       "_def": 115,
@@ -15399,7 +15397,9 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "HYPER_BEAM",
-        "LOW_SWEEP"
+        "LOW_SWEEP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 205,
       "_def": 143,
@@ -15519,6 +15519,35 @@
       "_sta": 163,
       "id": "LOPUNNY",
       "name": "長耳兔",
+      "captureRate": 0.2,
+      "fleeRate": 0.06,
+      "buddyKm": 3,
+      "familyId": "F_BUNEARY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 428,
+      "types": [
+        "normal",
+        "fighting"
+      ],
+      "fastMoves": [
+        "LOW_KICK",
+        "POUND"
+      ],
+      "chargedMoves": [
+        "FIRE_PUNCH",
+        "FOCUS_BLAST",
+        "HYPER_BEAM"
+      ],
+      "_atk": 282,
+      "_def": 214,
+      "_sta": 163,
+      "id": "LOPUNNY_MEGA",
+      "name": "長耳兔 (Mega)",
       "captureRate": 0.2,
       "fleeRate": 0.06,
       "buddyKm": 3,
