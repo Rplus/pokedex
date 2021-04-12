@@ -2399,6 +2399,7 @@
         "NIGHT_SLASH",
         "PLAY_ROUGH",
         "POWER_GEM",
+        "PAYBACK",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -2434,7 +2435,8 @@
       "chargedMoves": [
         "DARK_PULSE",
         "FOUL_PLAY",
-        "PLAY_ROUGH"
+        "PLAY_ROUGH",
+        "PAYBACK"
       ],
       "_atk": 158,
       "_def": 136,
@@ -7746,7 +7748,8 @@
       "chargedMoves": [
         "PETAL_BLIZZARD",
         "SLUDGE_BOMB",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "LEAF_STORM"
       ],
       "_atk": 185,
       "_def": 135,
@@ -9778,7 +9781,8 @@
         "DAZZLING_GLEAM",
         "HYPER_BEAM",
         "PSYCHIC",
-        "SEED_BOMB"
+        "SEED_BOMB",
+        "LEAF_STORM"
       ],
       "_atk": 210,
       "_def": 210,
@@ -10462,7 +10466,8 @@
         "HYDRO_PUMP",
         "ENERGY_BALL",
         "ICE_BEAM",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "LEAF_STORM"
       ],
       "_atk": 173,
       "_def": 176,
@@ -12268,7 +12273,8 @@
       "chargedMoves": [
         "BRICK_BREAK",
         "GRASS_KNOT",
-        "SEED_BOMB"
+        "SEED_BOMB",
+        "PAYBACK"
       ],
       "_atk": 156,
       "_def": 74,
@@ -12297,7 +12303,8 @@
       "chargedMoves": [
         "DARK_PULSE",
         "DYNAMIC_PUNCH",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "PAYBACK"
       ],
       "_atk": 221,
       "_def": 115,
@@ -13179,6 +13186,7 @@
         "DARK_PULSE",
         "MEGAHORN",
         "THUNDER",
+        "PAYBACK",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -14703,7 +14711,8 @@
         "GRASS_KNOT",
         "SLUDGE_BOMB",
         "SOLAR_BEAM",
-        "WEATHER_BALL_FIRE"
+        "WEATHER_BALL_FIRE",
+        "LEAF_STORM"
       ],
       "legacyMoves": [
         "BULLET_SEED",
@@ -15776,7 +15785,8 @@
       "chargedMoves": [
         "GYRO_BALL",
         "HEAVY_SLAM",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "PAYBACK"
       ],
       "_atk": 43,
       "_def": 154,
@@ -15807,7 +15817,8 @@
         "HEAVY_SLAM",
         "PSYCHIC",
         "BULLDOZE",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "PAYBACK"
       ],
       "_atk": 161,
       "_def": 213,
@@ -18320,7 +18331,14 @@
       "chargedMoves": [
         "GRASS_KNOT",
         "LEAF_TORNADO",
-        "AERIAL_ACE"
+        "AERIAL_ACE",
+        "FRENZY_PLANT"
+      ],
+      "legacyMoves": [
+        "FRENZY_PLANT"
+      ],
+      "eliteMoves": [
+        "FRENZY_PLANT"
       ],
       "_atk": 161,
       "_def": 204,
@@ -18688,7 +18706,8 @@
       "chargedMoves": [
         "GUNK_SHOT",
         "PLAY_ROUGH",
-        "DARK_PULSE"
+        "DARK_PULSE",
+        "PAYBACK"
       ],
       "_atk": 187,
       "_def": 106,
@@ -19598,7 +19617,8 @@
       "chargedMoves": [
         "LEAF_BLADE",
         "X_SCISSOR",
-        "SILVER_WIND"
+        "SILVER_WIND",
+        "LEAF_STORM"
       ],
       "_atk": 205,
       "_def": 165,
@@ -22826,13 +22846,13 @@
       ],
       "fastMoves": [
         "MUD_SHOT",
-        "ROCK_THROW"
+        "EXTRASENSORY"
       ],
       "chargedMoves": [
-        "EARTH_POWER",
-        "OUTRAGE",
-        "ROCK_SLIDE",
-        "FOCUS_BLAST"
+        "EARTHQUAKE",
+        "STONE_EDGE",
+        "SUPER_POWER",
+        "BULLDOZE"
       ],
       "_atk": 289,
       "_def": 179,
@@ -25230,9 +25250,9 @@
         "HYPER_BEAM",
         "PSYCHIC"
       ],
-      "_atk": 250,
-      "_def": 185,
-      "_sta": 246,
+      "_atk": 275,
+      "_def": 203,
+      "_sta": 270,
       "id": "YVELTAL",
       "name": "伊裴爾塔爾",
       "captureRate": 0.2,
@@ -27220,6 +27240,23 @@
       "pve_duration": 3.1,
       "pve_damageWindowStart": 2,
       "pve_damageWindowEnd": 2.6
+    },
+    {
+      "moveId": "LEAF_STORM",
+      "name": "Leaf Storm",
+      "power": 130,
+      "type": "grass",
+      "energy": 55,
+      "energyGain": 0,
+      "effect": "[己], 100%, -2階攻",
+      "turn": 1,
+      "mid": "343",
+      "isFast": false,
+      "pve_power": 130,
+      "pve_energyDelta": -100,
+      "pve_duration": 2.5,
+      "pve_damageWindowStart": 1.1,
+      "pve_damageWindowEnd": 1.25
     },
     {
       "moveId": "LICK",
