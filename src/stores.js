@@ -79,3 +79,5 @@ settings.subscribe(value => {
 
 export const typeTarget = writable(null);
 
+export const settingsVisibile = writable(false);
+

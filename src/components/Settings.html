@@ -1,0 +1,76 @@
+<script>
+  import Dialog from '@c/Dialog.html';
+  import { settingsVisibile, settings } from '@/stores.js';
+
+  let toggleVisibile = () => {
+    $settingsVisibile =!$settingsVisibile;
+  };
+</script>
+
+
+
+<buttons on:click={toggleVisibile} class="m-0 settings-btn" accesskey="s">
+  ⚙️
+</buttons>
+
+<Dialog closeFn={toggleVisibile} hidden={!$settingsVisibile}>
+  <div class="card">
+    <h3>設定</h3>
+    <hr />
+
+    <div class="grid">
+      <label>
+        <div class="label">
+          圖片縮放
+        </div>
+        <div>
+          <input type="range" min="1" max="4" step=".5" bind:value={$settings.io.avatarScale} />
+          <input type="number" min="1" max="4" step=".5" bind:value={$settings.io.avatarScale} />
+        </div>
+      </label>
+
+      <label>
+        <div class="label">
+          異色
+        </div>
+        <div>
+          <input type="checkbox" bind:checked={$settings.io.shinyAvatar}>
+        </div>
+      </label>
+    </div>
+
+  </div>
+</Dialog>
+
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: .25em .5em;
+    align-items: center;
+  }
+
+  .grid label > div {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .grid input {
+    margin-bottom: 0;
+  }
+
+  label {
+    display: contents;
+  }
+
+  .label {
+    justify-self: end;
+  }
+
+  .settings-btn {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
+</style>

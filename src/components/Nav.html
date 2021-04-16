@@ -1,29 +1,39 @@
-<nav class="nav text-capitalize text-center mb-4">
-  <ul class="m-0 p-0 df no-list-style jc-c">
-    <li><a class="{ isActive('home') }" href="./">home</a></li>
-    <li><a class="{ isActive('move') }" href="./move">move</a></li>
-    <li><a class="{ isActive('pokemon') }" href="./pokemon">pokemon</a></li>
-    <li><a class="{ isActive('info') }" href="./info">info</a></li>
-    <li><a class="{ isActive('about') }" href="./about">about</a></li>
-  </ul>
+<nav class="nav text-capitalize text-center mb-4 df jc-c">
+  <a class="{ isActive('home') }" href="./">home</a>
+  <a class="{ isActive('move') }" href="./move">move</a>
+  <a class="{ isActive('pokemon') }" href="./pokemon">pokemon</a>
+  <a class="{ isActive('info') }" href="./info">info</a>
+  <a class="{ isActive('about') }" href="./about">about</a>
+  <div class="item">
+    <Settings />
+  </div>
 </nav>
 
 <script>
+  import Settings from '@c/Settings.html';
   export let active;
-  $: isActive = str => active === str ? 'selected' : '';
+  $: isActive = str => active === str ? 'selected item' : 'item';
 </script>
 
 <style>
   .nav {
+    position: relative;
+    height: 2em;
     border-bottom: 1px solid rgba(170,30,30,0.1);
   }
+
   .selected {
     box-shadow: inset 0 -2px;
   }
-  a {
+
+  a.item {
     text-decoration: none;
-    padding: 1em 0.5em;
-    display: block;
     color: #006;
+  }
+
+  .item {
+    padding: 0em 0.5em;
+    display: inline-flex;
+    align-items: center;
   }
 </style>
