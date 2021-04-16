@@ -45,7 +45,9 @@ body {
 }
 
 .body.dark {
+  min-height: 100vh;
   color-scheme: dark;
+
   --body-bgc: #292929;
   --card-bgc: #121212;
   --color: #ccc;
@@ -67,6 +69,10 @@ body {
   --move-chart-text-hover-opacity: .5;
   --move-chart-text-active-opacity: 1;
   --move-chart-text-bgc: #fff1;
+}
+
+a {
+  color: var(--color-primary);
 }
 
 hr {
