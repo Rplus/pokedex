@@ -27,6 +27,10 @@
     // return `${ASSET_FOLDER}/pokemon_icons/pokemon_icon_${fn}.png`;
     return `${ASSET_FOLDER}/Images/Pokemon%20-%20256x256/pokemon_icon_${fn}.png`;
   }
+
+  function scrollIntoView() {
+    this.scrollIntoView();
+  }
 </script>
 
 
@@ -35,13 +39,14 @@
   <a class="pm df fd-c text-no-decoration"
     title="#{data.pm.dex} {data.pm.name}"
     href="./pokemon/{data.pm.uid}"
+    on:click={scrollIntoView}
   >
     <div class="pm-img mb-1"
       data-id="{data.pm.uid}"
       data-dex="#{data.pm.dex}"
       style="background-image: url({data.src}); --bdw: var(--uid-bdw-{data.pm.uid}, 0px);"
     />
-    {@html data.pm.name.replace(' ', '<br>')}
+    {@html data.pm.name.replace(' ', '<br />')}
   </a>
 
 
