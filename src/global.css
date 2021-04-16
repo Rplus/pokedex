@@ -40,6 +40,8 @@ body {
   --factor-color-1: #cfc;
   --factor-color--1: #fcc;
   --factor-color--2: #f99;
+  --move-chart-color-1: #eee;
+  --move-chart-color-2: #fcc;
 }
 
 .body.dark {
@@ -60,6 +62,11 @@ body {
   --factor-color-1: #070;
   --factor-color--1: #633;
   --factor-color--2: #600;
+  --move-chart-color-1: #222;
+  --move-chart-color-2: #332;
+  --move-chart-text-hover-opacity: .5;
+  --move-chart-text-active-opacity: 1;
+  --move-chart-text-bgc: #fff1;
 }
 
 hr {

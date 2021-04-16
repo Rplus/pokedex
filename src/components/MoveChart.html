@@ -150,11 +150,11 @@
     width: 100%;
     padding-bottom: 100%;
     text-align: center;
-    background-image: linear-gradient(var(--d, 135deg), #eee 60%, #fcc);
+    background-image: linear-gradient(var(--d, 135deg), var(--move-chart-color-1) 60%, var(--move-chart-color-2));
   }
 
-  .chart:hover { --o: .2; }
-  .chart:active { --o: .5; }
+  .chart:hover { --o: var(--move-chart-text-hover-opacity, .2); }
+  .chart:active { --o: var(--move-chart-text-active-opacity, .5); }
 
   .chart.fast .chart-dot {
     --x: var(--dpt);
@@ -207,6 +207,6 @@
     left: .75em;
     padding: .25em .5em;
     opacity: var(--o, 0);
-    background-color: rgba(255, 255, 200, var(--o, 0));
+    background-color: var(--move-chart-text-bgc, rgba(255, 255, 200, var(--o, 0)));
   }
 </style>
