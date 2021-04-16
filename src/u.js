@@ -4,7 +4,7 @@ export function genOptions(v, l = v) {
   return `<option value="${v}" label="${l}"></option>`;
 };
 
-export function cdnImgSrc(imgsrc, size = 200) {
+export function cdnImgSrc(imgsrc, size = 256) {
   // return imgsrc;
   // return `https://imageproxy.pimg.tw/resize?maxwidth=${size}&maxheigth=${size}&url=${imgsrc}`;
   return `https://images.weserv.nl/?w=${size}&il&url=${imgsrc}`;
