@@ -65,7 +65,7 @@ function changeType(e) {
     '. c .'         .75em
     'def-n . atk-n' 1fr / 1fr 1.2em 1fr;
   font-size: calc(1rem + 2vmin);
-  background-image: linear-gradient(#cfc 50%, #fcc 0);
+  background-image: var(--type-chart-bgi);
 }
 
 .type-chart:not(.is-show) {
@@ -101,7 +101,7 @@ function changeType(e) {
   transform: translateX(-50%);
   text-transform: capitalize;
   font-weight: 900;
-  color: rgba(0, 0, 0, .2);
+  color: rgba(120, 120, 120, .5);
   white-space: nowrap;
 }
 

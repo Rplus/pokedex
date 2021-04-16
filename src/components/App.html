@@ -1,3 +1,4 @@
+<div class="body" class:dark={$settings.io.darkMode}>
 <div class="workspace">
   <Nav {active} />
 
@@ -5,9 +6,10 @@
     <svelte:component this={Route} {params} />
   </main>
 
-  <Comments />
+  <!-- <Comments /> -->
   <Footer />
   <TypeDialog />
+</div>
 </div>
 
 
@@ -31,7 +33,7 @@
   import Nav from '@c/Nav.html';
 
   import { onDestroy } from 'svelte';
-  import { router } from '@/stores.js';
+  import { router, settings } from '@/stores.js';
 
   let Route, params, active;
   let uri = location.pathname;

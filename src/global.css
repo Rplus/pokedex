@@ -16,8 +16,55 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-family: monospace;
   font-size: 16px;
-  background-color: #eee;
   overflow-y: scroll;
+}
+
+.body {
+  color: var(--color);
+  background-color: var(--body-bgc);
+  color-scheme: light;
+
+  --card-bgc: #fff;
+  --body-bgc: #eee;
+  --color: #000;
+  --color-primary: #006;
+  --input-bgc: #eee;
+  --thead-bgc: #f6f6f6;
+  --thead-sort-bgc: #ccf;
+  --tr-border-color: #ddd;
+  --tr-hover-bgc: #fef;
+  --energy-bar-color: #66f;
+  --energy-bar-bgc: #ddf;
+  --dialog-overlay: rgba(0, 0, 0, .2);
+  --type-chart-bgi: linear-gradient(#cfc 50%, #fcc 0);
+  --factor-color-1: #cfc;
+  --factor-color--1: #fcc;
+  --factor-color--2: #f99;
+}
+
+.body.dark {
+  color-scheme: dark;
+  --body-bgc: #292929;
+  --card-bgc: #121212;
+  --color: #ccc;
+  --color-primary: #99c8ff;
+  --input-bgc: #333;
+  --thead-bgc: #292929;
+  --thead-sort-bgc: #555;
+  --tr-border-color: #666;
+  --tr-hover-bgc: #333;
+  --energy-bar-color: #ddd;
+  --energy-bar-bgc: #666;
+  --dialog-overlay: rgba(255, 255, 255, .2);
+  --type-chart-bgi: linear-gradient(#444 50%, #333 0);
+  --factor-color-1: #070;
+  --factor-color--1: #633;
+  --factor-color--2: #600;
+}
+
+hr {
+  background-color: #999;
+  opacity: .3;
 }
 
 summary:focus {
@@ -69,15 +116,15 @@ table {
 }
 
 thead tr {
-  background-color: #f6f6f6;
+  background-color: var(--thead-bgc);
 }
 
 tr {
-  border-bottom: 1px dotted #ddd;
+  border-bottom: 1px dotted var(--tr-border-color);
 }
 
 tbody tr:hover {
-  background-color: #fef;
+  background-color: var(--tr-hover-bgc);
 }
 
 th,
@@ -97,7 +144,7 @@ table a {
 }
 
 .striped-table tr:nth-of-type(odd) {
-  background-color: #fafafa;
+  background-color: rgba(120, 120, 120, .12);
 }
 
 
@@ -170,14 +217,14 @@ details details summary:not([dir="ltr"]) {
   top: var(--sticky-top, 0);
   padding-top: .5em;
   padding-bottom: .5em;
-  background-color: #f6f6f6;
+  background-color: var(--thead-bgc);
   box-shadow: 0 2px 5px -2px #999;
   z-index: 1;
 }
 
 .sortable.ascending,
 .sortable.descending {
-  background-image: linear-gradient(var(--sort-dir, 0deg), transparent, #ccf);
+  background-image: linear-gradient(var(--sort-dir, 0deg), transparent, var(--thead-sort-bgc));
 }
 .sortable.ascending {
   --sort-dir: 180deg;
@@ -211,8 +258,8 @@ details details summary:not([dir="ltr"]) {
   right: 0;
   bottom: 0;
   height: 2px;
-  background-color: #ddf;
-  background-image: linear-gradient(90deg, transparent 80%, #66f);
+  background-color: var(--energy-bar-bgc);
+  background-image: linear-gradient(90deg, transparent 80%, var(--energy-bar-color));
   background-size: var(--bgzx, 100%) 100%;
 }
 
@@ -228,7 +275,7 @@ details details summary:not([dir="ltr"]) {
 .card {
   margin-bottom: 1rem;
   padding: .1rem calc(.5rem + 1vw);
-  background-color: #fff;
+  background-color: var(--card-bgc);
   box-shadow: 0 .25em .5em rgba(0, 0, 0, .2);
   border-radius: .5em 0;
 }
