@@ -92,4 +92,18 @@
     }
   }
 
+  @media (min-width: 80rem) {
+    :global(.body.columns .columns-able) .float-links {
+      position: relative;
+      top: unset;
+      display: flex;
+      justify-content: space-between;
+      order: 1;
+    }
+
+    :global(.body.columns .columns-able) .float-card {
+      position: static;
+    }
+  }
+
 </style>

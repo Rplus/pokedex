@@ -50,7 +50,7 @@ function effText(eff) {
 {/if}
 
 {#if move}
-  <div>
+  <div class="columns-able">
     <section class="card">
       <h2 class="d-if">
         <Ruby class="_">
@@ -195,7 +195,7 @@ function effText(eff) {
 
     <TypeFactor types={[move.type]} role="⚔️" />
 
-    <Details type="samemove" class="card">
+    <Details type="samemove" class="card break-before-column">
       <summary><h3>Pokemon with this Move</h3></summary>
 
       <TableSort items={pms} class="ml-a mr-a text-right">

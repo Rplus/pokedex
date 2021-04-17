@@ -17,6 +17,7 @@ body {
   font-family: monospace;
   font-size: 16px;
   overflow-y: scroll;
+  color-scheme: light dark;
 }
 
 .body {
@@ -42,6 +43,18 @@ body {
   --factor-color--2: #f99;
   --move-chart-color-1: #eee;
   --move-chart-color-2: #fcc;
+}
+
+@media (min-width: 80rem) {
+  .body.columns .columns-able {
+    columns: 2;
+    width: 80rem;
+    margin-left: -20rem;
+  }
+
+  .body.columns .break-before-column {
+    break-before: column;
+  }
 }
 
 .body.dark {

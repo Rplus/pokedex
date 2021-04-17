@@ -3,7 +3,7 @@
 </script>
 
 
-<div class="card card-switcher">
+<div class="card card-switcher break-before-column">
   <label class="switcher df jc-c fxw-w mb-2 mt-2 ml-a mr-a">
     <!-- svelte-ignore a11y-accesskey -->
     <input class="switcher-input hidden-checkbox" type="checkbox" bind:checked={$settings.io.ispve} accesskey="v">
@@ -48,13 +48,16 @@
     transform: translateX(100%);
   }
 
-  .card-switcher {
+  :global(.body:not(.columns)) .card-switcher {
     position: sticky;
     top: 0;
-    width: fit-content;
     transform: translateX(var(--card-max-width));
     margin-bottom: -3.75rem;
-    background-color: var(--card-bgc);
+  }
+
+  .card-switcher {
+    width: fit-content;
+    /* background-color: var(--card-bgc); */
   }
 
   @media (max-width: 900px) {
