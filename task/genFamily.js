@@ -262,6 +262,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
             'SIRFETCHD',
             'STUNFISK_GALARIAN',
             'RUNERIGUS',
+            'MR_RIME',
           ].indexOf(pm.name) !== -1) {
             pm.iso = 31;
           }
