@@ -109,7 +109,12 @@ $: {
       </div>
 
       <Details type="pm_family">
-        <summary>演化分支</summary>
+        <summary>
+          演化分支
+          <label style="float: right">
+            <input type="checkbox" bind:checked={$settings.io.shinyAvatar} />✨
+          </label>
+        </summary>
         <div class="mb-4 pos-r" style="--uid-bdw-{pm.uid}: 1px; --zoom-ratio: {$settings.io.avatarScale || 1}">
           <Family pm={pm} />
         </div>
