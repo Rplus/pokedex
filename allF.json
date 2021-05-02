@@ -1131,7 +1131,8 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "MR_RIME"
+          "name": "MR_RIME",
+          "iso": 31
         }
       ],
       "iso": 31
@@ -1299,7 +1300,8 @@
       ]
     },
     {
-      "name": "SYLVEON"
+      "name": "SYLVEON",
+      "prev": "EEVEE"
     }
   ],
   "F_PORYGON": [
@@ -2486,7 +2488,18 @@
       "next": [
         {
           "candyCost": 400,
-          "name": "ALTARIA"
+          "name": "ALTARIA",
+          "next": [
+            {
+              "name": "ALTARIA_MEGA",
+              "candyCost": 0,
+              "iso": 51,
+              "requirement": [
+                "1st:200 E",
+                "2nd:40 E"
+              ]
+            }
+          ]
         }
       ]
     }
@@ -3115,7 +3128,18 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "LOPUNNY"
+          "name": "LOPUNNY",
+          "next": [
+            {
+              "name": "LOPUNNY_MEGA",
+              "candyCost": 0,
+              "iso": 51,
+              "requirement": [
+                "1st:200 E",
+                "2nd:40 E"
+              ]
+            }
+          ]
         }
       ]
     }
@@ -4641,21 +4665,15 @@
       "next": [
         {
           "candyCost": 12,
-          "name": "SPEWPA"
+          "name": "SPEWPA",
+          "next": [
+            {
+              "candyCost": 50,
+              "name": "VIVILLON"
+            }
+          ]
         }
       ]
-    },
-    {
-      "name": "SPEWPA",
-      "next": [
-        {
-          "candyCost": 50,
-          "name": "VIVILLON"
-        }
-      ]
-    },
-    {
-      "name": "VIVILLON"
     }
   ],
   "F_LITLEO": [
@@ -4688,21 +4706,15 @@
       "next": [
         {
           "candyCost": 25,
-          "name": "FLOETTE"
+          "name": "FLOETTE",
+          "next": [
+            {
+              "candyCost": 100,
+              "name": "FLORGES"
+            }
+          ]
         }
       ]
-    },
-    {
-      "name": "FLOETTE",
-      "next": [
-        {
-          "candyCost": 100,
-          "name": "FLORGES"
-        }
-      ]
-    },
-    {
-      "name": "FLORGES"
     }
   ],
   "F_SKIDDO": [
@@ -4714,9 +4726,6 @@
           "name": "GOGOAT"
         }
       ]
-    },
-    {
-      "name": "GOGOAT"
     }
   ],
   "F_PANCHAM": [
@@ -4725,17 +4734,67 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "PANGORO"
+          "name": "PANGORO",
+          "requirement": [
+            "POKEMON_TYPE_DARK: 32"
+          ]
         }
       ]
-    },
-    {
-      "name": "PANGORO"
     }
   ],
   "F_FURFROU": [
     {
       "name": "FURFROU"
+    },
+    {
+      "form": "FURFROU_NATURAL",
+      "name": "FURFROU",
+      "iso": 11
+    },
+    {
+      "form": "FURFROU_HEART",
+      "name": "FURFROU",
+      "iso": 12
+    },
+    {
+      "form": "FURFROU_STAR",
+      "name": "FURFROU",
+      "iso": 13
+    },
+    {
+      "form": "FURFROU_DIAMOND",
+      "name": "FURFROU",
+      "iso": 14
+    },
+    {
+      "form": "FURFROU_DEBUTANTE",
+      "name": "FURFROU",
+      "iso": 15
+    },
+    {
+      "form": "FURFROU_MATRON",
+      "name": "FURFROU",
+      "iso": 16
+    },
+    {
+      "form": "FURFROU_DANDY",
+      "name": "FURFROU",
+      "iso": 17
+    },
+    {
+      "form": "FURFROU_LA_REINE",
+      "name": "FURFROU",
+      "iso": 18
+    },
+    {
+      "form": "FURFROU_KABUKI",
+      "name": "FURFROU",
+      "iso": 19
+    },
+    {
+      "form": "FURFROU_PHARAOH",
+      "name": "FURFROU",
+      "iso": 20
     }
   ],
   "F_ESPURR": [
@@ -4768,21 +4827,15 @@
       "next": [
         {
           "candyCost": 25,
-          "name": "DOUBLADE"
+          "name": "DOUBLADE",
+          "next": [
+            {
+              "candyCost": 100,
+              "name": "AEGISLASH"
+            }
+          ]
         }
       ]
-    },
-    {
-      "name": "DOUBLADE",
-      "next": [
-        {
-          "candyCost": 100,
-          "name": "AEGISLASH"
-        }
-      ]
-    },
-    {
-      "name": "AEGISLASH"
     }
   ],
   "F_SPRITZEE": [
@@ -4791,12 +4844,12 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "AROMATISSE"
+          "name": "AROMATISSE",
+          "requirement": [
+            "QUEST_USE_INCENSE: 1"
+          ]
         }
       ]
-    },
-    {
-      "name": "AROMATISSE"
     }
   ],
   "F_SWIRLIX": [
@@ -4805,12 +4858,12 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "SLURPUFF"
+          "name": "SLURPUFF",
+          "requirement": [
+            "QUEST_BUDDY_FEED: 25"
+          ]
         }
       ]
-    },
-    {
-      "name": "SLURPUFF"
     }
   ],
   "F_INKAY": [
@@ -4819,12 +4872,10 @@
       "next": [
         {
           "candyCost": 50,
+          "onlyUpsideDown": true,
           "name": "MALAMAR"
         }
       ]
-    },
-    {
-      "name": "MALAMAR"
     }
   ],
   "F_BINACLE": [
@@ -4836,9 +4887,6 @@
           "name": "BARBARACLE"
         }
       ]
-    },
-    {
-      "name": "BARBARACLE"
     }
   ],
   "F_SKRELP": [
@@ -4846,13 +4894,10 @@
       "name": "SKRELP",
       "next": [
         {
-          "candyCost": 400,
+          "candyCost": 50,
           "name": "DRAGALGE"
         }
       ]
-    },
-    {
-      "name": "DRAGALGE"
     }
   ],
   "F_CLAUNCHER": [
@@ -4864,9 +4909,6 @@
           "name": "CLAWITZER"
         }
       ]
-    },
-    {
-      "name": "CLAWITZER"
     }
   ],
   "F_HELIOPTILE": [
@@ -4878,9 +4920,6 @@
           "name": "HELIOLISK"
         }
       ]
-    },
-    {
-      "name": "HELIOLISK"
     }
   ],
   "F_TYRUNT": [
@@ -4889,12 +4928,12 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "TYRANTRUM"
+          "name": "TYRANTRUM",
+          "requirement": [
+            "day"
+          ]
         }
       ]
-    },
-    {
-      "name": "TYRANTRUM"
     }
   ],
   "F_AMAURA": [
@@ -4903,12 +4942,12 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "AURORUS"
+          "name": "AURORUS",
+          "requirement": [
+            "night"
+          ]
         }
       ]
-    },
-    {
-      "name": "AURORUS"
     }
   ],
   "F_HAWLUCHA": [
@@ -4932,21 +4971,18 @@
       "next": [
         {
           "candyCost": 25,
-          "name": "SLIGGOO"
+          "name": "SLIGGOO",
+          "next": [
+            {
+              "candyCost": 100,
+              "name": "GOODRA",
+              "requirement": [
+                "lure:ITEM_TROY_DISK_RAINY"
+              ]
+            }
+          ]
         }
       ]
-    },
-    {
-      "name": "SLIGGOO",
-      "next": [
-        {
-          "candyCost": 100,
-          "name": "GOODRA"
-        }
-      ]
-    },
-    {
-      "name": "GOODRA"
     }
   ],
   "F_KLEFKI": [
@@ -4963,9 +4999,6 @@
           "name": "TREVENANT"
         }
       ]
-    },
-    {
-      "name": "TREVENANT"
     }
   ],
   "F_PUMPKABOO": [
@@ -4977,9 +5010,6 @@
           "name": "GOURGEIST"
         }
       ]
-    },
-    {
-      "name": "GOURGEIST"
     }
   ],
   "F_BERGMITE": [
@@ -4991,9 +5021,6 @@
           "name": "AVALUGG"
         }
       ]
-    },
-    {
-      "name": "AVALUGG"
     }
   ],
   "F_NOIBAT": [
@@ -5015,9 +5042,11 @@
   "F_YVELTAL": [
     {
       "name": "YVELTAL"
-    },
+    }
+  ],
+  "F_ZYGARDE": [
     {
-      "name": "YVELTAL"
+      "name": "ZYGARDE"
     }
   ],
   "F_MELTAN": [

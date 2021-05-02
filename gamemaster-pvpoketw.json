@@ -653,6 +653,18 @@
         }],
         "partySize": 3
     }, {
+        "name": "remix",
+        "title": "Great League Remix",
+        "include": [],
+		"exclude": [{
+            "filterType": "id",
+            "values": ["venusaur","raichu","raichu_alolan","marowak_alolan","marowak","azumarill","umbreon","skarmory","swampert","galvantula","stunfisk","stunfisk_galarian","talonflame"]
+        }, {
+            "filterType": "tag",
+            "values": ["mega"]
+        }],
+        "partySize": 3
+    }, {
         "name": "nightfall",
         "title": "Silph Nightfall Cup",
         "include": [{
@@ -732,7 +744,10 @@
         "exclude": [{
             "filterType": "id",
             "values": ["dialga","palkia","giratina_altered","giratina_origin","charizard_mega_x","charizard_mega_y","blastoise_mega","gengar_mega","melmetal","kyogre","groudon","zekrom","reshiram","mewtwo","lugia","ho_oh","dragonite","gyarados_mega"]
-        }]
+        }, {
+			"filterType": "tag",
+			"values": ["xl"]
+			}]
     }, {
         "name": "slitzko",
         "title": "Slitzko Memorial Cup",
@@ -762,6 +777,42 @@
             "pokemon": ["pidgeot", "fearow", "raichu_alolan", "dugtrio", "arcanine", "alakazam", "graveler", "golem", "marowak", "hitmonchan", "kangaskhan", "pinsir", "kabutops", "furret", "noctowl", "sudowoodo", "ursaring", "piloswine", "hitmontop", "shiftry", "hariyama", "monferno", "infernape", "staraptor", "bibarel", "wormadam_sandy", "floatzel", "hippowdon", "mamoswine", "litleo", "litleo_xl", "pyroar", "dragonite", "slowbro", "porygon", "slowking", "corsola", "milotic", "cherrim_sunny", "alomomola"]
         }, {
             "pokemon": ["arbok", "nidoking", "golbat", "crobat", "venomoth", "grimer", "muk", "cloyster", "haunter", "gengar", "weezing", "aerodactyl", "espeon", "forretress", "gligar", "granbull", "mantine", "delcatty", "swalot", "drifblim", "mismagius", "skuntank", "spiritomb", "drapion", "gliscor", "gothitelle", "noivern", "machoke", "graveler_alolan", "golem_alolan", "magneton", "rhydon", "misdreavus", "steelix", "qwilfish", "donphan", "mightyena", "lairon", "aggron", "armaldo", "glalie", "relicanth", "purugly", "magnezone", "rhyperior", "probopass", "tranquill", "unfezant", "excadrill", "cinccino", "escavalier", "ferrothorn", "klinklang", "durant", "liepard"]
+        }]
+    }, {
+        "name": "commander",
+        "title": "Silph Commander Cup",
+		"restrictedPicks": 1,
+		"restrictedPokemon": ["munchlax","shiftry","escavalier","steelix","empoleon","jellicent","bronzong","noctowl","marowak_alolan","poliwrath"],
+        "include": [{
+            "filterType": "id",
+            "values": ["munchlax","shiftry","escavalier","steelix","empoleon","jellicent","bronzong","noctowl","marowak_alolan","poliwrath"]
+        }, {
+            "filterType": "type",
+            "values": ["rock", "ice", "electric", "poison", "psychic"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega", "legendary", "mythical", "shadow"]
+        }, {
+            "filterType": "type",
+            "values": ["steel"]
+        }, {
+            "filterType": "id",
+            "values": ["abomasnow", "galvantula", "regirock", "stunfisk", "medicham", "wobbuffet", "drapion", "pachirisu"]
+        }]
+    }, {
+        "name": "factions",
+        "title": "Silph Factions",
+        "include": [{
+            "filterType": "type",
+            "values": ["ground","flying","steel","normal"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega", "mythical", "shadow", "regional"]
+        }, {
+            "filterType": "id",
+            "values": ["stunfisk_galarian","skarmory","altaria","bastiodon","registeel","chansey"]
         }]
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega", "xl"],
@@ -796,7 +847,7 @@
         "dexStart": 650,
         "dexEnd": 719
     }],
-    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "venusaur_mega", "charmander", "charmeleon", "charizard", "charizard_mega_x", "charizard_mega_y", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "beedrill_mega", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "alakazam_mega", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "gyarados_mega", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "ampharos_mega", "bellossom", "politoed", "scizor", "scizor_mega", "houndour", "houndoom", "houndoom_mega", "larvitar", "pupitar", "tyranitar", "tyranitar_mega", "mudkip", "marshtomp", "swampert", "swampert_mega", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "gardevoir_mega", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "banette_mega", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "gallade_mega", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "sableye_mega", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "salamence_mega", "snover", "abomasnow", "abomasnow_mega", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "sharpedo_mega", "pinsir", "pinsir_mega", "mawile", "mawile_mega", "beldum", "metang", "metagross", "metagross_mega", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo", "mewtwo_mega_x", "mewtwo_mega_y", "diglett", "dugtrio", "shellder", "cloyster", "slowpoke", "slowbro", "slowking", "aerodactyl", "skarmory", "teddiursa", "ursaring", "hoppip", "skiploom", "jumpluff", "wooper", "quagsire", "swinub", "piloswine", "mamoswine", "nosepass", "probopass", "aron", "lairon", "aggron", "spheal", "sealeo", "walrein", "lileep", "cradily","anorith","armaldo"],
+    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "venusaur_mega", "charmander", "charmeleon", "charizard", "charizard_mega_x", "charizard_mega_y", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "beedrill_mega", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "alakazam_mega", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "gyarados_mega", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "ampharos_mega", "bellossom", "politoed", "scizor", "scizor_mega", "houndour", "houndoom", "houndoom_mega", "larvitar", "pupitar", "tyranitar", "tyranitar_mega", "mudkip", "marshtomp", "swampert", "swampert_mega", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "gardevoir_mega", "trapinch", "vibrava", "flygon", "shuppet", "banette", "banette_mega", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "gallade_mega", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "sableye_mega", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "salamence_mega", "snover", "abomasnow", "abomasnow_mega", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "sharpedo_mega", "pinsir", "pinsir_mega", "mawile", "mawile_mega", "beldum", "metang", "metagross", "metagross_mega", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo", "mewtwo_mega_x", "mewtwo_mega_y", "diglett", "dugtrio", "shellder", "cloyster", "slowpoke", "slowbro", "slowking", "aerodactyl", "skarmory", "teddiursa", "ursaring", "hoppip", "skiploom", "jumpluff", "wooper", "quagsire", "swinub", "piloswine", "mamoswine", "nosepass", "probopass", "aron", "lairon", "aggron", "spheal", "sealeo", "walrein", "lileep", "cradily","anorith","armaldo","aipom","ambipom"],
     "cliffhangerTiers": [{
         "league": 1500,
         "max": 17,
@@ -1125,7 +1176,7 @@
     }, {
         "dex": 6,
         "speciesName": "噴火龍 暗影化XL",
-        "speciesId": "charizard_shadow",
+        "speciesId": "charizard_shadow_xl",
         "baseStats": {
             "atk": 223,
             "def": 173,
@@ -2108,6 +2159,25 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 30,
+        "speciesName": "尼多娜 XL",
+        "speciesId": "nidorina_xl",
+        "baseStats": {
+            "atk": 117,
+            "def": 120,
+            "hp": 172
+        },
+        "types": ["poison", "none"],
+        "fastMoves": ["BITE", "POISON_STING"],
+        "chargedMoves": ["DIG", "POISON_FANG", "SLUDGE_BOMB"],
+        "defaultIVs": {
+            "cp500": [15, 5, 12, 5],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "level25CP": 749,
+        "tags": ["shadoweligible", "xl"]
+    }, {
+        "dex": 30,
         "speciesName": "尼多娜 暗影化",
         "speciesId": "nidorina_shadow",
         "baseStats": {
@@ -2124,6 +2194,24 @@
             "cp2500": [40, 15, 15, 15]
         },
         "tags": ["shadow"]
+    }, {
+        "dex": 30,
+        "speciesName": "尼多娜 暗影化XL",
+        "speciesId": "nidorina_shadow_xl",
+        "baseStats": {
+            "atk": 117,
+            "def": 120,
+            "hp": 172
+        },
+        "types": ["poison", "none"],
+        "fastMoves": ["BITE", "POISON_STING"],
+        "chargedMoves": ["DIG", "POISON_FANG", "SLUDGE_BOMB"],
+        "defaultIVs": {
+            "cp500": [15, 5, 12, 5],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 31,
         "speciesName": "尼多后",
@@ -2161,6 +2249,43 @@
             "cp2500": [40, 15, 15, 15]
         },
         "tags": ["shadow"]
+    }, {
+        "dex": 31,
+        "speciesName": "尼多后 XL",
+        "speciesId": "nidoqueen_xl",
+        "baseStats": {
+            "atk": 180,
+            "def": 173,
+            "hp": 207
+        },
+        "types": ["poison", "ground"],
+        "fastMoves": ["BITE", "POISON_JAB"],
+        "chargedMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "STONE_EDGE", "EARTH_POWER"],
+        "defaultIVs": {
+            "cp500": [7.5, 10, 8, 15],
+            "cp1500": [23, 5, 6, 10],
+            "cp2500": [46, 2, 14, 15]
+        },
+        "tags": ["shadoweligible", "xl"],
+        "level25CP": 1519
+    }, {
+        "dex": 31,
+        "speciesName": "尼多后 暗影化XL",
+        "speciesId": "nidoqueen_shadow_xl",
+        "baseStats": {
+            "atk": 180,
+            "def": 173,
+            "hp": 207
+        },
+        "types": ["poison", "ground"],
+        "fastMoves": ["BITE", "POISON_JAB"],
+        "chargedMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "STONE_EDGE", "EARTH_POWER"],
+        "defaultIVs": {
+            "cp500": [7.5, 10, 8, 15],
+            "cp1500": [23, 5, 6, 10],
+            "cp2500": [46, 2, 14, 15]
+        },
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 32,
         "speciesName": "尼多朗",
@@ -2219,6 +2344,25 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 33,
+        "speciesName": "尼多力諾 XL",
+        "speciesId": "nidorino_xl",
+        "baseStats": {
+            "atk": 137,
+            "def": 111,
+            "hp": 156
+        },
+        "types": ["poison", "none"],
+        "fastMoves": ["POISON_JAB", "POISON_STING"],
+        "chargedMoves": ["DIG", "HORN_ATTACK", "SLUDGE_BOMB"],
+        "defaultIVs": {
+            "cp500": [13.5, 8, 9, 15],
+            "cp1500": [49, 9, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "level25CP": 804,
+        "tags": ["shadoweligible", "xl"]
+    }, {
+        "dex": 33,
         "speciesName": "尼多力諾 暗影化",
         "speciesId": "nidorino_shadow",
         "baseStats": {
@@ -2235,6 +2379,24 @@
             "cp2500": [40, 15, 15, 15]
         },
         "tags": ["shadow"]
+    }, {
+        "dex": 33,
+        "speciesName": "尼多力諾 暗影化XL",
+        "speciesId": "nidorino_shadow_xl",
+        "baseStats": {
+            "atk": 137,
+            "def": 111,
+            "hp": 156
+        },
+        "types": ["poison", "none"],
+        "fastMoves": ["POISON_JAB", "POISON_STING"],
+        "chargedMoves": ["DIG", "HORN_ATTACK", "SLUDGE_BOMB"],
+        "defaultIVs": {
+            "cp500": [13.5, 8, 9, 15],
+            "cp1500": [49, 9, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 34,
         "speciesName": "尼多王",
@@ -2257,6 +2419,26 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 34,
+        "speciesName": "尼多王 XL",
+        "speciesId": "nidoking_xl",
+        "baseStats": {
+            "atk": 204,
+            "def": 156,
+            "hp": 191
+        },
+        "types": ["poison", "ground"],
+        "fastMoves": ["FURY_CUTTER", "IRON_TAIL", "POISON_JAB"],
+        "chargedMoves": ["EARTHQUAKE", "MEGAHORN", "SLUDGE_WAVE", "EARTH_POWER"],
+        "defaultIVs": {
+            "cp500": [7.5, 5, 10, 6],
+            "cp1500": [21.5, 7, 15, 8],
+            "cp2500": [43.5, 1, 14, 14]
+        },
+        "eliteMoves": ["FURY_CUTTER"],
+        "level25CP": 1571,
+        "tags": ["shadoweligible", "xl"]
+    }, {
+        "dex": 34,
         "speciesName": "尼多王 暗影化",
         "speciesId": "nidoking_shadow",
         "baseStats": {
@@ -2274,6 +2456,25 @@
         },
         "eliteMoves": ["FURY_CUTTER"],
         "tags": ["shadow"]
+    }, {
+        "dex": 34,
+        "speciesName": "尼多王 暗影化XL",
+        "speciesId": "nidoking_shadow_xl",
+        "baseStats": {
+            "atk": 204,
+            "def": 156,
+            "hp": 191
+        },
+        "types": ["poison", "ground"],
+        "fastMoves": ["FURY_CUTTER", "IRON_TAIL", "POISON_JAB"],
+        "chargedMoves": ["EARTHQUAKE", "MEGAHORN", "SLUDGE_WAVE", "EARTH_POWER"],
+        "defaultIVs": {
+            "cp500": [7.5, 5, 10, 6],
+            "cp1500": [21.5, 7, 15, 8],
+            "cp2500": [43.5, 1, 14, 14]
+        },
+        "eliteMoves": ["FURY_CUTTER"],
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 35,
         "speciesName": "皮皮",
@@ -2422,7 +2623,8 @@
             "cp500": [8, 11, 9, 14],
             "cp1500": [23.5, 9, 15, 14],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 38,
         "speciesName": "九尾 阿羅拉型態XL",
@@ -3034,7 +3236,7 @@
         },
         "types": ["normal", "none"],
         "fastMoves": ["FEINT_ATTACK", "SCRATCH"],
-        "chargedMoves": ["FOUL_PLAY", "NIGHT_SLASH", "PLAY_ROUGH", "POWER_GEM"],
+        "chargedMoves": ["FOUL_PLAY", "NIGHT_SLASH", "PLAY_ROUGH", "POWER_GEM", "PAYBACK"],
         "defaultIVs": {
             "cp500": [11.5, 6, 9, 5],
             "cp1500": [38.5, 5, 8, 11],
@@ -3054,7 +3256,7 @@
         },
         "types": ["dark", "none"],
         "fastMoves": ["FEINT_ATTACK", "SCRATCH"],
-        "chargedMoves": ["DARK_PULSE", "FOUL_PLAY", "PLAY_ROUGH"],
+        "chargedMoves": ["DARK_PULSE", "FOUL_PLAY", "PLAY_ROUGH", "PAYBACK"],
         "tags": ["alolan"],
         "defaultIVs": {
             "cp500": [10.5, 5, 14, 11],
@@ -3072,7 +3274,7 @@
         },
         "types": ["normal", "none"],
         "fastMoves": ["FEINT_ATTACK", "SCRATCH"],
-        "chargedMoves": ["FOUL_PLAY", "NIGHT_SLASH", "PLAY_ROUGH", "POWER_GEM"],
+        "chargedMoves": ["FOUL_PLAY", "NIGHT_SLASH", "PLAY_ROUGH", "POWER_GEM", "PAYBACK"],
         "defaultIVs": {
             "cp500": [11.5, 6, 9, 5],
             "cp1500": [38.5, 5, 8, 11],
@@ -3189,6 +3391,25 @@
             "cp2500": [40, 15, 15, 15]
         },
         "eliteMoves": ["KARATE_CHOP", "CROSS_CHOP"]
+    }, {
+        "dex": 57,
+        "speciesName": "火爆猴 XL",
+        "speciesId": "primeape_xl",
+        "baseStats": {
+            "atk": 207,
+            "def": 138,
+            "hp": 163
+        },
+        "types": ["fighting", "none"],
+        "fastMoves": ["COUNTER", "KARATE_CHOP", "LOW_KICK"],
+        "chargedMoves": ["CLOSE_COMBAT", "CROSS_CHOP", "LOW_SWEEP", "NIGHT_SLASH", "ICE_PUNCH"],
+        "defaultIVs": {
+            "cp500": [8.5, 6, 7, 5],
+            "cp1500": [23.5, 12, 12, 15],
+            "cp2500": [49.5, 8, 15, 15]
+        },
+        "eliteMoves": ["KARATE_CHOP", "CROSS_CHOP"],
+		"tags": ["xl"]
     }, {
         "dex": 58,
         "speciesName": "卡蒂狗",
@@ -4305,6 +4526,26 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 88,
+        "speciesName": "臭泥 XL",
+        "speciesId": "grimer_xl",
+        "baseStats": {
+            "atk": 135,
+            "def": 90,
+            "hp": 190
+        },
+        "types": ["poison", "none"],
+        "fastMoves": ["ACID", "MUD_SLAP", "POISON_JAB"],
+        "chargedMoves": ["MUD_BOMB", "SLUDGE", "SLUDGE_BOMB"],
+        "legacyMoves": ["ACID"],
+        "defaultIVs": {
+            "cp500": [14.5, 5, 6, 9],
+            "cp1500": [49.5, 11, 15, 14],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "level25CP": 787,
+        "tags": ["shadoweligible", "xl"]
+    }, {
+        "dex": 88,
         "speciesName": "臭泥 阿羅拉型態",
         "speciesId": "grimer_alolan",
         "baseStats": {
@@ -4324,6 +4565,25 @@
         }
     }, {
         "dex": 88,
+        "speciesName": "臭泥 阿羅拉型態XL",
+        "speciesId": "grimer_alolan_xl",
+        "baseStats": {
+            "atk": 135,
+            "def": 90,
+            "hp": 190
+        },
+        "types": ["poison", "dark"],
+        "fastMoves": ["ACID", "BITE", "POISON_JAB"],
+        "chargedMoves": ["CRUNCH", "GUNK_SHOT", "SLUDGE_BOMB"],
+        "tags": ["alolan", "xl"],
+        "legacyMoves": ["ACID"],
+        "defaultIVs": {
+            "cp500": [14.5, 5, 6, 9],
+            "cp1500": [49.5, 11, 15, 14],
+            "cp2500": [50, 15, 15, 15]
+        }
+    }, {
+        "dex": 88,
         "speciesName": "臭泥 暗影化",
         "speciesId": "grimer_shadow",
         "baseStats": {
@@ -4340,6 +4600,24 @@
             "cp2500": [40, 15, 15, 15]
         },
         "tags": ["shadow"]
+    }, {
+        "dex": 88,
+        "speciesName": "臭泥 暗影化XL",
+        "speciesId": "grimer_shadow_xl",
+        "baseStats": {
+            "atk": 135,
+            "def": 90,
+            "hp": 190
+        },
+        "types": ["poison", "none"],
+        "fastMoves": ["MUD_SLAP", "POISON_JAB"],
+        "chargedMoves": ["MUD_BOMB", "SLUDGE", "SLUDGE_BOMB"],
+        "defaultIVs": {
+            "cp500": [14.5, 5, 6, 9],
+            "cp1500": [49.5, 11, 15, 14],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 89,
         "speciesName": "臭臭泥",
@@ -4799,6 +5077,25 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 102,
+        "speciesName": "蛋蛋 XL",
+        "speciesId": "exeggcute_xl",
+        "baseStats": {
+            "atk": 107,
+            "def": 125,
+            "hp": 155
+        },
+        "types": ["grass", "psychic"],
+        "fastMoves": ["BULLET_SEED", "CONFUSION"],
+        "chargedMoves": ["ANCIENT_POWER", "PSYCHIC", "SEED_BOMB"],
+        "defaultIVs": {
+            "cp500": [16, 5, 15, 14],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "level25CP": 664,
+        "tags": ["shadoweligible", "xl"]
+    }, {
+        "dex": 102,
         "speciesName": "蛋蛋 暗影化",
         "speciesId": "exeggcute_shadow",
         "baseStats": {
@@ -4815,6 +5112,24 @@
             "cp2500": [40, 15, 15, 15]
         },
         "tags": ["shadow"]
+    }, {
+        "dex": 102,
+        "speciesName": "蛋蛋 暗影化XL",
+        "speciesId": "exeggcute_shadow_xl",
+        "baseStats": {
+            "atk": 107,
+            "def": 125,
+            "hp": 155
+        },
+        "types": ["grass", "psychic"],
+        "fastMoves": ["BULLET_SEED", "CONFUSION"],
+        "chargedMoves": ["ANCIENT_POWER", "PSYCHIC", "SEED_BOMB"],
+        "defaultIVs": {
+            "cp500": [16, 5, 15, 14],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 103,
         "speciesName": "椰蛋樹",
@@ -5047,6 +5362,45 @@
         "tags": ["shadow"],
         "eliteMoves": ["ROCK_SMASH", "BRICK_BREAK"]
     }, {
+        "dex": 107,
+        "speciesName": "快拳郎 XL",
+        "speciesId": "hitmonchan_xl",
+        "baseStats": {
+            "atk": 193,
+            "def": 197,
+            "hp": 137
+        },
+        "types": ["fighting", "none"],
+        "fastMoves": ["BULLET_PUNCH", "COUNTER", "ROCK_SMASH"],
+        "chargedMoves": ["BRICK_BREAK", "CLOSE_COMBAT", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH", "POWER_UP_PUNCH"],
+        "defaultIVs": {
+            "cp500": [8, 8, 13, 12],
+            "cp1500": [23.5, 8, 12, 13],
+            "cp2500": [49.5, 5, 15, 15]
+        },
+        "level25CP": 1414,
+        "tags": ["shadoweligible", "xl"],
+        "eliteMoves": ["ROCK_SMASH", "BRICK_BREAK"]
+    }, {
+        "dex": 107,
+        "speciesName": "快拳郎 暗影化XL",
+        "speciesId": "hitmonchan_shadow_xl",
+        "baseStats": {
+            "atk": 193,
+            "def": 197,
+            "hp": 137
+        },
+        "types": ["fighting", "none"],
+        "fastMoves": ["BULLET_PUNCH", "COUNTER", "ROCK_SMASH"],
+        "chargedMoves": ["BRICK_BREAK", "CLOSE_COMBAT", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH", "POWER_UP_PUNCH"],
+        "defaultIVs": {
+            "cp500": [8, 8, 13, 12],
+            "cp1500": [23.5, 8, 12, 13],
+            "cp2500": [49.5, 5, 15, 15]
+        },
+        "tags": ["shadow", "xl"],
+        "eliteMoves": ["ROCK_SMASH", "BRICK_BREAK"]
+    }, {
         "dex": 108,
         "speciesName": "大舌頭",
         "speciesId": "lickitung",
@@ -5235,6 +5589,25 @@
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         }
+    }, {
+        "dex": 113,
+        "speciesName": "吉利蛋 XL",
+        "speciesId": "chansey_xl",
+        "baseStats": {
+            "atk": 60,
+            "def": 128,
+            "hp": 487
+        },
+        "types": ["normal", "none"],
+        "fastMoves": ["POUND", "ZEN_HEADBUTT"],
+        "chargedMoves": ["DAZZLING_GLEAM", "HYPER_BEAM", "PSYBEAM", "PSYCHIC"],
+        "legacyMoves": ["PSYBEAM"],
+        "defaultIVs": {
+            "cp500": [15.5, 7, 15, 15],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["xl","evil"]
     }, {
         "dex": 114,
         "speciesName": "蔓藤怪",
@@ -7439,7 +7812,26 @@
             "cp500": [13.5, 9, 13, 15],
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"tags": ["shadoweligible"]
+    }, {
+        "dex": 190,
+        "speciesName": "長尾怪手 暗影化",
+        "speciesId": "aipom_shadow",
+        "baseStats": {
+            "atk": 136,
+            "def": 112,
+            "hp": 146
+        },
+        "types": ["normal", "none"],
+        "fastMoves": ["ASTONISH", "SCRATCH"],
+        "chargedMoves": ["AERIAL_ACE", "LOW_SWEEP", "SWIFT"],
+        "defaultIVs": {
+            "cp500": [13.5, 9, 13, 15],
+            "cp1500": [40, 15, 15, 15],
+            "cp2500": [40, 15, 15, 15]
+        },
+		"tags": ["shadow"]
     }, {
         "dex": 191,
         "speciesName": "向日種子",
@@ -7468,7 +7860,7 @@
         },
         "types": ["grass", "none"],
         "fastMoves": ["BULLET_SEED", "RAZOR_LEAF"],
-        "chargedMoves": ["PETAL_BLIZZARD", "SLUDGE_BOMB", "SOLAR_BEAM"],
+        "chargedMoves": ["PETAL_BLIZZARD", "SLUDGE_BOMB", "SOLAR_BEAM", "LEAF_STORM"],
         "defaultIVs": {
             "cp500": [8.5, 11, 12, 13],
             "cp1500": [26.5, 5, 10, 10],
@@ -8763,8 +9155,8 @@
             "hp": 146
         },
         "types": ["normal", "none"],
-        "fastMoves": ["TACKLE", "FURY_CUTTER", "BUG_BITE", "BITE", "SUCKER_PUNCH", "DRAGON_BREATH", "THUNDER_SHOCK", "SPARK", "LOW_KICK", "KARATE_CHOP", "EMBER", "WING_ATTACK", "PECK", "LICK", "SHADOW_CLAW", "VINE_WHIP", "RAZOR_LEAF", "MUD_SHOT", "ICE_SHARD", "FROST_BREATH", "QUICK_ATTACK", "SCRATCH", "POUND", "CUT", "POISON_JAB", "ACID", "PSYCHO_CUT", "ROCK_THROW", "METAL_CLAW", "BULLET_PUNCH", "WATER_GUN", "SPLASH", "MUD_SLAP", "ZEN_HEADBUTT", "CONFUSION", "POISON_STING", "BUBBLE", "FEINT_ATTACK", "STEEL_WING", "FIRE_FANG", "ROCK_SMASH", "COUNTER", "POWDER_SNOW", "CHARGE_BEAM", "VOLT_SWITCH", "DRAGON_TAIL", "AIR_SLASH", "INFESTATION", "STRUGGLE_BUG", "ASTONISH", "HEX", "IRON_TAIL", "FIRE_SPIN", "BULLET_SEED", "EXTRASENSORY", "SNARL", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "TAKE_DOWN", "WATERFALL", "YAWN", "PRESENT"],
-        "chargedMoves": ["STRUGGLE", "WRAP", "HYPER_BEAM", "DARK_PULSE", "SLUDGE", "VICE_GRIP", "FLAME_WHEEL", "MEGAHORN", "FLAMETHROWER", "DIG", "CROSS_CHOP", "PSYBEAM", "EARTHQUAKE", "STONE_EDGE", "ICE_PUNCH", "DISCHARGE", "FLASH_CANNON", "DRILL_PECK", "ICE_BEAM", "BLIZZARD", "HEAT_WAVE", "AERIAL_ACE", "DRILL_RUN", "PETAL_BLIZZARD", "BUG_BUZZ", "POISON_FANG", "NIGHT_SLASH", "BUBBLE_BEAM", "SUBMISSION", "LOW_SWEEP", "AQUA_JET", "AQUA_TAIL", "SEED_BOMB", "PSYSHOCK", "ANCIENT_POWER", "ROCK_TOMB", "ROCK_SLIDE", "POWER_GEM", "SHADOW_SNEAK", "SHADOW_PUNCH", "OMINOUS_WIND", "SHADOW_BALL", "MAGNET_BOMB", "IRON_HEAD", "THUNDER_PUNCH", "THUNDER", "THUNDERBOLT", "TWISTER", "DRAGON_PULSE", "DRAGON_CLAW", "DISARMING_VOICE", "DRAINING_KISS", "DAZZLING_GLEAM", "MOONBLAST", "PLAY_ROUGH", "CROSS_POISON", "SLUDGE_BOMB", "SLUDGE_WAVE", "GUNK_SHOT", "BONE_CLUB", "BULLDOZE", "MUD_BOMB", "SIGNAL_BEAM", "X_SCISSOR", "FLAME_CHARGE", "FLAME_BURST", "FIRE_BLAST", "WATER_PULSE", "HYDRO_PUMP", "PSYCHIC", "ICY_WIND", "FIRE_PUNCH", "SOLAR_BEAM", "LEAF_BLADE", "POWER_WHIP", "AIR_CUTTER", "HURRICANE", "BRICK_BREAK", "SWIFT", "HORN_ATTACK", "STOMP", "HYPER_FANG", "BODY_SLAM", "CLOSE_COMBAT", "DYNAMIC_PUNCH", "FOCUS_BLAST", "AURORA_BEAM", "WILD_CHARGE", "ZAP_CANNON", "AVALANCHE", "BRAVE_BIRD", "SKY_ATTACK", "SAND_TOMB", "ROCK_BLAST", "SILVER_WIND", "NIGHT_SHADE", "GYRO_BALL", "HEAVY_SLAM", "OVERHEAT", "GRASS_KNOT", "ENERGY_BALL", "FUTURE_SIGHT", "MIRROR_COAT", "OUTRAGE", "CRUNCH", "FOUL_PLAY", "SURF", "DRACO_METEOR", "PSYCHO_BOOST", "FRENZY_PLANT", "BLAST_BURN", "HYDRO_CANNON", "LAST_RESORT", "METEOR_MASH"],
+        "fastMoves": ["TACKLE", "FURY_CUTTER", "BUG_BITE", "BITE", "SUCKER_PUNCH", "DRAGON_BREATH", "THUNDER_SHOCK", "SPARK", "LOW_KICK", "KARATE_CHOP", "EMBER", "WING_ATTACK", "PECK", "LICK", "SHADOW_CLAW", "VINE_WHIP", "RAZOR_LEAF", "MUD_SHOT", "ICE_SHARD", "FROST_BREATH", "QUICK_ATTACK", "SCRATCH", "POUND", "CUT", "POISON_JAB", "ACID", "PSYCHO_CUT", "ROCK_THROW", "METAL_CLAW", "BULLET_PUNCH", "WATER_GUN", "SPLASH", "MUD_SLAP", "ZEN_HEADBUTT", "CONFUSION", "POISON_STING", "BUBBLE", "FEINT_ATTACK", "STEEL_WING", "FIRE_FANG", "ROCK_SMASH", "COUNTER", "POWDER_SNOW", "CHARGE_BEAM", "VOLT_SWITCH", "DRAGON_TAIL", "AIR_SLASH", "INFESTATION", "STRUGGLE_BUG", "ASTONISH", "HEX", "IRON_TAIL", "FIRE_SPIN", "BULLET_SEED", "EXTRASENSORY", "SNARL", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "TAKE_DOWN", "WATERFALL", "YAWN", "PRESENT", "CHARM", "LOCK_ON", "THUNDER_FANG", "ICE_FANG", "GUST", "INCINERATE"],
+        "chargedMoves": ["STRUGGLE", "WRAP", "HYPER_BEAM", "DARK_PULSE", "SLUDGE", "VICE_GRIP", "FLAME_WHEEL", "MEGAHORN", "FLAMETHROWER", "DIG", "CROSS_CHOP", "PSYBEAM", "EARTHQUAKE", "STONE_EDGE", "ICE_PUNCH", "DISCHARGE", "FLASH_CANNON", "DRILL_PECK", "ICE_BEAM", "BLIZZARD", "HEAT_WAVE", "AERIAL_ACE", "DRILL_RUN", "PETAL_BLIZZARD", "BUG_BUZZ", "POISON_FANG", "NIGHT_SLASH", "BUBBLE_BEAM", "SUBMISSION", "LOW_SWEEP", "AQUA_JET", "AQUA_TAIL", "SEED_BOMB", "PSYSHOCK", "ANCIENT_POWER", "ROCK_TOMB", "ROCK_SLIDE", "POWER_GEM", "SHADOW_SNEAK", "SHADOW_PUNCH", "OMINOUS_WIND", "SHADOW_BALL", "MAGNET_BOMB", "IRON_HEAD", "THUNDER_PUNCH", "THUNDER", "THUNDERBOLT", "TWISTER", "DRAGON_PULSE", "DRAGON_CLAW", "DISARMING_VOICE", "DRAINING_KISS", "DAZZLING_GLEAM", "MOONBLAST", "PLAY_ROUGH", "CROSS_POISON", "SLUDGE_BOMB", "SLUDGE_WAVE", "GUNK_SHOT", "BONE_CLUB", "BULLDOZE", "MUD_BOMB", "SIGNAL_BEAM", "X_SCISSOR", "FLAME_CHARGE", "FLAME_BURST", "FIRE_BLAST", "WATER_PULSE", "HYDRO_PUMP", "PSYCHIC", "ICY_WIND", "FIRE_PUNCH", "SOLAR_BEAM", "LEAF_BLADE", "POWER_WHIP", "AIR_CUTTER", "HURRICANE", "BRICK_BREAK", "SWIFT", "HORN_ATTACK", "STOMP", "HYPER_FANG", "BODY_SLAM", "CLOSE_COMBAT", "DYNAMIC_PUNCH", "FOCUS_BLAST", "AURORA_BEAM", "WILD_CHARGE", "ZAP_CANNON", "AVALANCHE", "BRAVE_BIRD", "SKY_ATTACK", "SAND_TOMB", "ROCK_BLAST", "SILVER_WIND", "NIGHT_SHADE", "GYRO_BALL", "HEAVY_SLAM", "OVERHEAT", "GRASS_KNOT", "ENERGY_BALL", "FUTURE_SIGHT", "MIRROR_COAT", "OUTRAGE", "CRUNCH", "FOUL_PLAY", "SURF", "DRACO_METEOR", "PSYCHO_BOOST", "FRENZY_PLANT", "BLAST_BURN", "HYDRO_CANNON", "LAST_RESORT", "METEOR_MASH", "BRINE", "SCALD", "PSYSTRIKE", "DOOM_DESIRE", "WEATHER_BALL_FIRE", "WEATHER_BALL_ICE", "WEATHER_BALL_ROCK", "WEATHER_BALL_WATER", "SKULL_BASH", "ACID_SPRAY", "EARTH_POWER", "CRABHAMMER", "LUNGE", "OCTAZOOKA", "MIRROR_SHOT", "SUPER_POWER", "FELL_STINGER", "LEAF_TORNADO", "SHADOW_BONE", "MUDDY_WATER", "BLAZE_KICK", "POWER_UP_PUNCH", "GIGA_IMPACT", "SYNCHRONOISE", "SACRED_SWORD", "FLYING_PRESS", "AURA_SPHERE", "PAYBACK", "ROCK_WRECKER", "AEROBLAST", "TECHNO_BLAST_NORMAL", "TECHNO_BLAST_BURN", "TECHNO_BLAST_CHILL", "TECHNO_BLAST_DOUSE", "TECHNO_BLAST_SHOCK", "FLY", "V_CREATE", "TRI_ATTACK"],
         "defaultIVs": {
             "cp500": [40, 15, 15, 15],
             "cp1500": [40, 15, 15, 15],
@@ -9169,7 +9561,7 @@
         },
         "types": ["psychic", "grass"],
         "fastMoves": ["CHARGE_BEAM", "CONFUSION"],
-        "chargedMoves": ["DAZZLING_GLEAM", "HYPER_BEAM", "PSYCHIC", "SEED_BOMB"],
+        "chargedMoves": ["DAZZLING_GLEAM", "HYPER_BEAM", "PSYCHIC", "SEED_BOMB", "LEAF_STORM"],
         "tags": ["mythical", "untradeable"],
         "defaultIVs": {
             "cp500": [5.5, 14, 14, 11],
@@ -9694,7 +10086,7 @@
         },
         "types": ["water", "grass"],
         "fastMoves": ["BUBBLE", "RAZOR_LEAF"],
-        "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "ENERGY_BALL", "ICE_BEAM", "SOLAR_BEAM"],
+        "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "ENERGY_BALL", "ICE_BEAM", "SOLAR_BEAM", "LEAF_STORM"],
         "defaultIVs": {
             "cp500": [8, 5, 14, 15],
             "cp1500": [23.5, 8, 13, 15],
@@ -9711,7 +10103,7 @@
         },
         "types": ["water", "grass"],
         "fastMoves": ["BUBBLE", "RAZOR_LEAF"],
-        "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "ENERGY_BALL", "ICE_BEAM", "SOLAR_BEAM"],
+        "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "ENERGY_BALL", "ICE_BEAM", "SOLAR_BEAM", "LEAF_STORM"],
         "defaultIVs": {
             "cp500": [8, 5, 14, 15],
             "cp1500": [23.5, 8, 13, 15],
@@ -10497,8 +10889,25 @@
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "searchPriority": 10
+        "tags": ["shadow"]
+    }, {
+        "dex": 302,
+        "speciesName": "勾魂眼 暗影化XL",
+        "speciesId": "sableye_shadow_xl",
+        "baseStats": {
+            "atk": 141,
+            "def": 136,
+            "hp": 137
+        },
+        "types": ["dark", "ghost"],
+        "fastMoves": ["FEINT_ATTACK", "SHADOW_CLAW"],
+        "chargedMoves": ["FOUL_PLAY", "POWER_GEM", "SHADOW_SNEAK"],
+        "defaultIVs": {
+            "cp500": [13, 7, 7, 11],
+            "cp1500": [48, 5, 14, 10],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 303,
         "speciesName": "大嘴娃",
@@ -11207,32 +11616,13 @@
         },
         "types": ["grass", "none"],
         "fastMoves": ["POISON_STING", "SUCKER_PUNCH"],
-        "chargedMoves": ["BRICK_BREAK", "GRASS_KNOT", "SEED_BOMB"],
+        "chargedMoves": ["BRICK_BREAK", "GRASS_KNOT", "SEED_BOMB", "PAYBACK"],
         "defaultIVs": {
             "cp500": [15.5, 5, 12, 9],
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "level25CP": 700,
-        "tags": ["shadoweligible"]
-    }, {
-        "dex": 331,
-        "speciesName": "刺球仙人掌 暗影化",
-        "speciesId": "cacnea_shadow",
-        "baseStats": {
-            "atk": 156,
-            "def": 74,
-            "hp": 137
-        },
-        "types": ["grass", "none"],
-        "fastMoves": ["POISON_STING", "SUCKER_PUNCH"],
-        "chargedMoves": ["BRICK_BREAK", "GRASS_KNOT", "SEED_BOMB"],
-        "defaultIVs": {
-            "cp500": [15.5, 5, 12, 9],
-            "cp1500": [40, 15, 15, 15],
-            "cp2500": [40, 15, 15, 15]
-        },
-        "tags": ["shadow"]
+        "level25CP": 700
     }, {
         "dex": 332,
         "speciesName": "夢歌仙人掌",
@@ -11244,32 +11634,13 @@
         },
         "types": ["grass", "dark"],
         "fastMoves": ["POISON_JAB", "SUCKER_PUNCH"],
-        "chargedMoves": ["DARK_PULSE", "DYNAMIC_PUNCH", "GRASS_KNOT"],
+        "chargedMoves": ["DARK_PULSE", "DYNAMIC_PUNCH", "GRASS_KNOT", "PAYBACK"],
         "defaultIVs": {
             "cp500": [8, 13, 14, 7],
             "cp1500": [24, 6, 14, 10],
             "cp2500": [40, 15, 15, 15]
         },
-        "level25CP": 1386,
-        "tags": ["shadoweligible"]
-    }, {
-        "dex": 332,
-        "speciesName": "夢歌仙人掌 暗影化",
-        "speciesId": "cacturne_shadow",
-        "baseStats": {
-            "atk": 221,
-            "def": 115,
-            "hp": 172
-        },
-        "types": ["grass", "dark"],
-        "fastMoves": ["POISON_JAB", "SUCKER_PUNCH"],
-        "chargedMoves": ["DARK_PULSE", "DYNAMIC_PUNCH", "GRASS_KNOT"],
-        "defaultIVs": {
-            "cp500": [8, 13, 14, 7],
-            "cp1500": [24, 6, 14, 10],
-            "cp2500": [40, 15, 15, 15]
-        },
-        "tags": ["shadow"]
+        "level25CP": 1386
     }, {
         "dex": 333,
         "speciesName": "青綿鳥",
@@ -12089,7 +12460,7 @@
         },
         "types": ["dark", "none"],
         "fastMoves": ["PSYCHO_CUT", "SNARL"],
-        "chargedMoves": ["DARK_PULSE", "MEGAHORN", "THUNDER"],
+        "chargedMoves": ["DARK_PULSE", "MEGAHORN", "THUNDER", "PAYBACK"],
         "defaultIVs": {
             "cp500": [7.5, 8, 8, 11],
             "cp1500": [21.5, 10, 13, 12],
@@ -13314,7 +13685,7 @@
         },
         "types": ["grass", "poison"],
         "fastMoves": ["POISON_JAB", "RAZOR_LEAF", "BULLET_SEED"],
-        "chargedMoves": ["DAZZLING_GLEAM", "GRASS_KNOT", "SLUDGE_BOMB", "SOLAR_BEAM", "WEATHER_BALL_FIRE"],
+        "chargedMoves": ["DAZZLING_GLEAM", "GRASS_KNOT", "SLUDGE_BOMB", "SOLAR_BEAM", "WEATHER_BALL_FIRE", "LEAF_STORM"],
         "defaultIVs": {
             "cp500": [6.5, 6, 10, 8],
             "cp1500": [18.5, 10, 6, 14],
@@ -13322,6 +13693,25 @@
         },
 		"eliteMoves": ["BULLET_SEED", "WEATHER_BALL_FIRE"],
 		"searchPriority": 3
+    }, {
+        "dex": 407,
+        "speciesName": "羅絲雷朵 XL",
+        "speciesId": "roserade_xl",
+        "baseStats": {
+            "atk": 243,
+            "def": 185,
+            "hp": 155
+        },
+        "types": ["grass", "poison"],
+        "fastMoves": ["POISON_JAB", "RAZOR_LEAF", "BULLET_SEED"],
+        "chargedMoves": ["DAZZLING_GLEAM", "GRASS_KNOT", "SLUDGE_BOMB", "SOLAR_BEAM", "WEATHER_BALL_FIRE", "LEAF_STORM"],
+        "defaultIVs": {
+            "cp500": [6.5, 6, 10, 8],
+            "cp1500": [18.5, 10, 6, 14],
+            "cp2500": [31, 7, 15, 13]
+        },
+		"eliteMoves": ["BULLET_SEED", "WEATHER_BALL_FIRE"],
+		"tags": ["xl"]
     }, {
         "dex": 408,
         "speciesName": "頭蓋龍",
@@ -13754,7 +14144,26 @@
             "cp500": [7.5, 14, 12, 13],
             "cp1500": [22.5, 8, 12, 15],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"tags": ["shadoweligible"]
+    }, {
+        "dex": 424,
+        "speciesName": "雙尾怪手 暗影化",
+        "speciesId": "ambipom_shadow",
+        "baseStats": {
+            "atk": 205,
+            "def": 143,
+            "hp": 181
+        },
+        "types": ["normal", "none"],
+        "fastMoves": ["ASTONISH", "SCRATCH"],
+        "chargedMoves": ["AERIAL_ACE", "HYPER_BEAM", "LOW_SWEEP"],
+        "defaultIVs": {
+            "cp500": [7.5, 14, 12, 13],
+            "cp1500": [22.5, 8, 12, 15],
+            "cp2500": [40, 15, 15, 15]
+        },
+		"tags": ["shadow"]
     }, {
         "dex": 425,
         "speciesName": "飄飄球",
@@ -13842,6 +14251,23 @@
             "cp2500": [40, 15, 15, 15]
         }
     }, {
+	    "dex": 428,
+	    "speciesName": "長耳兔 (Mega)",
+	    "speciesId": "lopunny_mega",
+	    "baseStats": {
+	        "atk": 282,
+	        "def": 214,
+	        "hp": 163
+	    },
+	    "types": ["normal", "fighting"],
+	    "fastMoves": ["LOW_KICK", "POUND"],
+	    "chargedMoves": ["FIRE_PUNCH", "FOCUS_BLAST", "HYPER_BEAM"],
+	    "defaultIVs": {
+	        "cp1500": [14.5, 7, 15, 11],
+	        "cp2500": [24, 5, 14, 15]
+	    },
+	    "tags": ["mega"]
+	}, {
         "dex": 429,
         "speciesName": "夢妖魔",
         "speciesId": "mismagius",
@@ -14035,7 +14461,7 @@
         },
         "types": ["steel", "psychic"],
         "fastMoves": ["CONFUSION", "TACKLE"],
-        "chargedMoves": ["GYRO_BALL", "HEAVY_SLAM", "PSYSHOCK"],
+        "chargedMoves": ["GYRO_BALL", "HEAVY_SLAM", "PSYSHOCK", "PAYBACK"],
         "defaultIVs": {
             "cp500": [37.5, 7, 14, 14],
             "cp1500": [40, 15, 15, 15],
@@ -14052,7 +14478,7 @@
         },
         "types": ["steel", "psychic"],
         "fastMoves": ["CONFUSION", "FEINT_ATTACK"],
-        "chargedMoves": ["FLASH_CANNON", "HEAVY_SLAM", "PSYCHIC", "BULLDOZE", "PSYSHOCK"],
+        "chargedMoves": ["FLASH_CANNON", "HEAVY_SLAM", "PSYCHIC", "BULLDOZE", "PSYSHOCK", "PAYBACK"],
         "defaultIVs": {
             "cp500": [8.5, 7, 12, 6],
             "cp1500": [24.5, 9, 14, 12],
@@ -14701,7 +15127,7 @@
             "cp1500": [17, 10, 15, 8],
             "cp2500": [29, 5, 15, 6]
         },
-        "tags": ["shadow"],
+        "tags": ["shadow", "xl"],
         "searchPriority": 4
     }, {
         "dex": 463,
@@ -14836,6 +15262,45 @@
             "cp2500": [29.5, 8, 14, 11]
         },
         "tags": ["shadow"]
+    }, {
+        "dex": 466,
+        "speciesName": "電擊魔獸 XL",
+        "speciesId": "electivire_xl",
+        "baseStats": {
+            "atk": 249,
+            "def": 163,
+            "hp": 181
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["LOW_KICK", "THUNDER_SHOCK"],
+        "chargedMoves": ["THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "ICE_PUNCH", "FLAMETHROWER"],
+        "eliteMoves": ["FLAMETHROWER"],
+        "defaultIVs": {
+            "cp500": [6, 9, 14, 15],
+            "cp1500": [18, 5, 10, 12],
+            "cp2500": [29.5, 8, 14, 11]
+        },
+        "level25CP": 1908,
+        "tags": ["shadoweligible", "xl"]
+    }, {
+        "dex": 466,
+        "speciesName": "電擊魔獸 暗影化XL",
+        "speciesId": "electivire_shadow_xl",
+        "baseStats": {
+            "atk": 249,
+            "def": 163,
+            "hp": 181
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["LOW_KICK", "THUNDER_SHOCK"],
+        "chargedMoves": ["THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "ICE_PUNCH", "FLAMETHROWER"],
+        "eliteMoves": ["FLAMETHROWER"],
+        "defaultIVs": {
+            "cp500": [6, 9, 14, 15],
+            "cp1500": [18, 5, 10, 12],
+            "cp2500": [29.5, 8, 14, 11]
+        },
+        "tags": ["shadow", "xl"]
     }, {
         "dex": 467,
         "speciesName": "鴨嘴炎獸",
@@ -16017,13 +16482,12 @@
         "types": ["grass", "none"],
         "fastMoves": ["IRON_TAIL", "VINE_WHIP"],
         "chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "WRAP"],
-        "tags": ["starter"],
+        "tags": ["starter", "xl"],
         "defaultIVs": {
             "cp500": [13.5, 6, 6, 11],
             "cp1500": [49.5, 5, 15, 14],
             "cp2500": [50, 15, 15, 15]
-        },
-		"tags": ["xl"]
+        }
     }, {
         "dex": 497,
         "speciesId": "serperior",
@@ -16035,7 +16499,8 @@
         },
         "types": ["grass", "none"],
         "fastMoves": ["IRON_TAIL", "VINE_WHIP"],
-        "chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "AERIAL_ACE"],
+        "chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "AERIAL_ACE", "FRENZY_PLANT"],
+		"eliteMoves": ["FRENZY_PLANT"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp500": [8, 10, 13, 14],
@@ -16053,7 +16518,8 @@
         },
         "types": ["grass", "none"],
         "fastMoves": ["IRON_TAIL", "VINE_WHIP"],
-        "chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "AERIAL_ACE"],
+		"chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "AERIAL_ACE", "FRENZY_PLANT"],
+		"eliteMoves": ["FRENZY_PLANT"],
         "tags": ["starter", "xl"],
         "defaultIVs": {
             "cp500": [8, 10, 13, 14],
@@ -16281,7 +16747,7 @@
         },
         "types": ["dark", "none"],
         "fastMoves": ["CHARM", "SNARL"],
-        "chargedMoves": ["GUNK_SHOT", "PLAY_ROUGH", "DARK_PULSE"],
+        "chargedMoves": ["GUNK_SHOT", "PLAY_ROUGH", "DARK_PULSE", "PAYBACK"],
         "defaultIVs": {
             "cp500": [10, 10, 9, 14],
             "cp1500": [30, 7, 15, 10],
@@ -16849,7 +17315,7 @@
         },
         "types": ["bug", "grass"],
         "fastMoves": ["RAZOR_LEAF", "BUG_BITE"],
-        "chargedMoves": ["LEAF_BLADE", "X_SCISSOR", "SILVER_WIND"],
+        "chargedMoves": ["LEAF_BLADE", "X_SCISSOR", "SILVER_WIND", "LEAF_STORM"],
         "defaultIVs": {
             "cp500": [7.5, 7, 5, 8],
             "cp1500": [22, 5, 11, 6],
@@ -17444,6 +17910,24 @@
             "cp1500": [23.5, 8, 13, 12],
             "cp2500": [40, 15, 15, 15]
         }
+    }, {
+        "dex": 569,
+        "speciesId": "garbodor_xl",
+        "speciesName": "灰塵山 XL",
+        "baseStats": {
+            "atk": 181,
+            "def": 164,
+            "hp": 190
+        },
+        "types": ["poison", "none"],
+        "fastMoves": ["INFESTATION", "TAKE_DOWN"],
+        "chargedMoves": ["ACID_SPRAY", "SEED_BOMB", "GUNK_SHOT", "BODY_SLAM"],
+        "defaultIVs": {
+            "cp500": [8, 7, 12, 11],
+            "cp1500": [23.5, 8, 13, 12],
+            "cp2500": [49.5, 5, 15, 15]
+        },
+		"tags": ["xl"]
     }, {
         "dex": 570,
         "speciesId": "zorua",
@@ -18829,6 +19313,24 @@
         },
         "tags": ["legendary"]
     }, {
+        "dex": 641,
+        "speciesId": "tornadus_therian_xl",
+        "speciesName": "龍捲雲 靈獸型態XL",
+        "baseStats": {
+            "atk": 238,
+            "def": 189,
+            "hp": 188
+        },
+        "types": ["flying", "none"],
+        "fastMoves": ["ASTONISH", "GUST"],
+        "chargedMoves": ["HEAT_WAVE", "PSYCHIC", "FOCUS_BLAST", "HURRICANE"],
+        "defaultIVs": {
+            "cp500": [6, 5, 7, 13],
+            "cp1500": [16.5, 13, 15, 14],
+            "cp2500": [28.5, 7, 13, 10]
+        },
+        "tags": ["legendary", "xl"]
+    }, {
         "dex": 642,
         "speciesId": "thundurus_incarnate",
         "speciesName": "雷電雲 化身型態",
@@ -18956,7 +19458,25 @@
             "cp2500": [25, 10, 15, 11]
         },
         "tags": ["legendary"],
-        "searchPriority": 4
+        "searchPriority": 2
+    }, {
+        "dex": 645,
+        "speciesId": "landorus_incarnate_xl",
+        "speciesName": "土地雲 化身型態XL",
+        "baseStats": {
+            "atk": 261,
+            "def": 182,
+            "hp": 205
+        },
+        "types": ["ground", "flying"],
+        "fastMoves": ["MUD_SHOT", "ROCK_THROW"],
+        "chargedMoves": ["EARTH_POWER", "OUTRAGE", "ROCK_SLIDE", "FOCUS_BLAST"],
+        "defaultIVs": {
+            "cp500": [5, 15, 13, 14],
+            "cp1500": [15, 8, 15, 13],
+            "cp2500": [25, 10, 15, 11]
+        },
+        "tags": ["legendary", "xl"]
     }, {
         "dex": 645,
         "speciesId": "landorus_therian",
@@ -18967,14 +19487,33 @@
             "hp": 205
         },
         "types": ["ground", "flying"],
-        "fastMoves": ["MUD_SHOT", "ROCK_THROW"],
-        "chargedMoves": ["EARTH_POWER", "OUTRAGE", "ROCK_SLIDE", "FOCUS_BLAST"],
+        "fastMoves": ["MUD_SHOT", "EXTRASENSORY"],
+        "chargedMoves": ["EARTHQUAKE", "STONE_EDGE", "SUPER_POWER", "BULLDOZE"],
         "defaultIVs": {
             "cp500": [5, 9, 9, 6],
             "cp1500": [13.5, 13, 14, 13],
             "cp2500": [23.5, 7, 8, 12]
         },
-        "tags": ["legendary"]
+        "tags": ["legendary"],
+		"searchPriority": 4
+    }, {
+        "dex": 645,
+        "speciesId": "landorus_therian_xl",
+        "speciesName": "土地雲 靈獸型態XL",
+        "baseStats": {
+            "atk": 289,
+            "def": 179,
+            "hp": 205
+        },
+        "types": ["ground", "flying"],
+        "fastMoves": ["MUD_SHOT", "EXTRASENSORY"],
+        "chargedMoves": ["EARTHQUAKE", "STONE_EDGE", "SUPER_POWER", "BULLDOZE"],
+        "defaultIVs": {
+            "cp500": [5, 9, 9, 6],
+            "cp1500": [13.5, 13, 14, 13],
+            "cp2500": [23.5, 7, 8, 12]
+        },
+        "tags": ["legendary", "xl"]
     }, {
         "dex": 646,
         "speciesId": "kyurem",
@@ -20004,6 +20543,24 @@
             "cp2500": [40, 15, 15, 15]
         }
     }, {
+        "dex": 691,
+        "speciesName": "毒藻龍 XL",
+        "speciesId": "dragalge_xl",
+        "baseStats": {
+            "atk": 177,
+            "def": 207,
+            "hp": 163
+        },
+        "types": ["poison", "dragon"],
+        "fastMoves": ["WATER_GUN", "ACID", "DRAGON_TAIL"],
+        "chargedMoves": ["HYDRO_PUMP", "AQUA_TAIL", "OUTRAGE", "GUNK_SHOT"],
+        "defaultIVs": {
+            "cp500": [8, 6, 14, 6],
+            "cp1500": [23.5, 5, 7, 15],
+            "cp2500": [49.5, 2, 15, 15]
+        },
+		"tags": ["xl"]
+    }, {
         "dex": 692,
         "speciesName": "鐵臂槍蝦",
         "speciesId": "clauncher",
@@ -20270,11 +20827,13 @@
         "types": ["steel", "fairy"],
         "fastMoves": ["ASTONISH", "TACKLE"],
         "chargedMoves": ["FLASH_CANNON", "PLAY_ROUGH", "DRAINING_KISS", "FOUL_PLAY"],
+        "tags": ["regional"],
         "defaultIVs": {
             "cp500": [9.5, 9, 10, 13],
             "cp1500": [29, 6, 15, 8],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"tags": ["regional"]
     }, {
         "dex": 708,
         "speciesName": "小木靈",
@@ -20408,24 +20967,24 @@
         "speciesName": "哲爾尼亞斯",
         "speciesId": "xerneas",
         "baseStats": {
-            "atk": 275,
-            "def": 203,
-            "hp": 270
+			"atk": 250,
+            "def": 185,
+            "hp": 246
         },
         "types": ["fairy", "none"],
         "fastMoves": ["TACKLE", "ZEN_HEADBUTT"],
         "chargedMoves": ["MOONBLAST", "MEGAHORN", "CLOSE_COMBAT", "GIGA_IMPACT", "THUNDER"],
         "defaultIVs": {
-            "cp500": [4, 10, 15, 12],
-            "cp1500": [12, 5, 13, 15],
-            "cp2500": [20, 10, 10, 13]
+			"cp500": [5, 13, 13, 9],
+            "cp1500": [14.5, 8, 11, 11],
+            "cp2500": [24, 5, 14, 13]
         }
     }, {
         "dex": 717,
         "speciesName": "伊裴爾塔爾",
         "speciesId": "yveltal",
         "baseStats": {
-            "atk": 250,
+			"atk": 250,
             "def": 185,
             "hp": 246
         },
@@ -20433,14 +20992,14 @@
         "fastMoves": ["SUCKER_PUNCH", "SNARL", "GUST"],
         "chargedMoves": ["DARK_PULSE", "HURRICANE", "FOCUS_BLAST", "HYPER_BEAM", "PSYCHIC"],
         "defaultIVs": {
-            "cp500": [5, 13, 13, 9],
+			"cp500": [5, 13, 13, 9],
             "cp1500": [14.5, 8, 11, 11],
             "cp2500": [24, 5, 14, 13]
         }
     }, {
         "dex": 718,
         "speciesName": "基格爾德",
-        "speciesId": "Zygarde",
+        "speciesId": "zygarde",
         "baseStats": {
             "atk": 203,
             "def": 232,
@@ -21698,6 +22257,18 @@
         "buffs": [-2, 0],
         "buffTarget": "opponent",
         "buffApplyChance": ".5"
+    }, {
+        "moveId": "LEAF_STORM",
+        "name": "飛葉風暴",
+        "abbreviation": "LfS",
+        "type": "grass",
+        "power": 130,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [-2, 0],
+        "buffTarget": "self",
+        "buffApplyChance": "1"
     }, {
         "moveId": "LICK",
         "name": "舌舔",
