@@ -2184,7 +2184,11 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT"
+        "MUD_SHOT",
+        "RETURN",
+        "RETURN",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 109,
       "_def": 78,
@@ -2247,7 +2251,11 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT"
+        "MUD_SHOT",
+        "RETURN",
+        "RETURN",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 167,
       "_def": 136,
@@ -3826,7 +3834,11 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID"
+        "ACID",
+        "RETURN",
+        "RETURN",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 135,
       "_def": 90,
@@ -4767,7 +4779,11 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID"
+        "ACID",
+        "RETURN",
+        "RETURN",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 119,
       "_def": 141,
@@ -4802,7 +4818,11 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID"
+        "ACID",
+        "RETURN",
+        "RETURN",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 174,
       "_def": 197,
@@ -5847,6 +5867,10 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK",
+        "RETURN",
+        "RETURN",
+        "RETURN",
+        "RETURN",
         "TACKLE",
         "ZEN_HEADBUTT",
         "SIGNAL_BEAM",
@@ -7519,6 +7543,27 @@
       ]
     },
     {
+      "dex": 184,
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "fastMoves": [
+        "BUBBLE",
+        "ROCK_SMASH"
+      ],
+      "chargedMoves": [
+        "HYDRO_PUMP",
+        "ICE_BEAM",
+        "PLAY_ROUGH"
+      ],
+      "_atk": 112,
+      "_def": 152,
+      "_sta": 225,
+      "id": "AZUMARILL_XS",
+      "name": "Azumarill"
+    },
+    {
       "dex": 185,
       "types": [
         "rock"
@@ -8746,7 +8791,11 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "QUICK_ATTACK"
+        "QUICK_ATTACK",
+        "RETURN",
+        "RETURN",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 128,
       "_def": 90,
@@ -9142,6 +9191,12 @@
         "WATERFALL",
         "YAWN",
         "PRESENT",
+        "CHARM",
+        "LOCK_ON",
+        "THUNDER_FANG",
+        "ICE_FANG",
+        "GUST",
+        "INCINERATE",
         "HIDDEN_POWER"
       ],
       "chargedMoves": [
@@ -9258,7 +9313,45 @@
         "BLAST_BURN",
         "HYDRO_CANNON",
         "LAST_RESORT",
-        "METEOR_MASH"
+        "METEOR_MASH",
+        "BRINE",
+        "SCALD",
+        "PSYSTRIKE",
+        "DOOM_DESIRE",
+        "WEATHER_BALL_FIRE",
+        "WEATHER_BALL_ICE",
+        "WEATHER_BALL_ROCK",
+        "WEATHER_BALL_WATER",
+        "SKULL_BASH",
+        "ACID_SPRAY",
+        "EARTH_POWER",
+        "CRABHAMMER",
+        "LUNGE",
+        "OCTAZOOKA",
+        "MIRROR_SHOT",
+        "SUPER_POWER",
+        "FELL_STINGER",
+        "LEAF_TORNADO",
+        "SHADOW_BONE",
+        "MUDDY_WATER",
+        "BLAZE_KICK",
+        "POWER_UP_PUNCH",
+        "GIGA_IMPACT",
+        "SYNCHRONOISE",
+        "SACRED_SWORD",
+        "FLYING_PRESS",
+        "AURA_SPHERE",
+        "PAYBACK",
+        "ROCK_WRECKER",
+        "AEROBLAST",
+        "TECHNO_BLAST_NORMAL",
+        "TECHNO_BLAST_BURN",
+        "TECHNO_BLAST_CHILL",
+        "TECHNO_BLAST_DOUSE",
+        "TECHNO_BLAST_SHOCK",
+        "FLY",
+        "V_CREATE",
+        "TRI_ATTACK"
       ],
       "_atk": 40,
       "_def": 83,
@@ -11403,6 +11496,27 @@
       ]
     },
     {
+      "dex": 302,
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "fastMoves": [
+        "FEINT_ATTACK",
+        "SHADOW_CLAW"
+      ],
+      "chargedMoves": [
+        "FOUL_PLAY",
+        "POWER_GEM",
+        "SHADOW_SNEAK"
+      ],
+      "_atk": 141,
+      "_def": 136,
+      "_sta": 137,
+      "id": "SABLEYE_XS",
+      "name": "Sableye"
+    },
+    {
       "dex": 303,
       "types": [
         "steel",
@@ -11588,6 +11702,28 @@
         50,
         50
       ]
+    },
+    {
+      "dex": 308,
+      "types": [
+        "fighting",
+        "psychic"
+      ],
+      "fastMoves": [
+        "COUNTER",
+        "PSYCHO_CUT"
+      ],
+      "chargedMoves": [
+        "DYNAMIC_PUNCH",
+        "ICE_PUNCH",
+        "PSYCHIC",
+        "POWER_UP_PUNCH"
+      ],
+      "_atk": 121,
+      "_def": 152,
+      "_sta": 155,
+      "id": "MEDICHAM_XS",
+      "name": "Medicham"
     },
     {
       "dex": 309,
@@ -12689,7 +12825,11 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BULLET_SEED"
+        "BULLET_SEED",
+        "RETURN",
+        "RETURN",
+        "RETURN",
+        "RETURN"
       ],
       "_atk": 105,
       "_def": 150,
@@ -14849,6 +14989,27 @@
         87.5,
         12.5
       ]
+    },
+    {
+      "dex": 411,
+      "types": [
+        "rock",
+        "steel"
+      ],
+      "fastMoves": [
+        "IRON_TAIL",
+        "SMACK_DOWN"
+      ],
+      "chargedMoves": [
+        "FLAMETHROWER",
+        "FLASH_CANNON",
+        "STONE_EDGE"
+      ],
+      "_atk": 94,
+      "_def": 286,
+      "_sta": 155,
+      "id": "BASTIODON_XS",
+      "name": "Bastiodon"
     },
     {
       "dex": 412,
@@ -25048,6 +25209,9 @@
         "FOUL_PLAY",
         "EARTHQUAKE"
       ],
+      "_atk": 121,
+      "_def": 123,
+      "_sta": 135,
       "id": "PUMPKABOO",
       "name": "南瓜精",
       "captureRate": 0.2,
@@ -25075,6 +25239,9 @@
         "FOUL_PLAY",
         "FIRE_BLAST"
       ],
+      "_atk": 175,
+      "_def": 213,
+      "_sta": 163,
       "id": "GOURGEIST",
       "name": "南瓜怪人",
       "captureRate": 0.2,
@@ -25223,7 +25390,7 @@
       "_sta": 246,
       "id": "XERNEAS",
       "name": "哲爾尼亞斯",
-      "captureRate": 0.2,
+      "captureRate": 0.02,
       "fleeRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_XERNEAS",
@@ -25255,7 +25422,7 @@
       "_sta": 246,
       "id": "YVELTAL",
       "name": "伊裴爾塔爾",
-      "captureRate": 0.2,
+      "captureRate": 0.02,
       "fleeRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_YVELTAL",
@@ -25287,10 +25454,10 @@
       "_sta": 239,
       "id": "ZYGARDE",
       "name": "基格爾德",
-      "captureRate": 0.2,
+      "captureRate": 0.02,
       "fleeRate": 0.1,
       "buddyKm": 20,
-      "familyId": "F_YVELTAL",
+      "familyId": "F_ZYGARDE",
       "genderMF": [
         0,
         0
