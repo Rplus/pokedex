@@ -59,7 +59,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
           // }
           let questRequirement;
           if (i.questDisplay) {
-            console.log(1122, i.questDisplay.length);
+            // console.log(1122, i.questDisplay.length);
 
             questRequirement = i.questDisplay.map(q => {
               const qid = q.questRequirementTemplateId;
@@ -70,7 +70,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
               const qInfo = qData.data.evolutionQuestTemplate;
 
               return qInfo.goals.map(goal => {
-                const requirementString = goal.condition.map(c => {
+                const requirementString = goal.condition?.map(c => {
                   let r = c.type;
                   for (const _p in c) {
                     if (_p !== 'type') {
@@ -78,7 +78,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
                     }
                   }
                   return r;
-                });
+                }) || qInfo.questType;
                 return `${requirementString}: ${goal.target}`;
               }).join();
             }).join();
