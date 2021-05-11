@@ -204,9 +204,12 @@ table a {
 
 
 
-
-summary *:not([class]) {
+summary > *:not([hidden]) {
   display: inline-block;
+}
+
+.details-options {
+  float: right;
 }
 
 details details summary:not([dir="ltr"]) {

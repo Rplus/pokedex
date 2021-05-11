@@ -1,0 +1,19 @@
+<script>
+export let checked = false;
+export let label = '';
+</script>
+
+
+
+<label>
+  <input type="checkbox" bind:checked={checked} hidden />
+  <span>{label}</span>
+</label>
+
+
+
+<style>
+  input:not(:checked) + span {
+    filter: grayscale(1);
+  }
+</style>
