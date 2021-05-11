@@ -7561,7 +7561,7 @@
       "_def": 152,
       "_sta": 225,
       "id": "AZUMARILL_XS",
-      "name": "Azumarill"
+      "name": "瑪力露麗"
     },
     {
       "dex": 185,
@@ -11514,7 +11514,7 @@
       "_def": 136,
       "_sta": 137,
       "id": "SABLEYE_XS",
-      "name": "Sableye"
+      "name": "勾魂眼"
     },
     {
       "dex": 303,
@@ -11723,7 +11723,7 @@
       "_def": 152,
       "_sta": 155,
       "id": "MEDICHAM_XS",
-      "name": "Medicham"
+      "name": "恰雷姆"
     },
     {
       "dex": 309,
@@ -15009,7 +15009,7 @@
       "_def": 286,
       "_sta": 155,
       "id": "BASTIODON_XS",
-      "name": "Bastiodon"
+      "name": "護城龍"
     },
     {
       "dex": 412,
@@ -24308,6 +24308,9 @@
         "IRON_HEAD",
         "GYRO_BALL"
       ],
+      "_atk": 135,
+      "_def": 139,
+      "_sta": 128,
       "id": "HONEDGE",
       "name": "獨劍鞘",
       "captureRate": 0.2,
@@ -24333,6 +24336,9 @@
         "IRON_HEAD",
         "GYRO_BALL"
       ],
+      "_atk": 188,
+      "_def": 206,
+      "_sta": 153,
       "id": "DOUBLADE",
       "name": "雙劍鞘",
       "captureRate": 0.2,
