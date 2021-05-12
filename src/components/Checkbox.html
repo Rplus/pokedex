@@ -1,12 +1,18 @@
 <script>
 export let checked = false;
 export let label = '';
+export let checkbox = false;
 </script>
 
 
 
-<label>
-  <input type="checkbox" bind:checked={checked} hidden />
+<label class="d-if ai-c">
+  <input
+    class="mb-0"
+    type="checkbox"
+    bind:checked={checked}
+    hidden={!checkbox}
+  />
   <span>{label}</span>
 </label>
 
