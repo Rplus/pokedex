@@ -12498,13 +12498,56 @@
       "chargedMoves": [
         "DAZZLING_GLEAM",
         "DRAGON_PULSE",
-        "SKY_ATTACK"
+        "SKY_ATTACK",
+        "MOONBLAST"
+      ],
+      "legacyMoves": [
+        "MOONBLAST"
+      ],
+      "eliteMoves": [
+        "MOONBLAST"
       ],
       "_atk": 141,
       "_def": 201,
       "_sta": 181,
       "id": "ALTARIA",
       "name": "七夕青鳥",
+      "captureRate": 0.2,
+      "fleeRate": 0.06,
+      "buddyKm": 1,
+      "familyId": "F_SWABLU",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 334,
+      "types": [
+        "dragon",
+        "fairy"
+      ],
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "PECK"
+      ],
+      "chargedMoves": [
+        "DAZZLING_GLEAM",
+        "DRAGON_PULSE",
+        "SKY_ATTACK",
+        "MOONBLAST"
+      ],
+      "legacyMoves": [
+        "MOONBLAST"
+      ],
+      "eliteMoves": [
+        "MOONBLAST"
+      ],
+      "_atk": 222,
+      "_def": 218,
+      "_sta": 181,
+      "id": "ALTARIA_MEGA",
+      "name": "七夕青鳥 (Mega)",
       "captureRate": 0.2,
       "fleeRate": 0.06,
       "buddyKm": 1,
@@ -24920,7 +24963,14 @@
       "chargedMoves": [
         "MOONBLAST",
         "DAZZLING_GLEAM",
-        "DRAINING_KISS"
+        "DRAINING_KISS",
+        "LAST_RESORT"
+      ],
+      "legacyMoves": [
+        "LAST_RESORT"
+      ],
+      "eliteMoves": [
+        "LAST_RESORT"
       ],
       "_atk": 203,
       "_def": 205,
