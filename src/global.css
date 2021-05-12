@@ -365,6 +365,8 @@ details details summary:not([dir="ltr"]) {
 .mb-6 { margin-bottom: 2rem; }
 
 .mt-2 { margin-top: .5rem; }
+.mt-3 { margin-top: .75rem; }
+.mt-4 { margin-top: 1rem; }
 
 .p-0 { padding: 0; }
 .pb-1 { padding-bottom: .25rem; }

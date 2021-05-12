@@ -9,6 +9,7 @@
   import TypeIcon from '@c/TypeIcon.html';
   import Ruby from '@c/Ruby.html';
   import Digi from '@c/Digi.html';
+  import Checkbox from '@c/Checkbox.html';
 
   export let pm;
   $: ispve = $settings.io.ispve;
@@ -92,7 +93,12 @@
   {#each mdata as mmm}
     <Details type={mmm.setting} class="card">
       <!-- svelte-ignore a11y-accesskey -->
-      <summary accesskey={mmm.setting.slice(0, 1)}><h3>{mmm.title}</h3></summary>
+      <summary accesskey={mmm.setting.slice(0, 1)}>
+        <h3>{mmm.title}</h3>
+        <div class="details-options mt-4 mb-4">
+          <Checkbox bind:checked={xSTAB} label="STAB" checkbox />
+        </div>
+      </summary>
 
       <div>
         <TableSort items={mmm.data} class="ml-a mr-a text-center {ispve ? 'narrow' : ''}">
@@ -208,13 +214,6 @@
               </td>
               <td hidden={ispve} class="fz-s">{item.effect}</td>
             {/if}
-          </tr>
-
-          <tr slot="tfoot">
-            <td></td>
-            <td>
-              <label><input type="checkbox" bind:checked={xSTAB}> STAB</label>
-            </td>
           </tr>
         </TableSort>
 
