@@ -2184,11 +2184,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT",
-        "RETURN",
-        "RETURN",
-        "RETURN",
-        "RETURN"
+        "MUD_SHOT"
       ],
       "_atk": 109,
       "_def": 78,
@@ -2251,14 +2247,10 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT",
-        "RETURN",
-        "RETURN",
-        "RETURN",
-        "RETURN"
+        "MUD_SHOT"
       ],
       "_atk": 167,
-      "_def": 136,
+      "_def": 134,
       "_sta": 111,
       "id": "DUGTRIO",
       "name": "三地鼠",
@@ -3834,11 +3826,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 135,
       "_def": 90,
@@ -4779,11 +4767,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 119,
       "_def": 141,
@@ -4818,11 +4802,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 174,
       "_def": 197,
@@ -4977,7 +4957,9 @@
         "GRASS_KNOT",
         "POWER_WHIP",
         "SLUDGE_BOMB",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "POWER_WHIP"
@@ -5050,7 +5032,9 @@
       "chargedMoves": [
         "BUBBLE_BEAM",
         "DRAGON_PULSE",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 129,
       "_def": 103,
@@ -5079,7 +5063,9 @@
         "AURORA_BEAM",
         "BLIZZARD",
         "DRAGON_PULSE",
-        "HYDRO_PUMP"
+        "HYDRO_PUMP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "BLIZZARD"
@@ -5867,10 +5853,6 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK",
-        "RETURN",
-        "RETURN",
-        "RETURN",
-        "RETURN",
         "TACKLE",
         "ZEN_HEADBUTT",
         "SIGNAL_BEAM",
@@ -7984,7 +7966,9 @@
       "chargedMoves": [
         "DARK_PULSE",
         "DRILL_PECK",
-        "FOUL_PLAY"
+        "FOUL_PLAY",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 175,
       "_def": 87,
@@ -8308,7 +8292,9 @@
       "chargedMoves": [
         "BRICK_BREAK",
         "CRUNCH",
-        "DAZZLING_GLEAM"
+        "DAZZLING_GLEAM",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 137,
       "_def": 85,
@@ -8337,7 +8323,9 @@
       "chargedMoves": [
         "CLOSE_COMBAT",
         "CRUNCH",
-        "PLAY_ROUGH"
+        "PLAY_ROUGH",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 212,
       "_def": 131,
@@ -8791,11 +8779,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "QUICK_ATTACK",
-        "RETURN",
-        "RETURN",
-        "RETURN",
-        "RETURN"
+        "QUICK_ATTACK"
       ],
       "_atk": 128,
       "_def": 90,
@@ -8983,7 +8967,9 @@
         "BLIZZARD",
         "HYDRO_PUMP",
         "OUTRAGE",
-        "OCTAZOOKA"
+        "OCTAZOOKA",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "WATER_GUN"
@@ -10191,7 +10177,9 @@
       "chargedMoves": [
         "CRUNCH",
         "DIG",
-        "POISON_FANG"
+        "POISON_FANG",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 96,
       "_def": 61,
@@ -10221,7 +10209,9 @@
       "chargedMoves": [
         "CRUNCH",
         "PLAY_ROUGH",
-        "POISON_FANG"
+        "POISON_FANG",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 171,
       "_def": 132,
@@ -11303,7 +11293,9 @@
       "chargedMoves": [
         "CROSS_CHOP",
         "HEAVY_SLAM",
-        "LOW_SWEEP"
+        "LOW_SWEEP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 99,
       "_def": 54,
@@ -11332,7 +11324,9 @@
         "CLOSE_COMBAT",
         "DYNAMIC_PUNCH",
         "HEAVY_SLAM",
-        "SUPER_POWER"
+        "SUPER_POWER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 209,
       "_def": 114,
@@ -11737,7 +11731,9 @@
       "chargedMoves": [
         "DISCHARGE",
         "SWIFT",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 123,
       "_def": 78,
@@ -11765,7 +11761,9 @@
       "chargedMoves": [
         "FLAME_BURST",
         "THUNDER",
-        "WILD_CHARGE"
+        "WILD_CHARGE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 215,
       "_def": 127,
@@ -12868,11 +12866,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BULLET_SEED",
-        "RETURN",
-        "RETURN",
-        "RETURN",
-        "RETURN"
+        "BULLET_SEED"
       ],
       "_atk": 105,
       "_def": 150,
@@ -14580,7 +14574,9 @@
       ],
       "chargedMoves": [
         "AERIAL_ACE",
-        "BRAVE_BIRD"
+        "BRAVE_BIRD",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 101,
       "_def": 58,
@@ -14609,7 +14605,9 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "BRAVE_BIRD",
-        "HEAT_WAVE"
+        "HEAT_WAVE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 142,
       "_def": 94,
@@ -14638,7 +14636,9 @@
       "chargedMoves": [
         "BRAVE_BIRD",
         "CLOSE_COMBAT",
-        "HEAT_WAVE"
+        "HEAT_WAVE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 234,
       "_def": 140,
@@ -15814,7 +15814,9 @@
         "BRAVE_BIRD",
         "DARK_PULSE",
         "PSYCHIC",
-        "SKY_ATTACK"
+        "SKY_ATTACK",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 243,
       "_def": 103,
@@ -16425,7 +16427,9 @@
       "chargedMoves": [
         "AQUA_TAIL",
         "CROSS_POISON",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 93,
       "_def": 151,
@@ -16457,7 +16461,9 @@
         "AQUA_TAIL",
         "CRUNCH",
         "SLUDGE_BOMB",
-        "FELL_STINGER"
+        "FELL_STINGER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 180,
       "_def": 202,
@@ -16891,7 +16897,9 @@
         "ROCK_SLIDE",
         "SLUDGE_BOMB",
         "SOLAR_BEAM",
-        "POWER_WHIP"
+        "POWER_WHIP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 207,
       "_def": 184,
