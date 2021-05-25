@@ -1296,12 +1296,16 @@
           "requirement": [
             "lure:ITEM_TROY_DISK_GLACIAL"
           ]
+        },
+        {
+          "candyCost": 25,
+          "priority": 100,
+          "name": "SYLVEON",
+          "requirement": [
+            "QUEST_BUDDY_EARN_AFFECTION_POINTS: 70"
+          ]
         }
       ]
-    },
-    {
-      "name": "SYLVEON",
-      "prev": "EEVEE"
     }
   ],
   "F_PORYGON": [
