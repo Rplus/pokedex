@@ -3500,6 +3500,34 @@
       ]
     },
     {
+      "dex": 79,
+      "types": [
+        "psychic"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "IRON_TAIL"
+      ],
+      "chargedMoves": [
+        "SURF",
+        "PSYSHOCK",
+        "PSYCHIC"
+      ],
+      "_atk": 109,
+      "_def": 98,
+      "_sta": 207,
+      "id": "SLOWPOKE_GALARIAN",
+      "name": "呆呆獸 伽勒爾型態",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SLOWPOKE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 80,
       "types": [
         "water",
@@ -3521,6 +3549,65 @@
       "_sta": 216,
       "id": "SLOWBRO",
       "name": "呆殼獸",
+      "captureRate": 0.2,
+      "fleeRate": 0.06,
+      "buddyKm": 3,
+      "familyId": "F_SLOWPOKE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 80,
+      "types": [
+        "poison",
+        "psychic"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "WATER_GUN",
+        "POISON_JAB"
+      ],
+      "chargedMoves": [
+        "FOCUS_BLAST",
+        "PSYCHIC",
+        "SLUDGE_BOMB"
+      ],
+      "_atk": 182,
+      "_def": 156,
+      "_sta": 216,
+      "id": "SLOWBRO_GALARIAN",
+      "name": "呆殼獸 伽勒爾型態",
+      "captureRate": 0.2,
+      "fleeRate": 0.06,
+      "buddyKm": 3,
+      "familyId": "F_SLOWPOKE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 80,
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "ICE_BEAM",
+        "PSYCHIC",
+        "WATER_PULSE"
+      ],
+      "_atk": 224,
+      "_def": 259,
+      "_sta": 216,
+      "id": "SLOWBRO_MEGA",
+      "name": "呆殼獸 (Mega)",
       "captureRate": 0.2,
       "fleeRate": 0.06,
       "buddyKm": 3,
@@ -8011,6 +8098,36 @@
       "_sta": 216,
       "id": "SLOWKING",
       "name": "呆呆王",
+      "captureRate": 0.1,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_SLOWPOKE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 199,
+      "types": [
+        "poison",
+        "psychic"
+      ],
+      "fastMoves": [
+        "HEX",
+        "CONFUSION",
+        "ACID"
+      ],
+      "chargedMoves": [
+        "FUTURE_SIGHT",
+        "SHADOW_BALL",
+        "SLUDGE_WAVE"
+      ],
+      "_atk": 190,
+      "_def": 180,
+      "_sta": 216,
+      "id": "SLOWKING_GALARIAN",
+      "name": "呆呆王 伽勒爾型態",
       "captureRate": 0.1,
       "fleeRate": 0.05,
       "buddyKm": 3,
