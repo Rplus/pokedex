@@ -9945,7 +9945,9 @@
         "BRAVE_BIRD",
         "FIRE_BLAST",
         "SOLAR_BEAM",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "EARTHQUAKE"
@@ -14787,7 +14789,22 @@
       "chargedMoves": [
         "CRUNCH",
         "GRASS_KNOT",
-        "HYPER_FANG"
+        "HYPER_FANG",
+        "ICE_BEAM",
+        "THUNDERBOLT",
+        "SHADOW_BALL",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "ICE_BEAM",
+        "THUNDERBOLT",
+        "SHADOW_BALL"
+      ],
+      "eliteMoves": [
+        "ICE_BEAM",
+        "THUNDERBOLT",
+        "SHADOW_BALL"
       ],
       "_atk": 80,
       "_def": 73,
@@ -14816,7 +14833,9 @@
       "chargedMoves": [
         "HYPER_BEAM",
         "HYPER_FANG",
-        "SURF"
+        "SURF",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 162,
       "_def": 119,
@@ -17851,7 +17870,7 @@
       "_sta": 221,
       "id": "REGIGIGAS",
       "name": "雷吉奇卡斯",
-      "captureRate": 0.06,
+      "captureRate": 0.02,
       "fleeRate": 0.04,
       "buddyKm": 20,
       "familyId": "F_REGIGIGAS",
