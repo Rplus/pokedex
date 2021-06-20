@@ -70,7 +70,7 @@ export function handlePm(pms) {
     let indexOfFirstDex = dexMap.indexOf(dex);
     let form = '';
     if (idx !== indexOfFirstDex) {
-      form = pms[idx].id.replace(/^.+_/, '_');
+      form = pms[idx].id.replace(/^[^_]+_/, '_');
     }
 
     let pm = pms[idx];
