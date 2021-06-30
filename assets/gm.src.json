@@ -14363,7 +14363,7 @@
       "_sta": 137,
       "id": "DEOXYS_DEFENSE",
       "name": "代歐奇希斯 防禦型",
-      "captureRate": 0.06,
+      "captureRate": 0.02,
       "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_DEOXYS",
@@ -14793,18 +14793,21 @@
         "ICE_BEAM",
         "THUNDERBOLT",
         "SHADOW_BALL",
+        "SUPER_POWER",
         "RETURN",
         "FRUSTRATION"
       ],
       "legacyMoves": [
         "ICE_BEAM",
         "THUNDERBOLT",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "SUPER_POWER"
       ],
       "eliteMoves": [
         "ICE_BEAM",
         "THUNDERBOLT",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "SUPER_POWER"
       ],
       "_atk": 80,
       "_def": 73,
