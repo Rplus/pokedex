@@ -1205,6 +1205,118 @@
       "familyId": "F_PIKACHU"
     },
     {
+      "dex": 25,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "QUICK_ATTACK"
+      ],
+      "chargedMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE"
+      ],
+      "_atk": 112,
+      "_def": 96,
+      "_sta": 111,
+      "id": "PIKACHU_KARIYUSHI",
+      "name": "皮卡丘 沖繩襯衫",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_PIKACHU",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 25,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "CHARM"
+      ],
+      "chargedMoves": [
+        "DRAINING_KISS",
+        "THUNDER_PUNCH",
+        "PLAY_ROUGH"
+      ],
+      "_atk": 112,
+      "_def": 96,
+      "_sta": 111,
+      "id": "PIKACHU_POP_STAR",
+      "name": "皮卡丘 流行偶像",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_PIKACHU",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 25,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "CHARM"
+      ],
+      "chargedMoves": [
+        "METEOR_MASH",
+        "THUNDER_PUNCH",
+        "PLAY_ROUGH"
+      ],
+      "_atk": 112,
+      "_def": 96,
+      "_sta": 111,
+      "id": "PIKACHU_ROCK_STAR",
+      "name": "皮卡丘 搖滾巨星",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_PIKACHU",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 25,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "QUICK_ATTACK",
+        "PRESENT"
+      ],
+      "chargedMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE",
+        "FLY"
+      ],
+      "legacyMoves": [
+        "PRESENT"
+      ],
+      "eliteMoves": [
+        "PRESENT"
+      ],
+      "_atk": 112,
+      "_def": 96,
+      "_sta": 111,
+      "id": "PIKACHU_5TH_ANNIVERSARY",
+      "name": "皮卡丘 五週年"
+    },
+    {
       "dex": 26,
       "types": [
         "electric"
@@ -18788,7 +18900,14 @@
         "HEAT_WAVE",
         "ROCK_SLIDE",
         "FOCUS_BLAST",
-        "FLAME_CHARGE"
+        "FLAME_CHARGE",
+        "BLAST_BURN"
+      ],
+      "legacyMoves": [
+        "BLAST_BURN"
+      ],
+      "eliteMoves": [
+        "BLAST_BURN"
       ],
       "_atk": 235,
       "_def": 127,
