@@ -225,6 +225,30 @@
       "suffix": "pm0025_00_pgo_4thanniversary"
     },
     {
+      "form": "PIKACHU_FLYING_5TH_ANNIV",
+      "name": "PIKACHU",
+      "prev": "PICHU",
+      "suffix": "pm0025_00_pgo_5thanniversary"
+    },
+    {
+      "form": "PIKACHU_KARIYUSHI",
+      "name": "PIKACHU",
+      "prev": "PICHU",
+      "suffix": "pm0025_00_pikachu_pgo_kariyushi"
+    },
+    {
+      "form": "PIKACHU_POP_STAR",
+      "name": "PIKACHU",
+      "prev": "PICHU",
+      "suffix": "pm0025_00_pgo_popstar"
+    },
+    {
+      "form": "PIKACHU_ROCK_STAR",
+      "name": "PIKACHU",
+      "prev": "PICHU",
+      "suffix": "pm0025_00_pgo_rockstar"
+    },
+    {
       "form": "PIKACHU_WINTER_2020",
       "name": "PIKACHU",
       "prev": "PICHU",
@@ -695,7 +719,18 @@
       "next": [
         {
           "candyCost": 50,
-          "name": "SLOWBRO"
+          "name": "SLOWBRO",
+          "next": [
+            {
+              "name": "SLOWBRO_MEGA",
+              "candyCost": 0,
+              "iso": 51,
+              "requirement": [
+                "1st:200 E",
+                "2nd:40 E"
+              ]
+            }
+          ]
         },
         {
           "candyCost": 50,
@@ -714,10 +749,42 @@
           "candyCost": 50,
           "form": "SLOWBRO_2021",
           "name": "SLOWBRO",
+          "next": [
+            {
+              "name": "SLOWBRO_MEGA",
+              "candyCost": 0,
+              "requirement": [
+                "1st:200 E",
+                "2nd:40 E"
+              ]
+            }
+          ],
           "suffix": "pm0080_00_pgo_2021"
         }
       ],
       "suffix": "pm0079_00_pgo_2020"
+    },
+    {
+      "form": "SLOWPOKE_GALARIAN",
+      "name": "SLOWPOKE",
+      "next": [
+        {
+          "candyCost": 50,
+          "form": "SLOWBRO_GALARIAN",
+          "name": "SLOWBRO",
+          "requirement": [
+            "POKEMON_TYPE_POISON: 30"
+          ],
+          "iso": 31
+        }
+      ],
+      "iso": 31
+    },
+    {
+      "form": "SLOWKING_GALARIAN",
+      "name": "SLOWKING",
+      "prev": "SLOWPOKE",
+      "iso": 31
     }
   ],
   "F_MAGNEMITE": [

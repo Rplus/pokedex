@@ -680,16 +680,22 @@
         "partySize": 3
     }, {
         "name": "remix",
-        "title": "Great League Remix",
+        "title": "Remix",
         "include": [],
         "exclude": [{
             "filterType": "id",
-            "values": ["venusaur", "raichu", "raichu_alolan", "marowak_alolan", "marowak", "azumarill", "umbreon", "skarmory", "swampert", "galvantula", "stunfisk", "stunfisk_galarian", "talonflame"]
+            "values": ["venusaur", "ninetales_alolan", "marowak_alolan", "meganium", "azumarill", "politoed", "umbreon", "skarmory", "swampert", "pelipper", "vigoroth", "medicham", "altaria", "deoxys_defense", "bastiodon", "toxicroak", "scrafty", "galvantula", "stunfisk_galarian", "talonflame"],
+			"leagues": [1500]
+        }, {
+            "filterType": "id",
+            "values": ["venusaur", "charizard", "clefable", "poliwrath", "muk_alolan", "gyarados", "lapras", "articuno", "umbreon", "scizor", "swampert", "registeel", "empoleon", "togekiss", "giratina_altered", "cresselia", "escavalier", "talonflame", "melmetal", "obstagoon"],
+			"leagues": [2500]
         }, {
             "filterType": "tag",
             "values": ["mega"]
         }],
-        "partySize": 3
+        "partySize": 3,
+		"presetOnly": true
     }, {
         "name": "nightfall",
         "title": "Silph Nightfall Cup",
@@ -839,14 +845,14 @@
         "title": "Silph Factions",
         "include": [{
             "filterType": "type",
-            "values": ["ground", "flying", "steel", "normal"]
+            "values": ["bug", "dark", "fairy", "poison", "water"]
         }],
         "exclude": [{
             "filterType": "tag",
             "values": ["mega", "mythical", "shadow", "regional"]
         }, {
             "filterType": "id",
-            "values": ["stunfisk_galarian", "skarmory", "altaria", "bastiodon", "registeel", "chansey"]
+            "values": ["azumarill"]
         }]
     }, {
         "name": "venture",
@@ -860,7 +866,7 @@
             "values": ["mega"]
         }, {
             "filterType": "id",
-            "values": ["chansey"]
+            "values": ["chansey", "pidgeot"]
         }],
         "tierRules": {
             "max": 20,
@@ -870,10 +876,10 @@
                 "pokemon": ["hypno", "hypno_shadow", "lickitung", "altaria", "froslass", "cresselia", "marowak_alolan"]
             }, {
                 "points": 6,
-                "pokemon": ["dewgong", "lapras", "snorlax", "dragonair", "politoed", "kingdra", "vigoroth", "medicham", "regirock", "deoxys_defense", "munchlax", "lickilicky", "jellicent", "galvantula", "talonflame"]
+                "pokemon": ["dewgong", "lapras", "snorlax", "dragonair", "politoed", "kingdra", "vigoroth", "medicham", "regirock", "deoxys_defense", "munchlax", "lickilicky", "jellicent", "galvantula", "talonflame", "dragalge", "lugia"]
             }, {
                 "points": 4,
-                "pokemon": ["machamp", "haunter", "gengar", "dragonite", "mew", "lanturn", "wobbuffet", "mantine", "swampert", "pelipper", "zangoose", "whiscash", "cradily", "dusclops", "tropius", "sealeo", "pachirisu", "drifblim", "abomasnow", "crustle", "stunfisk", "goodra", "graveler_alolan", "sirfetchd"]
+                "pokemon": ["machamp", "haunter", "gengar", "dragonite", "mew", "lanturn", "wobbuffet", "mantine", "swampert", "pelipper", "zangoose", "whiscash", "cradily", "dusclops", "tropius", "sealeo", "pachirisu", "drifblim", "abomasnow", "crustle", "stunfisk", "goodra", "graveler_alolan", "sirfetchd", "nidoqueen", "flygon"]
             }]
         }
     }, {
@@ -881,9 +887,20 @@
         "title": "Element Cup",
         "include": [{
             "filterType": "id",
-            "values": ["litleo", "barboach", "bellsprout", "budew", "buizel", "bulbasaur", "cacnea", "carvanha", "charmander", "cherubi", "chikorita", "chimchar", "chinchou", "corphish", "cyndaquil", "darumaka", "deerling", "ducklett", "exeggcute", "feebas", "ferroseed", "finneon", "foongus", "frillish", "goldeen", "growlithe", "hoppip", "horsea", "houndour", "kabuto", "krabby", "larvesta", "lileep", "litwick", "lotad", "magby", "magikarp", "mantyke", "mudkip", "numel", "oddish", "omanyte", "oshawott", "pansage", "pansear", "paras", "piplup", "poliwag", "ponyta", "psyduck", "remoraid", "seedot", "seel", "sewaddle", "shellos_east_sea", "shellos_west_sea", "shroomish", "slowpoke", "slugma", "snivy", "snover", "spheal", "squirtle", "surskit", "tangela", "tentacool", "tepig", "tirtouga", "torchic", "totodile", "treecko", "turtwig", "tympole", "vulpix", "wailmer", "wingull", "wooper", "vulpix_shadow", "turtwig_shadow", "growlithe_shadow", "psyduck_shadow", "oddish_shadow", "hoppip_shadow", "houndour_shadow", "squirtle_shadow", "seedot_shadow", "mudkip_shadow", "poliwag_shadow", "exeggcute_shadow", "slowpoke_shadow", "charmander_shadow", "snover_shadow", "bulbusaur_shadow", "omanyte_shadow", "carvanha_shadow", "cacnea_shadow", "bellsprout_shadow", "magikarp_shadow", "shellder", "shellder_shadow", "cottonee", "sunkern", "clamperl", "shellos", "panpour", "petilil", "chespin", "froakie", "fennekin", "skrelp", "clauncher", "deerling"]
+            "values": ["litleo", "barboach", "bellsprout", "budew", "buizel", "bulbasaur", "bulbasaur_shadow", "cacnea", "carvanha", "charmander", "cherubi", "chikorita", "chimchar", "chinchou", "corphish", "cyndaquil", "darumaka", "deerling", "ducklett", "exeggcute", "feebas", "ferroseed", "finneon", "foongus", "frillish", "goldeen", "growlithe", "hoppip", "horsea", "houndour", "kabuto", "krabby", "larvesta", "lileep", "litwick", "lotad", "magby", "magikarp", "mantyke", "mudkip", "numel", "oddish", "omanyte", "oshawott", "pansage", "pansear", "paras", "piplup", "poliwag", "ponyta", "psyduck", "remoraid", "seedot", "seel", "sewaddle", "shellos_east_sea", "shellos_west_sea", "shroomish", "slowpoke", "slugma", "snivy", "snover", "spheal", "squirtle", "surskit", "tangela", "tangela_shadow", "tentacool", "tepig", "tirtouga", "torchic", "totodile", "treecko", "turtwig", "tympole", "vulpix", "wailmer", "wingull", "wooper", "vulpix_shadow", "turtwig_shadow", "growlithe_shadow", "psyduck_shadow", "oddish_shadow", "hoppip_shadow", "houndour_shadow", "squirtle_shadow", "seedot_shadow", "mudkip_shadow", "poliwag_shadow", "exeggcute_shadow", "slowpoke_shadow", "charmander_shadow", "snover_shadow", "bulbusaur_shadow", "omanyte_shadow", "carvanha_shadow", "cacnea_shadow", "bellsprout_shadow", "magikarp_shadow", "shellder", "shellder_shadow", "cottonee", "sunkern", "clamperl", "shellos", "panpour", "petilil", "chespin", "froakie", "fennekin", "skrelp", "clauncher", "deerling", "binacle", "wooper_shadow", "horsea_shadow", "staryu", "lileep_shadow"]
         }],
-        "exclude": []
+        "exclude": [],
+		"partySize": 3,
+		"presetOnly": true
+    }, {
+        "name": "bidoof",
+        "title": "Bidoof Cup",
+        "include": [{
+            "filterType": "id",
+            "values": ["bidoof","bidoof_shadow"]
+        }],
+        "exclude": [],
+		"partySize": 3
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega", "xs"],
     "pokemonTraits": {
@@ -921,7 +938,7 @@
         "dexStart": 650,
         "dexEnd": 719
     }],
-    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "venusaur_mega", "charmander", "charmeleon", "charizard", "charizard_mega_x", "charizard_mega_y", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "beedrill_mega", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "alakazam_mega", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "gyarados_mega", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "ampharos_mega", "bellossom", "politoed", "scizor", "scizor_mega", "houndour", "houndoom", "houndoom_mega", "larvitar", "pupitar", "tyranitar", "tyranitar_mega", "mudkip", "marshtomp", "swampert", "swampert_mega", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "gardevoir_mega", "trapinch", "vibrava", "flygon", "shuppet", "banette", "banette_mega", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "gallade_mega", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "sableye_mega", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "salamence_mega", "snover", "abomasnow", "abomasnow_mega", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "sharpedo_mega", "pinsir", "pinsir_mega", "mawile", "mawile_mega", "beldum", "metang", "metagross", "metagross_mega", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo", "mewtwo_mega_x", "mewtwo_mega_y", "diglett", "dugtrio", "shellder", "cloyster", "slowpoke", "slowbro", "slowking", "aerodactyl", "skarmory", "teddiursa", "ursaring", "hoppip", "skiploom", "jumpluff", "wooper", "quagsire", "swinub", "piloswine", "mamoswine", "nosepass", "probopass", "aron", "lairon", "aggron", "spheal", "sealeo", "walrein", "lileep", "cradily", "anorith", "armaldo", "aipom", "ambipom", "skorupi", "drapion", "poochyena", "mightyena", "murkrow", "honchkrow", "electrike", "manectric", "snubbull", "granbull", "makuhita", "hariyama", "starly", "staravia", "staraptor", "tangela", "tangrowth", "horsea", "seadra", "kingdra"],
+    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "venusaur_mega", "charmander", "charmeleon", "charizard", "charizard_mega_x", "charizard_mega_y", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "beedrill_mega", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "alakazam_mega", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "gyarados_mega", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "ampharos_mega", "bellossom", "politoed", "scizor", "scizor_mega", "houndour", "houndoom", "houndoom_mega", "larvitar", "pupitar", "tyranitar", "tyranitar_mega", "mudkip", "marshtomp", "swampert", "swampert_mega", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "gardevoir_mega", "trapinch", "vibrava", "flygon", "shuppet", "banette", "banette_mega", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "gallade_mega", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "sableye_mega", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "salamence_mega", "snover", "abomasnow", "abomasnow_mega", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "sharpedo_mega", "pinsir", "pinsir_mega", "mawile", "mawile_mega", "beldum", "metang", "metagross", "metagross_mega", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo", "mewtwo_mega_x", "mewtwo_mega_y", "diglett", "dugtrio", "shellder", "cloyster", "slowpoke", "slowbro", "slowking", "aerodactyl", "skarmory", "teddiursa", "ursaring", "hoppip", "skiploom", "jumpluff", "wooper", "quagsire", "swinub", "piloswine", "mamoswine", "nosepass", "probopass", "aron", "lairon", "aggron", "spheal", "sealeo", "walrein", "lileep", "cradily", "anorith", "armaldo", "aipom", "ambipom", "skorupi", "drapion", "poochyena", "mightyena", "murkrow", "honchkrow", "electrike", "manectric", "snubbull", "granbull", "makuhita", "hariyama", "starly", "staravia", "staraptor", "tangela", "tangrowth", "horsea", "seadra", "kingdra", "ho_oh", "bidoof", "bibarel"],
     "pokemon": [{
         "dex": 1,
         "speciesName": "Bulbasaur",
@@ -2026,6 +2043,87 @@
         "types": ["electric", "none"],
         "fastMoves": ["THUNDER_SHOCK", "CHARM"],
         "chargedMoves": ["FLYING_PRESS", "PLAY_ROUGH", "THUNDER_PUNCH"],
+        "defaultIVs": {
+            "cp500": [20, 7, 15, 13],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true
+    }, {
+        "dex": 25,
+        "speciesName": "Pikachu (Kariyushi)",
+        "speciesId": "pikachu_kariyushi",
+        "baseStats": {
+            "atk": 112,
+            "def": 96,
+            "hp": 111
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["THUNDER_SHOCK", "QUICK_ATTACK"],
+        "chargedMoves": ["DISCHARGE", "THUNDERBOLT", "WILD_CHARGE"],
+        "defaultIVs": {
+            "cp500": [20, 7, 15, 13],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true
+    }, {
+        "dex": 25,
+        "speciesName": "Pikachu (Pop Star)",
+        "speciesId": "pikachu_pop_star",
+        "baseStats": {
+            "atk": 112,
+            "def": 96,
+            "hp": 111
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["THUNDER_SHOCK", "CHARM"],
+        "chargedMoves": ["DRAINING_KISS", "THUNDER_PUNCH", "PLAY_ROUGH"],
+        "defaultIVs": {
+            "cp500": [20, 7, 15, 13],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true
+    }, {
+        "dex": 25,
+        "speciesName": "Pikachu (Rock Star)",
+        "speciesId": "pikachu_rock_star",
+        "baseStats": {
+            "atk": 112,
+            "def": 96,
+            "hp": 111
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["THUNDER_SHOCK", "CHARM"],
+        "chargedMoves": ["METEOR_MASH", "THUNDER_PUNCH", "PLAY_ROUGH"],
+        "defaultIVs": {
+            "cp500": [20, 7, 15, 13],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true
+    }, {
+        "dex": 25,
+        "speciesName": "Pikachu (5th Anniversary)",
+        "speciesId": "pikachu_5th_anniversary",
+        "baseStats": {
+            "atk": 112,
+            "def": 96,
+            "hp": 111
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["THUNDER_SHOCK", "QUICK_ATTACK", "PRESENT"],
+        "chargedMoves": ["DISCHARGE", "THUNDERBOLT", "WILD_CHARGE","FLY"],
+		"eliteMoves": ["PRESENT"],
         "defaultIVs": {
             "cp500": [20, 7, 15, 13],
             "cp1500": [50, 15, 15, 15],
@@ -4368,6 +4466,27 @@
         "thirdMoveCost": 50000,
         "released": true
     }, {
+        "dex": 79,
+        "speciesName": "Slowpoke (Galarian)",
+        "speciesId": "slowpoke_galarian",
+        "baseStats": {
+            "atk": 109,
+            "def": 98,
+            "hp": 207
+        },
+        "types": ["psychic", "none"],
+        "fastMoves": ["CONFUSION", "IRON_TAIL"],
+        "chargedMoves": ["SURF", "PSYSHOCK", "PSYCHIC"],
+        "defaultIVs": {
+            "cp500": [16, 5, 10, 12],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["galarian"],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true
+    }, {
         "dex": 80,
         "speciesName": "Slowbro",
         "speciesId": "slowbro",
@@ -4411,6 +4530,44 @@
         "thirdMoveCost": 50000,
         "released": true
     }, {
+        "dex": 80,
+        "speciesName": "Slowbro (Galarian)",
+        "speciesId": "slowbro_galarian",
+        "baseStats": {
+            "atk": 182,
+            "def": 156,
+            "hp": 216
+        },
+        "types": ["poison", "psychic"],
+        "fastMoves": ["CONFUSION", "POISON_JAB"],
+        "chargedMoves": ["FOCUS_BLAST", "PSYCHIC", "SLUDGE_BOMB"],
+        "defaultIVs": {
+			"cp500": [7.5, 9, 15, 13],
+            "cp1500": [22.5, 6, 15, 13],
+            "cp2500": [46, 5, 15, 14]
+        },
+        "tags": ["galarian"],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true
+    }, {
+	    "dex": 80,
+	    "speciesName": "Slowbro (Mega)",
+	    "speciesId": "slowbro_mega",
+	    "baseStats": {
+	        "atk": 224,
+	        "def": 259,
+	        "hp": 216
+	    },
+	    "types": ["water", "psychic"],
+	    "fastMoves": ["CONFUSION", "WATER_GUN"],
+	    "chargedMoves": ["ICE_BEAM", "PSYCHIC", "WATER_PULSE"],
+	    "defaultIVs": {
+	        "cp1500": [14.5, 9, 15, 9],
+	        "cp2500": [25, 5, 10, 6]
+	    },
+	    "tags": ["mega"]
+	}, {
         "dex": 81,
         "speciesName": "Magnemite",
         "speciesId": "magnemite",
@@ -6688,7 +6845,6 @@
         "level25CP": 1893,
         "eliteMoves": ["HURRICANE"],
         "searchPriority": 6,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -6712,7 +6868,6 @@
         },
         "eliteMoves": ["HURRICANE"],
         "searchPriority": 6,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -6736,7 +6891,6 @@
         },
         "level25CP": 2208,
         "eliteMoves": ["THUNDER_SHOCK"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -6759,7 +6913,6 @@
             "cp2500": [26, 5, 13, 13]
         },
         "eliteMoves": ["THUNDER_SHOCK"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -6783,7 +6936,6 @@
         },
         "level25CP": 2167,
         "eliteMoves": ["SKY_ATTACK"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -6806,7 +6958,6 @@
             "cp2500": [26.5, 6, 15, 9]
         },
         "eliteMoves": ["SKY_ATTACK"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -6963,7 +7114,6 @@
         },
         "level25CP": 2641,
         "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -6986,7 +7136,6 @@
             "cp1500": [17.5, 4, 14, 13],
             "cp2500": [29.5, 4, 9, 13]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -7009,7 +7158,6 @@
             "cp2500": [22, 4, 13, 10]
         },
         "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -8398,6 +8546,27 @@
         "thirdMoveCost": 50000,
         "released": true
     }, {
+        "dex": 199,
+        "speciesName": "Slowking (Galarian)",
+        "speciesId": "slowking_galarian",
+        "baseStats": {
+            "atk": 190,
+            "def": 180,
+            "hp": 216
+        },
+        "types": ["poison", "psychic"],
+        "fastMoves": ["HEX", "CONFUSION", "ACID"],
+        "chargedMoves": ["FUTURE_SIGHT", "SHADOW_BALL", "SLUDGE_WAVE"],
+        "defaultIVs": {
+			"cp500": [7, 6, 15, 8],
+            "cp1500": [20.5, 5, 11, 15],
+            "cp2500": [38.5, 4, 14, 12]
+        },
+        "tags": ["galarian"],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": false
+    }, {
         "dex": 200,
         "speciesName": "Misdreavus",
         "speciesId": "misdreavus",
@@ -8752,6 +8921,7 @@
             "cp1500": [22, 4, 9, 15],
             "cp2500": [42, 5, 15, 13]
         },
+		"searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -9796,7 +9966,6 @@
             "cp1500": [16, 4, 11, 14],
             "cp2500": [27, 4, 9, 13]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -9818,7 +9987,6 @@
             "cp1500": [16, 4, 11, 14],
             "cp2500": [27, 4, 9, 13]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -9841,7 +10009,6 @@
             "cp2500": [26.5, 4, 15, 10]
         },
         "level25CP": 2172,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -9863,7 +10030,6 @@
             "cp1500": [16, 6, 9, 13],
             "cp2500": [26.5, 4, 15, 10]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -9887,7 +10053,6 @@
         },
         "eliteMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER"],
         "level25CP": 1846,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -9910,7 +10075,6 @@
             "cp2500": [32, 4, 14, 15]
         },
         "eliteMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -10066,7 +10230,6 @@
             "cp1500": [15, 5, 9, 15],
             "cp2500": [25, 5, 10, 14]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -10082,14 +10245,36 @@
         "types": ["fire", "flying"],
         "fastMoves": ["EXTRASENSORY", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "STEEL_WING", "INCINERATE"],
         "chargedMoves": ["BRAVE_BIRD", "FIRE_BLAST", "SOLAR_BEAM", "EARTHQUAKE"],
-        "tags": ["legendary"],
+        "tags": ["legendary", "shadoweligible"],
         "defaultIVs": {
             "cp500": [5, 7, 11, 14],
             "cp1500": [14.5, 4, 8, 12],
             "cp2500": [23.5, 5, 14, 15]
         },
         "eliteMoves": ["EARTHQUAKE"],
-        "levelCap": 40,
+		"level25CP": 2457,
+        "buddyDistance": 20,
+        "thirdMoveCost": 100000,
+        "released": true
+    }, {
+        "dex": 250,
+        "speciesName": "Ho-Oh (Shadow)",
+        "speciesId": "ho_oh_shadow",
+        "baseStats": {
+            "atk": 239,
+            "def": 244,
+            "hp": 214
+        },
+        "types": ["fire", "flying"],
+        "fastMoves": ["EXTRASENSORY", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "STEEL_WING", "INCINERATE"],
+        "chargedMoves": ["BRAVE_BIRD", "FIRE_BLAST", "SOLAR_BEAM", "EARTHQUAKE"],
+        "tags": ["legendary", "shadow"],
+        "defaultIVs": {
+            "cp500": [5, 7, 11, 14],
+            "cp1500": [14.5, 4, 8, 12],
+            "cp2500": [23.5, 5, 14, 15]
+        },
+        "eliteMoves": ["EARTHQUAKE"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -12118,7 +12303,7 @@
             "cp2500": [50, 15, 15, 15]
         },
         "level25CP": 1295,
-        "tags": ["shadoweligible"],
+        "tags": ["shadoweligible", "include1500"],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -12139,7 +12324,7 @@
             "cp1500": [25.5, 4, 13, 12],
             "cp2500": [50, 15, 15, 15]
         },
-        "tags": ["shadow"],
+        "tags": ["shadow", "include1500"],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -13956,7 +14141,6 @@
             "cp1500": [16, 5, 12, 7],
             "cp2500": [26.5, 4, 13, 10]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -13978,7 +14162,6 @@
             "cp1500": [14.5, 4, 10, 14],
             "cp2500": [24, 5, 13, 12]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -14001,7 +14184,6 @@
             "cp2500": [22.5, 5, 14, 7]
         },
         "searchPriority": 10,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -14025,7 +14207,6 @@
         },
         "eliteMoves": ["FIRE_PUNCH"],
         "searchPriority": 20,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -14091,7 +14272,6 @@
             "cp1500": [17, 11, 11, 14],
             "cp2500": [28.5, 12, 13, 11]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -14113,7 +14293,6 @@
             "cp1500": [20.5, 11, 15, 13],
             "cp2500": [40, 12, 14, 10]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -14133,10 +14312,9 @@
         "defaultIVs": {
             "cp500": [8, 10, 10, 15],
             "cp1500": [23.5, 12, 12, 15],
-            "cp2500": [40, 15, 15, 15]
+            "cp2500": [48.5, 13, 15, 15]
         },
         "searchPriority": 15,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -14158,7 +14336,6 @@
             "cp1500": [18.5, 15, 11, 13],
             "cp2500": [32, 12, 10, 15]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -14565,12 +14742,38 @@
         },
         "types": ["normal", "none"],
         "fastMoves": ["TACKLE", "TAKE_DOWN"],
-        "chargedMoves": ["CRUNCH", "GRASS_KNOT", "HYPER_FANG"],
+        "chargedMoves": ["CRUNCH", "GRASS_KNOT", "HYPER_FANG", "ICE_BEAM", "THUNDERBOLT", "SHADOW_BALL", "SUPER_POWER"],
+		"eliteMoves": ["ICE_BEAM", "THUNDERBOLT", "SHADOW_BALL", "SUPER_POWER"],
         "defaultIVs": {
             "cp500": [28.5, 4, 9, 14],
             "cp1500": [50, 15, 15, 15],
             "cp2500": [50, 15, 15, 15]
         },
+		"tags": ["shadoweligible"],
+		"level25CP": 385,
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true
+    },  {
+        "dex": 399,
+        "speciesName": "Bidoof (Shadow)",
+        "speciesId": "bidoof_shadow",
+        "baseStats": {
+            "atk": 80,
+            "def": 73,
+            "hp": 153
+        },
+        "types": ["normal", "none"],
+        "fastMoves": ["TACKLE", "TAKE_DOWN"],
+        "chargedMoves": ["CRUNCH", "GRASS_KNOT", "HYPER_FANG", "ICE_BEAM", "THUNDERBOLT", "SHADOW_BALL"],
+		"eliteMoves": ["ICE_BEAM", "THUNDERBOLT", "SHADOW_BALL"],
+        "defaultIVs": {
+            "cp500": [28.5, 4, 9, 14],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["shadow"],
+		"level25CP": 385,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true
@@ -14591,6 +14794,30 @@
             "cp1500": [30.5, 7, 14, 15],
             "cp2500": [50, 15, 15, 15]
         },
+		"tags": ["shadoweligible"],
+		"level25CP": 1095,
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true
+    }, {
+        "dex": 400,
+        "speciesName": "Bibarel (Shadow)",
+        "speciesId": "bibarel_shadow",
+        "baseStats": {
+            "atk": 162,
+            "def": 119,
+            "hp": 188
+        },
+        "types": ["normal", "water"],
+        "fastMoves": ["TAKE_DOWN", "WATER_GUN"],
+        "chargedMoves": ["HYPER_BEAM", "HYPER_FANG", "SURF"],
+        "defaultIVs": {
+            "cp500": [10.5, 4, 13, 8],
+            "cp1500": [30.5, 7, 14, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+		"tags": ["shadow"],
+		"level25CP": 1095,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true
@@ -15200,6 +15427,7 @@
             "cp1500": [24.5, 4, 12, 9],
             "cp2500": [47, 13, 14, 15]
         },
+		"tags": ["regional"],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -15221,6 +15449,7 @@
             "cp1500": [24.5, 4, 12, 9],
             "cp2500": [47, 13, 14, 15]
         },
+		"tags": ["regional"],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -17006,7 +17235,6 @@
             "cp1500": [22.5, 5, 9, 12],
             "cp2500": [39.5, 14, 14, 15]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17028,7 +17256,6 @@
             "cp1500": [18, 7, 10, 15],
             "cp2500": [31, 4, 14, 10]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17050,7 +17277,6 @@
             "cp1500": [17, 7, 15, 11],
             "cp2500": [28, 6, 15, 15]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17073,7 +17299,6 @@
             "cp2500": [23, 4, 8, 12]
         },
         "searchPriority": 20,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17095,7 +17320,6 @@
             "cp1500": [14, 4, 5, 14],
             "cp2500": [23, 4, 15, 10]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17117,7 +17341,6 @@
             "cp1500": [14.5, 7, 12, 15],
             "cp2500": [24.5, 4, 14, 11]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17139,7 +17362,6 @@
             "cp1500": [12.5, 6, 14, 13],
             "cp2500": [21, 5, 15, 10]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17162,7 +17384,6 @@
             "cp2500": [27.5, 4, 11, 15]
         },
         "searchPriority": 32,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17184,7 +17405,6 @@
             "cp1500": [15, 6, 13, 10],
             "cp2500": [25, 4, 14, 11]
         },
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17208,7 +17428,6 @@
         },
         "eliteMoves": ["GRASS_KNOT"],
         "searchPriority": 32,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -17814,7 +18033,8 @@
         },
         "types": ["fire", "fighting"],
         "fastMoves": ["LOW_KICK", "EMBER"],
-        "chargedMoves": ["HEAT_WAVE", "ROCK_SLIDE", "FOCUS_BLAST", "FLAME_CHARGE"],
+        "chargedMoves": ["HEAT_WAVE", "ROCK_SLIDE", "FOCUS_BLAST", "FLAME_CHARGE", "BLAST_BURN"],
+		"eliteMoves": ["BLAST_BURN"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp500": [6.5, 5, 6, 15],
@@ -20736,7 +20956,6 @@
         },
         "tags": ["legendary"],
         "eliteMoves": ["SACRED_SWORD"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -20758,7 +20977,6 @@
             "cp2500": [24.5, 6, 14, 14]
         },
         "tags": ["legendary"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -20780,7 +20998,6 @@
             "cp2500": [30.5, 7, 15, 13]
         },
         "tags": ["legendary"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -20887,7 +21104,6 @@
         },
         "tags": ["legendary"],
         "searchPriority": 4,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -20910,7 +21126,6 @@
         },
         "tags": ["legendary"],
         "searchPriority": 2,
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -20976,7 +21191,6 @@
             "cp2500": [26, 4, 8, 15]
         },
         "tags": ["legendary"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -20998,7 +21212,6 @@
             "cp2500": [20, 4, 9, 14]
         },
         "tags": ["legendary"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -21020,7 +21233,6 @@
             "cp2500": [20, 4, 9, 14]
         },
         "tags": ["legendary"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -21122,7 +21334,6 @@
             "cp2500": [27, 10, 13, 10]
         },
         "tags": ["mythical", "untradeable"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -21145,7 +21356,6 @@
         },
         "eliteMoves": ["TECHNO_BLAST_BURN"],
         "tags": ["mythical", "untradeable"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -21167,7 +21377,6 @@
             "cp2500": [27, 10, 13, 10]
         },
         "tags": ["mythical", "untradeable"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -21189,7 +21398,6 @@
             "cp2500": [27, 10, 13, 10]
         },
         "tags": ["mythical", "untradeable"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -21211,7 +21419,6 @@
             "cp2500": [27, 10, 13, 10]
         },
         "tags": ["mythical", "untradeable"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -21852,8 +22059,8 @@
         "fastMoves": ["TACKLE", "FURY_CUTTER"],
         "chargedMoves": ["IRON_HEAD", "GYRO_BALL"],
         "defaultIVs": {
-            "cp500": [50, 15, 15, 15],
-            "cp1500": [50, 15, 15, 15],
+			"cp500": [14, 4, 6, 15],
+            "cp1500": [47.5, 13, 15, 14],
             "cp2500": [50, 15, 15, 15]
         },
         "buddyDistance": 5,
@@ -22619,7 +22826,7 @@
             "cp1500": [14.5, 4, 13, 15],
             "cp2500": [23.5, 11, 15, 15]
         },
-		"tags": ["legendary"],
+        "tags": ["legendary"],
         "searchPriority": 10,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -22641,7 +22848,7 @@
             "cp1500": [16.5, 4, 10, 10],
             "cp2500": [27, 4, 14, 14]
         },
-		"tags": ["legendary"],
+        "tags": ["legendary"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -22663,7 +22870,6 @@
             "cp2500": [40, 15, 15, 15]
         },
         "tags": ["mythical"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -23160,7 +23366,7 @@
         "energy": 35,
         "energyGain": 0,
         "cooldown": 500,
-		"buffs": [2, 0],
+        "buffs": [2, 0],
         "buffTarget": "self",
         "buffApplyChance": ".125",
         "archetype": "Boost Spam/Bait"
@@ -23287,7 +23493,7 @@
         "energy": 0,
         "energyGain": 9,
         "cooldown": 1500,
-        "archetype": "General"
+        "archetype": "Multipurpose"
     }, {
         "moveId": "DRAINING_KISS",
         "name": "Draining Kiss",
@@ -24335,10 +24541,10 @@
         "energy": 35,
         "energyGain": 0,
         "cooldown": 500,
-		"buffs": [0, -1],
+        "buffs": [0, -1],
         "buffTarget": "opponent",
         "buffApplyChance": "1",
-        "archetype": "Debuff"
+        "archetype": "Debuff Spam/Bait"
     }, {
         "moveId": "POISON_JAB",
         "name": "Poison Jab",
@@ -24347,7 +24553,7 @@
         "energy": 0,
         "energyGain": 7,
         "cooldown": 1000,
-        "archetype": "Fast Charge"
+        "archetype": "General"
     }, {
         "moveId": "POISON_STING",
         "name": "Poison Sting",
