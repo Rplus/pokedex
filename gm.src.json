@@ -1252,7 +1252,6 @@
       "id": "PIKACHU_POP_STAR",
       "name": "皮卡丘 流行偶像",
       "captureRate": 0.2,
-      "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_PIKACHU",
       "genderMF": [
@@ -1280,7 +1279,6 @@
       "id": "PIKACHU_ROCK_STAR",
       "name": "皮卡丘 搖滾巨星",
       "captureRate": 0.2,
-      "fleeRate": 0.1,
       "buddyKm": 1,
       "familyId": "F_PIKACHU",
       "genderMF": [
@@ -1314,7 +1312,7 @@
       "_def": 96,
       "_sta": 111,
       "id": "PIKACHU_5TH_ANNIVERSARY",
-      "name": "皮卡丘 五週年"
+      "name": "皮卡丘 五週年氣球"
     },
     {
       "dex": 26,
@@ -23520,8 +23518,7 @@
       "_sta": 225,
       "id": "MELOETTA_ARIA",
       "name": "美洛耶塔 歌聲型態",
-      "captureRate": 0.02,
-      "fleeRate": 0.01,
+      "captureRate": 100,
       "buddyKm": 20,
       "familyId": "F_MELOETTA",
       "genderMF": [
@@ -23550,8 +23547,7 @@
       "_sta": 225,
       "id": "MELOETTA_PIROUETTE",
       "name": "美洛耶塔 舞步型態",
-      "captureRate": 0.02,
-      "fleeRate": 0.01,
+      "captureRate": 100,
       "buddyKm": 20,
       "familyId": "F_MELOETTA",
       "genderMF": [
