@@ -1168,6 +1168,34 @@
         "electric"
       ],
       "fastMoves": [
+        "THUNDER_SHOCK",
+        "QUICK_ATTACK",
+        "PRESENT"
+      ],
+      "chargedMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE",
+        "FLY"
+      ],
+      "legacyMoves": [
+        "PRESENT"
+      ],
+      "eliteMoves": [
+        "PRESENT"
+      ],
+      "_atk": 112,
+      "_def": 96,
+      "_sta": 111,
+      "id": "PIKACHU_5TH_ANNIVERSARY",
+      "name": "皮卡丘 五週年氣球"
+    },
+    {
+      "dex": 25,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
         "QUICK_ATTACK",
         "THUNDER_SHOCK"
       ],
@@ -1182,27 +1210,6 @@
       "_sta": 111,
       "id": "PIKACHU_FLYING",
       "name": "皮卡丘 飛翔氣球"
-    },
-    {
-      "dex": 25,
-      "types": [
-        "electric"
-      ],
-      "fastMoves": [
-        "THUNDER_SHOCK",
-        "CHARM"
-      ],
-      "chargedMoves": [
-        "FLYING_PRESS",
-        "PLAY_ROUGH",
-        "THUNDER_PUNCH"
-      ],
-      "_atk": 112,
-      "_def": 96,
-      "_sta": 111,
-      "id": "PIKACHU_LIBRE",
-      "name": "皮卡丘 面罩摔角手",
-      "familyId": "F_PIKACHU"
     },
     {
       "dex": 25,
@@ -1231,6 +1238,27 @@
         50,
         50
       ]
+    },
+    {
+      "dex": 25,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "CHARM"
+      ],
+      "chargedMoves": [
+        "FLYING_PRESS",
+        "PLAY_ROUGH",
+        "THUNDER_PUNCH"
+      ],
+      "_atk": 112,
+      "_def": 96,
+      "_sta": 111,
+      "id": "PIKACHU_LIBRE",
+      "name": "皮卡丘 面罩摔角手",
+      "familyId": "F_PIKACHU"
     },
     {
       "dex": 25,
@@ -1285,34 +1313,6 @@
         0,
         100
       ]
-    },
-    {
-      "dex": 25,
-      "types": [
-        "electric"
-      ],
-      "fastMoves": [
-        "THUNDER_SHOCK",
-        "QUICK_ATTACK",
-        "PRESENT"
-      ],
-      "chargedMoves": [
-        "DISCHARGE",
-        "THUNDERBOLT",
-        "WILD_CHARGE",
-        "FLY"
-      ],
-      "legacyMoves": [
-        "PRESENT"
-      ],
-      "eliteMoves": [
-        "PRESENT"
-      ],
-      "_atk": 112,
-      "_def": 96,
-      "_sta": 111,
-      "id": "PIKACHU_5TH_ANNIVERSARY",
-      "name": "皮卡丘 五週年氣球"
     },
     {
       "dex": 26,
@@ -2296,7 +2296,8 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT"
+        "MUD_SHOT",
+        "RETURN"
       ],
       "_atk": 109,
       "_def": 78,
@@ -2359,7 +2360,8 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT"
+        "MUD_SHOT",
+        "RETURN"
       ],
       "_atk": 167,
       "_def": 134,
@@ -4024,7 +4026,8 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID"
+        "ACID",
+        "RETURN"
       ],
       "_atk": 135,
       "_def": 90,
@@ -4965,7 +4968,8 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID"
+        "ACID",
+        "RETURN"
       ],
       "_atk": 119,
       "_def": 141,
@@ -5000,7 +5004,8 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID"
+        "ACID",
+        "RETURN"
       ],
       "_atk": 174,
       "_def": 197,
@@ -5932,13 +5937,16 @@
         "AQUA_TAIL",
         "HYDRO_PUMP",
         "LAST_RESORT",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "SCALD"
       ],
       "legacyMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "SCALD"
       ],
       "eliteMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "SCALD"
       ],
       "_atk": 205,
       "_def": 161,
@@ -5967,13 +5975,16 @@
         "DISCHARGE",
         "LAST_RESORT",
         "THUNDER",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "ZAP_CANNON"
       ],
       "legacyMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "ZAP_CANNON"
       ],
       "eliteMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "ZAP_CANNON"
       ],
       "_atk": 232,
       "_def": 182,
@@ -6003,15 +6014,18 @@
         "FLAMETHROWER",
         "HEAT_WAVE",
         "LAST_RESORT",
-        "OVERHEAT"
+        "OVERHEAT",
+        "SUPER_POWER"
       ],
       "legacyMoves": [
         "LAST_RESORT",
-        "HEAT_WAVE"
+        "HEAT_WAVE",
+        "SUPER_POWER"
       ],
       "eliteMoves": [
         "LAST_RESORT",
-        "HEAT_WAVE"
+        "HEAT_WAVE",
+        "SUPER_POWER"
       ],
       "_atk": 246,
       "_def": 179,
@@ -6051,6 +6065,7 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK",
+        "RETURN",
         "TACKLE",
         "ZEN_HEADBUTT",
         "SIGNAL_BEAM",
@@ -8098,13 +8113,16 @@
         "FUTURE_SIGHT",
         "LAST_RESORT",
         "PSYBEAM",
-        "PSYCHIC"
+        "PSYCHIC",
+        "SHADOW_BALL"
       ],
       "legacyMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "SHADOW_BALL"
       ],
       "eliteMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "SHADOW_BALL"
       ],
       "_atk": 261,
       "_def": 175,
@@ -8132,13 +8150,16 @@
       "chargedMoves": [
         "DARK_PULSE",
         "FOUL_PLAY",
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "PSYCHIC"
       ],
       "legacyMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "PSYCHIC"
       ],
       "eliteMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "PSYCHIC"
       ],
       "_atk": 126,
       "_def": 240,
@@ -9010,7 +9031,8 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "QUICK_ATTACK"
+        "QUICK_ATTACK",
+        "RETURN"
       ],
       "_atk": 128,
       "_def": 90,
@@ -13099,7 +13121,8 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BULLET_SEED"
+        "BULLET_SEED",
+        "RETURN"
       ],
       "_atk": 105,
       "_def": 150,
@@ -17319,7 +17342,8 @@
       ],
       "fastMoves": [
         "QUICK_ATTACK",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "BULLET_SEED"
       ],
       "chargedMoves": [
         "ENERGY_BALL",
@@ -17328,10 +17352,12 @@
         "LAST_RESORT"
       ],
       "legacyMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "BULLET_SEED"
       ],
       "eliteMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "BULLET_SEED"
       ],
       "_atk": 216,
       "_def": 219,
@@ -17360,13 +17386,16 @@
         "AVALANCHE",
         "ICE_BEAM",
         "ICY_WIND",
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "WATER_PULSE"
       ],
       "legacyMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "WATER_PULSE"
       ],
       "eliteMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "WATER_PULSE"
       ],
       "_atk": 238,
       "_def": 205,
@@ -25238,13 +25267,16 @@
         "MOONBLAST",
         "DAZZLING_GLEAM",
         "DRAINING_KISS",
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "PSYSHOCK"
       ],
       "legacyMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "PSYSHOCK"
       ],
       "eliteMoves": [
-        "LAST_RESORT"
+        "LAST_RESORT",
+        "PSYSHOCK"
       ],
       "_atk": 203,
       "_def": 205,
@@ -25794,6 +25826,150 @@
       ]
     },
     {
+      "dex": 719,
+      "types": [
+        "rock",
+        "fairy"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "ROCK_THROW"
+      ],
+      "chargedMoves": [
+        "ROCK_SLIDE",
+        "MOONBLAST",
+        "POWER_GEM"
+      ],
+      "_atk": 190,
+      "_def": 285,
+      "_sta": 137,
+      "id": "DIANCIE",
+      "name": "蒂安希",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_DIANCIE",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 720,
+      "types": [
+        "psychic",
+        "ghost"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "ASTONISH"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "PSYBEAM",
+        "PSYCHIC"
+      ],
+      "_atk": 261,
+      "_def": 187,
+      "_sta": 173,
+      "id": "HOOPA",
+      "name": "Hoopa",
+      "fleeRate": 1,
+      "buddyKm": 20,
+      "familyId": "F_HOOPA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 720,
+      "types": [
+        "psychic",
+        "ghost"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "ASTONISH"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "PSYBEAM",
+        "PSYCHIC"
+      ],
+      "_atk": 261,
+      "_def": 187,
+      "_sta": 173,
+      "id": "HOOPA_CONFINED",
+      "name": "Hoopa_confined",
+      "fleeRate": 1,
+      "buddyKm": 20,
+      "familyId": "F_HOOPA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 720,
+      "types": [
+        "psychic",
+        "dark"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "ASTONISH"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "_atk": 311,
+      "_def": 191,
+      "_sta": 173,
+      "id": "HOOPA_UNBOUND",
+      "name": "Hoopa_unbound",
+      "fleeRate": 1,
+      "buddyKm": 20,
+      "familyId": "F_HOOPA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 721,
+      "types": [
+        "fire",
+        "water"
+      ],
+      "fastMoves": [
+        "INCINERATE",
+        "WATER_GUN",
+        "TAKE_DOWN"
+      ],
+      "chargedMoves": [
+        "HYDRO_PUMP",
+        "OVERHEAT",
+        "EARTH_POWER",
+        "SLUDGE_BOMB"
+      ],
+      "_atk": 252,
+      "_def": 216,
+      "_sta": 190,
+      "id": "VOLCANION",
+      "name": "波爾凱尼恩",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_VOLCANION",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
       "dex": 808,
       "types": [
         "steel"
@@ -25843,6 +26019,1640 @@
       "familyId": "F_MELTAN",
       "genderMF": [
         0,
+        0
+      ]
+    },
+    {
+      "dex": 810,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "SCRATCH",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "ENERGY_BALL",
+        "GRASS_KNOT"
+      ],
+      "_atk": 122,
+      "_def": 91,
+      "_sta": 137,
+      "id": "GROOKEY",
+      "name": "Grookey",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_GROOKEY",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 811,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "SCRATCH",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "ENERGY_BALL",
+        "GRASS_KNOT"
+      ],
+      "_atk": 165,
+      "_def": 134,
+      "_sta": 172,
+      "id": "THWACKEY",
+      "name": "Thwackey",
+      "captureRate": 0.1,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_GROOKEY",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 812,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "SCRATCH",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "ENERGY_BALL",
+        "GRASS_KNOT",
+        "EARTH_POWER"
+      ],
+      "_atk": 239,
+      "_def": 168,
+      "_sta": 225,
+      "id": "RILLABOOM",
+      "name": "Rillaboom",
+      "captureRate": 0.05,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_GROOKEY",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 813,
+      "types": [
+        "fire"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "EMBER"
+      ],
+      "chargedMoves": [
+        "FLAME_CHARGE",
+        "FLAMETHROWER"
+      ],
+      "_atk": 132,
+      "_def": 79,
+      "_sta": 137,
+      "id": "SCORBUNNY",
+      "name": "Scorbunny",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SCORBUNNY",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 814,
+      "types": [
+        "fire"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "EMBER"
+      ],
+      "chargedMoves": [
+        "FLAME_CHARGE",
+        "FLAMETHROWER"
+      ],
+      "_atk": 170,
+      "_def": 125,
+      "_sta": 163,
+      "id": "RABOOT",
+      "name": "Raboot",
+      "captureRate": 0.1,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SCORBUNNY",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 815,
+      "types": [
+        "fire"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "EMBER"
+      ],
+      "chargedMoves": [
+        "FLAME_CHARGE",
+        "FLAMETHROWER",
+        "FOCUS_BLAST"
+      ],
+      "_atk": 238,
+      "_def": 163,
+      "_sta": 190,
+      "id": "CINDERACE",
+      "name": "Cinderace",
+      "captureRate": 0.05,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SCORBUNNY",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 816,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "POUND",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "WATER_PULSE",
+        "SURF"
+      ],
+      "_atk": 132,
+      "_def": 79,
+      "_sta": 137,
+      "id": "SOBBLE",
+      "name": "Sobble",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SOBBLE",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 817,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "POUND",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "WATER_PULSE",
+        "SURF"
+      ],
+      "_atk": 186,
+      "_def": 113,
+      "_sta": 163,
+      "id": "DRIZZILE",
+      "name": "Drizzile",
+      "captureRate": 0.1,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SOBBLE",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 818,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "POUND",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "WATER_PULSE",
+        "SURF",
+        "SHADOW_BALL"
+      ],
+      "_atk": 262,
+      "_def": 142,
+      "_sta": 172,
+      "id": "INTELEON",
+      "name": "Inteleon",
+      "captureRate": 0.05,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SOBBLE",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 819,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "BITE",
+        "BULLET_SEED"
+      ],
+      "chargedMoves": [
+        "BODY_SLAM",
+        "CRUNCH"
+      ],
+      "_atk": 95,
+      "_def": 86,
+      "_sta": 172,
+      "id": "SKWOVET",
+      "name": "Skwovet",
+      "captureRate": 0.6,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_SKWOVET",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 820,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "BITE",
+        "BULLET_SEED"
+      ],
+      "chargedMoves": [
+        "BODY_SLAM",
+        "CRUNCH"
+      ],
+      "_atk": 160,
+      "_def": 156,
+      "_sta": 260,
+      "id": "GREEDENT",
+      "name": "Greedent",
+      "captureRate": 0.3,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_SKWOVET",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 821,
+      "types": [
+        "flying"
+      ],
+      "fastMoves": [
+        "PECK",
+        "AIR_SLASH"
+      ],
+      "chargedMoves": [
+        "DRILL_PECK",
+        "BRAVE_BIRD"
+      ],
+      "_atk": 88,
+      "_def": 67,
+      "_sta": 116,
+      "id": "ROOKIDEE",
+      "name": "Rookidee",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_ROOKIDEE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 822,
+      "types": [
+        "flying"
+      ],
+      "fastMoves": [
+        "PECK",
+        "AIR_SLASH"
+      ],
+      "chargedMoves": [
+        "DRILL_PECK",
+        "BRAVE_BIRD"
+      ],
+      "_atk": 129,
+      "_def": 110,
+      "_sta": 169,
+      "id": "CORVISQUIRE",
+      "name": "Corvisquire",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_ROOKIDEE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 823,
+      "types": [
+        "flying",
+        "steel"
+      ],
+      "fastMoves": [
+        "STEEL_WING",
+        "AIR_SLASH"
+      ],
+      "chargedMoves": [
+        "DRILL_PECK",
+        "BRAVE_BIRD",
+        "IRON_HEAD"
+      ],
+      "_atk": 163,
+      "_def": 192,
+      "_sta": 221,
+      "id": "CORVIKNIGHT",
+      "name": "Corviknight",
+      "captureRate": 0.13,
+      "fleeRate": 0.05,
+      "buddyKm": 1,
+      "familyId": "F_ROOKIDEE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 824,
+      "types": [
+        "bug"
+      ],
+      "fastMoves": [
+        "STRUGGLE_BUG"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 46,
+      "_def": 67,
+      "_sta": 93,
+      "id": "BLIPBUG",
+      "name": "Blipbug",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_BLIPBUG",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 825,
+      "types": [
+        "bug",
+        "psychic"
+      ],
+      "fastMoves": [
+        "STRUGGLE_BUG",
+        "CONFUSION"
+      ],
+      "chargedMoves": [
+        "BUG_BUZZ",
+        "PSYCHIC"
+      ],
+      "_atk": 87,
+      "_def": 157,
+      "_sta": 137,
+      "id": "DOTTLER",
+      "name": "Dottler",
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_BLIPBUG",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 826,
+      "types": [
+        "bug",
+        "psychic"
+      ],
+      "fastMoves": [
+        "STRUGGLE_BUG",
+        "CONFUSION"
+      ],
+      "chargedMoves": [
+        "BUG_BUZZ",
+        "PSYCHIC"
+      ],
+      "_atk": 156,
+      "_def": 240,
+      "_sta": 155,
+      "id": "ORBEETLE",
+      "name": "Orbeetle",
+      "captureRate": 0.13,
+      "fleeRate": 0.05,
+      "buddyKm": 1,
+      "familyId": "F_BLIPBUG",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 827,
+      "types": [
+        "dark"
+      ],
+      "fastMoves": [
+        "QUICK_ATTACK",
+        "SNARL"
+      ],
+      "chargedMoves": [
+        "NIGHT_SLASH",
+        "PLAY_ROUGH"
+      ],
+      "_atk": 85,
+      "_def": 82,
+      "_sta": 120,
+      "id": "NICKIT",
+      "name": "Nickit",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_NICKIT",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 828,
+      "types": [
+        "dark"
+      ],
+      "fastMoves": [
+        "QUICK_ATTACK",
+        "SNARL"
+      ],
+      "chargedMoves": [
+        "NIGHT_SLASH",
+        "PLAY_ROUGH"
+      ],
+      "_atk": 172,
+      "_def": 164,
+      "_sta": 172,
+      "id": "THIEVUL",
+      "name": "Thievul",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_NICKIT",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 829,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "RAZOR_LEAF",
+        "BULLET_SEED"
+      ],
+      "chargedMoves": [
+        "ENERGY_BALL",
+        "GRASS_KNOT"
+      ],
+      "_atk": 70,
+      "_def": 104,
+      "_sta": 120,
+      "id": "GOSSIFLEUR",
+      "name": "Gossifleur",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_GOSSIFLEUR",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 830,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "RAZOR_LEAF",
+        "BULLET_SEED"
+      ],
+      "chargedMoves": [
+        "ENERGY_BALL",
+        "GRASS_KNOT"
+      ],
+      "_atk": 148,
+      "_def": 211,
+      "_sta": 155,
+      "id": "ELDEGOSS",
+      "name": "Eldegoss",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_GOSSIFLEUR",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 831,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "TAKE_DOWN"
+      ],
+      "chargedMoves": [
+        "WILD_CHARGE",
+        "PAYBACK",
+        "STOMP"
+      ],
+      "_atk": 76,
+      "_def": 97,
+      "_sta": 123,
+      "id": "WOOLOO",
+      "name": "Wooloo",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_WOOLOO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 832,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "TAKE_DOWN"
+      ],
+      "chargedMoves": [
+        "WILD_CHARGE",
+        "PAYBACK",
+        "BODY_SLAM"
+      ],
+      "_atk": 159,
+      "_def": 198,
+      "_sta": 176,
+      "id": "DUBWOOL",
+      "name": "Dubwool",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_WOOLOO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 833,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "WATER_GUN",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "BODY_SLAM",
+        "SURF"
+      ],
+      "_atk": 114,
+      "_def": 85,
+      "_sta": 137,
+      "id": "CHEWTLE",
+      "name": "Chewtle",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CHEWTLE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 834,
+      "types": [
+        "water",
+        "rock"
+      ],
+      "fastMoves": [
+        "WATERFALL",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "BODY_SLAM",
+        "SURF",
+        "ROCK_BLAST"
+      ],
+      "_atk": 213,
+      "_def": 164,
+      "_sta": 207,
+      "id": "DREDNAW",
+      "name": "Drednaw",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_CHEWTLE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 835,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "SPARK",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "THUNDER"
+      ],
+      "_atk": 80,
+      "_def": 90,
+      "_sta": 153,
+      "id": "YAMPER",
+      "name": "Yamper",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_YAMPER",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 836,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "SPARK",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "THUNDER"
+      ],
+      "_atk": 197,
+      "_def": 131,
+      "_sta": 170,
+      "id": "BOLTUND",
+      "name": "Boltund",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_YAMPER",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 837,
+      "types": [
+        "rock"
+      ],
+      "fastMoves": [
+        "SMACK_DOWN",
+        "TACKLE"
+      ],
+      "chargedMoves": [
+        "ROCK_BLAST",
+        "ROCK_SLIDE"
+      ],
+      "_atk": 73,
+      "_def": 91,
+      "_sta": 102,
+      "id": "ROLYCOLY",
+      "name": "Rolycoly",
+      "captureRate": 0.5,
+      "fleeRate": 0.15,
+      "buddyKm": 3,
+      "familyId": "F_ROLYCOLY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 838,
+      "types": [
+        "rock",
+        "fire"
+      ],
+      "fastMoves": [
+        "SMACK_DOWN",
+        "INCINERATE"
+      ],
+      "chargedMoves": [
+        "ROCK_BLAST",
+        "ROCK_SLIDE",
+        "FLAME_CHARGE"
+      ],
+      "_atk": 114,
+      "_def": 157,
+      "_sta": 190,
+      "id": "CARKOL",
+      "name": "Carkol",
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ROLYCOLY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 839,
+      "types": [
+        "rock",
+        "fire"
+      ],
+      "fastMoves": [
+        "SMACK_DOWN",
+        "INCINERATE"
+      ],
+      "chargedMoves": [
+        "ROCK_BLAST",
+        "ROCK_SLIDE",
+        "FLAME_CHARGE"
+      ],
+      "_atk": 146,
+      "_def": 198,
+      "_sta": 242,
+      "id": "COALOSSAL",
+      "name": "Coalossal",
+      "captureRate": 0.13,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_ROLYCOLY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 840,
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "fastMoves": [
+        "ASTONISH"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 71,
+      "_def": 116,
+      "_sta": 120,
+      "id": "APPLIN",
+      "name": "Applin",
+      "captureRate": 0.4,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_APPLIN",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 841,
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "fastMoves": [
+        "BULLET_SEED",
+        "DRAGON_BREATH"
+      ],
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "FLY",
+        "OUTRAGE",
+        "SEED_BOMB"
+      ],
+      "_atk": 214,
+      "_def": 144,
+      "_sta": 172,
+      "id": "FLAPPLE",
+      "name": "Flapple",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_APPLIN",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 842,
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "fastMoves": [
+        "BULLET_SEED",
+        "ASTONISH"
+      ],
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "ENERGY_BALL",
+        "OUTRAGE",
+        "SEED_BOMB"
+      ],
+      "_atk": 214,
+      "_def": 144,
+      "_sta": 172,
+      "id": "APPLETUN",
+      "name": "Appletun",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_APPLIN",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 843,
+      "types": [
+        "ground"
+      ],
+      "fastMoves": [
+        "MUD_SLAP",
+        "MUD_SHOT"
+      ],
+      "chargedMoves": [
+        "DIG",
+        "BULLDOZE",
+        "EARTH_POWER"
+      ],
+      "_atk": 103,
+      "_def": 123,
+      "_sta": 141,
+      "id": "SILICOBRA",
+      "name": "Silicobra",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_SILICOBRA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 844,
+      "types": [
+        "ground"
+      ],
+      "fastMoves": [
+        "MUD_SLAP",
+        "MUD_SHOT"
+      ],
+      "chargedMoves": [
+        "DIG",
+        "BULLDOZE",
+        "EARTH_POWER"
+      ],
+      "_atk": 202,
+      "_def": 207,
+      "_sta": 176,
+      "id": "SANDACONDA",
+      "name": "Sandaconda",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SILICOBRA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 845,
+      "types": [
+        "flying",
+        "water"
+      ],
+      "fastMoves": [
+        "PECK",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "DRILL_PECK",
+        "FLY",
+        "HYDRO_PUMP"
+      ],
+      "_atk": 173,
+      "_def": 163,
+      "_sta": 172,
+      "id": "CRAMORANT",
+      "name": "Cramorant",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CRAMORANT",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 846,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "WATERFALL",
+        "BITE",
+        "PECK"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "AQUA_JET",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 118,
+      "_def": 72,
+      "_sta": 121,
+      "id": "ARROKUDA",
+      "name": "Arrokuda",
+      "captureRate": 0.5,
+      "fleeRate": 0.15,
+      "buddyKm": 3,
+      "familyId": "F_ARROKUDA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 847,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "WATERFALL",
+        "BITE",
+        "PECK"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "AQUA_JET",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 258,
+      "_def": 127,
+      "_sta": 156,
+      "id": "BARRASKEWDA",
+      "name": "Barraskewda",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ARROKUDA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 848,
+      "types": [
+        "electric",
+        "poison"
+      ],
+      "fastMoves": [
+        "ACID"
+      ],
+      "chargedMoves": [
+        "POWER_UP_PUNCH"
+      ],
+      "_atk": 97,
+      "_def": 65,
+      "_sta": 120,
+      "id": "TOXEL",
+      "name": "Toxel",
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_TOXEL",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 849,
+      "types": [
+        "electric",
+        "poison"
+      ],
+      "fastMoves": [
+        "ACID",
+        "SPARK",
+        "POISON_JAB"
+      ],
+      "chargedMoves": [
+        "ACID_SPRAY",
+        "DISCHARGE",
+        "WILD_CHARGE",
+        "POWER_UP_PUNCH"
+      ],
+      "_atk": 224,
+      "_def": 140,
+      "_sta": 181,
+      "id": "TOXTRICITY",
+      "name": "Toxtricity",
+      "captureRate": 0.1,
+      "fleeRate": 0.05,
+      "buddyKm": 5,
+      "familyId": "F_TOXEL",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 849,
+      "types": [
+        "electric",
+        "poison"
+      ],
+      "fastMoves": [
+        "ACID",
+        "SPARK",
+        "POISON_JAB"
+      ],
+      "chargedMoves": [
+        "ACID_SPRAY",
+        "DISCHARGE",
+        "WILD_CHARGE",
+        "POWER_UP_PUNCH"
+      ],
+      "_atk": 224,
+      "_def": 140,
+      "_sta": 181,
+      "id": "TOXTRICITY_AMPED",
+      "name": "Toxtricity_amped",
+      "captureRate": 0.1,
+      "fleeRate": 0.05,
+      "buddyKm": 5,
+      "familyId": "F_TOXEL",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 849,
+      "types": [
+        "electric",
+        "poison"
+      ],
+      "fastMoves": [
+        "ACID",
+        "SPARK",
+        "POISON_JAB"
+      ],
+      "chargedMoves": [
+        "ACID_SPRAY",
+        "DISCHARGE",
+        "WILD_CHARGE",
+        "POWER_UP_PUNCH"
+      ],
+      "_atk": 224,
+      "_def": 140,
+      "_sta": 181,
+      "id": "TOXTRICITY_LOW_KEY",
+      "name": "Toxtricity_low_key",
+      "captureRate": 0.1,
+      "fleeRate": 0.05,
+      "buddyKm": 5,
+      "familyId": "F_TOXEL",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 850,
+      "types": [
+        "fire",
+        "bug"
+      ],
+      "fastMoves": [
+        "BUG_BITE",
+        "EMBER"
+      ],
+      "chargedMoves": [
+        "HEAT_WAVE",
+        "BUG_BUZZ",
+        "CRUNCH"
+      ],
+      "_atk": 118,
+      "_def": 90,
+      "_sta": 137,
+      "id": "SIZZLIPEDE",
+      "name": "Sizzlipede",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_SIZZLIPEDE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 851,
+      "types": [
+        "fire",
+        "bug"
+      ],
+      "fastMoves": [
+        "BUG_BITE",
+        "EMBER"
+      ],
+      "chargedMoves": [
+        "HEAT_WAVE",
+        "BUG_BUZZ",
+        "CRUNCH",
+        "LUNGE"
+      ],
+      "_atk": 220,
+      "_def": 158,
+      "_sta": 225,
+      "id": "CENTISKORCH",
+      "name": "Centiskorch",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_SIZZLIPEDE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 852,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "ROCK_SMASH"
+      ],
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "SUPER_POWER",
+        "ICE_PUNCH"
+      ],
+      "_atk": 121,
+      "_def": 103,
+      "_sta": 137,
+      "id": "CLOBBOPUS",
+      "name": "Clobbopus",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_CLOBBOPUS",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 853,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "ROCK_SMASH",
+        "WATERFALL"
+      ],
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "SUPER_POWER",
+        "ICE_PUNCH",
+        "SURF"
+      ],
+      "_atk": 209,
+      "_def": 162,
+      "_sta": 190,
+      "id": "GRAPPLOCT",
+      "name": "Grapploct",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_CLOBBOPUS",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 854,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "SUCKER_PUNCH"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "_atk": 134,
+      "_def": 96,
+      "_sta": 120,
+      "id": "SINISTEA",
+      "name": "Sinistea",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_SINISTEA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 854,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "SUCKER_PUNCH"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "_atk": 134,
+      "_def": 96,
+      "_sta": 120,
+      "id": "SINISTEA_ANTIQUE",
+      "name": "Sinistea_antique",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_SINISTEA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 854,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "SUCKER_PUNCH"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "_atk": 134,
+      "_def": 96,
+      "_sta": 120,
+      "id": "SINISTEA_PHONY",
+      "name": "Sinistea_phony",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_SINISTEA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 855,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "SUCKER_PUNCH",
+        "HEX"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "_atk": 248,
+      "_def": 189,
+      "_sta": 155,
+      "id": "POLTEAGEIST",
+      "name": "Polteageist",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SINISTEA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 855,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "SUCKER_PUNCH",
+        "HEX"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "_atk": 248,
+      "_def": 189,
+      "_sta": 155,
+      "id": "POLTEAGEIST_ANTIQUE",
+      "name": "Polteageist_antique",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SINISTEA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 855,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "SUCKER_PUNCH",
+        "HEX"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "_atk": 248,
+      "_def": 189,
+      "_sta": 155,
+      "id": "POLTEAGEIST_PHONY",
+      "name": "Polteageist_phony",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SINISTEA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 856,
+      "types": [
+        "psychic"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "CHARM"
+      ],
+      "chargedMoves": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "DAZZLING_GLEAM"
+      ],
+      "_atk": 98,
+      "_def": 93,
+      "_sta": 123,
+      "id": "HATENNA",
+      "name": "Hatenna",
+      "captureRate": 0.5,
+      "fleeRate": 0.15,
+      "buddyKm": 5,
+      "familyId": "F_HATENNA",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 857,
+      "types": [
+        "psychic"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "CHARM"
+      ],
+      "chargedMoves": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "DAZZLING_GLEAM"
+      ],
+      "_atk": 153,
+      "_def": 133,
+      "_sta": 149,
+      "id": "HATTREM",
+      "name": "Hattrem",
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_HATENNA",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 858,
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "CHARM",
+        "PSYCHO_CUT"
+      ],
+      "chargedMoves": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "POWER_WHIP"
+      ],
+      "_atk": 237,
+      "_def": 182,
+      "_sta": 149,
+      "id": "HATTERENE",
+      "name": "Hatterene",
+      "captureRate": 0.13,
+      "fleeRate": 0.05,
+      "buddyKm": 5,
+      "familyId": "F_HATENNA",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 859,
+      "types": [
+        "dark",
+        "fairy"
+      ],
+      "fastMoves": [
+        "BITE",
+        "SUCKER_PUNCH"
+      ],
+      "chargedMoves": [
+        "FOUL_PLAY",
+        "DARK_PULSE",
+        "PLAY_ROUGH"
+      ],
+      "_atk": 103,
+      "_def": 69,
+      "_sta": 128,
+      "id": "IMPIDIMP",
+      "name": "Impidimp",
+      "captureRate": 0.5,
+      "fleeRate": 0.15,
+      "buddyKm": 5,
+      "familyId": "F_IMPIDIMP",
+      "genderMF": [
+        100,
+        0
+      ]
+    },
+    {
+      "dex": 860,
+      "types": [
+        "dark",
+        "fairy"
+      ],
+      "fastMoves": [
+        "BITE",
+        "SUCKER_PUNCH"
+      ],
+      "chargedMoves": [
+        "FOUL_PLAY",
+        "DARK_PULSE",
+        "PLAY_ROUGH"
+      ],
+      "_atk": 145,
+      "_def": 102,
+      "_sta": 163,
+      "id": "MORGREM",
+      "name": "Morgrem",
+      "captureRate": 0.25,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_IMPIDIMP",
+      "genderMF": [
+        100,
+        0
+      ]
+    },
+    {
+      "dex": 861,
+      "types": [
+        "dark",
+        "fairy"
+      ],
+      "fastMoves": [
+        "BITE",
+        "SUCKER_PUNCH",
+        "LOW_KICK"
+      ],
+      "chargedMoves": [
+        "FOUL_PLAY",
+        "DARK_PULSE",
+        "PLAY_ROUGH",
+        "POWER_UP_PUNCH"
+      ],
+      "_atk": 227,
+      "_def": 139,
+      "_sta": 216,
+      "id": "GRIMMSNARL",
+      "name": "Grimmsnarl",
+      "captureRate": 0.13,
+      "fleeRate": 0.05,
+      "buddyKm": 5,
+      "familyId": "F_IMPIDIMP",
+      "genderMF": [
+        100,
         0
       ]
     },
@@ -25903,6 +27713,35 @@
       "genderMF": [
         50,
         50
+      ]
+    },
+    {
+      "dex": 864,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "HEX"
+      ],
+      "chargedMoves": [
+        "ROCK_BLAST",
+        "BRINE",
+        "NIGHT_SHADE",
+        "SHADOW_BALL"
+      ],
+      "_atk": 253,
+      "_def": 182,
+      "_sta": 155,
+      "id": "CURSOLA",
+      "name": "Cursola",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_CORSOLA",
+      "genderMF": [
+        25,
+        75
       ]
     },
     {
@@ -25991,6 +27830,1311 @@
       "genderMF": [
         50,
         50
+      ]
+    },
+    {
+      "dex": 868,
+      "types": [
+        "fairy"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "CHARM"
+      ],
+      "chargedMoves": [
+        "DAZZLING_GLEAM"
+      ],
+      "_atk": 90,
+      "_def": 97,
+      "_sta": 128,
+      "id": "MILCERY",
+      "name": "Milcery",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_MILCERY",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 869,
+      "types": [
+        "fairy"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "CHARM"
+      ],
+      "chargedMoves": [
+        "DAZZLING_GLEAM",
+        "PSYSHOCK",
+        "ENERGY_BALL"
+      ],
+      "_atk": 203,
+      "_def": 203,
+      "_sta": 163,
+      "id": "ALCREMIE",
+      "name": "Alcremie",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_MILCERY",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 870,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "ROCK_SMASH",
+        "COUNTER"
+      ],
+      "chargedMoves": [
+        "SUPER_POWER",
+        "BRICK_BREAK",
+        "MEGAHORN"
+      ],
+      "_atk": 193,
+      "_def": 170,
+      "_sta": 163,
+      "id": "FALINKS",
+      "name": "Falinks",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_FALINKS",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 871,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "WATER_GUN",
+        "POISON_JAB"
+      ],
+      "chargedMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "BUBBLE_BEAM"
+      ],
+      "_atk": 176,
+      "_def": 161,
+      "_sta": 134,
+      "id": "PINCURCHIN",
+      "name": "Pincurchin",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_PINCURCHIN",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 872,
+      "types": [
+        "ice",
+        "bug"
+      ],
+      "fastMoves": [
+        "POWDER_SNOW",
+        "STRUGGLE_BUG"
+      ],
+      "chargedMoves": [
+        "ICY_WIND",
+        "BUG_BUZZ"
+      ],
+      "_atk": 76,
+      "_def": 59,
+      "_sta": 102,
+      "id": "SNOM",
+      "name": "Snom",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_SNOM",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 873,
+      "types": [
+        "ice",
+        "bug"
+      ],
+      "fastMoves": [
+        "POWDER_SNOW",
+        "BUG_BITE"
+      ],
+      "chargedMoves": [
+        "ICY_WIND",
+        "BUG_BUZZ",
+        "ICE_BEAM",
+        "HURRICANE"
+      ],
+      "_atk": 230,
+      "_def": 155,
+      "_sta": 172,
+      "id": "FROSMOTH",
+      "name": "Frosmoth",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_SNOM",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 874,
+      "types": [
+        "rock"
+      ],
+      "fastMoves": [
+        "ROCK_THROW"
+      ],
+      "chargedMoves": [
+        "STONE_EDGE",
+        "ROCK_SLIDE",
+        "STOMP"
+      ],
+      "_atk": 222,
+      "_def": 182,
+      "_sta": 225,
+      "id": "STONJOURNER",
+      "name": "Stonjourner",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_STONJOURNER",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 875,
+      "types": [
+        "ice"
+      ],
+      "fastMoves": [
+        "POWDER_SNOW"
+      ],
+      "chargedMoves": [
+        "ICY_WIND",
+        "WEATHER_BALL_ICE",
+        "SURF"
+      ],
+      "_atk": 148,
+      "_def": 195,
+      "_sta": 181,
+      "id": "EISCUE",
+      "name": "Eiscue",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_EISCUE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 875,
+      "types": [
+        "ice"
+      ],
+      "fastMoves": [
+        "POWDER_SNOW"
+      ],
+      "chargedMoves": [
+        "ICY_WIND",
+        "WEATHER_BALL_ICE",
+        "SURF"
+      ],
+      "_atk": 148,
+      "_def": 195,
+      "_sta": 181,
+      "id": "EISCUE_ICE",
+      "name": "Eiscue_ice",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_EISCUE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 875,
+      "types": [
+        "ice"
+      ],
+      "fastMoves": [
+        "POWDER_SNOW"
+      ],
+      "chargedMoves": [
+        "ICY_WIND",
+        "WEATHER_BALL_ICE",
+        "SURF"
+      ],
+      "_atk": 173,
+      "_def": 139,
+      "_sta": 181,
+      "id": "EISCUE_NOICE",
+      "name": "Eiscue_noice",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_EISCUE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 876,
+      "types": [
+        "psychic",
+        "normal"
+      ],
+      "fastMoves": [
+        "EXTRASENSORY"
+      ],
+      "chargedMoves": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "SHADOW_BALL"
+      ],
+      "_atk": 208,
+      "_def": 166,
+      "_sta": 155,
+      "id": "INDEEDEE",
+      "name": "Indeedee",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_INDEEDEE",
+      "genderMF": [
+        100,
+        0
+      ]
+    },
+    {
+      "dex": 876,
+      "types": [
+        "psychic",
+        "normal"
+      ],
+      "fastMoves": [
+        "EXTRASENSORY"
+      ],
+      "chargedMoves": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "ENERGY_BALL"
+      ],
+      "_atk": 184,
+      "_def": 184,
+      "_sta": 172,
+      "id": "INDEEDEE_FEMALE",
+      "name": "Indeedee_female",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_INDEEDEE",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 876,
+      "types": [
+        "psychic",
+        "normal"
+      ],
+      "fastMoves": [
+        "EXTRASENSORY"
+      ],
+      "chargedMoves": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "SHADOW_BALL"
+      ],
+      "_atk": 208,
+      "_def": 166,
+      "_sta": 155,
+      "id": "INDEEDEE_MALE",
+      "name": "Indeedee_male",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_INDEEDEE",
+      "genderMF": [
+        100,
+        0
+      ]
+    },
+    {
+      "dex": 877,
+      "types": [
+        "electric",
+        "dark"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "PAYBACK",
+        "THUNDERBOLT",
+        "WILD_CHARGE"
+      ],
+      "_atk": 192,
+      "_def": 121,
+      "_sta": 151,
+      "id": "MORPEKO",
+      "name": "Morpeko",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MORPEKO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 877,
+      "types": [
+        "electric",
+        "dark"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "PAYBACK",
+        "THUNDERBOLT",
+        "WILD_CHARGE"
+      ],
+      "_atk": 192,
+      "_def": 121,
+      "_sta": 151,
+      "id": "MORPEKO_FULL_BELLY",
+      "name": "Morpeko_full_belly",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MORPEKO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 877,
+      "types": [
+        "electric",
+        "dark"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "PAYBACK",
+        "THUNDERBOLT",
+        "WILD_CHARGE"
+      ],
+      "_atk": 192,
+      "_def": 121,
+      "_sta": 151,
+      "id": "MORPEKO_HANGRY",
+      "name": "Morpeko_hangry",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MORPEKO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 878,
+      "types": [
+        "steel"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "ROCK_SMASH"
+      ],
+      "chargedMoves": [
+        "IRON_HEAD",
+        "DIG",
+        "PLAY_ROUGH"
+      ],
+      "_atk": 140,
+      "_def": 91,
+      "_sta": 176,
+      "id": "CUFANT",
+      "name": "Cufant",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 5,
+      "familyId": "F_CUFANT",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 879,
+      "types": [
+        "steel"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "ROCK_SMASH"
+      ],
+      "chargedMoves": [
+        "IRON_HEAD",
+        "DIG",
+        "PLAY_ROUGH",
+        "HEAVY_SLAM"
+      ],
+      "_atk": 226,
+      "_def": 126,
+      "_sta": 263,
+      "id": "COPPERAJAH",
+      "name": "Copperajah",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_CUFANT",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 880,
+      "types": [
+        "electric",
+        "dragon"
+      ],
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "THUNDER_SHOCK"
+      ],
+      "chargedMoves": [
+        "DISCHARGE",
+        "DRAGON_PULSE",
+        "ANCIENT_POWER"
+      ],
+      "_atk": 195,
+      "_def": 165,
+      "_sta": 207,
+      "id": "DRACOZOLT",
+      "name": "Dracozolt",
+      "captureRate": 0.2,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_DRACOZOLT",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 881,
+      "types": [
+        "electric",
+        "ice"
+      ],
+      "fastMoves": [
+        "POWDER_SNOW",
+        "THUNDER_SHOCK"
+      ],
+      "chargedMoves": [
+        "DISCHARGE",
+        "AVALANCHE",
+        "ANCIENT_POWER"
+      ],
+      "_atk": 190,
+      "_def": 166,
+      "_sta": 207,
+      "id": "ARCTOZOLT",
+      "name": "Arctozolt",
+      "captureRate": 0.2,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_ARCTOZOLT",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 882,
+      "types": [
+        "water",
+        "dragon"
+      ],
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "BRINE",
+        "DRAGON_PULSE",
+        "ANCIENT_POWER"
+      ],
+      "_atk": 175,
+      "_def": 185,
+      "_sta": 207,
+      "id": "DRACOVISH",
+      "name": "Dracovish",
+      "captureRate": 0.2,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_DRACOVISH",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 883,
+      "types": [
+        "water",
+        "ice"
+      ],
+      "fastMoves": [
+        "POWDER_SNOW",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "BRINE",
+        "AVALANCHE",
+        "ANCIENT_POWER"
+      ],
+      "_atk": 171,
+      "_def": 185,
+      "_sta": 207,
+      "id": "ARCTOVISH",
+      "name": "Arctovish",
+      "captureRate": 0.2,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_ARCTOVISH",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 884,
+      "types": [
+        "steel",
+        "dragon"
+      ],
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "METAL_CLAW"
+      ],
+      "chargedMoves": [
+        "FLASH_CANNON",
+        "DRAGON_CLAW",
+        "HYPER_BEAM"
+      ],
+      "_atk": 239,
+      "_def": 185,
+      "_sta": 172,
+      "id": "DURALUDON",
+      "name": "Duraludon",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_DURALUDON",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 885,
+      "types": [
+        "dragon",
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "QUICK_ATTACK"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 117,
+      "_def": 61,
+      "_sta": 99,
+      "id": "DREEPY",
+      "name": "Dreepy",
+      "captureRate": 0.4,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_DREEPY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 886,
+      "types": [
+        "dragon",
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "DRAGON_TAIL"
+      ],
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "SHADOW_BALL",
+        "OUTRAGE"
+      ],
+      "_atk": 163,
+      "_def": 105,
+      "_sta": 169,
+      "id": "DRAKLOAK",
+      "name": "Drakloak",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_DREEPY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 887,
+      "types": [
+        "dragon",
+        "ghost"
+      ],
+      "fastMoves": [
+        "HEX",
+        "DRAGON_TAIL"
+      ],
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "SHADOW_BALL",
+        "OUTRAGE"
+      ],
+      "_atk": 266,
+      "_def": 170,
+      "_sta": 204,
+      "id": "DRAGAPULT",
+      "name": "Dragapult",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 5,
+      "familyId": "F_DREEPY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 888,
+      "types": [
+        "fairy",
+        "steel"
+      ],
+      "fastMoves": [
+        "METAL_CLAW",
+        "SNARL",
+        "QUICK_ATTACK",
+        "FIRE_FANG"
+      ],
+      "chargedMoves": [
+        "PLAY_ROUGH",
+        "IRON_HEAD",
+        "WILD_CHARGE",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 254,
+      "_def": 236,
+      "_sta": 192,
+      "id": "ZACIAN",
+      "name": "Zacian",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ZACIAN",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 888,
+      "types": [
+        "fairy",
+        "steel"
+      ],
+      "fastMoves": [
+        "METAL_CLAW",
+        "SNARL",
+        "QUICK_ATTACK",
+        "FIRE_FANG"
+      ],
+      "chargedMoves": [
+        "PLAY_ROUGH",
+        "IRON_HEAD",
+        "WILD_CHARGE",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 332,
+      "_def": 240,
+      "_sta": 192,
+      "id": "ZACIAN_CROWNED_SWORD",
+      "name": "Zacian_crowned_sword",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ZACIAN",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 888,
+      "types": [
+        "fairy"
+      ],
+      "fastMoves": [
+        "METAL_CLAW",
+        "SNARL",
+        "QUICK_ATTACK",
+        "FIRE_FANG"
+      ],
+      "chargedMoves": [
+        "PLAY_ROUGH",
+        "IRON_HEAD",
+        "WILD_CHARGE",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 254,
+      "_def": 236,
+      "_sta": 192,
+      "id": "ZACIAN_HERO",
+      "name": "Zacian (Hero)",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ZACIAN",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 889,
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "fastMoves": [
+        "METAL_CLAW",
+        "SNARL",
+        "QUICK_ATTACK",
+        "ICE_FANG"
+      ],
+      "chargedMoves": [
+        "MOONBLAST",
+        "IRON_HEAD",
+        "CRUNCH",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 254,
+      "_def": 236,
+      "_sta": 192,
+      "id": "ZAMAZENTA",
+      "name": "Zamazenta",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ZAMAZENTA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 889,
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "fastMoves": [
+        "METAL_CLAW",
+        "SNARL",
+        "QUICK_ATTACK",
+        "ICE_FANG"
+      ],
+      "chargedMoves": [
+        "MOONBLAST",
+        "IRON_HEAD",
+        "CRUNCH",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 250,
+      "_def": 292,
+      "_sta": 192,
+      "id": "ZAMAZENTA_CROWNED_SHIELD",
+      "name": "Zamazenta_crowned_shield",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ZAMAZENTA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 889,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "METAL_CLAW",
+        "SNARL",
+        "QUICK_ATTACK",
+        "ICE_FANG"
+      ],
+      "chargedMoves": [
+        "MOONBLAST",
+        "IRON_HEAD",
+        "CRUNCH",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 254,
+      "_def": 236,
+      "_sta": 192,
+      "id": "ZAMAZENTA_HERO",
+      "name": "Zamazenta (Hero)",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ZAMAZENTA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 890,
+      "types": [
+        "poison",
+        "dragon"
+      ],
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "POISON_JAB"
+      ],
+      "chargedMoves": [
+        "CROSS_POISON",
+        "DRAGON_PULSE",
+        "FLAMETHROWER"
+      ],
+      "_atk": 278,
+      "_def": 192,
+      "_sta": 268,
+      "id": "ETERNATUS",
+      "name": "Eternatus",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ETERNATUS",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 890,
+      "types": [
+        "poison",
+        "dragon"
+      ],
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "POISON_JAB"
+      ],
+      "chargedMoves": [
+        "CROSS_POISON",
+        "DRAGON_PULSE",
+        "FLAMETHROWER",
+        "HYPER_BEAM"
+      ],
+      "_atk": 251,
+      "_def": 505,
+      "_sta": 452,
+      "id": "ETERNATUS_ETERNAMAX",
+      "name": "Eternatus_eternamax",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ETERNATUS",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 891,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "ROCK_SMASH",
+        "COUNTER"
+      ],
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "DYNAMIC_PUNCH",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 170,
+      "_def": 112,
+      "_sta": 155,
+      "id": "KUBFU",
+      "name": "Kubfu",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_KUBFU",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 892,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "ROCK_SMASH",
+        "COUNTER"
+      ],
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "DYNAMIC_PUNCH",
+        "CLOSE_COMBAT"
+      ],
+      "_atk": 231,
+      "_def": 162,
+      "_sta": 205,
+      "id": "URSHIFU",
+      "name": "Urshifu",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_KUBFU",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 892,
+      "types": [
+        "fighting",
+        "water"
+      ],
+      "fastMoves": [
+        "ROCK_SMASH",
+        "COUNTER",
+        "WATERFALL"
+      ],
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "DYNAMIC_PUNCH",
+        "CLOSE_COMBAT",
+        "AQUA_JET"
+      ],
+      "_atk": 231,
+      "_def": 162,
+      "_sta": 205,
+      "id": "URSHIFU_RAPID_STRIKE",
+      "name": "Urshifu_rapid_strike",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_KUBFU",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 892,
+      "types": [
+        "fighting",
+        "dark"
+      ],
+      "fastMoves": [
+        "ROCK_SMASH",
+        "COUNTER",
+        "SUCKER_PUNCH"
+      ],
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "DYNAMIC_PUNCH",
+        "CLOSE_COMBAT",
+        "PAYBACK"
+      ],
+      "_atk": 231,
+      "_def": 162,
+      "_sta": 205,
+      "id": "URSHIFU_SINGLE_STRIKE",
+      "name": "Urshifu_single_strike",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_KUBFU",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 893,
+      "types": [
+        "dark",
+        "grass"
+      ],
+      "fastMoves": [
+        "VINE_WHIP",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "POWER_WHIP",
+        "ENERGY_BALL",
+        "DARK_PULSE"
+      ],
+      "_atk": 242,
+      "_def": 215,
+      "_sta": 233,
+      "id": "ZARUDE",
+      "name": "Zarude",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ZARUDE",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 894,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "LOCK_ON"
+      ],
+      "chargedMoves": [
+        "THUNDERBOLT",
+        "THUNDER",
+        "WILD_CHARGE"
+      ],
+      "_atk": 228,
+      "_def": 114,
+      "_sta": 173,
+      "id": "REGIELEKI",
+      "name": "Regieleki",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_REGIELEKI",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 895,
+      "types": [
+        "dragon"
+      ],
+      "fastMoves": [
+        "BITE",
+        "LOCK_ON"
+      ],
+      "chargedMoves": [
+        "DRAGON_CLAW",
+        "OUTRAGE",
+        "DRAGON_PULSE"
+      ],
+      "_atk": 184,
+      "_def": 92,
+      "_sta": 364,
+      "id": "REGIDRAGO",
+      "name": "Regidrago",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_REGIDRAGO",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 896,
+      "types": [
+        "ice"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "TAKE_DOWN"
+      ],
+      "chargedMoves": [
+        "AVALANCHE",
+        "ICY_WIND",
+        "BULLDOZE"
+      ],
+      "_atk": 224,
+      "_def": 203,
+      "_sta": 205,
+      "id": "GLASTRIER",
+      "name": "Glastrier",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_GLASTRIER",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 897,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "TAKE_DOWN"
+      ],
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "FOUL_PLAY",
+        "BULLDOZE"
+      ],
+      "_atk": 273,
+      "_def": 146,
+      "_sta": 205,
+      "id": "SPECTRIER",
+      "name": "Spectrier",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_SPECTRIER",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 898,
+      "types": [
+        "psychic",
+        "grass"
+      ],
+      "fastMoves": [
+        "POUND",
+        "CONFUSION"
+      ],
+      "chargedMoves": [
+        "PSYSHOCK",
+        "PSYCHIC",
+        "ENERGY_BALL"
+      ],
+      "_atk": 147,
+      "_def": 147,
+      "_sta": 205,
+      "id": "CALYREX",
+      "name": "Calyrex",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_CALYREX",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 898,
+      "types": [
+        "psychic",
+        "ice"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "TAKE_DOWN"
+      ],
+      "chargedMoves": [
+        "PSYSHOCK",
+        "PSYCHIC",
+        "ENERGY_BALL",
+        "AVALANCHE"
+      ],
+      "_atk": 268,
+      "_def": 246,
+      "_sta": 205,
+      "id": "CALYREX_ICE_RIDER",
+      "name": "Calyrex_ice_rider",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_CALYREX",
+      "genderMF": [
+        0,
+        0
       ]
     }
   ],
