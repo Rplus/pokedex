@@ -1,6 +1,6 @@
 <script>
   import { pokemons, settings } from '@/stores.js';
-  import { cdnImgSrc, ASSET_FOLDER } from '@/u.js';
+  import { cdnImgSrc, ASSET_FOLDER, ghCDN } from '@/u.js';
   export let data;
 
   $: {
@@ -10,10 +10,9 @@
       : `000${data.pm.dex}`.slice(-3)
         + (data.iso ? `_${('00' + data.iso).slice(-2)}` : '_00')
         + ($settings.io.shinyAvatar ? '_shiny' : '');
-    data.src = cdnImgSrc(pmImgFN(fn));
+    data.src = ghCDN(imgPath(fn));
   }
 
-  // let candySrc = cdnImgSrc(`${ASSET_FOLDER}static_assets/png/pokemon_details_candy.png`, 32);
   let candySrc = cdnImgSrc(`${ASSET_FOLDER}/Images/Items/pokemon_details_candy.png`, 32);
 
   function getPm(pid) {
@@ -23,9 +22,12 @@
     return $pokemons.find(pm => pm.id === pid);
   }
 
+  function imgPath(fn) {
+    return `Images/Pokemon%20-%20256x256/pokemon_icon_${fn}.png`;
+  }
+
   function pmImgFN(fn) {
-    // return `${ASSET_FOLDER}/pokemon_icons/pokemon_icon_${fn}.png`;
-    return `${ASSET_FOLDER}/Images/Pokemon%20-%20256x256/pokemon_icon_${fn}.png`;
+    return `${ASSET_FOLDER}/${imgPath(fn)}`;
   }
 
   function scrollIntoView() {

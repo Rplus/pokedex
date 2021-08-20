@@ -10,6 +10,10 @@ export function cdnImgSrc(imgsrc, size = 256) {
   return `https://images.weserv.nl/?w=${size}&il&url=${imgsrc}`;
 }
 
+export function ghCDN(filePath) {
+  return `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets/${filePath}`
+}
+
 // export const ASSET_FOLDER = 'https://github.com/ZeChrales/PogoAssets/raw/master/';
 export const ASSET_FOLDER = 'https://github.com/PokeMiners/pogo_assets/raw/master';
 
