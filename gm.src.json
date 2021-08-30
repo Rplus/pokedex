@@ -2296,9 +2296,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT",
-        "RETURN",
-        "RETURN"
+        "MUD_SHOT"
       ],
       "_atk": 109,
       "_def": 78,
@@ -2361,9 +2359,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "MUD_SHOT",
-        "RETURN",
-        "RETURN"
+        "MUD_SHOT"
       ],
       "_atk": 167,
       "_def": 134,
@@ -4028,9 +4024,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 135,
       "_def": 90,
@@ -4971,9 +4965,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 119,
       "_def": 141,
@@ -5008,9 +5000,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "ACID",
-        "RETURN",
-        "RETURN"
+        "ACID"
       ],
       "_atk": 174,
       "_def": 197,
@@ -6070,8 +6060,6 @@
       ],
       "legacyMoves": [
         "QUICK_ATTACK",
-        "RETURN",
-        "RETURN",
         "TACKLE",
         "ZEN_HEADBUTT",
         "SIGNAL_BEAM",
@@ -9037,9 +9025,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "QUICK_ATTACK",
-        "RETURN",
-        "RETURN"
+        "QUICK_ATTACK"
       ],
       "_atk": 128,
       "_def": 90,
@@ -13128,9 +13114,7 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "BULLET_SEED",
-        "RETURN",
-        "RETURN"
+        "BULLET_SEED"
       ],
       "_atk": 105,
       "_def": 150,
@@ -32747,6 +32731,22 @@
       "mid": "294",
       "isFast": false,
       "pve_power": 60,
+      "pve_energyDelta": -33,
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 1.35,
+      "pve_damageWindowEnd": 1.6
+    },
+    {
+      "moveId": "WEATHER_BALL_NORMAL",
+      "name": "氣象球 一般",
+      "power": 60,
+      "type": "normal",
+      "energy": 35,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "352",
+      "isFast": false,
+      "pve_power": 55,
       "pve_energyDelta": -33,
       "pve_duration": 1.6,
       "pve_damageWindowStart": 1.35,
