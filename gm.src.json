@@ -1678,6 +1678,7 @@
         "MEGAHORN",
         "SLUDGE_WAVE",
         "EARTH_POWER",
+        "SAND_TOMB",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -2850,6 +2851,7 @@
         "ICE_PUNCH",
         "SUBMISSION",
         "POWER_UP_PUNCH",
+        "SCALD",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -8693,7 +8695,8 @@
       "chargedMoves": [
         "CLOSE_COMBAT",
         "EARTHQUAKE",
-        "MEGAHORN"
+        "MEGAHORN",
+        "ROCK_BLAST"
       ],
       "_atk": 234,
       "_def": 179,
@@ -12004,12 +12007,14 @@
       ],
       "fastMoves": [
         "CHARGE_BEAM",
-        "SNARL"
+        "SNARL",
+        "THUNDER_FANG"
       ],
       "chargedMoves": [
         "FLAME_BURST",
         "THUNDER",
         "WILD_CHARGE",
+        "OVERHEAT",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -12034,12 +12039,14 @@
       ],
       "fastMoves": [
         "CHARGE_BEAM",
-        "SNARL"
+        "SNARL",
+        "THUNDER_FANG"
       ],
       "chargedMoves": [
         "FLAME_BURST",
         "THUNDER",
-        "WILD_CHARGE"
+        "WILD_CHARGE",
+        "OVERHEAT"
       ],
       "_atk": 286,
       "_def": 179,
@@ -13290,7 +13297,8 @@
       "chargedMoves": [
         "ENERGY_BALL",
         "HURRICANE",
-        "WEATHER_BALL_ROCK"
+        "WEATHER_BALL_ROCK",
+        "WEATHER_BALL_NORMAL"
       ],
       "_atk": 139,
       "_def": 139,
@@ -20860,7 +20868,8 @@
       ],
       "fastMoves": [
         "ASTONISH",
-        "ZEN_HEADBUTT"
+        "ZEN_HEADBUTT",
+        "SHADOW_CLAW"
       ],
       "chargedMoves": [
         "SHADOW_BALL",
@@ -29722,6 +29731,7 @@
       "type": "dark",
       "energy": 45,
       "energyGain": 0,
+      "effect": "[敵], 30%, -1階防",
       "turn": 1,
       "mid": "279",
       "isFast": false,
@@ -30172,7 +30182,7 @@
       "name": "羽毛舞",
       "power": 35,
       "type": "flying",
-      "energy": 45,
+      "energy": 50,
       "energyGain": 0,
       "effect": "[敵], 100%, -2階攻",
       "turn": 1,
@@ -31024,7 +31034,7 @@
     {
       "moveId": "MEGAHORN",
       "name": "超級角擊",
-      "power": 100,
+      "power": 110,
       "type": "bug",
       "energy": 55,
       "energyGain": 0,
@@ -31838,8 +31848,9 @@
       "name": "熱水",
       "power": 80,
       "type": "water",
-      "energy": 60,
+      "energy": 50,
       "energyGain": 0,
+      "effect": "[敵], 30%, -1階攻",
       "turn": 1,
       "mid": "106",
       "isFast": false,
@@ -32691,14 +32702,14 @@
     {
       "moveId": "WEATHER_BALL_FIRE",
       "name": "氣象球 火",
-      "power": 60,
+      "power": 55,
       "type": "fire",
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
       "mid": "292",
       "isFast": false,
-      "pve_power": 60,
+      "pve_power": 55,
       "pve_energyDelta": -33,
       "pve_duration": 1.6,
       "pve_damageWindowStart": 1.35,
@@ -32707,14 +32718,14 @@
     {
       "moveId": "WEATHER_BALL_ICE",
       "name": "氣象球 冰",
-      "power": 60,
+      "power": 55,
       "type": "ice",
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
       "mid": "293",
       "isFast": false,
-      "pve_power": 60,
+      "pve_power": 55,
       "pve_energyDelta": -33,
       "pve_duration": 1.6,
       "pve_damageWindowStart": 1.35,
@@ -32723,14 +32734,14 @@
     {
       "moveId": "WEATHER_BALL_ROCK",
       "name": "氣象球 岩石",
-      "power": 60,
+      "power": 55,
       "type": "rock",
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
       "mid": "294",
       "isFast": false,
-      "pve_power": 60,
+      "pve_power": 55,
       "pve_energyDelta": -33,
       "pve_duration": 1.6,
       "pve_damageWindowStart": 1.35,
@@ -32739,7 +32750,7 @@
     {
       "moveId": "WEATHER_BALL_NORMAL",
       "name": "氣象球 一般",
-      "power": 60,
+      "power": 55,
       "type": "normal",
       "energy": 35,
       "energyGain": 0,
@@ -32755,14 +32766,14 @@
     {
       "moveId": "WEATHER_BALL_WATER",
       "name": "氣象球 水",
-      "power": 60,
+      "power": 55,
       "type": "water",
       "energy": 35,
       "energyGain": 0,
       "turn": 1,
       "mid": "295",
       "isFast": false,
-      "pve_power": 60,
+      "pve_power": 55,
       "pve_energyDelta": -33,
       "pve_duration": 1.6,
       "pve_damageWindowStart": 1.35,
@@ -32888,6 +32899,7 @@
       "type": "electric",
       "energy": 80,
       "energyGain": 0,
+      "effect": "[敵], 100%, -1階攻",
       "turn": 1,
       "mid": "252",
       "isFast": false,
