@@ -25875,7 +25875,7 @@
       "_sta": 173,
       "id": "HOOPA",
       "name": "胡帕",
-      "fleeRate": 1,
+      "captureRate": 1,
       "buddyKm": 20,
       "familyId": "F_HOOPA",
       "genderMF": [
@@ -25903,7 +25903,7 @@
       "_sta": 173,
       "id": "HOOPA_CONFINED",
       "name": "胡帕 懲戒",
-      "fleeRate": 1,
+      "captureRate": 1,
       "buddyKm": 20,
       "familyId": "F_HOOPA",
       "genderMF": [
