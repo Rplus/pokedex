@@ -19018,7 +19018,14 @@
       "chargedMoves": [
         "HYDRO_PUMP",
         "BLIZZARD",
-        "MEGAHORN"
+        "MEGAHORN",
+        "HYDRO_CANNON"
+      ],
+      "legacyMoves": [
+        "HYDRO_CANNON"
+      ],
+      "eliteMoves": [
+        "HYDRO_CANNON"
       ],
       "_atk": 212,
       "_def": 157,
@@ -25931,7 +25938,7 @@
       "_sta": 173,
       "id": "HOOPA_UNBOUND",
       "name": "胡帕 解放",
-      "fleeRate": 1,
+      "captureRate": 1,
       "buddyKm": 20,
       "familyId": "F_HOOPA",
       "genderMF": [
