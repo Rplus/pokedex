@@ -23700,7 +23700,14 @@
       "chargedMoves": [
         "X_SCISSOR",
         "MAGNET_BOMB",
-        "GUNK_SHOT"
+        "GUNK_SHOT",
+        "TECHNO_BLAST_DOUSE"
+      ],
+      "legacyMoves": [
+        "TECHNO_BLAST_DOUSE"
+      ],
+      "eliteMoves": [
+        "TECHNO_BLAST_DOUSE"
       ],
       "_atk": 252,
       "_def": 199,
@@ -28966,8 +28973,7 @@
       "_sta": 233,
       "id": "ZARUDE",
       "name": "薩戮德",
-      "captureRate": 0.02,
-      "fleeRate": 0.1,
+      "captureRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_ZARUDE",
       "genderMF": [
