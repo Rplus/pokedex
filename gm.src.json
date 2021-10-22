@@ -17603,8 +17603,15 @@
         "DARK_PULSE",
         "OMINOUS_WIND",
         "PSYCHIC",
+        "SHADOW_BALL",
         "RETURN",
         "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "SHADOW_BALL"
+      ],
+      "eliteMoves": [
+        "SHADOW_BALL"
       ],
       "_atk": 180,
       "_def": 254,
@@ -25584,15 +25591,101 @@
       "chargedMoves": [
         "GRASS_KNOT",
         "SHADOW_SNEAK",
-        "FOUL_PLAY",
-        "EARTHQUAKE"
+        "FOUL_PLAY"
       ],
       "_atk": 121,
       "_def": 123,
       "_sta": 135,
-      "id": "PUMPKABOO",
-      "name": "南瓜精",
-      "captureRate": 0.2,
+      "id": "PUMPKABOO_AVERAGE",
+      "name": "南瓜精 普通尺寸",
+      "captureRate": 0.3,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_PUMPKABOO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 710,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "GRASS_KNOT",
+        "SHADOW_SNEAK",
+        "FOUL_PLAY"
+      ],
+      "_atk": 120,
+      "_def": 122,
+      "_sta": 144,
+      "id": "PUMPKABOO_LARGE",
+      "name": "南瓜精 大尺寸",
+      "captureRate": 0.3,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_PUMPKABOO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 710,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "GRASS_KNOT",
+        "SHADOW_SNEAK",
+        "FOUL_PLAY"
+      ],
+      "_atk": 122,
+      "_def": 124,
+      "_sta": 127,
+      "id": "PUMPKABOO_SMALL",
+      "name": "南瓜精 小尺寸",
+      "captureRate": 0.3,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_PUMPKABOO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 710,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "GRASS_KNOT",
+        "SHADOW_SNEAK",
+        "FOUL_PLAY"
+      ],
+      "_atk": 118,
+      "_def": 120,
+      "_sta": 153,
+      "id": "PUMPKABOO_SUPER",
+      "name": "南瓜精 特大尺寸",
+      "captureRate": 0.3,
       "fleeRate": 0.1,
       "buddyKm": 5,
       "familyId": "F_PUMPKABOO",
@@ -25620,10 +25713,100 @@
       "_atk": 175,
       "_def": 213,
       "_sta": 163,
-      "id": "GOURGEIST",
-      "name": "南瓜怪人",
-      "captureRate": 0.2,
-      "fleeRate": 0.1,
+      "id": "GOURGEIST_AVERAGE",
+      "name": "南瓜怪人 普通尺寸",
+      "captureRate": 0.13,
+      "fleeRate": 0.06,
+      "buddyKm": 5,
+      "familyId": "F_PUMPKABOO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 711,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "fastMoves": [
+        "HEX",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "SEED_BOMB",
+        "SHADOW_BALL",
+        "FOUL_PLAY",
+        "FIRE_BLAST"
+      ],
+      "_atk": 179,
+      "_def": 206,
+      "_sta": 181,
+      "id": "GOURGEIST_LARGE",
+      "name": "南瓜怪人 大尺寸",
+      "captureRate": 0.13,
+      "fleeRate": 0.06,
+      "buddyKm": 5,
+      "familyId": "F_PUMPKABOO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 711,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "fastMoves": [
+        "HEX",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "SEED_BOMB",
+        "SHADOW_BALL",
+        "FOUL_PLAY",
+        "FIRE_BLAST"
+      ],
+      "_atk": 171,
+      "_def": 219,
+      "_sta": 146,
+      "id": "GOURGEIST_SMALL",
+      "name": "南瓜怪人 小尺寸",
+      "captureRate": 0.13,
+      "fleeRate": 0.06,
+      "buddyKm": 5,
+      "familyId": "F_PUMPKABOO",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 711,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "fastMoves": [
+        "HEX",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "SEED_BOMB",
+        "SHADOW_BALL",
+        "FOUL_PLAY",
+        "FIRE_BLAST"
+      ],
+      "_atk": 182,
+      "_def": 200,
+      "_sta": 198,
+      "id": "GOURGEIST_SUPER",
+      "name": "南瓜怪人 特大尺寸",
+      "captureRate": 0.13,
+      "fleeRate": 0.06,
       "buddyKm": 5,
       "familyId": "F_PUMPKABOO",
       "genderMF": [
