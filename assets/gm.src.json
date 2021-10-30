@@ -18187,7 +18187,14 @@
       "chargedMoves": [
         "DARK_PULSE",
         "FOCUS_BLAST",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "SLUDGE_BOMB"
+      ],
+      "legacyMoves": [
+        "SLUDGE_BOMB"
+      ],
+      "eliteMoves": [
+        "SLUDGE_BOMB"
       ],
       "_atk": 285,
       "_def": 198,
@@ -25357,7 +25364,6 @@
         "THUNDER_SHOCK"
       ],
       "chargedMoves": [
-        "PARABOLIC_CHARGE",
         "DISCHARGE",
         "PLAY_ROUGH"
       ],
