@@ -10035,7 +10035,9 @@
         "FUTURE_SIGHT",
         "HYDRO_PUMP",
         "SKY_ATTACK",
-        "AEROBLAST"
+        "AEROBLAST",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "AEROBLAST"
@@ -12663,7 +12665,9 @@
         "BRICK_BREAK",
         "GRASS_KNOT",
         "SEED_BOMB",
-        "PAYBACK"
+        "PAYBACK",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 156,
       "_def": 74,
@@ -12693,7 +12697,9 @@
         "DARK_PULSE",
         "DYNAMIC_PUNCH",
         "GRASS_KNOT",
-        "PAYBACK"
+        "PAYBACK",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 221,
       "_def": 115,
@@ -15110,7 +15116,14 @@
       "chargedMoves": [
         "CRUNCH",
         "HYPER_BEAM",
-        "WILD_CHARGE"
+        "WILD_CHARGE",
+        "PSYCHIC_FANGS"
+      ],
+      "legacyMoves": [
+        "PSYCHIC_FANGS"
+      ],
+      "eliteMoves": [
+        "PSYCHIC_FANGS"
       ],
       "_atk": 232,
       "_def": 156,
@@ -23117,7 +23130,14 @@
       "chargedMoves": [
         "CLOSE_COMBAT",
         "EARTHQUAKE",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "SACRED_SWORD"
+      ],
+      "legacyMoves": [
+        "SACRED_SWORD"
+      ],
+      "eliteMoves": [
+        "SACRED_SWORD"
       ],
       "_atk": 260,
       "_def": 192,
@@ -23146,7 +23166,14 @@
       "chargedMoves": [
         "CLOSE_COMBAT",
         "LEAF_BLADE",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "SACRED_SWORD"
+      ],
+      "legacyMoves": [
+        "SACRED_SWORD"
+      ],
+      "eliteMoves": [
+        "SACRED_SWORD"
       ],
       "_atk": 192,
       "_def": 229,
@@ -31787,6 +31814,23 @@
       "pve_duration": 2.8,
       "pve_damageWindowStart": 1.3,
       "pve_damageWindowEnd": 2.6
+    },
+    {
+      "moveId": "PSYCHIC_FANGS",
+      "name": "精神之牙",
+      "power": 40,
+      "type": "psychic",
+      "energy": 35,
+      "energyGain": 0,
+      "effect": "[敵], 100%, -1階防",
+      "turn": 1,
+      "mid": "353",
+      "isFast": false,
+      "pve_power": 30,
+      "pve_energyDelta": -33,
+      "pve_duration": 1.2,
+      "pve_damageWindowStart": 0.4,
+      "pve_damageWindowEnd": 1.1
     },
     {
       "moveId": "PSYCHO_BOOST",
