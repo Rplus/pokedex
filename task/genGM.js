@@ -1,5 +1,5 @@
 
-const do_gm_to_family = require('./genFamily.js');
+const  do_gm_to_family = require('./genFamily.js');
 const compressJSON = require('./compress.js');
 const fs = require('fs');
 // const https = require('https');
@@ -18,6 +18,37 @@ let contents_FULL = fs.readFileSync('./data/gamemaster-full.json', 'utf8');
 let fullData = JSON.parse(contents_FULL);
 let twData = JSON.parse(contents_tw);
 
+// update mega pm, clone and replace stats & types
+{
+  let megaArr = [];
+  fullData.forEach(d => {
+    let tempEvoOverrides = d.data?.pokemonSettings?.tempEvoOverrides;// === 'TEMP_EVOLUTION_MEGA'
+    if (!tempEvoOverrides) {
+      return;
+    }
+    if (/_NORMAL/.test(d.data.pokemonSettings.form)) {
+      return;
+    }
+
+    tempEvoOverrides.forEach(evo => {
+      let tempPm = JSON.parse(JSON.stringify(d));
+      delete tempPm.data.pokemonSettings.evolutionBranch;
+      delete tempPm.data.pokemonSettings.tempEvoOverrides;
+      let idSuffix = evo.tempEvoId.replace('TEMP_EVOLUTION', '')
+      let id = tempPm.templateId + idSuffix;
+      tempPm.templateId = id;
+      tempPm.data.templateId = id;
+      tempPm.data.pokemonSettings.pokemonId += idSuffix;
+      tempPm.data.pokemonSettings.parentPokemonId = tempPm.data.pokemonSettings.pokemonId;
+      tempPm.data.pokemonSettings.stats = evo.stats;
+      tempPm.data.pokemonSettings.type = evo.typeOverride1;
+      tempPm.data.pokemonSettings.type2 = evo.typeOverride2;
+      megaArr.push(tempPm)
+    });
+  })
+  fullData = fullData.concat(megaArr);
+}
+
 let oPm = fullData.filter(i => i.data.pokemonSettings);
 let oMove = fullData.filter(i => i.data.moveSettings);
 let oGender = fullData.filter(i => i.data.genderSettings);
@@ -28,7 +59,7 @@ outputJSON({
   oMove,
 }, './data/o.json', 2);
 
-let allF =do_gm_to_family(JSON.parse(contents_FULL));
+let allF = do_gm_to_family(fullData);
 outputJSON(allF, './assets/allF.json', 0);
 outputJSON(allF, './data/allF.json', 2);
 

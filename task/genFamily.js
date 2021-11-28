@@ -1,4 +1,13 @@
+const fs = require('fs');
+const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
+  let fileContent = JSON.stringify(json, null, jsonSpace);
+  fs.writeFileSync(fileName, fileContent);
+  console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
+};
+
 module.exports = function do_gm_to_family(gm) { // GM v2 file
+  // outputJSON(gm, './log.json', 2);
+
   let props = [
     'pokemonSettings',
     'moveSettings',
@@ -18,6 +27,14 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
   let fff = ALL.pokemonSettings.reduce((all, pm) => {
     let pmdata = pm.data.pokemonSettings;
     let f = pmdata.familyId.replace('FAMILY_', 'F_');
+
+    ////////////////
+    // TODO: TEMP //
+    ////////////////
+    // if (pmdata.familyId !== 'FAMILY_SLOWPOKE') {
+    //   return all;
+    // }
+
     if (!all[f]) { all[f] = []; }
 
     all[f].push(
@@ -115,6 +132,7 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
           delete i.temporaryEvolutionEnergyCost;
           delete i.temporaryEvolution;
           delete i.questDisplay;
+          delete i.obPurificationEvolutionCandyCost;
           return i;
         }),
       }
@@ -124,65 +142,67 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
 
   let multiForm = [351, 386, 412, ]
   let multiFamily = ['FAMILY_CASTFORM', 'FAMILY_DEOXYS', 'FAMILY_BURMY', ]
+  let normalFormWhiteList = [
+    'V0351_POKEMON_CASTFORM_NORMAL',
+    'V0386_POKEMON_DEOXYS_NORMAL',
+    'V0646_POKEMON_KYUREM_NORMAL',
+    'V0479_POKEMON_ROTOM_NORMAL',
+    'V0487_POKEMON_GIRATINA_NORMAL',
+    'V0649_POKEMON_GENESECT_NORMAL',
+  ];
   let ggIds = [
-    "V0150_POKEMON_MEWTWO_NORMAL",
-    "V0226_POKEMON_MANTINE", // ????
-    "V0351_POKEMON_CASTFORM",
-    "V0386_POKEMON_DEOXYS",
-    "V0412_POKEMON_BURMY",
-    "V0413_POKEMON_WORMADAM",
-    "V0421_POKEMON_CHERRIM",
-    "V0422_POKEMON_SHELLOS",
-    "V0423_POKEMON_GASTRODON",
-    "V0479_POKEMON_ROTOM",
-    "V0487_POKEMON_GIRATINA",
-    "V0492_POKEMON_SHAYMIN",
-    "V0493_POKEMON_ARCEUS",
-    "V0550_POKEMON_BASCULIN",
-    "V0555_POKEMON_DARMANITAN",
-    "V0585_POKEMON_DEERLING",
-    "V0586_POKEMON_SAWSBUCK",
-    "V0592_POKEMON_FRILLISH_NORMAL",
-    "V0593_POKEMON_JELLICENT_NORMAL",
-    "V0641_POKEMON_TORNADUS",
-    "V0642_POKEMON_THUNDURUS",
-    "V0645_POKEMON_LANDORUS",
-    "V0646_POKEMON_KYUREM",
-    "V0647_POKEMON_KELDEO",
-    "V0648_POKEMON_MELOETTA",
-    "V0649_POKEMON_GENESECT",
+    'V0351_POKEMON_CASTFORM',
+    'V0386_POKEMON_DEOXYS',
+    'V0412_POKEMON_BURMY',
+    'V0422_POKEMON_SHELLOS',
+    'V0423_POKEMON_GASTRODON',
+    'V0479_POKEMON_ROTOM',
+    'V0487_POKEMON_GIRATINA',
+    'V0492_POKEMON_SHAYMIN',
+    'V0550_POKEMON_BASCULIN',
+    'V0585_POKEMON_DEERLING',
+    'V0641_POKEMON_TORNADUS',
+    'V0642_POKEMON_THUNDURUS',
+    'V0645_POKEMON_LANDORUS',
+    'V0646_POKEMON_KYUREM',
+    'V0647_POKEMON_KELDEO',
+    'V0648_POKEMON_MELOETTA',
+    'V0649_POKEMON_GENESECT',
   ];
 
   for (let f in fff) {
-    let hasShadow = fff[f].some(i => !i.form ? false : i.form.includes('_SHADOW') );
-    let hasALOLA = fff[f].some(i => !i.form ? false : i.form.includes('_ALOLA') );
-    let hasGALARIAN = fff[f].some(i => !i.form ? false : i.form.includes('_GALARIAN') );
+    // let hasShadow = fff[f].some(i => !i.form ? false : i.form.includes('_SHADOW') );
+    // let hasALOLA = fff[f].some(i => !i.form ? false : i.form.includes('_ALOLA') );
+    // let hasGALARIAN = fff[f].some(i => !i.form ? false : i.form.includes('_GALARIAN') );
 
-    {
-      fff[f].forEach(i => {
-        if (!i.next) { return; }
+    // {
+    //   fff[f].forEach(i => {
+    //     if (!i.next) { return; }
 
-        i.next.forEach(ii => {
-          if (hasShadow) {
-            if (ii.form) {
-              ii.form = ii.form.replace('_NORMAL', '');
-            }
-            if (ii.form === ii.name) {
-              delete ii.form;
-            }
-          }
-        });
-      });
-    }
+    //     // i.next.forEach(ii => {
+    //     //   if (hasShadow) {
+    //     //     if (ii.form) {
+    //     //       ii.form = ii.form.replace('_NORMAL', '');
+    //     //     }
+    //     //     if (ii.form === ii.name) {
+    //     //       delete ii.form;
+    //     //     }
+    //     //   }
+    //     // });
+    //   });
+    // }
 
     // remove something
     fff[f] = fff[f].filter(i => {
       return (
-        // shadow & purified normal type
-        !( hasShadow && /(_NORMAL|_SHADOW|_PURIFIED)$/.test(i.form) ) &&
+        // remove all shit normal type
+        !(normalFormWhiteList.indexOf(i.id) === -1 && /_NORMAL$/.test(i.form)) &&
 
-        // alola's normal type
-        !( ( (hasALOLA || hasGALARIAN) && /(_NORMAL)$/.test(i.form) ) )&&
+        // // shadow & purified normal type
+        // !( hasShadow && /(_NORMAL|_SHADOW|_PURIFIED)$/.test(i.form) ) &&
+
+        // // alola's normal type
+        // !( ( (hasALOLA || hasGALARIAN) && /(_NORMAL)$/.test(i.form) ) )&&
 
         // 2019 event
         !(i.form && /(_2019)$/.test(i.form)) &&
@@ -283,9 +303,9 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
     if (f === 'F_PIKACHU') {
       fff[f].push(
         {
-          "form": "PIKACHU_LIBRE",
-          "name": "PIKACHU",
-          "iso": 16
+          'form': 'PIKACHU_LIBRE',
+          'name': 'PIKACHU',
+          'iso': 16
         }
       );
     }
