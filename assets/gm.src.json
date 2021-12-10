@@ -7050,7 +7050,8 @@
       "chargedMoves": [
         "NIGHT_SHADE",
         "PSYCHIC",
-        "SKY_ATTACK"
+        "SKY_ATTACK",
+        "SHADOW_BALL"
       ],
       "_atk": 145,
       "_def": 156,
@@ -7769,7 +7770,8 @@
       "chargedMoves": [
         "EARTHQUAKE",
         "ROCK_SLIDE",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "ROCK_TOMB"
       ],
       "_atk": 167,
       "_def": 176,
@@ -8529,6 +8531,36 @@
       ]
     },
     {
+      "dex": 208,
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "IRON_TAIL",
+        "THUNDER_FANG"
+      ],
+      "chargedMoves": [
+        "CRUNCH",
+        "EARTHQUAKE",
+        "HEAVY_SLAM"
+      ],
+      "_atk": 212,
+      "_def": 327,
+      "_sta": 181,
+      "id": "STEELIX_MEGA",
+      "name": "大鋼蛇 Mega",
+      "captureRate": 0.1,
+      "fleeRate": 0.05,
+      "buddyKm": 5,
+      "familyId": "F_ONIX",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 209,
       "types": [
         "fairy"
@@ -8840,12 +8872,14 @@
       ],
       "fastMoves": [
         "EMBER",
-        "ROCK_THROW"
+        "ROCK_THROW",
+        "INCINERATE"
       ],
       "chargedMoves": [
         "HEAT_WAVE",
         "OVERHEAT",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "ROCK_TOMB"
       ],
       "_atk": 139,
       "_def": 191,
@@ -8987,7 +9021,8 @@
       ],
       "fastMoves": [
         "MUD_SHOT",
-        "WATER_GUN"
+        "WATER_GUN",
+        "LOCK_ON"
       ],
       "chargedMoves": [
         "AURORA_BEAM",
@@ -9282,7 +9317,8 @@
       "chargedMoves": [
         "EARTHQUAKE",
         "HEAVY_SLAM",
-        "PLAY_ROUGH"
+        "PLAY_ROUGH",
+        "BODY_SLAM"
       ],
       "_atk": 214,
       "_def": 185,
@@ -11842,6 +11878,7 @@
         "BODY_SLAM",
         "HEAVY_SLAM",
         "ROCK_SLIDE",
+        "ROCK_TOMB",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -11874,6 +11911,7 @@
         "HEAVY_SLAM",
         "STONE_EDGE",
         "THUNDER",
+        "ROCK_TOMB",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -13092,7 +13130,8 @@
         "PSYCHIC",
         "EARTH_POWER",
         "ICE_BEAM",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "ROCK_TOMB"
       ],
       "_atk": 140,
       "_def": 229,
@@ -13634,6 +13673,35 @@
       "_sta": 163,
       "id": "ABSOL",
       "name": "阿勃梭魯",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ABSOL",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 359,
+      "types": [
+        "dark"
+      ],
+      "fastMoves": [
+        "PSYCHO_CUT",
+        "SNARL"
+      ],
+      "chargedMoves": [
+        "DARK_PULSE",
+        "MEGAHORN",
+        "THUNDER",
+        "PAYBACK"
+      ],
+      "_atk": 314,
+      "_def": 130,
+      "_sta": 163,
+      "id": "ABSOL_MEGA",
+      "name": "阿勃梭魯 Mega",
       "captureRate": 0.5,
       "fleeRate": 0.1,
       "buddyKm": 5,
@@ -29761,7 +29829,7 @@
     {
       "moveId": "BUG_BUZZ",
       "name": "蟲鳴",
-      "power": 90,
+      "power": 100,
       "type": "bug",
       "energy": 60,
       "energyGain": 0,
@@ -29769,7 +29837,7 @@
       "turn": 1,
       "mid": "049",
       "isFast": false,
-      "pve_power": 90,
+      "pve_power": 100,
       "pve_energyDelta": -50,
       "pve_duration": 3.7,
       "pve_damageWindowStart": 2,
@@ -31672,7 +31740,7 @@
     {
       "moveId": "POUND",
       "name": "拍擊",
-      "power": 5,
+      "power": 4,
       "type": "normal",
       "energy": 0,
       "energyGain": 4,
@@ -32049,6 +32117,7 @@
       "type": "rock",
       "energy": 60,
       "energyGain": 0,
+      "effect": "[敵], 100%, -1階攻",
       "turn": 1,
       "mid": "063",
       "isFast": false,
