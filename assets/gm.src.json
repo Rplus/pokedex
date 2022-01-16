@@ -6272,6 +6272,38 @@
       ]
     },
     {
+      "dex": 142,
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "fastMoves": [
+        "BITE",
+        "STEEL_WING",
+        "ROCK_THROW"
+      ],
+      "chargedMoves": [
+        "ANCIENT_POWER",
+        "HYPER_BEAM",
+        "IRON_HEAD",
+        "ROCK_SLIDE",
+        "EARTH_POWER"
+      ],
+      "_atk": 292,
+      "_def": 210,
+      "_sta": 190,
+      "id": "AERODACTYL_MEGA",
+      "name": "化石翼龍 Mega",
+      "captureRate": 0.2,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_AERODACTYL",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
       "dex": 143,
       "types": [
         "normal"
@@ -13863,14 +13895,24 @@
       ],
       "fastMoves": [
         "FROST_BREATH",
-        "WATERFALL"
+        "WATERFALL",
+        "POWDER_SNOW"
       ],
       "chargedMoves": [
         "BLIZZARD",
         "EARTHQUAKE",
         "WATER_PULSE",
+        "ICICLE_SPEAR",
         "RETURN",
         "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "POWDER_SNOW",
+        "ICICLE_SPEAR"
+      ],
+      "eliteMoves": [
+        "POWDER_SNOW",
+        "ICICLE_SPEAR"
       ],
       "_atk": 182,
       "_def": 176,
@@ -15850,36 +15892,8 @@
       "_atk": 103,
       "_def": 105,
       "_sta": 183,
-      "id": "SHELLOS_EAST_SEA",
-      "name": "無殼海兔 東海型態",
-      "captureRate": 0.5,
-      "fleeRate": 0.1,
-      "buddyKm": 3,
-      "familyId": "F_SHELLOS",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 422,
-      "types": [
-        "water"
-      ],
-      "fastMoves": [
-        "MUD_SLAP",
-        "HIDDEN_POWER"
-      ],
-      "chargedMoves": [
-        "BODY_SLAM",
-        "MUD_BOMB",
-        "WATER_PULSE"
-      ],
-      "_atk": 103,
-      "_def": 105,
-      "_sta": 183,
-      "id": "SHELLOS_WEST_SEA",
-      "name": "無殼海兔 西海型態",
+      "id": "SHELLOS",
+      "name": "無殼海兔",
       "captureRate": 0.5,
       "fleeRate": 0.1,
       "buddyKm": 3,
@@ -15911,41 +15925,8 @@
       "_atk": 169,
       "_def": 143,
       "_sta": 244,
-      "id": "GASTRODON_EAST_SEA",
-      "name": "海兔獸 東海型態",
-      "captureRate": 0.2,
-      "fleeRate": 0.06,
-      "buddyKm": 3,
-      "familyId": "F_SHELLOS",
-      "genderMF": [
-        50,
-        50
-      ]
-    },
-    {
-      "dex": 423,
-      "types": [
-        "water",
-        "ground"
-      ],
-      "fastMoves": [
-        "MUD_SLAP",
-        "HIDDEN_POWER"
-      ],
-      "chargedMoves": [
-        "BODY_SLAM",
-        "WATER_PULSE",
-        "EARTH_POWER",
-        "EARTHQUAKE"
-      ],
-      "legacyMoves": [
-        "EARTHQUAKE"
-      ],
-      "_atk": 169,
-      "_def": 143,
-      "_sta": 244,
-      "id": "GASTRODON_WEST_SEA",
-      "name": "海兔獸 西海型態",
+      "id": "GASTRODON",
+      "name": "海兔獸",
       "captureRate": 0.2,
       "fleeRate": 0.06,
       "buddyKm": 3,
@@ -23845,7 +23826,8 @@
       "chargedMoves": [
         "X_SCISSOR",
         "MAGNET_BOMB",
-        "ZAP_CANNON"
+        "ZAP_CANNON",
+        "TECHNO_BLAST_SHOCK"
       ],
       "_atk": 252,
       "_def": 199,
@@ -31052,6 +31034,22 @@
       "pve_duration": 1.2,
       "pve_damageWindowStart": 0.6,
       "pve_damageWindowEnd": 0.9
+    },
+    {
+      "moveId": "ICICLE_SPEAR",
+      "name": "冰錐",
+      "power": 60,
+      "type": "ice",
+      "energy": 35,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "359",
+      "isFast": false,
+      "pve_power": 60,
+      "pve_energyDelta": -33,
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.8
     },
     {
       "moveId": "ICY_WIND",
