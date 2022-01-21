@@ -25192,7 +25192,7 @@
       "chargedMoves": [
         "PARABOLIC_CHARGE",
         "BULLDOZE",
-        "DISCHARGE"
+        "THUNDERBOLT"
       ],
       "_atk": 115,
       "_def": 78,
@@ -31609,14 +31609,14 @@
     {
       "moveId": "PARABOLIC_CHARGE",
       "name": "拋物面充電",
-      "power": 25,
+      "power": 65,
       "type": "electric",
       "energy": 55,
       "energyGain": 0,
       "turn": 1,
       "mid": "075",
       "isFast": false,
-      "pve_power": 25,
+      "pve_power": 65,
       "pve_energyDelta": -50,
       "pve_duration": 2.8,
       "pve_damageWindowStart": 1.2,
