@@ -4577,7 +4577,9 @@
         "DISCHARGE",
         "GYRO_BALL",
         "SIGNAL_BEAM",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "SIGNAL_BEAM"
@@ -4590,6 +4592,35 @@
       "_sta": 120,
       "id": "VOLTORB",
       "name": "霹靂電球",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_VOLTORB",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 100,
+      "types": [
+        "grass",
+        "electric"
+      ],
+      "fastMoves": [
+        "CHARGE_BEAM",
+        "TACKLE"
+      ],
+      "chargedMoves": [
+        "SWIFT",
+        "THUNDERBOLT",
+        "ENERGY_BALL"
+      ],
+      "_atk": 109,
+      "_def": 111,
+      "_sta": 120,
+      "id": "VOLTORB_HISUIAN",
+      "name": "霹靂電球 洗翠型態",
       "captureRate": 0.5,
       "fleeRate": 0.1,
       "buddyKm": 3,
@@ -4613,7 +4644,9 @@
         "DISCHARGE",
         "HYPER_BEAM",
         "THUNDERBOLT",
-        "FOUL_PLAY"
+        "FOUL_PLAY",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "TACKLE"
@@ -6718,7 +6751,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "ENERGY_BALL",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 92,
       "_def": 122,
@@ -6746,7 +6781,9 @@
       "chargedMoves": [
         "ANCIENT_POWER",
         "ENERGY_BALL",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 122,
       "_def": 155,
@@ -6775,7 +6812,9 @@
         "EARTHQUAKE",
         "FRENZY_PLANT",
         "PETAL_BLIZZARD",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "FRENZY_PLANT"
@@ -6809,7 +6848,9 @@
       "chargedMoves": [
         "FLAME_CHARGE",
         "FLAMETHROWER",
-        "SWIFT"
+        "SWIFT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 116,
       "_def": 93,
@@ -6837,7 +6878,9 @@
       "chargedMoves": [
         "DIG",
         "FLAME_CHARGE",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 158,
       "_def": 126,
@@ -6867,7 +6910,9 @@
         "BLAST_BURN",
         "FIRE_BLAST",
         "OVERHEAT",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "BLAST_BURN"
@@ -6901,7 +6946,9 @@
       "chargedMoves": [
         "AQUA_JET",
         "CRUNCH",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 117,
       "_def": 109,
@@ -6929,7 +6976,9 @@
       "chargedMoves": [
         "CRUNCH",
         "ICE_PUNCH",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 150,
       "_def": 142,
@@ -6960,7 +7009,9 @@
         "CRUNCH",
         "HYDRO_CANNON",
         "HYDRO_PUMP",
-        "ICE_BEAM"
+        "ICE_BEAM",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "WATER_GUN",
@@ -7934,8 +7985,15 @@
         "ENERGY_BALL",
         "AERIAL_ACE",
         "SOLAR_BEAM",
+        "ACROBATICS",
         "RETURN",
         "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "ACROBATICS"
+      ],
+      "eliteMoves": [
+        "ACROBATICS"
       ],
       "_atk": 118,
       "_def": 183,
@@ -11530,7 +11588,9 @@
       "chargedMoves": [
         "DISARMING_VOICE",
         "FLAMETHROWER",
-        "STOMP"
+        "STOMP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 92,
       "_def": 42,
@@ -11558,7 +11618,9 @@
       "chargedMoves": [
         "DISARMING_VOICE",
         "FLAMETHROWER",
-        "STOMP"
+        "STOMP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 134,
       "_def": 81,
@@ -11586,7 +11648,9 @@
       "chargedMoves": [
         "CRUNCH",
         "DISARMING_VOICE",
-        "FIRE_BLAST"
+        "FIRE_BLAST",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 179,
       "_def": 137,
@@ -14277,7 +14341,14 @@
       "chargedMoves": [
         "FOCUS_BLAST",
         "STONE_EDGE",
-        "ZAP_CANNON"
+        "ZAP_CANNON",
+        "EARTHQUAKE"
+      ],
+      "legacyMoves": [
+        "EARTHQUAKE"
+      ],
+      "eliteMoves": [
+        "EARTHQUAKE"
       ],
       "_atk": 179,
       "_def": 309,
@@ -14306,7 +14377,14 @@
       "chargedMoves": [
         "BLIZZARD",
         "EARTHQUAKE",
-        "FOCUS_BLAST"
+        "FOCUS_BLAST",
+        "THUNDER"
+      ],
+      "legacyMoves": [
+        "THUNDER"
+      ],
+      "eliteMoves": [
+        "THUNDER"
       ],
       "_atk": 179,
       "_def": 309,
@@ -14335,7 +14413,14 @@
       "chargedMoves": [
         "FLASH_CANNON",
         "FOCUS_BLAST",
-        "HYPER_BEAM"
+        "HYPER_BEAM",
+        "ZAP_CANNON"
+      ],
+      "legacyMoves": [
+        "ZAP_CANNON"
+      ],
+      "eliteMoves": [
+        "ZAP_CANNON"
       ],
       "_atk": 143,
       "_def": 285,
@@ -16712,7 +16797,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "DIG",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 124,
       "_def": 118,
@@ -16744,7 +16831,9 @@
         "EARTHQUAKE",
         "STONE_EDGE",
         "EARTH_POWER",
-        "WEATHER_BALL_ROCK"
+        "WEATHER_BALL_ROCK",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 201,
       "_def": 191,
@@ -31296,6 +31385,22 @@
       "pve_damageWindowEnd": 2.7
     },
     {
+      "moveId": "MAGICAL_LEAF",
+      "name": "魔法葉",
+      "power": 9,
+      "type": "grass",
+      "energy": 0,
+      "energyGain": 9,
+      "turn": 3,
+      "mid": "357",
+      "isFast": true,
+      "pve_power": 16,
+      "pve_energyDelta": 16,
+      "pve_duration": 1.4,
+      "pve_damageWindowStart": 0.75,
+      "pve_damageWindowEnd": 1.3
+    },
+    {
       "moveId": "MAGNET_BOMB",
       "name": "磁鐵炸彈",
       "power": 70,
@@ -32140,6 +32245,23 @@
       "pve_duration": 3.6,
       "pve_damageWindowStart": 2,
       "pve_damageWindowEnd": 2.7
+    },
+    {
+      "moveId": "SACRED_FIRE",
+      "name": "神聖之火",
+      "power": 120,
+      "type": "fire",
+      "energy": 70,
+      "energyGain": 0,
+      "effect": "[敵], 50%, -1階攻",
+      "turn": 1,
+      "mid": "358",
+      "isFast": false,
+      "pve_power": 120,
+      "pve_energyDelta": -100,
+      "pve_duration": 2.6,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 2.4
     },
     {
       "moveId": "SACRED_SWORD",
