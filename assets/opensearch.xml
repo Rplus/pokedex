@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>pokedex</ShortName>
+  <Description>pokedex search</Description>
+  <Url type="text/html" method="get" template="https://rplus.github.io/pokedex/?q={searchTerms}"/>
+  <Image width="16" height="16">https://rplus.github.io/favicon.ico</Image>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>https://rplus.github.io/pokedex/</moz:SearchForm>
+</OpenSearchDescription>
