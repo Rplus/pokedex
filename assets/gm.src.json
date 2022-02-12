@@ -29542,6 +29542,22 @@
       "pve_damageWindowEnd": 2.8
     },
     {
+      "moveId": "ACROBATICS",
+      "name": "雜技",
+      "power": 110,
+      "type": "flying",
+      "energy": 60,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "364",
+      "isFast": false,
+      "pve_power": 100,
+      "pve_energyDelta": -100,
+      "pve_duration": 2,
+      "pve_damageWindowStart": 0.6,
+      "pve_damageWindowEnd": 1.7
+    },
+    {
       "moveId": "AERIAL_ACE",
       "name": "燕返",
       "power": 55,
@@ -31387,10 +31403,10 @@
     {
       "moveId": "MAGICAL_LEAF",
       "name": "魔法葉",
-      "power": 9,
+      "power": 10,
       "type": "grass",
       "energy": 0,
-      "energyGain": 9,
+      "energyGain": 10,
       "turn": 3,
       "mid": "357",
       "isFast": true,
@@ -32249,9 +32265,9 @@
     {
       "moveId": "SACRED_FIRE",
       "name": "神聖之火",
-      "power": 120,
+      "power": 130,
       "type": "fire",
-      "energy": 70,
+      "energy": 65,
       "energyGain": 0,
       "effect": "[敵], 50%, -1階攻",
       "turn": 1,
