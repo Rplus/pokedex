@@ -4669,6 +4669,41 @@
       ]
     },
     {
+      "dex": 101,
+      "types": [
+        "electric",
+        "grass"
+      ],
+      "fastMoves": [
+        "THUNDER_SHOCK",
+        "TACKLE"
+      ],
+      "chargedMoves": [
+        "SWIFT",
+        "WILD_CHARGE",
+        "ENERGY_BALL"
+      ],
+      "legacyMoves": [
+        "TACKLE"
+      ],
+      "eliteMoves": [
+        "TACKLE"
+      ],
+      "_atk": 176,
+      "_def": 176,
+      "_sta": 155,
+      "id": "ELECTRODE_HISUIAN",
+      "name": "頑皮雷彈 洗翠型態",
+      "captureRate": 0.2,
+      "fleeRate": 0.06,
+      "buddyKm": 3,
+      "familyId": "F_VOLTORB",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
       "dex": 102,
       "types": [
         "grass",
@@ -10202,14 +10237,17 @@
         "FIRE_BLAST",
         "SOLAR_BEAM",
         "EARTHQUAKE",
+        "SACRED_FIRE",
         "RETURN",
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "SACRED_FIRE"
       ],
       "eliteMoves": [
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "SACRED_FIRE"
       ],
       "_atk": 239,
       "_def": 244,
@@ -10233,7 +10271,8 @@
       ],
       "fastMoves": [
         "CHARGE_BEAM",
-        "CONFUSION"
+        "CONFUSION",
+        "MAGICAL_LEAF"
       ],
       "chargedMoves": [
         "DAZZLING_GLEAM",
@@ -10241,6 +10280,12 @@
         "PSYCHIC",
         "SEED_BOMB",
         "LEAF_STORM"
+      ],
+      "legacyMoves": [
+        "MAGICAL_LEAF"
+      ],
+      "eliteMoves": [
+        "MAGICAL_LEAF"
       ],
       "_atk": 210,
       "_def": 210,
@@ -26335,6 +26380,2826 @@
       "fleeRate": 0.1,
       "buddyKm": 20,
       "familyId": "F_VOLCANION",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 722,
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "_atk": 102,
+      "_def": 99,
+      "_sta": 169,
+      "id": "ROWLET",
+      "name": "木木梟",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_ROWLET",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 723,
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "fastMoves": [
+        "PECK",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "SEED_BOMB",
+        "ENERGY_BALL",
+        "BRAVE_BIRD"
+      ],
+      "_atk": 142,
+      "_def": 139,
+      "_sta": 186,
+      "id": "DARTRIX",
+      "name": "投羽梟",
+      "captureRate": 0.1,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_ROWLET",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 724,
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoves": [
+        "SHADOW_SNEAK",
+        "ENERGY_BALL",
+        "BRAVE_BIRD"
+      ],
+      "_atk": 210,
+      "_def": 179,
+      "_sta": 186,
+      "id": "DECIDUEYE",
+      "name": "狙射樹梟",
+      "captureRate": 0.05,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_ROWLET",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 725,
+      "types": [
+        "fire"
+      ],
+      "fastMoves": [
+        "SCRATCH",
+        "EMBER"
+      ],
+      "chargedMoves": [
+        "FLAMETHROWER",
+        "FLAME_CHARGE",
+        "CRUNCH"
+      ],
+      "_atk": 128,
+      "_def": 79,
+      "_sta": 128,
+      "id": "LITTEN",
+      "name": "火斑喵",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_LITTEN",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 726,
+      "types": [
+        "fire"
+      ],
+      "fastMoves": [
+        "BITE",
+        "EMBER"
+      ],
+      "chargedMoves": [
+        "FLAMETHROWER",
+        "FLAME_CHARGE",
+        "CRUNCH"
+      ],
+      "_atk": 174,
+      "_def": 103,
+      "_sta": 163,
+      "id": "TORRACAT",
+      "name": "炎熱喵",
+      "captureRate": 0.1,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_LITTEN",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 727,
+      "types": [
+        "fire",
+        "dark"
+      ],
+      "fastMoves": [
+        "SNARL",
+        "FIRE_FANG"
+      ],
+      "chargedMoves": [
+        "FIRE_BLAST",
+        "FLAME_CHARGE",
+        "DARK_PULSE"
+      ],
+      "_atk": 214,
+      "_def": 175,
+      "_sta": 216,
+      "id": "INCINEROAR",
+      "name": "熾焰咆哮虎",
+      "captureRate": 0.05,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_LITTEN",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 728,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "POUND",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "AQUA_JET",
+        "WATER_PULSE",
+        "AQUA_TAIL"
+      ],
+      "_atk": 120,
+      "_def": 103,
+      "_sta": 137,
+      "id": "POPPLIO",
+      "name": "球球海獅",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_POPPLIO",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 729,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "CHARM",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "AQUA_JET",
+        "WATER_PULSE",
+        "DISARMING_VOICE"
+      ],
+      "_atk": 168,
+      "_def": 145,
+      "_sta": 155,
+      "id": "BRIONNE",
+      "name": "花漾海獅",
+      "captureRate": 0.1,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_POPPLIO",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 730,
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "fastMoves": [
+        "CHARM",
+        "WATERFALL"
+      ],
+      "chargedMoves": [
+        "PSYCHIC",
+        "HYDRO_PUMP",
+        "MOONBLAST"
+      ],
+      "_atk": 232,
+      "_def": 195,
+      "_sta": 190,
+      "id": "PRIMARINA",
+      "name": "西獅海壬",
+      "captureRate": 0.05,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_POPPLIO",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 731,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "fastMoves": [
+        "PECK",
+        "ROCK_SMASH"
+      ],
+      "chargedMoves": [
+        "DRILL_PECK",
+        "AERIAL_ACE",
+        "SKY_ATTACK"
+      ],
+      "_atk": 136,
+      "_def": 59,
+      "_sta": 111,
+      "id": "PIKIPEK",
+      "name": "小篤兒",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_PIKIPEK",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 732,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "fastMoves": [
+        "PECK",
+        "ROCK_SMASH"
+      ],
+      "chargedMoves": [
+        "DRILL_PECK",
+        "ROCK_BLAST",
+        "SKY_ATTACK"
+      ],
+      "_atk": 159,
+      "_def": 100,
+      "_sta": 146,
+      "id": "TRUMBEAK",
+      "name": "喇叭啄鳥",
+      "captureRate": 0.25,
+      "fleeRate": 0.09,
+      "buddyKm": 1,
+      "familyId": "F_PIKIPEK",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 733,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "fastMoves": [
+        "PECK",
+        "ROCK_SMASH",
+        "BULLET_SEED"
+      ],
+      "chargedMoves": [
+        "DRILL_PECK",
+        "ROCK_BLAST",
+        "FLASH_CANNON"
+      ],
+      "_atk": 222,
+      "_def": 146,
+      "_sta": 190,
+      "id": "TOUCANNON",
+      "name": "銃嘴大鳥",
+      "captureRate": 0.13,
+      "fleeRate": 0.05,
+      "buddyKm": 1,
+      "familyId": "F_PIKIPEK",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 734,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "HYPER_FANG",
+        "CRUNCH",
+        "ROCK_TOMB"
+      ],
+      "_atk": 122,
+      "_def": 56,
+      "_sta": 134,
+      "id": "YUNGOOS",
+      "name": "貓鼬少",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_YUNGOOS",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 735,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "TAKE_DOWN",
+        "BITE"
+      ],
+      "chargedMoves": [
+        "HYPER_FANG",
+        "CRUNCH",
+        "ROCK_TOMB"
+      ],
+      "_atk": 194,
+      "_def": 113,
+      "_sta": 204,
+      "id": "GUMSHOOS",
+      "name": "貓鼬探長",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_YUNGOOS",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 736,
+      "types": [
+        "bug"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 115,
+      "_def": 85,
+      "_sta": 132,
+      "id": "GRUBBIN",
+      "name": "強顎雞母蟲",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_GRUBBIN",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 737,
+      "types": [
+        "bug",
+        "electric"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 145,
+      "_def": 161,
+      "_sta": 149,
+      "id": "CHARJABUG",
+      "name": "蟲電寶",
+      "captureRate": 0.25,
+      "fleeRate": 0.09,
+      "buddyKm": 1,
+      "familyId": "F_GRUBBIN",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 738,
+      "types": [
+        "bug",
+        "electric"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 254,
+      "_def": 158,
+      "_sta": 184,
+      "id": "VIKAVOLT",
+      "name": "鍬農炮蟲",
+      "captureRate": 0.13,
+      "fleeRate": 0.05,
+      "buddyKm": 1,
+      "familyId": "F_GRUBBIN",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 739,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 150,
+      "_def": 104,
+      "_sta": 132,
+      "id": "CRABRAWLER",
+      "name": "好勝蟹",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CRABRAWLER",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 740,
+      "types": [
+        "fighting",
+        "ice"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 231,
+      "_def": 138,
+      "_sta": 219,
+      "id": "CRABOMINABLE",
+      "name": "好勝毛蟹",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_CRABRAWLER",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 742,
+      "types": [
+        "bug",
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 110,
+      "_def": 81,
+      "_sta": 120,
+      "id": "CUTIEFLY",
+      "name": "萌虻",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 1,
+      "familyId": "F_CUTIEFLY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 743,
+      "types": [
+        "bug",
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 146,
+      "_sta": 155,
+      "id": "RIBOMBEE",
+      "name": "蝶結萌虻",
+      "captureRate": 0.15,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_CUTIEFLY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 744,
+      "types": [
+        "rock"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "ROCK_THROW"
+      ],
+      "chargedMoves": [
+        "STONE_EDGE",
+        "ROCK_TOMB",
+        "CRUNCH"
+      ],
+      "_atk": 117,
+      "_def": 78,
+      "_sta": 128,
+      "id": "ROCKRUFF",
+      "name": "岩狗狗",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROCKRUFF",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 745,
+      "types": [
+        "rock"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 234,
+      "_def": 139,
+      "_sta": 181,
+      "id": "LYCANROC_DUSK",
+      "name": "鬃岩狼人 黃昏",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROCKRUFF",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 745,
+      "types": [
+        "rock"
+      ],
+      "fastMoves": [
+        "SUCKER_PUNCH",
+        "ROCK_THROW"
+      ],
+      "chargedMoves": [
+        "STONE_EDGE",
+        "DRILL_RUN",
+        "CRUNCH"
+      ],
+      "_atk": 231,
+      "_def": 140,
+      "_sta": 181,
+      "id": "LYCANROC_MIDDAY",
+      "name": "鬃岩狼人 白晝",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROCKRUFF",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 745,
+      "types": [
+        "rock"
+      ],
+      "fastMoves": [
+        "COUNTER",
+        "ROCK_THROW"
+      ],
+      "chargedMoves": [
+        "STONE_EDGE",
+        "PSYCHIC_FANGS",
+        "CRUNCH"
+      ],
+      "_atk": 218,
+      "_def": 152,
+      "_sta": 198,
+      "id": "LYCANROC_MIDNIGHT",
+      "name": "鬃岩狼人 黑夜",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_ROCKRUFF",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 746,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 46,
+      "_def": 43,
+      "_sta": 128,
+      "id": "WISHIWASHI",
+      "name": "弱丁魚",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_WISHIWASHI",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 746,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 255,
+      "_def": 242,
+      "_sta": 128,
+      "id": "WISHIWASHI_SCHOOL",
+      "name": "弱丁魚 魚群樣子",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_WISHIWASHI",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 746,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 46,
+      "_def": 43,
+      "_sta": 128,
+      "id": "WISHIWASHI_SOLO",
+      "name": "弱丁魚 單獨樣子",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 1,
+      "familyId": "F_WISHIWASHI",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 747,
+      "types": [
+        "poison",
+        "water"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 98,
+      "_def": 110,
+      "_sta": 137,
+      "id": "MAREANIE",
+      "name": "好壞星",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MAREANIE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 748,
+      "types": [
+        "poison",
+        "water"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 114,
+      "_def": 273,
+      "_sta": 137,
+      "id": "TOXAPEX",
+      "name": "超壞星",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MAREANIE",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 749,
+      "types": [
+        "ground"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 175,
+      "_def": 121,
+      "_sta": 172,
+      "id": "MUDBRAY",
+      "name": "泥驢仔",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MUDBRAY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 750,
+      "types": [
+        "ground"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 214,
+      "_def": 174,
+      "_sta": 225,
+      "id": "MUDSDALE",
+      "name": "重泥挽馬",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MUDBRAY",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 751,
+      "types": [
+        "water",
+        "bug"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 72,
+      "_def": 117,
+      "_sta": 116,
+      "id": "DEWPIDER",
+      "name": "滴蛛",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DEWPIDER",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 752,
+      "types": [
+        "water",
+        "bug"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 126,
+      "_def": 219,
+      "_sta": 169,
+      "id": "ARAQUANID",
+      "name": "滴蛛霸",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_DEWPIDER",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 753,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 100,
+      "_def": 64,
+      "_sta": 120,
+      "id": "FOMANTIS",
+      "name": "偽螳草",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_FOMANTIS",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 754,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 192,
+      "_def": 169,
+      "_sta": 172,
+      "id": "LURANTIS",
+      "name": "蘭螳花",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_FOMANTIS",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 755,
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 108,
+      "_def": 119,
+      "_sta": 120,
+      "id": "MORELULL",
+      "name": "睡睡菇",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MORELULL",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 756,
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 154,
+      "_def": 168,
+      "_sta": 155,
+      "id": "SHIINOTIC",
+      "name": "燈罩夜菇",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MORELULL",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 757,
+      "types": [
+        "poison",
+        "fire"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 136,
+      "_def": 80,
+      "_sta": 134,
+      "id": "SALANDIT",
+      "name": "夜盜火蜥",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SALANDIT",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 758,
+      "types": [
+        "poison",
+        "fire"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 228,
+      "_def": 130,
+      "_sta": 169,
+      "id": "SALAZZLE",
+      "name": "焰後蜥",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SALANDIT",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 759,
+      "types": [
+        "normal",
+        "fighting"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 136,
+      "_def": 95,
+      "_sta": 172,
+      "id": "STUFFUL",
+      "name": "童偶熊",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_STUFFUL",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 760,
+      "types": [
+        "normal",
+        "fighting"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 226,
+      "_def": 141,
+      "_sta": 260,
+      "id": "BEWEAR",
+      "name": "穿著熊",
+      "captureRate": 0.2,
+      "fleeRate": 0.06,
+      "buddyKm": 1,
+      "familyId": "F_STUFFUL",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 761,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 55,
+      "_def": 69,
+      "_sta": 123,
+      "id": "BOUNSWEET",
+      "name": "甜竹竹",
+      "captureRate": 0.5,
+      "fleeRate": 0.2,
+      "buddyKm": 3,
+      "familyId": "F_BOUNSWEET",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 762,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 78,
+      "_def": 94,
+      "_sta": 141,
+      "id": "STEENEE",
+      "name": "甜舞妮",
+      "captureRate": 0.25,
+      "fleeRate": 0.09,
+      "buddyKm": 3,
+      "familyId": "F_BOUNSWEET",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 763,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 222,
+      "_def": 195,
+      "_sta": 176,
+      "id": "TSAREENA",
+      "name": "甜冷美後",
+      "captureRate": 0.13,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_BOUNSWEET",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 764,
+      "types": [
+        "fairy"
+      ],
+      "fastMoves": [
+        "VINE_WHIP",
+        "HIDDEN_POWER"
+      ],
+      "chargedMoves": [
+        "PETAL_BLIZZARD",
+        "GRASS_KNOT",
+        "DRAINING_KISS"
+      ],
+      "_atk": 165,
+      "_def": 215,
+      "_sta": 139,
+      "id": "COMFEY",
+      "name": "花療環環",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_COMFEY",
+      "genderMF": [
+        25,
+        75
+      ]
+    },
+    {
+      "dex": 765,
+      "types": [
+        "normal",
+        "psychic"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 168,
+      "_def": 192,
+      "_sta": 207,
+      "id": "ORANGURU",
+      "name": "智揮猩",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ORANGURU",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 766,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 222,
+      "_def": 160,
+      "_sta": 225,
+      "id": "PASSIMIAN",
+      "name": "投擲猴",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_PASSIMIAN",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 767,
+      "types": [
+        "bug",
+        "water"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 67,
+      "_def": 74,
+      "_sta": 93,
+      "id": "WIMPOD",
+      "name": "膽小蟲",
+      "captureRate": 0.5,
+      "fleeRate": 0.1,
+      "buddyKm": 1,
+      "familyId": "F_WIMPOD",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 768,
+      "types": [
+        "bug",
+        "water"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 218,
+      "_def": 226,
+      "_sta": 181,
+      "id": "GOLISOPOD",
+      "name": "具甲武者",
+      "captureRate": 0.2,
+      "fleeRate": 0.06,
+      "buddyKm": 1,
+      "familyId": "F_WIMPOD",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 769,
+      "types": [
+        "ghost",
+        "ground"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 120,
+      "_def": 118,
+      "_sta": 146,
+      "id": "SANDYGAST",
+      "name": "沙丘娃",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SANDYGAST",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 770,
+      "types": [
+        "ghost",
+        "ground"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 178,
+      "_def": 178,
+      "_sta": 198,
+      "id": "PALOSSAND",
+      "name": "噬沙堡爺",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_SANDYGAST",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 771,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 97,
+      "_def": 224,
+      "_sta": 146,
+      "id": "PYUKUMUKU",
+      "name": "拳海參",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_PYUKUMUKU",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 772,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 184,
+      "_def": 184,
+      "_sta": 216,
+      "id": "TYPE_NULL",
+      "name": "屬性：空",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY",
+      "name": "銀伴戰獸",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "bug"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_BUG",
+      "name": "銀伴戰獸 蟲",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "dark"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_DARK",
+      "name": "銀伴戰獸 惡",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "dragon"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_DRAGON",
+      "name": "銀伴戰獸 龍",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_ELECTRIC",
+      "name": "銀伴戰獸 電",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_FAIRY",
+      "name": "銀伴戰獸 妖",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "fighting"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_FIGHTING",
+      "name": "銀伴戰獸 鬥",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "fire"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_FIRE",
+      "name": "銀伴戰獸 火",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "flying"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_FLYING",
+      "name": "銀伴戰獸 飛",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_GHOST",
+      "name": "銀伴戰獸 幽",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "grass"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_GRASS",
+      "name": "銀伴戰獸 草",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "ground"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_GROUND",
+      "name": "銀伴戰獸 地",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "ice"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_ICE",
+      "name": "銀伴戰獸 冰",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "poison"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_POISON",
+      "name": "銀伴戰獸 毒",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "psychic"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_PSYCHIC",
+      "name": "銀伴戰獸 超",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "rock"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_ROCK",
+      "name": "銀伴戰獸 岩",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "steel"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_STEEL",
+      "name": "銀伴戰獸 鋼",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 773,
+      "types": [
+        "water"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 198,
+      "_def": 198,
+      "_sta": 216,
+      "id": "SILVALLY_WATER",
+      "name": "銀伴戰獸 水",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_TYPE_NULL",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 774,
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 218,
+      "_def": 131,
+      "_sta": 155,
+      "id": "MINIOR_CORE",
+      "name": "小隕星 核心樣子"
+    },
+    {
+      "dex": 774,
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 116,
+      "_def": 194,
+      "_sta": 155,
+      "id": "MINIOR_METEOR",
+      "name": "小隕星 流星樣子",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_MINIOR",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 775,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 216,
+      "_def": 165,
+      "_sta": 163,
+      "id": "KOMALA",
+      "name": "樹枕尾熊",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_KOMALA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 776,
+      "types": [
+        "fire",
+        "dragon"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 165,
+      "_def": 215,
+      "_sta": 155,
+      "id": "TURTONATOR",
+      "name": "爆焰龜獸",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_TURTONATOR",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 777,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 190,
+      "_def": 145,
+      "_sta": 163,
+      "id": "TOGEDEMARU",
+      "name": "托戈德瑪爾",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_TOGEDEMARU",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 778,
+      "types": [
+        "ghost",
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 177,
+      "_def": 199,
+      "_sta": 146,
+      "id": "MIMIKYU",
+      "name": "謎擬Ｑ",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_MIMIKYU",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 779,
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 208,
+      "_def": 145,
+      "_sta": 169,
+      "id": "BRUXISH",
+      "name": "磨牙彩皮魚",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 3,
+      "familyId": "F_BRUXISH",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 780,
+      "types": [
+        "normal",
+        "dragon"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 231,
+      "_def": 164,
+      "_sta": 186,
+      "id": "DRAMPA",
+      "name": "老翁龍",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_DRAMPA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 781,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 233,
+      "_def": 179,
+      "_sta": 172,
+      "id": "DHELMISE",
+      "name": "破破舵輪",
+      "captureRate": 0.2,
+      "fleeRate": 0.1,
+      "buddyKm": 5,
+      "familyId": "F_DHELMISE",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 782,
+      "types": [
+        "dragon"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "DRAGON_TAIL"
+      ],
+      "chargedMoves": [
+        "DRAGON_CLAW",
+        "BRICK_BREAK",
+        "DRAGON_PULSE"
+      ],
+      "_atk": 102,
+      "_def": 108,
+      "_sta": 128,
+      "id": "JANGMO_O",
+      "name": "心鱗寶",
+      "captureRate": 0.4,
+      "fleeRate": 0.09,
+      "buddyKm": 5,
+      "familyId": "F_JANGMO_O",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 783,
+      "types": [
+        "dragon",
+        "fighting"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "DRAGON_TAIL"
+      ],
+      "chargedMoves": [
+        "DRAGON_CLAW",
+        "BRICK_BREAK",
+        "DRAGON_PULSE"
+      ],
+      "_atk": 145,
+      "_def": 162,
+      "_sta": 146,
+      "id": "HAKAMO_O",
+      "name": "鱗甲龍",
+      "captureRate": 0.1,
+      "fleeRate": 0.07,
+      "buddyKm": 5,
+      "familyId": "F_JANGMO_O",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 784,
+      "types": [
+        "dragon",
+        "fighting"
+      ],
+      "fastMoves": [
+        "POISON_JAB",
+        "DRAGON_TAIL"
+      ],
+      "chargedMoves": [
+        "DRAGON_CLAW",
+        "CLOSE_COMBAT",
+        "FLAMETHROWER"
+      ],
+      "_atk": 222,
+      "_def": 240,
+      "_sta": 181,
+      "id": "KOMMO_O",
+      "name": "杖尾鱗甲龍",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 5,
+      "familyId": "F_JANGMO_O",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 785,
+      "types": [
+        "electric",
+        "fairy"
+      ],
+      "fastMoves": [
+        "VOLT_SWITCH",
+        "QUICK_ATTACK"
+      ],
+      "chargedMoves": [
+        "THUNDERBOLT",
+        "DAZZLING_GLEAM",
+        "BRAVE_BIRD",
+        "THUNDER"
+      ],
+      "_atk": 250,
+      "_def": 181,
+      "_sta": 172,
+      "id": "TAPU_KOKO",
+      "name": "卡璞・鳴鳴",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_TAPU_KOKO",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 786,
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 259,
+      "_def": 208,
+      "_sta": 172,
+      "id": "TAPU_LELE",
+      "name": "卡璞・蝶蝶",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_TAPU_LELE",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 787,
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 249,
+      "_def": 215,
+      "_sta": 172,
+      "id": "TAPU_BULU",
+      "name": "卡璞・哞哞",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_TAPU_BULU",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 788,
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 189,
+      "_def": 254,
+      "_sta": 172,
+      "id": "TAPU_FINI",
+      "name": "卡璞・鰭鰭",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_TAPU_FINI",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 789,
+      "types": [
+        "psychic"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 54,
+      "_def": 57,
+      "_sta": 125,
+      "id": "COSMOG",
+      "name": "科斯莫古",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_COSMOG",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 790,
+      "types": [
+        "psychic"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 54,
+      "_def": 242,
+      "_sta": 125,
+      "id": "COSMOEM",
+      "name": "科斯莫姆",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_COSMOG",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 791,
+      "types": [
+        "psychic",
+        "steel"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 255,
+      "_def": 191,
+      "_sta": 264,
+      "id": "SOLGALEO",
+      "name": "索爾迦雷歐",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_COSMOG",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 792,
+      "types": [
+        "psychic",
+        "ghost"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 255,
+      "_def": 191,
+      "_sta": 264,
+      "id": "LUNALA",
+      "name": "露奈雅拉",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_COSMOG",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 793,
+      "types": [
+        "rock",
+        "poison"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 249,
+      "_def": 210,
+      "_sta": 240,
+      "id": "NIHILEGO",
+      "name": "虛吾伊德",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_NIHILEGO",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 794,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 236,
+      "_def": 196,
+      "_sta": 216,
+      "id": "BUZZWOLE",
+      "name": "爆肌蚊",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_BUZZWOLE",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 795,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 316,
+      "_def": 85,
+      "_sta": 174,
+      "id": "PHEROMOSA",
+      "name": "費洛美螂",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_PHEROMOSA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 796,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 330,
+      "_def": 144,
+      "_sta": 195,
+      "id": "XURKITREE",
+      "name": "電束木",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_XURKITREE",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 797,
+      "types": [
+        "steel",
+        "flying"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 207,
+      "_def": 199,
+      "_sta": 219,
+      "id": "CELESTEELA",
+      "name": "鐵火輝夜",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_CELESTEELA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 798,
+      "types": [
+        "grass",
+        "steel"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 323,
+      "_def": 182,
+      "_sta": 139,
+      "id": "KARTANA",
+      "name": "紙御劍",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_KARTANA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 799,
+      "types": [
+        "dark",
+        "dragon"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 188,
+      "_def": 99,
+      "_sta": 440,
+      "id": "GUZZLORD",
+      "name": "惡食大王",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_GUZZLORD",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 800,
+      "types": [
+        "psychic"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 251,
+      "_def": 195,
+      "_sta": 219,
+      "id": "NECROZMA",
+      "name": "奈克洛茲瑪",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_NECROZMA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 800,
+      "types": [
+        "psychic",
+        "ghost"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 277,
+      "_def": 220,
+      "_sta": 200,
+      "id": "NECROZMA_DAWN_WINGS",
+      "name": "奈克洛茲瑪 拂曉之翼",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_NECROZMA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 800,
+      "types": [
+        "psychic",
+        "steel"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 277,
+      "_def": 220,
+      "_sta": 200,
+      "id": "NECROZMA_DUSK_MANE",
+      "name": "奈克洛茲瑪 黃昏之鬃",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_NECROZMA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 800,
+      "types": [
+        "psychic",
+        "dragon"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 337,
+      "_def": 196,
+      "_sta": 200,
+      "id": "NECROZMA_ULTRA",
+      "name": "奈克洛茲瑪 究極型態",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_NECROZMA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 801,
+      "types": [
+        "steel",
+        "fairy"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 246,
+      "_def": 225,
+      "_sta": 190,
+      "id": "MAGEARNA",
+      "name": "瑪機雅娜",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_MAGEARNA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 803,
+      "types": [
+        "poison"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 145,
+      "_def": 133,
+      "_sta": 167,
+      "id": "POIPOLE",
+      "name": "毒貝比",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_POIPOLE",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 804,
+      "types": [
+        "poison",
+        "dragon"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 263,
+      "_def": 159,
+      "_sta": 177,
+      "id": "NAGANADEL",
+      "name": "四顎針龍",
+      "captureRate": 0.3,
+      "buddyKm": 20,
+      "familyId": "F_POIPOLE",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 805,
+      "types": [
+        "rock",
+        "steel"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 213,
+      "_def": 298,
+      "_sta": 156,
+      "id": "STAKATAKA",
+      "name": "壘磊石",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_STAKATAKA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 806,
+      "types": [
+        "fire",
+        "ghost"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 315,
+      "_def": 148,
+      "_sta": 142,
+      "id": "BLACEPHALON",
+      "name": "砰頭小丑",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_BLACEPHALON",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 807,
+      "types": [
+        "electric"
+      ],
+      "fastMoves": [
+        "STRUGGLE"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 252,
+      "_def": 177,
+      "_sta": 204,
+      "id": "ZERAORA",
+      "name": "捷拉奧拉",
+      "captureRate": 0.02,
+      "fleeRate": 0.1,
+      "buddyKm": 20,
+      "familyId": "F_ZERAORA",
       "genderMF": [
         0,
         0
