@@ -1462,8 +1462,15 @@
         "BULLDOZE",
         "EARTHQUAKE",
         "ROCK_TOMB",
+        "NIGHT_SLASH",
         "RETURN",
         "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "NIGHT_SLASH"
+      ],
+      "eliteMoves": [
+        "NIGHT_SLASH"
       ],
       "_atk": 182,
       "_def": 175,
@@ -1487,13 +1494,20 @@
       ],
       "fastMoves": [
         "METAL_CLAW",
-        "POWDER_SNOW"
+        "POWDER_SNOW",
+        "SHADOW_CLAW"
       ],
       "chargedMoves": [
         "BLIZZARD",
         "BULLDOZE",
         "GYRO_BALL",
         "ICE_PUNCH"
+      ],
+      "legacyMoves": [
+        "SHADOW_CLAW"
+      ],
+      "eliteMoves": [
+        "SHADOW_CLAW"
       ],
       "_atk": 177,
       "_def": 195,
@@ -26914,6 +26928,114 @@
       ]
     },
     {
+      "dex": 741,
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "fastMoves": [
+        "POUND",
+        "AIR_SLASH"
+      ],
+      "chargedMoves": [
+        "AERIAL_ACE",
+        "AIR_CUTTER",
+        "HURRICANE"
+      ],
+      "_atk": 196,
+      "_def": 145,
+      "_sta": 181,
+      "id": "ORICORIO_BAILE",
+      "name": "Oricorio (Baile)",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ORICORIO",
+      "genderMF": [
+        25,
+        75
+      ]
+    },
+    {
+      "dex": 741,
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "fastMoves": [
+        "POUND",
+        "AIR_SLASH"
+      ],
+      "chargedMoves": [
+        "AERIAL_ACE",
+        "AIR_CUTTER",
+        "HURRICANE"
+      ],
+      "_atk": 196,
+      "_def": 145,
+      "_sta": 181,
+      "id": "ORICORIO_PAU",
+      "name": "Oricorio (Pa'u)",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ORICORIO",
+      "genderMF": [
+        25,
+        75
+      ]
+    },
+    {
+      "dex": 741,
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "fastMoves": [
+        "POUND",
+        "AIR_SLASH"
+      ],
+      "chargedMoves": [
+        "AERIAL_ACE",
+        "AIR_CUTTER",
+        "HURRICANE"
+      ],
+      "_atk": 196,
+      "_def": 145,
+      "_sta": 181,
+      "id": "ORICORIO_POM_POM",
+      "name": "Oricorio (Pom-Pom)"
+    },
+    {
+      "dex": 741,
+      "types": [
+        "ghost",
+        "flying"
+      ],
+      "fastMoves": [
+        "POUND",
+        "AIR_SLASH"
+      ],
+      "chargedMoves": [
+        "AERIAL_ACE",
+        "AIR_CUTTER",
+        "HURRICANE"
+      ],
+      "_atk": 196,
+      "_def": 145,
+      "_sta": 181,
+      "id": "ORICORIO_SENSU",
+      "name": "Oricorio (Sensu)",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_ORICORIO",
+      "genderMF": [
+        25,
+        75
+      ]
+    },
+    {
       "dex": 742,
       "types": [
         "bug",
@@ -28282,15 +28404,7 @@
       "_def": 194,
       "_sta": 155,
       "id": "MINIOR_METEOR",
-      "name": "小隕星 流星樣子",
-      "captureRate": 0.2,
-      "fleeRate": 0.1,
-      "buddyKm": 3,
-      "familyId": "F_MINIOR",
-      "genderMF": [
-        0,
-        0
-      ]
+      "name": "小隕星 流星樣子"
     },
     {
       "dex": 775,
@@ -28596,10 +28710,14 @@
         "fairy"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "CONFUSION",
+        "ASTONISH"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "PSYSHOCK",
+        "MOONBLAST",
+        "FOCUS_BLAST",
+        "FUTURE_SIGHT"
       ],
       "_atk": 259,
       "_def": 208,
