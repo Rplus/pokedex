@@ -26946,7 +26946,7 @@
       "_def": 145,
       "_sta": 181,
       "id": "ORICORIO_BAILE",
-      "name": "Oricorio (Baile)",
+      "name": "花舞鳥 熱辣熱辣風格",
       "captureRate": 0.2,
       "fleeRate": 0.07,
       "buddyKm": 3,
@@ -26975,7 +26975,7 @@
       "_def": 145,
       "_sta": 181,
       "id": "ORICORIO_PAU",
-      "name": "Oricorio (Pa'u)",
+      "name": "花舞鳥 呼拉呼拉風格",
       "captureRate": 0.2,
       "fleeRate": 0.07,
       "buddyKm": 3,
@@ -27004,7 +27004,7 @@
       "_def": 145,
       "_sta": 181,
       "id": "ORICORIO_POM_POM",
-      "name": "Oricorio (Pom-Pom)"
+      "name": "花舞鳥 啪滋啪滋風格"
     },
     {
       "dex": 741,
@@ -27025,7 +27025,7 @@
       "_def": 145,
       "_sta": 181,
       "id": "ORICORIO_SENSU",
-      "name": "Oricorio (Sensu)",
+      "name": "花舞鳥 輕盈輕盈風格",
       "captureRate": 0.2,
       "fleeRate": 0.07,
       "buddyKm": 3,
@@ -27431,10 +27431,13 @@
         "grass"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "RAZOR_LEAF",
+        "FURY_CUTTER"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "LEAF_BLADE",
+        "ENERGY_BALL",
+        "GRASS_KNOT"
       ],
       "_atk": 100,
       "_def": 64,
@@ -27456,10 +27459,14 @@
         "grass"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "RAZOR_LEAF",
+        "FURY_CUTTER"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "LEAF_BLADE",
+        "LEAF_STORM",
+        "SUPER_POWER",
+        "X_SCISSOR"
       ],
       "_atk": 192,
       "_def": 169,
