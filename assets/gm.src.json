@@ -905,7 +905,9 @@
       "chargedMoves": [
         "CRUNCH",
         "HYPER_FANG",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 103,
       "_def": 70,
@@ -964,7 +966,9 @@
       "chargedMoves": [
         "CRUNCH",
         "HYPER_BEAM",
-        "HYPER_FANG"
+        "HYPER_FANG",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 135,
       "_def": 154,
@@ -1433,7 +1437,9 @@
       "chargedMoves": [
         "BLIZZARD",
         "GYRO_BALL",
-        "NIGHT_SLASH"
+        "NIGHT_SLASH",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 125,
       "_def": 129,
@@ -1501,7 +1507,9 @@
         "BLIZZARD",
         "BULLDOZE",
         "GYRO_BALL",
-        "ICE_PUNCH"
+        "ICE_PUNCH",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "SHADOW_CLAW"
@@ -4800,7 +4808,16 @@
       "chargedMoves": [
         "DRAGON_PULSE",
         "SEED_BOMB",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "DRACO_METEOR",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "DRACO_METEOR"
+      ],
+      "eliteMoves": [
+        "DRACO_METEOR"
       ],
       "_atk": 230,
       "_def": 153,
@@ -7903,7 +7920,9 @@
         "EARTHQUAKE",
         "ROCK_SLIDE",
         "STONE_EDGE",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 167,
       "_def": 176,
@@ -8501,7 +8520,9 @@
       "chargedMoves": [
         "MIRROR_COAT",
         "PSYCHIC",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 182,
       "_def": 133,
@@ -12588,7 +12609,9 @@
       "chargedMoves": [
         "BULLDOZE",
         "HEAT_WAVE",
-        "STOMP"
+        "STOMP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 119,
       "_def": 79,
@@ -12618,7 +12641,9 @@
         "EARTHQUAKE",
         "OVERHEAT",
         "SOLAR_BEAM",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 194,
       "_def": 136,
@@ -14509,7 +14534,9 @@
       "chargedMoves": [
         "OUTRAGE",
         "PSYCHIC",
-        "THUNDER"
+        "THUNDER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 228,
       "_def": 246,
@@ -27380,10 +27407,13 @@
         "bug"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "INFESTATION",
+        "BUG_BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "WATER_PULSE",
+        "BUBBLE_BEAM",
+        "MIRROR_COAT"
       ],
       "_atk": 72,
       "_def": 117,
@@ -27406,10 +27436,13 @@
         "bug"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "INFESTATION",
+        "BUG_BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "BUG_BUZZ",
+        "BUBBLE_BEAM",
+        "MIRROR_COAT"
       ],
       "_atk": 126,
       "_def": 219,
@@ -27541,10 +27574,13 @@
         "fire"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "EMBER",
+        "POISON_JAB"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "POISON_FANG",
+        "FLAMETHROWER",
+        "DRAGON_PULSE"
       ],
       "_atk": 136,
       "_def": 80,
@@ -27567,10 +27603,14 @@
         "fire"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "INCINERATE",
+        "POISON_JAB"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "POISON_FANG",
+        "FIRE_BLAST",
+        "DRAGON_PULSE",
+        "SLUDGE_WAVE"
       ],
       "_atk": 228,
       "_def": 130,
@@ -27593,10 +27633,13 @@
         "fighting"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "SUPER_POWER",
+        "BRICK_BREAK",
+        "STOMP"
       ],
       "_atk": 136,
       "_def": 95,
@@ -27619,10 +27662,21 @@
         "fighting"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "LOW_KICK",
+        "SHADOW_CLAW"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "SUPER_POWER",
+        "PAYBACK",
+        "STOMP",
+        "DRAIN_PUNCH"
+      ],
+      "legacyMoves": [
+        "DRAIN_PUNCH"
+      ],
+      "eliteMoves": [
+        "DRAIN_PUNCH"
       ],
       "_atk": 226,
       "_def": 141,
@@ -27748,10 +27802,14 @@
         "psychic"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "CONFUSION",
+        "ZEN_HEADBUTT",
+        "YAWN"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "PSYCHIC",
+        "FOUL_PLAY",
+        "FUTURE_SIGHT"
       ],
       "_atk": 168,
       "_def": 192,
@@ -28747,10 +28805,14 @@
         "fairy"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "BULLET_SEED",
+        "ROCK_SMASH"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "GRASS_KNOT",
+        "DAZZLING_GLEAM",
+        "MEGAHORN",
+        "SOLAR_BEAM"
       ],
       "_atk": 249,
       "_def": 215,
@@ -28773,10 +28835,14 @@
         "fairy"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "WATER_GUN",
+        "HIDDEN_POWER"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "SURF",
+        "MOONBLAST",
+        "ICE_BEAM",
+        "HYDRO_PUMP"
       ],
       "_atk": 189,
       "_def": 254,
@@ -33308,6 +33374,23 @@
       "pve_duration": 1.1,
       "pve_damageWindowStart": 0.85,
       "pve_damageWindowEnd": 1.05
+    },
+    {
+      "moveId": "DRAIN_PUNCH",
+      "name": "吸取拳",
+      "power": 20,
+      "type": "fighting",
+      "energy": 40,
+      "energyGain": 0,
+      "effect": "[己], 100%, +1階防",
+      "turn": 1,
+      "mid": "314",
+      "isFast": false,
+      "pve_power": 50,
+      "pve_energyDelta": -33,
+      "pve_duration": 2.4,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 1.5
     },
     {
       "moveId": "DRAINING_KISS",
