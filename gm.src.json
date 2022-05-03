@@ -836,7 +836,8 @@
         "AERIAL_ACE",
         "AIR_CUTTER",
         "BRAVE_BIRD",
-        "HURRICANE"
+        "HURRICANE",
+        "FEATHER_DANCE"
       ],
       "legacyMoves": [
         "WING_ATTACK",
@@ -5310,6 +5311,45 @@
       "_sta": 233,
       "id": "KANGASKHAN",
       "name": "袋獸",
+      "captureRate": 0.2,
+      "fleeRate": 0.09,
+      "buddyKm": 3,
+      "familyId": "F_KANGASKHAN",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 115,
+      "types": [
+        "normal"
+      ],
+      "fastMoves": [
+        "LOW_KICK",
+        "MUD_SLAP"
+      ],
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "CRUNCH",
+        "EARTHQUAKE",
+        "OUTRAGE",
+        "STOMP",
+        "POWER_UP_PUNCH"
+      ],
+      "legacyMoves": [
+        "BRICK_BREAK",
+        "STOMP"
+      ],
+      "eliteMoves": [
+        "BRICK_BREAK",
+        "STOMP"
+      ],
+      "_atk": 246,
+      "_def": 210,
+      "_sta": 233,
+      "id": "KANGASKHAN_MEGA",
+      "name": "袋獸 Mega",
       "captureRate": 0.2,
       "fleeRate": 0.09,
       "buddyKm": 3,
@@ -14535,14 +14575,58 @@
         "OUTRAGE",
         "PSYCHIC",
         "THUNDER",
+        "MIST_BALL",
         "RETURN",
         "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "MIST_BALL"
+      ],
+      "eliteMoves": [
+        "MIST_BALL"
       ],
       "_atk": 228,
       "_def": 246,
       "_sta": 190,
       "id": "LATIAS",
       "name": "拉帝亞斯",
+      "captureRate": 0.02,
+      "fleeRate": 0.01,
+      "buddyKm": 20,
+      "familyId": "F_LATIAS",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 380,
+      "types": [
+        "dragon",
+        "psychic"
+      ],
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "ZEN_HEADBUTT",
+        "CHARM"
+      ],
+      "chargedMoves": [
+        "OUTRAGE",
+        "PSYCHIC",
+        "THUNDER",
+        "MIST_BALL"
+      ],
+      "legacyMoves": [
+        "MIST_BALL"
+      ],
+      "eliteMoves": [
+        "MIST_BALL"
+      ],
+      "_atk": 289,
+      "_def": 297,
+      "_sta": 190,
+      "id": "LATIAS_MEGA",
+      "name": "拉帝亞斯 Mega",
       "captureRate": 0.02,
       "fleeRate": 0.01,
       "buddyKm": 20,
@@ -14565,13 +14649,56 @@
       "chargedMoves": [
         "DRAGON_CLAW",
         "PSYCHIC",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "LUSTER_PURGE"
+      ],
+      "legacyMoves": [
+        "LUSTER_PURGE"
+      ],
+      "eliteMoves": [
+        "LUSTER_PURGE"
       ],
       "_atk": 268,
       "_def": 212,
       "_sta": 190,
       "id": "LATIOS",
       "name": "拉帝歐斯",
+      "captureRate": 0.02,
+      "fleeRate": 0.01,
+      "buddyKm": 20,
+      "familyId": "F_LATIOS",
+      "genderMF": [
+        100,
+        0
+      ]
+    },
+    {
+      "dex": 381,
+      "types": [
+        "dragon",
+        "psychic"
+      ],
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "ZEN_HEADBUTT"
+      ],
+      "chargedMoves": [
+        "DRAGON_CLAW",
+        "PSYCHIC",
+        "SOLAR_BEAM",
+        "LUSTER_PURGE"
+      ],
+      "legacyMoves": [
+        "LUSTER_PURGE"
+      ],
+      "eliteMoves": [
+        "LUSTER_PURGE"
+      ],
+      "_atk": 335,
+      "_def": 241,
+      "_sta": 190,
+      "id": "LATIOS_MEGA",
+      "name": "拉帝歐斯 Mega",
       "captureRate": 0.02,
       "fleeRate": 0.01,
       "buddyKm": 20,
@@ -34474,6 +34601,23 @@
       "pve_damageWindowEnd": 2.7
     },
     {
+      "moveId": "LUSTER_PURGE",
+      "name": "潔淨光芒",
+      "power": 120,
+      "type": "psychic",
+      "energy": 60,
+      "energyGain": 0,
+      "effect": "[敵], 50%, -1階防",
+      "turn": 1,
+      "mid": "365",
+      "isFast": false,
+      "pve_power": 100,
+      "pve_energyDelta": -100,
+      "pve_duration": 1.5,
+      "pve_damageWindowStart": 0.5,
+      "pve_damageWindowEnd": 1.5
+    },
+    {
       "moveId": "MAGICAL_LEAF",
       "name": "魔法葉",
       "power": 10,
@@ -34601,6 +34745,23 @@
       "pve_duration": 2.4,
       "pve_damageWindowStart": 1.8,
       "pve_damageWindowEnd": 2.2
+    },
+    {
+      "moveId": "MIST_BALL",
+      "name": "薄霧球",
+      "power": 120,
+      "type": "psychic",
+      "energy": 60,
+      "energyGain": 0,
+      "effect": "[敵], 50%, -1階攻",
+      "turn": 1,
+      "mid": "366",
+      "isFast": false,
+      "pve_power": 105,
+      "pve_energyDelta": -100,
+      "pve_duration": 2,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.7
     },
     {
       "moveId": "MOONBLAST",
