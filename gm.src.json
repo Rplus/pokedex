@@ -18594,14 +18594,21 @@
       "chargedMoves": [
         "ENERGY_BALL",
         "GRASS_KNOT",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "SEED_FLARE"
+      ],
+      "legacyMoves": [
+        "SEED_FLARE"
+      ],
+      "eliteMoves": [
+        "SEED_FLARE"
       ],
       "_atk": 210,
       "_def": 210,
       "_sta": 225,
       "id": "SHAYMIN_LAND",
       "name": "謝米 陸上",
-      "captureRate": 0.02,
+      "captureRate": 100,
       "buddyKm": 20,
       "familyId": "F_SHAYMIN",
       "genderMF": [
@@ -18622,14 +18629,21 @@
       "chargedMoves": [
         "ENERGY_BALL",
         "GRASS_KNOT",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "SEED_FLARE"
+      ],
+      "legacyMoves": [
+        "SEED_FLARE"
+      ],
+      "eliteMoves": [
+        "SEED_FLARE"
       ],
       "_atk": 261,
       "_def": 166,
       "_sta": 225,
       "id": "SHAYMIN_SKY",
       "name": "謝米 天空",
-      "captureRate": 0.02,
+      "captureRate": 100,
       "buddyKm": 20,
       "familyId": "F_SHAYMIN",
       "genderMF": [
@@ -23366,7 +23380,14 @@
       "chargedMoves": [
         "DRAGON_PULSE",
         "DARK_PULSE",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "BRUTAL_SWING"
+      ],
+      "legacyMoves": [
+        "BRUTAL_SWING"
+      ],
+      "eliteMoves": [
+        "BRUTAL_SWING"
       ],
       "_atk": 256,
       "_def": 188,
@@ -25575,8 +25596,8 @@
       "buddyKm": 5,
       "familyId": "F_TYRUNT",
       "genderMF": [
-        50,
-        50
+        87.5,
+        12.5
       ]
     },
     {
@@ -25606,8 +25627,8 @@
       "buddyKm": 5,
       "familyId": "F_TYRUNT",
       "genderMF": [
-        50,
-        50
+        87.5,
+        12.5
       ]
     },
     {
@@ -25636,8 +25657,8 @@
       "buddyKm": 5,
       "familyId": "F_AMAURA",
       "genderMF": [
-        50,
-        50
+        87.5,
+        12.5
       ]
     },
     {
@@ -25668,8 +25689,8 @@
       "buddyKm": 5,
       "familyId": "F_AMAURA",
       "genderMF": [
-        50,
-        50
+        87.5,
+        12.5
       ]
     },
     {
@@ -26968,10 +26989,13 @@
         "bug"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "BUG_BITE",
+        "SPARK"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "X_SCISSOR",
+        "VICE_GRIP",
+        "CRUNCH"
       ],
       "_atk": 115,
       "_def": 85,
@@ -26994,10 +27018,13 @@
         "electric"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "BUG_BITE",
+        "SPARK"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "X_SCISSOR",
+        "DISCHARGE",
+        "CRUNCH"
       ],
       "_atk": 145,
       "_def": 161,
@@ -27020,10 +27047,14 @@
         "electric"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "BUG_BITE",
+        "SPARK",
+        "MUD_SLAP"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "X_SCISSOR",
+        "DISCHARGE",
+        "CRUNCH"
       ],
       "_atk": 254,
       "_def": 158,
@@ -27045,10 +27076,13 @@
         "fighting"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ROCK_SMASH",
+        "BUBBLE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "POWER_UP_PUNCH",
+        "CRABHAMMER",
+        "PAYBACK"
       ],
       "_atk": 150,
       "_def": 104,
@@ -27071,10 +27105,14 @@
         "ice"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ROCK_SMASH",
+        "BUBBLE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "POWER_UP_PUNCH",
+        "CRABHAMMER",
+        "PAYBACK",
+        "ICE_PUNCH"
       ],
       "_atk": 231,
       "_def": 138,
@@ -27205,10 +27243,12 @@
         "fairy"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "FAIRY_WIND",
+        "STRUGGLE_BUG"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "DAZZLING_GLEAM",
+        "BUG_BUZZ"
       ],
       "_atk": 110,
       "_def": 81,
@@ -27231,10 +27271,12 @@
         "fairy"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "FAIRY_WIND",
+        "STRUGGLE_BUG"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "DAZZLING_GLEAM",
+        "BUG_BUZZ"
       ],
       "_atk": 198,
       "_def": 146,
@@ -27284,10 +27326,14 @@
         "rock"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "COUNTER",
+        "SUCKER_PUNCH",
+        "ROCK_THROW"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "STONE_EDGE",
+        "IRON_HEAD",
+        "CRUNCH"
       ],
       "_atk": 234,
       "_def": 139,
@@ -27365,10 +27411,14 @@
         "water"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "WATER_GUN",
+        "WATERFALL",
+        "IRON_TAIL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "BRINE",
+        "SURF",
+        "AQUA_TAIL"
       ],
       "_atk": 46,
       "_def": 43,
@@ -27390,16 +27440,20 @@
         "water"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "WATER_GUN",
+        "WATERFALL",
+        "IRON_TAIL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "BRINE",
+        "SURF",
+        "AQUA_TAIL"
       ],
       "_atk": 255,
       "_def": 242,
       "_sta": 128,
       "id": "WISHIWASHI_SCHOOL",
-      "name": "弱丁魚 魚群樣子",
+      "name": "弱丁魚 魚群",
       "captureRate": 0.2,
       "fleeRate": 0.07,
       "buddyKm": 1,
@@ -27415,16 +27469,20 @@
         "water"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "WATER_GUN",
+        "WATERFALL",
+        "IRON_TAIL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "BRINE",
+        "SURF",
+        "AQUA_TAIL"
       ],
       "_atk": 46,
       "_def": 43,
       "_sta": 128,
       "id": "WISHIWASHI_SOLO",
-      "name": "弱丁魚 單獨樣子",
+      "name": "弱丁魚 單獨",
       "captureRate": 0.2,
       "fleeRate": 0.07,
       "buddyKm": 1,
@@ -27441,10 +27499,13 @@
         "water"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "POISON_STING",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "MUDDY_WATER",
+        "GUNK_SHOT",
+        "SLUDGE_WAVE"
       ],
       "_atk": 98,
       "_def": 110,
@@ -27467,10 +27528,13 @@
         "water"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "POISON_JAB",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "MUDDY_WATER",
+        "GUNK_SHOT",
+        "SLUDGE_WAVE"
       ],
       "_atk": 114,
       "_def": 273,
@@ -27492,10 +27556,13 @@
         "ground"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "MUD_SLAP",
+        "ROCK_SMASH"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "BULLDOZE",
+        "BODY_SLAM",
+        "EARTHQUAKE"
       ],
       "_atk": 175,
       "_def": 121,
@@ -27517,10 +27584,14 @@
         "ground"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "MUD_SLAP",
+        "ROCK_SMASH"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "BULLDOZE",
+        "BODY_SLAM",
+        "EARTHQUAKE",
+        "HEAVY_SLAM"
       ],
       "_atk": 214,
       "_def": 174,
@@ -27658,10 +27729,12 @@
         "fairy"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ASTONISH"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "GIGA_DRAIN",
+        "DAZZLING_GLEAM",
+        "SEED_BOMB"
       ],
       "_atk": 108,
       "_def": 119,
@@ -27684,10 +27757,13 @@
         "fairy"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ASTONISH"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "GIGA_DRAIN",
+        "MOONBLAST",
+        "SEED_BOMB",
+        "SLUDGE_BOMB"
       ],
       "_atk": 154,
       "_def": 168,
@@ -27834,10 +27910,12 @@
         "grass"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "RAZOR_LEAF",
+        "CHARM"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "ENERGY_BALL",
+        "DRAINING_KISS"
       ],
       "_atk": 55,
       "_def": 69,
@@ -27859,10 +27937,13 @@
         "grass"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "RAZOR_LEAF",
+        "CHARM"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "ENERGY_BALL",
+        "DRAINING_KISS",
+        "GRASS_KNOT"
       ],
       "_atk": 78,
       "_def": 94,
@@ -27884,10 +27965,15 @@
         "grass"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "RAZOR_LEAF",
+        "CHARM",
+        "MAGICAL_LEAF"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "ENERGY_BALL",
+        "DRAINING_KISS",
+        "GRASS_KNOT",
+        "STOMP"
       ],
       "_atk": 222,
       "_def": 195,
@@ -27967,10 +28053,14 @@
         "fighting"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "COUNTER",
+        "ROCK_SMASH",
+        "TAKE_DOWN"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "BRICK_BREAK",
+        "CLOSE_COMBAT",
+        "SUPER_POWER"
       ],
       "_atk": 222,
       "_def": 160,
@@ -27993,10 +28083,10 @@
         "water"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "STRUGGLE_BUG"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "BUG_BUZZ"
       ],
       "_atk": 67,
       "_def": 74,
@@ -28004,7 +28094,7 @@
       "id": "WIMPOD",
       "name": "膽小蟲",
       "captureRate": 0.5,
-      "fleeRate": 0.1,
+      "fleeRate": 0.7,
       "buddyKm": 1,
       "familyId": "F_WIMPOD",
       "genderMF": [
@@ -28019,10 +28109,14 @@
         "water"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "FURY_CUTTER",
+        "METAL_CLAW",
+        "WATERFALL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "X_SCISSOR",
+        "AQUA_JET",
+        "AERIAL_ACE"
       ],
       "_atk": 218,
       "_def": 226,
@@ -28030,7 +28124,7 @@
       "id": "GOLISOPOD",
       "name": "具甲武者",
       "captureRate": 0.2,
-      "fleeRate": 0.06,
+      "fleeRate": 0.7,
       "buddyKm": 1,
       "familyId": "F_WIMPOD",
       "genderMF": [
@@ -28045,10 +28139,13 @@
         "ground"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ASTONISH",
+        "MUD_SHOT"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "SAND_TOMB",
+        "SHADOW_BALL",
+        "EARTH_POWER"
       ],
       "_atk": 120,
       "_def": 118,
@@ -28071,10 +28168,13 @@
         "ground"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ASTONISH",
+        "MUD_SHOT"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "SAND_TOMB",
+        "SHADOW_BALL",
+        "EARTH_POWER"
       ],
       "_atk": 178,
       "_def": 178,
@@ -28096,10 +28196,10 @@
         "water"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "COUNTER"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "MIRROR_COAT"
       ],
       "_atk": 97,
       "_def": 224,
@@ -28121,10 +28221,13 @@
         "normal"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE"
       ],
       "_atk": 184,
       "_def": 184,
@@ -28145,10 +28248,15 @@
         "normal"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28169,10 +28277,15 @@
         "bug"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28193,10 +28306,15 @@
         "dark"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28217,10 +28335,15 @@
         "dragon"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28241,10 +28364,15 @@
         "electric"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28265,10 +28393,15 @@
         "fairy"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28289,10 +28422,15 @@
         "fighting"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28313,10 +28451,15 @@
         "fire"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28337,10 +28480,15 @@
         "flying"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28361,10 +28509,15 @@
         "ghost"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28385,10 +28538,15 @@
         "grass"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28409,10 +28567,15 @@
         "ground"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28433,10 +28596,15 @@
         "ice"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28457,10 +28625,15 @@
         "poison"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28481,10 +28654,15 @@
         "psychic"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28505,10 +28683,15 @@
         "rock"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28529,10 +28712,15 @@
         "steel"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28553,10 +28741,15 @@
         "water"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "TACKLE",
+        "TAKE_DOWN",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "TRI_ATTACK",
+        "IRON_HEAD",
+        "AERIAL_ACE",
+        "X_SCISSOR"
       ],
       "_atk": 198,
       "_def": 198,
@@ -28578,16 +28771,19 @@
         "flying"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ROLLOUT",
+        "TAKE_DOWN"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "POWER_GEM",
+        "ANCIENT_POWER",
+        "ACROBATICS"
       ],
       "_atk": 218,
       "_def": 131,
       "_sta": 155,
       "id": "MINIOR_CORE",
-      "name": "小隕星 核心樣子"
+      "name": "小隕星 核心"
     },
     {
       "dex": 774,
@@ -28596,16 +28792,19 @@
         "flying"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ROLLOUT",
+        "TAKE_DOWN"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "POWER_GEM",
+        "ANCIENT_POWER",
+        "ACROBATICS"
       ],
       "_atk": 116,
       "_def": 194,
       "_sta": 155,
       "id": "MINIOR_METEOR",
-      "name": "小隕星 流星樣子"
+      "name": "小隕星 流星"
     },
     {
       "dex": 775,
@@ -28613,10 +28812,13 @@
         "normal"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ROLLOUT",
+        "YAWN"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "PLAY_ROUGH",
+        "BULLDOZE",
+        "PAYBACK"
       ],
       "_atk": 216,
       "_def": 165,
@@ -28639,10 +28841,13 @@
         "dragon"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "EMBER",
+        "FIRE_SPIN"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "OVERHEAT",
+        "FLAMETHROWER",
+        "DRAGON_PULSE"
       ],
       "_atk": 165,
       "_def": 215,
@@ -28665,10 +28870,13 @@
         "steel"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "THUNDER_SHOCK",
+        "SPARK"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "FELL_STINGER",
+        "WILD_CHARGE",
+        "GYRO_BALL"
       ],
       "_atk": 190,
       "_def": 145,
@@ -28691,10 +28899,13 @@
         "fairy"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "SHADOW_CLAW",
+        "CHARM"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "SHADOW_SNEAK",
+        "PLAY_ROUGH",
+        "SHADOW_BALL"
       ],
       "_atk": 177,
       "_def": 199,
@@ -28717,10 +28928,14 @@
         "psychic"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "WATER_GUN",
+        "CONFUSION",
+        "BITE"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "PSYCHIC_FANGS",
+        "AQUA_TAIL",
+        "CRUNCH"
       ],
       "_atk": 208,
       "_def": 145,
@@ -28743,10 +28958,13 @@
         "dragon"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "DRAGON_BREATH",
+        "EXTRASENSORY"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "OUTRAGE",
+        "DRAGON_PULSE",
+        "FLY"
       ],
       "_atk": 231,
       "_def": 164,
@@ -28769,10 +28987,13 @@
         "grass"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ASTONISH",
+        "SHADOW_CLAW"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "POWER_WHIP",
+        "SHADOW_BALL",
+        "HEAVY_SLAM"
       ],
       "_atk": 233,
       "_def": 179,
@@ -29103,10 +29324,14 @@
         "poison"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ACID",
+        "POUND"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "POWER_GEM",
+        "GUNK_SHOT",
+        "SLUDGE_BOMB",
+        "ROCK_SLIDE"
       ],
       "_atk": 249,
       "_def": 210,
@@ -29129,10 +29354,14 @@
         "fighting"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "COUNTER",
+        "POISON_JAB"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "POWER_UP_PUNCH",
+        "FELL_STINGER",
+        "LUNGE",
+        "SUPER_POWER"
       ],
       "_atk": 236,
       "_def": 196,
@@ -29155,10 +29384,14 @@
         "fighting"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "BUG_BITE",
+        "LOW_KICK"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "FOCUS_BLAST",
+        "BUG_BUZZ",
+        "LUNGE",
+        "CLOSE_COMBAT"
       ],
       "_atk": 316,
       "_def": 85,
@@ -29180,10 +29413,14 @@
         "electric"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "THUNDER_SHOCK",
+        "SPARK"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "DISCHARGE",
+        "THUNDER",
+        "POWER_WHIP",
+        "DAZZLING_GLEAM"
       ],
       "_atk": 330,
       "_def": 144,
@@ -33041,6 +33278,22 @@
       "pve_damageWindowEnd": 1.4
     },
     {
+      "moveId": "BRUTAL_SWING",
+      "name": "狂舞揮打",
+      "power": 65,
+      "type": "dark",
+      "energy": 40,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "367",
+      "isFast": false,
+      "pve_power": 65,
+      "pve_energyDelta": -33,
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.2,
+      "pve_damageWindowEnd": 1.6
+    },
+    {
       "moveId": "BRINE",
       "name": "鹽水",
       "power": 60,
@@ -35507,7 +35760,7 @@
     },
     {
       "moveId": "ROLLOUT",
-      "name": "滾動 預測",
+      "name": "滾動",
       "power": 4,
       "type": "rock",
       "energy": 0,
@@ -35619,6 +35872,23 @@
       "pve_duration": 2.1,
       "pve_damageWindowStart": 1.2,
       "pve_damageWindowEnd": 1.9
+    },
+    {
+      "moveId": "SEED_FLARE",
+      "name": "種子閃光",
+      "power": 130,
+      "type": "grass",
+      "energy": 75,
+      "energyGain": 0,
+      "effect": "[敵], 40%, -2階防",
+      "turn": 1,
+      "mid": "369",
+      "isFast": false,
+      "pve_power": 120,
+      "pve_energyDelta": -100,
+      "pve_duration": 2.7,
+      "pve_damageWindowStart": 2.5,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "SHADOW_BALL",
