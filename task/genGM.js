@@ -34,7 +34,10 @@ let twData = JSON.parse(contents_tw);
       let tempPm = JSON.parse(JSON.stringify(d));
       delete tempPm.data.pokemonSettings.evolutionBranch;
       delete tempPm.data.pokemonSettings.tempEvoOverrides;
-      let idSuffix = evo.tempEvoId.replace('TEMP_EVOLUTION', '')
+      if (!evo.tempEvoId) {
+        console.log(333, evo);
+      }
+      let idSuffix = evo.tempEvoId?.replace('TEMP_EVOLUTION', '')
       let id = tempPm.templateId + idSuffix;
       tempPm.templateId = id;
       tempPm.data.templateId = id;
