@@ -26927,7 +26927,8 @@
       "_sta": 173,
       "id": "HOOPA_UNBOUND",
       "name": "胡帕 解放",
-      "captureRate": 1,
+      "captureRate": 0.06,
+      "fleeRate": 0.01,
       "buddyKm": 20,
       "familyId": "F_HOOPA",
       "genderMF": [
@@ -27887,7 +27888,7 @@
         "BITE"
       ],
       "chargedMoves": [
-        "MUDDY_WATER",
+        "BRINE",
         "GUNK_SHOT",
         "SLUDGE_WAVE"
       ],
@@ -27916,7 +27917,7 @@
         "BITE"
       ],
       "chargedMoves": [
-        "MUDDY_WATER",
+        "BRINE",
         "GUNK_SHOT",
         "SLUDGE_WAVE"
       ],
@@ -35890,6 +35891,22 @@
       "pve_duration": 0.6,
       "pve_damageWindowStart": 0.375,
       "pve_damageWindowEnd": 0.575
+    },
+    {
+      "moveId": "POLTERGEIST",
+      "name": "靈騷 預測",
+      "power": 140,
+      "type": "ghost",
+      "energy": 70,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "376",
+      "isFast": false,
+      "pve_power": 140,
+      "pve_energyDelta": -100,
+      "pve_duration": 3.6,
+      "pve_damageWindowStart": 2.8,
+      "pve_damageWindowEnd": 3
     },
     {
       "moveId": "POUND",
