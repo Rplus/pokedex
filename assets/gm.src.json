@@ -2386,7 +2386,9 @@
       "chargedMoves": [
         "DIG",
         "MUD_BOMB",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 108,
       "_def": 81,
@@ -2449,7 +2451,9 @@
       "chargedMoves": [
         "EARTHQUAKE",
         "IRON_HEAD",
-        "MUD_BOMB"
+        "MUD_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 201,
       "_def": 142,
@@ -3744,7 +3748,8 @@
         "PLAY_ROUGH",
         "PSYCHIC",
         "BODY_SLAM",
-        "MEGAHORN"
+        "MEGAHORN",
+        "HIGH_HORSEPOWER"
       ],
       "_atk": 207,
       "_def": 162,
@@ -4586,7 +4591,9 @@
         "IRON_HEAD",
         "ROCK_SLIDE",
         "SAND_TOMB",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "IRON_HEAD",
@@ -5288,7 +5295,8 @@
         "SLUDGE",
         "HYPER_BEAM",
         "PLAY_ROUGH",
-        "OVERHEAT"
+        "OVERHEAT",
+        "BRUTAL_SWING"
       ],
       "_atk": 174,
       "_def": 197,
@@ -7904,7 +7912,9 @@
       "chargedMoves": [
         "DRILL_PECK",
         "NIGHT_SHADE",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 134,
       "_def": 89,
@@ -7933,7 +7943,9 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "FUTURE_SIGHT",
-        "OMINOUS_WIND"
+        "OMINOUS_WIND",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 192,
       "_def": 146,
@@ -8025,6 +8037,7 @@
         "THUNDER",
         "ZAP_CANNON",
         "THUNDER_PUNCH",
+        "BRUTAL_SWING",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -8065,6 +8078,7 @@
         "THUNDER",
         "ZAP_CANNON",
         "THUNDER_PUNCH",
+        "BRUTAL_SWING",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -8191,6 +8205,7 @@
         "ROCK_SLIDE",
         "STONE_EDGE",
         "ROCK_TOMB",
+        "METEOR_BEAM",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -8950,7 +8965,9 @@
         "CRUNCH",
         "EARTHQUAKE",
         "HEAVY_SLAM",
-        "PSYCHIC_FANGS"
+        "PSYCHIC_FANGS",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 148,
       "_def": 272,
@@ -9468,6 +9485,7 @@
         "AVALANCHE",
         "BULLDOZE",
         "STONE_EDGE",
+        "HIGH_HORSEPOWER",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -10800,6 +10818,43 @@
       ]
     },
     {
+      "dex": 254,
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "fastMoves": [
+        "BULLET_SEED",
+        "FURY_CUTTER"
+      ],
+      "chargedMoves": [
+        "AERIAL_ACE",
+        "EARTHQUAKE",
+        "LEAF_BLADE",
+        "FRENZY_PLANT",
+        "DRAGON_CLAW"
+      ],
+      "legacyMoves": [
+        "FRENZY_PLANT"
+      ],
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
+      "_atk": 320,
+      "_def": 186,
+      "_sta": 172,
+      "id": "SCEPTILE_MEGA",
+      "name": "蜥蜴王 Mega",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_TREECKO",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
       "dex": 255,
       "types": [
         "fire"
@@ -10887,6 +10942,46 @@
       "_sta": 190,
       "id": "BLAZIKEN",
       "name": "火焰雞",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_TORCHIC",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 257,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "fastMoves": [
+        "COUNTER",
+        "FIRE_SPIN"
+      ],
+      "chargedMoves": [
+        "BRAVE_BIRD",
+        "FOCUS_BLAST",
+        "OVERHEAT",
+        "STONE_EDGE",
+        "BLAST_BURN",
+        "BLAZE_KICK"
+      ],
+      "legacyMoves": [
+        "BLAST_BURN",
+        "STONE_EDGE"
+      ],
+      "eliteMoves": [
+        "BLAST_BURN",
+        "STONE_EDGE"
+      ],
+      "_atk": 329,
+      "_def": 168,
+      "_sta": 190,
+      "id": "BLAZIKEN_MEGA",
+      "name": "火焰雞 Mega",
       "captureRate": 0.05,
       "fleeRate": 0.05,
       "buddyKm": 3,
@@ -10987,6 +11082,45 @@
       "_sta": 225,
       "id": "SWAMPERT",
       "name": "巨沼怪",
+      "captureRate": 0.05,
+      "fleeRate": 0.05,
+      "buddyKm": 3,
+      "familyId": "F_MUDKIP",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 260,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "fastMoves": [
+        "MUD_SHOT",
+        "WATER_GUN"
+      ],
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "SLUDGE_WAVE",
+        "SURF",
+        "HYDRO_CANNON",
+        "MUDDY_WATER",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "HYDRO_CANNON"
+      ],
+      "eliteMoves": [
+        "HYDRO_CANNON"
+      ],
+      "_atk": 283,
+      "_def": 218,
+      "_sta": 225,
+      "id": "SWAMPERT_MEGA",
+      "name": "巨沼怪 Mega",
       "captureRate": 0.05,
       "fleeRate": 0.05,
       "buddyKm": 3,
@@ -12440,6 +12574,7 @@
         "STONE_EDGE",
         "THUNDER",
         "ROCK_TOMB",
+        "METEOR_BEAM",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -12470,7 +12605,9 @@
       "chargedMoves": [
         "HEAVY_SLAM",
         "STONE_EDGE",
-        "THUNDER"
+        "THUNDER",
+        "ROCK_TOMB",
+        "METEOR_BEAM"
       ],
       "_atk": 247,
       "_def": 331,
@@ -12913,7 +13050,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "HEAVY_SLAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 136,
       "_def": 68,
@@ -12941,7 +13080,9 @@
       "chargedMoves": [
         "BLIZZARD",
         "HYPER_BEAM",
-        "SURF"
+        "SURF",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 175,
       "_def": 87,
@@ -14077,6 +14218,36 @@
       ]
     },
     {
+      "dex": 354,
+      "types": [
+        "ghost"
+      ],
+      "fastMoves": [
+        "HEX",
+        "SHADOW_CLAW"
+      ],
+      "chargedMoves": [
+        "DAZZLING_GLEAM",
+        "SHADOW_BALL",
+        "THUNDER",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "_atk": 312,
+      "_def": 160,
+      "_sta": 162,
+      "id": "BANETTE_MEGA",
+      "name": "詛咒娃娃 Mega",
+      "captureRate": 0.2,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_SHUPPET",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 355,
       "types": [
         "ghost"
@@ -14119,6 +14290,7 @@
         "FIRE_PUNCH",
         "ICE_PUNCH",
         "SHADOW_PUNCH",
+        "POLTERGEIST",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -14326,6 +14498,34 @@
       "_sta": 190,
       "id": "GLALIE",
       "name": "冰鬼護",
+      "captureRate": 0.2,
+      "fleeRate": 0.06,
+      "buddyKm": 3,
+      "familyId": "F_SNORUNT",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
+      "dex": 362,
+      "types": [
+        "ice"
+      ],
+      "fastMoves": [
+        "FROST_BREATH",
+        "ICE_SHARD"
+      ],
+      "chargedMoves": [
+        "AVALANCHE",
+        "GYRO_BALL",
+        "SHADOW_BALL"
+      ],
+      "_atk": 252,
+      "_def": 168,
+      "_sta": 190,
+      "id": "GLALIE_MEGA",
+      "name": "冰鬼護 Mega",
       "captureRate": 0.2,
       "fleeRate": 0.06,
       "buddyKm": 3,
@@ -18141,6 +18341,7 @@
         "BULLDOZE",
         "STONE_EDGE",
         "ANCIENT_POWER",
+        "HIGH_HORSEPOWER",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -18724,7 +18925,14 @@
       "chargedMoves": [
         "ANCIENT_POWER",
         "DRAGON_CLAW",
-        "SHADOW_SNEAK"
+        "SHADOW_SNEAK",
+        "SHADOW_FORCE"
+      ],
+      "legacyMoves": [
+        "SHADOW_FORCE"
+      ],
+      "eliteMoves": [
+        "SHADOW_FORCE"
       ],
       "_atk": 187,
       "_def": 225,
@@ -22936,7 +23144,14 @@
         "ENERGY_BALL",
         "SHADOW_BALL",
         "OVERHEAT",
-        "FLAME_CHARGE"
+        "FLAME_CHARGE",
+        "POLTERGEIST"
+      ],
+      "legacyMoves": [
+        "POLTERGEIST"
+      ],
+      "eliteMoves": [
+        "POLTERGEIST"
       ],
       "_atk": 271,
       "_def": 182,
@@ -23335,7 +23550,9 @@
       "chargedMoves": [
         "SHADOW_PUNCH",
         "BRICK_BREAK",
-        "NIGHT_SHADE"
+        "NIGHT_SHADE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 127,
       "_def": 92,
@@ -23364,7 +23581,10 @@
       "chargedMoves": [
         "SHADOW_PUNCH",
         "DYNAMIC_PUNCH",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "POLTERGEIST",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 222,
       "_def": 154,
@@ -25063,7 +25283,8 @@
       "fastMoves": [
         "FIRE_FANG",
         "TACKLE",
-        "EMBER"
+        "EMBER",
+        "INCINERATE"
       ],
       "chargedMoves": [
         "FLAME_CHARGE",
@@ -25092,7 +25313,8 @@
       ],
       "fastMoves": [
         "FIRE_FANG",
-        "TAKE_DOWN"
+        "TAKE_DOWN",
+        "INCINERATE"
       ],
       "chargedMoves": [
         "FLAME_CHARGE",
@@ -25112,36 +25334,6 @@
       "genderMF": [
         100,
         0
-      ]
-    },
-    {
-      "dex": 668,
-      "types": [
-        "fire",
-        "normal"
-      ],
-      "fastMoves": [
-        "FIRE_FANG",
-        "TAKE_DOWN"
-      ],
-      "chargedMoves": [
-        "FLAME_CHARGE",
-        "SOLAR_BEAM",
-        "DARK_PULSE",
-        "OVERHEAT"
-      ],
-      "_atk": 221,
-      "_def": 149,
-      "_sta": 200,
-      "id": "PYROAR_FEMALE",
-      "name": "火炎獅 雌",
-      "captureRate": 0.2,
-      "fleeRate": 0.07,
-      "buddyKm": 3,
-      "familyId": "F_LITLEO",
-      "genderMF": [
-        0,
-        100
       ]
     },
     {
@@ -25998,7 +26190,8 @@
         "CRUNCH",
         "STONE_EDGE",
         "OUTRAGE",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "METEOR_BEAM"
       ],
       "_atk": 227,
       "_def": 191,
@@ -26060,7 +26253,8 @@
         "ANCIENT_POWER",
         "BLIZZARD",
         "THUNDERBOLT",
-        "HYPER_BEAM"
+        "HYPER_BEAM",
+        "METEOR_BEAM"
       ],
       "_atk": 186,
       "_def": 163,
@@ -26506,7 +26700,8 @@
         "SEED_BOMB",
         "SHADOW_BALL",
         "FOUL_PLAY",
-        "FIRE_BLAST"
+        "FIRE_BLAST",
+        "POLTERGEIST"
       ],
       "_atk": 175,
       "_def": 213,
@@ -26536,7 +26731,8 @@
         "SEED_BOMB",
         "SHADOW_BALL",
         "FOUL_PLAY",
-        "FIRE_BLAST"
+        "FIRE_BLAST",
+        "POLTERGEIST"
       ],
       "_atk": 179,
       "_def": 206,
@@ -26566,7 +26762,8 @@
         "SEED_BOMB",
         "SHADOW_BALL",
         "FOUL_PLAY",
-        "FIRE_BLAST"
+        "FIRE_BLAST",
+        "POLTERGEIST"
       ],
       "_atk": 171,
       "_def": 219,
@@ -26596,7 +26793,8 @@
         "SEED_BOMB",
         "SHADOW_BALL",
         "FOUL_PLAY",
-        "FIRE_BLAST"
+        "FIRE_BLAST",
+        "POLTERGEIST"
       ],
       "_atk": 182,
       "_def": 200,
@@ -28117,7 +28315,6 @@
         "ASTONISH"
       ],
       "chargedMoves": [
-        "GIGA_DRAIN",
         "DAZZLING_GLEAM",
         "SEED_BOMB"
       ],
@@ -28145,7 +28342,6 @@
         "ASTONISH"
       ],
       "chargedMoves": [
-        "GIGA_DRAIN",
         "MOONBLAST",
         "SEED_BOMB",
         "SLUDGE_BOMB"
@@ -29898,10 +30094,14 @@
         "dragon"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "SNARL",
+        "DRAGON_TAIL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "BRUTAL_SWING",
+        "DRAGON_CLAW",
+        "CRUNCH",
+        "SLUDGE_BOMB"
       ],
       "_atk": 188,
       "_def": 99,
@@ -33349,6 +33549,44 @@
       ]
     },
     {
+      "dex": 901,
+      "types": [
+        "ground",
+        "normal"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "ROCK_SMASH"
+      ],
+      "chargedMoves": [
+        "FIRE_PUNCH",
+        "THUNDER_PUNCH",
+        "AERIAL_ACE",
+        "HIGH_HORSEPOWER",
+        "RETURN",
+        "FRUSTRATION"
+      ],
+      "legacyMoves": [
+        "HIGH_HORSEPOWER"
+      ],
+      "eliteMoves": [
+        "HIGH_HORSEPOWER"
+      ],
+      "_atk": 243,
+      "_def": 181,
+      "_sta": 277,
+      "id": "URSALUNA",
+      "name": "月月熊",
+      "captureRate": 0.15,
+      "fleeRate": 0.07,
+      "buddyKm": 3,
+      "familyId": "F_TEDDIURSA",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 903,
       "types": [
         "fighting",
@@ -33916,7 +34154,7 @@
     {
       "moveId": "CHARM",
       "name": "撒嬌",
-      "power": 16,
+      "power": 15,
       "type": "fairy",
       "energy": 0,
       "energyGain": 6,
@@ -34949,6 +35187,22 @@
       "pve_damageWindowEnd": 1.2
     },
     {
+      "moveId": "HIGH_HORSEPOWER",
+      "name": "十萬馬力",
+      "power": 100,
+      "type": "ground",
+      "energy": 60,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "377",
+      "isFast": false,
+      "pve_power": 110,
+      "pve_energyDelta": -100,
+      "pve_duration": 1.6,
+      "pve_damageWindowStart": 1,
+      "pve_damageWindowEnd": 1.2
+    },
+    {
       "moveId": "HORN_ATTACK",
       "name": "角撞",
       "power": 40,
@@ -35848,7 +36102,7 @@
       "name": "劇毒牙",
       "power": 40,
       "type": "poison",
-      "energy": 35,
+      "energy": 40,
       "energyGain": 0,
       "effect": "[敵], 100%, -1階防",
       "turn": 1,
@@ -35894,10 +36148,10 @@
     },
     {
       "moveId": "POLTERGEIST",
-      "name": "靈騷 預測",
+      "name": "靈騷",
       "power": 140,
       "type": "ghost",
-      "energy": 70,
+      "energy": 75,
       "energyGain": 0,
       "turn": 1,
       "mid": "376",
@@ -36494,6 +36748,22 @@
       "pve_duration": 0.7,
       "pve_damageWindowStart": 0.25,
       "pve_damageWindowEnd": 0.5
+    },
+    {
+      "moveId": "SHADOW_FORCE",
+      "name": "暗影潛襲",
+      "power": 120,
+      "type": "ghost",
+      "energy": 90,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "371",
+      "isFast": false,
+      "pve_power": 140,
+      "pve_energyDelta": -100,
+      "pve_duration": 1.9,
+      "pve_damageWindowStart": 1.7,
+      "pve_damageWindowEnd": 1.9
     },
     {
       "moveId": "SHADOW_PUNCH",
@@ -37356,7 +37626,7 @@
       "power": 5,
       "type": "flying",
       "energy": 0,
-      "energyGain": 7,
+      "energyGain": 8,
       "turn": 2,
       "mid": "210",
       "isFast": true,
