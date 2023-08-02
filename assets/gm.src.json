@@ -2810,7 +2810,8 @@
       "fastMoves": [
         "BUBBLE",
         "MUD_SHOT",
-        "ROCK_SMASH"
+        "ROCK_SMASH",
+        "COUNTER"
       ],
       "chargedMoves": [
         "DYNAMIC_PUNCH",
@@ -2823,10 +2824,12 @@
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "SUBMISSION"
+        "SUBMISSION",
+        "COUNTER"
       ],
       "eliteMoves": [
-        "SUBMISSION"
+        "SUBMISSION",
+        "COUNTER"
       ],
       "_atk": 182,
       "_def": 184,
@@ -7857,14 +7860,17 @@
         "HYDRO_PUMP",
         "SURF",
         "WEATHER_BALL_WATER",
+        "ICE_BEAM",
         "RETURN",
         "FRUSTRATION"
       ],
       "legacyMoves": [
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "ICE_BEAM"
       ],
       "eliteMoves": [
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "ICE_BEAM"
       ],
       "_atk": 174,
       "_def": 179,
@@ -14765,6 +14771,46 @@
       "_sta": 213,
       "id": "RAYQUAZA",
       "name": "烈空坐",
+      "buddyKm": 20,
+      "familyId": "F_RAYQUAZA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 384,
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "fastMoves": [
+        "AIR_SLASH",
+        "DRAGON_TAIL"
+      ],
+      "chargedMoves": [
+        "AERIAL_ACE",
+        "ANCIENT_POWER",
+        "OUTRAGE",
+        "HURRICANE",
+        "BREAKING_SWIPE",
+        "DRAGON_ASCENT"
+      ],
+      "legacyMoves": [
+        "HURRICANE",
+        "BREAKING_SWIPE",
+        "DRAGON_ASCENT"
+      ],
+      "eliteMoves": [
+        "HURRICANE",
+        "BREAKING_SWIPE",
+        "DRAGON_ASCENT"
+      ],
+      "_atk": 377,
+      "_def": 210,
+      "_sta": 227,
+      "id": "RAYQUAZA_MEGA",
+      "name": "烈空坐 Mega",
       "buddyKm": 20,
       "familyId": "F_RAYQUAZA",
       "genderMF": [
@@ -25848,11 +25894,65 @@
         "HYPER_BEAM",
         "BULLDOZE"
       ],
+      "_atk": 205,
+      "_def": 173,
+      "_sta": 144,
+      "id": "ZYGARDE_10",
+      "name": "基格爾德 10%"
+    },
+    {
+      "dex": 718,
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "BITE",
+        "ZEN_HEADBUTT"
+      ],
+      "chargedMoves": [
+        "OUTRAGE",
+        "EARTHQUAKE",
+        "CRUNCH",
+        "HYPER_BEAM",
+        "BULLDOZE"
+      ],
       "_atk": 203,
       "_def": 232,
       "_sta": 239,
       "id": "ZYGARDE",
-      "name": "基格爾德",
+      "name": "基格爾德 50%",
+      "buddyKm": 20,
+      "familyId": "F_ZYGARDE",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 718,
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "BITE",
+        "ZEN_HEADBUTT"
+      ],
+      "chargedMoves": [
+        "OUTRAGE",
+        "EARTHQUAKE",
+        "CRUNCH",
+        "HYPER_BEAM",
+        "BULLDOZE"
+      ],
+      "_atk": 184,
+      "_def": 207,
+      "_sta": 389,
+      "id": "ZYGARDE_COMPLETE",
+      "name": "基格爾德 完全體",
       "buddyKm": 20,
       "familyId": "F_ZYGARDE",
       "genderMF": [
