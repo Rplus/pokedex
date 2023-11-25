@@ -48,7 +48,7 @@
   }
 
   function pmGOGOGO(pokemons, type, dexMin, dexMax) {
-    let [min, max] = [dexMin, dexMax].sort();
+    let [min, max] = [dexMin, dexMax].sort(sortByNumber);
     if (type) {
       pokemons = pokemons.filter(pm => pm.types.indexOf(type) !== -1);
     }
@@ -58,6 +58,10 @@
     }
 
     return pokemons;
+  }
+
+  function sortByNumber(a, b) {
+    return a - b;
   }
 
 </script>
