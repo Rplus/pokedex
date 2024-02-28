@@ -1299,7 +1299,8 @@
         "THUNDER",
         "THUNDER_PUNCH",
         "WILD_CHARGE",
-        "SKULL_BASH"
+        "SKULL_BASH",
+        "TRAILBLAZE"
       ],
       "legacyMoves": [
         "THUNDER"
@@ -1334,7 +1335,8 @@
         "PSYCHIC",
         "THUNDER_PUNCH",
         "WILD_CHARGE",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "TRAILBLAZE"
       ],
       "_atk": 201,
       "_def": 154,
@@ -1465,6 +1467,7 @@
         "GYRO_BALL",
         "ICE_PUNCH",
         "DRILL_RUN",
+        "AERIAL_ACE",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -1919,7 +1922,8 @@
         "HYPER_BEAM",
         "ICE_BEAM",
         "PLAY_ROUGH",
-        "DISARMING_VOICE"
+        "DISARMING_VOICE",
+        "ICY_WIND"
       ],
       "_atk": 156,
       "_def": 90,
@@ -2389,7 +2393,8 @@
       "chargedMoves": [
         "DARK_PULSE",
         "FOUL_PLAY",
-        "NIGHT_SLASH"
+        "NIGHT_SLASH",
+        "TRAILBLAZE"
       ],
       "_atk": 99,
       "_def": 78,
@@ -2479,7 +2484,8 @@
         "DARK_PULSE",
         "FOUL_PLAY",
         "PLAY_ROUGH",
-        "PAYBACK"
+        "PAYBACK",
+        "TRAILBLAZE"
       ],
       "_atk": 158,
       "_def": 136,
@@ -2824,6 +2830,7 @@
         "SUBMISSION",
         "POWER_UP_PUNCH",
         "SCALD",
+        "ICY_WIND",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -3212,7 +3219,9 @@
       "chargedMoves": [
         "BUBBLE_BEAM",
         "WATER_PULSE",
-        "WRAP"
+        "WRAP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 97,
       "_def": 149,
@@ -3241,7 +3250,9 @@
         "HYDRO_PUMP",
         "SLUDGE_WAVE",
         "ACID_SPRAY",
-        "SCALD"
+        "SCALD",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 166,
       "_def": 209,
@@ -3645,6 +3656,7 @@
         "PSYCHIC",
         "WATER_PULSE",
         "SURF",
+        "SCALD",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -3680,7 +3692,8 @@
         "FOCUS_BLAST",
         "PSYCHIC",
         "SLUDGE_BOMB",
-        "SURF"
+        "SURF",
+        "SCALD"
       ],
       "legacyMoves": [
         "SURF"
@@ -3714,7 +3727,8 @@
         "ICE_BEAM",
         "PSYCHIC",
         "WATER_PULSE",
-        "SURF"
+        "SURF",
+        "SCALD"
       ],
       "legacyMoves": [
         "SURF"
@@ -6403,6 +6417,7 @@
         "ICE_BEAM",
         "ICY_WIND",
         "ANCIENT_POWER",
+        "TRIPLE_AXEL",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -7001,6 +7016,34 @@
       ]
     },
     {
+      "dex": 157,
+      "types": [
+        "fire",
+        "ghost"
+      ],
+      "fastMoves": [
+        "EMBER",
+        "HEX"
+      ],
+      "chargedMoves": [
+        "FIRE_PUNCH",
+        "WILD_CHARGE",
+        "SHADOW_BALL",
+        "OVERHEAT"
+      ],
+      "_atk": 238,
+      "_def": 172,
+      "_sta": 177,
+      "id": "TYPHLOSION_HISUIAN",
+      "name": "火爆獸 洗翠",
+      "buddyKm": 3,
+      "familyId": "F_CYNDAQUIL",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
       "dex": 158,
       "types": [
         "water"
@@ -7302,7 +7345,8 @@
         "CROSS_POISON",
         "MEGAHORN",
         "SHADOW_SNEAK",
-        "LUNGE"
+        "LUNGE",
+        "TRAILBLAZE"
       ],
       "_atk": 161,
       "_def": 124,
@@ -7402,6 +7446,29 @@
         50,
         50
       ]
+    },
+    {
+      "dex": 171,
+      "types": [
+        "water",
+        "electric"
+      ],
+      "fastMoves": [
+        "CHARGE_BEAM",
+        "WATER_GUN",
+        "SPARK"
+      ],
+      "chargedMoves": [
+        "HYDRO_PUMP",
+        "THUNDER",
+        "THUNDERBOLT",
+        "SURF"
+      ],
+      "_atk": 146,
+      "_def": 137,
+      "_sta": 268,
+      "id": "LANTURNW",
+      "name": "電燈怪"
     },
     {
       "dex": 172,
@@ -7899,6 +7966,7 @@
         "SURF",
         "WEATHER_BALL_WATER",
         "ICE_BEAM",
+        "SCALD",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -8330,6 +8398,7 @@
         "FIRE_BLAST",
         "PSYCHIC",
         "SURF",
+        "SCALD",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -8366,7 +8435,8 @@
         "FUTURE_SIGHT",
         "SHADOW_BALL",
         "SLUDGE_WAVE",
-        "SURF"
+        "SURF",
+        "SCALD"
       ],
       "legacyMoves": [
         "SURF"
@@ -8745,7 +8815,8 @@
         "ICE_BEAM",
         "SLUDGE_WAVE",
         "ACID_SPRAY",
-        "FELL_STINGER"
+        "FELL_STINGER",
+        "SCALD"
       ],
       "_atk": 184,
       "_def": 138,
@@ -9233,6 +9304,8 @@
         "AERIAL_ACE",
         "ICE_PUNCH",
         "ICY_WIND",
+        "FLY",
+        "TRIPLE_AXEL",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -9990,7 +10063,14 @@
       "chargedMoves": [
         "DAZZLING_GLEAM",
         "HYPER_BEAM",
-        "PSYCHIC"
+        "PSYCHIC",
+        "WILD_CHARGE"
+      ],
+      "legacyMoves": [
+        "WILD_CHARGE"
+      ],
+      "eliteMoves": [
+        "WILD_CHARGE"
       ],
       "_atk": 129,
       "_def": 169,
@@ -10080,6 +10160,7 @@
         "HYDRO_PUMP",
         "ICE_BEAM",
         "WATER_PULSE",
+        "SCALD",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -11047,7 +11128,8 @@
       ],
       "chargedMoves": [
         "BUBBLE_BEAM",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "SCALD"
       ],
       "_atk": 71,
       "_def": 77,
@@ -11074,7 +11156,8 @@
       "chargedMoves": [
         "BUBBLE_BEAM",
         "GRASS_KNOT",
-        "ICE_BEAM"
+        "ICE_BEAM",
+        "SCALD"
       ],
       "_atk": 112,
       "_def": 119,
@@ -11104,7 +11187,8 @@
         "ENERGY_BALL",
         "ICE_BEAM",
         "SOLAR_BEAM",
-        "LEAF_STORM"
+        "LEAF_STORM",
+        "SCALD"
       ],
       "_atk": 173,
       "_def": 176,
@@ -11615,7 +11699,8 @@
       "chargedMoves": [
         "BODY_SLAM",
         "BRICK_BREAK",
-        "BULLDOZE"
+        "BULLDOZE",
+        "ROCK_SLIDE"
       ],
       "_atk": 159,
       "_def": 145,
@@ -12644,6 +12729,7 @@
         "BODY_SLAM",
         "HEAVY_SLAM",
         "WATER_PULSE",
+        "SCALD",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -12672,6 +12758,7 @@
         "BLIZZARD",
         "HYPER_BEAM",
         "SURF",
+        "SCALD",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -12966,6 +13053,7 @@
         "GRASS_KNOT",
         "SEED_BOMB",
         "PAYBACK",
+        "TRAILBLAZE",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -12996,6 +13084,7 @@
         "DYNAMIC_PUNCH",
         "GRASS_KNOT",
         "PAYBACK",
+        "TRAILBLAZE",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -13226,6 +13315,7 @@
         "AQUA_TAIL",
         "ICE_BEAM",
         "MUD_BOMB",
+        "SCALD",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -13255,6 +13345,7 @@
         "BLIZZARD",
         "MUD_BOMB",
         "WATER_PULSE",
+        "SCALD",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -13283,7 +13374,10 @@
         "AQUA_JET",
         "BUBBLE_BEAM",
         "VICE_GRIP",
-        "RAZOR_SHELL"
+        "RAZOR_SHELL",
+        "SCALD",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 141,
       "_def": 99,
@@ -13312,7 +13406,10 @@
         "NIGHT_SLASH",
         "VICE_GRIP",
         "CRABHAMMER",
-        "RAZOR_SHELL"
+        "RAZOR_SHELL",
+        "SCALD",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 224,
       "_def": 142,
@@ -13979,7 +14076,9 @@
       "chargedMoves": [
         "AVALANCHE",
         "ICY_WIND",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 95,
       "_def": 95,
@@ -14005,7 +14104,9 @@
       "chargedMoves": [
         "AVALANCHE",
         "GYRO_BALL",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 162,
       "_def": 162,
@@ -14760,7 +14861,9 @@
         "HYDRO_PUMP",
         "THUNDER",
         "SURF",
-        "ORIGIN_PULSE"
+        "ORIGIN_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "ORIGIN_PULSE"
@@ -15194,7 +15297,9 @@
       "chargedMoves": [
         "FLAME_CHARGE",
         "FLAME_WHEEL",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 113,
       "_def": 86,
@@ -15221,7 +15326,9 @@
       "chargedMoves": [
         "FLAME_WHEEL",
         "FLAMETHROWER",
-        "LOW_SWEEP"
+        "LOW_SWEEP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 158,
       "_def": 105,
@@ -15249,7 +15356,9 @@
         "CLOSE_COMBAT",
         "FLAMETHROWER",
         "SOLAR_BEAM",
-        "BLAST_BURN"
+        "BLAST_BURN",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "BLAST_BURN"
@@ -15281,7 +15390,9 @@
       "chargedMoves": [
         "BUBBLE_BEAM",
         "DRILL_PECK",
-        "ICY_WIND"
+        "ICY_WIND",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 112,
       "_def": 102,
@@ -15307,7 +15418,9 @@
       "chargedMoves": [
         "BUBBLE_BEAM",
         "HYDRO_PUMP",
-        "ICY_WIND"
+        "ICY_WIND",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 150,
       "_def": 139,
@@ -15336,7 +15449,9 @@
         "FLASH_CANNON",
         "HYDRO_PUMP",
         "HYDRO_CANNON",
-        "DRILL_PECK"
+        "DRILL_PECK",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "legacyMoves": [
         "HYDRO_CANNON"
@@ -15369,6 +15484,7 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "BRAVE_BIRD",
+        "FLY",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -15398,6 +15514,7 @@
         "AERIAL_ACE",
         "BRAVE_BIRD",
         "HEAT_WAVE",
+        "FLY",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -15428,6 +15545,7 @@
         "BRAVE_BIRD",
         "CLOSE_COMBAT",
         "HEAT_WAVE",
+        "FLY",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -17201,7 +17319,9 @@
       "chargedMoves": [
         "BRICK_BREAK",
         "LOW_SWEEP",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 116,
       "_def": 76,
@@ -17229,7 +17349,10 @@
       "chargedMoves": [
         "DYNAMIC_PUNCH",
         "MUD_BOMB",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "SHADOW_BALL",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 211,
       "_def": 133,
@@ -17394,6 +17517,7 @@
         "ENERGY_BALL",
         "OUTRAGE",
         "WEATHER_BALL_ICE",
+        "ICY_WIND",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -17425,6 +17549,7 @@
         "ENERGY_BALL",
         "OUTRAGE",
         "WEATHER_BALL_ICE",
+        "ICY_WIND",
         "RETURN",
         "FRUSTRATION"
       ],
@@ -18033,7 +18158,10 @@
       "chargedMoves": [
         "AVALANCHE",
         "CRUNCH",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "TRIPLE_AXEL",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 171,
       "_def": 150,
@@ -18315,6 +18443,40 @@
       ]
     },
     {
+      "dex": 483,
+      "types": [
+        "steel",
+        "dragon"
+      ],
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "METAL_CLAW"
+      ],
+      "chargedMoves": [
+        "DRACO_METEOR",
+        "IRON_HEAD",
+        "THUNDER",
+        "ROAR_OF_TIME"
+      ],
+      "legacyMoves": [
+        "ROAR_OF_TIME"
+      ],
+      "eliteMoves": [
+        "ROAR_OF_TIME"
+      ],
+      "_atk": 270,
+      "_def": 225,
+      "_sta": 205,
+      "id": "DIALGA_ORIGIN",
+      "name": "帝牙盧卡 起源",
+      "buddyKm": 20,
+      "familyId": "F_DIALGA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
       "dex": 484,
       "types": [
         "water",
@@ -18335,6 +18497,41 @@
       "_sta": 189,
       "id": "PALKIA",
       "name": "帕路奇亞",
+      "buddyKm": 20,
+      "familyId": "F_PALKIA",
+      "genderMF": [
+        0,
+        0
+      ]
+    },
+    {
+      "dex": 484,
+      "types": [
+        "water",
+        "dragon"
+      ],
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "DRAGON_TAIL"
+      ],
+      "chargedMoves": [
+        "DRACO_METEOR",
+        "FIRE_BLAST",
+        "HYDRO_PUMP",
+        "AQUA_TAIL",
+        "SPACIAL_REND"
+      ],
+      "legacyMoves": [
+        "SPACIAL_REND"
+      ],
+      "eliteMoves": [
+        "SPACIAL_REND"
+      ],
+      "_atk": 286,
+      "_def": 223,
+      "_sta": 189,
+      "id": "PALKIA_ORIGIN",
+      "name": "帕路奇亞 起源",
       "buddyKm": 20,
       "familyId": "F_PALKIA",
       "genderMF": [
@@ -19410,6 +19607,35 @@
       "_sta": 216,
       "id": "SAMUROTT",
       "name": "大劍鬼",
+      "buddyKm": 3,
+      "familyId": "F_OSHAWOTT",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 503,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "fastMoves": [
+        "FURY_CUTTER",
+        "WATERFALL",
+        "SNARL"
+      ],
+      "chargedMoves": [
+        "RAZOR_SHELL",
+        "ICY_WIND",
+        "X_SCISSOR",
+        "DARK_PULSE"
+      ],
+      "_atk": 218,
+      "_def": 152,
+      "_sta": 207,
+      "id": "SAMUROTT_HISUIAN",
+      "name": "大劍鬼 洗翠",
       "buddyKm": 3,
       "familyId": "F_OSHAWOTT",
       "genderMF": [
@@ -20982,7 +21208,9 @@
       "chargedMoves": [
         "ROCK_BLAST",
         "X_SCISSOR",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 118,
       "_def": 128,
@@ -21009,7 +21237,9 @@
       "chargedMoves": [
         "ROCK_BLAST",
         "X_SCISSOR",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 188,
       "_def": 200,
@@ -22092,7 +22322,9 @@
       "chargedMoves": [
         "GYRO_BALL",
         "FLASH_CANNON",
-        "IRON_HEAD"
+        "IRON_HEAD",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 82,
       "_def": 155,
@@ -22121,7 +22353,9 @@
         "FLASH_CANNON",
         "ACID_SPRAY",
         "THUNDER",
-        "MIRROR_SHOT"
+        "MIRROR_SHOT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "_atk": 158,
       "_def": 223,
@@ -22593,7 +22827,8 @@
         "AURORA_BEAM",
         "NIGHT_SLASH",
         "SOLAR_BEAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "TRIPLE_AXEL"
       ],
       "_atk": 190,
       "_def": 218,
@@ -22949,7 +23184,8 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "BRAVE_BIRD",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "FLY"
       ],
       "_atk": 150,
       "_def": 97,
@@ -22977,7 +23213,8 @@
         "HEAT_WAVE",
         "BRAVE_BIRD",
         "ROCK_SLIDE",
-        "CLOSE_COMBAT"
+        "CLOSE_COMBAT",
+        "FLY"
       ],
       "_atk": 232,
       "_def": 152,
@@ -23005,7 +23242,8 @@
         "DAZZLING_GLEAM",
         "BRAVE_BIRD",
         "PSYCHIC",
-        "OMINOUS_WIND"
+        "OMINOUS_WIND",
+        "FLY"
       ],
       "_atk": 213,
       "_def": 137,
@@ -23415,7 +23653,14 @@
         "HEAT_WAVE",
         "PSYCHIC",
         "FOCUS_BLAST",
-        "HURRICANE"
+        "HURRICANE",
+        "BLEAKWIND_STORM"
+      ],
+      "legacyMoves": [
+        "BLEAKWIND_STORM"
+      ],
+      "eliteMoves": [
+        "BLEAKWIND_STORM"
       ],
       "_atk": 238,
       "_def": 189,
@@ -23471,7 +23716,14 @@
         "SLUDGE_WAVE",
         "THUNDER",
         "FOCUS_BLAST",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "WILDBOLT_STORM"
+      ],
+      "legacyMoves": [
+        "WILDBOLT_STORM"
+      ],
+      "eliteMoves": [
+        "WILDBOLT_STORM"
       ],
       "_atk": 295,
       "_def": 161,
@@ -23597,7 +23849,14 @@
         "EARTHQUAKE",
         "STONE_EDGE",
         "SUPER_POWER",
-        "BULLDOZE"
+        "BULLDOZE",
+        "SANDSEAR_STORM"
+      ],
+      "legacyMoves": [
+        "SANDSEAR_STORM"
+      ],
+      "eliteMoves": [
+        "SANDSEAR_STORM"
       ],
       "_atk": 289,
       "_def": 179,
@@ -24324,7 +24583,8 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "HEAT_WAVE",
-        "SWIFT"
+        "SWIFT",
+        "FLY"
       ],
       "_atk": 95,
       "_def": 80,
@@ -24352,7 +24612,8 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "HEAT_WAVE",
-        "FLAME_CHARGE"
+        "FLAME_CHARGE",
+        "FLY"
       ],
       "_atk": 145,
       "_def": 110,
@@ -24382,7 +24643,8 @@
         "BRAVE_BIRD",
         "FIRE_BLAST",
         "FLAME_CHARGE",
-        "HURRICANE"
+        "HURRICANE",
+        "FLY"
       ],
       "legacyMoves": [
         "INCINERATE"
@@ -25484,7 +25746,8 @@
       ],
       "chargedMoves": [
         "DISCHARGE",
-        "PLAY_ROUGH"
+        "PLAY_ROUGH",
+        "PARABOLIC_CHARGE"
       ],
       "_atk": 164,
       "_def": 134,
@@ -25951,7 +26214,8 @@
         "AVALANCHE",
         "EARTHQUAKE",
         "BODY_SLAM",
-        "MIRROR_COAT"
+        "MIRROR_COAT",
+        "ICY_WIND"
       ],
       "_atk": 196,
       "_def": 240,
@@ -25979,7 +26243,8 @@
       "chargedMoves": [
         "CRUNCH",
         "ROCK_SLIDE",
-        "BLIZZARD"
+        "BLIZZARD",
+        "ICY_WIND"
       ],
       "_atk": 214,
       "_def": 238,
@@ -26447,13 +26712,48 @@
       "chargedMoves": [
         "SHADOW_SNEAK",
         "ENERGY_BALL",
-        "BRAVE_BIRD"
+        "BRAVE_BIRD",
+        "FRENZY_PLANT",
+        "SPIRIT_SHACKLE"
+      ],
+      "legacyMoves": [
+        "FRENZY_PLANT"
+      ],
+      "eliteMoves": [
+        "FRENZY_PLANT"
       ],
       "_atk": 210,
       "_def": 179,
       "_sta": 186,
       "id": "DECIDUEYE",
       "name": "狙射樹梟",
+      "buddyKm": 3,
+      "familyId": "F_ROWLET",
+      "genderMF": [
+        87.5,
+        12.5
+      ]
+    },
+    {
+      "dex": 724,
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "fastMoves": [
+        "MAGICAL_LEAF",
+        "PSYCHO_CUT"
+      ],
+      "chargedMoves": [
+        "AURA_SPHERE",
+        "ENERGY_BALL",
+        "AERIAL_ACE"
+      ],
+      "_atk": 213,
+      "_def": 174,
+      "_sta": 204,
+      "id": "DECIDUEYE_HISUIAN",
+      "name": "狙射樹梟 洗翠",
       "buddyKm": 3,
       "familyId": "F_ROWLET",
       "genderMF": [
@@ -26831,7 +27131,8 @@
       "chargedMoves": [
         "X_SCISSOR",
         "DISCHARGE",
-        "CRUNCH"
+        "CRUNCH",
+        "FLY"
       ],
       "legacyMoves": [
         "VOLT_SWITCH"
@@ -27756,7 +28057,8 @@
       "chargedMoves": [
         "PSYCHIC",
         "FOUL_PLAY",
-        "FUTURE_SIGHT"
+        "FUTURE_SIGHT",
+        "TRAILBLAZE"
       ],
       "_atk": 168,
       "_def": 192,
@@ -29310,10 +29612,13 @@
         "poison"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "POISON_JAB",
+        "PECK"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "SLUDGE_BOMB",
+        "SLUDGE_WAVE",
+        "FELL_STINGER"
       ],
       "_atk": 145,
       "_def": 133,
@@ -29334,10 +29639,14 @@
         "dragon"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "POISON_JAB",
+        "AIR_SLASH"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "SLUDGE_BOMB",
+        "ACROBATICS",
+        "FELL_STINGER",
+        "DRAGON_PULSE"
       ],
       "_atk": 263,
       "_def": 159,
@@ -29358,10 +29667,13 @@
         "steel"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "ROCK_THROW",
+        "TAKE_DOWN"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "FLASH_CANNON",
+        "STONE_EDGE",
+        "BULLDOZE"
       ],
       "_atk": 213,
       "_def": 298,
@@ -29382,10 +29694,13 @@
         "ghost"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "INCINERATE",
+        "ASTONISH"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "MYSTICAL_FIRE",
+        "SHADOW_BALL",
+        "OVERHEAT"
       ],
       "_atk": 315,
       "_def": 148,
@@ -29405,10 +29720,13 @@
         "electric"
       ],
       "fastMoves": [
-        "STRUGGLE"
+        "SPARK",
+        "VOLT_SWITCH"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "THUNDER_PUNCH",
+        "DISCHARGE",
+        "WILD_CHARGE"
       ],
       "_atk": 252,
       "_def": 177,
@@ -29748,7 +30066,8 @@
       ],
       "chargedMoves": [
         "BODY_SLAM",
-        "CRUNCH"
+        "CRUNCH",
+        "TRAILBLAZE"
       ],
       "_atk": 160,
       "_def": 156,
@@ -32393,6 +32712,35 @@
       ]
     },
     {
+      "dex": 899,
+      "types": [
+        "normal",
+        "psychic"
+      ],
+      "fastMoves": [
+        "TACKLE",
+        "ZEN_HEADBUTT",
+        "CONFUSION"
+      ],
+      "chargedMoves": [
+        "MEGAHORN",
+        "STOMP",
+        "WILD_CHARGE",
+        "PSYCHIC"
+      ],
+      "_atk": 206,
+      "_def": 145,
+      "_sta": 230,
+      "id": "WYRDEER",
+      "name": "詭角鹿",
+      "buddyKm": 5,
+      "familyId": "F_STANTLER",
+      "genderMF": [
+        50,
+        50
+      ]
+    },
+    {
       "dex": 900,
       "types": [
         "bug",
@@ -32459,6 +32807,42 @@
       ]
     },
     {
+      "dex": 902,
+      "types": [
+        "water",
+        "ghost"
+      ],
+      "fastMoves": [
+        "SPLASH"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 199,
+      "_def": 144,
+      "_sta": 260,
+      "id": "BASCULEGION_FEMALE",
+      "name": "幽尾玄魚 雌"
+    },
+    {
+      "dex": 902,
+      "types": [
+        "water",
+        "ghost"
+      ],
+      "fastMoves": [
+        "SPLASH"
+      ],
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "_atk": 217,
+      "_def": 144,
+      "_sta": 260,
+      "id": "BASCULEGION_MALE",
+      "name": "幽尾玄魚 雄"
+    },
+    {
       "dex": 903,
       "types": [
         "fighting",
@@ -32515,6 +32899,62 @@
       "genderMF": [
         50,
         50
+      ]
+    },
+    {
+      "dex": 905,
+      "types": [
+        "fairy",
+        "flying"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "ZEN_HEADBUTT",
+        "FAIRY_WIND"
+      ],
+      "chargedMoves": [
+        "DAZZLING_GLEAM",
+        "FLY",
+        "GRASS_KNOT"
+      ],
+      "_atk": 281,
+      "_def": 162,
+      "_sta": 179,
+      "id": "ENAMORUS_INCARNATE",
+      "name": "眷戀雲 化身",
+      "buddyKm": 20,
+      "familyId": "F_ENAMORUS",
+      "genderMF": [
+        0,
+        100
+      ]
+    },
+    {
+      "dex": 905,
+      "types": [
+        "fairy",
+        "flying"
+      ],
+      "fastMoves": [
+        "ASTONISH",
+        "ZEN_HEADBUTT",
+        "FAIRY_WIND"
+      ],
+      "chargedMoves": [
+        "DAZZLING_GLEAM",
+        "FLY",
+        "GRASS_KNOT"
+      ],
+      "_atk": 250,
+      "_def": 201,
+      "_sta": 179,
+      "id": "ENAMORUS_THERIAN",
+      "name": "眷戀雲 靈獸",
+      "buddyKm": 20,
+      "familyId": "F_ENAMORUS",
+      "genderMF": [
+        0,
+        100
       ]
     },
     {
@@ -32899,7 +33339,8 @@
       ],
       "chargedMoves": [
         "X_SCISSOR",
-        "BUG_BUZZ"
+        "BUG_BUZZ",
+        "TRAILBLAZE"
       ],
       "_atk": 81,
       "_def": 65,
@@ -33196,7 +33637,8 @@
       "chargedMoves": [
         "SEED_BOMB",
         "ENERGY_BALL",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "TRAILBLAZE"
       ],
       "_atk": 100,
       "_def": 89,
@@ -33224,7 +33666,8 @@
       "chargedMoves": [
         "SEED_BOMB",
         "ENERGY_BALL",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "TRAILBLAZE"
       ],
       "_atk": 137,
       "_def": 131,
@@ -33252,7 +33695,8 @@
       "chargedMoves": [
         "SEED_BOMB",
         "ENERGY_BALL",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "TRAILBLAZE"
       ],
       "_atk": 219,
       "_def": 189,
@@ -34814,7 +35258,8 @@
         "CLOSE_COMBAT",
         "LOW_SWEEP",
         "NIGHT_SLASH",
-        "ICE_PUNCH"
+        "ICE_PUNCH",
+        "SHADOW_BALL"
       ],
       "_atk": 220,
       "_def": 178,
@@ -35303,7 +35748,8 @@
       "chargedMoves": [
         "DRAGON_CLAW",
         "AVALANCHE",
-        "OUTRAGE"
+        "OUTRAGE",
+        "ICY_WIND"
       ],
       "_atk": 134,
       "_def": 86,
@@ -35330,7 +35776,8 @@
       "chargedMoves": [
         "DRAGON_CLAW",
         "AVALANCHE",
-        "OUTRAGE"
+        "OUTRAGE",
+        "ICY_WIND"
       ],
       "_atk": 173,
       "_def": 128,
@@ -35358,7 +35805,8 @@
         "DRAGON_CLAW",
         "AVALANCHE",
         "OUTRAGE",
-        "BLIZZARD"
+        "BLIZZARD",
+        "ICY_WIND"
       ],
       "_atk": 254,
       "_def": 168,
@@ -35429,22 +35877,19 @@
         "grass"
       ],
       "fastMoves": [
-        "SPLASH"
+        "MAGICAL_LEAF",
+        "SNARL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "DARK_PULSE",
+        "GRASS_KNOT",
+        "LEAF_STORM"
       ],
       "_atk": 186,
       "_def": 242,
       "_sta": 198,
-      "id": "WOCHIEN",
-      "name": "古簡蝸",
-      "buddyKm": 20,
-      "familyId": "F_WOCHIEN",
-      "genderMF": [
-        0,
-        0
-      ]
+      "id": "WO_CHIEN",
+      "name": "古簡蝸"
     },
     {
       "dex": 1002,
@@ -35453,22 +35898,19 @@
         "ice"
       ],
       "fastMoves": [
-        "SPLASH"
+        "POWDER_SNOW",
+        "SNARL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "DARK_PULSE",
+        "AVALANCHE",
+        "BLIZZARD"
       ],
       "_atk": 261,
       "_def": 167,
       "_sta": 190,
-      "id": "CHIENPAO",
-      "name": "古劍豹",
-      "buddyKm": 20,
-      "familyId": "F_CHIENPAO",
-      "genderMF": [
-        0,
-        0
-      ]
+      "id": "CHIEN_PAO",
+      "name": "古劍豹"
     },
     {
       "dex": 1003,
@@ -35477,22 +35919,19 @@
         "ground"
       ],
       "fastMoves": [
-        "SPLASH"
+        "MUD_SHOT",
+        "SNARL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "DARK_PULSE",
+        "BULLDOZE",
+        "EARTHQUAKE"
       ],
       "_atk": 194,
       "_def": 203,
       "_sta": 321,
-      "id": "TINGLU",
-      "name": "古鼎鹿",
-      "buddyKm": 20,
-      "familyId": "F_TINGLU",
-      "genderMF": [
-        0,
-        0
-      ]
+      "id": "TING_LU",
+      "name": "古鼎鹿"
     },
     {
       "dex": 1004,
@@ -35501,22 +35940,19 @@
         "fire"
       ],
       "fastMoves": [
-        "SPLASH"
+        "INCINERATE",
+        "SNARL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "FLAME_CHARGE",
+        "DARK_PULSE",
+        "FLAME_WHEEL"
       ],
       "_atk": 269,
       "_def": 221,
       "_sta": 146,
-      "id": "CHIYU",
-      "name": "古玉魚",
-      "buddyKm": 20,
-      "familyId": "F_CHIYU",
-      "genderMF": [
-        0,
-        0
-      ]
+      "id": "CHI_YU",
+      "name": "古玉魚"
     },
     {
       "dex": 1005,
@@ -35573,10 +36009,14 @@
         "dragon"
       ],
       "fastMoves": [
-        "SPLASH"
+        "ROCK_SMASH",
+        "DRAGON_TAIL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "GIGA_IMPACT",
+        "DRAGON_CLAW",
+        "CLOSE_COMBAT",
+        "OUTRAGE"
       ],
       "_atk": 263,
       "_def": 223,
@@ -35597,10 +36037,14 @@
         "dragon"
       ],
       "fastMoves": [
-        "SPLASH"
+        "ROCK_SMASH",
+        "DRAGON_TAIL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "GIGA_IMPACT",
+        "DRAGON_CLAW",
+        "CLOSE_COMBAT",
+        "OUTRAGE"
       ],
       "_atk": 263,
       "_def": 223,
@@ -35621,10 +36065,14 @@
         "dragon"
       ],
       "fastMoves": [
-        "SPLASH"
+        "THUNDER_SHOCK",
+        "DRAGON_TAIL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "HYPER_BEAM",
+        "DRAGON_PULSE",
+        "THUNDER",
+        "OUTRAGE"
       ],
       "_atk": 263,
       "_def": 223,
@@ -35645,10 +36093,14 @@
         "dragon"
       ],
       "fastMoves": [
-        "SPLASH"
+        "THUNDER_SHOCK",
+        "DRAGON_TAIL"
       ],
       "chargedMoves": [
-        "STRUGGLE"
+        "HYPER_BEAM",
+        "DRAGON_PULSE",
+        "THUNDER",
+        "OUTRAGE"
       ],
       "_atk": 263,
       "_def": 223,
@@ -35830,7 +36282,7 @@
     {
       "moveId": "ASTONISH",
       "name": "驚嚇",
-      "power": 5,
+      "power": 9,
       "type": "ghost",
       "energy": 0,
       "energyGain": 10,
@@ -35924,6 +36376,23 @@
       "pve_damageWindowEnd": 3.2
     },
     {
+      "moveId": "BLEAKWIND_STORM",
+      "name": "枯葉風暴",
+      "power": 60,
+      "type": "flying",
+      "energy": 45,
+      "energyGain": 0,
+      "effect": "[敵], 100%, -1階攻",
+      "turn": 1,
+      "mid": "395",
+      "isFast": false,
+      "pve_power": 140,
+      "pve_energyDelta": -100,
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2.6
+    },
+    {
       "moveId": "BLIZZARD",
       "name": "暴風雪",
       "power": 140,
@@ -36011,7 +36480,7 @@
       "type": "dragon",
       "energy": 35,
       "energyGain": 0,
-      "effect": "[敵], 100%, -1階攻",
+      "effect": "[敵], 50%, -1階攻",
       "turn": 1,
       "mid": "379",
       "isFast": false,
@@ -36072,7 +36541,7 @@
     {
       "moveId": "BUBBLE",
       "name": "泡沫",
-      "power": 7,
+      "power": 8,
       "type": "water",
       "energy": 0,
       "energyGain": 11,
@@ -36820,7 +37289,7 @@
     {
       "moveId": "BLAZE_KICK",
       "name": "火焰踢",
-      "power": 55,
+      "power": 60,
       "type": "fire",
       "energy": 40,
       "energyGain": 0,
@@ -36869,7 +37338,7 @@
     {
       "moveId": "FIRE_SPIN",
       "name": "火焰旋渦",
-      "power": 9,
+      "power": 10,
       "type": "fire",
       "energy": 0,
       "energyGain": 10,
@@ -37544,7 +38013,7 @@
     {
       "moveId": "INCINERATE",
       "name": "燒盡",
-      "power": 15,
+      "power": 20,
       "type": "fire",
       "energy": 0,
       "energyGain": 20,
@@ -37592,10 +38061,10 @@
     {
       "moveId": "IRON_TAIL",
       "name": "鐵尾",
-      "power": 9,
+      "power": 10,
       "type": "steel",
       "energy": 0,
-      "energyGain": 6,
+      "energyGain": 7,
       "turn": 3,
       "mid": "266",
       "isFast": true,
@@ -38069,7 +38538,7 @@
       "power": 11,
       "type": "ground",
       "energy": 0,
-      "energyGain": 8,
+      "energyGain": 9,
       "turn": 3,
       "mid": "233",
       "isFast": true,
@@ -38522,7 +38991,7 @@
     {
       "moveId": "PSYCHIC",
       "name": "精神強念",
-      "power": 85,
+      "power": 75,
       "type": "psychic",
       "energy": 55,
       "energyGain": 0,
@@ -38700,6 +39169,22 @@
       "pve_damageWindowEnd": 0.35
     },
     {
+      "moveId": "ROAR_OF_TIME",
+      "name": "時光咆哮",
+      "power": 150,
+      "type": "dragon",
+      "energy": 65,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "394",
+      "isFast": false,
+      "pve_power": 160,
+      "pve_energyDelta": -100,
+      "pve_duration": 2.2,
+      "pve_damageWindowStart": 1.05,
+      "pve_damageWindowEnd": 2.5
+    },
+    {
       "moveId": "ROCK_BLAST",
       "name": "岩石爆擊",
       "power": 50,
@@ -38863,13 +39348,30 @@
       "pve_damageWindowEnd": 4
     },
     {
+      "moveId": "SANDSEAR_STORM",
+      "name": "熱沙風暴",
+      "power": 60,
+      "type": "ground",
+      "energy": 45,
+      "energyGain": 0,
+      "effect": "[敵], 100%, -1階攻",
+      "turn": 1,
+      "mid": "396",
+      "isFast": false,
+      "pve_power": 140,
+      "pve_energyDelta": -100,
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2.6
+    },
+    {
       "moveId": "SCALD",
       "name": "熱水",
-      "power": 80,
+      "power": 85,
       "type": "water",
       "energy": 50,
       "energyGain": 0,
-      "effect": "[敵], 30%, -1階攻",
+      "effect": "[敵], 50%, -1階攻",
       "turn": 1,
       "mid": "106",
       "isFast": false,
@@ -39206,6 +39708,22 @@
       "pve_damageWindowEnd": 4.7
     },
     {
+      "moveId": "SPACIAL_REND",
+      "name": "亞空裂斬",
+      "power": 95,
+      "type": "dragon",
+      "energy": 50,
+      "energyGain": 0,
+      "turn": 1,
+      "mid": "388",
+      "isFast": false,
+      "pve_power": 160,
+      "pve_energyDelta": -100,
+      "pve_duration": 2.5,
+      "pve_damageWindowStart": 1.37,
+      "pve_damageWindowEnd": 2.95
+    },
+    {
       "moveId": "SPARK",
       "name": "電光",
       "power": 6,
@@ -39220,6 +39738,23 @@
       "pve_duration": 0.7,
       "pve_damageWindowStart": 0.3,
       "pve_damageWindowEnd": 0.7
+    },
+    {
+      "moveId": "SPIRIT_SHACKLE",
+      "name": "縫影",
+      "power": 50,
+      "type": "ghost",
+      "energy": 40,
+      "energyGain": 0,
+      "effect": "[敵], 33%, -1階防",
+      "turn": 1,
+      "mid": "398",
+      "isFast": false,
+      "pve_power": 70,
+      "pve_energyDelta": -33,
+      "pve_duration": 2.5,
+      "pve_damageWindowStart": 2,
+      "pve_damageWindowEnd": 3.4
     },
     {
       "moveId": "SPLASH",
@@ -39243,7 +39778,7 @@
       "power": 7,
       "type": "steel",
       "energy": 0,
-      "energyGain": 5,
+      "energyGain": 7,
       "turn": 2,
       "mid": "239",
       "isFast": true,
@@ -39897,6 +40432,23 @@
       "pve_duration": 1.6,
       "pve_damageWindowStart": 1.35,
       "pve_damageWindowEnd": 1.6
+    },
+    {
+      "moveId": "WILDBOLT_STORM",
+      "name": "鳴雷風暴",
+      "power": 60,
+      "type": "electric",
+      "energy": 45,
+      "energyGain": 0,
+      "effect": "[敵], 100%, -1階攻",
+      "turn": 1,
+      "mid": "397",
+      "isFast": false,
+      "pve_power": 140,
+      "pve_energyDelta": -100,
+      "pve_duration": 2.3,
+      "pve_damageWindowStart": 1.8,
+      "pve_damageWindowEnd": 2.6
     },
     {
       "moveId": "WILD_CHARGE",
