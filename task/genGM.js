@@ -1,5 +1,4 @@
-
-const  do_gm_to_family = require('./genFamily.js');
+const do_gm_to_family = require('./genFamily.js');
 const compressJSON = require('./compress.js');
 const fs = require('fs');
 // const https = require('https');
@@ -271,7 +270,12 @@ function queryTID(database, tid) {
   return database.find(i => i.templateId === tid);
 }
 function queryMove(mid) {
-  return oMove.find(m => m.data.moveSettings.movementId.replace(/_FAST$/, '') === mid);
+  return oMove.find(m => {
+    if (!m.data.moveSettings.movementId.replace) {
+      return;
+    }
+    return m.data.moveSettings.movementId.replace(/_FAST$/, '') === mid
+  });
 }
 function queryMove_tw(mid) {
   return twData.moves.find(m => m.moveId === mid);

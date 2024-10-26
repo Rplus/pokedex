@@ -212,7 +212,8 @@ module.exports = function do_gm_to_family(gm) { // GM v2 file
       );
     });
 
-    if (fff[f].some(i => i.form && (!i.form.includes('_ALOLA') && !i.form.includes('_GALARIAN') ))) {
+    if (fff[f].some(i => i.form && (i.form.includes && !i.form.includes('_ALOLA') && !i.form.includes('_GALARIAN') ))) {
+      // console.log(22, i.form)
       console.info('xxxx care xxxx', f);
       // console.log(fff[f]);
     }
