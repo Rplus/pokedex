@@ -25,16 +25,22 @@ let twData = JSON.parse(contents_tw);
     if (!tempEvoOverrides) {
       return;
     }
+
+    if (!tempEvoOverrides.some(evo => evo.tempEvoId)) {
+      console.log(111, d.data.templateId, tempEvoOverrides);
+      return;
+    }
+
     if (/_NORMAL/.test(d.data.pokemonSettings.form)) {
       return;
     }
 
-    tempEvoOverrides.forEach(evo => {
+    tempEvoOverrides.filter(evo => evo.tempEvoId).forEach(evo => {
       let tempPm = JSON.parse(JSON.stringify(d));
       delete tempPm.data.pokemonSettings.evolutionBranch;
       delete tempPm.data.pokemonSettings.tempEvoOverrides;
       if (!evo.tempEvoId) {
-        console.log(333, evo);
+        console.log(333, d.templateId, tempEvoOverrides);
       }
       let idSuffix = evo.tempEvoId?.replace('TEMP_EVOLUTION', '')
       let id = tempPm.templateId + idSuffix;
